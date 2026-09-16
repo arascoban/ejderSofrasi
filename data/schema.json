@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ejder-sofrasi:database-schema:1.0.0",
+  "title": "Ejder Sofrası database record schemas",
+  "description": "Reusable schemas. Validate each file using the matching definition listed in fileSchemas. Referential and provenance checks are implemented in scripts/validate_database.py.",
+  "fileSchemas": {
+    "entities.json": "#/$defs/Entities",
+    "relationships.json": "#/$defs/Relationships",
+    "travel.json": "#/$defs/TravelRecords",
+    "timeline.json": "#/$defs/TimelineEvents",
+    "map_canon.json": "#/$defs/MapLocations",
+    "unresolved_conflicts.json": "#/$defs/Conflicts",
+    "npcs.json": "#/$defs/DerivedView",
+    "locations.json": "#/$defs/DerivedView",
+    "factions.json": "#/$defs/DerivedView",
+    "families.json": "#/$defs/DerivedView",
+    "deities.json": "#/$defs/DerivedView",
+    "dragons.json": "#/$defs/DerivedView",
+    "items.json": "#/$defs/DerivedView",
+    "creatures.json": "#/$defs/DerivedView",
+    "historical_events.json": "#/$defs/DerivedView"
+  },
+  "$defs": {
+    "ID": {"type":"string","pattern":"^[A-Z]{3}-[0-9]{4,}$"},
+    "IDs": {"type":"array","items":{"$ref":"#/$defs/ID"},"uniqueItems":true},
+    "NullableID": {"anyOf":[{"$ref":"#/$defs/ID"},{"type":"null"}]},
+    "Episode": {"type":"string","pattern":"^EP[0-9]{2,}$"},
+    "Episodes": {"type":"array","items":{"$ref":"#/$defs/Episode"},"uniqueItems":true},
+    "Period": {"enum":["1300 civarı","1600 civarı",null]},
+    "Confidence": {"enum":["canon_name_only","source_supported","disputed"]},
+    "SourceReference": {
+      "type":"object","required":["source_id"],
+      "properties":{"source_id":{"type":"string","pattern":"^SRC-"},"pointer":{"type":"string"},"line":{"type":"integer","minimum":1}},
+      "oneOf":[{"required":["pointer"]},{"required":["line"]}],"additionalProperties":false
+    },
+    "SourceReferences": {"type":"array","items":{"$ref":"#/$defs/SourceReference"}},
+    "FactAssertion": {
+      "type":"object","required":["period","temporal_basis","confidence","source_refs"],
+      "properties":{"period":{"$ref":"#/$defs/Period"},"temporal_basis":{"type":"string"},"confidence":{"$ref":"#/$defs/Confidence"},"source_refs":{"$ref":"#/$defs/SourceReferences","minItems":1}},
+      "additionalProperties":false
+    },
+    "Fact": {
+      "type":"object","required":["id","text","assertions"],
+      "properties":{"id":{"type":"string","pattern":"^FCT-[a-f0-9]{16}$"},"text":{"type":"string","minLength":1},"assertions":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/FactAssertion"}},"conflict_ids":{"$ref":"#/$defs/IDs"},"status":{"enum":["source_classification_error"]}},
+      "additionalProperties":false
+    },
+    "Entity": {
+      "type":"object","required":["id","slug","name","type","aliases","periods","episodes","first_appearance","continuity_scope","confidence","source_refs","name_status","record_status","episode_connections"],
+      "properties": {
+        "id":{"$ref":"#/$defs/ID"},"slug":{"type":"string","pattern":"^[a-z0-9]+(?:-[a-z0-9]+)*$"},"name":{"type":"string","minLength":1},
+        "type":{"enum":["PERSON","FAMILY","DYNASTY","FACTION","ORGANIZATION","MILITARY_UNIT","CONTINENT","KINGDOM","STATE","REGION","DISTRICT","CITY","TOWN","VILLAGE","ISLAND","PORT","BUILDING","TAVERN","TEMPLE","NATURAL_FEATURE","SHIP","CREATURE","DEITY","DRAGON","PLANT","ITEM","HISTORICAL_EVENT","HISTORICAL_ERA","OTHER"]},
+        "aliases":{"type":"array","items":{"type":"string"},"uniqueItems":true},
+        "alias_assertions":{"type":"array","items":{"type":"object","required":["name","source_refs"],"properties":{"name":{"type":"string"},"source_refs":{"$ref":"#/$defs/SourceReferences"}},"additionalProperties":false}},
+        "periods":{"type":"array","items":{"enum":["1300 civarı","1600 civarı"]},"uniqueItems":true},
+        "episodes":{"$ref":"#/$defs/Episodes"},"first_appearance":{"anyOf":[{"$ref":"#/$defs/Episode"},{"type":"null"}]},
+        "continuity_scope":{"const":"MAIN_TIMELINE"},"confidence":{"$ref":"#/$defs/Confidence"},"source_refs":{"$ref":"#/$defs/SourceReferences","minItems":1},
+        "name_status":{"enum":["canon_confirmed","source_attested","editorial_descriptor","source_descriptor","editorial_title"]},
+        "record_status":{"enum":["episode_attested","canon_only","editorial_entity_split","source_entity_split","travel_attested","source_event"]},
+        "episode_connections":{"type":"array","items":{"type":"object","required":["episode","kinds"],"properties":{"episode":{"$ref":"#/$defs/Episode"},"kinds":{"type":"array","items":{"type":"string"},"uniqueItems":true}},"additionalProperties":false}},
+        "facts":{"type":"array","items":{"$ref":"#/$defs/Fact"}},"fact_ids":{"type":"array","items":{"type":"string","pattern":"^FCT-[a-f0-9]{16}$"}},
+        "institution_id":{"$ref":"#/$defs/ID"},"member_ids":{"$ref":"#/$defs/IDs"},"subtype":{"type":"string"},"conflict_ids":{"$ref":"#/$defs/IDs"}
+      },
+      "additionalProperties":false
+    },
+    "Relationship": {
+      "type":"object","required":["id","subject_id","relation","object_id","period","episodes","confidence","assertions","continuity_scope"],
+      "properties":{
+        "id":{"type":"string","pattern":"^REL-[0-9]{4,}$"},"subject_id":{"$ref":"#/$defs/ID"},"object_id":{"$ref":"#/$defs/ID"},
+        "relation":{"type":"string","pattern":"^[A-Z_]+$"},"period":{"$ref":"#/$defs/Period"},"episodes":{"$ref":"#/$defs/Episodes"},"confidence":{"$ref":"#/$defs/Confidence"},"continuity_scope":{"const":"MAIN_TIMELINE"},
+        "assertions":{"type":"array","minItems":1,"items":{"type":"object","required":["evidence","temporal_basis","source_refs","confidence"],"properties":{"evidence":{"type":"string"},"temporal_basis":{"type":"string"},"source_refs":{"$ref":"#/$defs/SourceReferences","minItems":1},"confidence":{"$ref":"#/$defs/Confidence"}},"additionalProperties":false}}
+      },"additionalProperties":false
+    },
+    "TravelPlace": {
+      "type":"object","required":["label","entity_id","resolution"],
+      "properties":{"label":{"type":["string","null"]},"entity_id":{"$ref":"#/$defs/NullableID"},"resolution":{"enum":["unknown","exact","within_named_location","location_description","unresolved_description"]},"context_id":{"$ref":"#/$defs/ID"},"reviewed_context_id":{"$ref":"#/$defs/NullableID"},"sequence":{"type":"integer","minimum":1}},"additionalProperties":false
+    },
+    "Travel": {
+      "type":"object","required":["id","episode","sequence","period","temporal_basis","traveler_ids","from_id","to_id","via_ids","origin","destination","waypoints","status","confidence","source_refs","continuity_scope"],
+      "properties":{
+        "id":{"type":"string","pattern":"^TRV-[0-9]{4,}$"},"episode":{"$ref":"#/$defs/Episode"},"sequence":{"type":"integer","minimum":1},"branch":{"type":"string"},
+        "period":{"$ref":"#/$defs/Period"},"from_period":{"$ref":"#/$defs/Period"},"to_period":{"$ref":"#/$defs/Period"},"temporal_basis":{"type":"string"},"traveler_ids":{"$ref":"#/$defs/IDs"},"from_id":{"$ref":"#/$defs/NullableID"},"to_id":{"$ref":"#/$defs/NullableID"},"via_ids":{"type":"array","items":{"$ref":"#/$defs/ID"}},
+        "origin":{"$ref":"#/$defs/TravelPlace"},"destination":{"$ref":"#/$defs/TravelPlace"},"waypoints":{"type":"array","items":{"$ref":"#/$defs/TravelPlace"}},"status":{"enum":["source_reported","in_progress","completed","temporal_transition","reviewed_split_route"]},
+        "confidence":{"$ref":"#/$defs/Confidence"},"source_refs":{"$ref":"#/$defs/SourceReferences","minItems":1},"continuity_scope":{"const":"MAIN_TIMELINE"},"reason":{"type":"string"},
+        "unresolved_travelers":{"type":"array","items":{"type":"object","required":["label","entity_id"],"properties":{"label":{"type":"string"},"entity_id":{"type":"null"}},"additionalProperties":false}},
+        "transport":{"type":"object","required":["description","entity_ids"],"properties":{"description":{"type":"string"},"entity_ids":{"$ref":"#/$defs/IDs"}},"additionalProperties":false}
+      },"additionalProperties":false
+    },
+    "TimelineEvent": {
+      "type":"object","required":["event_id","episode","period","title","summary_fact_id","event_status","source_refs","continuity_scope","participant_ids","location_ids","related_entity_ids"],
+      "properties":{
+        "event_id":{"type":"string","pattern":"^EVT-[0-9]{4,}$"},"episode":{"$ref":"#/$defs/Episode"},"period":{"$ref":"#/$defs/Period"},"title":{"type":"string"},"summary_fact_id":{"type":"string","pattern":"^FCT-[a-f0-9]{16}$"},
+        "event_status":{"enum":["occurred","historical","planned","revealed"]},"source_refs":{"$ref":"#/$defs/SourceReferences","minItems":1},"continuity_scope":{"const":"MAIN_TIMELINE"},"participant_ids":{"$ref":"#/$defs/IDs"},"location_ids":{"$ref":"#/$defs/IDs"},"related_entity_ids":{"$ref":"#/$defs/IDs"},
+        "location_details":{"type":"array","items":{"type":"object","required":["label","context_id"],"properties":{"label":{"type":"string"},"context_id":{"$ref":"#/$defs/ID"}},"additionalProperties":false}},
+        "unresolved_participant_names":{"type":"array","items":{"type":"string"}},"unresolved_location_names":{"type":"array","items":{"type":"string"}},"unresolved_related_names":{"type":"array","items":{"type":"string"}}
+      },"additionalProperties":false
+    },
+    "MapLocation": {
+      "type":"object","required":["location_id","periods","placement_basis","spatial_domain","states","source_refs"],
+      "properties":{
+        "location_id":{"$ref":"#/$defs/ID"},"periods":{"type":"array","items":{"enum":["1300 civarı","1600 civarı"]},"uniqueItems":true},"placement_basis":{"enum":["CANONICAL","CANON_CONSTRAINED","UNKNOWN"]},"spatial_domain":{"enum":["unknown","supernatural_or_uncertain"]},"source_refs":{"$ref":"#/$defs/SourceReferences"},
+        "states":{"type":"array","items":{"type":"object","required":["period","parent_id","parent_candidate_ids","containment_relationship_ids","spatial_relations"],"properties":{"period":{"$ref":"#/$defs/Period"},"parent_id":{"$ref":"#/$defs/NullableID"},"parent_candidate_ids":{"$ref":"#/$defs/IDs"},"containment_relationship_ids":{"$ref":"#/$defs/IDs"},"spatial_relations":{"type":"array","items":{"type":"object","required":["relation","target_id","relationship_id"],"properties":{"relation":{"type":"string"},"target_id":{"$ref":"#/$defs/ID"},"relationship_id":{"$ref":"#/$defs/ID"}},"additionalProperties":false}}},"additionalProperties":false}}
+      },"additionalProperties":false
+    },
+    "Conflict": {
+      "type":"object","required":["id","kind","status","summary","entity_ids","source_refs"],
+      "properties":{"id":{"type":"string","pattern":"^CNF-[0-9]{4,}$"},"kind":{"type":"string"},"status":{"const":"open"},"summary":{"type":"string"},"entity_ids":{"$ref":"#/$defs/IDs"},"source_refs":{"$ref":"#/$defs/SourceReferences"},"details":{}},"additionalProperties":false
+    },
+    "DerivedView": {
+      "type":"object","required":["view_of","types","entity_ids"],"properties":{"view_of":{"const":"entities.json"},"types":{"type":"array","items":{"type":"string"},"uniqueItems":true},"entity_ids":{"$ref":"#/$defs/IDs"}},"additionalProperties":false
+    },
+    "Entities":{"type":"array","items":{"$ref":"#/$defs/Entity"}},
+    "Relationships":{"type":"array","items":{"$ref":"#/$defs/Relationship"}},
+    "TravelRecords":{"type":"array","items":{"$ref":"#/$defs/Travel"}},
+    "TimelineEvents":{"type":"array","items":{"$ref":"#/$defs/TimelineEvent"}},
+    "MapLocations":{"type":"array","items":{"$ref":"#/$defs/MapLocation"}},
+    "Conflicts":{"type":"array","items":{"$ref":"#/$defs/Conflict"}}
+  }
+}

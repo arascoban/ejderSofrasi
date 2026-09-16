@@ -1,0 +1,1590 @@
+[
+  {
+    "id": "EP00",
+    "number": 0,
+    "title": "DnD: EJDER SOFRASI 00 - MACERA BAŞLIYOR! Revania Krallığı ve O'Rus Adnan",
+    "source_periods": [
+      "1600 civarı"
+    ],
+    "narrative_periods": [
+      "1600 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0004",
+      "NPC-0006",
+      "KNG-0001",
+      "KNG-0002",
+      "TAV-0002",
+      "TWN-0003",
+      "NPC-0036",
+      "NPC-0046",
+      "STA-0001",
+      "NPC-0051",
+      "SHP-0001",
+      "BLD-0008",
+      "MIL-0003",
+      "CON-0002",
+      "ITM-0026",
+      "NPC-0063",
+      "DEI-0009",
+      "DEI-0011",
+      "KNG-0004",
+      "KNG-0005",
+      "DIS-0001",
+      "PRT-0001",
+      "DIS-0002",
+      "NPC-0083",
+      "FAM-0004",
+      "NPC-0091",
+      "STA-0002",
+      "NPC-0096",
+      "FAM-0005",
+      "DEI-0016",
+      "DEI-0017",
+      "ISL-0004",
+      "TWN-0011",
+      "TAV-0004",
+      "EVT-0002",
+      "EVT-0003",
+      "EVT-0004"
+    ],
+    "timeline_event_ids": [
+      "EVT-0002",
+      "EVT-0003",
+      "EVT-0004"
+    ],
+    "travel_ids": [
+      "TRV-0001",
+      "TRV-0002",
+      "TRV-0003",
+      "TRV-0004",
+      "TRV-0005"
+    ]
+  },
+  {
+    "id": "EP01",
+    "number": 1,
+    "title": "DnD: EJDER SOFRASI 01 - GEMİLER, KÖLELER ve KEDİLER",
+    "source_periods": [
+      "1600 civarı"
+    ],
+    "narrative_periods": [
+      "1600 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0004",
+      "NPC-0006",
+      "ITM-0008",
+      "NPC-0031",
+      "ISL-0001",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0052",
+      "SHP-0001",
+      "CRE-0015",
+      "DEI-0011",
+      "NPC-0081",
+      "KNG-0005",
+      "PRT-0001",
+      "NPC-0083",
+      "FAM-0004",
+      "DEI-0017",
+      "NPC-0105",
+      "NPC-0106",
+      "STA-0003",
+      "NAT-0006",
+      "EVT-0005",
+      "EVT-0006",
+      "EVT-0007"
+    ],
+    "timeline_event_ids": [
+      "EVT-0005",
+      "EVT-0006",
+      "EVT-0007"
+    ],
+    "travel_ids": [
+      "TRV-0006"
+    ]
+  },
+  {
+    "id": "EP02",
+    "number": 2,
+    "title": "DnD: EJDER SOFRASI 02 - TEK BİR HARİTA İÇİN",
+    "source_periods": [
+      "1600 civarı"
+    ],
+    "narrative_periods": [
+      "1600 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP02",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0004",
+      "NPC-0006",
+      "ITM-0005",
+      "OTH-0002",
+      "NPC-0035",
+      "ITM-0011",
+      "NPC-0046",
+      "NPC-0051",
+      "SHP-0001",
+      "TWN-0004",
+      "NPC-0066",
+      "DEI-0009",
+      "NPC-0073",
+      "DEI-0011",
+      "NPC-0081",
+      "KNG-0005",
+      "PRT-0001",
+      "NPC-0083",
+      "NPC-0095",
+      "DEI-0016",
+      "DEI-0017",
+      "ISL-0004",
+      "NPC-0102",
+      "NPC-0103",
+      "NPC-0106",
+      "EVT-0008",
+      "EVT-0009",
+      "EVT-0010"
+    ],
+    "timeline_event_ids": [
+      "EVT-0008",
+      "EVT-0009",
+      "EVT-0010"
+    ],
+    "travel_ids": []
+  },
+  {
+    "id": "EP03",
+    "number": 3,
+    "title": "DnD: EJDER SOFRASI 03 - GİZEMLER ADASI ve MEGA TİMSAH",
+    "source_periods": [
+      "1600 civarı"
+    ],
+    "narrative_periods": [
+      "1600 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP03",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0004",
+      "NPC-0006",
+      "DEI-0003",
+      "DEI-0004",
+      "NPC-0017",
+      "OTH-0001",
+      "CRE-0007",
+      "CRE-0008",
+      "NPC-0024",
+      "DEI-0006",
+      "ISL-0001",
+      "NPC-0046",
+      "NPC-0051",
+      "DRG-0005",
+      "SHP-0001",
+      "DRG-0007",
+      "DEI-0009",
+      "DEI-0011",
+      "KNG-0005",
+      "PRT-0001",
+      "NPC-0083",
+      "FAM-0004",
+      "DEI-0016",
+      "DEI-0017",
+      "ISL-0004",
+      "DRG-0015",
+      "NAT-0006",
+      "EVT-0011",
+      "EVT-0012",
+      "EVT-0013"
+    ],
+    "timeline_event_ids": [
+      "EVT-0011",
+      "EVT-0012",
+      "EVT-0013"
+    ],
+    "travel_ids": [
+      "TRV-0007"
+    ]
+  },
+  {
+    "id": "EP04",
+    "number": 4,
+    "title": "DnD: EJDER SOFRASI 04 - GİZEMLİ CANAVARLAR ve CEMİL",
+    "source_periods": [
+      "1600 civarı"
+    ],
+    "narrative_periods": [
+      "1600 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0004",
+      "NPC-0006",
+      "NPC-0017",
+      "EVT-0001",
+      "CRE-0003",
+      "CRE-0009",
+      "NPC-0024",
+      "ISL-0001",
+      "NPC-0046",
+      "NPC-0051",
+      "SHP-0001",
+      "CRE-0016",
+      "CRE-0017",
+      "NPC-0068",
+      "BLD-0009",
+      "DEI-0011",
+      "KNG-0005",
+      "NPC-0083",
+      "FAM-0004",
+      "DEI-0017",
+      "DRG-0014",
+      "NAT-0004",
+      "TMP-0003",
+      "EVT-0014",
+      "EVT-0015",
+      "EVT-0016"
+    ],
+    "timeline_event_ids": [
+      "EVT-0014",
+      "EVT-0015",
+      "EVT-0016"
+    ],
+    "travel_ids": [
+      "TRV-0008"
+    ]
+  },
+  {
+    "id": "EP05",
+    "number": 5,
+    "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+    "source_periods": [
+      "1600 civarı"
+    ],
+    "narrative_periods": [
+      "1600 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "CRE-0001",
+      "CRE-0003",
+      "ISL-0001",
+      "CRE-0012",
+      "NAT-0002",
+      "NPC-0046",
+      "NPC-0051",
+      "SHP-0001",
+      "DRG-0008",
+      "NPC-0068",
+      "BLD-0009",
+      "DEI-0011",
+      "CRE-0028",
+      "KNG-0005",
+      "NPC-0083",
+      "FAM-0004",
+      "DEI-0017",
+      "DRG-0014",
+      "NAT-0004",
+      "TMP-0003",
+      "ITM-0037",
+      "EVT-0017",
+      "EVT-0018",
+      "EVT-0019"
+    ],
+    "timeline_event_ids": [
+      "EVT-0017",
+      "EVT-0018",
+      "EVT-0019"
+    ],
+    "travel_ids": [
+      "TRV-0009",
+      "TRV-0010"
+    ]
+  },
+  {
+    "id": "EP06",
+    "number": 6,
+    "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+    "source_periods": [
+      "1600 civarı"
+    ],
+    "narrative_periods": [
+      "1600 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "CRE-0002",
+      "ITM-0036",
+      "CRE-0003",
+      "ISL-0001",
+      "CRE-0012",
+      "NAT-0002",
+      "NPC-0046",
+      "NPC-0050",
+      "NPC-0049",
+      "NPC-0051",
+      "DEI-0011",
+      "KNG-0005",
+      "NPC-0083",
+      "FAM-0004",
+      "ITM-0031",
+      "DRG-0014",
+      "ITM-0032",
+      "NAT-0004",
+      "TMP-0003",
+      "EVT-0020",
+      "EVT-0021",
+      "EVT-0022"
+    ],
+    "timeline_event_ids": [
+      "EVT-0020",
+      "EVT-0021",
+      "EVT-0022"
+    ],
+    "travel_ids": [
+      "TRV-0011",
+      "TRV-0012"
+    ]
+  },
+  {
+    "id": "EP07",
+    "number": 7,
+    "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+    "source_periods": [
+      "1600 civarı"
+    ],
+    "narrative_periods": [
+      "1600 civarı",
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "ITM-0003",
+      "ITM-0004",
+      "CRE-0002",
+      "ITM-0036",
+      "CRE-0003",
+      "ITM-0009",
+      "NPC-0046",
+      "NPC-0049",
+      "NPC-0051",
+      "NPC-0058",
+      "NPC-0064",
+      "DEI-0011",
+      "KNG-0005",
+      "NPC-0083",
+      "FAM-0004",
+      "CIT-0006",
+      "ITM-0031",
+      "TMP-0003",
+      "NAT-0007",
+      "CIT-0007",
+      "EVT-0023",
+      "EVT-0024",
+      "EVT-0025",
+      "EVT-0026"
+    ],
+    "timeline_event_ids": [
+      "EVT-0023",
+      "EVT-0024",
+      "EVT-0025",
+      "EVT-0026"
+    ],
+    "travel_ids": [
+      "TRV-0013"
+    ]
+  },
+  {
+    "id": "EP08",
+    "number": 8,
+    "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+    "source_periods": [
+      "1600 civarı",
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "NPC-0008",
+      "ORG-0001",
+      "ITM-0004",
+      "ITM-0036",
+      "NPC-0022",
+      "ITM-0009",
+      "DRG-0003",
+      "TMP-0002",
+      "CON-0001",
+      "CRE-0012",
+      "KNG-0003",
+      "NPC-0046",
+      "NPC-0051",
+      "DRG-0006",
+      "DEI-0011",
+      "NPC-0082",
+      "CRE-0028",
+      "NPC-0083",
+      "FAM-0004",
+      "KNG-0007",
+      "KNG-0008",
+      "CIT-0006",
+      "ITM-0031",
+      "DRG-0014",
+      "DIS-0005",
+      "BLD-0023",
+      "CIT-0007",
+      "CIT-0008",
+      "CIT-0009",
+      "EVT-0027",
+      "EVT-0028",
+      "EVT-0029",
+      "EVT-0030",
+      "EVT-0031"
+    ],
+    "timeline_event_ids": [
+      "EVT-0027",
+      "EVT-0028",
+      "EVT-0029",
+      "EVT-0030",
+      "EVT-0031"
+    ],
+    "travel_ids": [
+      "TRV-0014"
+    ]
+  },
+  {
+    "id": "EP09",
+    "number": 9,
+    "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+    "source_periods": [
+      "1300 civarı",
+      "1600 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "DRG-0001",
+      "ORG-0001",
+      "ITM-0004",
+      "ITM-0036",
+      "CRE-0003",
+      "ITM-0009",
+      "DRG-0003",
+      "TMP-0002",
+      "CON-0001",
+      "CRE-0012",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0056",
+      "DRG-0006",
+      "DRG-0008",
+      "DRG-0009",
+      "DRG-0010",
+      "DEI-0009",
+      "DRG-0011",
+      "DEI-0011",
+      "DRG-0012",
+      "KNG-0005",
+      "NPC-0083",
+      "DRG-0013",
+      "MIL-0008",
+      "FAM-0004",
+      "NPC-0092",
+      "NPC-0094",
+      "DEI-0016",
+      "DEI-0017",
+      "NPC-0098",
+      "KNG-0008",
+      "CIT-0006",
+      "ITM-0031",
+      "DRG-0014",
+      "BLD-0023",
+      "DIS-0006",
+      "EVT-0065",
+      "EVT-0066",
+      "EVT-0067"
+    ],
+    "timeline_event_ids": [
+      "EVT-0065",
+      "EVT-0066",
+      "EVT-0067"
+    ],
+    "travel_ids": [
+      "TRV-0015",
+      "TRV-0016",
+      "TRV-0017"
+    ]
+  },
+  {
+    "id": "EP10",
+    "number": 10,
+    "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "ITM-0036",
+      "CRE-0004",
+      "NPC-0023",
+      "ITM-0009",
+      "CON-0001",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0056",
+      "ITM-0022",
+      "NPC-0069",
+      "NPC-0070",
+      "DEI-0011",
+      "NPC-0083",
+      "DRG-0013",
+      "MIL-0005",
+      "FAC-0004",
+      "FAM-0004",
+      "KNG-0007",
+      "KNG-0008",
+      "CIT-0006",
+      "BLD-0020",
+      "BLD-0021",
+      "ITM-0035",
+      "DIS-0006",
+      "BLD-0024",
+      "EVT-0068",
+      "EVT-0069",
+      "EVT-0070"
+    ],
+    "timeline_event_ids": [
+      "EVT-0068",
+      "EVT-0069",
+      "EVT-0070"
+    ],
+    "travel_ids": [
+      "TRV-0018",
+      "TRV-0019"
+    ]
+  },
+  {
+    "id": "EP11",
+    "number": 11,
+    "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "ORG-0001",
+      "FAC-0001",
+      "ITM-0004",
+      "CRE-0003",
+      "CRE-0004",
+      "NPC-0023",
+      "NPC-0029",
+      "CRE-0012",
+      "NPC-0046",
+      "ITM-0017",
+      "NPC-0051",
+      "DEI-0011",
+      "CRE-0028",
+      "NPC-0083",
+      "NPC-0089",
+      "FAM-0004",
+      "KNG-0007",
+      "KNG-0008",
+      "CIT-0006",
+      "DRG-0014",
+      "DIS-0005",
+      "BLD-0021",
+      "ITM-0035",
+      "BLD-0023",
+      "EVT-0071",
+      "EVT-0072",
+      "EVT-0073",
+      "EVT-0074"
+    ],
+    "timeline_event_ids": [
+      "EVT-0071",
+      "EVT-0072",
+      "EVT-0073",
+      "EVT-0074"
+    ],
+    "travel_ids": [
+      "TRV-0020"
+    ]
+  },
+  {
+    "id": "EP12",
+    "number": 12,
+    "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "ORG-0001",
+      "ITM-0004",
+      "NPC-0014",
+      "BLD-0002",
+      "CRE-0002",
+      "ITM-0036",
+      "CRE-0003",
+      "ITM-0009",
+      "DRG-0003",
+      "NPC-0037",
+      "CRE-0012",
+      "NPC-0046",
+      "NPC-0051",
+      "ITM-0018",
+      "DRG-0006",
+      "NPC-0061",
+      "NPC-0072",
+      "DEI-0011",
+      "CRE-0028",
+      "NPC-0083",
+      "BLD-0011",
+      "NPC-0087",
+      "DRG-0013",
+      "NPC-0089",
+      "FAM-0004",
+      "DEI-0017",
+      "KNG-0008",
+      "CIT-0006",
+      "ITM-0031",
+      "DRG-0014",
+      "DIS-0004",
+      "DIS-0005",
+      "BLD-0018",
+      "BLD-0023",
+      "CIT-0008",
+      "CIT-0009",
+      "EVT-0075",
+      "EVT-0076",
+      "EVT-0077"
+    ],
+    "timeline_event_ids": [
+      "EVT-0075",
+      "EVT-0076",
+      "EVT-0077"
+    ],
+    "travel_ids": [
+      "TRV-0021",
+      "TRV-0022",
+      "TRV-0023"
+    ]
+  },
+  {
+    "id": "EP13",
+    "number": 13,
+    "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP13",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "ORG-0001",
+      "ITM-0004",
+      "ITM-0036",
+      "BLD-0003",
+      "ITM-0009",
+      "DRG-0003",
+      "CON-0001",
+      "NPC-0046",
+      "NPC-0047",
+      "NPC-0051",
+      "DRG-0006",
+      "NPC-0060",
+      "DEI-0011",
+      "NPC-0077",
+      "NPC-0083",
+      "NPC-0087",
+      "DRG-0013",
+      "FAM-0004",
+      "KNG-0007",
+      "KNG-0008",
+      "CIT-0006",
+      "BLD-0020",
+      "ITM-0031",
+      "DRG-0014",
+      "DIS-0005",
+      "BLD-0018",
+      "EVT-0078",
+      "EVT-0079",
+      "EVT-0080"
+    ],
+    "timeline_event_ids": [
+      "EVT-0078",
+      "EVT-0079",
+      "EVT-0080"
+    ],
+    "travel_ids": [
+      "TRV-0024"
+    ]
+  },
+  {
+    "id": "EP14",
+    "number": 14,
+    "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "ORG-0001",
+      "FAC-0001",
+      "ITM-0004",
+      "TAV-0001",
+      "NPC-0014",
+      "BLD-0002",
+      "NPC-0015",
+      "ITM-0036",
+      "CRE-0004",
+      "NPC-0023",
+      "ITM-0009",
+      "NPC-0027",
+      "NPC-0032",
+      "DRG-0003",
+      "CON-0001",
+      "CRE-0012",
+      "NPC-0046",
+      "NPC-0051",
+      "DRG-0006",
+      "NPC-0060",
+      "DEI-0011",
+      "NPC-0082",
+      "NPC-0083",
+      "NPC-0087",
+      "DRG-0013",
+      "FAM-0004",
+      "KNG-0007",
+      "KNG-0008",
+      "CIT-0006",
+      "CRE-0026",
+      "ITM-0031",
+      "DRG-0014",
+      "DIS-0004",
+      "DIS-0005",
+      "BLD-0018",
+      "BLD-0023",
+      "NAT-0008",
+      "EVT-0081",
+      "EVT-0082",
+      "EVT-0083"
+    ],
+    "timeline_event_ids": [
+      "EVT-0081",
+      "EVT-0082",
+      "EVT-0083"
+    ],
+    "travel_ids": [
+      "TRV-0025",
+      "TRV-0026",
+      "TRV-0027"
+    ]
+  },
+  {
+    "id": "EP15",
+    "number": 15,
+    "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "BLD-0001",
+      "NPC-0006",
+      "NPC-0007",
+      "ORG-0001",
+      "ITM-0004",
+      "TAV-0001",
+      "ITM-0036",
+      "BLD-0003",
+      "BLD-0004",
+      "NPC-0023",
+      "ITM-0009",
+      "NPC-0027",
+      "NPC-0032",
+      "DRG-0003",
+      "CON-0001",
+      "ITM-0012",
+      "DYN-0001",
+      "CRE-0012",
+      "NPC-0046",
+      "ITM-0016",
+      "NPC-0051",
+      "ITM-0020",
+      "DRG-0006",
+      "NPC-0060",
+      "DEI-0011",
+      "NPC-0082",
+      "NPC-0083",
+      "ITM-0027",
+      "NPC-0087",
+      "DRG-0013",
+      "MIL-0006",
+      "NPC-0089",
+      "FAM-0004",
+      "KNG-0007",
+      "KNG-0008",
+      "CIT-0006",
+      "CRE-0026",
+      "ITM-0031",
+      "DRG-0014",
+      "DIS-0003",
+      "BLD-0023",
+      "EVT-0084",
+      "EVT-0085",
+      "EVT-0086"
+    ],
+    "timeline_event_ids": [
+      "EVT-0084",
+      "EVT-0085",
+      "EVT-0086"
+    ],
+    "travel_ids": [
+      "TRV-0028",
+      "TRV-0029"
+    ]
+  },
+  {
+    "id": "EP16",
+    "number": 16,
+    "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "ORG-0001",
+      "ITM-0004",
+      "CRE-0003",
+      "CRE-0004",
+      "BLD-0003",
+      "NPC-0023",
+      "ITM-0009",
+      "NPC-0033",
+      "DRG-0003",
+      "TMP-0002",
+      "CON-0001",
+      "ITM-0012",
+      "CRE-0012",
+      "KNG-0003",
+      "NPC-0046",
+      "NPC-0051",
+      "ITM-0019",
+      "DRG-0006",
+      "ITM-0024",
+      "NPC-0060",
+      "DEI-0011",
+      "NPC-0083",
+      "ITM-0028",
+      "ITM-0029",
+      "DRG-0013",
+      "NPC-0089",
+      "FAM-0004",
+      "KNG-0007",
+      "KNG-0008",
+      "CIT-0006",
+      "BLD-0020",
+      "CRE-0026",
+      "DRG-0014",
+      "DIS-0003",
+      "DIS-0004",
+      "DIS-0005",
+      "BLD-0023",
+      "EVT-0087",
+      "EVT-0088",
+      "EVT-0089",
+      "EVT-0090",
+      "EVT-0091"
+    ],
+    "timeline_event_ids": [
+      "EVT-0087",
+      "EVT-0088",
+      "EVT-0089",
+      "EVT-0090",
+      "EVT-0091"
+    ],
+    "travel_ids": [
+      "TRV-0030",
+      "TRV-0031"
+    ]
+  },
+  {
+    "id": "EP17",
+    "number": 17,
+    "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "ORG-0001",
+      "ITM-0004",
+      "ITM-0036",
+      "NPC-0019",
+      "CRE-0003",
+      "ITM-0009",
+      "BLD-0005",
+      "DRG-0003",
+      "CON-0001",
+      "ITM-0012",
+      "CRE-0012",
+      "KNG-0003",
+      "NPC-0046",
+      "NPC-0051",
+      "ITM-0019",
+      "NPC-0054",
+      "ITM-0021",
+      "DRG-0006",
+      "MIL-0002",
+      "NPC-0060",
+      "DEI-0011",
+      "REG-0001",
+      "MIL-0004",
+      "NPC-0076",
+      "NPC-0083",
+      "NPC-0087",
+      "DRG-0013",
+      "MIL-0007",
+      "NPC-0089",
+      "FAM-0004",
+      "KNG-0007",
+      "KNG-0008",
+      "CIT-0006",
+      "CRE-0026",
+      "DRG-0014",
+      "DIS-0003",
+      "BLD-0016",
+      "DIS-0004",
+      "BLD-0017",
+      "DIS-0005",
+      "BLD-0019",
+      "BLD-0023",
+      "CIT-0007",
+      "CIT-0008",
+      "CIT-0009",
+      "EVT-0032",
+      "EVT-0033",
+      "EVT-0034",
+      "EVT-0035"
+    ],
+    "timeline_event_ids": [
+      "EVT-0032",
+      "EVT-0033",
+      "EVT-0034",
+      "EVT-0035"
+    ],
+    "travel_ids": [
+      "TRV-0032",
+      "TRV-0033",
+      "TRV-0034"
+    ]
+  },
+  {
+    "id": "EP18",
+    "number": 18,
+    "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "ORG-0001",
+      "ITM-0036",
+      "CRE-0004",
+      "NPC-0023",
+      "ITM-0009",
+      "DRG-0003",
+      "TMP-0002",
+      "CON-0001",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0054",
+      "DRG-0006",
+      "ITM-0024",
+      "NPC-0060",
+      "NPC-0062",
+      "DEI-0011",
+      "NPC-0083",
+      "DRG-0013",
+      "NPC-0089",
+      "FAM-0004",
+      "KNG-0007",
+      "KNG-0008",
+      "CIT-0006",
+      "DRG-0014",
+      "CRE-0027",
+      "DIS-0005",
+      "BLD-0018",
+      "ITM-0035",
+      "BLD-0023",
+      "EVT-0036",
+      "EVT-0037",
+      "EVT-0038",
+      "EVT-0039"
+    ],
+    "timeline_event_ids": [
+      "EVT-0036",
+      "EVT-0037",
+      "EVT-0038",
+      "EVT-0039"
+    ],
+    "travel_ids": [
+      "TRV-0035",
+      "TRV-0036"
+    ]
+  },
+  {
+    "id": "EP19",
+    "number": 19,
+    "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "ORG-0001",
+      "ITM-0004",
+      "NPC-0014",
+      "CRE-0003",
+      "BLD-0003",
+      "CON-0001",
+      "CRE-0012",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0054",
+      "MIL-0002",
+      "NPC-0060",
+      "NPC-0062",
+      "DEI-0011",
+      "MIL-0004",
+      "NPC-0083",
+      "MIL-0007",
+      "FAM-0004",
+      "KNG-0007",
+      "KNG-0008",
+      "CIT-0006",
+      "CRE-0027",
+      "ITM-0034",
+      "DIS-0003",
+      "DIS-0004",
+      "DIS-0005",
+      "BLD-0018",
+      "REG-0002",
+      "EVT-0040",
+      "EVT-0041",
+      "EVT-0042",
+      "EVT-0043"
+    ],
+    "timeline_event_ids": [
+      "EVT-0040",
+      "EVT-0041",
+      "EVT-0042",
+      "EVT-0043"
+    ],
+    "travel_ids": [
+      "TRV-0037",
+      "TRV-0038",
+      "TRV-0039",
+      "TRV-0040"
+    ]
+  },
+  {
+    "id": "EP20",
+    "number": 20,
+    "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "ITM-0004",
+      "CRE-0003",
+      "CRE-0006",
+      "NPC-0023",
+      "ITM-0009",
+      "CON-0001",
+      "NPC-0043",
+      "CRE-0012",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0054",
+      "BLD-0006",
+      "DRG-0006",
+      "ITM-0024",
+      "MIL-0002",
+      "NPC-0060",
+      "NPC-0062",
+      "DEI-0011",
+      "MIL-0004",
+      "CRE-0028",
+      "NPC-0083",
+      "DRG-0013",
+      "MIL-0007",
+      "FAM-0004",
+      "KNG-0007",
+      "DEI-0017",
+      "KNG-0008",
+      "CIT-0006",
+      "CRE-0026",
+      "DRG-0014",
+      "NPC-0099",
+      "ITM-0034",
+      "DIS-0003",
+      "BLD-0016",
+      "REG-0002",
+      "EVT-0044",
+      "EVT-0045",
+      "EVT-0046",
+      "EVT-0047"
+    ],
+    "timeline_event_ids": [
+      "EVT-0044",
+      "EVT-0045",
+      "EVT-0046",
+      "EVT-0047"
+    ],
+    "travel_ids": [
+      "TRV-0041",
+      "TRV-0042",
+      "TRV-0043",
+      "TRV-0044"
+    ]
+  },
+  {
+    "id": "EP21",
+    "number": 21,
+    "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0011",
+      "CON-0001",
+      "ITM-0012",
+      "DYN-0001",
+      "NPC-0042",
+      "MIL-0001",
+      "NPC-0043",
+      "NPC-0046",
+      "NPC-0051",
+      "BLD-0006",
+      "NPC-0067",
+      "DEI-0011",
+      "NPC-0079",
+      "NPC-0083",
+      "FAM-0004",
+      "BLD-0014",
+      "KNG-0008",
+      "NPC-0099",
+      "EVT-0048",
+      "EVT-0049",
+      "EVT-0050",
+      "EVT-0051"
+    ],
+    "timeline_event_ids": [
+      "EVT-0048",
+      "EVT-0049",
+      "EVT-0050",
+      "EVT-0051"
+    ],
+    "travel_ids": [
+      "TRV-0045",
+      "TRV-0046"
+    ]
+  },
+  {
+    "id": "EP22",
+    "number": 22,
+    "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "FAC-0001",
+      "NPC-0011",
+      "FAC-0002",
+      "ITM-0010",
+      "NPC-0039",
+      "CON-0001",
+      "DYN-0001",
+      "NPC-0040",
+      "NPC-0042",
+      "ITM-0013",
+      "ITM-0014",
+      "ITM-0015",
+      "NPC-0043",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0054",
+      "BLD-0006",
+      "NPC-0060",
+      "DEI-0011",
+      "NPC-0079",
+      "NPC-0083",
+      "FAM-0004",
+      "BLD-0013",
+      "BLD-0014",
+      "BLD-0015",
+      "KNG-0008",
+      "NAT-0007",
+      "EVT-0052",
+      "EVT-0053",
+      "EVT-0054",
+      "EVT-0055"
+    ],
+    "timeline_event_ids": [
+      "EVT-0052",
+      "EVT-0053",
+      "EVT-0054",
+      "EVT-0055"
+    ],
+    "travel_ids": [
+      "TRV-0054",
+      "TRV-0056",
+      "TRV-0055",
+      "TRV-0057",
+      "TRV-0048"
+    ]
+  },
+  {
+    "id": "EP23",
+    "number": 23,
+    "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "ITM-0001",
+      "NPC-0006",
+      "DEI-0001",
+      "DEI-0002",
+      "DEI-0003",
+      "DEI-0004",
+      "TMP-0001",
+      "DEI-0006",
+      "DEI-0007",
+      "CON-0001",
+      "ITM-0012",
+      "DYN-0001",
+      "NPC-0042",
+      "OTH-0003",
+      "NPC-0046",
+      "NPC-0049",
+      "NPC-0051",
+      "BLD-0006",
+      "BLD-0007",
+      "DEI-0008",
+      "CRE-0018",
+      "ITM-0025",
+      "DEI-0009",
+      "DEI-0010",
+      "DEI-0011",
+      "NPC-0083",
+      "DEI-0012",
+      "FAM-0004",
+      "DEI-0015",
+      "DEI-0016",
+      "KNG-0008",
+      "CRE-0027",
+      "DEI-0018",
+      "NAT-0005",
+      "DEI-0019",
+      "BLD-0022",
+      "NAT-0007",
+      "DEI-0022",
+      "DEI-0023",
+      "EVT-0056",
+      "EVT-0057",
+      "EVT-0058",
+      "EVT-0059"
+    ],
+    "timeline_event_ids": [
+      "EVT-0056",
+      "EVT-0057",
+      "EVT-0058",
+      "EVT-0059"
+    ],
+    "travel_ids": [
+      "TRV-0049",
+      "TRV-0050"
+    ]
+  },
+  {
+    "id": "EP24",
+    "number": 24,
+    "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+    "source_periods": [
+      "1300 civarı"
+    ],
+    "narrative_periods": [
+      "1300 civarı"
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": ""
+      }
+    ],
+    "entity_ids": [
+      "NPC-0006",
+      "ITM-0002",
+      "NPC-0025",
+      "TMP-0001",
+      "CRE-0014",
+      "CON-0001",
+      "ITM-0012",
+      "CRE-0013",
+      "NPC-0046",
+      "NPC-0051",
+      "CRE-0021",
+      "DEI-0011",
+      "OTH-0004",
+      "NPC-0083",
+      "ITM-0030",
+      "FAM-0004",
+      "OTH-0005",
+      "BLD-0012",
+      "CRE-0025",
+      "DEI-0014",
+      "DRG-0014",
+      "CRE-0027",
+      "ITM-0034",
+      "BLD-0025",
+      "EVT-0060",
+      "EVT-0061",
+      "EVT-0062",
+      "EVT-0063",
+      "EVT-0064"
+    ],
+    "timeline_event_ids": [
+      "EVT-0060",
+      "EVT-0061",
+      "EVT-0062",
+      "EVT-0063",
+      "EVT-0064"
+    ],
+    "travel_ids": [
+      "TRV-0051",
+      "TRV-0052",
+      "TRV-0053"
+    ]
+  }
+]

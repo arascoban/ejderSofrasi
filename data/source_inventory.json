@@ -1,0 +1,1029 @@
+{
+  "files": [
+    {
+      "path": "WorldData/EP00_WorldData copy.md",
+      "sha256": "6d2e2c5b9cd9c1f0b262f3e6d946d1b756dab5c010e7dd0c179442364ad40056",
+      "bytes": 15024,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP00",
+      "title": "DnD: EJDER SOFRASI 00 - MACERA BAŞLIYOR! Revania Krallığı ve O'Rus Adnan",
+      "periods": [
+        "1600 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 34,
+        "links": 27,
+        "travel": 5,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 5
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP00"
+    },
+    {
+      "path": "WorldData/EP01_WorldData copy.md",
+      "sha256": "e430492fff3f58d3d713cdf22a2eb5bbd7b44693e1eb9ed5c955a74c1d8c85ec",
+      "bytes": 12601,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP01",
+      "title": "DnD: EJDER SOFRASI 01 - GEMİLER, KÖLELER ve KEDİLER",
+      "periods": [
+        "1600 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 20,
+        "links": 18,
+        "travel": 1,
+        "lore": 3,
+        "uncertainties": 3,
+        "new_entities": 4
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP01"
+    },
+    {
+      "path": "WorldData/EP02_WorldData copy.md",
+      "sha256": "96f3db4d1df768f6886a616292aa235dfdb65678d02d4b59838afcb54f96a679",
+      "bytes": 14922,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP02",
+      "title": "DnD: EJDER SOFRASI 02 - TEK BİR HARİTA İÇİN",
+      "periods": [
+        "1600 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 25,
+        "links": 22,
+        "travel": 0,
+        "lore": 4,
+        "uncertainties": 3,
+        "new_entities": 4
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP02"
+    },
+    {
+      "path": "WorldData/EP03_WorldData copy.md",
+      "sha256": "4c99481970994235eeba9c66f71355d09a2ebb1427b6b2cd73e7ac709077508c",
+      "bytes": 17311,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP03",
+      "title": "DnD: EJDER SOFRASI 03 - GİZEMLER ADASI ve MEGA TİMSAH",
+      "periods": [
+        "1600 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 25,
+        "links": 26,
+        "travel": 1,
+        "lore": 5,
+        "uncertainties": 3,
+        "new_entities": 9
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP03"
+    },
+    {
+      "path": "WorldData/EP04_WorldData copy.md",
+      "sha256": "bdf01ed4af71af301f9684f485cc8ae673d9b5f6f539b15b97468c0001ac6c54",
+      "bytes": 17749,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP04",
+      "title": "DnD: EJDER SOFRASI 04 - GİZEMLİ CANAVARLAR ve CEMİL",
+      "periods": [
+        "1600 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 23,
+        "links": 26,
+        "travel": 1,
+        "lore": 5,
+        "uncertainties": 3,
+        "new_entities": 8
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP04"
+    },
+    {
+      "path": "WorldData/EP05_WorldData copy.md",
+      "sha256": "e2edf4dd10727f059df4a012641cfff7a68840ea9aca74536fdc491aee70c776",
+      "bytes": 15777,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP05",
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "periods": [
+        "1600 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 21,
+        "links": 20,
+        "travel": 2,
+        "lore": 4,
+        "uncertainties": 3,
+        "new_entities": 4
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP05"
+    },
+    {
+      "path": "WorldData/EP06_WorldData copy.md",
+      "sha256": "4e76cd6ec7265daf1673921fc5c939051e6a2eb851236525dda6dde175184e50",
+      "bytes": 13165,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP06",
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "periods": [
+        "1600 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 18,
+        "links": 18,
+        "travel": 2,
+        "lore": 4,
+        "uncertainties": 3,
+        "new_entities": 6
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP06"
+    },
+    {
+      "path": "WorldData/EP07_WorldData copy.md",
+      "sha256": "1697c90b4278e280600a743d16199bac8ffa2cc38e6bd80d1ca5e169eeefce5a",
+      "bytes": 15153,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP07",
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "periods": [
+        "1600 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 19,
+        "links": 21,
+        "travel": 1,
+        "lore": 3,
+        "uncertainties": 3,
+        "new_entities": 6
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP07"
+    },
+    {
+      "path": "WorldData/EP08_WorldData copy.md",
+      "sha256": "63d4ab962919def6c66de13d1a26d2f13aaa382778acfc6d56b0b05d3790241b",
+      "bytes": 20197,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP08",
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 26,
+        "links": 36,
+        "travel": 1,
+        "lore": 4,
+        "uncertainties": 3,
+        "new_entities": 9
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP08"
+    },
+    {
+      "path": "WorldData/EP09_WorldData copy.md",
+      "sha256": "a1add25164f10f18dd2eb54895e6931abbc67fb4c9cbda6312982bf40ffef040",
+      "bytes": 19162,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP09",
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 36,
+        "links": 24,
+        "travel": 3,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 9
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP09"
+    },
+    {
+      "path": "WorldData/EP10_WorldData copy.md",
+      "sha256": "bfe8e5a9dd4fe65d97629f29f71c2bd430c52fcc275b32f6f06a8697de16104c",
+      "bytes": 17668,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP10",
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 24,
+        "links": 28,
+        "travel": 2,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 9
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP10"
+    },
+    {
+      "path": "WorldData/EP11_WorldData copy.md",
+      "sha256": "86c98d77b57274bdb90dfc9cde46756b14c21ae82df4a178822366fa222381a5",
+      "bytes": 16204,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP11",
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 22,
+        "links": 21,
+        "travel": 1,
+        "lore": 3,
+        "uncertainties": 3,
+        "new_entities": 5
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP11"
+    },
+    {
+      "path": "WorldData/EP12_WorldData copy.md",
+      "sha256": "75cb840a8ceca3d66135df45d372bd19151cb341ec6f7fefe1a70b22563db4df",
+      "bytes": 22645,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP12",
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 33,
+        "links": 31,
+        "travel": 3,
+        "lore": 4,
+        "uncertainties": 2,
+        "new_entities": 11
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP12"
+    },
+    {
+      "path": "WorldData/EP13_WorldData copy.md",
+      "sha256": "b0605eb31c9bfff1d29f5adf636c8695c15707ebe409918c7a51b7cedd9d8a6f",
+      "bytes": 15772,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP13",
+      "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 25,
+        "links": 22,
+        "travel": 1,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 4
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP13"
+    },
+    {
+      "path": "WorldData/EP14_WorldData copy.md",
+      "sha256": "5677935730425cf6d5a6de31f2a6d1d4905cf194f07e0a0beab70d190bf2941b",
+      "bytes": 19671,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP14",
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 33,
+        "links": 29,
+        "travel": 3,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 8
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP14"
+    },
+    {
+      "path": "WorldData/EP15_WorldData copy.md",
+      "sha256": "4770938bf2c118124487da7f7415e0fcc7b2d933d3d2728dd9561b360a3eb6a0",
+      "bytes": 23518,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP15",
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 40,
+        "links": 39,
+        "travel": 2,
+        "lore": 4,
+        "uncertainties": 2,
+        "new_entities": 10
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP15"
+    },
+    {
+      "path": "WorldData/EP16_WorldData copy.md",
+      "sha256": "9bcd54e2732cd4e47e69a5b0b2a46b37ba4fb4893dd008543800bffaa08702dd",
+      "bytes": 21110,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP16",
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 38,
+        "links": 26,
+        "travel": 2,
+        "lore": 4,
+        "uncertainties": 2,
+        "new_entities": 4
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP16"
+    },
+    {
+      "path": "WorldData/EP17_WorldData copy.md",
+      "sha256": "1dda1239e3702eacce5a6fb380132899575ca27cfe08f8c8580c63e48abd97a3",
+      "bytes": 21627,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP17",
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 43,
+        "links": 23,
+        "travel": 3,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 10
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP17"
+    },
+    {
+      "path": "WorldData/EP18_WorldData copy.md",
+      "sha256": "d0d78a75e0c57f86d0831559a94030878ad2839b4555659f51827de1948bd0d5",
+      "bytes": 19595,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP18",
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 30,
+        "links": 27,
+        "travel": 2,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 2
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP18"
+    },
+    {
+      "path": "WorldData/EP19_WorldData copy.md",
+      "sha256": "a2f25389c3980ceec558952d8f09cfc074ca1d87c088de4921a692e2ab03ca77",
+      "bytes": 19146,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP19",
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 27,
+        "links": 24,
+        "travel": 4,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 1
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP19"
+    },
+    {
+      "path": "WorldData/EP20_WorldData copy.md",
+      "sha256": "8876251e356624ecc0024d40b28953eec0ea8694ede772114dbc8935ec8bdff2",
+      "bytes": 17913,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP20",
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 31,
+        "links": 16,
+        "travel": 4,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 4
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP20"
+    },
+    {
+      "path": "WorldData/EP21_WorldData copy.md",
+      "sha256": "d6ba9ed7ff9a3418ee6b29a54887ecfeaad29c3f4ab295f2be5fa070b884ba20",
+      "bytes": 14293,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP21",
+      "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 19,
+        "links": 18,
+        "travel": 2,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 6
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP21"
+    },
+    {
+      "path": "WorldData/EP22_WorldData copy.md",
+      "sha256": "a968d225d48ff0b0f5cd91b2532141cfd4b3d299cd1396657f8064be8e331d5b",
+      "bytes": 20091,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP22",
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 25,
+        "links": 27,
+        "travel": 2,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 10
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP22"
+    },
+    {
+      "path": "WorldData/EP23_WorldData copy.md",
+      "sha256": "b6f7dd49df5f877ca18340922460e1b9a0c50661188f478a7b39f93dff40327a",
+      "bytes": 18813,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP23",
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 36,
+        "links": 17,
+        "travel": 2,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 7
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP23"
+    },
+    {
+      "path": "WorldData/EP24_WorldData.md",
+      "sha256": "141a48c1b90bb99e1d467d4656b50362ce6985d5cbdb27378dbe3d648738195f",
+      "bytes": 18357,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "application/json",
+      "episode": "EP24",
+      "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+      "periods": [
+        "1300 civarı"
+      ],
+      "top_level_fields": [
+        "episode",
+        "title",
+        "period",
+        "entities",
+        "links",
+        "travel",
+        "lore",
+        "uncertainties",
+        "new_entities",
+        "output_incomplete",
+        "continue_from"
+      ],
+      "counts": {
+        "entities": 23,
+        "links": 19,
+        "travel": 3,
+        "lore": 3,
+        "uncertainties": 2,
+        "new_entities": 11
+      },
+      "output_incomplete": false,
+      "continue_from": null,
+      "source_id": "SRC-EP24"
+    },
+    {
+      "path": "Canon/Bosses.md",
+      "sha256": "276d6caa8db2326d8bd73ea12da2b7b658c95090f4a7f73ed5bb202e3cd51a89",
+      "bytes": 82,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "text/plain",
+      "nonempty_lines": 5,
+      "authority": "Explicit listed names and slash-separated aliases only; no inferred kinship, geography, periods or episode appearances.",
+      "source_id": "SRC-CANON-BOSSES"
+    },
+    {
+      "path": "Canon/DragonAndGodNames.md",
+      "sha256": "d9a004525e368773bc944173599679ec00d80959bf4bca7d2246f856d437c25f",
+      "bytes": 308,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "text/plain",
+      "nonempty_lines": 24,
+      "authority": "Explicit listed names and slash-separated aliases only; no inferred kinship, geography, periods or episode appearances.",
+      "source_id": "SRC-CANON-DRAGONANDGODNAMES"
+    },
+    {
+      "path": "Canon/Items.md",
+      "sha256": "2ac0cdfd195c911f83001366e48fa4819ff174a95565ce336654728099daf3a7",
+      "bytes": 114,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "text/plain",
+      "nonempty_lines": 6,
+      "authority": "Explicit listed names and slash-separated aliases only; no inferred kinship, geography, periods or episode appearances.",
+      "source_id": "SRC-CANON-ITEMS"
+    },
+    {
+      "path": "Canon/Other.md",
+      "sha256": "7455f7e8a4227f1faab81e70c389103a5e6dee73c8fc994eab1527a5fc8896b8",
+      "bytes": 358,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "text/plain",
+      "nonempty_lines": 17,
+      "authority": "Explicit listed names and slash-separated aliases only; no inferred kinship, geography, periods or episode appearances.",
+      "source_id": "SRC-CANON-OTHER"
+    },
+    {
+      "path": "Canon/characters.md",
+      "sha256": "f42bb3620fa28426697b4ed512913d99f191d8204d713865f287cf47ee7ecba2",
+      "bytes": 1122,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "text/plain",
+      "nonempty_lines": 98,
+      "authority": "Explicit listed names and slash-separated aliases only; no inferred kinship, geography, periods or episode appearances.",
+      "source_id": "SRC-CANON-CHARACTERS"
+    },
+    {
+      "path": "Canon/locations.md",
+      "sha256": "ee611907e0710d97cc0e81806c6da507f053de19723be120cb6181a162fd14f8",
+      "bytes": 760,
+      "extension": ".md",
+      "encoding": "UTF-8",
+      "content_type": "text/plain",
+      "nonempty_lines": 40,
+      "authority": "Explicit listed names and slash-separated aliases only; no inferred kinship, geography, periods or episode appearances.",
+      "source_id": "SRC-CANON-LOCATIONS"
+    }
+  ],
+  "interpretation": {
+    "WorldData": "JSON documents despite .md extension; episode taken from content and cross-checked with filename. All MAIN_TIMELINE.",
+    "Canon": "Six UTF-8 plain-text name lists; headings provide broad categories. No database-rule file supplied.",
+    "entity_fields": [
+      "n (name)",
+      "t (type)",
+      "a (aliases)",
+      "facts",
+      "new (episode extraction flag, not reliable first appearance)"
+    ],
+    "relationship_fields": [
+      "s (subject)",
+      "r (predicate)",
+      "o (object)",
+      "ev (evidence; 604 records)",
+      "c (evidence variant; 1 record)"
+    ],
+    "travel_variants": [
+      "party",
+      "characters_present",
+      "order",
+      "transport",
+      "from",
+      "to",
+      "via"
+    ],
+    "other_fields": [
+      "lore subject/fact",
+      "uncertainties issue/options or possible_interpretations/manual_review_needed",
+      "new_entities is an index and may reference undeclared names"
+    ]
+  }
+}

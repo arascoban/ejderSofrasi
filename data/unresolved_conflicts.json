@@ -1,0 +1,697 @@
+[
+  {
+    "id": "CNF-0056",
+    "kind": "inconsistent_pantheon_count",
+    "status": "open",
+    "summary": "EP09 says nine primordial dragons yet creates Platin in addition to the nine listed in lore. Canon lists twelve dragon names. Preserve all established entities and the distinct source claims.",
+    "entity_ids": [
+      "DRG-0002",
+      "DRG-0009",
+      "DRG-0012"
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/lore/0/fact"
+      }
+    ],
+    "details": [
+      "nine named by the temple narrative, with other dragons outside that set",
+      "source’s pantheon enumeration incomplete or conflated"
+    ]
+  },
+  {
+    "id": "CNF-0070",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Adnan Körkapak'ın Tayfaya Borçlandığı / Ödediği Ücret",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/uncertainties/1"
+      }
+    ],
+    "details": {
+      "issue": "Adnan Körkapak'ın Tayfaya Borçlandığı / Ödediği Ücret",
+      "options": [
+        "Haftalık 5 gümüş",
+        "Haftalık 1 altın",
+        "Haftalık 50 gümüş"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0074",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Hazine Haritasındaki Yaratık Çizimi",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/uncertainties/2"
+      }
+    ],
+    "details": {
+      "issue": "Hazine Haritasındaki Yaratık Çizimi",
+      "options": [
+        "Ejderha",
+        "Yılan",
+        "Çiyan / Kuru Kafa simgesi"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0080",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Zümrüt Ejderha Şifa Zindanı'nın Çıkış Noktası",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/uncertainties/2"
+      }
+    ],
+    "details": {
+      "issue": "Zümrüt Ejderha Şifa Zindanı'nın Çıkış Noktası",
+      "options": [
+        "Zindanın sonundaki başka bir çıkış kapısı",
+        "Aynı kulübe merdiveni",
+        "Geri dönülemez bir portal"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0081",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Şifa Zindanından Çıkış Yeri ve Zamanı",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/uncertainties/0"
+      }
+    ],
+    "details": {
+      "issue": "Şifa Zindanından Çıkış Yeri ve Zamanı",
+      "options": [
+        "Başka bir kıtada çıkış",
+        "Zaman sıçraması (timelapse) yaşayarak çıkış",
+        "Zaman içinde geriye giderek çıkış"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0083",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "9 Ejderha Panteonunun Tam Dizilimi",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/uncertainties/2"
+      }
+    ],
+    "details": {
+      "issue": "9 Ejderha Panteonunun Tam Dizilimi",
+      "options": [
+        "5 Nolu Konum: Zümrüt Ejderha (Confirmed)",
+        "2 Nolu Konum: Safir Ejderha (Probable)",
+        "Diğer 7 Ejderhanın Sıralaması (Uncertain)"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0085",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Yeşim Asa ve Diğer Eşyaların Güçleri",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/uncertainties/1"
+      }
+    ],
+    "details": {
+      "issue": "Yeşim Asa ve Diğer Eşyaların Güçleri",
+      "options": [
+        "Büyü atan saldırı asası",
+        "Doğa/Şifa odaklı asa"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0089",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Büyülü Eşyaların Tam Güçleri",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/uncertainties/2"
+      }
+    ],
+    "details": {
+      "issue": "Büyülü Eşyaların Tam Güçleri",
+      "options": [
+        "Henüz tam tanımlanmamış ritüel/şifa güçleri",
+        "1-2 gün taşındıktan sonra aktifleşecek özel büyüler"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0095",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Siyah Ejderha Cambazlarının Işınlandığı Lokasyon",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/uncertainties/0"
+      }
+    ],
+    "details": {
+      "issue": "Siyah Ejderha Cambazlarının Işınlandığı Lokasyon",
+      "options": [
+        "Çöl Şehri dışındaki Un Helvası karargahı",
+        "Rastgele bir boyut koordinatı",
+        "Şehir içindeki gizli hücre"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0096",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Kartal Sniper'ın Gerçek Kimliği",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/uncertainties/1"
+      }
+    ],
+    "details": {
+      "issue": "Kartal Sniper'ın Gerçek Kimliği",
+      "options": [
+        "Gelecekte karşılaşılacak özel bir NPC / suikastçı",
+        "Siyah Ejderha ordusunun adsız rütbeli nişancısı"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0104",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Kızıl Komutan'ın Oğlu'nun Gerçek Adı",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/uncertainties/0"
+      }
+    ],
+    "details": {
+      "issue": "Kızıl Komutan'ın Oğlu'nun Gerçek Adı",
+      "options": [
+        "Dubai Hurması (Takma isim)",
+        "Bilinmiyor / Genç Komutan"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0108",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Pastırman'ın Savaş İsteğinin Çöl Şehri ve Helvanar Üzerindeki Gerçek Amacı",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/uncertainties/0"
+      }
+    ],
+    "details": {
+      "issue": "Pastırman'ın Savaş İsteğinin Çöl Şehri ve Helvanar Üzerindeki Gerçek Amacı",
+      "options": [
+        "Şehri düşman faksiyona karşı zafere taşıma",
+        "İki tarafı da kıyıma uğratarak savaşı sonsuz kılma"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0109",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Kızıl Komutan'ın Oğlu'nun (Devran) Gizli Siyasi Bağlantıları",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/uncertainties/1"
+      }
+    ],
+    "details": {
+      "issue": "Kızıl Komutan'ın Oğlu'nun (Devran) Gizli Siyasi Bağlantıları",
+      "options": [
+        "Kırmızı Ejderha taraftarı olma",
+        "Pastırman karşıtı bağımsız vatansever olma"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0113",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "İto İtoğlu'nun Sırtındaki Yok Oluş Bey'in Gelecekte İto'yu Tamamen Ele Geçirme Riski",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/uncertainties/1"
+      }
+    ],
+    "details": {
+      "issue": "İto İtoğlu'nun Sırtındaki Yok Oluş Bey'in Gelecekte İto'yu Tamamen Ele Geçirme Riski",
+      "options": [
+        "İto'nun iradesini tamamen kırıp bedeni kontrol etmesi",
+        "Sadece acıktığında ve arbedede beliren parazit olarak kalması"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0119",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Kalender'in Paladin Büyü Güçlerini Yeniden Kazanma Yolu",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/uncertainties/1"
+      }
+    ],
+    "details": {
+      "issue": "Kalender'in Paladin Büyü Güçlerini Yeniden Kazanma Yolu",
+      "options": [
+        "Pastırman'a kefaret ödeyip savaşa geri dönmesi",
+        "Fighter olarak maceraya devam etmesi"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0124",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Tiamat ve Podcasa Crossover Bağlantısı",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/uncertainties/0"
+      }
+    ],
+    "details": {
+      "issue": "Tiamat ve Podcasa Crossover Bağlantısı",
+      "options": [
+        "Tiamat'ın ölümüyle Podcasa evreninin ejderhalardan koptuğu iddiası",
+        "Ametist Kristali'nin maceracıları manipüle etmek için anlattığı paralel evren masalı"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0125",
+    "kind": "source_uncertainty",
+    "status": "open",
+    "summary": "Sütlaç Sınavının Ardından Maceracıların Çöl Dünyasına Dönüş Yolu",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/uncertainties/1"
+      }
+    ],
+    "details": {
+      "issue": "Sütlaç Sınavının Ardından Maceracıların Çöl Dünyasına Dönüş Yolu",
+      "options": [
+        "Ametist Kristali tarafından Helvanar Çölü'ne geri ışınlanmaları",
+        "Tapınağın yeni bir katına veya Kahvhelin şehrine gönderilmeleri"
+      ]
+    }
+  },
+  {
+    "id": "CNF-0195",
+    "kind": "alias_collision",
+    "status": "open",
+    "summary": "Name or alias resolves to several distinct entities: cemil (papağan)",
+    "entity_ids": [
+      "CRE-0003",
+      "CRE-0028"
+    ],
+    "source_refs": [],
+    "details": {
+      "lookup": "cemil (papağan)"
+    }
+  },
+  {
+    "id": "CNF-0197",
+    "kind": "excluded_relationship",
+    "status": "open",
+    "summary": "Project owner confirmed Dingi Sandalı is a person; the extracted boat PART_OF relation is a classification error and is excluded while its source evidence remains preserved.",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/25"
+      }
+    ],
+    "details": {
+      "original": {
+        "s": "Dingi Sandalı",
+        "r": "PART_OF",
+        "o": "Karapancar Gemisi",
+        "ev": "Karapancar gemisinin karaya çıkış sandalır."
+      }
+    }
+  },
+  {
+    "id": "CNF-0132",
+    "kind": "excluded_relationship",
+    "status": "open",
+    "summary": "This service attribution rests on interpreting the sniper’s attack. EP14 reveals him as the kingdom commander’s son, and EP16 leaves his secret allegiance uncertain. Keep the source claim in unresolved affiliations.",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/12"
+      }
+    ],
+    "details": {
+      "original": {
+        "s": "Kartal Sniper",
+        "r": "SERVES",
+        "o": "Siyah Ejderha Tarikatı",
+        "ev": "Siyah Ejderha tarikatı adına Niani'yi susturmuştur."
+      }
+    }
+  },
+  {
+    "id": "CNF-0133",
+    "kind": "excluded_relationship",
+    "status": "open",
+    "summary": "An accusation of killing does not establish actual hostility or guilt; unresolved assassin identity is explicit in source /uncertainties/0.",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/15"
+      }
+    ],
+    "details": {
+      "original": {
+        "s": "Devran",
+        "r": "ENEMY_OF",
+        "o": "Sancar Devran",
+        "ev": "Babası Sancar Devran'ı suikast oklarıyla öldürmekle suçlanmaktadır."
+      }
+    }
+  },
+  {
+    "id": "CNF-0135",
+    "kind": "excluded_relationship",
+    "status": "open",
+    "summary": "Explicit uncertainty /uncertainties/1 and Jifa's vision say the ruins may be trial illusion or pocket space; direct canonical continent placement must await review.",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/15"
+      }
+    ],
+    "details": {
+      "original": {
+        "s": "Ejderhalar Sofrası Harabeleri",
+        "r": "LOCATED_IN",
+        "o": "Helvanar Kıtası",
+        "ev": "Helvanar Kıtası çöl bölgesindedir."
+      }
+    }
+  },
+  {
+    "id": "CNF-0138",
+    "kind": "excluded_relationship",
+    "status": "open",
+    "summary": "EP23 explicitly leaves the ruins' physical/timeless-trial geography unresolved. Preserve in conflict instead of making canonical continent placement.",
+    "entity_ids": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/18"
+      }
+    ],
+    "details": {
+      "original": {
+        "s": "Ejderhalar Sofrası Harabeleri",
+        "r": "LOCATED_IN",
+        "o": "Helvanar Kıtası",
+        "ev": "Helvanar Kıtası çöl bölgesindedir."
+      }
+    }
+  },
+  {
+    "id": "CNF-0145",
+    "kind": "travel_resolution",
+    "status": "open",
+    "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+    "entity_ids": [
+      "NPC-0046",
+      "NPC-0051"
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/travel/1"
+      }
+    ],
+    "details": {
+      "travel_id": "TRV-0012",
+      "unresolved_locations": [
+        "Bilinmeyen Kozmik Boyut / Evren",
+        "Dev Fener Balığı Midesi"
+      ],
+      "unresolved_travelers": []
+    }
+  },
+  {
+    "id": "CNF-0150",
+    "kind": "travel_resolution",
+    "status": "open",
+    "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083",
+      "NPC-0098"
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/travel/2"
+      }
+    ],
+    "details": {
+      "travel_id": "TRV-0017",
+      "unresolved_locations": [
+        "Yalılar Arası Gizli Geçitler",
+        "Eski Depo ve Surlar"
+      ],
+      "unresolved_travelers": []
+    }
+  },
+  {
+    "id": "CNF-0171",
+    "kind": "travel_resolution",
+    "status": "open",
+    "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+    "entity_ids": [
+      "NPC-0051"
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/3"
+      }
+    ],
+    "details": {
+      "travel_id": "TRV-0040",
+      "unresolved_locations": [
+        "1. Bölge Dış Surları Yan Kapısı",
+        "Çöl Karanlığı"
+      ],
+      "unresolved_travelers": []
+    }
+  },
+  {
+    "id": "CNF-0172",
+    "kind": "travel_resolution",
+    "status": "open",
+    "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+    "entity_ids": [
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0054"
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/0"
+      }
+    ],
+    "details": {
+      "travel_id": "TRV-0041",
+      "unresolved_locations": [
+        "Çöl Meydanı"
+      ],
+      "unresolved_travelers": []
+    }
+  },
+  {
+    "id": "CNF-0174",
+    "kind": "travel_resolution",
+    "status": "open",
+    "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+    "entity_ids": [
+      "NPC-0046",
+      "NPC-0051"
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/2"
+      }
+    ],
+    "details": {
+      "travel_id": "TRV-0043",
+      "unresolved_locations": [
+        "Savaş Alanı Çevresi"
+      ],
+      "unresolved_travelers": []
+    }
+  },
+  {
+    "id": "CNF-0175",
+    "kind": "travel_resolution",
+    "status": "open",
+    "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/3"
+      }
+    ],
+    "details": {
+      "travel_id": "TRV-0044",
+      "unresolved_locations": [
+        "Çöl Semaları (500m İrtifa)"
+      ],
+      "unresolved_travelers": []
+    }
+  },
+  {
+    "id": "CNF-0182",
+    "kind": "travel_resolution",
+    "status": "open",
+    "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/travel/0"
+      }
+    ],
+    "details": {
+      "travel_id": "TRV-0051",
+      "unresolved_locations": [
+        "2. Salon Metal Şef Kapısı"
+      ],
+      "unresolved_travelers": []
+    }
+  },
+  {
+    "id": "CNF-0183",
+    "kind": "travel_resolution",
+    "status": "open",
+    "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/travel/1"
+      }
+    ],
+    "details": {
+      "travel_id": "TRV-0052",
+      "unresolved_locations": [
+        "3. Salon Metal Kapısı"
+      ],
+      "unresolved_travelers": []
+    }
+  },
+  {
+    "id": "CNF-0184",
+    "kind": "travel_resolution",
+    "status": "open",
+    "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+    "entity_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/travel/2"
+      }
+    ],
+    "details": {
+      "travel_id": "TRV-0053",
+      "unresolved_locations": [
+        "4. Salon Metal Kapısı"
+      ],
+      "unresolved_travelers": []
+    }
+  }
+]

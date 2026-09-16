@@ -1,0 +1,22 @@
+{
+  "view_of": "entities.json",
+  "types": [
+    "DRAGON"
+  ],
+  "entity_ids": [
+    "DRG-0001",
+    "DRG-0002",
+    "DRG-0003",
+    "DRG-0005",
+    "DRG-0006",
+    "DRG-0007",
+    "DRG-0008",
+    "DRG-0009",
+    "DRG-0010",
+    "DRG-0011",
+    "DRG-0012",
+    "DRG-0013",
+    "DRG-0014",
+    "DRG-0015"
+  ]
+}

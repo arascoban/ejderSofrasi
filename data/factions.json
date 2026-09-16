@@ -1,0 +1,23 @@
+{
+  "view_of": "entities.json",
+  "types": [
+    "FACTION",
+    "MILITARY_UNIT",
+    "ORGANIZATION"
+  ],
+  "entity_ids": [
+    "ORG-0001",
+    "FAC-0001",
+    "FAC-0002",
+    "MIL-0001",
+    "FAC-0003",
+    "MIL-0002",
+    "MIL-0003",
+    "MIL-0004",
+    "MIL-0005",
+    "MIL-0006",
+    "MIL-0007",
+    "MIL-0008",
+    "FAC-0004"
+  ]
+}

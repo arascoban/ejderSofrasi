@@ -1,0 +1,1877 @@
+{
+  "reviewed_episodes": [
+    "EP09",
+    "EP10",
+    "EP11",
+    "EP12",
+    "EP13",
+    "EP14",
+    "EP15",
+    "EP16"
+  ],
+  "reviewed_canon_files": [
+    "Canon/Bosses.md",
+    "Canon/DragonAndGodNames.md",
+    "Canon/Items.md",
+    "Canon/Other.md",
+    "Canon/characters.md",
+    "Canon/locations.md"
+  ],
+  "merges": [
+    {
+      "names": [
+        "Yeşil Ejderha",
+        "Yeşim Ejderha",
+        "Zümrüt Ejderha"
+      ],
+      "canonical_name": "Zümrüt Ejderha",
+      "reason": "Explicit dragon aliases recur across EP09–EP16; Canon/DragonAndGodNames.md supplies canonical spelling.",
+      "sources": [
+        {
+          "episode": "EP09",
+          "pointer": "/entities/13/a"
+        },
+        {
+          "episode": "EP11",
+          "pointer": "/entities/20/a"
+        },
+        {
+          "episode": "EP16",
+          "pointer": "/entities/14/a"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Kartal Sniper",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Kızıl Komutan'ın Oğlu",
+        "Devran"
+      ],
+      "canonical_name": "Devran",
+      "reason": "EP14 explicitly reveals the sniper is the commander’s son; EP16 explicitly names the son Devran. Canon lists Devran separately from Kızıl Komutan Sancar.",
+      "sources": [
+        {
+          "episode": "EP14",
+          "pointer": "/entities/6/facts/1"
+        },
+        {
+          "episode": "EP14",
+          "pointer": "/lore/2/fact"
+        },
+        {
+          "episode": "EP16",
+          "pointer": "/entities/5/a/2"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)",
+        "Sancar Devran",
+        "Kızıl Komutan Sancar"
+      ],
+      "canonical_name": "Kızıl Komutan Sancar",
+      "reason": "Explicit Kızıl Komutan aliases identify the senior commander, while source calls Devran his son. Use the canonical father’s spelling; never tokenize this compound source name into a Devran alias.",
+      "sources": [
+        {
+          "episode": "EP13",
+          "pointer": "/entities/4"
+        },
+        {
+          "episode": "EP14",
+          "pointer": "/entities/5/a"
+        },
+        {
+          "episode": "EP15",
+          "pointer": "/entities/6/a"
+        },
+        {
+          "episode": "EP16",
+          "pointer": "/entities/5/facts/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Rando",
+        "Gandu"
+      ],
+      "canonical_name": "Gandu",
+      "reason": "EP15 explicitly lists Gandu as an alias of Rando; canonical spelling is Gandu. This merge is based on the explicit alias, not matching occupations.",
+      "sources": [
+        {
+          "episode": "EP15",
+          "pointer": "/entities/4/a/1"
+        },
+        {
+          "episode": "EP14",
+          "pointer": "/entities/7"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Ammon",
+        "Raer",
+        "Raer Ammon"
+      ],
+      "canonical_name": "Raer Ammon",
+      "reason": "EP11 explicitly describes Ammon as Raer’s corrected name and includes Raer as alias; Canon/characters.md combines the names as Raer Ammon. Preserve EP11 source’s conflicting uncertainty as an audit warning.",
+      "sources": [
+        {
+          "episode": "EP11",
+          "pointer": "/entities/5/facts/0"
+        },
+        {
+          "episode": "EP11",
+          "pointer": "/entities/5/a/0"
+        },
+        {
+          "episode": "EP12",
+          "pointer": "/entities/5/a/2"
+        }
+      ]
+    },
+    {
+      "names": [
+        "İbrahim (Kompisaurus)",
+        "İbrahim (Kompi)"
+      ],
+      "canonical_name": "İbrahim (Kompi)",
+      "reason": "Both name the party’s carried minuscule dinosaur; EP11 explicitly aliases İbrahim and Kompi and records the revealed personal name Burak Çikpaka. Canon supplies the qualified canonical name; do not merge the creature species Kompisaurus with this individual.",
+      "sources": [
+        {
+          "episode": "EP09",
+          "pointer": "/entities/33/facts/0"
+        },
+        {
+          "episode": "EP11",
+          "pointer": "/entities/7/a"
+        },
+        {
+          "episode": "EP11",
+          "pointer": "/entities/7/facts/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Dağ Kartalı",
+        "Dağ Şahini"
+      ],
+      "canonical_name": "Dağ Kartalı",
+      "reason": "EP11 explicitly aliases Dağ Şahini for the same sniper-linked scout creature.",
+      "sources": [
+        {
+          "episode": "EP11",
+          "pointer": "/entities/10/a/0"
+        },
+        {
+          "episode": "EP11",
+          "pointer": "/entities/10/facts/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Batan Güneş Kahvesi",
+        "Batangüneş Kahvesi"
+      ],
+      "canonical_name": "Batangüneş Kahvesi",
+      "reason": "EP14 explicitly gives the space-free canonical spelling as an alias; Canon/locations.md confirms that form.",
+      "sources": [
+        {
+          "episode": "EP14",
+          "pointer": "/entities/23/a/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Yamuk Demlik (Demir Yumruk)",
+        "Ariflerin Yumruğu",
+        "Demir Yumruk Ekibi"
+      ],
+      "canonical_name": "Ariflerin Yumruğu",
+      "reason": "EP11 explicitly names the four-person team and its Demir Yumruk alias; EP14 identifies the portrait’s alternate team name. Canon/Other.md explicitly gives Ariflerin Yumruğu / Demir Yumruk Ekibi.",
+      "sources": [
+        {
+          "episode": "EP11",
+          "pointer": "/entities/15"
+        },
+        {
+          "episode": "EP14",
+          "pointer": "/entities/26"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Yeni Ördek (Ördek-ül Deva 2)",
+        "Yeni Ördek"
+      ],
+      "canonical_name": "Yeni Ördek",
+      "reason": "EP14 introduces the acquired bread-loving duck with this qualified name; EP15 calls it Yeni Ördek and explicitly aliases Ördek-ül Deva 2. Do not merge with Roary, who also bears the Ördek-ül Deva title.",
+      "sources": [
+        {
+          "episode": "EP14",
+          "pointer": "/entities/13"
+        },
+        {
+          "episode": "EP15",
+          "pointer": "/entities/13"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Çöl Şehri Kışlası",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "canonical_name": "Çöl Şehri Kışlası",
+      "reason": "EP12 explicitly places the city barracks in the third district and uses the expanded third-district name as a travel destination; EP13 continues there.",
+      "sources": [
+        {
+          "episode": "EP12",
+          "pointer": "/entities/24/facts/0"
+        },
+        {
+          "episode": "EP12",
+          "pointer": "/travel/2/to"
+        },
+        {
+          "episode": "EP13",
+          "pointer": "/entities/16"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Pastırman'ın Demir Eldiveni",
+        "Demir Yumruk Anıtı"
+      ],
+      "canonical_name": "Demir Yumruk Anıtı",
+      "reason": "EP15 explicitly aliases the named iron gauntlet and describes the EP13 divine manifestation becoming a fixed monument. Type should be BUILDING, with original ITEM classification retained in provenance.",
+      "sources": [
+        {
+          "episode": "EP13",
+          "pointer": "/entities/18"
+        },
+        {
+          "episode": "EP15",
+          "pointer": "/entities/25/a/0"
+        },
+        {
+          "episode": "EP15",
+          "pointer": "/entities/25/facts/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Şebekem",
+        "Shebekem"
+      ],
+      "canonical_name": "Shebekem",
+      "reason": "Canonical spelling corrects the repeatedly named intelligence official. This is an orthographic correction of the single source spelling, with no inferred affiliations.",
+      "sources": [
+        {
+          "episode": "EP12",
+          "pointer": "/entities/6"
+        },
+        {
+          "episode": "EP13",
+          "pointer": "/entities/5"
+        }
+      ]
+    },
+    {
+      "names": [
+        "İşu",
+        "İşü"
+      ],
+      "canonical_name": "İşü",
+      "reason": "Canon/characters.md confirms İşü; normalize the one-character ASR spelling while preserving original source name and İşue alias.",
+      "sources": [
+        {
+          "episode": "EP13",
+          "pointer": "/entities/7"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Teyze (Hasta Kızın Annesi)",
+        "Beltis Ana"
+      ],
+      "canonical_name": "Beltis Ana",
+      "reason": "EP14 identifies Beltis Ana as the woman whose daughter Kalender healed; EP12 records that specific mother/daughter healing encounter. Retain the descriptive early name as provenance.",
+      "sources": [
+        {
+          "episode": "EP12",
+          "pointer": "/entities/7/facts/0"
+        },
+        {
+          "episode": "EP12",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "episode": "EP14",
+          "pointer": "/entities/4/facts/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Teyze'nin Evi",
+        "Beltis Ana'nın Evi"
+      ],
+      "canonical_name": "Beltis Ana'nın Evi",
+      "reason": "The early house belongs to the mother of the healed daughter; EP14 identifies that host as Beltis Ana and continues the party’s refuge there. Source-specific interior facts remain separate claims.",
+      "sources": [
+        {
+          "episode": "EP12",
+          "pointer": "/entities/25/facts/0"
+        },
+        {
+          "episode": "EP12",
+          "pointer": "/links/18"
+        },
+        {
+          "episode": "EP14",
+          "pointer": "/entities/24/facts/0"
+        },
+        {
+          "episode": "EP14",
+          "pointer": "/entities/4/facts/0"
+        }
+      ]
+    }
+  ],
+  "entity_overrides": [
+    {
+      "episode": "EP15",
+      "index": 6,
+      "name": "Kızıl Komutan Sancar",
+      "reason": "Canon names the father Kızıl Komutan Sancar; Devran is explicitly his separate son. Preserve the source compound only as full alias."
+    },
+    {
+      "episode": "EP16",
+      "index": 4,
+      "name": "Kızıl Komutan Sancar",
+      "reason": "Canon names the father Kızıl Komutan Sancar; Devran is explicitly his separate son. Preserve the source compound only as full alias."
+    },
+    {
+      "episode": "EP13",
+      "index": 18,
+      "type": "BUILDING",
+      "reason": "The divine gauntlet is fixed in the square and explicitly becomes Demir Yumruk Anıtı in EP15; normalize as monument/building."
+    }
+  ],
+  "relationship_overrides": [
+    {
+      "episode": "EP09",
+      "index": 2,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP09",
+      "index": 20,
+      "subject": "Arifler Okulu Yerleşkesi",
+      "reason": "This geographic assertion describes the physical campus, separate from the institution."
+    },
+    {
+      "episode": "EP11",
+      "index": 1,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP11",
+      "index": 3,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP11",
+      "index": 4,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP11",
+      "index": 5,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP11",
+      "index": 11,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP11",
+      "index": 19,
+      "subject": "Arifler Okulu Yerleşkesi",
+      "reason": "This geographic assertion describes the physical campus, separate from the institution."
+    },
+    {
+      "episode": "EP12",
+      "index": 1,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP12",
+      "index": 6,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP12",
+      "index": 10,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP12",
+      "index": 15,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP12",
+      "index": 17,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP12",
+      "index": 22,
+      "subject": "Arifler Okulu Yerleşkesi",
+      "reason": "This geographic assertion describes the physical campus, separate from the institution."
+    },
+    {
+      "episode": "EP14",
+      "index": 11,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP14",
+      "index": 23,
+      "subject": "Arifler Okulu Yerleşkesi",
+      "reason": "This geographic assertion describes the physical campus, separate from the institution."
+    },
+    {
+      "episode": "EP15",
+      "index": 3,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP15",
+      "index": 8,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP15",
+      "index": 12,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP15",
+      "index": 16,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP15",
+      "index": 21,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP15",
+      "index": 28,
+      "subject": "Arifler Okulu Yerleşkesi",
+      "reason": "This geographic assertion describes the physical campus, separate from the institution."
+    },
+    {
+      "episode": "EP16",
+      "index": 7,
+      "object": "Arifler Okulu Yerleşkesi",
+      "reason": "This assertion concerns physical presence or workplace in the school campus; institution membership remains linked to Arifler Okulu."
+    },
+    {
+      "episode": "EP16",
+      "index": 22,
+      "subject": "Arifler Okulu Yerleşkesi",
+      "reason": "This geographic assertion describes the physical campus, separate from the institution."
+    },
+    {
+      "episode": "EP09",
+      "index": 3,
+      "relation": "POSSESSES",
+      "reason": "The ring is worn; this establishes custody, without a transfer of ownership here."
+    },
+    {
+      "episode": "EP09",
+      "index": 6,
+      "relation": "USES",
+      "reason": "Evidence says the crown was activated, not that ownership was established."
+    },
+    {
+      "episode": "EP09",
+      "index": 8,
+      "relation": "POSSESSES",
+      "reason": "The cup is carried; evidence establishes custody rather than ownership."
+    },
+    {
+      "episode": "EP10",
+      "index": 6,
+      "relation": "USES",
+      "reason": "Crown activation establishes use; EP09 attributes its use to Kalender and no transfer is recorded."
+    },
+    {
+      "episode": "EP10",
+      "index": 8,
+      "relation": "USES",
+      "reason": "Incense activation establishes use, not ownership."
+    },
+    {
+      "episode": "EP10",
+      "index": 15,
+      "relation": "USES",
+      "reason": "The sniper fires these arrows; use is explicit, ownership is not independently established."
+    },
+    {
+      "episode": "EP10",
+      "index": 19,
+      "relation": "DIED_IN",
+      "reason": "A person was killed at a building. DIED_IN states the supported event/location relation without treating a building as an event."
+    },
+    {
+      "episode": "EP12",
+      "index": 9,
+      "relation": "POSSESSES",
+      "reason": "Parasitic crown is attached to İto’s body; attachment/custody does not prove voluntary ownership."
+    },
+    {
+      "episode": "EP12",
+      "index": 12,
+      "relation": "USES",
+      "reason": "Healing with incense establishes use."
+    },
+    {
+      "episode": "EP12",
+      "index": 13,
+      "relation": "USES",
+      "reason": "Healing with the cup establishes use."
+    },
+    {
+      "episode": "EP12",
+      "index": 21,
+      "relation": "WORKS_IN",
+      "reason": "Source calls him barracks commander; preserve the command title in facts, with physical workplace as relationship. No military-unit entity is supplied."
+    },
+    {
+      "episode": "EP13",
+      "index": 10,
+      "relation": "WORKS_IN",
+      "reason": "Source says this is the commander’s headquarters. COMMANDS ordinarily targets units; workplace is explicitly supported."
+    },
+    {
+      "episode": "EP14",
+      "index": 6,
+      "relation": "POSSESSES",
+      "reason": "Crown is worn; no ownership transfer is recorded."
+    },
+    {
+      "episode": "EP14",
+      "index": 13,
+      "relation": "SERVES",
+      "reason": "Being chief commander establishes service to the kingdom, not sovereign command of the kingdom as a polity."
+    },
+    {
+      "episode": "EP15",
+      "index": 6,
+      "relation": "RENTS",
+      "reason": "Evidence explicitly states the ceremony armor was rented, not owned."
+    },
+    {
+      "episode": "EP15",
+      "index": 10,
+      "relation": "USES",
+      "reason": "Crown activation establishes use."
+    },
+    {
+      "episode": "EP15",
+      "index": 14,
+      "relation": "USES",
+      "reason": "Incense activation establishes use."
+    },
+    {
+      "episode": "EP15",
+      "index": 15,
+      "relation": "USES",
+      "reason": "Healing with cup establishes use."
+    },
+    {
+      "episode": "EP15",
+      "index": 18,
+      "relation": "OPERATES",
+      "reason": "Evidence explicitly says Rando operates the shop; preserve this stronger operator relationship."
+    },
+    {
+      "episode": "EP15",
+      "index": 20,
+      "relation": "SERVES",
+      "reason": "Chief military commander serves the kingdom; no sovereignty or command over the polity itself is established."
+    },
+    {
+      "episode": "EP16",
+      "index": 13,
+      "relation": "SERVES",
+      "reason": "Chief military commander serves the kingdom; no sovereignty or command over the polity itself is established."
+    },
+    {
+      "episode": "EP10",
+      "index": 9,
+      "exclude": true,
+      "reason": "Project owner considers Kefir probably the Cambazları leader but does not confirm the command relationship; preserve as an owner-reviewed uncertain claim without an active LEADS edge.",
+      "owner_confirmed": true
+    },
+    {
+      "episode": "EP10",
+      "index": 12,
+      "exclude": true,
+      "reason": "This service attribution rests on interpreting the sniper’s attack. EP14 reveals him as the kingdom commander’s son, and EP16 leaves his secret allegiance uncertain. Keep the source claim in unresolved affiliations."
+    },
+    {
+      "episode": "EP11",
+      "index": 17,
+      "subject": "Ariflerin Yumruğu",
+      "relation": "OWNS",
+      "object": "Jammerül Arif",
+      "reason": "Direction reversed; the item was given to the explicitly named team, not specifically Akmer. The team has four known members."
+    },
+    {
+      "episode": "EP11",
+      "index": 18,
+      "subject": "Roary",
+      "relation": "USES",
+      "object": "Azize'nin Gözyaşları Kadehi",
+      "reason": "Direction reversed; evidence says Roary healed herself using the cup, so use is supported instead of ownership."
+    }
+  ],
+  "supplemental_relationships": [
+    {
+      "episode": "EP12",
+      "subject": "Teyze (Hasta Kızın Annesi)",
+      "relation": "PARENT_OF",
+      "object": "Hasta Kız",
+      "pointer": "/entities/8/facts/0",
+      "evidence": "Explicitly described as the woman’s daughter; this does not infer kinship from a surname.",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP14",
+      "subject": "Kızıl Komutan (Baba)",
+      "relation": "PARENT_OF",
+      "object": "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+      "pointer": "/entities/6/facts/0",
+      "evidence": "The young commander is explicitly described as Kızıl Komutan’s son.",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP11",
+      "subject": "Akmer",
+      "relation": "MEMBER_OF",
+      "object": "Ariflerin Yumruğu",
+      "pointer": "/entities/15/facts/0",
+      "evidence": "The fact explicitly enumerates Akmer, Kalender, İto and Roary as the named team.",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP11",
+      "subject": "Kalender Tütüncüoğlu",
+      "relation": "MEMBER_OF",
+      "object": "Ariflerin Yumruğu",
+      "pointer": "/entities/15/facts/0",
+      "evidence": "The fact explicitly enumerates Akmer, Kalender, İto and Roary as the named team.",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP11",
+      "subject": "İto İtoğlu",
+      "relation": "MEMBER_OF",
+      "object": "Ariflerin Yumruğu",
+      "pointer": "/entities/15/facts/0",
+      "evidence": "The fact explicitly enumerates Akmer, Kalender, İto and Roary as the named team.",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP11",
+      "subject": "Roary",
+      "relation": "MEMBER_OF",
+      "object": "Ariflerin Yumruğu",
+      "pointer": "/entities/15/facts/0",
+      "evidence": "The fact explicitly enumerates Akmer, Kalender, İto and Roary as the named team.",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP16",
+      "subject": "İrmik Helvası Krallığı",
+      "relation": "ALLIED_WITH",
+      "object": "Un Helvası Krallığı",
+      "pointer": "/entities/20/facts/0",
+      "evidence": "İrmik Helvası explicitly allies with Un Helvası and joins the siege.",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP14",
+      "subject": "Batan Güneş Kahvesi",
+      "relation": "LOCATED_IN",
+      "object": "Çöl Şehri 2. Bölge",
+      "pointer": "/links/21/ev",
+      "evidence": "The geographic evidence explicitly places the café in the second district.",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP13",
+      "subject": "Çöl Şehri 3. Bölge Kışlası",
+      "relation": "LOCATED_IN",
+      "object": "Çöl Şehri 3. Bölge",
+      "pointer": "/links/17/ev",
+      "evidence": "The link’s evidence specifies the third district, although its object names only the city.",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP15",
+      "subject": "1. Bölge Bakımevi",
+      "relation": "LOCATED_IN",
+      "object": "Çöl Şehri 1. Bölge",
+      "pointer": "/entities/26/facts/0",
+      "evidence": "The care home is explicitly located in the first district.",
+      "period": "1300 civarı"
+    }
+  ],
+  "events": [
+    {
+      "episode": "EP09",
+      "title": "Tefnut’un seçilmişlere görevi",
+      "summary": "Tefnut, Zümrüt Ejderha yadigarlarını taşıyan ekibi kuşatma altındaki şehre umut olmak ve ön saflarda savaşmak üzere görevlendirip kutsar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Tefnut"
+      ],
+      "location_names": [
+        "Gümüş Ejderha Tapınağı"
+      ],
+      "related_names": [
+        "Zümrüt Ejderha"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/3",
+        "/entities/5/facts/1",
+        "/lore/2/fact"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP09",
+      "title": "Çıkmaz sokaktaki pusu ve Kefir’in ölümü",
+      "summary": "Yaralı kadın rolündeki ajan ekibi tuzağa çeker. Çatışmada Kefir öldürülür ve Siyah Ejderha pusu birliği yenilir.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Kefir",
+        "Yaralı Ajan Kadın"
+      ],
+      "location_names": [
+        "Çöl Şehri Çıkmaz Sokağı (Pusu Bölgesi)"
+      ],
+      "related_names": [
+        "Siyah Ejderha Pusu Grubu"
+      ],
+      "source_pointers": [
+        "/entities/6/facts/1",
+        "/entities/6/facts/2",
+        "/entities/7/facts/0",
+        "/entities/30/facts/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP09",
+      "title": "Tapınaktaki ejderha kozmolojisinin öğrenilmesi",
+      "summary": "Toyya tapınağın hareketli vitrayındaki ejderha döngüsünü anlatır; bu anlatı ejderhaların yaratılıştaki rolleri hakkında bilgi verir.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Toyya"
+      ],
+      "location_names": [
+        "Gümüş Ejderha Tapınağı"
+      ],
+      "related_names": [
+        "Gümüş Ejderha"
+      ],
+      "source_pointers": [
+        "/entities/4/facts/2",
+        "/lore/0/fact"
+      ],
+      "period": "1300 civarı",
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP10",
+      "title": "Terk edilmiş inşaatta çatışma",
+      "summary": "Ekip Un Helvası askerleri ve Siyah Ejderha cambazlarıyla savaşır. Akmer bilincini kaybedip Roary tarafından iyileştirilir; Nacak Reis ölür, iki cambaz ışınlanarak kaçar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Nacak Reis"
+      ],
+      "location_names": [
+        "Çöl Şehri Terk Edilmiş İnşaat"
+      ],
+      "related_names": [
+        "Siyah Ejderha Cambazları"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/2",
+        "/entities/0/facts/3",
+        "/entities/7/facts/1",
+        "/entities/8/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP10",
+      "title": "Niani’nin yakalanması ve sorgulanması",
+      "summary": "Kalender kaçan gözcü Niani’yi yakalar. Niani Mehdi’yi esir alma emrini açıklar ve gizli ıslıkla çağrı yapar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Niani"
+      ],
+      "location_names": [
+        "Çöl Şehri İnşaat Yakını Gizli Ev / Sığınak"
+      ],
+      "related_names": [
+        "Un Helvası Krallığı"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/3",
+        "/entities/5/facts/2",
+        "/travel/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP10",
+      "title": "Niani’nin keskin nişancı tarafından susturulması",
+      "summary": "Niani gizli ıslık çaldıktan sonra surlardaki nişancının özel oklarıyla öldürülür; nişancı uzaklaşır. Nişancının kimliği sonraki bölüm açıklamalarında çözülür.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Niani",
+        "Kartal Sniper"
+      ],
+      "location_names": [
+        "Çöl Şehri Surları"
+      ],
+      "related_names": [
+        "Özel Suikast Okları"
+      ],
+      "source_pointers": [
+        "/entities/5/facts/3",
+        "/entities/6/facts/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP11",
+      "title": "Nişancıdan kaçış ve okula dönüş",
+      "summary": "İto nişancı tarafından vurulur; Kalender ağır yaralı Roary’yi iyileştirir. Ekip iz gizleme büyüsüyle Arifler yerleşkesine döner.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "Çöl Şehri Terk Edilmiş İnşaat",
+        "Arifler Okulu Yerleşkesi"
+      ],
+      "related_names": [
+        "Kartal Sniper"
+      ],
+      "source_pointers": [
+        "/entities/2/facts/1",
+        "/entities/3/facts/1",
+        "/travel/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP11",
+      "title": "Ariflerin Yumruğu’nun adlandırılması",
+      "summary": "Ammon ekibe Ariflerin Yumruğu adını verir ve büyülü takibe karşı Jammerül Arif adlı kurşun muhafazayı teslim eder.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Ammon"
+      ],
+      "location_names": [
+        "Arifler Okulu Yerleşkesi"
+      ],
+      "related_names": [
+        "Ariflerin Yumruğu",
+        "Jammerül Arif"
+      ],
+      "source_pointers": [
+        "/entities/5/facts/2",
+        "/entities/5/facts/3",
+        "/entities/15/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP11",
+      "title": "Yadigarların bedendeki izleri",
+      "summary": "Akmer, Kalender ve Roary bedenlerinde yeşil ejderha pulları oluştuğunu fark ederler; source bunu yadigar kullanımına bağlar. İto’nun sırtındaki dişli iz ayrıca fark edilir.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "Arifler Okulu Yerleşkesi"
+      ],
+      "related_names": [
+        "Zümrüt Ejderha"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/4",
+        "/entities/1/facts/5",
+        "/entities/2/facts/3",
+        "/entities/3/facts/5"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP11",
+      "title": "Kalender’in Pastırman ayini",
+      "summary": "Kalender inanç krizinin ardından Pastırman’a adanmış bir ayin yapar ve tanrısının adını daha fazla duyurması gerektiği sonucuna varır.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu"
+      ],
+      "location_names": [
+        "Arifler Okulu Yerleşkesi"
+      ],
+      "related_names": [
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/3",
+        "/entities/1/facts/4"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP12",
+      "title": "Işık Tacı’nın parazitik biçiminin açığa çıkması",
+      "summary": "Ammon illüzyonu kaldırınca İto’nun tacının kafatasına bağlı kozmik bir parazit olduğu görülür. İto sağladığı güçler nedeniyle lanetin kaldırılmasını reddeder.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Ammon",
+        "Subira"
+      ],
+      "location_names": [
+        "Arifler Okulu Yerleşkesi"
+      ],
+      "related_names": [
+        "Işık Tacı",
+        "Dev Fener Balığı"
+      ],
+      "source_pointers": [
+        "/entities/2/facts/2",
+        "/entities/2/facts/3",
+        "/entities/5/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP12",
+      "title": "Mahalle ve kışlada şifa dağıtılması",
+      "summary": "Kalender hasta kızı iyileştirir; Roary Durgunluk Buhurdanı ve şifa kadehiyle mahalle halkına ve yaralı askerlere yardım eder. Bu faaliyetler Pastırman ve Ördek-ül Şifa hareketlerinin yayılmasını sağlar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Hasta Kız",
+        "Teyze (Hasta Kızın Annesi)",
+        "Opera Sanatçısı Dayı"
+      ],
+      "location_names": [
+        "Teyze'nin Evi",
+        "Çöl Şehri 2. Bölge",
+        "Çöl Şehri Kışlası"
+      ],
+      "related_names": [
+        "Pastırman",
+        "Durgunluk Buhurdanı",
+        "Azize'nin Gözyaşları Kadehi"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/3",
+        "/entities/3/facts/2",
+        "/entities/3/facts/4",
+        "/lore/3/fact"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP12",
+      "title": "Pastırman mitinginin duyurulması",
+      "summary": "Kalender ertesi gün Saat Kulesi önünde Pastırman mitingi düzenleyeceğini duyurur. Bu kayıt bir planı gösterir; sonraki mitingin fiili yeri ve saati ayrı olaylarda izlenir.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu"
+      ],
+      "location_names": [
+        "Saat Kulesi"
+      ],
+      "related_names": [
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/5",
+        "/entities/26/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "planned"
+    },
+    {
+      "episode": "EP13",
+      "title": "Kışla görüşmesinin çatışmaya dönüşmesi",
+      "summary": "İto Kızıl Komutan’ı boğazından yaralar. Büyüyle durdurulan ekip, Roary’nin Akmer’in prangalarını açmasının ardından kışladan kaçar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Kızıl Komutan",
+        "İşu",
+        "Şebekem"
+      ],
+      "location_names": [
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/2/facts/1",
+        "/entities/2/facts/2",
+        "/entities/3/facts/1",
+        "/travel/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP13",
+      "title": "Pastırman’ın demir el mucizesi",
+      "summary": "Kalender’in duasına karşılık Cümle Kapısı önündeki zemin yarılır ve dev dökme demir el Kalender’i havaya kaldırır. Halkın önündeki tezahür daha sonra Demir Yumruk Anıtı olarak anılır.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Roary",
+        "Kızıl Komutan"
+      ],
+      "location_names": [
+        "Çöl Şehri Surları"
+      ],
+      "related_names": [
+        "Pastırman",
+        "Pastırman'ın Demir Eldiveni"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/3",
+        "/entities/8/facts/1",
+        "/lore/0/fact"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP13",
+      "title": "Komutanla geçici uzlaşma",
+      "summary": "Mucizenin ardından Kalender komutanın boğazını iyileştirir ve ertesi gün halk önünde barışçıl görüşme yapmak üzere anlaşır.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Kızıl Komutan"
+      ],
+      "location_names": [
+        "Çöl Şehri Surları"
+      ],
+      "related_names": [
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/4",
+        "/entities/4/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP14",
+      "title": "Kartal Sniper’ın kimliğinin açıklanması",
+      "summary": "Büyülü kask projeksiyonuyla Batangüneş Kahvesi’ndeki görüşmeye katılan genç komutan, Niani ve İto’yu vuran keskin nişancının kendisi olduğunu itiraf eder. Babası Kızıl Komutan’dır.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Akmer",
+        "İto İtoğlu",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)"
+      ],
+      "location_names": [
+        "Batan Güneş Kahvesi"
+      ],
+      "related_names": [
+        "Kızıl Komutan (Baba)"
+      ],
+      "source_pointers": [
+        "/entities/6/facts/0",
+        "/entities/6/facts/1",
+        "/lore/2/fact"
+      ],
+      "period": "1300 civarı",
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP14",
+      "title": "Ön safta savaşma anlaşması",
+      "summary": "Kalender doğruluk çemberi altında görüşür ve savaş sonrasında Pastırman inancını yayma şartıyla ön safta savaşmayı kabul eder.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Akmer",
+        "İto İtoğlu",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)"
+      ],
+      "location_names": [
+        "Batan Güneş Kahvesi"
+      ],
+      "related_names": [
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/3",
+        "/entities/1/facts/4"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP14",
+      "title": "Roary’nin ayrı güzergâhı ve komutanla görüşmesi",
+      "summary": "Roary gölet çevresinden bir ördek edinir; İbrahim’i sokakta bulur. Kışlada Kızıl Komutan ile görüştükten sonra izniyle Arifler yerleşkesine giderek Radam ile buluşur.",
+      "participant_names": [
+        "Roary",
+        "Kızıl Komutan (Baba)",
+        "Radam"
+      ],
+      "location_names": [
+        "Çöl Şehri Gölet Alanı",
+        "Çöl Şehri Kışlası",
+        "Arifler Okulu Yerleşkesi"
+      ],
+      "related_names": [
+        "İbrahim (Kompisaurus)",
+        "Yeni Ördek (Ördek-ül Deva 2)"
+      ],
+      "source_pointers": [
+        "/entities/3/facts/1",
+        "/entities/3/facts/2",
+        "/entities/3/facts/3",
+        "/entities/3/facts/4"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP15",
+      "title": "Kadim silahların teslim alınması",
+      "summary": "Gandu olarak da adlandırılan demirci Rando, Akmer’e Helvacıoğlu Baltası’nı ve Kalender’e Kristal Kılıç’ı verir. Silahların Helvacıoğlu Hanedanı ve ejderha kemikleriyle bağı anlatılır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "Rando"
+      ],
+      "location_names": [
+        "Demirci Dükkanı"
+      ],
+      "related_names": [
+        "Helvacıoğlu Baltası",
+        "Kristal Kılıç",
+        "Helvacıoğlu Hanedanı"
+      ],
+      "source_pointers": [
+        "/entities/4/facts/2",
+        "/entities/27/facts/0",
+        "/entities/28/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP15",
+      "title": "Arifler bahçesine intihar saldırısı",
+      "summary": "Siyah Ejderha fedaileri okul bahçesinde patlama düzenler. Kalender bilincini kaybeder ve kaynak yüzüğün onu ayağa kaldırdığını söyler; Roary yaralıları iyileştirir, İto çatılardaki saldırganlara karşılık verir.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Subira",
+        "Ammon",
+        "Sancar Devran"
+      ],
+      "location_names": [
+        "Arifler Okulu Yerleşkesi"
+      ],
+      "related_names": [
+        "Siyah Ejderha Canlı Bomba ve Suikast Birliği",
+        "Yeniden Yaşam Yüzüğü"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/4",
+        "/entities/2/facts/3",
+        "/entities/3/facts/4",
+        "/entities/36/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP15",
+      "title": "Bakımevi hücresinin ortaya çıkarılması",
+      "summary": "Yakalanan suikastçı sorguda birinci bölgedeki bakımevi hücresini açıklar. Kızıl Komutan buraya baskın yapılmasını emreder; baskının gerçekleştiği bu kayıtta doğrulanmaz.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Sancar Devran"
+      ],
+      "location_names": [
+        "Arifler Okulu Yerleşkesi",
+        "1. Bölge Bakımevi"
+      ],
+      "related_names": [
+        "Siyah Ejderha Canlı Bomba ve Suikast Birliği"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/5",
+        "/entities/6/facts/2",
+        "/entities/26/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP16",
+      "title": "Ejder kemiği silahıyla kan bağı",
+      "summary": "Akmer tapınakta kanını Kristal Kılıç’a aktarır. Kaynak, silahın balta biçimine dönüştüğünü ve Akmer’in can gücüne bağlandığını bildirir; EP15’te ayrı verilen balta ile kimliği çözümlenmemiştir.",
+      "participant_names": [
+        "Akmer",
+        "İto İtoğlu",
+        "Kalender Tütüncüoğlu"
+      ],
+      "location_names": [
+        "Gümüş Ejderha Tapınağı",
+        "Arifler Okulu Yerleşkesi"
+      ],
+      "related_names": [
+        "Kristal Kılıç",
+        "Helvacıoğlu Baltası",
+        "Zümrüt Ejderha"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/1",
+        "/entities/0/facts/2",
+        "/entities/2/facts/1",
+        "/lore/1/fact"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP16",
+      "title": "Kalender’in zırhının büyüyle üretilmesi",
+      "summary": "Ammon, Subira ve öğrenciler on bin altın değerinde elması kullanarak Fabricate ritüeliyle Kalender’in ağır zırhını üretir.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Ammon",
+        "Subira"
+      ],
+      "location_names": [
+        "Arifler Okulu Yerleşkesi"
+      ],
+      "related_names": [
+        "Kalender'in Full Plate Zırhı"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/2",
+        "/entities/8/facts/1",
+        "/entities/30/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP16",
+      "title": "Devran’ın Akmer’e uyarısı",
+      "summary": "Devran tapınak çıkışında Akmer’e Pastırman hareketinin iki tarafı da savaşa sürükleyebileceğini söyler ve acil yardım işareti verebilen kırmızı ejderha figürünü teslim eder.",
+      "participant_names": [
+        "Akmer",
+        "Kızıl Komutan'ın Oğlu"
+      ],
+      "location_names": [
+        "Gümüş Ejderha Tapınağı"
+      ],
+      "related_names": [
+        "Pastırman",
+        "Kırmızı Ejderha Figürü"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/3",
+        "/entities/5/facts/1",
+        "/entities/5/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP16",
+      "title": "Roary’nin kadehle bağlantılı trajediyi görmesi",
+      "summary": "Roary rüyasında kadim bir rahibenin aşk, ihanet, düğün katliamı ve kadehe dönüşme hikâyesini görür. Bu bir rüya yoluyla açıklanan geçmiş iddiasıdır; olayın tarihi ve bağımsız doğruluğu bilinmez.",
+      "participant_names": [
+        "Roary"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Azize'nin Gözyaşları Kadehi"
+      ],
+      "source_pointers": [
+        "/entities/3/facts/2"
+      ],
+      "period": null,
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP16",
+      "title": "Pastırman mitingi ve savunma çağrısı",
+      "summary": "Kalender Cümle Kapısı önünde on binlerce kişiye hitap eder. Kızıl Komutan saldırı karşısında şehri savunma emri verir; birinci bölge mancınık atışlarından zarar görür.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Sancar Devran"
+      ],
+      "location_names": [
+        "Çöl Şehri Surları",
+        "Çöl Şehri 1. Bölge"
+      ],
+      "related_names": [
+        "Pastırman",
+        "Demir Yumruk Anıtı"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/4",
+        "/entities/4/facts/1",
+        "/entities/22/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    }
+  ],
+  "conflicts": [
+    {
+      "kind": "presence_modality",
+      "summary": "Genç Komutan participates in the EP14 café meeting through a magical helmet projection. This supports remote participation, not bodily presence or travel to the café.",
+      "episode": "EP14",
+      "source_pointers": [
+        "/entities/6/facts/0",
+        "/entities/5/facts/2"
+      ],
+      "names": [
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Batan Güneş Kahvesi"
+      ],
+      "options": [
+        "remote magical projection; physical location not stated"
+      ]
+    },
+    {
+      "kind": "uncertain_identity",
+      "summary": "EP09 merges Metal, Bronz and Kahverengi dragons through aliases while Canon lists each separately. Do not unify their IDs until explicitly clarified.",
+      "episode": "EP09",
+      "source_pointers": [
+        "/entities/21/a",
+        "/lore/0/fact"
+      ],
+      "names": [
+        "Metal Ejderha",
+        "Bronz Ejderha",
+        "Kahverengi Ejderha"
+      ],
+      "options": [
+        "distinct dragons",
+        "alternate names; owner confirmation required"
+      ]
+    },
+    {
+      "kind": "uncertain_identity",
+      "summary": "Helvanar Kıtası is assigned alias Helva Adası, but both canonical geographic names exist and differ in geographic class. Same-world different-period context does not establish same landmass.",
+      "episode": "EP09",
+      "source_pointers": [
+        "/entities/35/a/0"
+      ],
+      "names": [
+        "Helvanar Kıtası",
+        "Helva Adası"
+      ],
+      "options": [
+        "separate landmasses",
+        "same landmass under different classification; not established"
+      ]
+    },
+    {
+      "kind": "inconsistent_pantheon_count",
+      "summary": "EP09 says nine primordial dragons yet creates Platin in addition to the nine listed in lore. Canon lists twelve dragon names. Preserve all established entities and the distinct source claims.",
+      "episode": "EP09",
+      "source_pointers": [
+        "/entities/19",
+        "/entities/21",
+        "/lore/0/fact"
+      ],
+      "names": [
+        "Platin Ejderha",
+        "Metal Ejderha",
+        "Bronz Ejderha",
+        "Kahverengi Ejderha"
+      ],
+      "options": [
+        "nine named by the temple narrative, with other dragons outside that set",
+        "source’s pantheon enumeration incomplete or conflated"
+      ]
+    },
+    {
+      "kind": "conflicting_affiliation",
+      "summary": "EP10–EP11 classify Kartal Sniper as a Siyah Ejderha operative; EP14 identifies him as the kingdom commander’s son and EP16 explicitly leaves secret loyalties uncertain. Source-described attacks do not settle allegiance.",
+      "episode": "EP14",
+      "source_pointers": [
+        "/entities/6/facts/1",
+        "/lore/2/fact"
+      ],
+      "names": [
+        "Kartal Sniper",
+        "Devran",
+        "Siyah Ejderha Tarikatı"
+      ],
+      "options": [
+        "kingdom officer acting independently",
+        "covert dragon affiliation",
+        "early extraction misclassification"
+      ]
+    },
+    {
+      "kind": "uncertain_identity",
+      "summary": "Kışla Komutanı in EP12 is unnamed. Kızıl Komutan appears in EP13 and is a senior commander; title/workplace similarity alone cannot prove these records identical.",
+      "episode": "EP12",
+      "source_pointers": [
+        "/entities/10"
+      ],
+      "names": [
+        "Kışla Komutanı",
+        "Kızıl Komutan Sancar"
+      ],
+      "options": [
+        "same commander, not explicitly established",
+        "different officers"
+      ]
+    },
+    {
+      "kind": "uncertain_identity",
+      "summary": "Opera Sanatçısı Dayı is not explicitly named Operacı Nihat in these episodes. A compatible Canon name alone cannot establish identity.",
+      "episode": "EP12",
+      "source_pointers": [
+        "/entities/9"
+      ],
+      "names": [
+        "Opera Sanatçısı Dayı",
+        "Operacı Nihat"
+      ],
+      "options": [
+        "same NPC; explicit identification needed",
+        "different persons"
+      ]
+    },
+    {
+      "kind": "conflicting_item_custody",
+      "summary": "EP09 attributes Işık Tacı use/carrying to Kalender while EP10 onward attaches it to İto. No transfer is recorded here; use relationships retain episode scope and no global exclusive owner is inferred.",
+      "episode": "EP10",
+      "source_pointers": [
+        "/entities/2/facts/3",
+        "/links/6"
+      ],
+      "names": [
+        "Işık Tacı",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu"
+      ],
+      "options": [
+        "unrecorded handover",
+        "source attribution error",
+        "shared use"
+      ]
+    },
+    {
+      "kind": "conflicting_item_custody",
+      "summary": "Yeniden Yaşam Yüzüğü is repeatedly worn by Akmer through EP14, but EP15 attributes its resurrection effect to Kalender. Do not silently replace ownership or assume a transfer.",
+      "episode": "EP15",
+      "source_pointers": [
+        "/entities/1/facts/4",
+        "/entities/32/facts/0"
+      ],
+      "names": [
+        "Yeniden Yaşam Yüzüğü",
+        "Akmer",
+        "Kalender Tütüncüoğlu"
+      ],
+      "options": [
+        "unrecorded transfer",
+        "effect benefits another party member",
+        "source attribution error"
+      ]
+    },
+    {
+      "kind": "conflicting_item_identity",
+      "summary": "EP15 describes separately gifted Helvacıoğlu Baltası (Akmer) and Kristal Kılıç (Kalender). EP16 says Kristal Kılıç transforms into the named axe. Preserve both established item IDs and the transformation claim as unresolved item identity, without collapsing the earlier distinct gifts.",
+      "episode": "EP16",
+      "source_pointers": [
+        "/entities/0/facts/2",
+        "/entities/29/facts/0",
+        "/lore/1/fact"
+      ],
+      "names": [
+        "Helvacıoğlu Baltası",
+        "Kristal Kılıç"
+      ],
+      "options": [
+        "sword transforms into a second axe form",
+        "earlier axe and later transformed weapon were conflated",
+        "one transforming relic with inconsistent extraction"
+      ]
+    },
+    {
+      "kind": "conflicting_doctrine",
+      "summary": "Earlier Zümrüt Ejderha accounts describe sacred healing relics and healing as its domain, whereas EP16 states magical healing violates its doctrine. Preserve source perspective and episode context; do not synthesize a single rule.",
+      "episode": "EP16",
+      "source_pointers": [
+        "/entities/14/facts/0",
+        "/entities/14/facts/1",
+        "/lore/2/fact"
+      ],
+      "names": [
+        "Zümrüt Ejderha",
+        "Durgunluk Buhurdanı",
+        "Azize'nin Gözyaşları Kadehi"
+      ],
+      "options": [
+        "weapon-specific prohibition or personal revelation",
+        "source interpretation error",
+        "different teachings requiring source review"
+      ]
+    },
+    {
+      "kind": "geographic_scope",
+      "summary": "Çöl Şehri Surları means the city’s external wall in EP10 but the third/second district boundary and Cümle Kapısı square in EP13/EP16. The generic wall system and its inner segment must not automatically become one precise map polygon.",
+      "episode": "EP13",
+      "source_pointers": [
+        "/entities/17/facts/0",
+        "/links/18/ev"
+      ],
+      "names": [
+        "Çöl Şehri Surları",
+        "3. Bölge Surları",
+        "Cümle Kapısı Meydanı"
+      ],
+      "options": [
+        "a wall complex containing separate inner/outer sections",
+        "source conflation of distinct structures"
+      ]
+    },
+    {
+      "kind": "conflicting_type",
+      "summary": "Arifler Okulu source entities mix an organization’s membership and leadership with buildings, gardens, travel destinations, and rooms. Normalize the institution and explicit physical campus into separate role entities linked by reviewed evidence only.",
+      "episode": "EP11",
+      "source_pointers": [
+        "/entities/11/facts/0",
+        "/links/9",
+        "/links/19",
+        "/travel/0/to"
+      ],
+      "names": [
+        "Arifler Okulu",
+        "Arifler Okulu Yerleşkesi"
+      ],
+      "options": [
+        "institution and campus distinguished in normalized model"
+      ]
+    },
+    {
+      "kind": "claim_perspective",
+      "summary": "EP16 Roary sees a priestess’s wedding massacre and transformation in a dream; the source does not supply an absolute date or independently verify the vision. Store as revelation, not an occurred circa-1300 massacre.",
+      "episode": "EP16",
+      "source_pointers": [
+        "/entities/3/facts/2"
+      ],
+      "names": [
+        "Roary",
+        "Azize'nin Gözyaşları Kadehi"
+      ],
+      "options": [
+        "vision of an older event",
+        "symbolic dream or unreliable revelation"
+      ]
+    }
+  ],
+  "period_overrides": [
+    {
+      "episode": "EP09",
+      "scope": "scene_default",
+      "period": "1300 civarı",
+      "reason": "The scene occurs during the Yaz Helvası siege in the Helvanar past. The episode’s 1600 tag belongs to the party’s origin/Revania references, not present travel."
+    },
+    {
+      "episode": "EP09",
+      "pointer": "/entities/31/facts/0",
+      "period": "1600 civarı",
+      "reason": "The Revania fact explicitly calls it the future circa-1600 kingdom."
+    },
+    {
+      "episode": "EP15",
+      "pointer": "/entities/37/facts/0",
+      "period": null,
+      "period_text": "Bin yıllar önce",
+      "reason": "Founding and dragon-graveyard discovery precede the circa-1300 scene by thousands of years; exact historical date unknown."
+    },
+    {
+      "episode": "EP15",
+      "pointer": "/lore/0/fact",
+      "period": null,
+      "period_text": "Bin yıllar önce",
+      "reason": "Historical dynasty settlement and sword creation are not circa-1300 events."
+    }
+  ],
+  "alias_exclusions": [
+    {
+      "episode": "EP09",
+      "index": 21,
+      "aliases": [
+        "Bronz Ejderha",
+        "Kahverengi Ejderha"
+      ],
+      "reason": "Canon lists Metal, Bronz and Kahverengi separately; the source conflates them and their identity is not securely established."
+    },
+    {
+      "episode": "EP09",
+      "index": 35,
+      "aliases": [
+        "Helva Adası"
+      ],
+      "reason": "A continent and named island are separately supplied by Canon; preserve identity uncertainty instead of merging via this alias."
+    },
+    {
+      "episode": "EP16",
+      "index": 9,
+      "aliases": [
+        "Ördek-ül Deva"
+      ],
+      "reason": "Shared title with Roary does not establish identity; the acquired individual duck remains separate."
+    },
+    {
+      "episode": "EP17",
+      "index": 12,
+      "aliases": [
+        "Ördek-ül Deva"
+      ],
+      "reason": "Owner confirmed Ördek-ül Deva is Roary's public title; the duck has no specific personal name."
+    }
+  ],
+  "travel_overrides": [
+    {
+      "episode": "EP09",
+      "index": 0,
+      "from": "Arifler Okulu Yerleşkesi",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "episode": "EP09",
+      "index": 1,
+      "to": "Arifler Okulu Yerleşkesi",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "episode": "EP09",
+      "index": 2,
+      "from": "Arifler Okulu Yerleşkesi",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "episode": "EP11",
+      "index": 0,
+      "to": "Arifler Okulu Yerleşkesi",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "episode": "EP12",
+      "index": 0,
+      "from": "Arifler Okulu Yerleşkesi",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "episode": "EP14",
+      "index": 2,
+      "to": "Arifler Okulu Yerleşkesi",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "episode": "EP15",
+      "index": 1,
+      "to": "Arifler Okulu Yerleşkesi",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "episode": "EP16",
+      "index": 0,
+      "from": "Arifler Okulu Yerleşkesi",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "episode": "EP16",
+      "index": 1,
+      "from": "Arifler Okulu Yerleşkesi",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "episode": "EP14",
+      "index": 2,
+      "via": [
+        "3. Bölge Cümle Kapısı",
+        "Çöl Şehri 3. Bölge",
+        "Çöl Şehri Kışlası"
+      ],
+      "to": "Arifler Okulu Yerleşkesi",
+      "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list.",
+      "source_pointers": [
+        "/entities/3/facts/3"
+      ]
+    },
+    {
+      "episode": "EP14",
+      "index": 1,
+      "remove_party": [
+        "İbrahim (Kompisaurus)"
+      ],
+      "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved.",
+      "source_pointers": [
+        "/entities/3/facts/2",
+        "/entities/12/facts/0"
+      ]
+    }
+  ],
+  "additional_entities": [
+    {
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "reason": "Role normalization of explicitly described physical campus, not newly invented geography. Institutional membership stays on the ORGANIZATION. No unsupported institution OPERATES campus relationship is inferred.",
+      "sources": [
+        {
+          "episode": "EP09",
+          "pointer": "/entities/25/facts/0"
+        },
+        {
+          "episode": "EP11",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "episode": "EP12",
+          "pointer": "/entities/19/facts/0"
+        },
+        {
+          "episode": "EP16",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "facts": [
+        {
+          "text": "Çöl Şehri 3. Bölgesi’ndeki büyü okulu yerleşkesinde Subira’nın atölyesi, öğrenci misafirhanesi, hamam, kütüphane ve bahçe bulunur.",
+          "sources": [
+            {
+              "episode": "EP11",
+              "pointer": "/entities/11/facts/0"
+            },
+            {
+              "episode": "EP12",
+              "pointer": "/entities/19/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relation_vocabulary_extensions": {
+    "USES": "Subject activates, wears, or makes use of an object; does not imply ownership.",
+    "POSSESSES": "Subject physically carries or has custody of an object at the cited episode; does not imply legal/exclusive ownership.",
+    "RENTS": "Subject rents the object at the cited episode.",
+    "DIED_IN": "Person or creature dies at the referenced location, with explicit source support."
+  }
+}

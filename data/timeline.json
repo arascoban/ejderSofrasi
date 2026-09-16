@@ -1,0 +1,3047 @@
+[
+  {
+    "event_id": "EVT-0002",
+    "episode": "EP00",
+    "period": null,
+    "title": "Akmer'in aileden kaçışı",
+    "summary_fact_id": "FCT-2d75c1dde0c22542",
+    "event_status": "historical",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/0/facts/4"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "FAM-0004",
+      "KNG-0005"
+    ]
+  },
+  {
+    "event_id": "EVT-0003",
+    "episode": "EP00",
+    "period": "1600 civarı",
+    "title": "Karapancar ile yola çıkış hazırlığı",
+    "summary_fact_id": "FCT-1827f55c3f00dc26",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/travel/3"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/travel/4"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0004",
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "PRT-0001"
+    ],
+    "related_entity_ids": [
+      "SHP-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0004",
+    "episode": "EP00",
+    "period": null,
+    "title": "Tütüncüoğlu ailesinin katliamından sağ kalış",
+    "summary_fact_id": "FCT-9971dad5e1be2497",
+    "event_status": "historical",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0051"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "FAM-0005"
+    ]
+  },
+  {
+    "event_id": "EVT-0005",
+    "episode": "EP01",
+    "period": "1600 civarı",
+    "title": "Karapancar yönetiminin ele geçirilmesi",
+    "summary_fact_id": "FCT-8745bb4498e956f7",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/4/facts/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0004",
+      "NPC-0006",
+      "NPC-0051"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "SHP-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0006",
+    "episode": "EP01",
+    "period": "1600 civarı",
+    "title": "Ambardaki esirlerin keşfi",
+    "summary_fact_id": "FCT-089eb5bb2ba5bf83",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/3/facts/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0083"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "SHP-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0007",
+    "episode": "EP01",
+    "period": "1600 civarı",
+    "title": "Kaptanın gizli hazine kayıtlarının bulunması",
+    "summary_fact_id": "FCT-c6c93df18526ad02",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/4/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0046"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "ITM-0008",
+      "NPC-0004",
+      "NPC-0052",
+      "SHP-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0008",
+    "episode": "EP02",
+    "period": "1600 civarı",
+    "title": "Pıyan ile çatışma ve İto'nun kurtarılması",
+    "summary_fact_id": "FCT-7a653a0749c81f2d",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/2/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0081"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "DEI-0011",
+      "ITM-0005",
+      "SHP-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0009",
+    "episode": "EP02",
+    "period": "1600 civarı",
+    "title": "Hazine Haritası'nın bulunması",
+    "summary_fact_id": "FCT-e55047cdbb6b7277",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/23/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0051",
+      "NPC-0095"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "ISL-0004",
+      "ITM-0011",
+      "OTH-0002",
+      "SHP-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0010",
+    "episode": "EP02",
+    "period": "1600 civarı",
+    "title": "Esir ayaklanmasının bastırılması",
+    "summary_fact_id": "FCT-a9108e170e143f6b",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/21/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0073",
+      "NPC-0083"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "SHP-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0011",
+    "episode": "EP03",
+    "period": "1600 civarı",
+    "title": "Kaptan Adnan'ın ölümü",
+    "summary_fact_id": "FCT-7407d96500dc8d13",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/4/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0004",
+      "NPC-0006",
+      "NPC-0046"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "SHP-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0012",
+    "episode": "EP03",
+    "period": "1600 civarı",
+    "title": "Gizemler Adası'na çıkış",
+    "summary_fact_id": "FCT-c46fafee61495bdd",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/21/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0017",
+      "NPC-0024",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083",
+      "OTH-0001"
+    ],
+    "location_ids": [
+      "ISL-0001"
+    ],
+    "related_entity_ids": [
+      "NPC-0024",
+      "SHP-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0013",
+    "episode": "EP03",
+    "period": "1600 civarı",
+    "title": "Dev timsahla ölümcül mücadele",
+    "summary_fact_id": "FCT-39df28d06b9000bd",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/22/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "CRE-0008",
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083",
+      "OTH-0001"
+    ],
+    "location_ids": [
+      "ISL-0001"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0014",
+    "episode": "EP04",
+    "period": "1600 civarı",
+    "title": "Dev zırhlı yaratığın saldırısı",
+    "summary_fact_id": "FCT-e1dd74cdac5fb2b7",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/0/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/1/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "CRE-0009",
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "ISL-0001"
+    ],
+    "related_entity_ids": [
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0015",
+    "episode": "EP04",
+    "period": "1600 civarı",
+    "title": "Zümrüt Ejderha Pulu'nun sırrı",
+    "summary_fact_id": "FCT-1aacca2d7efd727e",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/facts/2"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/facts/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0068",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0009",
+      "NAT-0004"
+    ],
+    "related_entity_ids": [
+      "DRG-0014",
+      "EVT-0001",
+      "TMP-0003"
+    ]
+  },
+  {
+    "event_id": "EVT-0016",
+    "episode": "EP04",
+    "period": null,
+    "title": "Büyük Ejderha Savaşları ve pulun düşüşü",
+    "summary_fact_id": "FCT-fa16d169f2b8716f",
+    "event_status": "historical",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/10/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/20/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "DRG-0014"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "EVT-0001",
+      "NAT-0004"
+    ]
+  },
+  {
+    "event_id": "EVT-0017",
+    "episode": "EP05",
+    "period": "1600 civarı",
+    "title": "Şampiyonların Feneri ile tapınağa giriş",
+    "summary_fact_id": "FCT-2daee88a6a5665e5",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/travel/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "CRE-0012",
+      "CRE-0028",
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0068",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0003"
+    ],
+    "related_entity_ids": [
+      "ITM-0037"
+    ]
+  },
+  {
+    "event_id": "EVT-0018",
+    "episode": "EP05",
+    "period": "1600 civarı",
+    "title": "Zindan tuzaklarının aşılması",
+    "summary_fact_id": "FCT-cf2195db6e32c3b4",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/3/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0003"
+    ],
+    "related_entity_ids": [
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0019",
+    "episode": "EP05",
+    "period": "1600 civarı",
+    "title": "Şifa vadisinin dönüşüm gücünün keşfi",
+    "summary_fact_id": "FCT-a76f7077bb06be03",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/travel/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "NAT-0002"
+    ],
+    "related_entity_ids": [
+      "TMP-0003"
+    ]
+  },
+  {
+    "event_id": "EVT-0020",
+    "episode": "EP06",
+    "period": "1600 civarı",
+    "title": "Jifa'nın yardımlaşma sınavı",
+    "summary_fact_id": "FCT-b83704911f8ea88a",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0049",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0003"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0021",
+    "episode": "EP06",
+    "period": "1600 civarı",
+    "title": "Zümrüt yüzüğün alınması",
+    "summary_fact_id": "FCT-2efd1af653ac714c",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/7/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006"
+    ],
+    "location_ids": [
+      "TMP-0003"
+    ],
+    "related_entity_ids": [
+      "ITM-0031"
+    ]
+  },
+  {
+    "event_id": "EVT-0022",
+    "episode": "EP06",
+    "period": "1600 civarı",
+    "title": "Fener balığının boyutsal saldırısı",
+    "summary_fact_id": "FCT-aeb150f5dc2eb59e",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/travel/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "CRE-0002",
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0003"
+    ],
+    "related_entity_ids": [
+      "ITM-0036"
+    ]
+  },
+  {
+    "event_id": "EVT-0023",
+    "episode": "EP07",
+    "period": "1600 civarı",
+    "title": "Köpo ve Meşrep ile karşılaşma",
+    "summary_fact_id": "FCT-dfc7db00d15d24a1",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/5/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0058",
+      "NPC-0064",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0003"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0024",
+    "episode": "EP07",
+    "period": "1600 civarı",
+    "title": "Pastırman'ın müdahalesi ve kurtuluş",
+    "summary_fact_id": "FCT-0ab6c00c504eb151",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/9/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "CRE-0002",
+      "DEI-0011",
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0058",
+      "NPC-0064",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0003"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0025",
+    "episode": "EP07",
+    "period": "1600 civarı",
+    "title": "Kutsal eşyaların çıkarılması",
+    "summary_fact_id": "FCT-eecd49bca922ab53",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/3/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0058",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0003"
+    ],
+    "related_entity_ids": [
+      "ITM-0004",
+      "ITM-0009",
+      "ITM-0036"
+    ]
+  },
+  {
+    "event_id": "EVT-0026",
+    "episode": "EP07",
+    "period": "1300 civarı",
+    "title": "Çöl Şehri'ne çıkış ve bombardıman",
+    "summary_fact_id": "FCT-e12b07bd146a6e32",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "CIT-0006"
+    ],
+    "related_entity_ids": [
+      "TMP-0003"
+    ]
+  },
+  {
+    "event_id": "EVT-0027",
+    "episode": "EP08",
+    "period": "1300 civarı",
+    "title": "Dennu'nun kızının iyileştirilmesi",
+    "summary_fact_id": "FCT-36b3162701b71e5d",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/4/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0022",
+      "NPC-0051"
+    ],
+    "location_ids": [
+      "CIT-0006"
+    ],
+    "related_entity_ids": [
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0028",
+    "episode": "EP08",
+    "period": "1300 civarı",
+    "title": "Ariflerle görüşme ve seçilmişlerin tanınması",
+    "summary_fact_id": "FCT-3185817aa1cfbc7c",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/2/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "NPC-0008",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "CIT-0006"
+    ],
+    "related_entity_ids": [
+      "DRG-0014",
+      "ORG-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0029",
+    "episode": "EP08",
+    "period": "1300 civarı",
+    "title": "Helvanar'ın geçmişine varıldığının anlaşılması",
+    "summary_fact_id": "FCT-a26299f92bdbfc64",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/25/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0046"
+    ],
+    "location_ids": [
+      "CIT-0006",
+      "CON-0001"
+    ],
+    "related_entity_ids": [
+      "KNG-0008"
+    ]
+  },
+  {
+    "event_id": "EVT-0030",
+    "episode": "EP08",
+    "period": "1300 civarı",
+    "title": "Helva krallıkları kuşatması",
+    "summary_fact_id": "FCT-502baab1e4504fb9",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [],
+    "location_ids": [
+      "CIT-0006",
+      "CON-0001"
+    ],
+    "related_entity_ids": [
+      "DRG-0006",
+      "KNG-0003",
+      "KNG-0007",
+      "KNG-0008"
+    ]
+  },
+  {
+    "event_id": "EVT-0031",
+    "episode": "EP08",
+    "period": "1300 civarı",
+    "title": "Dört kutsal yadigarın güçlerinin öğrenilmesi",
+    "summary_fact_id": "FCT-0e22f3833c09c406",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/20"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "CIT-0006"
+    ],
+    "related_entity_ids": [
+      "ITM-0004",
+      "ITM-0009",
+      "ITM-0031",
+      "ITM-0036",
+      "ORG-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0065",
+    "episode": "EP09",
+    "period": "1300 civarı",
+    "title": "Tefnut’un seçilmişlere görevi",
+    "summary_fact_id": "FCT-7354bd55858c2b4c",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/lore/2/fact"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083",
+      "NPC-0092"
+    ],
+    "location_ids": [
+      "TMP-0002"
+    ],
+    "related_entity_ids": [
+      "DRG-0014"
+    ]
+  },
+  {
+    "event_id": "EVT-0066",
+    "episode": "EP09",
+    "period": "1300 civarı",
+    "title": "Çıkmaz sokaktaki pusu ve Kefir’in ölümü",
+    "summary_fact_id": "FCT-b1bf68174d4cac33",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/30/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0056",
+      "NPC-0083",
+      "NPC-0098"
+    ],
+    "location_details": [
+      {
+        "label": "Çöl Şehri Çıkmaz Sokağı (Pusu Bölgesi)",
+        "context_id": "DIS-0006"
+      }
+    ],
+    "location_ids": [
+      "DIS-0006"
+    ],
+    "related_entity_ids": [
+      "MIL-0008"
+    ]
+  },
+  {
+    "event_id": "EVT-0067",
+    "episode": "EP09",
+    "period": "1300 civarı",
+    "title": "Tapınaktaki ejderha kozmolojisinin öğrenilmesi",
+    "summary_fact_id": "FCT-14f0052e22490091",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/lore/0/fact"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083",
+      "NPC-0094"
+    ],
+    "location_ids": [
+      "TMP-0002"
+    ],
+    "related_entity_ids": [
+      "DRG-0003"
+    ]
+  },
+  {
+    "event_id": "EVT-0068",
+    "episode": "EP10",
+    "period": "1300 civarı",
+    "title": "Terk edilmiş inşaatta çatışma",
+    "summary_fact_id": "FCT-53e3a9118e4d8c31",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0069",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0021"
+    ],
+    "related_entity_ids": [
+      "MIL-0005"
+    ]
+  },
+  {
+    "event_id": "EVT-0069",
+    "episode": "EP10",
+    "period": "1300 civarı",
+    "title": "Niani’nin yakalanması ve sorgulanması",
+    "summary_fact_id": "FCT-a35302b5093a23e9",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/travel/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0070",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0024"
+    ],
+    "related_entity_ids": [
+      "KNG-0007"
+    ]
+  },
+  {
+    "event_id": "EVT-0070",
+    "episode": "EP10",
+    "period": "1300 civarı",
+    "title": "Niani’nin keskin nişancı tarafından susturulması",
+    "summary_fact_id": "FCT-e1f72958e6a4fa9e",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/5/facts/3"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/6/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0023",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0070",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0020"
+    ],
+    "related_entity_ids": [
+      "ITM-0035"
+    ]
+  },
+  {
+    "event_id": "EVT-0071",
+    "episode": "EP11",
+    "period": "1300 civarı",
+    "title": "Nişancıdan kaçış ve okula dönüş",
+    "summary_fact_id": "FCT-2b8a23ab9e29acd8",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/travel/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0021",
+      "BLD-0023"
+    ],
+    "related_entity_ids": [
+      "NPC-0023"
+    ]
+  },
+  {
+    "event_id": "EVT-0072",
+    "episode": "EP11",
+    "period": "1300 civarı",
+    "title": "Ariflerin Yumruğu’nun adlandırılması",
+    "summary_fact_id": "FCT-cf72f65d13874c60",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/5/facts/3"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/15/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0023"
+    ],
+    "related_entity_ids": [
+      "FAC-0001",
+      "ITM-0017"
+    ]
+  },
+  {
+    "event_id": "EVT-0073",
+    "episode": "EP11",
+    "period": "1300 civarı",
+    "title": "Yadigarların bedendeki izleri",
+    "summary_fact_id": "FCT-21dc654d2416e51d",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/0/facts/4"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/1/facts/5"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/3/facts/5"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0023"
+    ],
+    "related_entity_ids": [
+      "DRG-0014"
+    ]
+  },
+  {
+    "event_id": "EVT-0074",
+    "episode": "EP11",
+    "period": "1300 civarı",
+    "title": "Kalender’in Pastırman ayini",
+    "summary_fact_id": "FCT-2c4f24021750258e",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/1/facts/4"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0051"
+    ],
+    "location_ids": [
+      "BLD-0023"
+    ],
+    "related_entity_ids": [
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0075",
+    "episode": "EP12",
+    "period": "1300 civarı",
+    "title": "Işık Tacı’nın parazitik biçiminin açığa çıkması",
+    "summary_fact_id": "FCT-a7a90d4f72960e57",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/5/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083",
+      "NPC-0089"
+    ],
+    "location_ids": [
+      "BLD-0023"
+    ],
+    "related_entity_ids": [
+      "CRE-0002",
+      "ITM-0036"
+    ]
+  },
+  {
+    "event_id": "EVT-0076",
+    "episode": "EP12",
+    "period": "1300 civarı",
+    "title": "Mahalle ve kışlada şifa dağıtılması",
+    "summary_fact_id": "FCT-27dec2c7cd934185",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/lore/3/fact"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0014",
+      "NPC-0037",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0072",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0002",
+      "BLD-0018",
+      "DIS-0004"
+    ],
+    "related_entity_ids": [
+      "DEI-0011",
+      "ITM-0004",
+      "ITM-0009"
+    ]
+  },
+  {
+    "event_id": "EVT-0077",
+    "episode": "EP12",
+    "period": "1300 civarı",
+    "title": "Pastırman mitinginin duyurulması",
+    "summary_fact_id": "FCT-9a4f078497608e43",
+    "event_status": "planned",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/1/facts/5"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/26/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0051"
+    ],
+    "location_ids": [
+      "BLD-0011"
+    ],
+    "related_entity_ids": [
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0078",
+    "episode": "EP13",
+    "period": "1300 civarı",
+    "title": "Kışla görüşmesinin çatışmaya dönüşmesi",
+    "summary_fact_id": "FCT-6a5beeb2d1a3c40d",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/travel/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0047",
+      "NPC-0051",
+      "NPC-0060",
+      "NPC-0083",
+      "NPC-0087"
+    ],
+    "location_ids": [
+      "BLD-0018"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0079",
+    "episode": "EP13",
+    "period": "1300 civarı",
+    "title": "Pastırman’ın demir el mucizesi",
+    "summary_fact_id": "FCT-8e08aef62c318688",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/lore/0/fact"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0051",
+      "NPC-0060",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0020"
+    ],
+    "related_entity_ids": [
+      "BLD-0003",
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0080",
+    "episode": "EP13",
+    "period": "1300 civarı",
+    "title": "Komutanla geçici uzlaşma",
+    "summary_fact_id": "FCT-728c311af6dd12ad",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0051",
+      "NPC-0060"
+    ],
+    "location_ids": [
+      "BLD-0020"
+    ],
+    "related_entity_ids": [
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0081",
+    "episode": "EP14",
+    "period": "1300 civarı",
+    "title": "Kartal Sniper’ın kimliğinin açıklanması",
+    "summary_fact_id": "FCT-536f6f3b821c5094",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/lore/2/fact"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0023",
+      "NPC-0046",
+      "NPC-0051"
+    ],
+    "location_ids": [
+      "TAV-0001"
+    ],
+    "related_entity_ids": [
+      "NPC-0060"
+    ]
+  },
+  {
+    "event_id": "EVT-0082",
+    "episode": "EP14",
+    "period": "1300 civarı",
+    "title": "Ön safta savaşma anlaşması",
+    "summary_fact_id": "FCT-633c50f56e923615",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/1/facts/4"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0023",
+      "NPC-0046",
+      "NPC-0051"
+    ],
+    "location_ids": [
+      "TAV-0001"
+    ],
+    "related_entity_ids": [
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0083",
+    "episode": "EP14",
+    "period": "1300 civarı",
+    "title": "Roary’nin ayrı güzergâhı ve komutanla görüşmesi",
+    "summary_fact_id": "FCT-3164285185ca11ad",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/4"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0060",
+      "NPC-0082",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0018",
+      "BLD-0023",
+      "NAT-0008"
+    ],
+    "related_entity_ids": [
+      "CRE-0012",
+      "CRE-0026"
+    ]
+  },
+  {
+    "event_id": "EVT-0084",
+    "episode": "EP15",
+    "period": "1300 civarı",
+    "title": "Kadim silahların teslim alınması",
+    "summary_fact_id": "FCT-93fc17dc2983e2d8",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/27/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/28/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0032",
+      "NPC-0051"
+    ],
+    "location_ids": [
+      "BLD-0004"
+    ],
+    "related_entity_ids": [
+      "DYN-0001",
+      "ITM-0012"
+    ]
+  },
+  {
+    "event_id": "EVT-0085",
+    "episode": "EP15",
+    "period": "1300 civarı",
+    "title": "Arifler bahçesine intihar saldırısı",
+    "summary_fact_id": "FCT-8e4de08a26ae8c23",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/36/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0060",
+      "NPC-0083",
+      "NPC-0089"
+    ],
+    "location_ids": [
+      "BLD-0023"
+    ],
+    "related_entity_ids": [
+      "ITM-0031",
+      "MIL-0006"
+    ]
+  },
+  {
+    "event_id": "EVT-0086",
+    "episode": "EP15",
+    "period": "1300 civarı",
+    "title": "Bakımevi hücresinin ortaya çıkarılması",
+    "summary_fact_id": "FCT-435be189d67ff808",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/1/facts/5"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/26/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0051",
+      "NPC-0060"
+    ],
+    "location_ids": [
+      "BLD-0001",
+      "BLD-0023"
+    ],
+    "related_entity_ids": [
+      "MIL-0006"
+    ]
+  },
+  {
+    "event_id": "EVT-0087",
+    "episode": "EP16",
+    "period": "1300 civarı",
+    "title": "Ejder kemiği silahıyla kan bağı",
+    "summary_fact_id": "FCT-adbc58f6e6f7c925",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/0/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/lore/1/fact"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051"
+    ],
+    "location_ids": [
+      "BLD-0023",
+      "TMP-0002"
+    ],
+    "related_entity_ids": [
+      "DRG-0014",
+      "ITM-0012"
+    ]
+  },
+  {
+    "event_id": "EVT-0088",
+    "episode": "EP16",
+    "period": "1300 civarı",
+    "title": "Kalender’in zırhının büyüyle üretilmesi",
+    "summary_fact_id": "FCT-0dfa6abbf047f938",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/30/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0007",
+      "NPC-0051",
+      "NPC-0089"
+    ],
+    "location_ids": [
+      "BLD-0023"
+    ],
+    "related_entity_ids": [
+      "ITM-0019"
+    ]
+  },
+  {
+    "event_id": "EVT-0089",
+    "episode": "EP16",
+    "period": "1300 civarı",
+    "title": "Devran’ın Akmer’e uyarısı",
+    "summary_fact_id": "FCT-4ac240f4ecf65c66",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/5/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0023"
+    ],
+    "location_ids": [
+      "TMP-0002"
+    ],
+    "related_entity_ids": [
+      "DEI-0011",
+      "ITM-0024"
+    ]
+  },
+  {
+    "event_id": "EVT-0090",
+    "episode": "EP16",
+    "period": null,
+    "title": "Roary’nin kadehle bağlantılı trajediyi görmesi",
+    "summary_fact_id": "FCT-61d9d951578a54b1",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/3/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0083"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "ITM-0004"
+    ]
+  },
+  {
+    "event_id": "EVT-0091",
+    "episode": "EP16",
+    "period": "1300 civarı",
+    "title": "Pastırman mitingi ve savunma çağrısı",
+    "summary_fact_id": "FCT-257d83e53c562643",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/22/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0060",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0020",
+      "DIS-0003"
+    ],
+    "related_entity_ids": [
+      "BLD-0003",
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0032",
+    "episode": "EP17",
+    "period": "1300 civarı",
+    "title": "Kalender ile Kavurhan'ın düellosu",
+    "summary_fact_id": "FCT-5ca32f1e2e73f962",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0054",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0016"
+    ],
+    "related_entity_ids": [
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0033",
+    "episode": "EP17",
+    "period": "1300 civarı",
+    "title": "Kozmik savaş boyutuna sürgün ve dönüş",
+    "summary_fact_id": "FCT-8c677d53c4bddbd4",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/0/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0051",
+      "NPC-0054"
+    ],
+    "location_ids": [
+      "REG-0001"
+    ],
+    "related_entity_ids": [
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0034",
+    "episode": "EP17",
+    "period": "1300 civarı",
+    "title": "Bir günlük ateşkes ve müzakere",
+    "summary_fact_id": "FCT-72944933a65d8a69",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4/facts/3"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/5/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0054",
+      "NPC-0060",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0005"
+    ],
+    "related_entity_ids": [
+      "ITM-0021"
+    ]
+  },
+  {
+    "event_id": "EVT-0035",
+    "episode": "EP17",
+    "period": "1300 civarı",
+    "title": "Rejenerasyonun zayıf noktasının araştırılması",
+    "summary_fact_id": "FCT-2976580b22554e4c",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/6/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0007",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "ITM-0021",
+      "ORG-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0036",
+    "episode": "EP18",
+    "period": "1300 civarı",
+    "title": "Kızıl Komutan'a suikast",
+    "summary_fact_id": "FCT-e7330aeaee92a751",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/uncertainties/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0060",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0018"
+    ],
+    "related_entity_ids": [
+      "ITM-0035",
+      "NPC-0023"
+    ]
+  },
+  {
+    "event_id": "EVT-0037",
+    "episode": "EP18",
+    "period": "1300 civarı",
+    "title": "Komutanlığın devri ve olağanüstü hal",
+    "summary_fact_id": "FCT-383b86b55c4924fa",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0062"
+    ],
+    "location_ids": [
+      "CIT-0006"
+    ],
+    "related_entity_ids": [
+      "KNG-0008",
+      "NPC-0060"
+    ]
+  },
+  {
+    "event_id": "EVT-0038",
+    "episode": "EP18",
+    "period": "1300 civarı",
+    "title": "Yokoluş Bey'in kendini açıklaması ve gözaltı",
+    "summary_fact_id": "FCT-d7d8cce70b0f7a50",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7/facts/2"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/2/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "CRE-0027",
+      "NPC-0046",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0018"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0039",
+    "episode": "EP18",
+    "period": "1300 civarı",
+    "title": "Nezarethanede kaçış girişimi",
+    "summary_fact_id": "FCT-7638c852d6c15fba",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/0/facts/4"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/2/facts/4"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0018"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0040",
+    "episode": "EP19",
+    "period": "1300 civarı",
+    "title": "Kışladan kanlı kaçış",
+    "summary_fact_id": "FCT-9c3357a27d9a7260",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0018",
+      "DIS-0003"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0041",
+    "episode": "EP19",
+    "period": "1300 civarı",
+    "title": "Pastırman Anıtı'nın kaybolması",
+    "summary_fact_id": "FCT-e69ee31ed7678990",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/10/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0051"
+    ],
+    "location_ids": [
+      "DIS-0003"
+    ],
+    "related_entity_ids": [
+      "BLD-0003",
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0042",
+    "episode": "EP19",
+    "period": "1300 civarı",
+    "title": "Kalender'in tek başına kuşatma kampına gidişi",
+    "summary_fact_id": "FCT-94d9462d9e4ab9a3",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0051",
+      "NPC-0054"
+    ],
+    "location_ids": [
+      "REG-0002"
+    ],
+    "related_entity_ids": [
+      "MIL-0004",
+      "NPC-0060"
+    ]
+  },
+  {
+    "event_id": "EVT-0043",
+    "episode": "EP19",
+    "period": "1300 civarı",
+    "title": "Çemenin Kılıcı'nın teslimi",
+    "summary_fact_id": "FCT-df8194aba40ec817",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/1/facts/5"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/facts/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0051",
+      "NPC-0054"
+    ],
+    "location_ids": [
+      "REG-0002"
+    ],
+    "related_entity_ids": [
+      "DEI-0011",
+      "ITM-0034"
+    ]
+  },
+  {
+    "event_id": "EVT-0044",
+    "episode": "EP20",
+    "period": "1300 civarı",
+    "title": "Çöl Şehri'nin dış surlarının düşmesi",
+    "summary_fact_id": "FCT-b78095c089cf50c6",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0054",
+      "NPC-0062"
+    ],
+    "location_ids": [
+      "DIS-0003"
+    ],
+    "related_entity_ids": [
+      "MIL-0002",
+      "MIL-0004",
+      "MIL-0007"
+    ]
+  },
+  {
+    "event_id": "EVT-0045",
+    "episode": "EP20",
+    "period": "1300 civarı",
+    "title": "Kalender ve İto'nun savaşı bırakması",
+    "summary_fact_id": "FCT-54ae7609225a0e87",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "ITM-0034"
+    ]
+  },
+  {
+    "event_id": "EVT-0046",
+    "episode": "EP20",
+    "period": "1300 civarı",
+    "title": "Durgunluk Buhurdanı'nın çölde kaybı",
+    "summary_fact_id": "FCT-79739a2ee2ba51c6",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/18/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0083"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "ITM-0009"
+    ]
+  },
+  {
+    "event_id": "EVT-0047",
+    "episode": "EP20",
+    "period": "1300 civarı",
+    "title": "Dev kartallarla kervansaraya sığınma",
+    "summary_fact_id": "FCT-4e28050e1846fa5d",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/8/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0043",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0006"
+    ],
+    "related_entity_ids": [
+      "CRE-0006",
+      "NPC-0099"
+    ]
+  },
+  {
+    "event_id": "EVT-0048",
+    "episode": "EP21",
+    "period": "1300 civarı",
+    "title": "Kalender'in kutsal güçlerini kaybettiğinin anlaşılması",
+    "summary_fact_id": "FCT-7ba027f8755bac88",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/1/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/1/facts/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0051"
+    ],
+    "location_ids": [
+      "BLD-0006"
+    ],
+    "related_entity_ids": [
+      "DEI-0011"
+    ]
+  },
+  {
+    "event_id": "EVT-0049",
+    "episode": "EP21",
+    "period": "1300 civarı",
+    "title": "Akmer ve Kalender'in kervansarayda gözaltı",
+    "summary_fact_id": "FCT-55c46048314fbd53",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/travel/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0051",
+      "NPC-0079"
+    ],
+    "location_ids": [
+      "BLD-0014"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0050",
+    "episode": "EP21",
+    "period": "1300 civarı",
+    "title": "Hulusi'ye suikast anlaşması",
+    "summary_fact_id": "FCT-1ef62bab9c55bcbe",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/6/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0043",
+      "NPC-0046"
+    ],
+    "location_ids": [
+      "BLD-0006"
+    ],
+    "related_entity_ids": [
+      "NPC-0042"
+    ]
+  },
+  {
+    "event_id": "EVT-0051",
+    "episode": "EP21",
+    "period": "1300 civarı",
+    "title": "Hulusi'nin öldürülmesi",
+    "summary_fact_id": "FCT-2f56a8c4a40e5d86",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/3/facts/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0011",
+      "NPC-0042",
+      "NPC-0046",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0006"
+    ],
+    "related_entity_ids": [
+      "DYN-0001"
+    ]
+  },
+  {
+    "event_id": "EVT-0052",
+    "episode": "EP22",
+    "period": "1300 civarı",
+    "title": "Hulusi'nin günlüğünün okunması",
+    "summary_fact_id": "FCT-23907cd8bd81402e",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/uncertainties/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0046"
+    ],
+    "location_ids": [
+      "BLD-0006"
+    ],
+    "related_entity_ids": [
+      "ITM-0014",
+      "NPC-0042",
+      "NPC-0060"
+    ]
+  },
+  {
+    "event_id": "EVT-0053",
+    "episode": "EP22",
+    "period": "1300 civarı",
+    "title": "Sahte veda mektubu ve hazinenin alınması",
+    "summary_fact_id": "FCT-61b624c110d690bf",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/2/facts/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0046",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0006"
+    ],
+    "related_entity_ids": [
+      "ITM-0013",
+      "ITM-0015"
+    ]
+  },
+  {
+    "event_id": "EVT-0054",
+    "episode": "EP22",
+    "period": "1300 civarı",
+    "title": "Nezarethane isyanı ve Gümüş Sıçanlar kılığı",
+    "summary_fact_id": "FCT-e37960e5a3762d3d",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/0/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/1/facts/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0051"
+    ],
+    "location_ids": [
+      "BLD-0006",
+      "BLD-0013"
+    ],
+    "related_entity_ids": [
+      "FAC-0002",
+      "ITM-0010"
+    ]
+  },
+  {
+    "event_id": "EVT-0055",
+    "episode": "EP22",
+    "period": "1300 civarı",
+    "title": "Kervansaraydan atlarla kaçış",
+    "summary_fact_id": "FCT-412133d94319b62a",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/2/facts/4"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/travel/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "BLD-0006"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0056",
+    "episode": "EP23",
+    "period": "1300 civarı",
+    "title": "Vahaya varış ve harabelerin ortaya çıkışı",
+    "summary_fact_id": "FCT-cbbe290e38edfdcb",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/12/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "NAT-0005",
+      "TMP-0001"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0057",
+    "episode": "EP23",
+    "period": "1300 civarı",
+    "title": "Ziyafet mabedinin keşfi",
+    "summary_fact_id": "FCT-7f9531cd927af0dd",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/6/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0001"
+    ],
+    "related_entity_ids": [
+      "BLD-0007",
+      "BLD-0022",
+      "CRE-0018"
+    ]
+  },
+  {
+    "event_id": "EVT-0058",
+    "episode": "EP23",
+    "period": "1300 civarı",
+    "title": "Jifa'nın sınav uyarısı",
+    "summary_fact_id": "FCT-218d518dbea199fa",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/5/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0049",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0001"
+    ],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0059",
+    "episode": "EP23",
+    "period": null,
+    "title": "Dokuz ejderha yaratılış efsanesinin aktarılması",
+    "summary_fact_id": "FCT-8d1c984fd53a5c23",
+    "event_status": "historical",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [],
+    "location_ids": [],
+    "related_entity_ids": []
+  },
+  {
+    "event_id": "EVT-0060",
+    "episode": "EP24",
+    "period": "1300 civarı",
+    "title": "Canlı yağ ve tahin pekmez odalarından geçiş",
+    "summary_fact_id": "FCT-a541e5813a21d777",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/8/facts/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0001"
+    ],
+    "related_entity_ids": [
+      "CRE-0013",
+      "CRE-0021",
+      "CRE-0025"
+    ]
+  },
+  {
+    "event_id": "EVT-0061",
+    "episode": "EP24",
+    "period": "1300 civarı",
+    "title": "Gavurdağı Golemi ve Ametist Kristali'nin açığa çıkışı",
+    "summary_fact_id": "FCT-a9e1f3b62554a791",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4/facts/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "CRE-0014",
+      "CRE-0027",
+      "NPC-0006",
+      "NPC-0046",
+      "NPC-0051",
+      "NPC-0083"
+    ],
+    "location_ids": [
+      "TMP-0001"
+    ],
+    "related_entity_ids": [
+      "ITM-0002",
+      "ITM-0012"
+    ]
+  },
+  {
+    "event_id": "EVT-0062",
+    "episode": "EP24",
+    "period": "1300 civarı",
+    "title": "Ejderhaların yaratılış doktrininin açıklanması",
+    "summary_fact_id": "FCT-fe17683cebaf0dd2",
+    "event_status": "revealed",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/2/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0046"
+    ],
+    "location_ids": [
+      "TMP-0001"
+    ],
+    "related_entity_ids": [
+      "ITM-0002"
+    ]
+  },
+  {
+    "event_id": "EVT-0063",
+    "episode": "EP24",
+    "period": null,
+    "title": "Doktor Aktar'ın lanetinin hatırlanması",
+    "summary_fact_id": "FCT-7f0a366bdacaa0d1",
+    "event_status": "historical",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0025"
+    ],
+    "location_ids": [],
+    "related_entity_ids": [
+      "FAM-0004",
+      "NPC-0006"
+    ]
+  },
+  {
+    "event_id": "EVT-0064",
+    "episode": "EP24",
+    "period": "1300 civarı",
+    "title": "Ataların rehberliğiyle sütlaç sınavının tamamlanması",
+    "summary_fact_id": "FCT-5e7d9469062bff5e",
+    "event_status": "occurred",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/3/facts/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE",
+    "participant_ids": [
+      "NPC-0006",
+      "NPC-0051",
+      "NPC-0083",
+      "OTH-0005"
+    ],
+    "location_ids": [
+      "TMP-0001"
+    ],
+    "related_entity_ids": [
+      "BLD-0012",
+      "ITM-0002",
+      "ITM-0030"
+    ]
+  }
+]

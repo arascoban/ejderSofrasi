@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ejder-sofrasi:map-presentation-schema:1.0.0",
+  "fileSchemas": {
+    "map_frames.json": "#/$defs/FrameDocument",
+    "map_features.json": "#/$defs/FeatureDocument",
+    "map_layout.json": "#/$defs/LayoutDocument",
+    "map_location_coverage.json": "#/$defs/CoverageDocument",
+    "map_assets.json": "#/$defs/AssetDocument",
+    "map_releases.json": "#/$defs/ReleaseDocument"
+  },
+  "$defs": {
+    "Version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "FrameId": { "type": "string", "pattern": "^FRM-" },
+    "Transform": {
+      "type": "object",
+      "required": ["x", "z", "scale", "rotation_degrees"],
+      "properties": {
+        "x": { "type": "number" }, "z": { "type": "number" },
+        "scale": { "type": "number", "exclusiveMinimum": 0 },
+        "rotation_degrees": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+    "Frame": {
+      "type": "object",
+      "required": ["frame_id", "parent_frame_id", "width", "height", "version", "transform"],
+      "properties": {
+        "frame_id": { "$ref": "#/$defs/FrameId" },
+        "parent_frame_id": { "anyOf": [{ "$ref": "#/$defs/FrameId" }, { "type": "null" }] },
+        "width": { "type": "number", "exclusiveMinimum": 0 },
+        "height": { "type": "number", "exclusiveMinimum": 0 },
+        "version": { "$ref": "#/$defs/Version" },
+        "transform": { "$ref": "#/$defs/Transform" }
+      },
+      "additionalProperties": false
+    },
+    "FrameDocument": {
+      "type": "object", "required": ["schema_version", "frames"],
+      "properties": { "schema_version": { "$ref": "#/$defs/Version" }, "frames": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/Frame" } } },
+      "additionalProperties": false
+    },
+    "Point": {
+      "type": "array", "minItems": 2, "maxItems": 2,
+      "prefixItems": [{ "type": "number", "minimum": 0, "maximum": 1 }, { "type": "number", "minimum": 0, "maximum": 1 }],
+      "items": false
+    },
+    "Feature": {
+      "type": "object",
+      "required": ["feature_id", "entity_id", "frame_id", "geometry_revision", "periods", "period_status", "review_status", "placement_source", "canon_basis", "geometry"],
+      "properties": {
+        "feature_id": { "type": "string", "pattern": "^MFT-" },
+        "entity_id": { "type": "string", "pattern": "^(ISL|CON)-[0-9]{4,}$" },
+        "frame_id": { "$ref": "#/$defs/FrameId" },
+        "geometry_revision": { "$ref": "#/$defs/Version" },
+        "periods": { "type": "array", "items": { "enum": ["1300 civarı", "1600 civarı"] }, "uniqueItems": true },
+        "period_status": { "enum": ["source_attested", "unknown"] },
+        "review_status": { "const": "draft" },
+        "placement_source": { "const": "PRESENTATION" },
+        "canon_basis": { "enum": ["CANONICAL", "CANON_CONSTRAINED", "UNKNOWN"] },
+        "constraint_relationship_ids": { "type": "array", "items": { "type": "string", "pattern": "^REL-[0-9]{4,}$" }, "uniqueItems": true },
+        "geometry": {
+          "type": "object", "required": ["type", "points"],
+          "properties": { "type": { "const": "Polygon" }, "points": { "type": "array", "minItems": 3, "items": { "$ref": "#/$defs/Point" } } },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "FeatureDocument": {
+      "type": "object", "required": ["schema_version", "features"],
+      "properties": { "schema_version": { "$ref": "#/$defs/Version" }, "features": { "type": "array", "items": { "$ref": "#/$defs/Feature" } } },
+      "additionalProperties": false
+    },
+    "Placement": {
+      "type": "object",
+      "required": ["placement_id", "entity_id", "frame_id", "position", "periods", "review_status", "placement_source", "canon_basis", "placement_note"],
+      "properties": {
+        "placement_id": { "type": "string", "pattern": "^MPL-" },
+        "entity_id": { "type": "string", "pattern": "^(CON|KNG|STA|REG|DIS|CIT|TWN|VIL|ISL|PRT|BLD|TAV|TMP|NAT)-[0-9]{4,}$" },
+        "frame_id": { "$ref": "#/$defs/FrameId" },
+        "position": {
+          "type": "object",
+          "required": ["u", "v"],
+          "properties": {
+            "u": { "type": "number", "minimum": 0, "maximum": 1 },
+            "v": { "type": "number", "minimum": 0, "maximum": 1 }
+          },
+          "additionalProperties": false
+        },
+        "periods": { "type": "array", "items": { "enum": ["1300 civarı", "1600 civarı"] }, "uniqueItems": true },
+        "review_status": { "enum": ["draft", "reviewed"] },
+        "placement_source": { "const": "PRESENTATION" },
+        "canon_basis": { "enum": ["CANONICAL", "CANON_CONSTRAINED", "UNKNOWN"] },
+        "constraint_relationship_ids": { "type": "array", "items": { "type": "string", "pattern": "^REL-[0-9]{4,}$" }, "uniqueItems": true },
+        "placement_note": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "LayoutDocument": {
+      "type": "object",
+      "required": ["schema_version", "layout_revision", "placements"],
+      "properties": {
+        "schema_version": { "$ref": "#/$defs/Version" },
+        "layout_revision": { "$ref": "#/$defs/Version" },
+        "placements": { "type": "array", "items": { "$ref": "#/$defs/Placement" } }
+      },
+      "additionalProperties": false
+    },
+    "CoverageRecord": {
+      "type": "object",
+      "required": ["entity_id", "coverage_status", "reason"],
+      "properties": {
+        "entity_id": { "type": "string", "pattern": "^(CON|KNG|STA|REG|DIS|CIT|TWN|VIL|ISL|PRT|BLD|TAV|TMP|NAT)-[0-9]{4,}$" },
+        "coverage_status": { "enum": ["mapped", "local_map", "unplaced", "supernatural_or_uncertain"] },
+        "reason": { "enum": ["DRAFT_WORLD_MARKER", "DRAFT_LANDFORM_SHAPE", "PARENT_DETAIL_WITHOUT_LOCAL_ANCHOR", "NO_REVIEWED_WORLD_ANCHOR", "NON_ORDINARY_SPATIAL_DOMAIN"] }
+      },
+      "additionalProperties": false
+    },
+    "CoverageDocument": {
+      "type": "object",
+      "required": ["schema_version", "coverage_revision", "records"],
+      "properties": {
+        "schema_version": { "$ref": "#/$defs/Version" },
+        "coverage_revision": { "$ref": "#/$defs/Version" },
+        "records": { "type": "array", "items": { "$ref": "#/$defs/CoverageRecord" } }
+      },
+      "additionalProperties": false
+    },
+    "AssetDocument": {
+      "type": "object", "required": ["schema_version", "assets"],
+      "properties": { "schema_version": { "$ref": "#/$defs/Version" }, "assets": { "type": "array", "maxItems": 0 } },
+      "additionalProperties": false
+    },
+    "Release": {
+      "type": "object",
+      "required": ["release_id", "status", "map_id", "label", "frame_version", "feature_version", "layout_version", "coverage_version", "asset_version", "root_frame_id", "default_view", "presentation_notice"],
+      "properties": {
+        "release_id": { "type": "string", "pattern": "^MRL-" },
+        "status": { "const": "active_draft" },
+        "map_id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "label": { "type": "string", "minLength": 1 },
+        "frame_version": { "$ref": "#/$defs/Version" },
+        "feature_version": { "$ref": "#/$defs/Version" },
+        "layout_version": { "$ref": "#/$defs/Version" },
+        "coverage_version": { "$ref": "#/$defs/Version" },
+        "asset_version": { "$ref": "#/$defs/Version" },
+        "root_frame_id": { "$ref": "#/$defs/FrameId" },
+        "default_view": {
+          "type": "object", "required": ["target_x", "target_z", "zoom"],
+          "properties": { "target_x": { "type": "number" }, "target_z": { "type": "number" }, "zoom": { "type": "number", "exclusiveMinimum": 0 } },
+          "additionalProperties": false
+        },
+        "presentation_notice": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "ReleaseDocument": {
+      "type": "object", "required": ["schema_version", "active_release_id", "releases"],
+      "properties": {
+        "schema_version": { "$ref": "#/$defs/Version" },
+        "active_release_id": { "type": "string", "pattern": "^MRL-" },
+        "releases": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/Release" } }
+      },
+      "additionalProperties": false
+    }
+  }
+}

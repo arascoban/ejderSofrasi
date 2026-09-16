@@ -1,0 +1,54 @@
+[
+  {
+    "from_id": "NPC-0059",
+    "to_id": "NPC-0004"
+  },
+  {
+    "from_id": "CRE-0020",
+    "to_id": "CRE-0008"
+  },
+  {
+    "from_id": "CRE-0005",
+    "to_id": "CRE-0002"
+  },
+  {
+    "from_id": "NPC-0048",
+    "to_id": "NPC-0050"
+  },
+  {
+    "from_id": "ITM-0033",
+    "to_id": "ITM-0031"
+  },
+  {
+    "from_id": "ITM-0006",
+    "to_id": "ITM-0036"
+  },
+  {
+    "from_id": "ISL-0002",
+    "to_id": "CON-0001"
+  },
+  {
+    "from_id": "ITM-0007",
+    "to_id": "NPC-0024"
+  },
+  {
+    "from_id": "DRG-0004",
+    "to_id": "DRG-0002"
+  },
+  {
+    "from_id": "BLD-0010",
+    "to_id": "BLD-0006"
+  },
+  {
+    "from_id": "CRE-0011",
+    "to_id": "CRE-0014"
+  },
+  {
+    "from_id": "NPC-0071",
+    "to_id": "NPC-0072"
+  },
+  {
+    "from_id": "ITM-0023",
+    "to_id": "ITM-0012"
+  }
+]

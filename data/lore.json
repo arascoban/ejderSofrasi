@@ -1,0 +1,1378 @@
+[
+  {
+    "id": "LOR-0001",
+    "subject": "Büyü Vergilendirmesi",
+    "text": "Ejderhalar ve tanrılar arasındaki anlaşmazlık nedeniyle bu evrende büyüye gümrük vergisi ve başarısızlık zarı uygulanmaktadır.",
+    "episode": "EP00",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0002",
+    "subject": "Süt Ticareti Savaşları",
+    "text": "Sütçüoğlu Ailesi süt pazarını kontrol etmekte, kahve kültürünün yaygın olduğu Vhelin Adası'na ticaret yolları üzerinden süt sevk etmektedir.",
+    "episode": "EP00",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0003",
+    "subject": "Kahve ve Telve Kültürü",
+    "text": "Vhelin Adası geleneksel telveci Telvelin ile modern sütlü kahveci Kahvhelin devletleri arasında bölünmüştür.",
+    "episode": "EP00",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0004",
+    "subject": "Doblin Uyuşturucusu",
+    "text": "Pudra şekeriyle karıştırılan, geçici neşe verip ardından zihinsel çöküş yaratan, son derece bağımlılık yapıcı ve pahalı yasaklı madde.",
+    "episode": "EP01",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0005",
+    "subject": "Double Bottom (Çift Dip)",
+    "text": "Gemilerin karinası yırtıldığında su almaması için postaların iç tarafına konan ikinci kaplama arası bölme; safra, yakıt ve gizli eşya depolamak için kullanılır.",
+    "episode": "EP01",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0006",
+    "subject": "Korsan Esirleri ve Köle Ticareti",
+    "text": "Korsan saldırıları sonucu ele geçirilen rakip gemi mürettebatı ve esirler gemilerin ambarlarında zincirlenip köle olarak satılmaktadır.",
+    "episode": "EP01",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0007",
+    "subject": "Pıyan Kardeşler Denizcilik İsimlendirmesi",
+    "text": "Pıyan, Çima, Çoma, Ispavlo ve Gırcıla isimleri denizcilikte kullanılan halat ve düğüm tekniklerinden türetilmiştir.",
+    "episode": "EP02",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0008",
+    "subject": "Blunderbuss V20 Saçmalı Tüfekler",
+    "text": "Geniş namlulu, yakın mesafeden kalabalıklara saçma atan, doldurulması 5-6 dakika süren ve yüksek alan hasarı veren ateşli silahlar.",
+    "episode": "EP02",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0009",
+    "subject": "Büyü Korkusu ve Algısı",
+    "text": "Revania dünyasında büyü kullanımı nadir olduğu için sıradan halk ve denizciler şifa büyülerine bile uğursuzluk veya lanet gözüyle bakıp korkabilmektedir.",
+    "episode": "EP02",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0010",
+    "subject": "Glory Paladin İlkesi",
+    "text": "Pastırman'ın şanlı paladinleri köle ticaretini onursuz görür; kamuoyu önünde cömertlik göstererek ve köleleri özgürleştirerek şan ve ün kazanmayı hedefler.",
+    "episode": "EP02",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/lore/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0011",
+    "subject": "Narkader ve İlahi Adalet (Karma)",
+    "text": "Bu evrendeki halk kadere, kısmete ve ilahi adalete yürekten inanır; birinin şansı çok iyi giderse ileride patlayıp sıfır noktasına çekileceğine inanılır.",
+    "episode": "EP03",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0012",
+    "subject": "Büyü Korkusu ve Ejderha Gazabı",
+    "text": "Büyü yapılması halk arasında şeytani çağrışım yapar; büyücülerin alemi kuran kötü kadim ejderhaların (Kızılbela, Kara Felaket, Yıkım Gölge) dikkatini ve uğursuzluğunu çekeceğinden korkulur.",
+    "episode": "EP03",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0013",
+    "subject": "Gizem Sarma Büyü Tanrısı",
+    "text": "Büyü tanrısı Gizem Sarma'nın başına gelen felaketler yüzünden bu evrende büyü sistemi aksamakta ve vergilendirilmektedir.",
+    "episode": "EP03",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0014",
+    "subject": "Gemicilik Terimleri",
+    "text": "Fundo = demirlemek için verilen komut; Baba Fingo = 3 parçalı direğin en üst parçası; Faça etmek / Façuna etmek = yelken halat bağlama teknikleri.",
+    "episode": "EP03",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/lore/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0015",
+    "subject": "Gizemler Adası Canavarları",
+    "text": "Gizemler Adası'ndaki hayvanların (Mega Timsah, Dev Kertenkele) ana kıtaya kıyasla devasa boyutlara ulaşması adadaki gizemli bir auranın ve büyünün varlığını gösterir.",
+    "episode": "EP03",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/lore/4"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0016",
+    "subject": "Zümrüt Ejderha Pulu ve Kutsal Zemin",
+    "text": "Tanrılar ile Ejderhalar arasındaki savaştan düşen Zümrüt Ejderha pulu, üzerinde duran canlılara anında şifa, sonsuz gençlik aurası ve büyü gücü artışı sağlamaktadır.",
+    "episode": "EP04",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0017",
+    "subject": "Büyük Ejderha Savaşları",
+    "text": "İnsanların büyüyü aşırı kullanması üzerine ejderhalarla tanrılar arasında çıkan, dünyayı ve kıtaları yeniden şekillendiren kozmik savaş.",
+    "episode": "EP04",
+    "period": null,
+    "temporal_basis": "reviewed_source_context",
+    "subject_id": "EVT-0001",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0018",
+    "subject": "Büyü Limitlerinin Kalkması",
+    "text": "Zümrüt Ejderha Şifa Zindanı içerisinde dış dünyadaki büyü kısıtlamaları ve vergilendirmeleri tamamen kalkmakta, büyü gücü zirveye ulaşmaktadır.",
+    "episode": "EP04",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0019",
+    "subject": "Ejderhaların Laneti",
+    "text": "Kutsal ejderha mekanlarını ve pullarını çıkar amaçlı kullanan veya yerini haritayla/sözle başkalarına ifşa eden kişilerin üzerine ejderhaların laneti çökmektedir.",
+    "episode": "EP04",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/lore/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0020",
+    "subject": "Kompisauruslar ve Savaş Canavarları",
+    "text": "Ejderhalar savaş döneminde kertenkele benzeri yaratıkları asker olarak kullanmış, bu canlılar Gizemler Adası gibi kutsal alanlarda günümüzde tekrar hayata dönmüştür.",
+    "episode": "EP04",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/lore/4"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0021",
+    "subject": "Şampiyonların Feneri ve Zindan Yönü",
+    "text": "Muzaffer Cemil tarafından verilen büyülü asam/fener, Zümrüt Ejderha Şifa Zindanı'ndaki ilüzyonlu ve döngüsel geçitlerde doğru kapıyı ve yönü göstermektedir.",
+    "episode": "EP05",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0022",
+    "subject": "Ejderha Panteonu ve Dokuz Sayısı",
+    "text": "Evrendeki ejderha panteonunda 9 ana konum/ejderha bulunur; ortadaki 5 numara tarafsız olan Zümrüt Ejderha'ya, 2 numara ise Safir Ejderha'ya aittir.",
+    "episode": "EP05",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0023",
+    "subject": "Zümrüt Şifa Zindanı Zaman ve Mekan Bükülmesi",
+    "text": "Zindana girildikten sonra giriş kapısından geri çıkış imkansızdır; zindan içinde zaman, mekan, mevsimler ve yaşlanma algısı bükülür. Şifa zindanında canlılar her dakika maksimum canlarının %10'u oranında kendiliğinden iyileşir.",
+    "episode": "EP05",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0024",
+    "subject": "Kan ve Doğa Dengesi (Narkader / Karma)",
+    "text": "Kutsal şifa vadisinde dökülen kan çimenleri aşırı büyütür; nehre düşen kan balıkları ikiye böler: kana saldıranlar şeytani canlılara, kaçanlar ise gümüşi kutsal varlıklara dönüşür.",
+    "episode": "EP05",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/lore/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0025",
+    "subject": "Zümrüt Ejderha Tapınağı Sınav Mekanizması",
+    "text": "Tapınaktaki üst kata çıkan kapının açılması için 4 ayrı kilit kolunun 4 farklı kişi tarafından aynı anda çekilmesi gerekmektedir; kişi sayısı eksikse kapı açılmaz.",
+    "episode": "EP06",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0026",
+    "subject": "Şifa Kavramı ve Ruhsal İyileşme",
+    "text": "Jifa'nın öğretisine göre şifa yalnızca bedensel yaraların kapanması değil, aynı zamanda insanın başkalarından yardım almayı ve yardım etmeyi öğrenmesidir.",
+    "episode": "EP06",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0027",
+    "subject": "Büyülü Eşyaların Kıtlığı",
+    "text": "Revania dünyasında büyülü eşyalar son derece nadirdir; wizard'lar ve tüccarlar çok az büyülü parşömen ve nesne üretebilmektedir.",
+    "episode": "EP06",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0028",
+    "subject": "Dev Fener Balığı Tuzağı",
+    "text": "Zümrüt Ejderha Şifa Tapınağı'nın hazine odasındaki Büyülü Taç, kozmik uzay boşluğunda yaşayan Dev Fener Balığı'nın avlarını cezbetmek için kullandığı organik olta uzvudur (lure).",
+    "episode": "EP06",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/lore/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0029",
+    "subject": "Astralum Tozu ve Boyut Kesişimi",
+    "text": "Farklı boyutlar ve alemler kesiştiğinde yüzeylerde Astralum Tozu adı verilen, büyü yapımında kullanılan değerli bir toz kalmaktadır.",
+    "episode": "EP07",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0030",
+    "subject": "Pastırman Müdahalesi ve Çemli Eldiven",
+    "text": "Savaş Tanrısı Pastırman, inananlarının dualarına yanıt vererek çemli pastırmayla kaplı devasa demir eldiveniyle kozmik boyuttan Dev Fener Balığı'nı yakalayıp çekmiştir.",
+    "episode": "EP07",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0031",
+    "subject": "Kutsal Zindan ve Çıkış Kapıları",
+    "text": "Zümrüt Ejderha Şifa Tapınağı'nın çıkış merdivenleri zaman ve mekan bükülmesiyle bambaşka coğrafyalara (çöl şehirlerine) açılmaktadır.",
+    "episode": "EP07",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0032",
+    "subject": "Yaz Helvası ve Serinletici Etkisi",
+    "text": "Yaz Helvası Krallığı'nın temel kültürü ve ekonomisi, çöl sıcağında serinlik sağlayan yaz helvası üretimine dayanmaktadır.",
+    "episode": "EP08",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0033",
+    "subject": "Helva Krallıkları Savaşı ve Ejderha İttifakları",
+    "text": "Un Helvası ve İrmik Helvası krallıkları Kırmızı Ejderha'nın etkisine girip ölüm/nekromansi büyüleriyle güçlenerek Yaz Helvası Krallığı'nı kuşatmıştır.",
+    "episode": "EP08",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0034",
+    "subject": "Gümüş Ejderha 1673 Yılı / Helvanar Tarihi",
+    "text": "Yaz Helvası Krallığı takvimine göre dünya Gümüş Ejderha'nın 1673 yılındadır; bu dönem Helvanar Kıtası'nın batışından önceki geçmiş döneme denk gelmektedir.",
+    "episode": "EP08",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0035",
+    "subject": "Büyülü Eşyaların Kutsal Doğası (Yaz Yadigarları)",
+    "text": "Zümrüt Ejderha Şifa Tapınağı'ndan çıkarılan 4 büyülü eşya (Kadeh, Buhurdanlık, Yüzük, Taç) tanrısal lütuflar barındıran kutsal yadigarlardır.",
+    "episode": "EP08",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0036",
+    "subject": "Dokuz Ejderha Panteonu ve Görev Bölümü",
+    "text": "Evrendeki 9 kadim ejderha (Altın, Gümüş, Opal, Metal/Bronz, Yeşil, Amethyst/Mor, Kızıl, Safir/Mavi, Onyx/Siyah) evreni birlikte kurmuş; Gümüş insanlarla ve ticaretle, Altın ulvi güneşle, Mavi su/yağmurla, Yeşil doğa ve şifayla, Kızıl manipülasyon ve kanla, Siyah ise yıkım ve yeraltıyla ilgilenmektedir.",
+    "episode": "EP09",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0037",
+    "subject": "Gümüş Ejderha Tapınağı Mimarisi",
+    "text": "Çöl Şehri'nin 3. katında yer alan tapınak buzdan/kristalden oyulmuş devasa ejderha heykeli gibidir; kapıları yoktur ve içerisindeki ışık kaynağı kırılan kristal danslarıyla sağlanmaktadır.",
+    "episode": "EP09",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0038",
+    "subject": "Zümrüt Ejderha Yadigarları ve Seçilmişler",
+    "text": "Yeşil Ejderha'nın yadigarlarını (Kadeh, Buhurdanlık, Yüzük, Taç) taşıyan kişiler, Yeşim Ejderha Rahibesi Tefnut tarafından kuşatma altındaki şehre umut olmak ve ön saflarda savaşmak üzere görevlendirilmiştir.",
+    "episode": "EP09",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0039",
+    "subject": "Siyah Ejderha Tarikatı ve Un Helvası İttifakı",
+    "text": "Siyah Ejderha tarikatı Un Helvası ordusu içine sızarak üst kademeyi kontrol etmekte, Mehdi'yi (Kalender) kendi saflarına çekmek veya ortadan kaldırmak için özel cambazlar ve suikastçılar kullanmaktadır.",
+    "episode": "EP10",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0040",
+    "subject": "Siyah Ejderha Cambazlarının Işınlanma Büyüsü",
+    "text": "Siyah Ejderha tarikatına bağlı akrobatik savaşçılar ağır yaralandıklarında parmak şıklatarak rastgele boyut/lokasyon koordinatlarına ışınlanabilmektedir.",
+    "episode": "EP10",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0041",
+    "subject": "Kartal Sniper ve Özel Suikast Okları",
+    "text": "Siyah Ejderha örgütü 150-180 metre gibi aşırı uzak mesafelerden hedefi tam boğazından vurabilen, özel dövülmüş iki parçalı metal oklara sahip uzman keskin nişancılar çalıştırmaktadır.",
+    "episode": "EP10",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0042",
+    "subject": "Jammerül Arif ve Kurşun Muhafaza",
+    "text": "Kurşundan yapılmış kutular ve hazneler uzgörü (divination/scrying) büyülerini ve büyülü takip zarlarını tamamen engellemektedir.",
+    "episode": "EP11",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0043",
+    "subject": "Zümrüt Ejderha Yadigarları ve Beden Değişimi",
+    "text": "Yeşil Ejderha'nın kutsal yadigarlarını (Kadeh, Buhurdanlık, Yüzük) sıkça kullanan kişilerin bedenlerinde (bel, omuz) zamanla sert yeşil ejderha pulları belirmektedir.",
+    "episode": "EP11",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0044",
+    "subject": "Büyülü Ok Üretimi ve Rün Örgüsü",
+    "text": "Kaliteli ustalıkla üretilmiş oklar rün örgüsü ve büyü enerjisi depolamak için uygundur; Druid kanı veya büyülü taşlar kullanılarak patlayan/ses çıkaran oklara dönüştürülebilir.",
+    "episode": "EP11",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0045",
+    "subject": "Gökyüzündeki Kozmik Ejderhalar",
+    "text": "Gece karanlığında gökyüzünü galaktik büyüklükteki ejderhalar kaplamaktadır; yıldızlar bu ejderhaların pullarındaki pırıltılardır. Siyah Ejderha'nın kapladığı alan üzerinden gökyüzünün ötesindeki kozmik karanlığa bakılabilmektedir.",
+    "episode": "EP12",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0046",
+    "subject": "Işık Tacı Parazit Mekanizması",
+    "text": "Işık Tacı, Dev Fener Balığı'na bağlı parazit bir kozmik canlıdır. Bedenle bağ kurduğunda zihni ve algıyı güçlendirir ancak tendonlarıyla kafatasına ve beynine saplanarak taşıyıcısını etkiler.",
+    "episode": "EP12",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0047",
+    "subject": "Durgunluk Buhurdanı Mucizeleri",
+    "text": "Durgunluk Buhurdanı'ndan yayılan yeşil duman, geni alanı kapsayarak felç, körlük, sağırlık ve kronik rahatsızlıkları anında iyileştirebilmektedir.",
+    "episode": "EP12",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0048",
+    "subject": "Pastırman Mitingi ve Dini Yayılma",
+    "text": "Kalender Tütüncüoğlu ve ekibi halka pastırma ve çemen dağıtarak, şifa gösterileri yaparak Çöl Şehri halkı ve kışla askerleri arasında Pastırman inancını hızla yaygınlaştırmıştır.",
+    "episode": "EP12",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/lore/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0049",
+    "subject": "Pastırman Mucizesi ve Dev Demir Eldiven",
+    "text": "Savaş Tanrısı Pastırman, Çöl Şehri Surları önünde Kalender Tütüncüoğlu'nun yürekten duasına yanıt vererek zemini yarmış ve devasa dökme demir bir eldiven (Guntlet) çıkarıp Kalender'i havaya kaldırarak ilahi varlığını tüm şehre kanıtlamıştır.",
+    "episode": "EP13",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0050",
+    "subject": "Zümrüt Ejderha Yadigarları ve Beden Değişimleri",
+    "text": "Yeşil Ejderha'nın yadigarlarını taşıyan kahramanların bedenlerinde (bel, omuz) sert yeşil ejderha pulları belirmiş, halk bunu ejderhanın kutsaması olarak görmüştür.",
+    "episode": "EP13",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0051",
+    "subject": "Ördek-ül Deva (Ördek-ül Şifa) İnancı",
+    "text": "Roary'nin ördek formuna dönüşerek hastaları ve askerleri şifalandırması üzerine halk ve kışla askerleri arasında Ördek-ül Deva efsanesi doğmuş ve ilahi bir şifa sembolü haline gelmiştir.",
+    "episode": "EP13",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0052",
+    "subject": "Teyze Çırpması ve Mahalle Kültürü",
+    "text": "Beltis Ana tarafından dökme tavada hazırlanan yumurtalı çırpma yemeği Çöl Şehri mahallesinde kutsal kabul edilmakte ve geleneksel günlerde yapılmaktadır.",
+    "episode": "EP14",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0053",
+    "subject": "Batan Güneş Kahvesi ve Gizli Depolar",
+    "text": "Batan Güneş Kahvesi, kalın ısı/ışık yalıtımlı perdeleri, ılık soda depoları, alt kat mahzeni ve arka sokağa açılan demir firar kapısıyla gizli toplantılar için uygun bir esnaf mekanıdır.",
+    "episode": "EP14",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0054",
+    "subject": "Kartal Sniper'ın Gerçek Kimliği",
+    "text": "Maceracıları surlardan 180 metre öteden avlayan Kartal Sniper'ın, Kızıl Komutan'ın serseri tavırlı ve sapsarı amber gözlü genç oğlu olduğu ortaya çıkmıştır.",
+    "episode": "EP14",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0055",
+    "subject": "Helvacıoğlu Hanedanı ve Ejder Kemiği Silahlar",
+    "text": "Bin yıllar önce adaya ilk yerleşen Helvacıoğlu Hanedanı, ejderha mezarlığından çıkardığı kadim ejderha kemiklerinden rünlü Kristal Kılıç'ı dövmüştür; bu silah ejderhaların da ölümlü olduğunu simgelemektedir.",
+    "episode": "EP15",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0056",
+    "subject": "Siyah Ejderha Canlı Bomba Glifleri",
+    "text": "Siyah Ejderha fedaileri zırhlarına Fireball glifleri işleyip kalabalık alanlarda kendilerini patlatarak intihar suikastları düzenlemektedir.",
+    "episode": "EP15",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0057",
+    "subject": "Öte Yansıtma Büyüsü (Projection / Magical Mouth)",
+    "text": "Arifler Okulu uzgörü büyücüleri, kişilerin sesini ve görüntüsünü uzak mesafelerdeki illüzyonel kopyalarına yansıtarak suikastlardan korunma veya güvenli iletişim sağlama imkanına sahiptir.",
+    "episode": "EP15",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0058",
+    "subject": "Demir Yumruk Anıtı ve Halk İbadeti",
+    "text": "Pastırman'ın çıkardığı dev demir eldivenin etrafında mumlar, kılıçlar ve masalar konularak halk tarafından adak alanına ve kutsal sunaka dönüştürülmüştür.",
+    "episode": "EP15",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/lore/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0059",
+    "subject": "Pastırman İnancı ve Kuşatma Ordusu İkilemi",
+    "text": "Pastırman inancı hem Çöl Şehri halkı arasında hem de şehri kuşatan Un Helvası ordusunda yaygındır; Kızıl Komutan'ın Oğlu (Devran) savaş tanrısı Pastırman'ın her iki tarafı da savaşa sürükleyerek yıkım getireceğini savunmaktadır.",
+    "episode": "EP16",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0060",
+    "subject": "Ejder Kemiği Silahının Balta Formuna Dönüşümü",
+    "text": "Kristal Kılıç (Ejder Kemiği Silahı), kanını ve öfkesini aktaran kişinin (Akmer) doğasıyla uyumlanarak şekil değiştirebilmekte ve kullanıcının can gücüne (HP) doğrudan bağlanabilmektedir.",
+    "episode": "EP16",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0061",
+    "subject": "Büyüyle İyileşmenin Doğaya Aykırılığı",
+    "text": "Yeşil Ejderha öğretisine göre ölümlü varlıkların yaralandıktan sonra büyü yoluyla şifalanması doğanın ve hayat döngüsünün akışına aykırı bir sapmadır.",
+    "episode": "EP16",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0062",
+    "subject": "Arifler Okulu Döner Sermayesi ve Hedef Heykelleri",
+    "text": "Arifler Okulu döner sermaye atölyelerinde eğitim ve dekorasyon amacıyla tiplemelerin alçı kalıplarından hedef heykelleri ve eğitim mankenleri üretilip kurumlara satılmaktadır.",
+    "episode": "EP16",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/lore/3"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0063",
+    "subject": "Pastırman Mezhepleri ve Savaş Felsefesi",
+    "text": "Pastırman dininde iki farklı ana yorum/domain bulunmaktadır: Kalender'in temsil ettiği Şan/İhtişam (Glory) mezhebi ve Kavurhan'ın temsil ettiği Tam Savaş/Kan/Kıyım mezhebi.",
+    "episode": "EP17",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0064",
+    "subject": "Kutsal Rejenerasyon ve Ateş Elementi",
+    "text": "Kutsal ruh kütlesine bağlı ölümsüz rejenerasyon gösteren şahısların (Kavurhan Satıroğlu) hücre yenilenmesi ateş/dağlama veya kutsal/dağlayıcı unsurlarla engellenebilmektedir.",
+    "episode": "EP17",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0065",
+    "subject": "Pastırman Kozmik Savaş Boyutu (Sürgün)",
+    "text": "Pastırmancı yüksek rahipler ve savaşçılar Banishment büyüsüyle hedeflerini Pastırman'ın tanklar, dinozorlar ve sonsuz iblis savaşlarının sürdüğü öte alem boyutuna sürgün edebilmektedir.",
+    "episode": "EP17",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0066",
+    "subject": "Sancar Devran Suikastı ve Askeri Komuta Değişimi",
+    "text": "Yaz Helvası Krallığı Çöl Şehri başkomutanı Sancar Devran kışla toplantı odasında 4 özel suikast okuyla öldürülmüş, yönetimi ikinci adam Maraşel Cart Curtoğlu devralarak şehirde sokağa çıkma yasağı ilan etmiştir.",
+    "episode": "EP18",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0067",
+    "subject": "Yok Oluş Bey ve Beden Ele Geçirme",
+    "text": "İto İtoğlu'nun sırtında gelişen parazit canlı (Yok Oluş Bey), taşıyıcısının zırhını yararak konuşmaya başlamış ve insan eti/parmakları ısıran agresif bir bilince dönüşmüştür.",
+    "episode": "EP18",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0068",
+    "subject": "Kutsal Büyü Eğitimi ve Zihinsel Kas Yapısı",
+    "text": "Büyü rünlerini okumak ve büyü yapmak zihinsel bir kas gibidir; antrenmansız ve eğitimsiz kişilerin karmaşık büyülü scroll'ları doğrudan incelemesi zihinsel baygınlığa ve baş ağrısına yol açmaktadır.",
+    "episode": "EP18",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0069",
+    "subject": "Pastırman Anıtı'nın Kayboluşu ve İlahi Kriz",
+    "text": "Çöl Şehri Surları önünde Pastırman tarafından topraktan çıkarılan dev dökme demir eldiven anıtı, masum muhafızların katledilmesi ve dini sapmalar üzerine Pastırman tarafından aniden yerin altına çekilip kaybolmuş; bu durum Kalender Tütüncüoğlu'nda geçici Paladin güç kaybına yol açmıştır.",
+    "episode": "EP19",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0070",
+    "subject": "Çemenin Kılıcı ve Fanatik Güç Bağlantısı",
+    "text": "Pastırman dininin radikal yadigarlarından Çemenin Kılıcı, kabzasındaki dikenlerle taşıyıcısının avcuna saplanarak kan bağı kurar; kullanıcının bedenine alevli/baharatlı güç yayarak Strength değerini 20'ye çıkartır ve kutsal savaş hırsı bağışlar.",
+    "episode": "EP19",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0071",
+    "subject": "Kuşatma Ordularının Yapısı ve Komuta Kademesi",
+    "text": "Çöl Şehri'ni kuşatan kuvvetler üç bağımsız ordudan (Siyah Ejderha Ordusu, Kırmızı Ejderha Lejyonları ve Pastırmancı Radikal Birlikler) oluşmakta, Kavurhan Satıroğlu ise bu ittifakın başkomutanı olarak hareket etmektedir.",
+    "episode": "EP19",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0072",
+    "subject": "Çemenin Kılıcı Büyülü Frenzisi",
+    "text": "Çemenin Kılıcı (Çemendar) taşıyıcısına ilahi savaş hırsı ve +2 Strength bağışlar; ancak kullanıcının iradesini zorlayarak savaşa girmesini ister. Taşıyıcı yüksek zihinsel irade gösterirse (Wisdom kontrolü) kılıcı kınına sokarak etkisini bastırabilir.",
+    "episode": "EP20",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0073",
+    "subject": "Conjure Animals ve Büyülü Kartal Taşıma Kapasitesi",
+    "text": "3. seviye Conjure Animals büyüsüyle fey aleminden çağrılan 2 adet Dev Kartal (Giant Eagle), 500 metre irtifada rüzgar direncinden korunarak yolcuları ve ağır yükleri 1 saate kadar uzun mesafelere taşıyabilmektedir.",
+    "episode": "EP20",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0074",
+    "subject": "Çöl Kervansaray Kuralları ve Savaş Mülteci Politikası",
+    "text": "Çöl ortasındaki kervansaraylar savaş zamanlarında kervan emininin (Zakkum Bey) emriyle savaşa taraf olan şehirlerden mülteci kabul etmez; ancak yüksek rüşvet veya hancının hayvanlarına hekimlik/bakım hizmeti sunulması karşılığında özel istisnalar tanınmaktadır.",
+    "episode": "EP20",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0075",
+    "subject": "Tahin Saray Kervansarayı ve Mülteci Sığınağı Yapısı",
+    "text": "Tahin Saray Kervansarayı normally 200-300 kişi kapasiteli iken, Yaz Helvası kuşatmasından kaçan mültecilerle 600 kişiye ulaşmış; alt avluda garibanlar çadırlarda kalırken upper 2. kat balkonlarında zenginler kendi özel koruma birlikleriyle konaklamaktadır.",
+    "episode": "EP21",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0076",
+    "subject": "Paladin Yemin İhlali ve Güç Kaybı Mechanics",
+    "text": "Savaş Tanrısı Pastırman'ın elçisi Kalender Tütüncüoğlu savaştan kaçıp yeminini bozduğu için ilahi büyü ve şifa güçlerini kaybetmiş, D&D 5e kuralları gereği Fighter sınıfına düşmüştür.",
+    "episode": "EP21",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0077",
+    "subject": "Feigned Death ve Willing Creature Kuralı",
+    "text": "Feign Death (Ölü Taklidi) büyüsü yalnızca hedef yaratık rıza gösterirse (willing creature) çalışır; zorla saldıran hedeflerde rıza olmadığı için büyü başarısız olur.",
+    "episode": "EP21",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0078",
+    "subject": "Hulusi'nin Sürgün Aşkı ve Kızıl Komutan'ın Gizli Talimatı",
+    "text": "Helvacıoğlu Hulusi, Yaz Helvası sarayındaki genç bir soyluyla yaşadığı gizli platonik aşk nedeniyle şehirden sürülmüş; Kızıl Komutan (Sancar Devran) 'gün gelir devran döner, şehirden uzaklaşma' diyerek onun en yakın kervansarayda beklemesini istemiştir.",
+    "episode": "EP22",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0079",
+    "subject": "Gümüş Sıçanlar Akrobasi İkilisi",
+    "text": "Kervansarayda geçmişte gösteri yapan ve sırtlarından vurularak ölü bulunan Gümüş Sıçanlar adlı akrobasi ekibinin süslü ejderha motifli kostümleri delil odasında saklanmaktadır.",
+    "episode": "EP22",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0080",
+    "subject": "Feign Death (Ölü Taklidi) Büyüsü İle Kaçış",
+    "text": "Roary'nin rıza gösteren hedefe (Kalender) uyguladığı Feign Death büyüsü, hedefi 1 saat boyunca soluk alıp vermeyen bir ceset durumuna sokarak muhafızların ve halkın aldanmasını sağlamıştır.",
+    "episode": "EP22",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0081",
+    "subject": "Helvanar Evreni Yaratılış Efsanesi ve 9 Ejderha",
+    "text": "Efsaneye göre 9 ulu ejderha 'Bir soframız olsun ve bu sofranın lezzetlerine ortak olalım' diyerek evreni yaratmış; ancak insanlara zulmettikleri için insanların umutsuz dualarıyla çağrılan yüce tanrılar ejderhalarla savaşıp onları yenmiştir.",
+    "episode": "EP23",
+    "period": null,
+    "temporal_basis": "reviewed_source_context",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0082",
+    "subject": "Tapınak Sınavı ve Zamansal Sınır Yapısı",
+    "text": "Zümrüt Ejderha Tapınağı sınavında olan maceracılar harita sınırlarının dışına çıktıklarında zaman durmakta, güneş sabit kalmakta ve gerçek dünya mekanizmaları (sıcaklık hasarı) işlememektedir.",
+    "episode": "EP23",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0083",
+    "subject": "Narkader ve Denge İnancı",
+    "text": "Helvanar dünyasında Narkader evrenin merkez tanrıçasıdır ve her durumun zıddıyla dengeleneceği (çok iyilikten kötülük, çok zenginlikten fakirlik gelmesi) inancı toplumda hakimdir.",
+    "episode": "EP23",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0084",
+    "subject": "Yaratılışın Kileri ve Terkedilmiş Tarifler",
+    "text": "9 Ulu Ejderha evreni yaratırken denedikleri fakat ideal bulmadıkları canlı sosları, çemenleri, tahin-pekmez canlılarını ve lanetli tarifleri Ejderhalar Sofrası Harabeleri (Yaratılışın Kileri) adı verilen 7 katlı dikey kuyuda muhafaza altına almıştır.",
+    "episode": "EP24",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/lore/0"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0085",
+    "subject": "Ejderhaların İnsan Varoluş Amacı Doktrini",
+    "text": "Ametist Ejderha Kristali'nin beyanına göre insanlığın evrendeki tek varoluş amacı ejderhaların damak tadına ve ziyafetlerine hizmet etmektir; lezzetli tarifler üreten ölümlüler ejderhaların korumasını kazanır.",
+    "episode": "EP24",
+    "period": null,
+    "temporal_basis": "not_established",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/lore/1"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  },
+  {
+    "id": "LOR-0086",
+    "subject": "Doktor Aktar'ın Laneti ve Hazır Gıda Tozları",
+    "text": "Sütçüoğlu hanedanından Doktor Aktar, geleneksel yemek pişirme süreçlerini zaman kaybı görüp hazır toz harçlar ürettiği için tanrılar ve ejderhalar tarafından yemeğe hakaret sayılarak sut denizinin dibine hapsedilmiştir.",
+    "episode": "EP24",
+    "period": null,
+    "temporal_basis": "reviewed_source_context",
+    "subject_id": null,
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/lore/2"
+      }
+    ],
+    "continuity_scope": "MAIN_TIMELINE"
+  }
+]

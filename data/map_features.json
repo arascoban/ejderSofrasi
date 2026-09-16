@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "features": [
+    {
+      "feature_id": "MFT-CON-0001-001",
+      "entity_id": "CON-0001",
+      "frame_id": "FRM-CON-0001-001",
+      "geometry_revision": "1.0.0",
+      "periods": ["1300 civarı"],
+      "period_status": "source_attested",
+      "review_status": "draft",
+      "placement_source": "PRESENTATION",
+      "canon_basis": "UNKNOWN",
+      "geometry": { "type": "Polygon", "points": [[0.12,0.18],[0.34,0.08],[0.65,0.13],[0.88,0.32],[0.82,0.57],[0.69,0.86],[0.38,0.93],[0.15,0.75],[0.06,0.45]] }
+    },
+    {
+      "feature_id": "MFT-CON-0002-001",
+      "entity_id": "CON-0002",
+      "frame_id": "FRM-CON-0002-001",
+      "geometry_revision": "1.0.0",
+      "periods": ["1600 civarı"],
+      "period_status": "source_attested",
+      "review_status": "draft",
+      "placement_source": "PRESENTATION",
+      "canon_basis": "UNKNOWN",
+      "geometry": { "type": "Polygon", "points": [[0.16,0.09],[0.47,0.05],[0.81,0.22],[0.94,0.48],[0.78,0.79],[0.51,0.93],[0.22,0.83],[0.06,0.55]] }
+    },
+    {
+      "feature_id": "MFT-ISL-0001-001",
+      "entity_id": "ISL-0001",
+      "frame_id": "FRM-ISL-0001-001",
+      "geometry_revision": "1.0.0",
+      "periods": ["1600 civarı"],
+      "period_status": "source_attested",
+      "review_status": "draft",
+      "placement_source": "PRESENTATION",
+      "canon_basis": "CANON_CONSTRAINED",
+      "constraint_relationship_ids": ["REL-0442", "REL-0443"],
+      "geometry": { "type": "Polygon", "points": [[0.08,0.43],[0.24,0.16],[0.55,0.07],[0.87,0.29],[0.94,0.58],[0.66,0.9],[0.31,0.84]] }
+    },
+    {
+      "feature_id": "MFT-ISL-0003-001",
+      "entity_id": "ISL-0003",
+      "frame_id": "FRM-ISL-0003-001",
+      "geometry_revision": "1.0.0",
+      "periods": [],
+      "period_status": "unknown",
+      "review_status": "draft",
+      "placement_source": "PRESENTATION",
+      "canon_basis": "UNKNOWN",
+      "geometry": { "type": "Polygon", "points": [[0.09,0.33],[0.33,0.08],[0.7,0.14],[0.93,0.48],[0.74,0.83],[0.37,0.92],[0.08,0.66]] }
+    },
+    {
+      "feature_id": "MFT-ISL-0004-001",
+      "entity_id": "ISL-0004",
+      "frame_id": "FRM-ISL-0004-001",
+      "geometry_revision": "1.0.0",
+      "periods": ["1600 civarı"],
+      "period_status": "source_attested",
+      "review_status": "draft",
+      "placement_source": "PRESENTATION",
+      "canon_basis": "UNKNOWN",
+      "geometry": { "type": "Polygon", "points": [[0.06,0.48],[0.24,0.13],[0.58,0.06],[0.9,0.31],[0.86,0.67],[0.55,0.94],[0.18,0.79]] }
+    },
+    {
+      "feature_id": "MFT-ISL-0005-001",
+      "entity_id": "ISL-0005",
+      "frame_id": "FRM-ISL-0005-001",
+      "geometry_revision": "1.0.0",
+      "periods": [],
+      "period_status": "unknown",
+      "review_status": "draft",
+      "placement_source": "PRESENTATION",
+      "canon_basis": "UNKNOWN",
+      "geometry": { "type": "Polygon", "points": [[0.08,0.36],[0.31,0.09],[0.7,0.12],[0.94,0.45],[0.78,0.82],[0.42,0.93],[0.12,0.69]] }
+    }
+  ]
+}

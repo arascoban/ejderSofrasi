@@ -1,0 +1,30 @@
+[
+  {
+    "id": "WST-0001",
+    "entity_id": "CON-0001",
+    "period": "1300 civarı",
+    "state": "exists",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/35/facts/0"
+      }
+    ],
+    "confidence": "source_supported"
+  },
+  {
+    "id": "WST-0002",
+    "entity_id": "CON-0001",
+    "period": "1600 civarı",
+    "state": "reported_lost",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/25/facts/0"
+      }
+    ],
+    "confidence": "source_supported",
+    "owner_confirmation": "The project brief explicitly places Helvanar as existing circa 1300 and lost/absent circa 1600.",
+    "qualification": "Later loss is described in a mixed-period episode; exact destruction date and mechanism remain unresolved."
+  }
+]

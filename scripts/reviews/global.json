@@ -1,0 +1,13 @@
+{
+  "review_metadata": {
+    "scope": "Cross-episode consistency following the three full episode reviews",
+    "notes": "Keeps military service separate from sovereign rule. Normalization does not infer a kingdom-wide chain of command from city-level actions."
+  },
+  "relationship_overrides": [
+    {"episode":"EP17","index":9,"relation":"SERVES","reason":"The evidence calls Sancar the kingdom's chief military commander; this is service to the kingdom, not command over the polity itself.","period":"1300 civarı"},
+    {"episode":"EP18","index":9,"relation":"SERVES","reason":"The evidence recalls Sancar's service as chief military commander before his assassination; it does not establish sovereignty.","period":"1300 civarı"},
+    {"episode":"EP18","index":11,"relation":"SERVES","reason":"The successor takes the military commander's office; retain service to the kingdom and the leadership-change event.","period":"1300 civarı"},
+    {"episode":"EP19","index":11,"relation":"ASSOCIATED_WITH","reason":"Declaring a curfew in Çöl Şehri does not independently establish command over the entire kingdom. The explicit city administration remains in facts.","period":"1300 civarı"},
+    {"episode":"EP20","index":12,"relation":"ASSOCIATED_WITH","reason":"Directing an assault from the city walls is not proof of command over the entire polity. Keep the military action in facts and timeline.","period":"1300 civarı"}
+  ]
+}

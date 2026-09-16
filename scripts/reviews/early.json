@@ -1,0 +1,3652 @@
+{
+  "merges": [
+    {
+      "names": [
+        "Adnan Körkapak",
+        "O'Rusbu Adnan"
+      ],
+      "canonical_name": "O'Rusbu Adnan",
+      "reason": "EP01 explicitly lists the exact Canon name as alias of the captain. This does not identify the separately listed Körkapak or Kara Kapak with the captain.",
+      "sources": [
+        {
+          "episode": "EP01",
+          "pointer": "/entities/4/a/2"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Harun O'Rusbu",
+        "Harun"
+      ],
+      "canonical_name": "Harun",
+      "reason": "The EP00 innkeeper explicitly has the Canon name Harun as alias. No relationship to Adnan is inferred.",
+      "sources": [
+        {
+          "episode": "EP00",
+          "pointer": "/entities/5/a/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Güllaç Şehir Devleti",
+        "Güllaç Kasabası"
+      ],
+      "canonical_name": "Güllaç Kasabası",
+      "reason": "Explicit source alias matches owner canonical spelling; retain conflicting city-state classification as provenance and review issue.",
+      "sources": [
+        {
+          "episode": "EP00",
+          "pointer": "/entities/28/a/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Telvelin Şehir Devleti",
+        "Telvhelin Şehir Devleti"
+      ],
+      "canonical_name": "Telvhelin Şehir Devleti",
+      "reason": "Source explicitly lists Telvhelin as alias of this same city-state; canonical list supplies full spelling.",
+      "sources": [
+        {
+          "episode": "EP00",
+          "pointer": "/entities/27/a/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Bal Güneş",
+        "Balgüneş"
+      ],
+      "canonical_name": "Balgüneş",
+      "reason": "Exact canonical name is a source alias.",
+      "sources": [
+        {
+          "episode": "EP03",
+          "pointer": "/entities/12/a/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "PNG Adası",
+        "Gizemler Adası"
+      ],
+      "canonical_name": "Gizemler Adası",
+      "reason": "EP03 explicitly aliases PNG Adası to Gizemler Adası and describes the same treasure-map destination.",
+      "sources": [
+        {
+          "episode": "EP03",
+          "pointer": "/entities/20/a/0"
+        },
+        {
+          "episode": "EP01",
+          "pointer": "/entities/16"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Cemil",
+        "Cemil (Papağan)"
+      ],
+      "canonical_name": "Cemil (Papağan)",
+      "reason": "EP04 identifies Cemil as the parrot and supplies exact Canon alias. Do not merge Muzaffer Cemil.",
+      "sources": [
+        {
+          "episode": "EP04",
+          "pointer": "/entities/6/a/0"
+        },
+        {
+          "episode": "EP05",
+          "pointer": "/entities/5/a/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "canonical_name": "Zümrüt Ejderha Tapınağı",
+      "reason": "Explicit EP04 canonical alias plus EP05/EP06 shared Şifa Tapınağı alias and description of same dungeon below the scale; dragon and scale remain distinct.",
+      "sources": [
+        {
+          "episode": "EP04",
+          "pointer": "/entities/12/a/1"
+        },
+        {
+          "episode": "EP05",
+          "pointer": "/entities/17/a/0"
+        },
+        {
+          "episode": "EP06",
+          "pointer": "/entities/14/a/0"
+        },
+        {
+          "episode": "EP06",
+          "pointer": "/entities/14/facts/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Safir Ejderha",
+        "Mavi Ejderha"
+      ],
+      "canonical_name": "Mavi Ejderha",
+      "reason": "EP09 explicitly supplies Safir Ejderha as alias of Mavi Ejderha; Canon confirms Mavi spelling.",
+      "sources": [
+        {
+          "episode": "EP09",
+          "pointer": "/entities/18/a/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Raer",
+        "Ammon",
+        "Raer Ammon"
+      ],
+      "canonical_name": "Raer Ammon",
+      "reason": "EP11 explicitly says Ammon is the corrected name of Raer and aliases Raer; owner Canon supplies Raer Ammon.",
+      "sources": [
+        {
+          "episode": "EP11",
+          "pointer": "/entities/5/a/0"
+        },
+        {
+          "episode": "EP11",
+          "pointer": "/entities/5/facts/0"
+        }
+      ]
+    }
+  ],
+  "owner_merges": [
+    {
+      "names": [
+        "O'Rusbu Adnan",
+        "Adnan Körkapak",
+        "Körkapak"
+      ],
+      "canonical_name": "Adnan Körkapak",
+      "owner_confirmed": true,
+      "legacy_slugs": [
+        "o-rusbu-adnan"
+      ],
+      "reason": "Project owner confirmed that Adnan Körkapak is the person's actual name and O'Rusbu Adnan is the name everyone uses for the same person. Kara Kapak remains a separate former companion.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 17
+        },
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 18
+        },
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/entities/9"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Dev Timsah",
+        "Mega Timsah"
+      ],
+      "canonical_name": "Dev Timsah",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed that Dev Timsah and Mega Timsah are the same creature.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-BOSSES",
+          "line": 1
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/22"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Boyut Avcısı Fener Balığı",
+        "Dev Fener Balığı"
+      ],
+      "canonical_name": "Boyut Avcısı Fener Balığı",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed that Boyut Avcısı Fener Balığı and Dev Fener Balığı are the same creature.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-BOSSES",
+          "line": 2
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/6"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Jiwong",
+        "Ji Wong Wang"
+      ],
+      "canonical_name": "Jiwong",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed that Jiwong and Ji Wong Wang are the same person.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 37
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/5"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Yeniden Yaşam Yüzüğü",
+        "Zümrüt Yüzük"
+      ],
+      "canonical_name": "Yeniden Yaşam Yüzüğü",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed that Zümrüt Yüzük and Yeniden Yaşam Yüzüğü are the same item.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-ITEMS",
+          "line": 4
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/13"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Işık Tacı",
+        "Büyülü Taç"
+      ],
+      "canonical_name": "Işık Tacı",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed that Büyülü Taç and Işık Tacı are the same item.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-ITEMS",
+          "line": 5
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/12"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Helvanar Kıtası",
+        "Helva Adası"
+      ],
+      "canonical_name": "Helvanar Kıtası",
+      "owner_confirmed": true,
+      "legacy_slugs": [
+        "helva-adasi"
+      ],
+      "reason": "Project owner confirmed that Helvanar Kıtası and Helva Adası are the same enormous island; the continent label describes its scale.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 13
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/25"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Çöl Şehri",
+        "Yaz Helvası Şehri"
+      ],
+      "canonical_name": "Yaz Helvası Şehri",
+      "owner_confirmed": true,
+      "legacy_slugs": [
+        "col-sehri"
+      ],
+      "reason": "Project owner confirmed that the city commonly described as Çöl Şehri is Yaz Helvası Şehri, the historical capital of Yaz Helvası Krallığı.",
+      "sources": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/uncertainties/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Dingi",
+        "Dingi Sandalı"
+      ],
+      "canonical_name": "Dingi Sandalı",
+      "stable_key": "dingi",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed that Dingi Sandalı is the person's actual name and Dingi is the short name; there is no separate boat entity.",
+      "sources": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/6"
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/24"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Bronz Ejderha",
+        "Kahverengi Ejderha"
+      ],
+      "canonical_name": "Bronz Ejderha",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed Bronz Ejderha and Kahverengi Ejderha are the same dragon; Metal Ejderha remains separate.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+          "line": 20
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Ozempic Kervansaray",
+        "Tahin Saray Kervansarayı",
+        "Tahin Saray",
+        "Kervansaray"
+      ],
+      "canonical_name": "Tahin Saray Kervansarayı",
+      "stable_key": "tahin saray kervansarayı",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed Ozempic Kervansaray is another name for Tahin Saray, whose full canonical location name is Tahin Saray Kervansarayı.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 40
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/21"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Kainatın Salatası",
+        "Gavurdağı Golemi"
+      ],
+      "canonical_name": "Kainatın Salatası",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed Kainatın Salatası and Gavurdağı Golemi are the same creature.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-BOSSES",
+          "line": 5
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/7"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Podcasa Evreni",
+        "Podcastia"
+      ],
+      "canonical_name": "Podcastia",
+      "stable_key": "podcasa evreni",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed Podcastia is another D&D series set in the same universe and referenced as a limited crossover.",
+      "sources": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/uncertainties/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Operacı Nihat",
+        "Opera Sanatçısı Dayı"
+      ],
+      "canonical_name": "Operacı Nihat",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed Opera Sanatçısı Dayı and Operacı Nihat are the same person.",
+      "sources": [
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 78
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/9"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Helvacıoğlu Baltası",
+        "Kristal Kılıç"
+      ],
+      "canonical_name": "Helvacıoğlu Baltası",
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed the item began as Kristal Kılıç, was handed from Kalender to Akmer, and transformed into Helvacıoğlu Baltası the next morning.",
+      "sources": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Çöl Şehri Surları",
+        "Yaz Helvası Şehri Surları"
+      ],
+      "canonical_name": "Yaz Helvası Şehri Surları",
+      "owner_confirmed": true,
+      "stable_key": "çöl şehri surları",
+      "legacy_slugs": [
+        "col-sehri-surlari"
+      ],
+      "reason": "Project owner confirmed that the source label Çöl Şehri refers to Yaz Helvası Şehri; the existing wall record is renamed without changing its stable identity.",
+      "sources": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/entities/14"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/25"
+        }
+      ]
+    }
+  ],
+  "fact_replacements": [
+    {
+      "episode": "EP00",
+      "pointer": "/entities/28/facts/0",
+      "replacement": "Şeker madenlerinin ve Sütçüoğlu tesislerinin bulunduğu kasaba.",
+      "reason": "Project owner confirmed that Güllaç is a kasaba; the normalized description should use the canonical settlement term."
+    },
+    {
+      "episode": "EP24",
+      "pointer": "/entities/11/facts/0",
+      "replacement": "Sütçüoğlu hanedanının konağında yer alan, yeni sütlü tatlı tariflerinin geliştirildiği ve Akmer'in çocukluğunda kaçıp hazır noodle/puding yaptığı özel mutfak alanıdır.",
+      "reason": "Project owner requested separate records for the real childhood kitchen and its magically recreated temple-trial manifestation."
+    },
+    {
+      "episode": "EP14",
+      "pointer": "/entities/5/facts/2",
+      "replacement": "Devran'ın büyülü kaskı üzerinden Arifler bağlantısıyla Devran'ın ağzından konuşarak maceracılarla gergin görüşme yapmıştır; gerçek bağlantı Devran kaskını çıkarınca anlaşılmıştır.",
+      "reason": "Project owner clarified that Sancar spoke through Devran's mouth via the magical Arifler connection."
+    },
+    {
+      "episode": "EP14",
+      "pointer": "/entities/6/facts/0",
+      "replacement": "Babasının büyülü kaskını takarak Batan Güneş Kahvesi görüşmesine katılmış; Sancar bu bağlantı üzerinden Devran'ın ağzından konuşmuş ve gerçek Devran kaskını çıkarınca ortaya çıkmıştır.",
+      "reason": "Project owner clarified the delayed reveal of Sancar's magical projection through Devran."
+    }
+  ],
+  "fact_exclusions": [
+    {
+      "episode": "EP03",
+      "pointer": "/entities/24/facts/0",
+      "reason": "Project owner confirmed Dingi Sandalı is a person; the extracted small-boat description is a source classification error and must not appear as a person fact."
+    }
+  ],
+  "owner_alias_exclusions": [
+    {
+      "episode": "EP22",
+      "index": 0,
+      "aliases": [
+        "Gümüş Sıçan"
+      ],
+      "reason": "Project owner confirmed Akmer wore the Kızıl Sıçan costume; EP22's Gümüş Sıçan assignment is reversed."
+    },
+    {
+      "episode": "EP22",
+      "index": 1,
+      "aliases": [
+        "Kızıl Sıçan"
+      ],
+      "reason": "Project owner confirmed Kalender wore the Gümüş Sıçan costume; EP22's Kızıl Sıçan assignment is reversed."
+    },
+    {
+      "episode": "EP24",
+      "index": 12,
+      "aliases": [
+        "Kazandibi"
+      ],
+      "reason": "Project owner confirmed Kazandibi was the requested recipe, while the characters actually cooked Sütlaç; the foods remain distinct."
+    }
+  ],
+  "owner_entities": [
+    {
+      "name": "Sütçüoğlu Deney Mutfağı Sınav Yansıması",
+      "type": "BUILDING",
+      "periods": [
+        "1300 civarı"
+      ],
+      "split_from": "Sütçüoğlu Deney Mutfağı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/links/14"
+        }
+      ],
+      "facts": [
+        {
+          "text": "Ametist Kristali tarafından Ejderhalar Sofrası Harabeleri içinde sınav mekânı olarak canlandırılan, gerçek Sütçüoğlu Deney Mutfağı'nın büyülü yansımasıdır.",
+          "period": "1300 civarı"
+        }
+      ],
+      "reason": "Project owner confirmed the real childhood kitchen and the magically recreated temple-trial manifestation must be separate records."
+    },
+    {
+      "name": "Yaz Helvası Alt Şehri",
+      "type": "CITY",
+      "stable_key": "yaz-helvasi-alt-sehri",
+      "periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "facts": [
+        {
+          "text": "Yaz Helvası Şehri’nin çölle bitişik alt şehridir; zemini kum ve çakıldır. Alt tabakadan insanların yaşadığı bu bölgede açlık, hastalık ve başka sıkıntılar görülür. Karakterler Şifa Zindanı çıkışında burada ortaya çıkar.",
+          "period": "1300 civarı"
+        }
+      ],
+      "reason": "Project owner defined the lower desert-facing city as a separate city-level map entity."
+    },
+    {
+      "name": "Yaz Helvası Orta Şehri",
+      "type": "CITY",
+      "stable_key": "yaz-helvasi-orta-sehri",
+      "periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "facts": [
+        {
+          "text": "Çölden daha yüksekteki, taş zeminli orta şehirdir. Orta gelirli insanların yaşadığı bu bölgede çarşılar ve marketler bulunur; Yaz Helvası üretimi ile şehir ticareti burada yoğunlaşır.",
+          "period": "1300 civarı"
+        }
+      ],
+      "reason": "Project owner defined the middle commercial city as a separate city-level map entity."
+    },
+    {
+      "name": "Yaz Helvası Üst Şehri",
+      "type": "CITY",
+      "stable_key": "yaz-helvasi-ust-sehri",
+      "periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "facts": [
+        {
+          "text": "Çölden çok yüksekte, dağın tepesinde bulunan üst şehirdir. Zemini seramik ve pahalı taşlardan oluşur; kraliyet sarayı dağın ucunda yer alır. Üst tabaka burada yaşar ve Arifler Loncası/Okulu bu şehirde bulunur. Çevresindeki büyülü aura yukarıdan gelen mancınık saldırılarına karşı koruma sağlar.",
+          "period": "1300 civarı"
+        }
+      ],
+      "reason": "Project owner defined the upper royal and Arifler city as a separate city-level map entity."
+    }
+  ],
+  "owner_facts": [
+    {
+      "entity": "Akmer",
+      "text": "Tahin Saray Delil Odası'nda bulunan Kızıl Sıçan kostümünü yalnızca dikkat dağıtmak için geçici olarak giymiştir.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/0/a"
+        }
+      ],
+      "reason": "Project owner confirmed Akmer wore the Kızıl Sıçan costume as a temporary diversion."
+    },
+    {
+      "entity": "Kalender Tütüncüoğlu",
+      "text": "Tahin Saray Delil Odası'nda bulunan Gümüş Sıçan kostümünü yalnızca dikkat dağıtmak için geçici olarak giymiştir.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/1/a"
+        }
+      ],
+      "reason": "Project owner confirmed Kalender wore the Gümüş Sıçan costume as a temporary diversion."
+    },
+    {
+      "entity": "Podcastia",
+      "text": "Aynı evrende geçen başka bir D&D serisidir; mevcut ana zaman çizgisinde yalnızca sınırlı bir gönderme/crossover bilgisi bulunmaktadır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner confirmed Podcastia is a same-universe crossover reference with limited current detail."
+    },
+    {
+      "entity": "Kızıl Komutan Sancar",
+      "text": "Arifler Loncası bağlantısıyla Devran'ın ağzından konuşmuştur; o sırada karakterler bunun Sancar olduğunu fark etmemiş, Devran kaskını çıkarınca bağlantı kopmuştur.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "reason": "Project owner clarified the magical Arifler connection and delayed reveal of Sancar speaking through Devran."
+    },
+    {
+      "entity": "İto İtoğlu",
+      "text": "Işık Tacı kafasına yapışmıştır; Arifler Loncası Remove Curse ile kaldırabileceğini söylemiş, ancak İto bunu istememiştir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/2/facts/3"
+        }
+      ],
+      "reason": "Project owner confirmed Işık Tacı's permanent attachment and İto's refusal of Remove Curse."
+    },
+    {
+      "entity": "Kalender Tütüncüoğlu",
+      "text": "Yeniden Yaşam Yüzüğü elinden çıkmadan hep Kalender'de kalmıştır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/1/facts/2"
+        }
+      ],
+      "reason": "Project owner confirmed the ring never left Kalender's hand."
+    },
+    {
+      "entity": "Roary",
+      "text": "Azize'nin Gözyaşları Kadehi hep Roary'deydi; gördüğü kâbusların etkisiyle odasında kadehi fırlattı ve ekip Yaz Helvası Şehri'nden kaçarken kadehi alamadı.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ],
+      "reason": "Project owner confirmed the cup's custody and loss during the escape."
+    },
+    {
+      "entity": "Kalender Tütüncüoğlu",
+      "text": "Kristal Kılıç'ı demirciden aldı; kılıç her tuttuğunda eline dikenler saplandı ve Kalender onu Akmer'e verdi. Ertesi sabah kılıç Helvacıoğlu Baltası'na dönüştü.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "reason": "Project owner confirmed the sword-to-axe transformation and handoff sequence."
+    },
+    {
+      "entity": "Yaz Helvası Şehri",
+      "text": "Yaz Helvası Şehri, çölde başlayıp dağın tepesine yükselen üç bağlı şehirden oluşur. Şehirler arasında surlar ve kapılar bulunur; büyülü zipline hatları ve büyük ana yol şehirleri birbirine bağlar.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "reason": "Project owner clarified the canonical three-city vertical structure of Yaz Helvası Şehri."
+    },
+    {
+      "entity": "Yaz Helvası Şehri Surları",
+      "text": "Her şehir arasında surlar ve kapılar vardır. Surlar arasındaki büyülü zipline sistemi ve büyük ana yol şehirler arası seyahati kolaylaştırır.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/17/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "reason": "Project owner clarified that the walls and gates belong to a connected three-city system."
+    },
+    {
+      "entity": "Azizenin Gözyaşları",
+      "text": "Kadeh lanetlidir; Azize’nin son anlarında yaşadığı eziyeti kullanıcısına rüya yoluyla tekrar tekrar yaşatır. Roary bu rüyanın ardından kadehi fırlatmıştır.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        }
+      ],
+      "reason": "Project owner clarified the curse mechanism and why Roary threw the cup."
+    },
+    {
+      "entity": "Hazine Haritası",
+      "text": "Haritadaki yaratık sembolü ejderha olarak yorumlanır; bu yorum kesin değildir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP02",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "reason": "Project owner gave the best current reading while retaining uncertainty."
+    },
+    {
+      "entity": "Adnan Körkapak",
+      "text": "Tayfaya haftalık 5 gümüş ödeme/borç miktarı aktarılır; miktarın kesinliği yoktur.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner identified 5 silver as the likely amount but explicitly marked it uncertain."
+    },
+    {
+      "entity": "Muzaffer Cemil",
+      "text": "Kadim Zümrüt Ejderha tapınağının koruyucusudur.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner clarified Bumblebor/Muzaffer Dede’s role as the ancient emerald dragon temple guardian."
+    },
+    {
+      "entity": "Cemil (Papağan)",
+      "text": "Şampiyon Fener sözünü, eşyanın gerçek adı olan Şampiyonların Feneri’nden türetir; papağan olduğu için adı kısaltarak söyler.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the parrot’s wording as a shortened form of the item name."
+    },
+    {
+      "entity": "Zümrüt Ejderha Tapınağı",
+      "text": "Şifa zindanındaki kapının tam mekânsal çıkış noktası kesin değildir; kapıdan geçildikten sonra grup tarihsel olarak geçmişe ulaşmıştır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/2"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "reason": "Project owner confirmed the temporal transition while leaving the exact exit point unknown."
+    },
+    {
+      "entity": "Gümüş Ejderha",
+      "text": "Gümüş Ejderha 1673 ifadesinin tam tarihsel karşılığı bilinmemektedir; 1673 yerel takvim/tarih referansı olarak korunur.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner confirmed the exact date is unknown."
+    },
+    {
+      "entity": "Gizemler Adası",
+      "text": "Adadaki olağanüstü büyük hayvanların büyülü etkiden kaynaklandığı açıklaması kanon olarak doğrulanmamıştır; yalnızca kanıtlanmamış bir yorumdur.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/lore/4"
+        }
+      ],
+      "reason": "Project owner rejected magical influence as established canon."
+    },
+    {
+      "entity": "Hulusi'nin Altın Sandığı",
+      "text": "Sandık ve yağmalama sonucunda 5000'den fazla altın ile büyülü yüzükler, kolyeler ve başka karışık değerli ganimetler elde edilmiştir; toplam miktar kesin değildir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner clarified the loot composition and left the exact total unknown."
+    },
+    {
+      "entity": "Ejderhalar Sofrası Harabeleri",
+      "text": "Harabelerin fiziksel konumu veya başka bir boyutla ilişkisi hikâyenin bu aşamasında açıklanmamıştır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner confirmed the ruins remain unexplained."
+    },
+    {
+      "entity": "Doktor Aktar",
+      "text": "Hapsedilmesi ve çocukluk dönemindeki mutfak geçmişinin kesin tarihleri bilinmemektedir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/lore/2"
+        }
+      ],
+      "reason": "Project owner confirmed the biography is undated."
+    },
+    {
+      "entity": "Devran",
+      "text": "Devran/Kartal Sniper'ın Siyah Ejderha Tarikatı ile gerçek bağlılığı hikâyede kesinleştirilmemiştir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "reason": "Project owner confirmed the allegiance question remains open in canon."
+    },
+    {
+      "entity": "Zümrüt Ejderha",
+      "text": "1300'lü yıllarda büyü benimsenen ve çoğu kişinin bildiği bir şeydir.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "reason": "Project owner clarified the historical context of magic."
+    },
+    {
+      "entity": "Zümrüt Ejderha",
+      "text": "1600'lü yıllarda büyü lanetli kabul edilen bir şeydir.",
+      "period": "1600 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "reason": "Project owner clarified the historical context of magic."
+    },
+    {
+      "entity": "Jifa",
+      "text": "Yaşı bilinmemektedir; tapınakta çok uzun süredir nöbet tutmaktadır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "reason": "Project owner clarified Jifa's age and long temple service."
+    },
+    {
+      "entity": "Köpo Kurtoğlu",
+      "text": "Meşrep Sarmagil ile birlikte Dev Fener Balığı'nın ağzındaki kozmik karanlıkta kaybolmuştur; nihai akıbeti belirsizdir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the last known location while preserving the unknown fate."
+    },
+    {
+      "entity": "Meşrep Sarmagil",
+      "text": "Köpo Kurtoğlu ile birlikte Dev Fener Balığı'nın ağzındaki kozmik karanlıkta kaybolmuştur; nihai akıbeti belirsizdir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the last known location while preserving the unknown fate."
+    },
+    {
+      "entity": "Kalender Tütüncüoğlu",
+      "text": "Halk tarafından Mehdi ilan edilmiştir; gerçek Mehdi değildir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the distinction between public title and actual status."
+    },
+    {
+      "entity": "Helvanar Kıtası",
+      "text": "Ejderhalar ve tanrılar arasındaki savaştan sonra battığı düşünülmektedir; kuşatmadan ne kadar sonra battığı bilinmemektedir.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "reason": "Project owner linked the sinking to the dragon-god war while keeping timing uncertain."
+    },
+    {
+      "entity": "Toyya",
+      "text": "Yeşim rahipleri arasında alt kademe rütbededir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner confirmed Toyya's rank."
+    },
+    {
+      "entity": "Tefnut",
+      "text": "Yeşim rahipleri arasında üst kademe rütbededir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner confirmed Tefnut's rank."
+    },
+    {
+      "entity": "Shebekem",
+      "text": "Şebekem'in hain olduğu sonraki bölümlerde açığa çıkar; Siyah Ejderha ajanlarının şehre sızmasına büyük ihtimalle yardım etmiştir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the later betrayal reveal and likely assistance."
+    },
+    {
+      "entity": "Raer Ammon",
+      "text": "Raer, Ammon ve Ammon Bey adları aynı büyücüyü ifade eder.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner confirmed the identity merge."
+    },
+    {
+      "entity": "İto İtoğlu",
+      "text": "Sırtındaki büyük ağız, Dev Fener Balığı'nın lanet etkisindeki Işık Tacı nedeniyle oluşmuştur; bu varlığın adı Yokoluş Bey'dir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the curse and the name Yokoluş Bey."
+    },
+    {
+      "entity": "Kalender Tütüncüoğlu",
+      "text": "Pastırman, Kalender'in Yeşil Ejderha'ya yaklaşmasından hoşnut olmadığı ve Kavurhan'ın verdiği kılıcı alırken ettiği savaş yeminini bozduğu için güçlerini geri almıştır. Kalender Yemin Bozan değildir; EP21'den itibaren Fighter/Düz Adam olarak devam eder.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "reason": "Project owner clarified the combined causes of Kalender's loss of divine powers and later class."
+    },
+    {
+      "entity": "İto İtoğlu",
+      "text": "EP24 itibarıyla sırtındaki Yokoluş Bey yalnızca acıktığında veya arbedede ortaya çıkmaktadır; gelecekte İto'yu tamamen ele geçirip geçirmeyeceği bilinmiyor.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner clarified the current status of the Yokoluş Bey parasite."
+    },
+    {
+      "entity": "Kızıl Komutan Sancar",
+      "text": "Kalender ile anlaşarak Pastırman mitingine izin vermiş, dini konuların savaş bittikten sonra konuşulmasını şart koşmuştur; kraliyet ailesinin tepkisi bilinmemektedir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the negotiated permission and remaining royal uncertainty."
+    },
+    {
+      "entity": "Kızıl Komutan Sancar",
+      "text": "Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner confirmed Sancar's command rank."
+    },
+    {
+      "entity": "Pastırman",
+      "text": "Pastırman ile Yeşil Ejderha'nın gerçek ilahi ilişkisi kesin değildir; Akmer ve Kalender halkı kandırmak için ikisinin müttefik olduğunu ve evleneceğini söylemiştir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the public deception and preserved the underlying relationship as unknown."
+    },
+    {
+      "entity": "Shebekem",
+      "text": "Patlama sonrası nerede olduğu kesin değildir. Siyah Ejderha suikastçısının sorgulanmasıyla ajan olduğu açığa çıkmış ve Kızıl Komutan tarafından ekran dışında öldürülmüştür.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/uncertainties/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the betrayal reveal and off-screen execution."
+    },
+    {
+      "entity": "Siyah Ejderha Tarikatı",
+      "text": "Siyah Ejderha, Kırmızı Ejderha ve Pastırman inancına sahip kuşatmacılar, Yaz Helvası Krallığı'na karşı kuşatma bağlamında müttefik konumundadır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the siege alliance context."
+    },
+    {
+      "entity": "Kavurhan Satıroğlu",
+      "text": "Gelecekte hangi tarafı seçeceği ve fetih yönü bilinmemektedir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner left Kavurhan's future direction unresolved."
+    },
+    {
+      "entity": "Devran",
+      "text": "Sancar'ı Devran'ın öldürdüğü düşünülmektedir; bu hiçbir zaman kesin olarak kanıtlanmamıştır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner clarified the likely but unproven assassin identity."
+    },
+    {
+      "entity": "Yaz Helvası Krallığı",
+      "text": "Kaynaklarda 'Çöl Şehri' diye geçen siyasal ve askerî bağlam Yaz Helvası Krallığı'nı ifade eder. Yaz Helvası Şehri ise krallığın üç şehirli kentsel yapısı olarak ayrı tutulur.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner updated the political scope of the Çöl Şehri expression while preserving the three-city urban record."
+    },
+    {
+      "entity": "Kalender Tütüncüoğlu",
+      "text": "Çemenin Kılıcı savaş yemini sonrasında +2 Strength ve Rage vermiştir. Kalender Wisdom (d20) ile kılıçtan kurtulduktan ve yemini bozduktan sonra kılıcı tutamaz; tuttuğunda ellerine saplanarak ellerini kullanılamaz hâle getirir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner clarified the sword's temporary benefits and later rejection effect."
+    },
+    {
+      "entity": "Çemenin Kılıcı",
+      "text": "Kalender'in savaş yemini sonrasında +2 Strength ve Rage sağlayan; yemin bozulduktan sonra Kalender'in ellerine saplanan lanetli/uyumsuz kılıçtır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner clarified the item's effect and post-oath behavior."
+    },
+    {
+      "entity": "Yaz Helvası Krallığı",
+      "text": "Kuşatma sırasında 1. şehir/alt şehir surları düşmüş ve kuşatma ordusu içeri girmiştir; nihai sonuç, karakterler bölgeden ayrıldığı için bilinmemektedir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the last observed siege state."
+    },
+    {
+      "entity": "Cemil (Papağan)",
+      "text": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the last known status of the companions."
+    },
+    {
+      "entity": "İbrahim (Kompi)",
+      "text": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "reason": "Project owner clarified the last known status of the companions."
+    },
+    {
+      "entity": "Tahin Saray Kervansarayı",
+      "text": "Hulusi'nin sarı zırhlı korumaları, efendilerinin ölümünden sonra kervansaraydan kaçmıştır; sonraki akıbetleri belirsizdir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "reason": "Project owner clarified that the guards fled the caravanserai."
+    },
+    {
+      "entity": "Kefir",
+      "text": "Siyah Ejderha Cambazları'nın lideri olması muhtemeldir, ancak bu liderlik kesin olarak doğrulanmamıştır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/links/9"
+        }
+      ],
+      "reason": "Project owner left Kefir's exact leadership status uncertain."
+    },
+    {
+      "entity": "Zümrüt Ejderha Tapınağı",
+      "text": "Şifa Deresi, tapınağın içindeki Şifa Zindanı'nda bulunan bir deredir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "reason": "Project owner identified Şifa Deresi as an interior dungeon stream."
+    },
+    {
+      "entity": "Zümrüt Ejderha Tapınağı",
+      "text": "Zümrüt Bronz Kapılar ve 5 Nolu Zümrüt Ejderha Küpü tapınağın içindeki kapı/yapı alanlarıdır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        }
+      ],
+      "reason": "Project owner classified the EP05 waypoints as temple-internal structures."
+    },
+    {
+      "entity": "Zümrüt Ejderha Tapınağı",
+      "text": "4 Kollu Yeşim Kapı tapınağın içindedir; bu kapı geçildikten sonra ödül odasına ulaşılır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "reason": "Project owner clarified the door location and reward-room sequence."
+    },
+    {
+      "entity": "Zümrüt Ejderha Tapınağı",
+      "text": "Beyaz-Sarı Damarlı Merdivenler tapınağın fiziksel merdivenleridir; aynı zamanda garip bir büyü nedeniyle yukarı çıkışın bazen aşağıya, aşağı inişin de aynı yere döndüğü bir geçiş etkisi taşır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "reason": "Project owner clarified the physical and magical stair behavior."
+    },
+    {
+      "entity": "Zümrüt Ejderha Tapınağı",
+      "text": "Terk Edilmiş Ahşap Baraka, tapınağın girişindeki gerçek yapıdır; Dennu'nun Evi bu barakanın yanında bulunan gerçek bir evdir. Üçlü Geçiş Kapıları tapınak içindeki üç kapılı geçiştir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "reason": "Project owner clarified the entrance structures and the temple passage."
+    },
+    {
+      "entity": "Yaz Helvası Krallığı",
+      "text": "Krallığın şehirleri birbirinden surlar ve kapılarla ayrılır; güvenlik kapıları bu şehirler arası sınır sisteminin parçasıdır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "reason": "Project owner clarified the wall and gate system between the cities."
+    },
+    {
+      "entity": "Yaz Helvası Orta Şehri",
+      "text": "Pazar Yeri Sokakları, Yaz Helvası'nın 2. şehrindeki yerlerdir.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "reason": "Project owner placed the market streets in the second city."
+    },
+    {
+      "entity": "Yaz Helvası Krallığı",
+      "text": "Şehirler arası sur sisteminde gerçek güvenlik kapıları bulunur; büyük sur kapılarının üzerinde yalnızca insanların geçişi için küçük kapılar da vardır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "reason": "Project owner clarified the inter-city wall and gate system."
+    },
+    {
+      "entity": "Yaz Helvası Şehri",
+      "text": "3. bölgenin tam ortasından geçen bulvar, 1. şehre kadar uzanan ana yol görevi görür.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        }
+      ],
+      "reason": "Project owner clarified the boulevard's extent and function."
+    },
+    {
+      "entity": "Yaz Helvası Üst Şehri",
+      "text": "Pastırman Anıtı Meydanı, 3. şehrin sur kapısının önündeki gerçek meydandır. Kalender paladin güçlerini kaybettikten sonra Pastırman'ın Eli toprağın içine çekilmiş ve üzeri kapanmıştır.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        }
+      ],
+      "reason": "Project owner clarified the square and the monument's disappearance."
+    },
+    {
+      "entity": "Yaz Helvası Şehri Surları",
+      "text": "Her şehirler arası büyük sur kapısının üzerinde insanların geçişi için ayrıca küçük kapılar bulunur.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "reason": "Project owner clarified the small-door construction on the major gates."
+    }
+  ],
+  "owner_relationships": [
+    {
+      "subject": "Şalgam Kasabası",
+      "relation": "LOCATED_IN",
+      "object": "Şalgam Adası",
+      "evidence": "Project owner confirmed that Şalgam Kasabası is a town located on Şalgam Adası.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 13
+        }
+      ]
+    },
+    {
+      "subject": "Kompisaurus Sürüsü",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Kompisaurus",
+      "evidence": "Project owner confirmed that Kompisaurus Sürüsü is the herd of the Kompisaurus species.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/13"
+        }
+      ]
+    },
+    {
+      "subject": "Akmer",
+      "relation": "OWNS",
+      "object": "Şampiyonların Feneri",
+      "evidence": "Project owner confirmed that Şampiyonların Feneri is a shared group item, not Akmer's exclusive personal property.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/18"
+        }
+      ]
+    },
+    {
+      "subject": "Akmer",
+      "relation": "OWNS",
+      "object": "Durgunluk Buhurdanı",
+      "evidence": "Project owner confirmed that Akmer is the normal owner; Roary's episode use is custody, and Akmer throws the item away in EP20.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/links/4"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/18/facts/0"
+        }
+      ]
+    },
+    {
+      "subject": "Ariflerin Yumruğu",
+      "relation": "OWNS",
+      "object": "Hulusi'nin Altın Sandığı",
+      "evidence": "Project owner confirmed the chest and its gold were taken and the recovered gold became shared group property.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/2/facts/3"
+        }
+      ]
+    },
+    {
+      "subject": "Roary",
+      "relation": "POSSESSES",
+      "object": "Hulusi'nin Altın Sandığı",
+      "evidence": "Project owner confirmed İto and Roary took the chest and its gold; Roary carried part of the recovered gold during the escape.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        }
+      ]
+    },
+    {
+      "subject": "Sütçüoğlu Deney Mutfağı Sınav Yansıması",
+      "relation": "LOCATED_IN",
+      "object": "Ejderhalar Sofrası Harabeleri",
+      "evidence": "The magical trial manifestation was recreated inside the ruins; the real childhood kitchen remains a separate location with unknown parent geography.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/links/14"
+        }
+      ]
+    },
+    {
+      "subject": "Kalender Tütüncüoğlu",
+      "relation": "OWNS",
+      "object": "Yeniden Yaşam Yüzüğü",
+      "evidence": "Project owner confirmed the ring was always Kalender's and could not leave his hand.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/1/facts/2"
+        }
+      ]
+    },
+    {
+      "subject": "İto İtoğlu",
+      "relation": "OWNS",
+      "object": "Işık Tacı",
+      "evidence": "Project owner confirmed Işık Tacı was always attached to İto; Arifler said Remove Curse could remove it, but İto refused.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/2/facts/3"
+        }
+      ]
+    },
+    {
+      "subject": "Roary",
+      "relation": "OWNS",
+      "object": "Azize'nin Gözyaşları Kadehi",
+      "evidence": "Project owner confirmed the healing cup was always Roary's; after nightmares he threw it in his room and the team could not recover it while fleeing Yaz Helvası Şehri.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ]
+    },
+    {
+      "subject": "Akmer",
+      "relation": "OWNS",
+      "object": "Helvacıoğlu Baltası",
+      "evidence": "Project owner confirmed the Kristal Kılıç transformed into Helvacıoğlu Baltası after Kalender handed the sword to Akmer.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ]
+    },
+    {
+      "subject": "Kalender Tütüncüoğlu",
+      "relation": "FORMERLY_OWNED",
+      "object": "Helvacıoğlu Baltası",
+      "evidence": "Project owner confirmed Kalender initially received the Kristal Kılıç, which is the same item before its transformation; he handed it to Akmer.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        }
+      ]
+    },
+    {
+      "subject": "İbrahim (Kompi)",
+      "relation": "PRESENT_IN",
+      "object": "Yaz Helvası Şehri",
+      "evidence": "Project owner confirmed İbrahim remained in Yaz Helvası Şehri when the team fled.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ]
+    },
+    {
+      "subject": "Cemil (Papağan)",
+      "relation": "PRESENT_IN",
+      "object": "Yaz Helvası Şehri",
+      "evidence": "Project owner confirmed Cemil remained in Yaz Helvası Şehri when the team fled.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ]
+    },
+    {
+      "subject": "Yeni Ördek",
+      "relation": "PRESENT_IN",
+      "object": "Yaz Helvası Şehri",
+      "evidence": "Project owner confirmed the unnamed duck remained in Yaz Helvası Şehri when the team fled.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ]
+    },
+    {
+      "subject": "Yaz Helvası Alt Şehri",
+      "relation": "PART_OF",
+      "object": "Yaz Helvası Şehri",
+      "evidence": "Alt şehir, Yaz Helvası Şehri içindeki üç şehirden biridir.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ]
+    },
+    {
+      "subject": "Yaz Helvası Orta Şehri",
+      "relation": "PART_OF",
+      "object": "Yaz Helvası Şehri",
+      "evidence": "Orta şehir, Yaz Helvası Şehri içindeki üç şehirden biridir.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ]
+    },
+    {
+      "subject": "Yaz Helvası Üst Şehri",
+      "relation": "PART_OF",
+      "object": "Yaz Helvası Şehri",
+      "evidence": "Üst şehir, Yaz Helvası Şehri içindeki üç şehirden biridir.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ]
+    },
+    {
+      "subject": "Yaz Helvası Alt Şehri",
+      "relation": "BORDERS",
+      "object": "Helvanar Çölü",
+      "evidence": "Alt şehir çölle bitişiktir.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        }
+      ]
+    },
+    {
+      "subject": "Yaz Helvası Alt Şehri",
+      "relation": "CONNECTED_BY_ROAD",
+      "object": "Yaz Helvası Orta Şehri",
+      "evidence": "Büyük ana yol alt ve orta şehirleri birbirine bağlar.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        }
+      ]
+    },
+    {
+      "subject": "Yaz Helvası Orta Şehri",
+      "relation": "CONNECTED_BY_ROAD",
+      "object": "Yaz Helvası Üst Şehri",
+      "evidence": "Büyük ana yol orta ve üst şehirleri birbirine bağlar.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        }
+      ]
+    },
+    {
+      "subject": "Yaz Helvası Alt Şehri",
+      "relation": "CONNECTED_TO",
+      "object": "Yaz Helvası Orta Şehri",
+      "evidence": "Surlar arasındaki büyülü zipline alt ve orta şehirler arasında seyahati kolaylaştırır.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ]
+    },
+    {
+      "subject": "Yaz Helvası Orta Şehri",
+      "relation": "CONNECTED_TO",
+      "object": "Yaz Helvası Üst Şehri",
+      "evidence": "Surlar arasındaki büyülü zipline orta ve üst şehirler arasında seyahati kolaylaştırır.",
+      "period": "1300 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ]
+    },
+    {
+      "subject": "Latte Kasabası",
+      "relation": "LOCATED_IN",
+      "object": "Vhelin Adası",
+      "evidence": "Latte Kasabası, Vhelin Adası üzerindeki ayrı bir liman kasabasıdır.",
+      "period": "1600 civarı",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP02",
+          "pointer": "/uncertainties/0"
+        }
+      ]
+    }
+  ],
+  "owner_aliases": [
+    {
+      "entity": "Kompisaurus",
+      "alias": "Kompi",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/6/a/1"
+        }
+      ]
+    },
+    {
+      "entity": "Radam'ın Papağanı",
+      "alias": "Cemil (Papağan)",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/21"
+        }
+      ]
+    }
+  ],
+  "entity_identity_overrides": [
+    {
+      "episode": "EP03",
+      "index": 24,
+      "name": "Dingi Sandalı",
+      "type": "PERSON",
+      "reason": "Project owner confirmed this record is the person Dingi Sandalı, not a boat; Dingi is the short name."
+    },
+    {
+      "episode": "EP08",
+      "index": 21,
+      "name": "Radam'ın Papağanı",
+      "reason": "Project owner confirmed that the EP08 parrot belonging to Radam is a different bird from Muzaffer Cemil's parrot."
+    }
+  ],
+  "resolved_uncertainties": [
+    {
+      "episode": "EP07",
+      "index": 0,
+      "reason": "Project owner confirmed the city's canonical name as Yaz Helvası Şehri.",
+      "resolution": "The city commonly called Çöl Şehri is Yaz Helvası Şehri."
+    },
+    {
+      "episode": "EP00",
+      "index": 1,
+      "reason": "Project owner confirmed the canonical geographic relationship.",
+      "resolution": "Şalgam Kasabası is a town located on Şalgam Adası."
+    },
+    {
+      "episode": "EP01",
+      "index": 2,
+      "reason": "Canon/owner spelling takes priority over transcript variants.",
+      "resolution": "The canonical spelling is Pıyan."
+    },
+    {
+      "episode": "EP02",
+      "index": 1,
+      "reason": "Canon supplies the names of the five siblings; transcript variants are retained as source evidence only.",
+      "resolution": "The canonical spellings are Pıyan, Çima, Çoma, Ispavlo and Gırcıla."
+    },
+    {
+      "episode": "EP03",
+      "index": 1,
+      "reason": "Canon and explicit episode aliasing establish the canonical island name.",
+      "resolution": "Gizemler Adası is canonical; PNG Adası is a preserved historical/source alias and Züber Adası remains an unconfirmed variant."
+    },
+    {
+      "episode": "EP00",
+      "index": 0,
+      "reason": "Project owner confirmed the canonical bounty amount.",
+      "resolution": "Akmer’in başına konan ödül 5000 altındır."
+    },
+    {
+      "episode": "EP01",
+      "index": 0,
+      "reason": "Project owner confirmed the canonical bounty amount.",
+      "resolution": "Akmer’in başına konan ödül 5000 altındır."
+    },
+    {
+      "episode": "EP02",
+      "index": 0,
+      "reason": "Project owner confirmed this is a separate port town.",
+      "resolution": "Latte Kasabası, Vhelin Adası’nda bulunan ayrı bir liman kasabasıdır; Kahvhelin Şehir Devleti’nin alternatif adı değildir."
+    },
+    {
+      "episode": "EP03",
+      "index": 0,
+      "reason": "Project owner confirmed the likely amount while retaining any source wording as provenance.",
+      "resolution": "Akmer’in başına konan ödül 5000 altındır."
+    },
+    {
+      "episode": "EP03",
+      "index": 2,
+      "reason": "Project owner confirmed there is no established kinship; the two sailors share a dialect.",
+      "resolution": "Borda Feneri ve Dingi aynı şiveyle konuşan tayfalardır; kuzenlik kanıtlanmamıştır."
+    },
+    {
+      "episode": "EP04",
+      "index": 0,
+      "reason": "Project owner confirmed the guardian role.",
+      "resolution": "Bumblebor/Muzaffer Dede, kadim Zümrüt Ejderha tapınağının koruyucusudur."
+    },
+    {
+      "episode": "EP04",
+      "index": 1,
+      "reason": "Project owner confirmed the phrase’s source.",
+      "resolution": "Şampiyon Fener, Şampiyonların Feneri adının Cemil (Papağan) tarafından kısaltılmış söylenişidir."
+    },
+    {
+      "episode": "EP08",
+      "index": 0,
+      "reason": "Project owner confirmed that the exact historical date is unknown; the 1673 expression is retained as a local calendar/date reference.",
+      "resolution": "Tam tarih bilinmiyor; 1673 yerel takvim/tarih ifadesi olarak korunur ve dünya dönemlerine kesin çevrim yapılmaz."
+    },
+    {
+      "episode": "EP23",
+      "index": 0,
+      "reason": "Project owner clarified that the loot exceeds 5000 gold and includes mixed-value magical jewelry, but the exact amount is unknown.",
+      "resolution": "5000'den fazla altın ve büyülü yüzükler/kolyeler gibi karışık değerli ganimet vardır; tam miktar bilinmiyor."
+    },
+    {
+      "episode": "EP23",
+      "index": 1,
+      "reason": "Project owner confirmed that the ruins' nature and location remain unexplained in the continuing story.",
+      "resolution": "Harabelerin fiziksel veya boyutsal konumu belirsizdir; hikâyede henüz açıklanmamıştır."
+    },
+    {
+      "episode": "EP05",
+      "index": 1,
+      "reason": "Project owner confirmed that the fate of the earlier heroes is not established.",
+      "resolution": "Önceki kahramanların zindanda ölüp ölmediği veya başka kıtalara çıkıp çıkmadığı belli değildir."
+    },
+    {
+      "episode": "EP06",
+      "index": 0,
+      "reason": "Project owner considers another dimension likely while keeping the exact destination unknown.",
+      "resolution": "Başka bir boyut olma ihtimali yüksektir; kesin konum ve boyut türü bilinmiyor."
+    },
+    {
+      "episode": "EP06",
+      "index": 2,
+      "reason": "Project owner confirmed that Jifa's exact age is unknown, while her long service at the temple is canonical.",
+      "resolution": "Jifa'nın yaşı bilinmiyor; tapınakta çok uzun süredir nöbet tuttuğu kanondur."
+    },
+    {
+      "episode": "EP07",
+      "index": 1,
+      "reason": "Project owner located Köpo and Meşrep in the cosmic darkness inside the fish's mouth but did not confirm their final fate.",
+      "resolution": "Köpo Kurtoğlu ve Meşrep Sarmagil kozmik karanlıkta, Dev Fener Balığı'nın ağzındadır; akıbetleri belirsizdir."
+    },
+    {
+      "episode": "EP08",
+      "index": 1,
+      "reason": "Project owner confirmed that the people declared Kalender the Mahdi; he is not actually the Mahdi.",
+      "resolution": "Kalender halk tarafından Mehdi ilan edilmiştir; gerçek Mehdi değildir."
+    },
+    {
+      "episode": "EP08",
+      "index": 2,
+      "reason": "Project owner linked Helvanar's sinking to the war between dragons and gods while leaving the exact timing uncertain.",
+      "resolution": "Helvanar'ın ejderhalar ve tanrılar arasındaki savaştan sonra battığı düşünülür; kuşatmadan ne kadar sonra olduğu belirsizdir."
+    },
+    {
+      "episode": "EP09",
+      "index": 0,
+      "reason": "Project owner confirmed Toyya is lower rank and Tefnut is higher rank.",
+      "resolution": "Toyya alt kademe rahip, Tefnut üst kademe Yeşim rahibesidir."
+    },
+    {
+      "episode": "EP09",
+      "index": 1,
+      "reason": "Project owner left the infiltration route uncertain but confirmed later story evidence that Şebekem was a traitor who probably assisted.",
+      "resolution": "Siyah Ejderha ajanlarının şehre sızma yolu belirsizdir; Şebekem'in hain olduğu daha sonra açığa çıkar ve büyük ihtimalle yardım etmiştir."
+    },
+    {
+      "episode": "EP11",
+      "index": 0,
+      "reason": "Project owner confirmed Raer and Ammon are the same person.",
+      "resolution": "Raer Ammon, Ammon Bey ve ilgili adlar aynı büyücüdür."
+    },
+    {
+      "episode": "EP11",
+      "index": 1,
+      "reason": "Project owner identified İto's back mouth as the curse of the Light Crown under the Dev Fener Balığı's influence.",
+      "resolution": "İto'nun sırtındaki ağız, Dev Fener Balığı'nın lanet etkisindeki Işık Tacı yüzünden oluşmuştur; bu varlık Yokoluş Bey olarak adlandırılır."
+    },
+    {
+      "episode": "EP11",
+      "index": 2,
+      "reason": "Project owner clarified the combined reasons for Kalender losing divine powers and his later class identity.",
+      "resolution": "Kalender, Yeşil Ejderha'ya yaklaşması ve Kavurhan'ın verdiği kılıcı alırken ettiği savaş yeminini bozması nedeniyle Pastırman'ın güçlerini kaybetmiştir; Yemin Bozan değildir. EP21'den itibaren Fighter/Düz Adam olarak devam eder."
+    },
+    {
+      "episode": "EP12",
+      "index": 0,
+      "reason": "Project owner confirmed the current status through EP24 while leaving future developments open.",
+      "resolution": "EP24 itibarıyla Yokoluş Bey yalnızca acıktığında veya arbedede ortaya çıkmaktadır; ileride İto'yu ele geçirip geçirmeyeceği bilinmiyor."
+    },
+    {
+      "episode": "EP12",
+      "index": 1,
+      "reason": "Project owner confirmed the Kızıl Komutan's negotiated permission and kept the royal family's response unknown.",
+      "resolution": "Kızıl Komutan Sancar, Kalender ile anlaşarak mitinge izin vermiştir; şartı dini konuların savaş bittikten sonra konuşulmasıdır. Kraliyet ailesinin tepkisi belirsizdir."
+    },
+    {
+      "episode": "EP13",
+      "index": 0,
+      "reason": "Project owner confirmed Kızıl Komutan Sancar's position in the Yaz Helvası Krallığı command structure.",
+      "resolution": "Kızıl Komutan Sancar, Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır."
+    },
+    {
+      "episode": "EP13",
+      "index": 1,
+      "reason": "Project owner confirmed that reliable information about the divine relationship is scarce and that Akmer and Kalender used an alliance/marriage claim to deceive the public.",
+      "resolution": "Pastırman ile Yeşil Ejderha'nın gerçek ilişkisi bilinmiyor; Akmer ve Kalender halkı kandırmak için müttefik olduklarını, hatta evleneceklerini söylemiştir."
+    },
+    {
+      "episode": "EP14",
+      "index": 1,
+      "reason": "Project owner clarified the party's initial military alignment and later flight after the assassination and imprisonment events.",
+      "resolution": "Yamuk Demlik/Demir Yumruk ekibi başlangıçta Yaz Helvası Krallığı yanında savaşacaktı; Kızıl Komutan'ın suikastı ve Cart Curtoğlu'nun İto ile Roary'yi hapse attırması sonrası şehirden kaçtılar."
+    },
+    {
+      "episode": "EP15",
+      "index": 0,
+      "reason": "Project owner confirmed Şebekem's final location after the explosion is unknown, while later interrogation exposed the betrayal and the Kızıl Komutan killed him off-screen.",
+      "resolution": "Şebekem'in patlama sonrası konumu kesin değildir; Siyah Ejderha suikastçısının sorgulanmasıyla ajan olduğu açığa çıkmış ve Kızıl Komutan tarafından ekran dışında öldürülmüştür."
+    },
+    {
+      "episode": "EP15",
+      "index": 1,
+      "reason": "Project owner confirmed the groups are allied in the siege context because they share or support the relevant faiths.",
+      "resolution": "Siyah Ejderha, Kırmızı Ejderha ve Pastırman inancına sahip kişiler şehri kuşattıkları için bu bağlamda müttefik konumundadır."
+    },
+    {
+      "episode": "EP17",
+      "index": 0,
+      "reason": "Project owner left Kavurhan's future side and conquest direction unknown; the party had already fled to Tahin Saray during the siege.",
+      "resolution": "Kavurhan'ın gelecekteki tarafı ve fetih yönü belirsizdir; kuşatma sırasında grup şehirden kaçıp Tahin Saray'a gitmiştir."
+    },
+    {
+      "episode": "EP17",
+      "index": 1,
+      "reason": "Project owner confirmed that Şebekem was executed as a traitor by the Kızıl Komutan.",
+      "resolution": "Şebekem, hain olduğu için Kızıl Komutan Sancar tarafından ekran dışında öldürülmüştür."
+    },
+    {
+      "episode": "EP18",
+      "index": 0,
+      "reason": "Project owner considers Devran the likely killer but confirmed that the story never proves it conclusively.",
+      "resolution": "Sancar'ı Devran'ın öldürdüğü düşünülmektedir; ancak gerçek hiçbir zaman kesin olarak kanıtlanmamıştır."
+    },
+    {
+      "episode": "EP19",
+      "index": 0,
+      "reason": "Project owner specified the sword's temporary combat benefits and the later curse-like rejection after Kalender's oath break.",
+      "resolution": "Çemenin Kılıcı savaş yemini sonrasında Kalender'e +2 Strength ve Rage verdi. Kalender Wisdom (d20) ile kılıçtan kurtulduktan ve yemini bozduktan sonra kılıcı artık tutamaz; tuttuğunda ellerine saplanarak ellerini kullanılamaz hâle getirir."
+    },
+    {
+      "episode": "EP19",
+      "index": 1,
+      "reason": "Project owner confirmed that the siege outcome after the first district fell is unknown because the characters left the area.",
+      "resolution": "Kuşatmanın sonucu bilinmiyor; 1. şehir/alt şehir surları düşmüş ve kuşatma ordusu içeri girmiştir, ancak sonrasını karakterler görmemiştir."
+    },
+    {
+      "episode": "EP20",
+      "index": 0,
+      "reason": "Project owner left the source of the sick animals unexplained.",
+      "resolution": "Kervansaraydaki hastalıklı hayvanların kaynağı belirsizdir."
+    },
+    {
+      "episode": "EP20",
+      "index": 1,
+      "reason": "Project owner confirmed the party left Cemil, İbrahim and the duck behind; their later fate is unknown.",
+      "resolution": "Cemil, İbrahim ve ördek geride bırakılmıştır; akıbetleri belirsizdir."
+    },
+    {
+      "episode": "EP21",
+      "index": 0,
+      "reason": "Project owner confirmed the guards fled the caravanserai, while their later response remains unknown.",
+      "resolution": "Hulusi'nin sarı zırhlı korumaları, efendilerinin ölümünden sonra kervansaraydan kaçmıştır; sonraki akıbetleri belirsizdir."
+    },
+    {
+      "episode": "EP22",
+      "index": 0,
+      "reason": "Project owner confirmed the identity of Hulusi's secret noble love is unknown.",
+      "resolution": "Hulusi'nin sarayda aşk yaşadığı soylu kişinin kimliği bilinmiyor."
+    },
+    {
+      "episode": "EP22",
+      "index": 1,
+      "reason": "Project owner confirmed the envoy's result is unknown.",
+      "resolution": "Kavurhan'a gönderilen ulağın akıbeti ve mesajın sonucu bilinmiyor."
+    }
+  ],
+  "entity_overrides": [
+    {
+      "episode": "EP00",
+      "index": 28,
+      "reason": "Canon explicitly calls this settlement Güllaç Kasabası; owner confirmed the normalized type and description as kasaba.",
+      "type": "TOWN"
+    },
+    {
+      "episode": "EP03",
+      "index": 7,
+      "reason": "Three laboring sailors are an ad hoc crew group; no military identity is stated.",
+      "type": "OTHER"
+    }
+  ],
+  "relationship_overrides": [
+    {
+      "episode": "EP01",
+      "index": 16,
+      "reason": "Project owner confirmed arrival is represented by the later EP03 completed travel record; EP01 remains an in-progress leg and does not prove arrival at that episode.",
+      "exclude": true,
+      "owner_confirmed": true
+    },
+    {
+      "episode": "EP03",
+      "index": 13,
+      "reason": "Death of a person at a place requires DIED_IN rather than the destruction relation.",
+      "relation": "DIED_IN"
+    },
+    {
+      "episode": "EP03",
+      "index": 19,
+      "reason": "Source explicitly describes the deaths of the crew group at the island.",
+      "relation": "DIED_IN"
+    },
+    {
+      "episode": "EP03",
+      "index": 22,
+      "reason": "Anchored offshore is proximity rather than geographic containment.",
+      "relation": "NEAR"
+    },
+    {
+      "episode": "EP03",
+      "index": 25,
+      "reason": "Project owner confirmed Dingi Sandalı is a person; the extracted boat PART_OF relation is a classification error and is excluded while its source evidence remains preserved.",
+      "exclude": true
+    },
+    {
+      "episode": "EP04",
+      "index": 25,
+      "reason": "Ship is explicitly anchored offshore, not contained in the island.",
+      "relation": "NEAR"
+    },
+    {
+      "episode": "EP05",
+      "index": 10,
+      "reason": "Evidence says he lives in the hut; it does not assert an operated institution.",
+      "relation": "LIVES_IN"
+    },
+    {
+      "episode": "EP05",
+      "index": 15,
+      "reason": "Mechanically reversed OWNS direction: lamp is given to Akmer and party. This does not establish exclusive ownership.",
+      "subject": "Akmer",
+      "object": "Şampiyonların Feneri",
+      "relation": "OWNS"
+    },
+    {
+      "episode": "EP05",
+      "index": 19,
+      "reason": "Ship is moored at the island shore, a proximity assertion rather than parent geography.",
+      "relation": "NEAR"
+    },
+    {
+      "episode": "EP06",
+      "index": 10,
+      "reason": "Jifa recounting a historical monk does not prove a personal historical association.",
+      "relation": "MENTIONED_WITH"
+    },
+    {
+      "episode": "EP06",
+      "index": 11,
+      "reason": "The protective act occurred in an undated past; episode date must not become the event date.",
+      "period": null
+    },
+    {
+      "episode": "EP08",
+      "index": 31,
+      "reason": "Evidence says entered the dragon's service; allegiance does not by itself prove worship.",
+      "relation": "SERVES",
+      "period": "1300 civarı"
+    }
+  ],
+  "supplemental_relationships": [
+    {
+      "episode": "EP00",
+      "subject": "Harun",
+      "relation": "OPERATES",
+      "object": "Düşük Anahtar Hanı",
+      "evidence": "Düşük Anahtar Hanı'nın hancısı ve işletmecisidir.",
+      "pointer": "/entities/5/facts/0",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP00",
+      "subject": "Tavernkeeper1",
+      "relation": "OPERATES",
+      "object": "Şerbetsiz Hanı",
+      "evidence": "Şerbetsiz Hanı'nı işleten hancıdır.",
+      "pointer": "/entities/8/facts/0",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP00",
+      "subject": "O'Rusbu Adnan",
+      "relation": "OWNS",
+      "object": "Karapancar Gemisi",
+      "evidence": "Karapancar gemisi kaptana ait olarak açıkça tanımlanır.",
+      "pointer": "/entities/24/facts/0",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP01",
+      "subject": "Akmer",
+      "relation": "CAPTAIN_OF",
+      "object": "Karapancar Gemisi",
+      "evidence": "Kaptanı devirip geminin idaresini ele geçirmiş ve kendisini yeni kaptan ilan etmiştir.",
+      "pointer": "/entities/0/facts/3",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP02",
+      "subject": "Ispavlo",
+      "relation": "SIBLING_OF",
+      "object": "Çima",
+      "evidence": "Pıyan, Çima, Çoma ve Gırcıla ile beş denizci kardeşten biridir.",
+      "pointer": "/entities/8/facts/0",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP02",
+      "subject": "Ispavlo",
+      "relation": "SIBLING_OF",
+      "object": "Çoma",
+      "evidence": "Pıyan, Çima, Çoma ve Gırcıla ile beş denizci kardeşten biridir.",
+      "pointer": "/entities/8/facts/0",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP02",
+      "subject": "Ispavlo",
+      "relation": "SIBLING_OF",
+      "object": "Gırcıla",
+      "evidence": "Pıyan, Çima, Çoma ve Gırcıla ile beş denizci kardeşten biridir.",
+      "pointer": "/entities/8/facts/0",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP02",
+      "subject": "Çima",
+      "relation": "SIBLING_OF",
+      "object": "Çoma",
+      "evidence": "Çima, Pıyan, Çoma, Ispavlo ve Gırcıla ile birlikte beş kardeşten biridir.",
+      "pointer": "/entities/9/facts/0",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP02",
+      "subject": "Çima",
+      "relation": "SIBLING_OF",
+      "object": "Gırcıla",
+      "evidence": "Çima, Pıyan, Çoma, Ispavlo ve Gırcıla ile birlikte beş kardeşten biridir.",
+      "pointer": "/entities/9/facts/0",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP02",
+      "subject": "Çoma",
+      "relation": "SIBLING_OF",
+      "object": "Gırcıla",
+      "evidence": "Çoma, Pıyan, Çima, Ispavlo ve Gırcıla ile birlikte beş kardeşten biridir.",
+      "pointer": "/entities/10/facts/0",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP04",
+      "subject": "Zümrüt Ejderha",
+      "relation": "FOUGHT_IN",
+      "object": "Büyük Ejderha Savaşları",
+      "evidence": "Tanrılar ile ejderhalar arasındaki Büyük Savaş sırasında yaralanmıştır.",
+      "pointer": "/entities/10/facts/0",
+      "period": null
+    },
+    {
+      "episode": "EP06",
+      "subject": "Zümrüt Ejderha Tapınağı",
+      "relation": "LOCATED_IN",
+      "object": "Zümrüt Ejderha Pulu",
+      "evidence": "Tapınak Gizemler Adası üzerindeki pulun altında yer alır.",
+      "pointer": "/entities/14/facts/0",
+      "period": "1600 civarı"
+    },
+    {
+      "episode": "EP08",
+      "subject": "Un Helvası Krallığı",
+      "relation": "LOCATED_IN",
+      "object": "Helvanar Kıtası",
+      "evidence": "Helvanar Kıtası üzerinde yer alan krallıktır.",
+      "pointer": "/entities/9/facts/0",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP08",
+      "subject": "İrmik Helvası Krallığı",
+      "relation": "LOCATED_IN",
+      "object": "Helvanar Kıtası",
+      "evidence": "Helvanar Kıtası üzerinde yer alır.",
+      "pointer": "/entities/10/facts/0",
+      "period": "1300 civarı"
+    }
+  ],
+  "events": [
+    {
+      "episode": "EP00",
+      "title": "Akmer'in aileden kaçışı",
+      "summary": "Akmer, ailesinin ineklerini ve süt kompleksini özgürleştirme amacıyla ailesinden kaçar; canlı getirilmesi için ödül konur.",
+      "participant_names": [
+        "Akmer"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Sütçüoğlu Ailesi",
+        "Revania Krallığı"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/2",
+        "/entities/0/facts/4"
+      ],
+      "period": null,
+      "event_status": "historical"
+    },
+    {
+      "episode": "EP00",
+      "title": "Karapancar ile yola çıkış hazırlığı",
+      "summary": "Dört maceracı Revanya içindeki hanlardan limana ilerleyip Kaptan Adnan ile Karapancar Gemisi'ne biner.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "O'Rusbu Adnan"
+      ],
+      "location_names": [
+        "Revanya Limanı"
+      ],
+      "related_names": [
+        "Karapancar Gemisi"
+      ],
+      "source_pointers": [
+        "/travel/0",
+        "/travel/1",
+        "/travel/2",
+        "/travel/3",
+        "/travel/4"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP00",
+      "title": "Tütüncüoğlu ailesinin katliamından sağ kalış",
+      "summary": "Kalender bebekken tütün sepetinde bulunur ve yetimhanede büyür; kaynak onu aile katliamının sağ kalanı olarak tanımlar.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Tütüncüoğlu Ailesi"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/1",
+        "/links/3"
+      ],
+      "period": null,
+      "event_status": "historical"
+    },
+    {
+      "episode": "EP01",
+      "title": "Karapancar yönetiminin ele geçirilmesi",
+      "summary": "Akmer kaptanı bayıltıp bağlatır ve kendisini kaptan ilan eder; Kalender tayfanın güvenini kazanmak için para dağıtır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "O'Rusbu Adnan"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Karapancar Gemisi"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/3",
+        "/entities/1/facts/2",
+        "/entities/4/facts/3"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP01",
+      "title": "Ambardaki esirlerin keşfi",
+      "summary": "Fare biçimine dönüşen Roary, geminin alt bölümündeki zincirli yetişkin ve çocukları bulur ve onları kurtaracağına söz verir.",
+      "participant_names": [
+        "Roary"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Karapancar Gemisi"
+      ],
+      "source_pointers": [
+        "/entities/3/facts/1",
+        "/entities/3/facts/3"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP01",
+      "title": "Kaptanın gizli hazine kayıtlarının bulunması",
+      "summary": "İto kaptanın kilitli jurnalini açıp uyuşturucu kullanımı, ölü yoldaşlar ve çift dipte saklanan hazine haritasıyla ilgili kayıtları okur.",
+      "participant_names": [
+        "İto İtoğlu"
+      ],
+      "location_names": [],
+      "related_names": [
+        "O'Rusbu Adnan",
+        "Karapancar Gemisi",
+        "Kara Kapak",
+        "Doblin"
+      ],
+      "source_pointers": [
+        "/entities/2/facts/2",
+        "/entities/4/facts/2"
+      ],
+      "period": "1600 civarı",
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP02",
+      "title": "Pıyan ile çatışma ve İto'nun kurtarılması",
+      "summary": "Pıyan İto'yu tüfekle ağır yaralar; Kalender Pıyan'ı öldürür ve İto'yu şifa gücüyle bilinçsiz durumdan kurtarır.",
+      "participant_names": [
+        "Pıyan",
+        "İto İtoğlu",
+        "Kalender Tütüncüoğlu"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Karapancar Gemisi",
+        "Blunderbuss V20",
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/1",
+        "/entities/1/facts/2",
+        "/entities/2/facts/1"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP02",
+      "title": "Hazine Haritası'nın bulunması",
+      "summary": "Kalender, Tramola'nın rehberliğiyle geminin Double Bottom bölümünde gizli haritayı bulur; harita Revanya ile Vhelin arasındaki hazine adasını tarif eder.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Tramola"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Karapancar Gemisi",
+        "Double Bottom",
+        "Hazine Haritası",
+        "Vhelin Adası"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/3",
+        "/entities/5/facts/1",
+        "/entities/23/facts/1"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP02",
+      "title": "Esir ayaklanmasının bastırılması",
+      "summary": "Gemide ayaklanan on bir yetişkin ve dört çocuk, tayfa ve grup tarafından ağlarla yeniden bağlanır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Orsa"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Karapancar Gemisi"
+      ],
+      "source_pointers": [
+        "/entities/21/facts/1"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP03",
+      "title": "Kaptan Adnan'ın ölümü",
+      "summary": "Akmer'in başına konan ödülü tayfaya duyuran kaptan, İto tarafından okla öldürülür; cesedi denize atılır.",
+      "participant_names": [
+        "İto İtoğlu",
+        "O'Rusbu Adnan",
+        "Akmer"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Karapancar Gemisi"
+      ],
+      "source_pointers": [
+        "/entities/2/facts/1",
+        "/entities/4/facts/1",
+        "/entities/4/facts/2"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP03",
+      "title": "Gizemler Adası'na çıkış",
+      "summary": "Karapancar adanın açıklarına demirler; maceracılar, Borda Feneri, Dingi ve kazı tayfası sandalla adaya çıkar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Borda Feneri",
+        "Dingi",
+        "Daltonlar"
+      ],
+      "location_names": [
+        "Gizemler Adası"
+      ],
+      "related_names": [
+        "Karapancar Gemisi",
+        "Dingi Sandalı"
+      ],
+      "source_pointers": [
+        "/travel/0",
+        "/entities/21/facts/1"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP03",
+      "title": "Dev timsahla ölümcül mücadele",
+      "summary": "Adadaki nehirde büyük timsah saldırısı yaşanır. Üç kazı tayfası ölür; Kalender ve İto ağır yaralanır; grup yaratığı birlikte öldürür.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Daltonlar",
+        "Mega Timsah"
+      ],
+      "location_names": [
+        "Gizemler Adası"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/7/facts/1",
+        "/entities/22/facts/1"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP04",
+      "title": "Dev zırhlı yaratığın saldırısı",
+      "summary": "Ormandaki zırhlı otobur Kalender'i ağır yaralar; grup savaşarak ve birbirine yardım ederek kutsal açıklığa ilerler.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Dev Zırhlı Otobur"
+      ],
+      "location_names": [
+        "Gizemler Adası"
+      ],
+      "related_names": [
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/1",
+        "/entities/1/facts/1",
+        "/entities/1/facts/2"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP04",
+      "title": "Zümrüt Ejderha Pulu'nun sırrı",
+      "summary": "Muzaffer Cemil yaşadığı kutsal zeminin eski tanrı-ejderha savaşında düşen devasa bir pul olduğunu ve altındaki şifa zindanını koruduğunu açıklar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Muzaffer Cemil"
+      ],
+      "location_names": [
+        "Zümrüt Ejderha Pulu",
+        "Muzaffer Cemil'in Kulübesi"
+      ],
+      "related_names": [
+        "Zümrüt Ejderha",
+        "Büyük Ejderha Savaşları",
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "source_pointers": [
+        "/entities/7/facts/2",
+        "/entities/7/facts/3"
+      ],
+      "period": "1600 civarı",
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP04",
+      "title": "Büyük Ejderha Savaşları ve pulun düşüşü",
+      "summary": "Kaynak, tanrılar ile ejderhalar arasındaki eski savaşın kıtaları şekillendirdiğini ve Zümrüt Ejderha'nın yaralanarak pulunu düşürdüğünü anlatır.",
+      "participant_names": [
+        "Zümrüt Ejderha"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Büyük Ejderha Savaşları",
+        "Zümrüt Ejderha Pulu"
+      ],
+      "source_pointers": [
+        "/entities/10/facts/0",
+        "/entities/10/facts/1",
+        "/entities/20/facts/0"
+      ],
+      "period": null,
+      "event_status": "historical"
+    },
+    {
+      "episode": "EP05",
+      "title": "Şampiyonların Feneri ile tapınağa giriş",
+      "summary": "Muzaffer Cemil ekibe yol gösteren büyülü feneri verir. Grup, Cemil ve İbrahim ile dönüşü belirsiz şifa zindanına iner.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Muzaffer Cemil",
+        "Cemil (Papağan)",
+        "İbrahim (Kompi)"
+      ],
+      "location_names": [
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "related_names": [
+        "Şampiyonların Feneri"
+      ],
+      "source_pointers": [
+        "/entities/4/facts/1",
+        "/travel/0"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP05",
+      "title": "Zindan tuzaklarının aşılması",
+      "summary": "Kalender alevli koridoru kutsal atletizm gücüyle aşar; İto tuzağı devre dışı bırakmaya çalışırken yanar; Roary kurbağa biçiminde geçiş sağlar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "related_names": [
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/2",
+        "/entities/2/facts/2",
+        "/entities/3/facts/2"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP05",
+      "title": "Şifa vadisinin dönüşüm gücünün keşfi",
+      "summary": "Grup zindandaki ekstra-boyutsal vadiye ulaşır. Akmer'in dökülen kanı çevreyi ve balıkları değiştirir; Roary'nin içtiği özsu saçlarını ve tırnaklarını hızla uzatır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "İdilik Yayla"
+      ],
+      "related_names": [
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/2",
+        "/entities/0/facts/3",
+        "/entities/3/facts/3",
+        "/travel/1"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP06",
+      "title": "Jifa'nın yardımlaşma sınavı",
+      "summary": "Grup dar yeşim merdivenler ve dört kollu kapıda sınanır; Jifa, Roary'ye yardım ederek şifanın başkalarından yardım almayı da içerdiğini öğretir.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Jifa"
+      ],
+      "location_names": [
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/4/facts/1",
+        "/entities/4/facts/2",
+        "/lore/0"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP06",
+      "title": "Zümrüt yüzüğün alınması",
+      "summary": "Akmer hazine odasındaki Zümrüt Yüzük'ü seçip takar; yüzük parmağına uyum sağlayıp zindelik verir.",
+      "participant_names": [
+        "Akmer"
+      ],
+      "location_names": [
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "related_names": [
+        "Zümrüt Yüzük"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/2",
+        "/entities/7/facts/0"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP06",
+      "title": "Fener balığının boyutsal saldırısı",
+      "summary": "Taç görünümündeki yem Kalender'i büyüler. Dev Fener Balığı Kalender'i yutar; onu bırakmayan İto da bilinmeyen boyuta çekilir, Akmer ve Roary tapınakta kalır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Dev Fener Balığı"
+      ],
+      "location_names": [
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "related_names": [
+        "Büyülü Taç"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/2",
+        "/entities/1/facts/3",
+        "/entities/2/facts/2",
+        "/travel/1"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP07",
+      "title": "Köpo ve Meşrep ile karşılaşma",
+      "summary": "Akmer ve Roary tapınakta hafızasını kaybetmiş Köpo ve Meşrep ile karşılaşır. İlk çatışmadan sonra grup kapı sınavında yardımlaşır.",
+      "participant_names": [
+        "Akmer",
+        "Roary",
+        "Köpo Kurtoğlu",
+        "Meşrep Sarmagil"
+      ],
+      "location_names": [
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/0/facts/2",
+        "/entities/0/facts/3",
+        "/entities/4/facts/1",
+        "/entities/5/facts/1"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP07",
+      "title": "Pastırman'ın müdahalesi ve kurtuluş",
+      "summary": "Kalender ile Meşrep birlikte balığın çenesini kırar; Pastırman yaratığı kozmik karanlığa çeker. Roary İto'yu kurtarır; Köpo ve Meşrep'in akıbeti belirsiz kalır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Köpo Kurtoğlu",
+        "Meşrep Sarmagil",
+        "Pastırman",
+        "Dev Fener Balığı"
+      ],
+      "location_names": [
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/1/facts/3",
+        "/entities/2/facts/1",
+        "/entities/5/facts/2",
+        "/entities/9/facts/1"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP07",
+      "title": "Kutsal eşyaların çıkarılması",
+      "summary": "Durgunluk Buhurdanı seçilir, Köpo'nun attığı kadeh İto'ya ulaşır ve Kalender Işık Tacı'nı kurtarır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Köpo Kurtoğlu"
+      ],
+      "location_names": [
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "related_names": [
+        "Durgunluk Buhurdanı",
+        "Azize'nin Gözyaşları Kadehi",
+        "Işık Tacı"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/3",
+        "/entities/2/facts/3",
+        "/entities/3/facts/2"
+      ],
+      "period": "1600 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP07",
+      "title": "Çöl Şehri'ne çıkış ve bombardıman",
+      "summary": "Maceracılar tapınağın merdivenlerinden çöl şehrine çıkar. Yanan dev ateş topları düşerek sivilleri ve binaları vurur. Sonraki bölüm bu varışın eski Helvanar döneminde olduğunu açıklar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "Çöl Şehri"
+      ],
+      "related_names": [
+        "Zümrüt Ejderha Tapınağı"
+      ],
+      "source_pointers": [
+        "/travel/0",
+        "/entities/16/facts/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP08",
+      "title": "Dennu'nun kızının iyileştirilmesi",
+      "summary": "Dennu grubu kuşkuyla karşıladıktan sonra Akmer hasta kızını muayene eder; Kalender şifa gücüyle hastalığı iyileştirir. Dennu minnettarlıkla gruba rehberlik eder.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "Dennu"
+      ],
+      "location_names": [
+        "Çöl Şehri"
+      ],
+      "related_names": [
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/2",
+        "/entities/1/facts/2",
+        "/entities/4/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP08",
+      "title": "Ariflerle görüşme ve seçilmişlerin tanınması",
+      "summary": "Raer zihin okuyarak grubun şifa tapınağından geldiğini doğrular ve onları Arifler Okulu'na götürür. Arif Bey kader ve mücadele üzerine konuşur; İto kalıp savaşmak istediğini belirtir.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Raer",
+        "Arif Bey"
+      ],
+      "location_names": [
+        "Çöl Şehri"
+      ],
+      "related_names": [
+        "Arifler Okulu",
+        "Zümrüt Ejderha"
+      ],
+      "source_pointers": [
+        "/entities/5/facts/1",
+        "/entities/7/facts/1",
+        "/entities/2/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP08",
+      "title": "Helvanar'ın geçmişine varıldığının anlaşılması",
+      "summary": "İto kayıp Helvanar hakkındaki tarih bilgisini hatırlar. Yerel Gümüş Ejderha 1673 takvimi, kıtanın batışından önceki dönemi işaret eder; kesin takvim dönüşümü bilinmez.",
+      "participant_names": [
+        "İto İtoğlu"
+      ],
+      "location_names": [
+        "Helvanar Kıtası",
+        "Çöl Şehri"
+      ],
+      "related_names": [
+        "Yaz Helvası Krallığı"
+      ],
+      "source_pointers": [
+        "/entities/2/facts/1",
+        "/entities/25/facts/0",
+        "/lore/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP08",
+      "title": "Helva krallıkları kuşatması",
+      "summary": "Un Helvası ve İrmik Helvası ittifakı, Kırmızı Ejderha desteği ve ölüm büyüleriyle Yaz Helvası Krallığı'nı kuşatır.",
+      "participant_names": [],
+      "location_names": [
+        "Çöl Şehri",
+        "Helvanar Kıtası"
+      ],
+      "related_names": [
+        "Yaz Helvası Krallığı",
+        "Un Helvası Krallığı",
+        "İrmik Helvası Krallığı",
+        "Kırmızı Ejderha"
+      ],
+      "source_pointers": [
+        "/entities/8/facts/2",
+        "/lore/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP08",
+      "title": "Dört kutsal yadigarın güçlerinin öğrenilmesi",
+      "summary": "Arifler büyücüsü eşyaları inceletir; kadeh, buhurdan, yüzük ve tacın şifa, korunma ve ışık güçleri tanımlanır. Roary bahçede şifalı sisi etkinleştirir.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Raer"
+      ],
+      "location_names": [
+        "Çöl Şehri"
+      ],
+      "related_names": [
+        "Azize'nin Gözyaşları Kadehi",
+        "Durgunluk Buhurdanı",
+        "Yeniden Yaşam Yüzüğü",
+        "Işık Tacı",
+        "Arifler Okulu"
+      ],
+      "source_pointers": [
+        "/entities/5/facts/2",
+        "/entities/3/facts/1",
+        "/entities/17",
+        "/entities/18",
+        "/entities/19",
+        "/entities/20"
+      ],
+      "period": "1300 civarı",
+      "event_status": "revealed"
+    }
+  ],
+  "conflicts": [
+    {
+      "kind": "identity",
+      "summary": "Kompisaurus Sürüsü is described as gigantic plated lizards whereas Kompisaurus is a tiny dinosaur species; extraction name may be misclassification. Keep separate.",
+      "episode": "EP04",
+      "source_pointers": [
+        "/entities/13",
+        "/entities/15"
+      ],
+      "names": [
+        "Kompisaurus",
+        "Kompisaurus Sürüsü",
+        "Dev Kertenkele"
+      ],
+      "options": [
+        "Different species/groups",
+        "Misidentified descriptive creature name"
+      ]
+    },
+    {
+      "kind": "alias_collision",
+      "summary": "Dingi names both a sailor and boat alias; references must resolve by record context.",
+      "episode": "EP03",
+      "source_pointers": [
+        "/entities/6",
+        "/entities/24/a/0"
+      ],
+      "names": [
+        "Dingi",
+        "Dingi Sandalı"
+      ],
+      "options": [
+        "Sailor in party lists",
+        "Boat in transport context"
+      ]
+    },
+    {
+      "kind": "alias_collision",
+      "summary": "Kompi names both species and individual nickname; keep individual İbrahim and species Kompisaurus separate.",
+      "episode": "EP05",
+      "source_pointers": [
+        "/entities/6"
+      ],
+      "names": [
+        "İbrahim (Kompi)",
+        "Kompisaurus"
+      ],
+      "options": [
+        "Species label",
+        "Individual nickname"
+      ]
+    },
+    {
+      "kind": "period",
+      "summary": "Gümüş Ejderha 1673 is a named local calendar; do not numerically equate it with circa1600 world era. EP08 explicitly associates it with pre-loss circa1300 Helvanar.",
+      "episode": "EP08",
+      "source_pointers": [
+        "/entities/8/facts/0",
+        "/lore/2",
+        "/uncertainties/0"
+      ],
+      "names": [
+        "Helvanar Kıtası",
+        "Yaz Helvası Krallığı"
+      ],
+      "options": [
+        "Different calendar epoch",
+        "Precise calendar conversion remains unknown"
+      ]
+    },
+    {
+      "kind": "entity_type",
+      "summary": "Arifler Okulu is an institution with a physical school and garden in source; retain organization identity and distinguish site facts/visits without classifying the institution itself as a person or purely a building.",
+      "episode": "EP08",
+      "source_pointers": [
+        "/entities/13",
+        "/links/3",
+        "/links/24"
+      ],
+      "names": [
+        "Arifler Okulu"
+      ],
+      "options": [
+        "Organization with an evidenced location/site facet",
+        "Separate campus entity only if owner wants dedicated mapping"
+      ]
+    },
+    {
+      "kind": "contradictory_fact",
+      "summary": "EP03 attributes the final killing blow on Mega Timsah both to Kalender and to İto. Joint victory is supported; exact killer is unresolved.",
+      "episode": "EP03",
+      "source_pointers": [
+        "/entities/1/facts/4",
+        "/entities/2/facts/3"
+      ],
+      "names": [
+        "Mega Timsah",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu"
+      ],
+      "options": [
+        "Kalender final blow",
+        "İto final blow",
+        "Collective kill with inconsistent narration"
+      ]
+    },
+    {
+      "kind": "uncertain_lore",
+      "summary": "Gizemler Adası oversized animals are said to demonstrate magical aura; this is interpretive causality, not an independently established cause. Preserve the claim as source inference.",
+      "episode": "EP03",
+      "source_pointers": [
+        "/lore/4"
+      ],
+      "names": [
+        "Gizemler Adası",
+        "Mega Timsah",
+        "Dev Kertenkele"
+      ],
+      "options": [
+        "Magical influence",
+        "Unconfirmed explanation of animal size"
+      ]
+    }
+  ],
+  "period_overrides": [
+    {
+      "episode": "EP04",
+      "pointer": "/entities/20",
+      "period": null,
+      "reason": "Büyük Ejderha Savaşları occurred centuries before the episode; absolute historical date is not supplied."
+    },
+    {
+      "episode": "EP04",
+      "pointer": "/links/20",
+      "period": null,
+      "reason": "Historical participation in an undated war is not a 1600 event."
+    },
+    {
+      "episode": "EP04",
+      "pointer": "/entities/10/facts/0",
+      "period": null,
+      "reason": "The injury occurs during an undated historical war."
+    },
+    {
+      "episode": "EP04",
+      "pointer": "/entities/10/facts/1",
+      "period": null,
+      "reason": "The scale fell during the undated historical war; its contemporary presence is separately evidenced."
+    },
+    {
+      "episode": "EP04",
+      "pointer": "/lore/1",
+      "period": null,
+      "reason": "Historical war description, no absolute year supplied."
+    },
+    {
+      "episode": "EP06",
+      "pointer": "/entities/5",
+      "period": null,
+      "reason": "Ji Wong Wang is only recalled as an ancient monk; narrative mention date cannot establish his lifetime."
+    },
+    {
+      "episode": "EP07",
+      "pointer": "/entities/16",
+      "period": "1300 civarı",
+      "reason": "The city arrival and siege are subsequently identified in EP08 /entities/8, /entities/25 and /lore/2 as the pre-loss Helvanar period."
+    },
+    {
+      "episode": "EP07",
+      "pointer": "/entities/0/facts/4",
+      "period": "1300 civarı",
+      "reason": "Arrival at the city is after the temporal transition, clarified by EP08."
+    },
+    {
+      "episode": "EP07",
+      "pointer": "/entities/1/facts/4",
+      "period": "1300 civarı",
+      "reason": "Arrival at the city is after the temporal transition, clarified by EP08."
+    },
+    {
+      "episode": "EP07",
+      "pointer": "/links/2",
+      "period": "1300 civarı",
+      "reason": "Visit endpoint is the historical city; temple starting date is not transferred to city."
+    },
+    {
+      "episode": "EP07",
+      "pointer": "/links/6",
+      "period": "1300 civarı",
+      "reason": "Visit endpoint is the historical city; temple starting date is not transferred to city."
+    },
+    {
+      "episode": "EP07",
+      "pointer": "/links/20",
+      "period": null,
+      "reason": "Connection spans a temporal/dimensional passage, not a spatial relationship valid at one shared year."
+    },
+    {
+      "episode": "EP08",
+      "pointer": "/",
+      "period": "1300 civarı",
+      "reason": "Current city action occurs in the earlier Helvanar era, corroborated by /entities/8 /entities/25 /lore/2. The episode-level 1600 tag also describes origin context; do not apply both tags to every record."
+    },
+    {
+      "episode": "EP08",
+      "pointer": "/entities/25/facts/0",
+      "period": null,
+      "reason": "Compound claim includes circa-1300 existence and later loss; a single period cannot date both clauses. Preserve text and separate historical status on review."
+    }
+  ],
+  "travel_overrides": [
+    {
+      "episode": "EP01",
+      "index": 0,
+      "status": "in_progress",
+      "period": "1600 civarı",
+      "reason": "Narrative only shows sailing toward the target; arrival occurs in EP03."
+    },
+    {
+      "episode": "EP03",
+      "index": 0,
+      "status": "completed",
+      "period": "1600 civarı",
+      "remove_transport": [
+        "Dingi Sandalı"
+      ],
+      "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name."
+    },
+    {
+      "episode": "EP07",
+      "index": 0,
+      "status": "completed",
+      "period": null,
+      "from_period": "1600 civarı",
+      "to_period": "1300 civarı",
+      "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka.",
+      "to": "Yaz Helvası Alt Şehri",
+      "source_pointers": [
+        "/travel/0"
+      ],
+      "owner_confirmed": true
+    },
+    {
+      "episode": "EP04",
+      "index": 0,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint.",
+      "source_pointers": [
+        "/travel/0"
+      ]
+    },
+    {
+      "episode": "EP05",
+      "index": 1,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple.",
+      "source_pointers": [
+        "/travel/1"
+      ]
+    },
+    {
+      "episode": "EP06",
+      "index": 0,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
+      "source_pointers": [
+        "/travel/0"
+      ]
+    },
+    {
+      "episode": "EP08",
+      "index": 0,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple.",
+      "source_pointers": [
+        "/travel/0"
+      ]
+    },
+    {
+      "episode": "EP12",
+      "index": 0,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed the security gates are part of the walls and gates separating the three Yaz Helvası cities.",
+      "source_pointers": [
+        "/travel/0"
+      ]
+    },
+    {
+      "episode": "EP12",
+      "index": 1,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
+      "source_pointers": [
+        "/travel/1"
+      ]
+    },
+    {
+      "episode": "EP12",
+      "index": 2,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed the security gates belong to the inter-city wall system.",
+      "source_pointers": [
+        "/travel/2"
+      ]
+    },
+    {
+      "episode": "EP13",
+      "index": 0,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical.",
+      "source_pointers": [
+        "/travel/0"
+      ]
+    },
+    {
+      "episode": "EP14",
+      "index": 2,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed Cümle Kapısı is the same city-gate system described for the boundaries between the three cities.",
+      "source_pointers": [
+        "/travel/2",
+        "/entities/3/facts/3"
+      ]
+    },
+    {
+      "episode": "EP16",
+      "index": 1,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed the boulevard runs through the middle of the third city and continues toward the first city as a main road.",
+      "source_pointers": [
+        "/travel/1"
+      ]
+    },
+    {
+      "episode": "EP17",
+      "index": 1,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_pointers": [
+        "/travel/1"
+      ]
+    },
+    {
+      "episode": "EP17",
+      "index": 2,
+      "owner_confirmed": true,
+      "via": [
+        "1. Duvar Kapısı"
+      ],
+      "reason": "Project owner confirmed there is no canonical Dimension Door; retain only the physical first-wall gate and preserve the extracted phrase as source evidence.",
+      "source_pointers": [
+        "/travel/2"
+      ]
+    },
+    {
+      "episode": "EP18",
+      "index": 1,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed these are the same barracks interior stairs/corridors already recorded; no extra route detail is needed.",
+      "source_pointers": [
+        "/travel/1"
+      ]
+    },
+    {
+      "episode": "EP19",
+      "index": 1,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed this is another gate in the inter-city wall system between Yaz Helvası cities.",
+      "source_pointers": [
+        "/travel/1"
+      ]
+    },
+    {
+      "episode": "EP19",
+      "index": 2,
+      "owner_confirmed": true,
+      "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers.",
+      "source_pointers": [
+        "/travel/2"
+      ]
+    }
+  ],
+  "rejected_aliases": [
+    {
+      "episode": "EP04",
+      "index": 13,
+      "alias": "Kompi",
+      "reason": "A species nickname shared with the individual İbrahim (Kompi) is not identity."
+    },
+    {
+      "episode": "EP05",
+      "index": 6,
+      "alias": "Kompi",
+      "reason": "Individual creature nickname collides with species; keep searchable context but exclude from automatic identity joining."
+    },
+    {
+      "episode": "EP06",
+      "index": 11,
+      "alias": "Kompi",
+      "reason": "Individual creature nickname collides with species; do not merge İbrahim into Kompisaurus."
+    },
+    {
+      "episode": "EP05",
+      "index": 18,
+      "alias": "Borda Feneri (Karıştırma)",
+      "reason": "The source itself marks this a confusion; Borda Feneri is a sailor, not the lamp."
+    }
+  ],
+  "resolved_conflicts": [
+    {
+      "id": "CNF-0002",
+      "reason": "Owner confirmed Helvanar Kıtası and Helva Adası are the same enormous island."
+    },
+    {
+      "id": "CNF-0190",
+      "reason": "Owner confirmed the canonical continent and island labels refer to the same landmass."
+    },
+    {
+      "id": "CNF-0055",
+      "reason": "Owner confirmed Helva Adası is the scale/classification description of Helvanar Kıtası."
+    },
+    {
+      "id": "CNF-0196",
+      "reason": "Owner confirmed the same Helva Adası / Helvanar Kıtası identity across the EP08 alias occurrence."
+    },
+    {
+      "id": "CNF-0004",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus; İbrahim remains an individual animal."
+    },
+    {
+      "id": "CNF-0005",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus; İbrahim remains an individual animal."
+    },
+    {
+      "id": "CNF-0006",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus."
+    },
+    {
+      "id": "CNF-0007",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus."
+    },
+    {
+      "id": "CNF-0008",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus."
+    },
+    {
+      "id": "CNF-0009",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus."
+    },
+    {
+      "id": "CNF-0010",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus."
+    },
+    {
+      "id": "CNF-0011",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus."
+    },
+    {
+      "id": "CNF-0012",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus."
+    },
+    {
+      "id": "CNF-0013",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus."
+    },
+    {
+      "id": "CNF-0014",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus."
+    },
+    {
+      "id": "CNF-0026",
+      "reason": "Owner clarified that Kompisaurus Sürüsü is the herd of the Kompisaurus species; both records remain separate."
+    },
+    {
+      "id": "CNF-0028",
+      "reason": "Owner clarified that Kompi is the species shorthand; İbrahim is a named individual Kompisaurus found by Kalender."
+    },
+    {
+      "id": "CNF-0001",
+      "reason": "Owner clarified that Dingi Sandalı is the person's name; there is no separate boat or boat alias."
+    },
+    {
+      "id": "CNF-0027",
+      "reason": "Owner clarified that Dingi and Dingi Sandalı are the same person, with Dingi as the short name."
+    },
+    {
+      "id": "CNF-0191",
+      "reason": "Owner confirmed Bronz Ejderha and Kahverengi Ejderha are the same dragon; Metal Ejderha is separate."
+    },
+    {
+      "id": "CNF-0192",
+      "reason": "Owner confirmed Bronz Ejderha and Kahverengi Ejderha are the same dragon; Metal Ejderha is separate."
+    },
+    {
+      "id": "CNF-0193",
+      "reason": "Owner clarified the duck has no specific personal name; Ördek-ül Deva is Roary's public title."
+    },
+    {
+      "id": "CNF-0017",
+      "reason": "Owner confirmed Borda Feneri is the human sailor; the marked lamp confusion is not an identity alias."
+    },
+    {
+      "id": "CNF-0036",
+      "reason": "Owner confirmed Arifler Okulu is the wizard organization and Arifler Okulu Yerleşkesi is its physical building."
+    },
+    {
+      "id": "CNF-0037",
+      "reason": "Owner confirmed Kalender and İto jointly killed Mega Timsah; no single final killer is asserted."
+    },
+    {
+      "id": "CNF-0039",
+      "reason": "Owner confirmed Roary and the unnamed duck are separate; the duck has no specific personal name."
+    },
+    {
+      "id": "CNF-0040",
+      "reason": "Owner confirmed Kızıl Komutan Sancar and his son Devran are separate people."
+    },
+    {
+      "id": "CNF-0041",
+      "reason": "Owner confirmed Ozempic Kervansaray and Tahin Saray are the same building."
+    },
+    {
+      "id": "CNF-0198",
+      "reason": "Owner confirmed Ördek-ül Deva is Roary's public title and not the duck's name."
+    },
+    {
+      "id": "CNF-0042",
+      "reason": "Owner confirmed Kalender's claimed maternal-uncle relationship to Kavurhan was a deception."
+    },
+    {
+      "id": "CNF-0043",
+      "reason": "Owner confirmed İto and Roary took the chest and gold, and the recovered gold became shared group property."
+    },
+    {
+      "id": "CNF-0044",
+      "reason": "Owner confirmed Kalender wore Gümüş Sıçan and Akmer wore Kızıl Sıçan costumes only as a temporary diversion."
+    },
+    {
+      "id": "CNF-0047",
+      "reason": "Owner confirmed İsrafsoy and Kıtlıkan are two separate gods."
+    },
+    {
+      "id": "CNF-0048",
+      "reason": "Owner confirmed Kainatın Salatası and Gavurdağı Golemi are the same creature."
+    },
+    {
+      "id": "CNF-0049",
+      "reason": "Owner confirmed the real Sütçüoğlu Deney Mutfağı and its magical temple-trial manifestation require separate records."
+    },
+    {
+      "id": "CNF-0051",
+      "reason": "Owner confirmed Podcastia is a limited crossover reference to another D&D series in the same universe."
+    },
+    {
+      "id": "CNF-0054",
+      "reason": "Owner confirmed Bronz and Kahverengi are the same dragon while Metal is a separate dragon."
+    },
+    {
+      "id": "CNF-0052",
+      "reason": "Owner clarified Kazandibi was requested but Sütlaç was actually cooked; the dessert names remain distinct."
+    },
+    {
+      "id": "CNF-0053",
+      "reason": "Owner clarified Sancar spoke through Devran's mouth via an Arifler magical connection; this was remote projection, not Genç Komutan bodily presence."
+    },
+    {
+      "id": "CNF-0058",
+      "reason": "Owner confirmed Kışla Komutanı and Kızıl Komutan Sancar are different people."
+    },
+    {
+      "id": "CNF-0059",
+      "reason": "Owner confirmed Opera Sanatçısı Dayı and Operacı Nihat are the same person."
+    },
+    {
+      "id": "CNF-0060",
+      "reason": "Owner confirmed Işık Tacı was always attached to İto; earlier Kalender assignments are source character errors."
+    },
+    {
+      "id": "CNF-0061",
+      "reason": "Owner confirmed Yeniden Yaşam Yüzüğü was always Kalender's and never left his hand."
+    },
+    {
+      "id": "CNF-0062",
+      "reason": "Owner confirmed Kristal Kılıç and Helvacıoğlu Baltası are the same transforming item, handed from Kalender to Akmer."
+    },
+    {
+      "id": "CNF-0065",
+      "reason": "Owner previously confirmed Arifler Okulu is the wizard organization and Arifler Okulu Yerleşkesi is its separate physical campus."
+    },
+    {
+      "id": "CNF-0064",
+      "reason": "Project owner replaced the generic Çöl Şehri interpretation with the canonical Yaz Helvası Şehri three-city structure; wall and gate relations are retained as a connected system."
+    },
+    {
+      "id": "CNF-0066",
+      "reason": "Project owner confirmed the priestess massacre is a curse-induced dream caused by Azizenin Gözyaşları; it is not independently dated as a circa-1300 event."
+    },
+    {
+      "id": "CNF-0034",
+      "reason": "Project owner confirmed that the exact historical date represented by Gümüş Ejderha 1673 is not known.",
+      "resolution": "CANON_UNCERTAIN: 1673 is retained as a named local calendar/date reference; its conversion to the world historical eras is unknown."
+    },
+    {
+      "id": "CNF-0038",
+      "reason": "Project owner confirmed that the magical influence is not canonically established; it may be recorded only as an unproven explanation.",
+      "resolution": "CANON_UNCERTAIN: the magical influence explanation is not canon; retain it as an unconfirmed source interpretation."
+    },
+    {
+      "id": "CNF-0045",
+      "reason": "Project owner clarified the loot total without fixing an exact amount.",
+      "resolution": "CANON_UNCERTAIN: the group had more than 5000 gold plus mixed-value loot such as enchanted rings and necklaces; the exact total is unknown."
+    },
+    {
+      "id": "CNF-0046",
+      "reason": "Project owner confirmed that the nature and location of the ruins have not yet been explained in the continuing story.",
+      "resolution": "CANON_UNCERTAIN: the ruins' physical or dimensional location remains unexplained."
+    },
+    {
+      "id": "CNF-0050",
+      "reason": "Project owner confirmed that the dates of Doktor Aktar's imprisonment and childhood kitchen history are unknown.",
+      "resolution": "CANON_UNCERTAIN: the biography is canonically undated."
+    },
+    {
+      "id": "CNF-0057",
+      "reason": "Project owner confirmed that Devran/Kartal Sniper's ultimate allegiance is deliberately left unresolved in the story.",
+      "resolution": "CANON_UNCERTAIN: his relationship with the Siyah Ejderha Tarikatı and independent loyalties remain unknown."
+    },
+    {
+      "id": "CNF-0063",
+      "reason": "Project owner explained the apparent doctrine conflict through the historical difference between the eras.",
+      "resolution": "CANON_CONTEXTUAL: in the 1300s magic was accepted and widely known; in the 1600s magic was regarded as cursed. Preserve both period-specific perspectives."
+    },
+    {
+      "id": "CNF-0082",
+      "reason": "Project owner confirmed that the fate of the earlier heroes connected to the letter chest is not known.",
+      "resolution": "CANON_UNCERTAIN: whether they died in the dungeon or exited elsewhere remains unknown."
+    },
+    {
+      "id": "CNF-0084",
+      "reason": "Project owner confirmed that the exact cosmic location is unknown, with another dimension being the leading possibility.",
+      "resolution": "CANON_UNCERTAIN: the destination is probably another dimension, but its exact nature and location are not established."
+    },
+    {
+      "id": "CNF-0130",
+      "reason": "Project owner confirmed the party reached PNG/Gizemler Adası in EP03; only the crew's later use or escape with the ship is unknown.",
+      "resolution": "CANON_CONTEXTUAL: EP01 shows the ship en route and EP03 confirms arrival at PNG/Gizemler Adası. The later fate of the ship and crew is unknown."
+    },
+    {
+      "id": "CNF-0131",
+      "reason": "Project owner considers Kefir probably the leader of the Siyah Ejderha Cambazları, but this is not fully confirmed.",
+      "resolution": "CANON_UNCERTAIN: Kefir is probably their leader; leadership is not conclusively established."
+    },
+    {
+      "id": "CNF-0136",
+      "reason": "Project owner supplied no canonical information connecting Doktor Aktar to destruction in the ruins.",
+      "resolution": "CANON_UNCERTAIN: no confirmed DESTROYED_IN relation; source evidence only says he was imprisoned under the milk sea."
+    }
+  ],
+  "review_metadata": {
+    "reviewed_episodes": [
+      "EP00",
+      "EP01",
+      "EP02",
+      "EP03",
+      "EP04",
+      "EP05",
+      "EP06",
+      "EP07",
+      "EP08"
+    ],
+    "full_files_read": true,
+    "canon_files": [
+      "Bosses.md",
+      "Other.md",
+      "characters.md",
+      "DragonAndGodNames.md",
+      "Items.md",
+      "locations.md"
+    ],
+    "additional_entity_evidence_read": [
+      "EP09 /entities/18",
+      "EP11 /entities/5"
+    ],
+    "notes": [
+      "Source files untouched.",
+      "DIED_IN is a documented proposed vocabulary extension for death at a place rather than object destruction.",
+      "Episode mention date is not historical lifetime or event date.",
+      "Ownership edges are episode-scoped and do not imply exclusive permanent ownership.",
+      "All dimensional events remain MAIN_TIMELINE; no side-story continuity introduced."
+    ]
+  },
+  "owner_global_alias_exclusions": [
+    {
+      "entity": "Kızıl Komutan Sancar",
+      "alias": "Sancar Devran",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/5/n"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4/n"
+        }
+      ],
+      "reason": "Project owner clarified that Sancar is the Kızıl Komutan's name; Devran is his son. 'Sancar Devran' is an extracted naming error, not a canonical person name."
+    }
+  ]
+}

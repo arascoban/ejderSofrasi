@@ -1,0 +1,202 @@
+const ID_PATTERN = "^[A-Z]{3}-[0-9]{4,}$";
+const EPISODE_PATTERN = "^EP[0-9]{2,}$";
+
+export const AUXILIARY_FILE_NAMES = [
+  "world_metadata.json",
+  "episodes.json",
+  "lore.json",
+  "world_states.json",
+  "id_redirects.json",
+  "source_inventory.json",
+] as const;
+
+/**
+ * Application-owned contracts for files that are not part of data/schema.json.
+ * Keeping these here avoids editing generated canon data while preserving the
+ * same Ajv validation boundary used by the core database files.
+ */
+export const auxiliaryDatabaseSchema = {
+  $schema: "https://json-schema.org/draft/2020-12/schema",
+  $id: "urn:ejder-sofrasi:application-auxiliary-schema:1.0.0",
+  fileSchemas: {
+    "world_metadata.json": "#/$defs/WorldMetadata",
+    "episodes.json": "#/$defs/Episodes",
+    "lore.json": "#/$defs/LoreRecords",
+    "world_states.json": "#/$defs/WorldStates",
+    "id_redirects.json": "#/$defs/IdRedirects",
+    "source_inventory.json": "#/$defs/SourceInventory",
+  },
+  $defs: {
+    ID: { type: "string", pattern: ID_PATTERN },
+    IDs: { type: "array", items: { $ref: "#/$defs/ID" }, uniqueItems: true },
+    EpisodeId: { type: "string", pattern: EPISODE_PATTERN },
+    SourceReference: {
+      type: "object",
+      required: ["source_id"],
+      properties: {
+        source_id: { type: "string", pattern: "^SRC-" },
+        pointer: { type: "string" },
+        line: { type: "integer", minimum: 1 },
+      },
+      anyOf: [{ required: ["pointer"] }, { required: ["line"] }],
+      additionalProperties: false,
+    },
+    WorldMetadata: {
+      type: "object",
+      required: [
+        "schema_version",
+        "database_name",
+        "continuity_scope",
+        "language",
+        "source_episode_range",
+        "historical_periods",
+        "architecture",
+        "semantics",
+      ],
+      properties: {
+        schema_version: { type: "string", minLength: 1 },
+        database_name: { type: "string", minLength: 1 },
+        continuity_scope: { const: "MAIN_TIMELINE" },
+        language: { const: "tr" },
+        source_episode_range: {
+          type: "array",
+          minItems: 2,
+          maxItems: 2,
+          items: { $ref: "#/$defs/EpisodeId" },
+        },
+        historical_periods: {
+          type: "array",
+          minItems: 1,
+          items: {
+            type: "object",
+            required: ["id", "label", "approximate_year"],
+            properties: {
+              id: { type: "string", pattern: "^PER-" },
+              label: { enum: ["1300 civarı", "1600 civarı"] },
+              approximate_year: { type: "integer" },
+            },
+            additionalProperties: false,
+          },
+        },
+        architecture: { type: "object" },
+        semantics: { type: "object" },
+        build: { type: "object" },
+      },
+      additionalProperties: false,
+    },
+    Episode: {
+      type: "object",
+      required: [
+        "id",
+        "number",
+        "title",
+        "source_periods",
+        "narrative_periods",
+        "continuity_scope",
+        "source_refs",
+        "entity_ids",
+        "timeline_event_ids",
+        "travel_ids",
+      ],
+      properties: {
+        id: { $ref: "#/$defs/EpisodeId" },
+        number: { type: "integer", minimum: 0 },
+        title: { type: "string", minLength: 1 },
+        source_periods: {
+          type: "array",
+          items: { enum: ["1300 civarı", "1600 civarı"] },
+          uniqueItems: true,
+        },
+        narrative_periods: {
+          type: "array",
+          items: { enum: ["1300 civarı", "1600 civarı"] },
+          uniqueItems: true,
+        },
+        continuity_scope: { const: "MAIN_TIMELINE" },
+        source_refs: { type: "array", minItems: 1, items: { $ref: "#/$defs/SourceReference" } },
+        entity_ids: { $ref: "#/$defs/IDs" },
+        timeline_event_ids: { $ref: "#/$defs/IDs" },
+        travel_ids: { $ref: "#/$defs/IDs" },
+      },
+      additionalProperties: false,
+    },
+    Episodes: { type: "array", items: { $ref: "#/$defs/Episode" } },
+    LoreRecord: {
+      type: "object",
+      required: ["id", "subject", "text", "episode", "period", "temporal_basis", "subject_id", "source_refs", "continuity_scope"],
+      properties: {
+        id: { type: "string", pattern: "^LOR-[0-9]{4,}$" },
+        subject: { type: "string", minLength: 1 },
+        text: { type: "string", minLength: 1 },
+        episode: { $ref: "#/$defs/EpisodeId" },
+        period: { enum: ["1300 civarı", "1600 civarı", null] },
+        temporal_basis: { type: "string", minLength: 1 },
+        subject_id: { anyOf: [{ $ref: "#/$defs/ID" }, { type: "null" }] },
+        source_refs: { type: "array", minItems: 1, items: { $ref: "#/$defs/SourceReference" } },
+        continuity_scope: { const: "MAIN_TIMELINE" },
+      },
+      additionalProperties: false,
+    },
+    LoreRecords: { type: "array", items: { $ref: "#/$defs/LoreRecord" } },
+    WorldState: {
+      type: "object",
+      required: ["id", "entity_id", "period", "state", "source_refs", "confidence"],
+      properties: {
+        id: { type: "string", pattern: "^WST-[0-9]{4,}$" },
+        entity_id: { $ref: "#/$defs/ID" },
+        period: { enum: ["1300 civarı", "1600 civarı"] },
+        state: { enum: ["exists", "reported_lost"] },
+        source_refs: { type: "array", minItems: 1, items: { $ref: "#/$defs/SourceReference" } },
+        confidence: { enum: ["canon_name_only", "source_supported", "disputed"] },
+        owner_confirmation: { type: "string" },
+        qualification: { type: "string" },
+      },
+      additionalProperties: false,
+    },
+    WorldStates: { type: "array", items: { $ref: "#/$defs/WorldState" } },
+    IdRedirect: {
+      type: "object",
+      required: ["from_id", "to_id"],
+      properties: {
+        from_id: { $ref: "#/$defs/ID" },
+        to_id: { $ref: "#/$defs/ID" },
+      },
+      additionalProperties: false,
+    },
+    IdRedirects: { type: "array", items: { $ref: "#/$defs/IdRedirect" } },
+    SourceFile: {
+      type: "object",
+      required: ["path", "sha256", "bytes", "extension", "encoding", "content_type", "source_id"],
+      properties: {
+        path: { type: "string", minLength: 1 },
+        sha256: { type: "string", pattern: "^[a-f0-9]{64}$" },
+        bytes: { type: "integer", minimum: 0 },
+        extension: { type: "string" },
+        encoding: { type: "string", minLength: 1 },
+        content_type: { type: "string", minLength: 1 },
+        source_id: { type: "string", pattern: "^SRC-" },
+        episode: { $ref: "#/$defs/EpisodeId" },
+        title: { type: "string" },
+        periods: { type: "array", items: { type: "string" }, uniqueItems: true },
+        top_level_fields: { type: "array", items: { type: "string" }, uniqueItems: true },
+        counts: { type: "object", additionalProperties: { type: "integer", minimum: 0 } },
+        output_incomplete: { type: "boolean" },
+        continue_from: { type: ["string", "null"] },
+        lines: { type: "integer", minimum: 1 },
+        nonempty_lines: { type: "integer", minimum: 1 },
+        authority: { type: "string", minLength: 1 },
+        tables: { type: "array", items: { type: "string" } },
+      },
+      additionalProperties: false,
+    },
+    SourceInventory: {
+      type: "object",
+      required: ["files"],
+      properties: {
+        files: { type: "array", minItems: 1, items: { $ref: "#/$defs/SourceFile" } },
+        interpretation: { type: "object" },
+      },
+      additionalProperties: false,
+    },
+  },
+};

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "database_name": "Ejder Sofrası Master World Database",
+  "continuity_scope": "MAIN_TIMELINE",
+  "language": "tr",
+  "source_episode_range": [
+    "EP00",
+    "EP24"
+  ],
+  "historical_periods": [
+    {
+      "id": "PER-1300",
+      "label": "1300 civarı",
+      "approximate_year": 1300
+    },
+    {
+      "id": "PER-1600",
+      "label": "1600 civarı",
+      "approximate_year": 1600
+    }
+  ],
+  "architecture": {
+    "authoritative_entity_file": "entities.json",
+    "specialized_files": "Derived ID indexes; join against entities.json. Never edit independently.",
+    "source_authority": "Canon confirms names and explicit slash aliases. Episode extraction supports claims but is not independently verified transcript truth.",
+    "presentation_coordinates": "None. map_canon.json contains source-evidenced constraints only.",
+    "stable_id_registry": "scripts/id_registry.json; commit and preserve this file. Existing IDs never renumber on rebuild."
+  },
+  "semantics": {
+    "first_appearance": "Earliest source-evidenced reference in supplied episode files, including mentions. This is not necessarily first on-screen presence or in-world birth.",
+    "episodes": "Source references, not proof of physical presence. episode_connections distinguishes reference kinds.",
+    "periods": "Positive dated attestations only, not a continuous lifespan. Unknown periods do not imply nonexistence. Consult world_states for explicit loss/absence.",
+    "null_period": "Claim date is not established; original episode source_periods remain available as narrative context. Do not broadcast unknown-date claims into both eras.",
+    "facts": "Source wording deduplicated conservatively; individual assertions carry date, evidence and confidence. Conflict-linked facts require review.",
+    "relationship_assertions": "Deduplicated by subject, predicate, object, period; every distinct evidence assertion retained.",
+    "travel": "Exact endpoint IDs are nullable. Descriptive rooms/waypoints retain source labels and optional context IDs. In-progress and composite routes are not confirmed arrivals.",
+    "timeline": "Source-evidenced significant events; occurred, historical, planned and revealed are distinct. Event summaries are facts on the event entity.",
+    "canon_only": "Confirmed name/category with no episode, period, family, presence or geographic parent inferred.",
+    "map_states": "parent_id is the narrowest proven comparable containment parent for that period. Null means unknown or unresolved. Geometry is never generated."
+  },
+  "build": {
+    "command": "python3 scripts/build_database.py && python3 scripts/validate_database.py",
+    "source_files_unchanged": true,
+    "review_files": [
+      "scripts/reviews/early.json",
+      "scripts/reviews/global.json",
+      "scripts/reviews/late.json",
+      "scripts/reviews/middle.json"
+    ]
+  }
+}

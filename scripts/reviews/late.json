@@ -1,0 +1,1629 @@
+{
+  "merges": [
+    {
+      "names": [
+        "Akmer",
+        "Akmer Sütçüoğlu"
+      ],
+      "canonical_name": "Akmer Sütçüoğlu",
+      "reason": "EP24 explicitly gives the full name Akmer Sütçüoğlu in facts referring to Akmer; Canon confirms that full spelling.",
+      "sources": [
+        {
+          "episode": "EP24",
+          "pointer": "/entities/5/facts/0"
+        },
+        {
+          "episode": "EP24",
+          "pointer": "/entities/12/facts/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Yeşil Ejderha",
+        "Zümrüt Ejderha"
+      ],
+      "canonical_name": "Zümrüt Ejderha",
+      "reason": "Explicit reciprocal source aliases and Canon dragon name; not a merge with the temple or a deity.",
+      "sources": [
+        {
+          "episode": "EP17",
+          "pointer": "/entities/15/a/0"
+        },
+        {
+          "episode": "EP24",
+          "pointer": "/entities/15/a/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Roary",
+        "Rori"
+      ],
+      "canonical_name": "Roary",
+      "reason": "Explicit alias in every assigned episode; Canon confirms Roary spelling.",
+      "sources": [
+        {
+          "episode": "EP17",
+          "pointer": "/entities/3/a/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Peki",
+        "Peki Bey"
+      ],
+      "canonical_name": "Peki Bey",
+      "reason": "Exact explicit source alias with honorific; Canon confirms Peki Bey.",
+      "sources": [
+        {
+          "episode": "EP17",
+          "pointer": "/entities/8/a/0"
+        }
+      ]
+    },
+    {
+      "names": [
+        "İbrahim (Kompisaurus)",
+        "İbrahim (Kompi)"
+      ],
+      "canonical_name": "İbrahim (Kompi)",
+      "reason": "Source explicitly aliases the named individual İbrahim to Kompi and describes him as a Kompisaurus. Canon identifies the individual as İbrahim (Kompi); do not merge species Kompisaurus.",
+      "sources": [
+        {
+          "episode": "EP17",
+          "pointer": "/entities/11"
+        },
+        {
+          "episode": "EP19",
+          "pointer": "/entities/12"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Yok Oluş Bey",
+        "Yokoluş Bey"
+      ],
+      "canonical_name": "Yokoluş Bey",
+      "reason": "Orthographic whitespace normalization of the explicitly self-named parasite; Canon provides Yokoluş Bey. Keep separate from Işık Tacı and host İto.",
+      "sources": [
+        {
+          "episode": "EP18",
+          "pointer": "/entities/7/facts/1"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Maraşel Cart Curtoğlu",
+        "Mareşal Cart Curtoğlu"
+      ],
+      "canonical_name": "Mareşal Cart Curtoğlu",
+      "reason": "Maraşel is a transposition in the military title; the distinctive full personal name is unchanged, and Canon confirms Mareşal.",
+      "sources": [
+        {
+          "episode": "EP18",
+          "pointer": "/entities/5"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Sancar Devran",
+        "Kızıl Komutan Sancar"
+      ],
+      "canonical_name": "Kızıl Komutan Sancar",
+      "reason": "EP18 explicitly calls Sancar Devran Kızıl Komutan and separately identifies Devran as his son; Canon names these as Kızıl Komutan Sancar and Devran. Normalize father name only; never merge father with son.",
+      "sources": [
+        {
+          "episode": "EP18",
+          "pointer": "/entities/4"
+        },
+        {
+          "episode": "EP18",
+          "pointer": "/entities/6/facts/0"
+        },
+        {
+          "episode": "EP18",
+          "pointer": "/links/14"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Ammon",
+        "Raer",
+        "Raer Ammon"
+      ],
+      "canonical_name": "Raer Ammon",
+      "reason": "EP11 explicitly states Ammon is the updated/corrected name of Raer and lists Raer as an alias. Canon supplies the combined full name Raer Ammon.",
+      "sources": [
+        {
+          "episode": "EP11",
+          "pointer": "/entities/5/facts/0"
+        },
+        {
+          "episode": "EP11",
+          "pointer": "/entities/5/a/0"
+        },
+        {
+          "episode": "EP17",
+          "pointer": "/entities/6"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Kervansaray",
+        "Tahin Saray Kervansarayı"
+      ],
+      "canonical_name": "Tahin Saray Kervansarayı",
+      "reason": "EP23 explicitly aliases Tahin Saray Kervansarayı to Kervansaray and recalls the EP22 escape; EP20 and EP21 share explicit Çöl Kervansarayı alias and the same named operators. This does not establish identity with Canon Ozempic Kervansaray.",
+      "sources": [
+        {
+          "episode": "EP23",
+          "pointer": "/entities/13"
+        },
+        {
+          "episode": "EP20",
+          "pointer": "/entities/21"
+        },
+        {
+          "episode": "EP21",
+          "pointer": "/entities/10"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Zırnık",
+        "Hınzır Zırnık"
+      ],
+      "canonical_name": "Hınzır Zırnık",
+      "reason": "EP21 explicitly aliases Hınzır Zırnık to Zırnık and Gözcübaşı Zırnık, continuing EP20 named guard commander.",
+      "sources": [
+        {
+          "episode": "EP20",
+          "pointer": "/entities/8"
+        },
+        {
+          "episode": "EP21",
+          "pointer": "/entities/6"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Büyücü Kadın",
+        "Aya"
+      ],
+      "canonical_name": "Aya",
+      "reason": "EP22 explicitly aliases Aya to Büyücü Kadın/Hulusi'nin Yatak Arkadaşı and refers back to the EP21 incident; same individual, not any generic mage woman elsewhere.",
+      "sources": [
+        {
+          "episode": "EP21",
+          "pointer": "/entities/5"
+        },
+        {
+          "episode": "EP22",
+          "pointer": "/entities/5"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Çemenin Kılıcı",
+        "Çemendar"
+      ],
+      "canonical_name": "Çemenin Kılıcı",
+      "reason": "EP20 explicit item alias and lore parenthesis identify the same sword.",
+      "sources": [
+        {
+          "episode": "EP20",
+          "pointer": "/entities/16/a/0"
+        },
+        {
+          "episode": "EP20",
+          "pointer": "/lore/0/fact"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Azize'nin Gözyaşları Kadehi",
+        "Azizenin Gözyaşları"
+      ],
+      "canonical_name": "Azizenin Gözyaşları",
+      "reason": "Canon exact item title agrees with distinctive source possessive name; source adds an apostrophe and descriptive container suffix Kadehi. This is spelling/title normalization, not an identity inference from magical function.",
+      "sources": [
+        {
+          "episode": "EP17",
+          "pointer": "/entities/40"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Tahin Pekmez Canavarı",
+        "Tahin Pekmez"
+      ],
+      "canonical_name": "Tahin Pekmez",
+      "reason": "Canon Bosses explicitly lists Tahin Pekmez; source exact name stem plus generic Canavarı descriptor identifies the named boss, with no competing same-name entity.",
+      "sources": [
+        {
+          "episode": "EP24",
+          "pointer": "/entities/8"
+        }
+      ]
+    }
+  ],
+  "entity_overrides": [
+    {
+      "episode": "EP23",
+      "index": 10,
+      "type": "ITEM",
+      "reason": "Limonlu Hardal Sosu is prepared sauce/material, not a living plant."
+    },
+    {
+      "episode": "EP23",
+      "index": 11,
+      "type": "ITEM",
+      "reason": "Acı Biberli Tereyağı Sosu is prepared sauce/material, not a living plant."
+    },
+    {
+      "episode": "EP23",
+      "index": 28,
+      "type": "OTHER",
+      "reason": "Record explicitly represents a pair of gods, not one DEITY; keep joint claim as a collective and separately register named İsrafsoy and Kıtlıkan if entity splitting is supported."
+    },
+    {
+      "episode": "EP24",
+      "index": 14,
+      "type": "OTHER",
+      "reason": "Sütçüoğlu Ataları is a collective of several ancestor spirits, not one PERSON; do not merge with the family or assign one individual identity."
+    }
+  ],
+  "relationship_overrides": [
+    {
+      "episode": "EP18",
+      "index": 7,
+      "reason": "Project owner confirmed Akmer remains the normal owner; Roary's EP18 action is use/custody rather than an ownership transfer.",
+      "relation": "USES"
+    },
+    {
+      "episode": "EP18",
+      "index": 13,
+      "reason": "Source explicitly states Devran is the son; the reverse uncertain PARENT_OF edge is a mechanical direction error.",
+      "relation": "CHILD_OF"
+    },
+    {
+      "episode": "EP18",
+      "index": 15,
+      "reason": "An accusation of killing does not establish actual hostility or guilt; unresolved assassin identity is explicit in source /uncertainties/0.",
+      "exclude": true
+    },
+    {
+      "episode": "EP18",
+      "index": 10,
+      "reason": "A human death in a location is DIED_IN, not DESTROYED_IN; actual death is explicit.",
+      "relation": "DIED_IN"
+    },
+    {
+      "episode": "EP19",
+      "index": 5,
+      "reason": "A military unit is not a geographic destination; evidence explicitly names the unit's camp.",
+      "object": "Pastırmancı Radikal Birlikler Askeri Kampı"
+    },
+    {
+      "episode": "EP19",
+      "index": 13,
+      "reason": "The monument disappears below ground in this episode; preserve prior placement as historical association rather than current map placement.",
+      "relation": "HISTORICALLY_ASSOCIATED_WITH"
+    },
+    {
+      "episode": "EP21",
+      "index": 9,
+      "reason": "The source explicitly describes death at the inn; use DIED_IN for a person.",
+      "relation": "DIED_IN"
+    },
+    {
+      "episode": "EP22",
+      "index": 9,
+      "reason": "Retrospective death-place assertion repeats EP21 death, not a new death event. Use DIED_IN.",
+      "relation": "DIED_IN"
+    },
+    {
+      "episode": "EP22",
+      "index": 5,
+      "reason": "Writing and leaving a forged letter establishes authorship, not continuing ownership; preserve association without inventing present ownership.",
+      "relation": "ASSOCIATED_WITH"
+    },
+    {
+      "episode": "EP22",
+      "index": 6,
+      "reason": "Project owner confirmed İto and Roary took the physical chest and its gold; this establishes custody during the escape.",
+      "relation": "POSSESSES"
+    },
+    {
+      "episode": "EP22",
+      "index": 11,
+      "reason": "Hulusi was the established prior owner before İto and Roary took the chest and its gold for the group.",
+      "relation": "FORMERLY_OWNED"
+    },
+    {
+      "episode": "EP23",
+      "index": 15,
+      "reason": "Explicit uncertainty /uncertainties/1 and Jifa's vision say the ruins may be trial illusion or pocket space; direct canonical continent placement must await review.",
+      "exclude": true
+    },
+    {
+      "episode": "EP24",
+      "index": 8,
+      "reason": "Project owner supplied no canonical information connecting Doktor Aktar to destruction in the ruins; preserve the source wording without an active DESTROYED_IN edge.",
+      "exclude": true,
+      "owner_confirmed": true
+    },
+    {
+      "episode": "EP24",
+      "index": 14,
+      "reason": "Project owner requested a separate entity for the magically recreated trial manifestation; the real childhood kitchen remains outside this containment assertion.",
+      "subject": "Sütçüoğlu Deney Mutfağı Sınav Yansıması",
+      "relation": "LOCATED_IN"
+    },
+    {
+      "episode": "EP24",
+      "index": 18,
+      "reason": "EP23 explicitly leaves the ruins' physical/timeless-trial geography unresolved. Preserve in conflict instead of making canonical continent placement.",
+      "exclude": true
+    },
+    {
+      "episode": "EP06",
+      "index": 13,
+      "reason": "Project owner confirmed Büyülü Taç was a Dev Fener Balığı bait illusion, not Kalender's item ownership.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP07",
+      "index": 8,
+      "reason": "Project owner confirmed Işık Tacı was always attached to İto; the Kalender ownership record is a source character-assignment error.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP08",
+      "index": 1,
+      "reason": "Project owner confirmed Işık Tacı was always attached to İto; the Kalender ownership record is a source character-assignment error.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP08",
+      "index": 5,
+      "reason": "Project owner confirmed Işık Tacı was always attached to İto; the Kalender ownership record is a source character-assignment error.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP09",
+      "index": 3,
+      "reason": "Project owner confirmed Işık Tacı was always attached to İto; the Kalender ownership record is a source character-assignment error.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP06",
+      "index": 1,
+      "reason": "Project owner confirmed the Yeniden Yaşam Yüzüğü was always Kalender's and could not leave his hand; the Akmer ownership record is a source assignment error.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP07",
+      "index": 3,
+      "reason": "Project owner confirmed the Yeniden Yaşam Yüzüğü was always Kalender's and could not leave his hand; the Akmer ownership record is a source assignment error.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP08",
+      "index": 1,
+      "reason": "Project owner confirmed the Yeniden Yaşam Yüzüğü was always Kalender's and could not leave his hand; the Akmer ownership record is a source assignment error.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP09",
+      "index": 3,
+      "reason": "Project owner confirmed the Yeniden Yaşam Yüzüğü was always Kalender's and could not leave his hand; the Akmer ownership record is a source assignment error.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP07",
+      "index": 10,
+      "reason": "Project owner confirmed the Azize'nin Gözyaşları Kadehi was always Roary's; the early İto ownership record is a source assignment error.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP08",
+      "index": 8,
+      "reason": "Project owner confirmed the Azize'nin Gözyaşları Kadehi was always Roary's; the early İto ownership record is a source assignment error.",
+      "owner_confirmed": true,
+      "exclude": true
+    },
+    {
+      "episode": "EP15",
+      "index": 5,
+      "reason": "Project owner confirmed Kalender gave the Kristal Kılıç to Akmer; his direct ownership ended before its transformation into the axe.",
+      "relation": "FORMERLY_OWNED"
+    }
+  ],
+  "supplemental_relationships": [
+    {
+      "episode": "EP17",
+      "subject": "Kalender Tütüncüoğlu",
+      "relation": "VISITED",
+      "object": "Pastırman Kozmik Savaş Boyutu",
+      "evidence": "Kavurhan banished Kalender into Pastırman's cosmic battle realm, then recalled him.",
+      "pointer": "/entities/1/facts/2",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP17",
+      "subject": "Kalender Tütüncüoğlu",
+      "relation": "OWNS",
+      "object": "Kavurhan'ın Serçe Parmağı",
+      "evidence": "Kavurhan gave his severed little finger to Kalender as a keepsake.",
+      "pointer": "/entities/35/facts/0",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP17",
+      "subject": "Subira",
+      "relation": "MEMBER_OF",
+      "object": "Arifler Okulu",
+      "evidence": "Source explicitly calls Subira the school's magical-item/rune specialist.",
+      "pointer": "/entities/7/facts/0",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP18",
+      "subject": "Gümüş Ejderha Tapınağı",
+      "relation": "LOCATED_IN",
+      "object": "Çöl Şehri 3. Bölge",
+      "evidence": "Source explicitly places the temple in the third district.",
+      "pointer": "/entities/22/facts/0",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP20",
+      "subject": "Kervansaray",
+      "relation": "NEAR",
+      "object": "Çöl Şehri",
+      "evidence": "Source gives approximate 10 km separation; no map coordinates or direction are known.",
+      "pointer": "/entities/21/facts/0",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP22",
+      "subject": "Akmer",
+      "relation": "PRESENT_IN",
+      "object": "Tahin Saray Delil Odası",
+      "evidence": "Akmer wore costumes and took jewelry from the evidence room.",
+      "pointer": "/entities/0/facts/2",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP22",
+      "subject": "Kalender Tütüncüoğlu",
+      "relation": "PRESENT_IN",
+      "object": "Tahin Saray Delil Odası",
+      "evidence": "Kalender retrieved armor and sword and wore a costume from the evidence room.",
+      "pointer": "/entities/1/facts/3",
+      "period": "1300 civarı"
+    },
+    {
+      "episode": "EP24",
+      "subject": "Ametist Ejderha Kristali",
+      "relation": "INSIDE",
+      "object": "Gavurdağı Golemi",
+      "evidence": "Crystal was initially held in the golem's core; episode event describes its subsequent removal.",
+      "pointer": "/entities/6/facts/0",
+      "period": "1300 civarı"
+    }
+  ],
+  "events": [
+    {
+      "episode": "EP17",
+      "title": "Kalender ile Kavurhan'ın düellosu",
+      "summary": "Kalender, Kavurhan Satıroğlu ile Çöl Şehri'nin ilk suru önünde düello yapar; arkadaşları müdahale eder. Kavurhan'ın başı kesilir fakat rejenerasyonla yaşamaya devam eder.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Kavurhan Satıroğlu"
+      ],
+      "location_names": [
+        "Çöl Şehri 1. Bölge Surları"
+      ],
+      "related_names": [
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/1",
+        "/entities/1/facts/3",
+        "/entities/4/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP17",
+      "title": "Kozmik savaş boyutuna sürgün ve dönüş",
+      "summary": "Kavurhan, Kalender'i Banishment ile Pastırman'ın kozmik savaş boyutuna yollar; Akmer'in baskısı sonucunda geri çağırır.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Kavurhan Satıroğlu",
+        "Akmer"
+      ],
+      "location_names": [
+        "Pastırman Kozmik Savaş Boyutu"
+      ],
+      "related_names": [
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/2",
+        "/entities/0/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP17",
+      "title": "Bir günlük ateşkes ve müzakere",
+      "summary": "Kavurhan, Kalender'in yiğitliğini kabul ederek savaşı bir gün durdurur. Komutanlar ve maceracılar saha çadırında görüşür; Kalender serçe parmağını hatıra alır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Kavurhan Satıroğlu",
+        "Sancar Devran"
+      ],
+      "location_names": [
+        "Er Meydanı Saha Çadırı"
+      ],
+      "related_names": [
+        "Kavurhan'ın Serçe Parmağı"
+      ],
+      "source_pointers": [
+        "/entities/4/facts/3",
+        "/entities/5/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP17",
+      "title": "Rejenerasyonun zayıf noktasının araştırılması",
+      "summary": "Ammon, Kavurhan'ın kesik parmağını inceleyerek kutsal rejenerasyonun ateş ve dağlamayla engellenmesi teorisini açıklar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Ammon"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Kavurhan'ın Serçe Parmağı",
+        "Arifler Okulu"
+      ],
+      "source_pointers": [
+        "/entities/6/facts/1",
+        "/entities/6/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP18",
+      "title": "Kızıl Komutan'a suikast",
+      "summary": "Sancar Devran kışlanın toplantı odasında dört özel okla öldürülür. Kalender ölümü doğrular; okların Devran için yapılmış olması saldırganın kimliğini kesinleştirmez.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Sancar Devran"
+      ],
+      "location_names": [
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "related_names": [
+        "Özel Suikast Okları",
+        "Devran"
+      ],
+      "source_pointers": [
+        "/entities/4/facts/1",
+        "/entities/4/facts/2",
+        "/uncertainties/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP18",
+      "title": "Komutanlığın devri ve olağanüstü hal",
+      "summary": "Mareşal Cart Curtoğlu, Sancar'ın ölümünden sonra şehir yönetimini ve başkomutanlığı devralır; sokağa çıkma yasağı ve olağanüstü hal ilan eder.",
+      "participant_names": [
+        "Maraşel Cart Curtoğlu"
+      ],
+      "location_names": [
+        "Çöl Şehri"
+      ],
+      "related_names": [
+        "Sancar Devran",
+        "Yaz Helvası Krallığı"
+      ],
+      "source_pointers": [
+        "/entities/5/facts/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP18",
+      "title": "Yokoluş Bey'in kendini açıklaması ve gözaltı",
+      "summary": "İto'nun sırtındaki bilinçli parazit kendini Yok Oluş Bey diye tanıtır. İto ve Roary nezarethaneye kapatılır; parazit bir muhafızın parmaklarını ısırır.",
+      "participant_names": [
+        "İto İtoğlu",
+        "Roary",
+        "Yok Oluş Bey"
+      ],
+      "location_names": [
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/7/facts/1",
+        "/entities/7/facts/2",
+        "/entities/2/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP18",
+      "title": "Nezarethanede kaçış girişimi",
+      "summary": "Roary küçültme parşömeniyle hücre parmaklıklarını düşürür; muhafızlarla arbede başlar ve Akmer arkadaşlarını korumaya çalışır.",
+      "participant_names": [
+        "Akmer",
+        "İto İtoğlu",
+        "Roary",
+        "Kalender Tütüncüoğlu"
+      ],
+      "location_names": [
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/3/facts/3",
+        "/entities/0/facts/4",
+        "/entities/2/facts/4"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP19",
+      "title": "Kışladan kanlı kaçış",
+      "summary": "İto muhafızları öldürür, Roary koridorda Fireball kullanır. Ekip kışladan ayrılıp şehrin dış bölgesine ulaşır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "Çöl Şehri 3. Bölge Kışlası",
+        "Çöl Şehri 1. Bölge"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/2/facts/1",
+        "/entities/2/facts/2",
+        "/entities/3/facts/3",
+        "/travel/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP19",
+      "title": "Pastırman Anıtı'nın kaybolması",
+      "summary": "Dev demir eldiven anıtı toprağın altına çekilir; Kalender bunu ilahi terk ediliş olarak yorumlayıp güç ve inanç krizi yaşar.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Akmer"
+      ],
+      "location_names": [
+        "Çöl Şehri 1. Bölge"
+      ],
+      "related_names": [
+        "Pastırman'ın Demir Eldiveni",
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/2",
+        "/entities/10/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP19",
+      "title": "Kalender'in tek başına kuşatma kampına gidişi",
+      "summary": "Kalender gece çölü tek başına geçerek Kavurhan'ın kampına gider ve Sancar'ın öldürülmesini anlatır. Kavurhan genel savaş emri verir.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Kavurhan Satıroğlu"
+      ],
+      "location_names": [
+        "Pastırmancı Radikal Birlikler Askeri Kampı"
+      ],
+      "related_names": [
+        "Sancar Devran",
+        "Pastırmancı Radikal Birlikler"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/3",
+        "/entities/4/facts/2",
+        "/travel/3"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP19",
+      "title": "Çemenin Kılıcı'nın teslimi",
+      "summary": "Kavurhan kutsal kılıcı Kalender'e verir. Dikenli kabza eline saplandığında Kalender'in savaş gücü ve Paladin aurası geri gelir.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu",
+        "Kavurhan Satıroğlu"
+      ],
+      "location_names": [
+        "Pastırmancı Radikal Birlikler Askeri Kampı"
+      ],
+      "related_names": [
+        "Çemenin Kılıcı",
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/5",
+        "/entities/4/facts/3"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP20",
+      "title": "Çöl Şehri'nin dış surlarının düşmesi",
+      "summary": "Kavurhan'ın genel taarruzunda Siyah Ejderha Ordusu dış surları aşar; ilk bölge yakılıp yağmalanır.",
+      "participant_names": [
+        "Kavurhan Satıroğlu",
+        "Maraşel Cart Curtoğlu"
+      ],
+      "location_names": [
+        "Çöl Şehri 1. Bölge"
+      ],
+      "related_names": [
+        "Siyah Ejderha Ordusu",
+        "Kırmızı Ejderha Ordusu",
+        "Pastırmancı Radikal Birlikler"
+      ],
+      "source_pointers": [
+        "/entities/4/facts/1",
+        "/entities/4/facts/2",
+        "/entities/20/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP20",
+      "title": "Kalender ve İto'nun savaşı bırakması",
+      "summary": "İto savaşın dehşetini görüp Kalender'i geri dönmeye ikna eder. Kalender kılıcı kınına sokarak etkisini bastırır; ikisi Akmer ve Roary'ye katılır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Çemenin Kılıcı"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/2",
+        "/entities/2/facts/2",
+        "/travel/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP20",
+      "title": "Durgunluk Buhurdanı'nın çölde kaybı",
+      "summary": "Akmer buhurdanı kuma fırlatır; Roary aramasına rağmen bulamaz.",
+      "participant_names": [
+        "Akmer",
+        "Roary"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Durgunluk Buhurdanı"
+      ],
+      "source_pointers": [
+        "/entities/18/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP20",
+      "title": "Dev kartallarla kervansaraya sığınma",
+      "summary": "Roary'nin çağırdığı iki dev kartal ekibi çölde taşır. Hayvanların iyileştirilmesi koşuluyla kervansaraya kabul edilirler.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Zırnık"
+      ],
+      "location_names": [
+        "Kervansaray"
+      ],
+      "related_names": [
+        "Dev Kartallar",
+        "Zakkum Bey"
+      ],
+      "source_pointers": [
+        "/entities/3/facts/2",
+        "/entities/3/facts/3",
+        "/entities/8/facts/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP21",
+      "title": "Kalender'in kutsal güçlerini kaybettiğinin anlaşılması",
+      "summary": "Kalender'in Paladin büyüleri, savaştan kaçışı ve yemin ihlalinden sonra çalışmaz; maceraya geçici Fighter olarak devam eder.",
+      "participant_names": [
+        "Kalender Tütüncüoğlu"
+      ],
+      "location_names": [
+        "Tahin Saray Kervansarayı"
+      ],
+      "related_names": [
+        "Pastırman"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/0",
+        "/entities/1/facts/2"
+      ],
+      "period": "1300 civarı",
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP21",
+      "title": "Akmer ve Kalender'in kervansarayda gözaltı",
+      "summary": "Kalender ekibin kalan parasını kumarda kaybeder; Akmer ile kervansaray nezarethanesine düşer.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "Pokemon Kart Dolandırıcısı"
+      ],
+      "location_names": [
+        "Tahin Saray Nezarethanesi"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/0/facts/2",
+        "/entities/1/facts/1",
+        "/travel/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP21",
+      "title": "Hulusi'ye suikast anlaşması",
+      "summary": "Gözcübaşı Hınzır Zırnık, Hulusi'nin ortadan kaldırılması karşılığında İto'ya lüks oda vaat eder.",
+      "participant_names": [
+        "İto İtoğlu",
+        "Hınzır Zırnık"
+      ],
+      "location_names": [
+        "Tahin Saray Kervansarayı"
+      ],
+      "related_names": [
+        "Hulusi"
+      ],
+      "source_pointers": [
+        "/entities/6/facts/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP21",
+      "title": "Hulusi'nin öldürülmesi",
+      "summary": "İto, Roary'nin yardımıyla Hulusi'nin odasına sızıp onu öldürür. Roary cesedi yutar; odadaki büyücü kadınla sessizlik anlaşması yapılarak kadın serbest bırakılır.",
+      "participant_names": [
+        "İto İtoğlu",
+        "Roary",
+        "Hulusi",
+        "Büyücü Kadın"
+      ],
+      "location_names": [
+        "Tahin Saray Kervansarayı"
+      ],
+      "related_names": [
+        "Helvacıoğlu Hanedanı"
+      ],
+      "source_pointers": [
+        "/entities/2/facts/3",
+        "/entities/3/facts/2",
+        "/entities/3/facts/3"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP22",
+      "title": "Hulusi'nin günlüğünün okunması",
+      "summary": "İto günlükten Hulusi'nin saraydan sürülmesini ve Kızıl Komutan'ın yakınlarda beklemesi talimatını öğrenir. Gizli sevgilinin kimliği belirsizdir.",
+      "participant_names": [
+        "İto İtoğlu"
+      ],
+      "location_names": [
+        "Tahin Saray Kervansarayı"
+      ],
+      "related_names": [
+        "Hulusi",
+        "Hulusi'nin Günlüğü",
+        "Sancar Devran"
+      ],
+      "source_pointers": [
+        "/entities/2/facts/1",
+        "/entities/4/facts/1",
+        "/uncertainties/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP22",
+      "title": "Sahte veda mektubu ve hazinenin alınması",
+      "summary": "İto, Hulusi çöle kaçmış gibi gösteren sahte mektup bırakır. İto ve Roary yatak altındaki altınları alıp taşımak üzere saklar.",
+      "participant_names": [
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "Tahin Saray Kervansarayı"
+      ],
+      "related_names": [
+        "Hulusi'nin Sahte Veda Mektubu",
+        "Hulusi'nin Altın Sandığı"
+      ],
+      "source_pointers": [
+        "/entities/2/facts/2",
+        "/entities/2/facts/3"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP22",
+      "title": "Nezarethane isyanı ve Gümüş Sıçanlar kılığı",
+      "summary": "Akmer hapishane kapısını kırar; Akmer ve Kalender delil odasındaki eşyaları alıp ölmüş göstericilerin kostümleriyle avluda dikkat dağıtır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu"
+      ],
+      "location_names": [
+        "Tahin Saray Delil Odası",
+        "Tahin Saray Kervansarayı"
+      ],
+      "related_names": [
+        "Gümüş Sıçanlar",
+        "Gümüş Sıçanlar Kostümleri"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/1",
+        "/entities/0/facts/2",
+        "/entities/0/facts/3",
+        "/entities/1/facts/3"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP22",
+      "title": "Kervansaraydan atlarla kaçış",
+      "summary": "İto kaçış atlarını hazırlar ve kapıyı açtırır. Roary, Kalender'e Feign Death uygular; Akmer onu taşıyarak ekiple çöle kaçar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "Tahin Saray Kervansarayı"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/2/facts/4",
+        "/entities/3/facts/4",
+        "/travel/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP23",
+      "title": "Vahaya varış ve harabelerin ortaya çıkışı",
+      "summary": "Kervansaraydan kaçan ekip iki buçuk saatlik çöl yolculuğundan sonra vahaya sığınır; sabah vahanın yerinde Ejderhalar Sofrası Harabeleri görünür.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "Çöl Vahası",
+        "Ejderhalar Sofrası Harabeleri"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/3/facts/1",
+        "/entities/12/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP23",
+      "title": "Ziyafet mabedinin keşfi",
+      "summary": "Ekip, dokuz ejderhanın tasvir edildiği mozaikleri ve Şef Ejderha kapılarını inceler; içerideki asidik sineklerle karşılaşır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "Ejderhalar Sofrası Harabeleri"
+      ],
+      "related_names": [
+        "Kutsal Çanak ve Ejderha Mozaiği",
+        "Şef Ejderha Kapıları",
+        "Limon Çekirdeği Sinekleri"
+      ],
+      "source_pointers": [
+        "/entities/8/facts/0",
+        "/entities/9/facts/0",
+        "/entities/6/facts/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP23",
+      "title": "Jifa'nın sınav uyarısı",
+      "summary": "Jifa, Roary'nin vizyonunda belirerek ekibin hâlâ tapınak sınavında olduğunu ve sınır dışında zamanın durduğunu söyler; bu fiziksel olarak orada bulunduğunu kanıtlamaz.",
+      "participant_names": [
+        "Roary",
+        "Jifa"
+      ],
+      "location_names": [
+        "Ejderhalar Sofrası Harabeleri"
+      ],
+      "related_names": [],
+      "source_pointers": [
+        "/entities/3/facts/4",
+        "/entities/5/facts/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP23",
+      "title": "Dokuz ejderha yaratılış efsanesinin aktarılması",
+      "summary": "Kaynakta dokuz ejderhanın dünyayı ziyafet için yarattığı ve sonradan insanların dualarıyla gelen tanrılarla savaştığı efsanesi aktarılır. Olay tarihi belirtilmez.",
+      "participant_names": [],
+      "location_names": [],
+      "related_names": [],
+      "source_pointers": [
+        "/lore/0"
+      ],
+      "period": null,
+      "event_status": "historical"
+    },
+    {
+      "episode": "EP24",
+      "title": "Canlı yağ ve tahin pekmez odalarından geçiş",
+      "summary": "Ekip canlı yağ, tahin ve pekmez engellerini aşar; Kalender tahin kübünden kurtarılır, Roary örümcek formuyla arkadaşlarına yardım eder.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "location_names": [
+        "Ejderhalar Sofrası Harabeleri"
+      ],
+      "related_names": [
+        "İskender Tereyağı Öbekleri",
+        "Tahin Pekmez Canavarı",
+        "Nar Ekşisi Canavarı"
+      ],
+      "source_pointers": [
+        "/entities/1/facts/2",
+        "/entities/3/facts/2",
+        "/entities/8/facts/0"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP24",
+      "title": "Gavurdağı Golemi ve Ametist Kristali'nin açığa çıkışı",
+      "summary": "Yokoluş Bey golemi ısırır; Akmer baltasıyla gövdeyi yararak merkezindeki Ametist Kristali'ni dışarı çıkarır.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "İto İtoğlu",
+        "Roary",
+        "Yok Oluş Bey",
+        "Gavurdağı Golemi"
+      ],
+      "location_names": [
+        "Ejderhalar Sofrası Harabeleri"
+      ],
+      "related_names": [
+        "Ametist Ejderha Kristali",
+        "Helvacıoğlu Baltası"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/2",
+        "/entities/4/facts/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    },
+    {
+      "episode": "EP24",
+      "title": "Ejderhaların yaratılış doktrininin açıklanması",
+      "summary": "Ametist Kristali insanlığın amacının ejderhaların damak tadına hizmet etmek olduğunu iddia eder; bu, kristale atfedilen bir öğreti olarak korunur.",
+      "participant_names": [
+        "İto İtoğlu"
+      ],
+      "location_names": [
+        "Ejderhalar Sofrası Harabeleri"
+      ],
+      "related_names": [
+        "Ametist Ejderha Kristali"
+      ],
+      "source_pointers": [
+        "/entities/2/facts/4",
+        "/lore/1"
+      ],
+      "period": "1300 civarı",
+      "event_status": "revealed"
+    },
+    {
+      "episode": "EP24",
+      "title": "Doktor Aktar'ın lanetinin hatırlanması",
+      "summary": "Akmer'in amcası Doktor Aktar'ın hazır gıda tozları ürettiği için lanetlenip süt denizinin dibine hapsedildiği anlatılır. Olayın tarihi ve denizin konumu bilinmez.",
+      "participant_names": [
+        "Doktor Aktar"
+      ],
+      "location_names": [],
+      "related_names": [
+        "Akmer",
+        "Sütçüoğlu Ailesi"
+      ],
+      "source_pointers": [
+        "/entities/5/facts/0",
+        "/entities/5/facts/1",
+        "/lore/2"
+      ],
+      "period": null,
+      "event_status": "historical"
+    },
+    {
+      "episode": "EP24",
+      "title": "Ataların rehberliğiyle sütlaç sınavının tamamlanması",
+      "summary": "Ametist Kristali mutfak sahnesini canlandırır. Akmer, Kalender ve Roary, Akmer'in kadın atalarının rehberliğiyle sütlaç hazırlayıp sınavı tamamlar.",
+      "participant_names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "Roary",
+        "Sütçüoğlu Ataları"
+      ],
+      "location_names": [
+        "Ejderhalar Sofrası Harabeleri"
+      ],
+      "related_names": [
+        "Sütçüoğlu Deney Mutfağı",
+        "Ametist Ejderha Kristali",
+        "Sütlaç"
+      ],
+      "source_pointers": [
+        "/entities/0/facts/3",
+        "/entities/0/facts/4",
+        "/entities/1/facts/4",
+        "/entities/3/facts/3"
+      ],
+      "period": "1300 civarı",
+      "event_status": "occurred"
+    }
+  ],
+  "conflicts": [
+    {
+      "kind": "alias_collision",
+      "summary": "Ördek-ül Deva is applied both to Roary and the separate carried duck; a shared religious nickname does not establish identity.",
+      "episode": "EP17",
+      "source_pointers": [
+        "/entities/3/a",
+        "/entities/12/a"
+      ],
+      "names": [
+        "Roary",
+        "Yeni Ördek"
+      ],
+      "options": [
+        "Keep separate entities; scope nickname to evidence",
+        "Owner may confirm nickname usage"
+      ]
+    },
+    {
+      "kind": "identity_distinction",
+      "summary": "Canonical Kızıl Komutan Sancar and Devran are explicitly father and son; Sancar Devran source naming must never cause a father/son merge.",
+      "episode": "EP18",
+      "source_pointers": [
+        "/entities/4",
+        "/entities/6",
+        "/links/13",
+        "/links/14"
+      ],
+      "names": [
+        "Sancar Devran",
+        "Devran",
+        "Kızıl Komutan Sancar"
+      ],
+      "options": [
+        "Normalize father to canonical Kızıl Komutan Sancar",
+        "Retain Devran separately; correct reverse parent edge"
+      ]
+    },
+    {
+      "kind": "unproven_canonical_identity",
+      "summary": "Canon names Ozempic Kervansaray; episode source identifies Kervansaray/Tahin Saray but supplies no alias to Ozempic.",
+      "episode": "EP20",
+      "source_pointers": [
+        "/entities/21"
+      ],
+      "names": [
+        "Tahin Saray Kervansarayı",
+        "Ozempic Kervansaray"
+      ],
+      "options": [
+        "Distinct locations",
+        "Same location pending owner confirmation"
+      ]
+    },
+    {
+      "kind": "unverified_family_claim",
+      "summary": "Kalender says Kavurhan is his maternal uncle while dealing with the doctor. This is an in-character assertion in a deception-heavy escape and cannot establish genealogy.",
+      "episode": "EP22",
+      "source_pointers": [
+        "/entities/1/facts/2",
+        "/links/25"
+      ],
+      "names": [
+        "Kalender Tütüncüoğlu",
+        "Kavurhan Satıroğlu"
+      ],
+      "options": [
+        "A cover story",
+        "An actual family relationship requiring confirmation"
+      ]
+    },
+    {
+      "kind": "ownership_transition",
+      "summary": "Hulusi's chest belonged to Hulusi, but the record describes İto/Roary taking its gold into bags; chest ownership is not proven to transfer.",
+      "episode": "EP22",
+      "source_pointers": [
+        "/entities/2/facts/3",
+        "/entities/14/facts/1",
+        "/links/6",
+        "/links/11"
+      ],
+      "names": [
+        "Hulusi",
+        "Hulusi'nin Altın Sandığı",
+        "İto İtoğlu",
+        "Roary"
+      ],
+      "options": [
+        "Gold was taken but chest remained",
+        "Chest also taken; needs evidence"
+      ]
+    },
+    {
+      "kind": "conflicting_alias_assignment",
+      "summary": "EP22 calls Akmer Gümüş Sıçan and Kalender Kızıl Sıçan; EP23 reverses those costume identities. They are temporary roles and must not merge the two characters or the show duo.",
+      "episode": "EP23",
+      "source_pointers": [
+        "/entities/0/a",
+        "/entities/1/a"
+      ],
+      "names": [
+        "Akmer",
+        "Kalender Tütüncüoğlu",
+        "Gümüş Sıçanlar"
+      ],
+      "options": [
+        "EP22 assignment correct",
+        "EP23 assignment correct",
+        "Characters swap costumes"
+      ]
+    },
+    {
+      "kind": "conflicting_loot_amount",
+      "summary": "EP22 chest and looting facts give 3400 gold while EP23 reports 5000+ and uncertainty lists 5799; preserve values and evidence without choosing a total.",
+      "episode": "EP23",
+      "source_pointers": [
+        "/entities/2/facts/1",
+        "/entities/30/facts/0",
+        "/uncertainties/0"
+      ],
+      "names": [
+        "Hulusi'nin Altın Sandığı",
+        "Hulusi",
+        "İto İtoğlu"
+      ],
+      "options": [
+        "3400 gold from chest",
+        "5000+ total including other loot",
+        "5799 or mixed valuables"
+      ]
+    },
+    {
+      "kind": "uncertain_geography",
+      "summary": "Ruins may be a temple trial illusion, a buried physical ruin, or a timeless pocket. Source literal LOCATED_IN Helvanar is disputed by explicit uncertainty. Oasis appearance does not prove identity with ruins.",
+      "episode": "EP23",
+      "source_pointers": [
+        "/entities/5/facts/1",
+        "/entities/7/facts/0",
+        "/entities/12/facts/0",
+        "/uncertainties/1",
+        "/links/15"
+      ],
+      "names": [
+        "Ejderhalar Sofrası Harabeleri",
+        "Çöl Vahası",
+        "Helvanar Kıtası"
+      ],
+      "options": [
+        "Physical location in Helvanar",
+        "Trial illusion",
+        "Timeless pocket space"
+      ]
+    },
+    {
+      "kind": "conflated_entity_record",
+      "summary": "İsrafsoy ve Kıtlıkan explicitly names two gods under a single DEITY record. Joint domains cannot be individually allocated from this sentence.",
+      "episode": "EP23",
+      "source_pointers": [
+        "/entities/28"
+      ],
+      "names": [
+        "İsrafsoy ve Kıtlıkan",
+        "İsrafsoy",
+        "Kıtlıkan"
+      ],
+      "options": [
+        "Create two deity identities and retain shared pair claim",
+        "Owner supplies individual domains"
+      ]
+    },
+    {
+      "kind": "unproven_canonical_identity",
+      "summary": "Canon boss Kainatın Salatası may be Gavurdağı Golemi but no source alias establishes this; similarity of salad theme is insufficient.",
+      "episode": "EP24",
+      "source_pointers": [
+        "/entities/7"
+      ],
+      "names": [
+        "Kainatın Salatası",
+        "Gavurdağı Golemi"
+      ],
+      "options": [
+        "Separate entities",
+        "Same entity pending explicit owner confirmation"
+      ]
+    },
+    {
+      "kind": "conjured_location",
+      "summary": "Sütçüoğlu Deney Mutfağı describes the childhood kitchen and its magically recreated trial representation in one record. Do not place the original in the temple.",
+      "episode": "EP24",
+      "source_pointers": [
+        "/entities/11/facts/0",
+        "/links/14"
+      ],
+      "names": [
+        "Sütçüoğlu Deney Mutfağı",
+        "Ejderhalar Sofrası Harabeleri"
+      ],
+      "options": [
+        "Keep original location with unknown parent and separate manifestation evidence",
+        "Split trial manifestation after identity review"
+      ]
+    },
+    {
+      "kind": "unknown_historical_period",
+      "summary": "Doktor Aktar imprisonment and kitchen childhood lore are recalled during the 1300 trial; their original dates are not given.",
+      "episode": "EP24",
+      "source_pointers": [
+        "/entities/5",
+        "/entities/11",
+        "/lore/2"
+      ],
+      "names": [
+        "Doktor Aktar",
+        "Sütçüoğlu Deney Mutfağı"
+      ],
+      "options": [
+        "Undated pre-adventure biography",
+        "Owner can establish in-world dates"
+      ]
+    },
+    {
+      "kind": "reported_crossworld_lore",
+      "summary": "Podcasa and Tiamat are mentioned by Ametist Kristali in a MAIN_TIMELINE source, with source uncertainty about the claim. Preserve reported lore only; do not create another continuity or import offscreen crossover events.",
+      "episode": "EP24",
+      "source_pointers": [
+        "/entities/16",
+        "/entities/17",
+        "/uncertainties/0"
+      ],
+      "names": [
+        "Tiamat",
+        "Podcasa Evreni",
+        "Ametist Ejderha Kristali"
+      ],
+      "options": [
+        "In-world reported claim",
+        "Potential manipulation or story within story"
+      ]
+    },
+    {
+      "kind": "uncertain_alias",
+      "summary": "The dessert record names Sütlaç but also aliases Kazandibi; preserve source wording without merging distinct foods elsewhere.",
+      "episode": "EP24",
+      "source_pointers": [
+        "/entities/12/a",
+        "/entities/12/facts/0"
+      ],
+      "names": [
+        "Sütlaç"
+      ],
+      "options": [
+        "Single dessert loosely named in scene",
+        "Extraction conflates different recipes"
+      ]
+    }
+  ],
+  "period_overrides": [
+    {
+      "episode": "EP23",
+      "pointer": "/lore/0",
+      "period": null,
+      "reason": "Creation myth has no asserted occurrence date; circa1300 is the narration context."
+    },
+    {
+      "episode": "EP24",
+      "pointer": "/entities/5",
+      "period": null,
+      "reason": "Retrospective biography, ancestral origin, childhood kitchen or reported crossworld history; original dates are unknown despite circa1300 episode context."
+    },
+    {
+      "episode": "EP24",
+      "pointer": "/entities/11",
+      "period": null,
+      "reason": "Retrospective biography, ancestral origin, childhood kitchen or reported crossworld history; original dates are unknown despite circa1300 episode context."
+    },
+    {
+      "episode": "EP24",
+      "pointer": "/entities/14",
+      "period": null,
+      "reason": "Retrospective biography, ancestral origin, childhood kitchen or reported crossworld history; original dates are unknown despite circa1300 episode context."
+    },
+    {
+      "episode": "EP24",
+      "pointer": "/entities/16",
+      "period": null,
+      "reason": "Retrospective biography, ancestral origin, childhood kitchen or reported crossworld history; original dates are unknown despite circa1300 episode context."
+    },
+    {
+      "episode": "EP24",
+      "pointer": "/entities/17",
+      "period": null,
+      "reason": "Retrospective biography, ancestral origin, childhood kitchen or reported crossworld history; original dates are unknown despite circa1300 episode context."
+    },
+    {
+      "episode": "EP24",
+      "pointer": "/links/1",
+      "period": null,
+      "reason": "Retrospective biography, ancestral origin, childhood kitchen or reported crossworld history; original dates are unknown despite circa1300 episode context."
+    },
+    {
+      "episode": "EP24",
+      "pointer": "/links/7",
+      "period": null,
+      "reason": "Retrospective biography, ancestral origin, childhood kitchen or reported crossworld history; original dates are unknown despite circa1300 episode context."
+    },
+    {
+      "episode": "EP24",
+      "pointer": "/lore/2",
+      "period": null,
+      "reason": "Retrospective biography, ancestral origin, childhood kitchen or reported crossworld history; original dates are unknown despite circa1300 episode context."
+    }
+  ],
+  "review_metadata": {
+    "episodes_read_in_full": [
+      "EP17",
+      "EP18",
+      "EP19",
+      "EP20",
+      "EP21",
+      "EP22",
+      "EP23",
+      "EP24"
+    ],
+    "canon_files_read_in_full": [
+      "Canon/Bosses.md",
+      "Canon/DragonAndGodNames.md",
+      "Canon/Items.md",
+      "Canon/Other.md",
+      "Canon/characters.md",
+      "Canon/locations.md"
+    ],
+    "additional_source_records_read": [
+      "EP07/entities/11",
+      "EP08/entities/17",
+      "EP09/entities/29",
+      "EP11/entities/5",
+      "EP12/entities/5"
+    ],
+    "notes": [
+      "Every raw source uncertainty should be preserved independently of the additional conflicts listed here.",
+      "Source empty/new flags are not authoritative first-appearance evidence.",
+      "The clinical, magical and game-rule statements are source lore/game claims, not externally verified universal D&D rules.",
+      "EP22/travel/0 has mixed party origins and should not imply all four visited every named room."
+    ]
+  }
+}

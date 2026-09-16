@@ -1,0 +1,2440 @@
+[
+  {
+    "location_id": "BLD-0001",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "DIS-0003",
+        "parent_candidate_ids": [
+          "DIS-0003"
+        ],
+        "containment_relationship_ids": [
+          "REL-0474",
+          "REL-0420"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/26"
+      }
+    ]
+  },
+  {
+    "location_id": "KNG-0001",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "CON-0002",
+        "parent_candidate_ids": [
+          "CON-0002"
+        ],
+        "containment_relationship_ids": [
+          "REL-0436"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 8
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/31"
+      }
+    ]
+  },
+  {
+    "location_id": "CIT-0001",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 1
+      }
+    ]
+  },
+  {
+    "location_id": "TAV-0001",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "DIS-0004",
+        "parent_candidate_ids": [
+          "DIS-0004"
+        ],
+        "containment_relationship_ids": [
+          "REL-0470",
+          "REL-0418"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 33
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/23"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0002",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "DIS-0004",
+        "parent_candidate_ids": [
+          "DIS-0004"
+        ],
+        "containment_relationship_ids": [
+          "REL-0464",
+          "REL-0471"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/24"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0003",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "BLD-0020",
+        "parent_candidate_ids": [
+          "BLD-0020"
+        ],
+        "containment_relationship_ids": [
+          "REL-0468",
+          "REL-0473"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/10"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0004",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CIT-0006",
+        "parent_candidate_ids": [
+          "CIT-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0472"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/24"
+      }
+    ]
+  },
+  {
+    "location_id": "KNG-0002",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "CON-0002",
+        "parent_candidate_ids": [
+          "CON-0002"
+        ],
+        "containment_relationship_ids": [
+          "REL-0435"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 7
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/30"
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0001",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 35
+      }
+    ]
+  },
+  {
+    "location_id": "TAV-0002",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "DIS-0001",
+        "parent_candidate_ids": [
+          "DIS-0001"
+        ],
+        "containment_relationship_ids": [
+          "REL-0430"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 15
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/22"
+      }
+    ]
+  },
+  {
+    "location_id": "TMP-0001",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "supernatural_or_uncertain",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/13"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0005",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": null,
+        "parent_candidate_ids": [],
+        "containment_relationship_ids": [],
+        "spatial_relations": [
+          {
+            "relation": "NEAR",
+            "target_id": "BLD-0016",
+            "relationship_id": "REL-0478"
+          }
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/29"
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0002",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 30
+      }
+    ]
+  },
+  {
+    "location_id": "ISL-0001",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": null,
+        "parent_candidate_ids": [],
+        "containment_relationship_ids": [],
+        "spatial_relations": [
+          {
+            "relation": "BETWEEN",
+            "target_id": "KNG-0005",
+            "relationship_id": "REL-0442"
+          },
+          {
+            "relation": "BETWEEN",
+            "target_id": "ISL-0004",
+            "relationship_id": "REL-0443"
+          }
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 17
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/16"
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0003",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 4
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/28"
+      }
+    ]
+  },
+  {
+    "location_id": "TMP-0002",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "DIS-0005",
+        "parent_candidate_ids": [
+          "DIS-0005"
+        ],
+        "containment_relationship_ids": [
+          "REL-0456",
+          "REL-0406"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/26"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/22"
+      }
+    ]
+  },
+  {
+    "location_id": "CON-0001",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 39
+      },
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 21
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/35"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/39"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/37"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/42"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/29"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/27"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/35"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/22"
+      }
+    ]
+  },
+  {
+    "location_id": "NAT-0001",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 29
+      }
+    ]
+  },
+  {
+    "location_id": "NAT-0002",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "supernatural_or_uncertain",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "TMP-0003",
+        "parent_candidate_ids": [
+          "TMP-0003"
+        ],
+        "containment_relationship_ids": [
+          "REL-0450"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/19"
+      }
+    ]
+  },
+  {
+    "location_id": "KNG-0003",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CON-0001",
+        "parent_candidate_ids": [
+          "CON-0001"
+        ],
+        "containment_relationship_ids": [
+          "REL-0402"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 20
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/21"
+      }
+    ]
+  },
+  {
+    "location_id": "TAV-0003",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 37
+      }
+    ]
+  },
+  {
+    "location_id": "STA-0001",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "ISL-0004",
+        "parent_candidate_ids": [
+          "ISL-0004"
+        ],
+        "containment_relationship_ids": [
+          "REL-0431"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 2
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/26"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0006",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CON-0001",
+        "parent_candidate_ids": [
+          "CON-0001"
+        ],
+        "containment_relationship_ids": [
+          "REL-0482"
+        ],
+        "spatial_relations": [
+          {
+            "relation": "NEAR",
+            "target_id": "CIT-0006",
+            "relationship_id": "REL-0407"
+          }
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 40
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/13"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0007",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "TMP-0001",
+        "parent_candidate_ids": [
+          "TMP-0001"
+        ],
+        "containment_relationship_ids": [
+          "REL-0492"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8"
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0004",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "ISL-0004",
+        "parent_candidate_ids": [
+          "ISL-0004"
+        ],
+        "containment_relationship_ids": [
+          "REL-0441",
+          "REL-0551"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/20"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0008",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "KNG-0005",
+        "parent_candidate_ids": [
+          "KNG-0005"
+        ],
+        "containment_relationship_ids": [
+          "REL-0425"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/23"
+      }
+    ]
+  },
+  {
+    "location_id": "CON-0002",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 6
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/17"
+      }
+    ]
+  },
+  {
+    "location_id": "CIT-0002",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 23
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0009",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "NAT-0004",
+        "parent_candidate_ids": [
+          "NAT-0004"
+        ],
+        "containment_relationship_ids": [
+          "REL-0447"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/16"
+      }
+    ]
+  },
+  {
+    "location_id": "REG-0001",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "supernatural_or_uncertain",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/34"
+      }
+    ]
+  },
+  {
+    "location_id": "KNG-0004",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "CON-0002",
+        "parent_candidate_ids": [
+          "CON-0002"
+        ],
+        "containment_relationship_ids": [
+          "REL-0434"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 5
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/29"
+      }
+    ]
+  },
+  {
+    "location_id": "KNG-0005",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "CON-0002",
+        "parent_candidate_ids": [
+          "CON-0002"
+        ],
+        "containment_relationship_ids": [
+          "REL-0433"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 9
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/31"
+      }
+    ]
+  },
+  {
+    "location_id": "DIS-0001",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "KNG-0005",
+        "parent_candidate_ids": [
+          "KNG-0005"
+        ],
+        "containment_relationship_ids": [
+          "REL-0427"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 14
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/19"
+      }
+    ]
+  },
+  {
+    "location_id": "PRT-0001",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "KNG-0005",
+        "parent_candidate_ids": [
+          "KNG-0005"
+        ],
+        "containment_relationship_ids": [
+          "REL-0428"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/18"
+      }
+    ]
+  },
+  {
+    "location_id": "DIS-0002",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "KNG-0005",
+        "parent_candidate_ids": [
+          "KNG-0005"
+        ],
+        "containment_relationship_ids": [
+          "REL-0426"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/18"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0011",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CIT-0006",
+        "parent_candidate_ids": [
+          "CIT-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0465"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/26"
+      }
+    ]
+  },
+  {
+    "location_id": "CIT-0003",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 24
+      }
+    ]
+  },
+  {
+    "location_id": "ISL-0003",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 12
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0005",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 22
+      }
+    ]
+  },
+  {
+    "location_id": "KNG-0006",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 36
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0006",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 38
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0007",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 34
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0012",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/11"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0013",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "BLD-0006",
+        "parent_candidate_ids": [
+          "BLD-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0488"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/17"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0014",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "BLD-0006",
+        "parent_candidate_ids": [
+          "BLD-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0483"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/11"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0015",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "BLD-0006",
+        "parent_candidate_ids": [
+          "BLD-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0487"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/16"
+      }
+    ]
+  },
+  {
+    "location_id": "STA-0002",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "ISL-0004",
+        "parent_candidate_ids": [
+          "ISL-0004"
+        ],
+        "containment_relationship_ids": [
+          "REL-0432"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 3
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/27"
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0008",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 32
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0009",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 27
+      }
+    ]
+  },
+  {
+    "location_id": "CIT-0004",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 26
+      }
+    ]
+  },
+  {
+    "location_id": "NAT-0003",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 28
+      },
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 28
+      }
+    ]
+  },
+  {
+    "location_id": "KNG-0007",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CON-0001",
+        "parent_candidate_ids": [
+          "CON-0001"
+        ],
+        "containment_relationship_ids": [
+          "REL-0401"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 19
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/26"
+      }
+    ]
+  },
+  {
+    "location_id": "ISL-0004",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 11
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/19"
+      }
+    ]
+  },
+  {
+    "location_id": "KNG-0008",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CON-0001",
+        "parent_candidate_ids": [
+          "CON-0001"
+        ],
+        "containment_relationship_ids": [
+          "REL-0458"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 18
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/34"
+      }
+    ]
+  },
+  {
+    "location_id": "CIT-0006",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "KNG-0008",
+        "parent_candidate_ids": [
+          "KNG-0008"
+        ],
+        "containment_relationship_ids": [
+          "REL-0457"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/19"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0020",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CIT-0006",
+        "parent_candidate_ids": [
+          "CIT-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0460"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/25"
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0010",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 31
+      }
+    ]
+  },
+  {
+    "location_id": "NAT-0004",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "ISL-0001",
+        "parent_candidate_ids": [
+          "ISL-0001"
+        ],
+        "containment_relationship_ids": [
+          "REL-0448"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/15"
+      }
+    ]
+  },
+  {
+    "location_id": "TMP-0003",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": null,
+        "parent_id": null,
+        "parent_candidate_ids": [],
+        "containment_relationship_ids": [],
+        "spatial_relations": [
+          {
+            "relation": "CONNECTED_TO",
+            "target_id": "CIT-0006",
+            "relationship_id": "REL-0130"
+          }
+        ]
+      },
+      {
+        "period": "1600 civarı",
+        "parent_id": "NAT-0004",
+        "parent_candidate_ids": [
+          "NAT-0004"
+        ],
+        "containment_relationship_ids": [
+          "REL-0449",
+          "REL-0400",
+          "REL-0454"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 6
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/15"
+      }
+    ]
+  },
+  {
+    "location_id": "CIT-0005",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 25
+      }
+    ]
+  },
+  {
+    "location_id": "NAT-0005",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CON-0001",
+        "parent_candidate_ids": [
+          "CON-0001"
+        ],
+        "containment_relationship_ids": [
+          "REL-0494"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/12"
+      }
+    ]
+  },
+  {
+    "location_id": "DIS-0003",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CIT-0006",
+        "parent_candidate_ids": [
+          "CIT-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0481"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0016",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "DIS-0003",
+        "parent_candidate_ids": [
+          "DIS-0003"
+        ],
+        "containment_relationship_ids": [
+          "REL-0475"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/24"
+      }
+    ]
+  },
+  {
+    "location_id": "DIS-0004",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CIT-0006",
+        "parent_candidate_ids": [
+          "CIT-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0466"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/18"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0017",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "DIS-0004",
+        "parent_candidate_ids": [
+          "DIS-0004"
+        ],
+        "containment_relationship_ids": [
+          "REL-0476"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/26"
+      }
+    ]
+  },
+  {
+    "location_id": "DIS-0005",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CIT-0006",
+        "parent_candidate_ids": [
+          "CIT-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0467"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/27"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/19"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0018",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "DIS-0005",
+        "parent_candidate_ids": [
+          "DIS-0005"
+        ],
+        "containment_relationship_ids": [
+          "REL-0419",
+          "REL-0469"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/15"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0019",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "DIS-0005",
+        "parent_candidate_ids": [
+          "DIS-0005"
+        ],
+        "containment_relationship_ids": [
+          "REL-0477"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/28"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0021",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CIT-0006",
+        "parent_candidate_ids": [
+          "CIT-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0459"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/13"
+      }
+    ]
+  },
+  {
+    "location_id": "STA-0003",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 16
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/17"
+      }
+    ]
+  },
+  {
+    "location_id": "ISL-0005",
+    "periods": [],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 13
+      }
+    ]
+  },
+  {
+    "location_id": "TWN-0011",
+    "periods": [],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": null,
+        "parent_id": "ISL-0005",
+        "parent_candidate_ids": [
+          "ISL-0005"
+        ],
+        "containment_relationship_ids": [
+          "REL-0503"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/32"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0022",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "TMP-0001",
+        "parent_candidate_ids": [
+          "TMP-0001"
+        ],
+        "containment_relationship_ids": [
+          "REL-0493"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/9"
+      }
+    ]
+  },
+  {
+    "location_id": "TAV-0004",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1600 civarı",
+        "parent_id": "KNG-0005",
+        "parent_candidate_ids": [
+          "KNG-0005"
+        ],
+        "containment_relationship_ids": [
+          "REL-0429"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 10
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/21"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0023",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "DIS-0005",
+        "parent_candidate_ids": [
+          "DIS-0005"
+        ],
+        "containment_relationship_ids": [
+          "REL-0455",
+          "REL-0421"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/11/facts/0"
+      }
+    ]
+  },
+  {
+    "location_id": "REG-0002",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/3/to"
+      }
+    ]
+  },
+  {
+    "location_id": "NAT-0006",
+    "periods": [
+      "1600 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/travel/0/via/0"
+      }
+    ]
+  },
+  {
+    "location_id": "NAT-0007",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/travel/1/to"
+      }
+    ]
+  },
+  {
+    "location_id": "DIS-0006",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/travel/0/from"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0024",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/travel/1/to"
+      }
+    ]
+  },
+  {
+    "location_id": "NAT-0008",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "UNKNOWN",
+    "spatial_domain": "unknown",
+    "states": [],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/1/to"
+      }
+    ]
+  },
+  {
+    "location_id": "BLD-0025",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "supernatural_or_uncertain",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "TMP-0001",
+        "parent_candidate_ids": [
+          "TMP-0001"
+        ],
+        "containment_relationship_ids": [
+          "REL-0521"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/14"
+      }
+    ]
+  },
+  {
+    "location_id": "CIT-0007",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CIT-0006",
+        "parent_candidate_ids": [
+          "CIT-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0543"
+        ],
+        "spatial_relations": [
+          {
+            "relation": "BORDERS",
+            "target_id": "NAT-0007",
+            "relationship_id": "REL-0546"
+          },
+          {
+            "relation": "CONNECTED_BY_ROAD",
+            "target_id": "CIT-0008",
+            "relationship_id": "REL-0547"
+          },
+          {
+            "relation": "CONNECTED_TO",
+            "target_id": "CIT-0008",
+            "relationship_id": "REL-0549"
+          }
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11/facts/0"
+      }
+    ]
+  },
+  {
+    "location_id": "CIT-0008",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CIT-0006",
+        "parent_candidate_ids": [
+          "CIT-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0544"
+        ],
+        "spatial_relations": [
+          {
+            "relation": "CONNECTED_BY_ROAD",
+            "target_id": "CIT-0009",
+            "relationship_id": "REL-0548"
+          },
+          {
+            "relation": "CONNECTED_TO",
+            "target_id": "CIT-0009",
+            "relationship_id": "REL-0550"
+          }
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/23/facts/0"
+      }
+    ]
+  },
+  {
+    "location_id": "CIT-0009",
+    "periods": [
+      "1300 civarı"
+    ],
+    "placement_basis": "CANON_CONSTRAINED",
+    "spatial_domain": "unknown",
+    "states": [
+      {
+        "period": "1300 civarı",
+        "parent_id": "CIT-0006",
+        "parent_candidate_ids": [
+          "CIT-0006"
+        ],
+        "containment_relationship_ids": [
+          "REL-0545"
+        ],
+        "spatial_relations": []
+      }
+    ],
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/27/facts/0"
+      }
+    ]
+  }
+]

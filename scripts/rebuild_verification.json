@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "method": "Compared SHA-256 hashes after the latest owner-review rebuild and validation. Source files remain untouched; generated outputs and stable IDs matched the recorded rebuild.",
+  "output_sha256": {
+    "data/creatures.json": "e64d830e2e5a0161c72ebbccaa51384bb2a46af66db93d924a791622d23cf823",
+    "data/deities.json": "59e1ccb4461a641bc02b483fbe7409158880b9289e3ab06d94cee3763e71df1e",
+    "data/dragons.json": "9597e7cefbed487d11c7f812232aa0ac413665314ee497a3cedd9875b5413cad",
+    "data/entities.json": "d18eda8b18c625156069b066fa6c636b29dc2bb80153f1c14dd1b8af64ddca31",
+    "data/episodes.json": "e7790d84525e8a73b7a81bcef9cdaef7954c787d0246a54ea2b6c4ba2e6900d6",
+    "data/factions.json": "9398f3d4083a059247fb637ecd9fdb5c0c454848f01758994566eb3faabb92b4",
+    "data/families.json": "983e1b00c08fba43cd42235a960bd382b53a3fcc7637da9397ecc4e2c2ee1ed1",
+    "data/historical_events.json": "129cbd81f205638070468810ce3fda57f435387b310870c3793c4f522c8f70fa",
+    "data/id_redirects.json": "04c50603665b1d6023f351ee7786356553cbc3309cf45ff2f1f027a8e98f91cb",
+    "data/items.json": "fb6efc971bb76998794d506414775c515c6ea952888bcf7fb778ef6411fe3842",
+    "data/locations.json": "a5e5598596df28b059fc4857596ce12f048d0f9279c3e9c6cca6da05743cc9f5",
+    "data/lore.json": "3326b43c446245652341f1a1648a1104581239bba41c96821abd466f3d77ab87",
+    "data/map_canon.json": "2ee6acd58e0664c26ffc14b1236c562e8d119e2762d8487872e65e0f64f479b9",
+    "data/normalization_decisions.json": "7c7b387dc0941b9c27fc10b4c915ded12742dc270e3fdfa0c393eefc88bc992c",
+    "data/npcs.json": "7a670cbf5829a5a23409d7253e469d5203387257d67f24e88f8865050aabe71d",
+    "data/relationships.json": "3882f3387813c2f0cecf9e8f41d122f195ae75dea6ca14837a8d5062233e9fa8",
+    "data/schema.json": "13fd3e7ca23e12e13957334650bc58ca6eff0466f2ba24e4040b43fcfc9b964e",
+    "data/source_coverage.json": "b960cae7498e36650f569e6a4c61e4c154e1c61c0695187b5a68d480bc2b52f3",
+    "data/source_inventory.json": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e",
+    "data/timeline.json": "ac3ec7e5a8d3b63cf9e99dd23e69337c32f5042206123528ffce6e422b1be1c0",
+    "data/travel.json": "3f884fa648570ca5a1c5c72ff6c7aeec002dce9021bd66eb5feb0a89d72840e7",
+    "data/unresolved_conflicts.json": "c65d43449288083c24e9d5c75856236f88fe4e8c5cdebe37e6e2c0e032b469b2",
+    "data/vocabulary.json": "0acdae63ba54eaee0b15b99ee9c2dbb589782e6e37f530847fad58d40a121e82",
+    "data/world_metadata.json": "d37a978479ad3706a52f5dcce74b8787bf2e457aa0ea59beac1a3d7aa9bf84f9",
+    "data/world_states.json": "784526efefbe45fa37f38ec4bcedcb4fb539b006a79518184725aca297e3319c",
+    "scripts/id_registry.json": "9928c8dc8000efea4f5287118289914b37b4cb5d83cc62b7e727962c8aaf4ffd"
+  }
+}

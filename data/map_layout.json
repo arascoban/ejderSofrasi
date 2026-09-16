@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "layout_revision": "1.0.0",
+  "placements": [
+    {
+      "placement_id": "MPL-CIT-0006-001",
+      "entity_id": "CIT-0006",
+      "frame_id": "FRM-CON-0001-001",
+      "position": { "u": 0.58, "v": 0.58 },
+      "periods": ["1300 civarı"],
+      "review_status": "draft",
+      "placement_source": "PRESENTATION",
+      "canon_basis": "CANON_CONSTRAINED",
+      "constraint_relationship_ids": ["REL-0457", "REL-0458"],
+      "placement_note": "Yaz Helvası Şehri'nin Helvanar Kıtası içindeki kesin konumu kaynakta verilmediği için bu çapa yalnızca sunum taslağıdır."
+    }
+  ]
+}
