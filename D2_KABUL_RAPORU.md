@@ -32,3 +32,14 @@
 Bu, canlı ağ emülasyonu veya bağımsız veritabanı oturumları testi yapıldığı anlamına gelmez. PGlite Auth/Storage fixture kullanır; bulut Auth/Storage kanıtı ayrı gerçek oturumdan gelir. Bu sınırlar test raporlarında korunacak. Yeni bir hata kanıtı çıkmadıkça aynı kabuller tekrar edilerek D2 açılmayacak.
 
 Export tamamlanmış bir proje felaket-kurtarma yedeği değildir: Auth kullanıcı/parolaları, şema ve kayıtsız Storage orphan dosyaları kapsam dışıdır. Yazıcılar sakin olmalıdır; başlangıç/son metadata karşılaştırması transaction snapshot değildir. Tam geri yükleme provası I aşamasındadır.
+
+
+## GitHub ve Vercel teslimi
+
+- Uygulama commit'i: `81e63d066e19e1c20709c39ba44b72672b5e1903`, `main` dalına gönderildi.
+- GitHub Vercel durumu `success / Deployment has completed`; Production deployment `6579343251`, Vercel `9gKMhx7JJL5WxTQCH6UGEaTZrK1U` aynı commit'e bağlı.
+- Gerçek public origin: https://ejder-map.vercel.app (GitHub repository homepage kaydından doğrulandı).
+- HTTPS smoke: `/map`, `/wiki`, `/wiki/akmer-sutcuoglu`, `/episodes/EP01`200; anonim `/editor`307 → `/editor/login`; geçersiz medya adresi400. Canlı Akmer sayfası temiz V17, teknik metin yok, img0.
+- Deploy'a özel `ejder-sofrasi-j8wg03fo1-ejder1.vercel.app` adresi Vercel SSO korumalıdır. Bu koruma kaldırılmadı; public kontroller gerçek üretim alan adında yapıldı.
+- Son temizlik yedeği: `.local-backups/editorial-2026-09-21T22-24-03.095Z`;17 revizyon,0 draft,5 medya,25 dosya/3.040.749 byte. Metadata ve gerçek dosyalar doğrulandı; bu klasör commit dışıdır.
+- Yerel son build `http://127.0.0.1:3001` üzerinde çalışıyor. `tsconfig.tsbuildinfo` önceden izlenen yerel derleme önbelleği olduğundan mevcut değişikliği korundu, commit'e alınmadı.

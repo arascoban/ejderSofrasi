@@ -5,12 +5,14 @@
 **D2 tamamlandı; sıradaki özellik E.** `D2_KABUL_RAPORU.md` kabul matrisi bu dosyanın daha eski açık-test talimatlarının önündedir. PRB-0013/0014 çözüldü. CPU konusu PRB-0017 kullanıcı isteğiyle ertelendi; yeniden ölçüm veya yük testi başlatma. PT409 migration ve bootstrap'ı canlıda tekrar çalıştırma. Owner/secret onayını yeniden isteme.
 
 1. AGENTS.md, güncel durum ve kabul raporunu oku; mevcut staged/unstaged değişiklikleri koru. Kanonu/ID'leri frontend için değiştirme. Yeni bir hata yoksa D2 test içeriğini yeniden yaratma; canlı NPC-0006 temiz V17, geçmiş revizyonlar/özel dosyalar korunuyor.
-2. Yayın kaydı henüz tamamlanmadıysa mevcut yetkiyle ilgili değişiklikleri commit/push et; doğru commit için Vercel Ready ve HTTPS smoke doğrula. İşletim erişimi engeli varsa PRB kaydına bağlamı ekle; yerel D2 kabulünü başarısız sayma ve deploy olmuş gibi raporlama.
+2. `81e63d0` için GitHub push, Vercel Production success ve `https://ejder-map.vercel.app` HTTPS smoke tamamlandı. Yeni değişikliklerde doğru commit için Vercel success ve HTTPS smoke doğrula. İşletim erişimi engeli varsa PRB kaydına bağlamı ekle; yerel D2 kabulünü başarısız sayma ve deploy olmuş gibi raporlama.
 3. **E1:** Merkezi depodan Türkçe/ASCII arama eşleştirmesini genişlet: kanonik ad, alias, sabit/eski ID ve eski slug. Aynı alias birden fazla kimliğe aitse tüm sonuçları koru. Akmer, Pastırman, Helvanar, Çöl Şehri/col sehri, Karapancar kabul örnekleridir. Sonuçlar mevcut canonical route çözümleyicisini kullansın.
 4. **E2:** Klavyeyle kullanılabilen Türkçe global arama ve sonuç ekranını ekle; tür/dönem filtreleri URL'de tutulmalı ve geri/ileri gezinmede dönmeli. Bilinmeyen dönemi iki döneme atama. Koordinatsız kaydı wiki'ye götür; harita için sahte koordinat üretme.
 5. **E3:** Yalnızca etkin yayımlanmış editoryal metni ara. İlk kapsam küçük indeks/ölçülü sunucu isteği; her tuşta Supabase sorgusu ve ücretli harici arama servisi yok. Taslak, eski revizyon veya özel dosya adresi istemci indeksine girmesin. Publish/rollback sonrası eski metnin sonuçtan kalkması kabul şartıdır. Migration gerekirse yeni ileri migration hazırla; uygulanmış dosyaları değiştirme.
 6. Her adımı dar diff, anlamlı test ve tarayıcı kabulüyle doğrula. Next API değişikliği yapmadan ilgili yerel `node_modules/next/dist/docs/` belgesini oku. E sonunda lint/typecheck/test/build ve klavye/mobil/URL/arama güncelliği sonuçlarını yaz. E tamamlanmadan F/G/H/I'yi topluca uygulama.
 7. Çözülemeyen yeni işleri mevcut manuel Astra protokolüyle `ASTRA_SORUN_KAYITLARI.md` içine kaydet. Alt ajan/model değişikliği yapma. D2'de yapılmayan canlı ağ emülasyonu/ayrı publish HTTP gözlemini yapılmış diye aktarma; bunlar kabul raporundaki katmanlı doğrulamayla karşılanmıştır.
+
+Davet/SMTP işletim kabulü I aşamasında PRB-0018 altında açık; E'yi engellemez. Yeni editör daveti göndermeden önce mutlak site adresi ve callback izin listesini doğrula.
 
 ## Tarihsel yönergeler — aşağıdakiler yeniden yapılacak liste değildir
 

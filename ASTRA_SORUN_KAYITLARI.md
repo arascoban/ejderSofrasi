@@ -43,6 +43,8 @@ Bu dosyada her kaydın en yeni tarihli Astra eki önceki teşhislerin önüne ge
 | PRB-0016 | Makale içi görsel editörde önizlenmiyor | D2 | COZULDU | 1 + Astra düzeltmesi | Canlı inline upload/save/reload/publish geçti | 21 Eylül 2026 |
 | PRB-0017 | Ücretsiz Supabase projesinde yüksek CPU uyarısı | D2/I | GIRDI_BEKLIYOR | 0 | Kullanıcı isteğiyle ertelendi; D2/E engeli değil | 21 Eylül 2026 |
 
+| PRB-0018 | Davet dönüş adresi yerel yapılandırmada şemasız | I | GIRDI_BEKLIYOR | 0 | Yeni editör daveti öncesi ortam doğrulaması; D2/E engeli değil | 22 Eylül 2026 |
+
 Aşağıdaki şablon gerçek problem veya tamamlanmış iş değildir.
 
 ## Yeni kayıt şablonu
@@ -103,6 +105,19 @@ Henüz gelmedi.
 ````
 
 ## Problem kayıtları
+
+### PRB-0018 — Davet dönüş adresi yapılandırması
+
+- Durum: `GIRDI_BEKLIYOR`;22 Eylül 2026, Europe/Berlin. Aşama I, yeni editör daveti hazırlığı. Deneme0; e-posta gönderilmedi.
+- Amaç: `inviteEditorAction` içindeki redirectTo geçerli ve izinli mutlak origin kullanmalı.
+- Gözlem: yerel `.env.local` içindeki yalnızca genel site adresi kontrolünde `NEXT_PUBLIC_SITE_URL=ejder-map.vercel.app` görüldü; `new URL(value)` `ERR_INVALID_URL` verdi. Secret değerleri okunup raporlanmadı. Vercel'deki aynı değişkenin değeri bilinmiyor; bunu yerel değerle aynı varsayma.
+- İlgili kod: `src/app/editor/team/actions.ts`: `const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "http://localhost:3000";` ardından `redirectTo: siteUrl + "/auth/callback?next=/editor/set-password"`. Şemasız değer yanlış davet dönüş adresi üretebilir. Mevcut owner login/save/publish çalışmaktadır.
+- Beklenen: üretimde `https://ejder-map.vercel.app`, yerel davet kabulü yapılacaksa `http://127.0.0.1:3001`; ilgili `/auth/callback` adresi Supabase izin listesiyle eşleşmeli.
+- Erişim sınırı: Vercel dashboard Codex tarayıcısında login istedi; GitHub deployment status ve public HTTPS smoke başarıyla alınabildi. Dashboard ayarı değiştirilmedi, SSO koruması kaldırılmadı. Var olan kullanıcı oturumu/cookie dışarı çıkarılmadı.
+- Sonraki adım: yeni editör davetinden önce doğru ortam değerini ve Supabase callback listesini doğrula/düzelt; public env build'e gömüldüğünden ilgili ortamda yeniden build/deploy et. Kullanıcının belirttiği alıcı için açık gönderim yetkisi yokken test e-postası yollama.
+- Korunacaklar: mevcut owner yetkileri, private Storage, sırlar, tamamlanan D2 kanıtları. D2 kapanışı yeni kullanıcıya davet teslimatı/SMTP kabulü değildir; bu işletim kontrolü E'yi engellemez.
+- Astra'ya kopyalanacak soru: “Next16.3.5 wiki uygulamasında davet action'ı NEXT_PUBLIC_SITE_URL değerine /auth/callback?next=/editor/set-password ekliyor. Yerel değer şemasız ejder-map.vercel.app, Vercel değeri henüz görülmedi. Mevcut owner Auth/Storage E2E ve Production81e63d0 HTTPS smoke geçti. Davet göndermeden mutlak origin ve Supabase redirect allowlist eşleşmesini nasıl doğrulayalım? Yetki/token değiştirmeyelim ve e-posta göndermeyelim.”
+
 
 ### PRB-0017 — Supabase yüksek CPU bildirimi
 
