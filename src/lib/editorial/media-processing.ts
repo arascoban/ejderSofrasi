@@ -1,7 +1,9 @@
+import "server-only";
+
 import { createHash } from "node:crypto";
 import sharp from "sharp";
+import { MAX_MEDIA_BYTES } from "./media-limits";
 
-export const MAX_MEDIA_BYTES = 12 * 1024 * 1024;
 export const MAX_MEDIA_DIMENSION = 12_000;
 export const ALLOWED_MEDIA_TYPES = ["image/jpeg", "image/png", "image/webp", "image/avif"] as const;
 export type AllowedMediaType = (typeof ALLOWED_MEDIA_TYPES)[number];

@@ -24,7 +24,7 @@ const StableLink = Link.extend({
   },
 });
 
-const EditorialImage = Image.extend({
+export const EditorialImage = Image.extend({
   addAttributes() {
     return {
       ...(this.parent?.() ?? {}),

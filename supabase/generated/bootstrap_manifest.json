@@ -1,0 +1,36 @@
+{
+  "purpose": "first-install-sql-editor",
+  "migrations": [
+    {
+      "version": "202609160001",
+      "name": "editorial_core",
+      "sha256": "eb7e505857b40347949d3582ca3e58e66fc188aa03ed8597f93fe40730d65826"
+    },
+    {
+      "version": "202609160002",
+      "name": "editorial_security_and_workflow",
+      "sha256": "8d8aa41fd96003f9d876cdee5568a33d13922b169025db27085be4f99a7d41ef"
+    },
+    {
+      "version": "202609160003",
+      "name": "editorial_storage",
+      "sha256": "5febdba7b5f0f1283ee0efbc548fea85e462f34972cf20957fecf96361046186"
+    },
+    {
+      "version": "202609160004",
+      "name": "public_article_projection",
+      "sha256": "6ca4a00ac8d822ea0c6b87712a4cde84a94a706cb0b2a321339af77014a7a98e"
+    },
+    {
+      "version": "202609160005",
+      "name": "media_workflow",
+      "sha256": "ac2a65fa96201e9b6a2a9bdf83742dbaa43beb6f4c74bb6d232c540dcc986fe6"
+    },
+    {
+      "version": "202609210001",
+      "name": "editorial_conflict_sqlstate",
+      "sha256": "477551370b079cfb8e682ab9000d2c7cad24dc9a3d644986d3106684e4bda6c9"
+    }
+  ],
+  "seed_sha256": "46048f1f8cfa50971090ba857a90fccac4217cd352ca7f47a0cf2b7bf0bf6487"
+}

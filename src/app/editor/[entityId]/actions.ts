@@ -18,7 +18,7 @@ async function requireAuthorizedEditor() {
 }
 
 function messageForError(error: { code?: string; message: string }): EditorialActionResult {
-  const conflict = error.code === "40001" || error.message.includes("değiştirildi") || error.message.includes("değişti");
+  const conflict = error.code === "PT409" || error.code === "40001" || error.message.includes("değiştirildi") || error.message.includes("değişti");
   return {
     ok: false,
     conflict,
@@ -43,6 +43,8 @@ export async function saveDraftAction(input: SaveDraftInput): Promise<EditorialA
       p_period: input.period,
       p_change_note: input.changeNote,
       p_expected_lock_version: input.expectedLockVersion,
+      p_expected_draft_id: input.expectedDraftId,
+      p_expected_published_revision_id: input.expectedPublishedRevisionId,
     });
     if (error) return messageForError(error);
     const record = Array.isArray(data) ? data[0] : null;
@@ -55,6 +57,7 @@ export async function saveDraftAction(input: SaveDraftInput): Promise<EditorialA
       ok: true,
       message: "Taslak kaydedildi.",
       lockVersion: record.lock_version,
+      draftId: String(record.draft_id),
       updatedAt: String(record.updated_at),
     };
   } catch (error) {
@@ -65,6 +68,7 @@ export async function saveDraftAction(input: SaveDraftInput): Promise<EditorialA
 export async function publishDraftAction(
   entityId: string,
   expectedLockVersion: number,
+  expectedDraftId: string,
   changeNote: string,
 ): Promise<EditorialActionResult> {
   try {
@@ -75,6 +79,7 @@ export async function publishDraftAction(
       p_entity_id: entityId,
       p_expected_lock_version: expectedLockVersion,
       p_change_note: changeNote,
+      p_expected_draft_id: expectedDraftId,
     });
     if (error) return messageForError(error);
 
@@ -86,24 +91,30 @@ export async function publishDraftAction(
   }
 }
 
-export async function rollbackArticleAction(formData: FormData) {
-  const entityId = String(formData.get("entityId") ?? "");
-  const sourceRevisionId = String(formData.get("sourceRevisionId") ?? "");
-  const expectedRevisionId = String(formData.get("expectedRevisionId") ?? "");
-  const changeNote = String(formData.get("changeNote") ?? "Önceki sürüm geri getirildi.");
-  const entity = await getEntityById(entityId);
-  if (!entity || entity.id !== entityId) throw new Error("Geçerli varlık bulunamadı.");
+export async function rollbackArticleAction(
+  entityId: string,
+  sourceRevisionId: string,
+  expectedRevisionId: string,
+  changeNote: string,
+): Promise<EditorialActionResult> {
+  try {
+    const entity = await getEntityById(entityId);
+    if (!entity || entity.id !== entityId) return { ok: false, message: "Geçerli varlık bulunamadı." };
 
-  const supabase = await requireAuthorizedEditor();
-  const { error } = await supabase.rpc("rollback_wiki_article", {
-    p_entity_id: entityId,
-    p_source_revision_id: sourceRevisionId,
-    p_expected_published_revision_id: expectedRevisionId,
-    p_change_note: changeNote,
-  });
-  if (error) throw new Error(messageForError(error).message);
-  revalidatePath(entityHref(entity.slug));
-  revalidatePath(`/editor/${entityId}`);
+    const supabase = await requireAuthorizedEditor();
+    const { data, error } = await supabase.rpc("rollback_wiki_article", {
+      p_entity_id: entityId,
+      p_source_revision_id: sourceRevisionId,
+      p_expected_published_revision_id: expectedRevisionId,
+      p_change_note: changeNote,
+    });
+    if (error) return messageForError(error);
+    revalidatePath(entityHref(entity.slug));
+    revalidatePath(`/editor/${entityId}`);
+    return { ok: true, message: "Önceki sürüm yeniden yayımlandı.", revisionId: String(data) };
+  } catch (error) {
+    return { ok: false, message: error instanceof Error ? error.message : "Önceki sürüm geri getirilemedi." };
+  }
 }
 
 export async function processMediaAction(input: ProcessMediaInput): Promise<EditorialActionResult> {
@@ -201,42 +212,76 @@ export async function processMediaAction(input: ProcessMediaInput): Promise<Edit
       p_media_id: input.mediaId,
       p_role: input.role,
       p_period: input.period,
+      p_expected_draft_id: input.expectedDraftId,
+      p_expected_lock_version: input.expectedLockVersion,
     });
     if (attached.error) return messageForError(attached.error);
 
     revalidatePath(`/editor/${input.entityId}`);
-    return { ok: true, message: "Görsel işlendi ve taslağa eklendi." };
+    const attachedRecord = Array.isArray(attached.data) ? attached.data[0] : null;
+    return {
+      ok: true,
+      message: "Görsel işlendi ve taslağa eklendi.",
+      draftId: attachedRecord?.draft_id ? String(attachedRecord.draft_id) : input.expectedDraftId,
+      lockVersion: typeof attachedRecord?.lock_version === "number" ? attachedRecord.lock_version : undefined,
+    };
   } catch (error) {
     return { ok: false, message: error instanceof Error ? error.message : "Görsel işlenemedi." };
   }
 }
 
-export async function removeDraftMediaAction(entityId: string, mediaId: string): Promise<EditorialActionResult> {
+export async function removeDraftMediaAction(
+  entityId: string,
+  mediaId: string,
+  expectedDraftId: string,
+  expectedLockVersion: number,
+): Promise<EditorialActionResult> {
   try {
     const supabase = await requireAuthorizedEditor();
-    const { error } = await supabase.rpc("remove_media_from_wiki_draft", {
+    const { data, error } = await supabase.rpc("remove_media_from_wiki_draft", {
       p_entity_id: entityId,
       p_media_id: mediaId,
+      p_expected_draft_id: expectedDraftId,
+      p_expected_lock_version: expectedLockVersion,
     });
     if (error) return messageForError(error);
     revalidatePath(`/editor/${entityId}`);
-    return { ok: true, message: "Görsel taslaktan kaldırıldı." };
+    const record = Array.isArray(data) ? data[0] : null;
+    return {
+      ok: true,
+      message: "Görsel taslaktan kaldırıldı.",
+      draftId: record?.draft_id ? String(record.draft_id) : undefined,
+      lockVersion: typeof record?.lock_version === "number" ? record.lock_version : undefined,
+    };
   } catch (error) {
     return { ok: false, message: error instanceof Error ? error.message : "Görsel kaldırılamadı." };
   }
 }
 
-export async function reorderDraftMediaAction(entityId: string, mediaIds: string[]): Promise<EditorialActionResult> {
+export async function reorderDraftMediaAction(
+  entityId: string,
+  mediaIds: string[],
+  expectedDraftId: string,
+  expectedLockVersion: number,
+): Promise<EditorialActionResult> {
   try {
     if (new Set(mediaIds).size !== mediaIds.length) return { ok: false, message: "Galeri sırası tekrarlı kimlik içeriyor." };
     const supabase = await requireAuthorizedEditor();
-    const { error } = await supabase.rpc("reorder_wiki_draft_media", {
+    const { data, error } = await supabase.rpc("reorder_wiki_draft_media", {
       p_entity_id: entityId,
       p_media_ids: mediaIds,
+      p_expected_draft_id: expectedDraftId,
+      p_expected_lock_version: expectedLockVersion,
     });
     if (error) return messageForError(error);
     revalidatePath(`/editor/${entityId}`);
-    return { ok: true, message: "Galeri sırası kaydedildi." };
+    const record = Array.isArray(data) ? data[0] : null;
+    return {
+      ok: true,
+      message: "Galeri sırası kaydedildi.",
+      draftId: record?.draft_id ? String(record.draft_id) : undefined,
+      lockVersion: typeof record?.lock_version === "number" ? record.lock_version : undefined,
+    };
   } catch (error) {
     return { ok: false, message: error instanceof Error ? error.message : "Galeri sırası kaydedilemedi." };
   }

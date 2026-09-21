@@ -10,7 +10,7 @@ values
   (
     'wiki-published',
     'wiki-published',
-    true,
+    false,
     12582912,
     array['image/jpeg', 'image/png', 'image/webp', 'image/avif']
   )
@@ -25,6 +25,15 @@ create policy "Editors can read original wiki media"
   to authenticated
   using (
     bucket_id = 'wiki-originals'
+    and (select private.is_editor())
+  );
+
+create policy "Editors can read published wiki media"
+  on storage.objects
+  for select
+  to authenticated
+  using (
+    bucket_id = 'wiki-published'
     and (select private.is_editor())
   );
 
@@ -59,3 +68,5 @@ create policy "Owners can clean up orphaned wiki media"
 
 comment on policy "Editors can upload immutable original wiki media" on storage.objects is
   'No UPDATE policy exists: replacing an image requires a new object path and media record.';
+
+-- wiki-published stays private. The application route checks active publication access.

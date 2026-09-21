@@ -1,15 +1,51 @@
 # Uygulama ilerleme durumu
 
-Son güncelleme: 16 Eylül 2026, Europe/Istanbul
+Son güncelleme: 22 Eylül 2026, Europe/Berlin
+
+## Güncel kabul — 22 Eylül 2026, Astra
+
+- **D2 tamamlandı.** Kabul matrisi ve test sınırları `D2_KABUL_RAPORU.md` içindedir. PRB-0013 ve PRB-0014 kapandı; PRB-0017 kullanıcı kararıyla ertelendi ve D2 engeli değildir.
+- Lint/typecheck,74 Vitest +6 export testi ve üretim build526/526 başarılı; yerel SQL35/36 denetim geçti. Canlı V16 ID bağlantısı ve temiz V17 yayını doğrulandı. Özgün medya + editoryal metadata dışa aktarıldı.
+- Sıradaki özellik **E — Türkçe global arama ve filtreler**. Güncel yürütme sırası `LUNA_DEPLOY_TALIMATLARI.md`. Kanon, sabit ID'ler, kaynaklar ve mevcut Astra düzeltmeleri korunacak.
+- GitHub/Vercel teslim durumu bu belgenin yayın kaydında ayrıca belirtilecek; D2 kararı tek başına deploy kanıtı değildir.
+
+## Tarihsel kabul — 21 Eylül 2026, Astra
+
+Aşağıdaki önceki açık kabul maddeleri tarihsel kayıttır;22 Eylül kararı ve kabul matrisi önceliklidir.
+
+- D2 bu turda açık tutuldu. Güncel sıra `LUNA_DEPLOY_TALIMATLARI.md`; ayrıntılı tek sorun kaydı `ASTRA_SORUN_KAYITLARI.md`.
+- Son kullanıcı görüntüleri altı PT409 fonksiyonunu ve CPU kartında%2,04'e düşüşü doğruladı. PRB-0017 artık bellek/swap/commitment ve bağlantı kararlılığı kontrolü bekliyor; anlık CPU düşüşü D2 kapanışı değildir. Salt-okuma bellek tanı dosyası ve Luna sırası güncellendi.
+- PRB-0003/0011/0012/0016 çözüldü. Gerçek owner ile inline görsel save/reload/publish; galeri koruma, rollback ve anonim medya erişimi kabul edildi. PRB-0014 hayalet taslak alt sorunu da canlı doğrulandı.
+- PRB-0014 yeni SQLSTATE düzeltmesini kullanıcı SQL Editor'de çalıştırdı. Tek stale save isteği canlıda hızlı PT409 ile reddedildi ve yerel metin korundu. Bu turda aynı owner ile eşzamanlı save/publish başlatıldı; save başarılı olurken diğer sekme yerel metni koruyan çakışma durumuna geçti. Exact publish HTTP durumu tarayıcı UI'sinde görünmediği için bu doğrudan sunucu HTTP409 kanıtı olarak yazılmadı. Yeniden migration/bootstrap uygulanmayacak. Kullanıcının talimatıyla PRB-0017 CPU teşhisi ve tekrarlı yük/yarış testleri rafa kaldırıldı. Medya yükleme/kaldırma kabulü tamamlandı; kontrollü ağ gecikmesi, bağımsız publish HTTP kanıtı ve kalan plan maddeleri tamamlanmadan E'ye geçilmeyecek.
+- NPC-0006 teknik içerik UI'den temizlendi: boş V15 yayında, draft/bağlı medya yok. Anonim public sayfada teknik metin/görsel yok; dört test medya adresi404. Geçmiş revizyonlar ve özel dosyalar korunur.
+- 21 Eylül medya kabulü: Kullanıcının seçtiği kanon dışı `deneme` görseli gerçek owner editöründen yüklendi; yeniden açmada galeri içinde kaldığı doğrulandı. Görsel UI üzerinden kaldırıldı, boş V15 yayımlandı, yeniden açma ve 5 saniye beklemede draft/galeri oluşmadı. Anonim public Akmer sayfasında `img` öğesi ve `alt=deneme` yok; geniş metin eşleşmesi yalnızca kanonik “ritüel denemesi” ifadesidir. Kanon ve eski medya/sürüm geçmişi silinmedi. Tek görsel olduğu için sıra düğmeleri doğal olarak devre dışıydı; çoklu galeri sırası/rollback kanıtı önceki V4–V6 kabulünde korunuyor.
+- Son kodda lint/typecheck ve9 dosyada64 test başarılı. Enabled production build526/526 başarılı. PGlite altı migration/23 denetim, yeni ilk kurulum paketi/24 denetim başarılı; canlı pgTAP/iki bağımsız DB oturumu testi sayılmaz.
+- Yerel server secret eklendi, owner oturumu çalışıyor. Son build önizlemesi `http://127.0.0.1:3001` üzerinde başlatıldı. Secret dosyaları ignore edildi, anahtarlar rapora yazılmadı.
+- 21 Eylül güncel yerel tekrar: `npm run check` başarıyla geçti (lint, typecheck, 64 test, Webpack build 526/526). Owner editör oturumunda PRB-0013 için uçuşta düzenleme korunarak yeniden açma doğrulandı; PRB-0014 için stale PT409, eşzamanlı save/publish yarışı ve yerel metin korunması doğrulandı. Test akışının sonunda gerçek klavye ile içerik temizlendi, boş V13 yayımlandı; 5 saniye sonra draft oluşmadı ve public wiki'de PRB/test metni bulunmadı.
+- Önceki medya çatışması hazırlığında yerel test dosyası tarayıcı dosya seçicisine bağlanmamış ve istek oluşmamıştı; bu sınırlı deneme geçmişi korunuyor. Sonraki kullanıcı destekli `deneme` dosyasıyla yükleme, reload, kaldırma ve temiz yayın kabulü tamamlandı.
+- Mevcut staged/unstaged çalışma korundu. Kanon ve önceki migration dosyaları bu tur değiştirilmedi. Yeni migration ve yalnızca yeni kurulum için güncel bootstrap paketi eklendi. Medya yükleme/kaldırma kabulü artık kanıtlı; D2'nin kontrollü ağ gecikmesi, bağımsız publish HTTP kanıtı ve core reimport/export gibi kalan tam kabul maddeleri tamamlanmadığı için commit/push/Vercel deploy ve E başlangıcı yapılmadı.
+
+Aşağıdaki16 Eylül bölümleri tarihsel kabul kaydıdır; yukarıdaki güncel durum önceliklidir.
 
 ## Yetkilendirilen kapsam
 
-Kullanıcı Astra’nın teknik çözümlerinden sonra uygulamaya devam edilmesini istedi. A, B, C ve **D1 aşamalarının kabul ölçütleri tamamlandı**. Canlı yayın, Supabase kurulumu, yetkili içerik düzenleme ve nihai harita çizimi henüz yapılmadı.
+Kullanıcı uygulamadaki açık sorunları ve Vercel deploy hatasını doğrudan Astra ile incelemeyi istedi. A–D1 önceki kabulü korunur. Astra'nın PRB-0011–0014 önerileri yerel kod, migration ve medya erişim akışına uygulandı; gerçek Supabase kurulumu salt-okuma ile doğrulandı, fakat canlı Auth/Storage editör E2E'si tamamlanmadı. Kullanıcı owner rolü ile Vercel Secret Key'in ayarlandığını onayladı; bu bilgi tekrar sorgulanmadan kabul akışına alındı. GitHub push ve Vercel canlı deploy bu çalışma sonunda ayrıca doğrulanacaktır.
 
-## Aktif aşama
+## Son Astra kontrolü — 16 Eylül 2026
 
-- D1 — Tam bağlantılı wiki ve bölüm sayfaları
-- Durum: D1 kabul ölçütleri tamamlandı. `CIT-0006` dünya çapası sunum taslağı olarak kalır; owner incelemesi gelince aynı placement/entity ID üzerinde `reviewed` durumuna geçirilebilir. Sıradaki ana aşama D2 — Supabase tabanlı yetkili wiki yazımı, görseller ve revizyonlar.
+- Migration uygulama yetkisi verildi ve kullanıcı bootstrap SQL paketini canlı Supabase SQL Editor'de çalıştırdı. Bootstrap'ı tekrar çalıştırma.
+- Canlı salt-okuma kontrolü başarılı: 416 kimlik (403 etkin, 13 emekli), public reader RPC HTTP 200. Anon `editor_profiles` sorgusu 401 ile reddedildi; owner satırı publishable key ile doğrulanamaz. Kullanıcı owner rolünün ve Vercel Secret Key'in ayarlandığını onayladı (PRB-0009).
+- Yerel lint/typecheck, 43 test, beş migration + 17 PostgreSQL davranış kontrolü ve bootstrap ile 18 kontrol başarılı. `npm run check` editoryal mod açıkken tamamlandı; production build 526 sayfa üretti.
+- PRB-0011/0014 için ek SQL ve cache düzeltmeleri uygulandı; PRB-0013/0014 yerel kuyruk ve PGlite davranış kontrolleri geçti. Owner Auth/Storage tarayıcı kabulü PRB-0009 kapsamında doğrulandı; kontrollü ağ gecikmesi ve dosya-seçici medya yarışı ayrı açık sınırdır.
+- PRB-0015 çözüldü: editoryal wiki route'u artık build sırasında Supabase'e bağlanmıyor (`force-dynamic`); editoryal mod açık üretim build'i başarılı.
+- Vercel Node sürümü `24.x` olarak `package.json` ve lockfile kökünde sabitlendi; `npm run check` son tekrarında lint/typecheck/test/build tamamlandı (43 test, 526 sayfa).
+- Önizleme: http://127.0.0.1:3000/map. Production HTTP kontrolü map/wiki/Akmer/arama/editör giriş 200; geçersiz medya ID 400, bilinmeyen UUID medya 404. Editör tarayıcı akışı Auth girişine kadar kontrol edildi; parolalı owner oturumu olmadan etkileşimli E2E çalıştırılamadı.
+- Sonraki uygulayıcı `LUNA_DEPLOY_TALIMATLARI.md` sırasını izlesin: kullanıcı onayıyla owner/secret adımı tamam kabul edilerek gerçek Auth/Storage E2E, ardından commit/push ve Vercel canlı kontrolü. Ayrıntılı hata kayıtları yalnızca ASTRA_SORUN_KAYITLARI.md içindedir.
+
+## Önceki aktif aşama — 16 Eylül kaydı
+
+- D2 — Editör ve Supabase kabulü; paralelde I aşamasının deploy teşhisi.
+- Durum: üretim derleyicisini durduran istemci/sunucu import hatası düzeltildi (PRB-0010). PRB-0011–0014 için Astra önerileri yerelde uygulandı ve statik kontroller geçti; gerçek Auth/Storage/PostgreSQL E2E'si owner oturumu gerektirdiği için açık. `CIT-0006` dünya çapası sunum taslağı olarak kalır.
 
 ## Tamamlananlar
 
@@ -59,14 +95,23 @@ Kullanıcı Astra’nın teknik çözümlerinden sonra uygulamaya devam edilmesi
 - [x] D1 harita dönüşü: haritadan açılan wiki bağlantısı `entity` ve `era` durumunu taşır; dönüş bağlantısı seçimi korur, kamera görünümü oturum depolamasından güvenli sınırlar içinde geri yüklenir.
 - [x] D1 paket ayrımı: normal wiki, bölüm ve lore istemci chunk’larında R3F/Three veya editör kodu bulunmuyor; wiki detayları statik üretilmeye devam ediyor.
 
-## Sıradaki adım — D2 aşaması
+## Tarihsel sıradaki adım — gerçek Auth/Storage E2E ve yayın
 
-1. Supabase Auth/PostgreSQL/Storage bağlantısını kur; sahip ve davetli editör rollerini RLS ile sınırla.
-2. Türkçe Tiptap düzenleyicisinde taslak, önizleme, yayımlama, entity-ID bağlantıları ve revizyon çakışması kontrolünü tamamla.
-3. Özel orijinal/yayımlanmış türev ayrımıyla görsel yükleme, Türkçe alternatif metin, kredi ve sıralanabilir galeri akışını kur.
-4. Geri alma işlemini geçmişi silmeden yeni yayımlanmış revizyon olarak uygula; kanon yeniden içe aktarımının yazıları ve medyayı koruduğunu doğrula.
+1. Kullanıcının owner/Secret Key onayını koru; parolalı Auth oturumuyla editör tarayıcı kabul akışını çalıştır.
+2. Görselli düzenle → yayımla → tekrar düzenle → rollback akışını ve iki editör yarış senaryosunu gerçek Supabase üzerinde doğrula.
+3. Owner ve secret sonrasında `SUPABASE_EDITORIAL_MODE=enabled` ile bağlı build/deploy çalıştır; gerçek Storage ve Auth E2E kabulünü kaydet.
 
-## Son doğrulamalar — 16 Eylül 2026, Europe/Istanbul
+## Güncel doğrulamalar — 16 Eylül 2026, Astra incelemesi
+
+- Lint başarılı, 8 dosyada 43/43 test başarılı. Sunucu işleme testi gerçek Sharp ile çalışıyor; kayıt koordinatörü gecikmeli yanıt ve kalıcı çakışma testlerini içeriyor.
+- PRB-0010 yamasından sonra Webpack derlemesi ve Next TypeScript kontrolü başarılı. PRB-0015 ile `/wiki/[slug]` dinamik route'a alındı; editoryal mod açık tam build artık 526 sayfa ile başarılı.
+- 16 Eylül 19:35'te editoryal mod açık build'in `fetch failed` nedeniyle düşmesi PRB-0015 olarak ayrıştırıldı; `/wiki/[slug]` `force-dynamic` yapıldıktan sonra aynı build 526/526 sayfa ile geçti.
+- `SUPABASE_EDITORIAL_MODE=disabled npm run build` başarılı: Webpack derlemesi, TypeScript ve 526/526 statik sayfa üretimi tamamlandı; `/api/media/[mediaId]` dinamik route olarak paketlendi. Bu mod migration öncesi açıkça salt-okuma önizlemesidir.
+- Supabase canlı salt-okuma kontrolü: 416 kimlik (403 etkin, 13 emekli), reader RPC HTTP 200; anonim `editor_profiles` erişimi 401 (beklenen RLS). Kullanıcı bootstrap SQL'i SQL Editor'de çalıştırdığını bildirdi; owner satırı ve Storage nesneleri public anahtarla doğrulanmadı.
+- Git deposu mevcut: `https://github.com/arascoban/ejderSofrasi`, incelenen commit `2cb0d5e`. Yerel düzeltmeler push edilmedi. Anahtarlar çıktıya/dokümanlara yazılmadı.
+- Kod incelemesindeki SQL/Storage ve editör yarış bulguları için gerçek PostgreSQL motoru PGlite davranış testi geçti; Auth/Storage fixture ve iki bağımsız canlı oturumlu tarayıcı E2E hâlâ açık kabul kapsamıdır.
+
+## Önceki doğrulamalar — D1 kabul geçmişi
 
 - A kabulü: Python QA `passed_with_editorial_warnings`; 403 varlık, 435 ilişki, 90 olay, 56 seyahat, 89 açık lore çatışması, `1290/1290` kaynak olgu kapsamı, 0 hata. `qa_report.json` değişmedi.
 - Koruma: `rebuild_verification.json` içindeki 26 mevcut kanon/ID çıktısının tamamı aynı hash ile eşleşti. Yeni map sunum dosyaları bu kanon hash listesinden ayrıdır.
@@ -76,7 +121,7 @@ Kullanıcı Astra’nın teknik çözümlerinden sonra uygulamaya devam edilmesi
 - Tarayıcı: `/map` ve `/map?entity=CIT-0006` canlı olarak açıldı; erişilebilir ağaçta 6 kara parçası, 1 işaret, 7/38/36/4 kapsam sayıları ve doğru şehir/krallık paneli doğrulandı. İn-app tarayıcı daha sonraki ekran görüntüsü denemesinde WebGL bağlamını kaybetti; üretim derlemesi ve ilk canlı açılış başarılıdır.
 - Sunum metadata boyutu: çerçeve, özellik, varlık ve yayın JSON’ları toplam 5.321 bayt; gzip ile 1.445 bayt. 200 KB başlangıç hedefinin altında.
 - Tarayıcı: `/map` gerçek WebGL Canvas ile açıldı; envanter/1300/1600 sayıları 6/1/3; temiz oturumda konsol uyarısı veya hatası yok. 360 px görünümde yatay taşma 0.
-- Git: çalışma alanı henüz Git deposu değil.
+- Git: D1 kabulünün yapıldığı tarihte çalışma alanı henüz Git deposu değildi; güncel durum yukarıda.
 
 ## Değişen uygulama alanları
 
@@ -87,6 +132,10 @@ Kullanıcı Astra’nın teknik çözümlerinden sonra uygulamaya devam edilmesi
 - `src/app/wiki/[slug]/page.tsx`, `src/app/episodes/*`, `src/app/lore/*`, `src/components/map-return-link.tsx`: tam wiki, bölüm/lore arşivleri, kanıt görünümü ve haritaya durum koruyarak dönüş.
 - `src/lib/data/repository.ts`, `src/lib/domain/types.ts`, `src/lib/domain/labels.ts`, `src/lib/routing/entity.ts`: bölüm, olay, seyahat ve lore sorguları ile Türkçe ilişki yönleri ve rota yardımcıları.
 - `tests/data/validation.test.ts`, `tests/domain/contracts.test.ts`: yardımcı şema, envanter ve dönüşüm regresyon testleri.
+- `src/app/editor/[entityId]/actions.ts`, `src/app/editor/[entityId]/wiki-editor.tsx`, `src/app/editor/[entityId]/draft-media-manager.tsx`: token'lı taslak/medya mutasyonları, snapshot sıralı otomatik kayıt ve editör galeri akışı.
+- `src/app/api/media/[mediaId]/route.ts`, `src/lib/editorial/media-limits.ts`, `src/lib/editorial/save-snapshot.ts`: private yayımlanmış medya sunumu, istemci/server sınırı ve test edilebilir kayıt sırası kuralı.
+- `supabase/migrations/202609160001_editorial_core.sql`, `202609160002_editorial_security_and_workflow.sql`, `202609160003_editorial_storage.sql`, `202609160005_media_workflow.sql`: draft UUID, private bucket, imzalı editör önizlemesi ve eşzamanlılık sözleşmesi.
+- `tests/editorial/supabase-contract.test.ts`, `tests/editorial/save-snapshot.test.ts`, `supabase/tests/editorial_schema.test.sql`: yeni SQL/RLS ve snapshot regresyon kontrolleri.
 - `package.json`, `package-lock.json`: uyumlu React/R3F/Three sürümleri ve önceki Astra lint/build düzeltmeleri.
 - `WIKI_VE_HARITA_PLANI.md`, `IMPLEMENTATION_PLAN.md`, `LUNA_UYGULAMA_REHBERI.md`: güncel owner birleştirmesine göre 4 ada/2 kıta ve 85 konum kabul sayıları.
 
@@ -95,5 +144,7 @@ Kullanıcı Astra’nın teknik çözümlerinden sonra uygulamaya devam edilmesi
 - PRB-0001, PRB-0002, PRB-0003: `COZULDU`.
 - PRB-0004: `COZULDU`; standart üretim derlemesi Webpack ile çalışır. Turbopack’in ortamda yerel port açma kısıtı sürer, `dev` komutu değiştirilmedi.
 - ESLint 9 için npm destek sonu uyarısı var; eklentilerin ESLint 10 desteği sağlandığında bakım kapsamında yeniden değerlendir. Bu bir geçici uyumluluk kararıdır.
-- Yeni açık Astra danışma kaydı yok. R3F/Three/React kararlı sürüm uyumu doğrudan peer bağımlılıkları ve temiz tarayıcı kontrolüyle çözüldü.
+- PRB-0005–0008 ve PRB-0010: `COZULDU`.
+- PRB-0009: `COZULDU`; owner Auth/Storage E2E, inline görsel, anonim türev erişimi, galeri koruma ve rollback canlıda doğrulandı.
+- PRB-0011/0012/0016: `COZULDU`; PRB-0013 canlı uçuşta düzenleme kanıtı ve PRB-0014 stale PT409/eşzamanlı UI yarışı kanıtı alındı, ancak kontrollü ağ gecikmesi ve bağımsız publish HTTP sonucu açık sınır olarak kayda bağlı.
 - Ayrıntılar ve korunmuş deneme geçmişi: `ASTRA_SORUN_KAYITLARI.md`.

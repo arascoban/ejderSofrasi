@@ -34,15 +34,16 @@ export async function getEditorArticleState(entityId: string): Promise<EditorArt
   let articlePeriod: "1300 civarı" | "1600 civarı" | null = null;
   let changeNote = "";
   let lockVersion: number | null = null;
+  let draftId: string | null = null;
   let basedOnRevisionId: string | null = publishedRevisionId;
   let revisions: EditorRevisionSummary[] = [];
   let draftMedia: EditorDraftMedia[] = [];
 
   if (articleId) {
-    const [draftResult, revisionResult, mediaLinkResult] = await Promise.all([
+    const [draftResult, revisionResult, draftMediaLinkResult, publishedMediaLinkResult] = await Promise.all([
       supabase
         .from("wiki_drafts")
-        .select("document, period, change_note, lock_version, based_on_revision_id")
+        .select("draft_id, document, period, change_note, lock_version, based_on_revision_id")
         .eq("article_id", articleId)
         .maybeSingle(),
       supabase
@@ -55,10 +56,16 @@ export async function getEditorArticleState(entityId: string): Promise<EditorArt
         .select("media_id, role, position, period")
         .eq("article_id", articleId)
         .order("position", { ascending: true }),
+      supabase
+        .from("wiki_revision_media")
+        .select("media_id, role, position, period")
+        .eq("revision_id", publishedRevisionId ?? "00000000-0000-0000-0000-000000000000")
+        .order("position", { ascending: true }),
     ]);
     if (draftResult.error) throw new Error(`Taslak alınamadı: ${draftResult.error.message}`);
     if (revisionResult.error) throw new Error(`Sürüm geçmişi alınamadı: ${revisionResult.error.message}`);
-    if (mediaLinkResult.error) throw new Error(`Taslak görselleri alınamadı: ${mediaLinkResult.error.message}`);
+    if (draftMediaLinkResult.error) throw new Error(`Taslak görselleri alınamadı: ${draftMediaLinkResult.error.message}`);
+    if (publishedMediaLinkResult.error) throw new Error(`Yayımlanmış görseller alınamadı: ${publishedMediaLinkResult.error.message}`);
 
     revisions = (revisionResult.data ?? []).map((entry) => ({
       revisionId: String(entry.revision_id),
@@ -80,6 +87,7 @@ export async function getEditorArticleState(entityId: string): Promise<EditorArt
       changeNote = typeof source.change_note === "string" ? source.change_note : "";
     }
     if (draftResult.data) {
+      draftId = String(draftResult.data.draft_id);
       lockVersion = Number(draftResult.data.lock_version);
       basedOnRevisionId =
         typeof draftResult.data.based_on_revision_id === "string"
@@ -87,7 +95,8 @@ export async function getEditorArticleState(entityId: string): Promise<EditorArt
           : null;
     }
 
-    const mediaIds = (mediaLinkResult.data ?? []).map((link) => String(link.media_id));
+    const mediaLinks = draftResult.data ? draftMediaLinkResult.data ?? [] : publishedMediaLinkResult.data ?? [];
+    const mediaIds = mediaLinks.map((link) => String(link.media_id));
     if (mediaIds.length > 0) {
       const [assetsResult, filesResult] = await Promise.all([
         supabase
@@ -110,27 +119,31 @@ export async function getEditorArticleState(entityId: string): Promise<EditorArt
         const current = fileById.get(id);
         if (!current || file.kind === "small") fileById.set(id, file);
       }
-      draftMedia = (mediaLinkResult.data ?? []).flatMap((link) => {
+      draftMedia = (await Promise.all(mediaLinks.map(async (link) => {
         const mediaId = String(link.media_id);
         const asset = assetById.get(mediaId);
         const file = fileById.get(mediaId);
-        if (!asset || !file) return [];
-        const preview = supabase.storage.from(String(file.bucket_id)).getPublicUrl(String(file.object_path));
-        return [{
+        if (!asset || !file) return null;
+        const preview = await supabase.storage.from(String(file.bucket_id)).createSignedUrl(String(file.object_path), 600);
+        if (preview.error || !preview.data?.signedUrl) {
+          throw new Error(`Görsel önizlemesi alınamadı: ${preview.error?.message ?? "imzalı adres yok"}`);
+        }
+        return {
           mediaId,
           role: link.role as EditorDraftMedia["role"],
           position: Number(link.position),
           period: period(link.period),
           alternativeTextTr: String(asset.alternative_text_tr),
           captionTr: typeof asset.caption_tr === "string" ? asset.caption_tr : "",
-          previewUrl: preview.data.publicUrl,
-        }];
-      });
+          previewUrl: preview.data.signedUrl,
+        };
+      }))).filter((entry): entry is EditorDraftMedia => entry !== null);
     }
   }
 
   return {
     articleId,
+    draftId,
     entityId,
     baseCoreReleaseId: String(identity.data.core_release_id),
     document,

@@ -16,7 +16,10 @@ interface EntityPageProps {
   params: Promise<{ slug: string }>;
 }
 
-export const revalidate = 60;
+// Published editorial text is read from Supabase at request time. Keeping
+// this route dynamic prevents a build from depending on a reachable database
+// and avoids baking one revision into a static HTML artifact.
+export const dynamic = "force-dynamic";
 
 const ERA_STATE_LABELS = {
   attested: "Bu dönemde kaynakla destekleniyor",

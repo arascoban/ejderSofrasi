@@ -7,7 +7,7 @@ import type {
   PublishedEditorialContent,
 } from "./contracts";
 import { assertArticleDocument } from "./document";
-import { getPublicSupabaseConfig } from "@/lib/supabase/config";
+import { getPublicSupabaseConfig, isEditorialEnabled } from "@/lib/supabase/config";
 
 type JsonObject = Record<string, unknown>;
 
@@ -29,12 +29,11 @@ function optionalPeriod(value: unknown): "1300 civarı" | "1600 civarı" | null 
   throw new Error("Yayımlanmış makalede geçersiz dönem değeri var.");
 }
 
-function storagePublicUrl(baseUrl: string, bucketId: string, objectPath: string): string {
-  const path = objectPath.split("/").map(encodeURIComponent).join("/");
-  return `${baseUrl}/storage/v1/object/public/${encodeURIComponent(bucketId)}/${path}`;
+function publishedMediaUrl(mediaId: string, kind: string): string {
+  return `/api/media/${encodeURIComponent(mediaId)}?kind=${encodeURIComponent(kind)}`;
 }
 
-function parseMedia(baseUrl: string, value: unknown): MediaAttachment {
+function parseMedia(value: unknown): MediaAttachment {
   if (!isObject(value)) throw new Error("Yayımlanmış medya kaydı geçersiz.");
   const files = Array.isArray(value.files) ? value.files.filter(isObject) : [];
   const preferredKinds = ["medium", "large", "small", "thumbnail"];
@@ -59,17 +58,13 @@ function parseMedia(baseUrl: string, value: unknown): MediaAttachment {
     creatorCredit: requiredString(value, "creator_credit"),
     rightsNote: requiredString(value, "rights_note"),
     visualKind: requiredString(value, "visual_kind"),
-    publicUrl: storagePublicUrl(
-      baseUrl,
-      requiredString(file, "bucket_id"),
-      requiredString(file, "object_path"),
-    ),
+    publicUrl: publishedMediaUrl(requiredString(value, "media_id"), String(file.kind)),
     width: typeof file.width === "number" ? file.width : null,
     height: typeof file.height === "number" ? file.height : null,
   };
 }
 
-function parsePublishedContent(baseUrl: string, value: unknown): PublishedEditorialContent | null {
+function parsePublishedContent(value: unknown): PublishedEditorialContent | null {
   if (value === null) return null;
   if (!isObject(value) || !isObject(value.revision)) {
     throw new Error("Yayımlanmış makale projeksiyonu geçersiz.");
@@ -102,7 +97,7 @@ function parsePublishedContent(baseUrl: string, value: unknown): PublishedEditor
       publishedAt: requiredString(revision, "published_at"),
     },
     media: (Array.isArray(value.media) ? value.media : [])
-      .map((entry) => parseMedia(baseUrl, entry))
+      .map((entry) => parseMedia(entry))
       .sort((left, right) => left.position - right.position),
   };
 }
@@ -111,7 +106,7 @@ export async function getPublishedEditorialContent(
   entityId: string,
 ): Promise<PublishedEditorialContent | null> {
   const config = getPublicSupabaseConfig();
-  if (!config) return null;
+  if (!config || !isEditorialEnabled()) return null;
 
   const supabase = createClient(config.url, config.publishableKey, {
     auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false },
@@ -120,5 +115,5 @@ export async function getPublishedEditorialContent(
     p_entity_id: entityId,
   });
   if (error) throw new Error(`Yayımlanmış wiki makalesi alınamadı: ${error.message}`);
-  return parsePublishedContent(config.url, data);
+  return parsePublishedContent(data);
 }

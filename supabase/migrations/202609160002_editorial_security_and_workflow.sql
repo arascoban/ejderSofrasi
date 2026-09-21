@@ -1,3 +1,9 @@
+-- These signatures existed in the first local D2 draft. Remove them before
+-- adding the token-aware overloads so an older RPC cannot bypass concurrency checks.
+drop function if exists public.save_wiki_draft(text, jsonb, text, text, text, bigint);
+drop function if exists public.save_wiki_draft(text, jsonb, text, text, text, bigint, uuid);
+drop function if exists public.publish_wiki_draft(text, bigint, text);
+
 create schema if not exists private;
 revoke all on schema private from public;
 grant usage on schema private to anon, authenticated;
@@ -266,9 +272,11 @@ create or replace function public.save_wiki_draft(
   p_base_core_release_id text,
   p_period text default null,
   p_change_note text default '',
-  p_expected_lock_version bigint default null
+  p_expected_lock_version bigint default null,
+  p_expected_draft_id uuid default null,
+  p_expected_published_revision_id uuid default null
 )
-returns table (article_id uuid, lock_version bigint, based_on_revision_id uuid, updated_at timestamptz)
+returns table (article_id uuid, draft_id uuid, lock_version bigint, based_on_revision_id uuid, updated_at timestamptz)
 language plpgsql
 security definer
 set search_path = ''
@@ -276,6 +284,7 @@ as $$
 declare
   v_user_id uuid := auth.uid();
   v_article_id uuid;
+  v_draft_id uuid;
   v_published_revision_id uuid;
   v_lock_version bigint;
   v_based_on_revision_id uuid;
@@ -309,18 +318,27 @@ begin
   if v_article_id is null then
     insert into public.wiki_articles(entity_id, created_by)
     values (p_entity_id, v_user_id)
+    on conflict (entity_id) do nothing
     returning wiki_articles.article_id, wiki_articles.published_revision_id
       into v_article_id, v_published_revision_id;
+    if v_article_id is null then
+      select a.article_id, a.published_revision_id
+        into v_article_id, v_published_revision_id
+      from public.wiki_articles a
+      where a.entity_id = p_entity_id
+      for update;
+    end if;
   end if;
 
-  select d.lock_version, d.based_on_revision_id
-    into v_lock_version, v_based_on_revision_id
+  select d.draft_id, d.lock_version, d.based_on_revision_id
+    into v_draft_id, v_lock_version, v_based_on_revision_id
   from public.wiki_drafts d
   where d.article_id = v_article_id
   for update;
 
   if found then
-    if p_expected_lock_version is null or p_expected_lock_version <> v_lock_version then
+    if p_expected_draft_id is null or p_expected_draft_id is distinct from v_draft_id
+      or p_expected_lock_version is null or p_expected_lock_version is distinct from v_lock_version then
       raise exception using errcode = '40001', message = 'Taslak başka bir oturumda değiştirildi. Son sürümü yeniden açın.';
     end if;
 
@@ -336,8 +354,12 @@ begin
     returning d.lock_version, d.based_on_revision_id, d.updated_at
       into v_lock_version, v_based_on_revision_id, v_updated_at;
   else
-    if p_expected_lock_version is not null then
+    if p_expected_lock_version is not null or p_expected_draft_id is not null then
       raise exception using errcode = '40001', message = 'Taslak durumu değişti. Sayfayı yeniden açın.';
+    end if;
+
+    if v_published_revision_id is distinct from p_expected_published_revision_id then
+      raise exception using errcode = '40001', message = 'Yayımlanmış sürüm değişti. Sayfayı yeniden açın.';
     end if;
 
     insert into public.wiki_drafts(
@@ -357,18 +379,24 @@ begin
       v_published_revision_id,
       v_user_id
     )
-    returning wiki_drafts.lock_version, wiki_drafts.based_on_revision_id, wiki_drafts.updated_at
-      into v_lock_version, v_based_on_revision_id, v_updated_at;
+    returning wiki_drafts.draft_id, wiki_drafts.lock_version, wiki_drafts.based_on_revision_id, wiki_drafts.updated_at
+      into v_draft_id, v_lock_version, v_based_on_revision_id, v_updated_at;
+
+    insert into public.wiki_draft_media(article_id, media_id, role, position, period)
+    select v_article_id, media_id, role, position, period
+    from public.wiki_revision_media
+    where revision_id = v_published_revision_id;
   end if;
 
-  return query select v_article_id, v_lock_version, v_based_on_revision_id, v_updated_at;
+  return query select v_article_id, v_draft_id, v_lock_version, v_based_on_revision_id, v_updated_at;
 end;
 $$;
 
 create or replace function public.publish_wiki_draft(
   p_entity_id text,
   p_expected_lock_version bigint,
-  p_change_note text default ''
+  p_change_note text default '',
+  p_expected_draft_id uuid default null
 )
 returns uuid
 language plpgsql
@@ -404,7 +432,8 @@ begin
     raise exception using errcode = 'P0002', message = 'Yayımlanacak taslak bulunamadı.';
   end if;
 
-  if v_draft.lock_version <> p_expected_lock_version then
+  if p_expected_draft_id is null or v_draft.draft_id is distinct from p_expected_draft_id
+    or p_expected_lock_version is null or v_draft.lock_version is distinct from p_expected_lock_version then
     raise exception using errcode = '40001', message = 'Taslak başka bir oturumda değiştirildi. Son sürümü yeniden açın.';
   end if;
 
@@ -611,16 +640,16 @@ begin
 end;
 $$;
 
-revoke all on function public.save_wiki_draft(text, jsonb, text, text, text, bigint) from public;
-revoke all on function public.publish_wiki_draft(text, bigint, text) from public;
+revoke all on function public.save_wiki_draft(text, jsonb, text, text, text, bigint, uuid, uuid) from public;
+revoke all on function public.publish_wiki_draft(text, bigint, text, uuid) from public;
 revoke all on function public.rollback_wiki_article(text, uuid, uuid, text) from public;
-grant execute on function public.save_wiki_draft(text, jsonb, text, text, text, bigint) to authenticated;
-grant execute on function public.publish_wiki_draft(text, bigint, text) to authenticated;
+grant execute on function public.save_wiki_draft(text, jsonb, text, text, text, bigint, uuid, uuid) to authenticated;
+grant execute on function public.publish_wiki_draft(text, bigint, text, uuid) to authenticated;
 grant execute on function public.rollback_wiki_article(text, uuid, uuid, text) to authenticated;
 
-comment on function public.save_wiki_draft(text, jsonb, text, text, text, bigint) is
+comment on function public.save_wiki_draft(text, jsonb, text, text, text, bigint, uuid, uuid) is
   'Creates or updates one article draft with optimistic lock checking.';
-comment on function public.publish_wiki_draft(text, bigint, text) is
+comment on function public.publish_wiki_draft(text, bigint, text, uuid) is
   'Publishes a draft atomically after checking draft and published-revision concurrency.';
 comment on function public.rollback_wiki_article(text, uuid, uuid, text) is
   'Copies an older immutable revision into a new published revision; history is never rewritten.';

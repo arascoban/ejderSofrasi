@@ -3,6 +3,11 @@ export interface PublicSupabaseConfig {
   publishableKey: string;
 }
 
+/** Set to "disabled" for a deliberate read-only deployment before D2 migrations run. */
+export function isEditorialEnabled(): boolean {
+  return process.env.SUPABASE_EDITORIAL_MODE?.trim().toLowerCase() !== "disabled";
+}
+
 export function getPublicSupabaseConfig(): PublicSupabaseConfig | null {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
   const publishableKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY?.trim();

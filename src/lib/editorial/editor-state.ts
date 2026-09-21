@@ -22,6 +22,7 @@ export interface EditorDraftMedia {
 
 export interface EditorArticleState {
   articleId: string | null;
+  draftId: string | null;
   entityId: string;
   baseCoreReleaseId: string;
   document: JSONContent;
@@ -41,6 +42,8 @@ export interface SaveDraftInput {
   period: Period | null;
   changeNote: string;
   expectedLockVersion: number | null;
+  expectedDraftId: string | null;
+  expectedPublishedRevisionId: string | null;
 }
 
 export interface EditorialActionResult {
@@ -50,6 +53,7 @@ export interface EditorialActionResult {
   updatedAt?: string;
   revisionId?: string;
   conflict?: boolean;
+  draftId?: string;
 }
 
 export interface ProcessMediaInput {
@@ -65,4 +69,6 @@ export interface ProcessMediaInput {
   visualKind: string;
   role: EditorDraftMedia["role"];
   period: Period | null;
+  expectedDraftId: string;
+  expectedLockVersion: number;
 }

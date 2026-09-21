@@ -6,8 +6,6 @@ import { entityTypeLabel } from "@/lib/domain/labels";
 import { getEditorSession } from "@/lib/editorial/auth";
 import { getEditorArticleState } from "@/lib/editorial/editor-repository";
 import { entityHref } from "@/lib/routing/entity";
-import { rollbackArticleAction } from "./actions";
-import { DraftMediaManager } from "./draft-media-manager";
 import { WikiEditor } from "./wiki-editor";
 
 interface EditorEntityPageProps {
@@ -46,35 +44,6 @@ export default async function EditorEntityPage({ params }: EditorEntityPageProps
 
       <WikiEditor state={state} entityOptions={entityOptions} userId={session.user.id} />
 
-      {state.draftMedia.length > 0 ? (
-        <DraftMediaManager entityId={entity.id} initialMedia={state.draftMedia} />
-      ) : null}
-
-      <section className="revision-history" aria-labelledby="surum-gecmisi">
-        <div className="section-heading"><p className="eyebrow">Değişmez kayıtlar</p><h2 id="surum-gecmisi">Sürüm geçmişi</h2></div>
-        {state.revisions.length ? (
-          <ol>
-            {state.revisions.map((revision) => (
-              <li key={revision.revisionId}>
-                <div>
-                  <strong>Sürüm {revision.revisionNumber.toLocaleString("tr-TR")}</strong>
-                  <span>{new Intl.DateTimeFormat("tr-TR", { dateStyle: "medium", timeStyle: "short" }).format(new Date(revision.publishedAt))}</span>
-                  <p>{revision.changeNote || "Değişiklik notu yok."}</p>
-                </div>
-                {state.publishedRevisionId !== revision.revisionId && state.publishedRevisionId ? (
-                  <form action={rollbackArticleAction}>
-                    <input type="hidden" name="entityId" value={entity.id} />
-                    <input type="hidden" name="sourceRevisionId" value={revision.revisionId} />
-                    <input type="hidden" name="expectedRevisionId" value={state.publishedRevisionId} />
-                    <input type="hidden" name="changeNote" value={`Sürüm ${revision.revisionNumber} geri getirildi.`} />
-                    <button className="button" type="submit">Bu sürümü geri getir</button>
-                  </form>
-                ) : <span className="current-revision">Yayında</span>}
-              </li>
-            ))}
-          </ol>
-        ) : <p>Henüz yayımlanmış sürüm yok.</p>}
-      </section>
     </main>
   );
 }

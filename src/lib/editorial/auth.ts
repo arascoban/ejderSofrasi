@@ -1,7 +1,7 @@
 import "server-only";
 
 import type { User } from "@supabase/supabase-js";
-import { getPublicSupabaseConfig } from "@/lib/supabase/config";
+import { getPublicSupabaseConfig, isEditorialEnabled } from "@/lib/supabase/config";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 export type EditorRole = "owner" | "editor";
@@ -24,7 +24,7 @@ export interface MissingEditorSession {
 export type EditorSessionResult = EditorSession | MissingEditorSession;
 
 export async function getEditorSession(): Promise<EditorSessionResult> {
-  if (!getPublicSupabaseConfig()) {
+  if (!getPublicSupabaseConfig() || !isEditorialEnabled()) {
     return { configured: false, user: null, profile: null };
   }
 

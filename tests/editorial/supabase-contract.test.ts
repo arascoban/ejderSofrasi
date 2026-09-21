@@ -64,8 +64,8 @@ describe("Supabase editoryal sözleşmesi", () => {
 
   it("istemci rollerine doğrudan tablo yazma yetkisi vermez", () => {
     expect(security).not.toMatch(/grant\s+(?:insert|update|delete|all)[^;]+to\s+(?:anon|authenticated)/i);
-    expect(security).toContain("grant execute on function public.save_wiki_draft");
-    expect(security).toContain("grant execute on function public.publish_wiki_draft");
+    expect(security).toContain("grant execute on function public.save_wiki_draft(text, jsonb, text, text, text, bigint, uuid, uuid)");
+    expect(security).toContain("grant execute on function public.publish_wiki_draft(text, bigint, text, uuid)");
     expect(security).toContain("grant execute on function public.rollback_wiki_article");
   });
 
@@ -80,9 +80,14 @@ describe("Supabase editoryal sözleşmesi", () => {
 
   it("eşzamanlı kayıt ve geri alma işlemlerini geçmişi silmeden tanımlar", () => {
     expect(core).toContain("lock_version bigint not null default 1");
+    expect(core).toContain("draft_id uuid not null default gen_random_uuid() unique");
     expect(security).toContain("p_expected_lock_version");
+    expect(security).toContain("p_expected_draft_id uuid");
     expect(security).toContain("p_expected_published_revision_id");
     expect(security).toContain("source_revision_id");
+    expect(security).toContain("on conflict (entity_id) do nothing");
+    expect(security).toContain("drop function if exists public.save_wiki_draft(text, jsonb, text, text, text, bigint)");
+    expect(security).toContain("drop function if exists public.publish_wiki_draft(text, bigint, text)");
     expect(security).not.toMatch(/delete\s+from\s+public\.wiki_revisions/i);
   });
 
@@ -96,6 +101,8 @@ describe("Supabase editoryal sözleşmesi", () => {
   it("özgün ve yayımlanmış görselleri ayrı bucketlarda, değişmez yollarla tutar", () => {
     expect(storage).toContain("'wiki-originals'");
     expect(storage).toContain("'wiki-published'");
+    expect(storage).toContain("'wiki-published',\n    'wiki-published',\n    false,");
+    expect(storage).toContain('create policy "Editors can read published wiki media"');
     expect(storage).not.toMatch(/for\s+update/i);
     expect(core).toContain("kind = 'original' and bucket_id = 'wiki-originals'");
     expect(core).toContain("kind <> 'original' and bucket_id = 'wiki-published'");
@@ -106,6 +113,11 @@ describe("Supabase editoryal sözleşmesi", () => {
     expect(mediaWorkflow).toContain("public.attach_media_to_wiki_draft");
     expect(mediaWorkflow).toContain("public.remove_media_from_wiki_draft");
     expect(mediaWorkflow).toContain("public.reorder_wiki_draft_media");
+    expect(mediaWorkflow).toContain("p_expected_draft_id uuid");
+    expect(mediaWorkflow).toContain("drop function if exists public.attach_media_to_wiki_draft(text, uuid, public.media_role, text)");
+    expect(mediaWorkflow).toContain("returns table (draft_id uuid, lock_version bigint)");
+    expect(mediaWorkflow).toContain("for update of article");
+    expect(mediaWorkflow).toContain("returning draft.draft_id, draft.lock_version into draft_id, lock_version");
     expect(mediaWorkflow).toContain("jsonb_array_length(p_files) < 3");
     expect(mediaWorkflow).toContain("media.state in ('ready'");
   });

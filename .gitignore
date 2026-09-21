@@ -5,3 +5,6 @@ coverage/
 !.env.example
 *.log
 .DS_Store
+[Ss][Ee][Cc][Rr][Ee][Tt].md
+*.tsbuildinfo
+.local-backups/

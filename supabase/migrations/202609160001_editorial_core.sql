@@ -70,6 +70,7 @@ alter table public.wiki_articles
 
 create table public.wiki_drafts (
   article_id uuid primary key references public.wiki_articles(article_id) on delete cascade,
+  draft_id uuid not null default gen_random_uuid() unique,
   schema_version text not null default 'tiptap-v1',
   base_core_release_id text not null,
   period text check (period is null or period in ('1300 civarı', '1600 civarı')),

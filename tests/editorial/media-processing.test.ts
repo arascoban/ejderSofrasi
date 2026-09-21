@@ -1,6 +1,9 @@
 import sharp from "sharp";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { processWikiImage } from "@/lib/editorial/media-processing";
+
+// This suite executes the server processor in Node; Next enforces the import boundary in build.
+vi.mock("server-only", () => ({}));
 
 describe("wiki görsel işleme", () => {
   it("PNG dosyasını hashleyip dört WebP türevine dönüştürür", async () => {
