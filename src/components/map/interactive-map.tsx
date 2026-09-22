@@ -61,7 +61,7 @@ function MapFallback({ message }: { message: string }) {
   );
 }
 
-function LandformMesh({ landform }: { landform: MapLandform }) {
+function LandformMesh({ landform, onSelect }: { landform: MapLandform; onSelect: (entityId: string) => void }) {
   const geometry = useMemo(() => {
     const [first, ...rest] = landform.worldPoints;
     const shape = new Shape();
@@ -83,10 +83,16 @@ function LandformMesh({ landform }: { landform: MapLandform }) {
         <lineBasicMaterial color="#52745c" />
       </lineSegments>
       <Html position={[landform.worldCenter[0], 0.7, landform.worldCenter[1]]} center zIndexRange={[20, 0]}>
-        <div className="landform-label" aria-hidden="true">
+        <button
+          type="button"
+          className="landform-label"
+          data-map-marker-id={landform.entityId}
+          aria-label={`${landform.name}, ${landform.preview.typeLabel}`}
+          onClick={() => onSelect(landform.entityId)}
+        >
           <strong>{landform.name}</strong>
           <span>{landform.periodStatus === "unknown" ? "Dönemi bilinmiyor" : periodLabels(landform.periods)}</span>
-        </div>
+        </button>
       </Html>
     </group>
   );
@@ -208,7 +214,7 @@ function AtlasScene({
         <meshBasicMaterial color="#0b2524" />
       </mesh>
       <gridHelper args={[220, 22, "#1f4740", "#13322e"]} position={[0, 0, 0]} />
-      {landforms.map((landform) => <LandformMesh key={landform.featureId} landform={landform} />)}
+      {landforms.map((landform) => <LandformMesh key={landform.featureId} landform={landform} onSelect={onSelect} />)}
       {markers.map((marker) => (
         <MarkerButton key={marker.placementId} marker={marker} selected={marker.entityId === selectedEntityId} onSelect={onSelect} />
       ))}
@@ -234,17 +240,30 @@ function AtlasScene({
 }
 
 function EntityPreviewPanel({
-  marker,
+  location,
   visibleInEra,
+  period,
   wikiHref,
   onClose,
 }: {
-  marker: MapLocationMarker;
+  location: MapLocationMarker | MapLandform;
   visibleInEra: boolean;
+  period: "1300 civarı" | "1600 civarı" | null;
   wikiHref: Route;
   onClose: () => void;
 }) {
-  const preview = marker.preview;
+  const preview = location.preview;
+  const eraState = period ? preview.eraStates[period] : undefined;
+  const eraStateMessage = eraState?.state === "reported_lost"
+    ? "Bu varlığın seçili dönemde kayıp olduğu bildiriliyor."
+    : eraState?.state === "conflicted"
+      ? "Bu dönem için çelişkili kayıt var; harita görünümü kesin kabul edilmemeli."
+      : eraState?.state === "unknown"
+        ? "Bu dönem için kaynakta varlık kanıtı bulunmuyor."
+        : null;
+  const placementNote = "placementNote" in location
+    ? location.placementNote
+    : "Kara şekli sunum verisidir; kanonik koordinat iddiası taşımaz.";
   return (
     <aside className="entity-preview-panel" aria-labelledby="map-preview-title">
       <div className="entity-preview-panel__header">
@@ -255,6 +274,7 @@ function EntityPreviewPanel({
         <button type="button" className="preview-close" onClick={onClose} aria-label={`${preview.name} bilgi panelini kapat`}>×</button>
       </div>
       {!visibleInEra && <p className="preview-era-note">Bu konum seçili dönem görünümünde haritada gösterilmiyor.</p>}
+      {eraStateMessage && <p className="preview-era-note">{eraStateMessage}</p>}
       <dl className="preview-facts">
         <div><dt>Dönem</dt><dd>{periodLabels(preview.periods)}</dd></div>
         {preview.aliases.length > 0 && <div><dt>Diğer adları</dt><dd>{preview.aliases.join(" · ")}</dd></div>}
@@ -285,7 +305,7 @@ function EntityPreviewPanel({
         <h3>Bölümler</h3>
         <p>{preview.episodes.length ? preview.episodes.join(" · ") : "Bölüm bağlantısı yok"}</p>
       </section>
-      <p className="preview-placement-note"><strong>Harita konumu:</strong> {marker.placementNote}</p>
+      <p className="preview-placement-note"><strong>Harita konumu:</strong> {placementNote}</p>
       <Link className="button button--primary preview-wiki-link" href={wikiHref}>Tam wiki sayfasını aç</Link>
     </aside>
   );
@@ -303,11 +323,13 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
       : "inventory";
   const selectedEntityId = searchParams.get("entity");
   const selectedMarker = release.markers.find((marker) => marker.entityId === selectedEntityId) ?? null;
+  const selectedLandform = release.landforms.find((landform) => landform.entityId === selectedEntityId) ?? null;
+  const selectedLocation = selectedMarker ?? selectedLandform;
   const previousSelectedId = useRef<string | null>(selectedEntityId);
   const lastTriggerId = useRef<string | null>(null);
   const [webgl, setWebgl] = useState<"checking" | "available" | "unavailable">("checking");
   const [camera, setCamera] = useState<CameraAdapter | null>(null);
-  const cameraStorageKey = `ejder-map-camera:${release.mapId}`;
+  const cameraStorageKey = `ejder-map-camera:${release.mapId}:${view}`;
   const onCameraReady = useCallback((adapter: CameraAdapter) => {
     setCamera(() => adapter);
     try {
@@ -376,11 +398,16 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
     const period = view === "silver-god-1673" ? "1300 civarı" : "1600 civarı";
     return release.markers.filter((marker) => marker.periods.includes(period));
   }, [release.markers, view]);
-  const selectedVisible = selectedMarker ? visibleMarkers.some((marker) => marker.entityId === selectedMarker.entityId) : false;
+  const selectedVisible = selectedLocation
+    ? (selectedMarker
+      ? visibleMarkers.some((marker) => marker.entityId === selectedMarker.entityId)
+      : visibleLandforms.some((landform) => landform.entityId === selectedLocation.entityId))
+    : false;
   const unmappedLocations = release.coverage.filter((record) => record.status !== "mapped");
-  const selectedWikiHref = selectedMarker
-    ? (`/wiki/${selectedMarker.preview.slug}?from=map&entity=${selectedMarker.entityId}${view === "inventory" ? "" : `&era=${view}`}` as Route)
+  const selectedWikiHref = selectedLocation
+    ? (`/wiki/${selectedLocation.preview.slug}?from=map&entity=${selectedLocation.entityId}${view === "inventory" ? "" : `&era=${view}`}` as Route)
     : null;
+  const selectedPeriod = view === "silver-god-1673" ? "1300 civarı" : view === "present" ? "1600 civarı" : null;
 
   function handleKeyboard(event: KeyboardEvent<HTMLDivElement>) {
     if (!camera) return;
@@ -405,7 +432,7 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
       <section className="atlas-stage" aria-labelledby="atlas-stage-title">
         <div className="atlas-toolbar">
           <div>
-            <p className="eyebrow">C aşaması · konumlar ve önizleme</p>
+            <p className="eyebrow">F aşaması · dönem görünümü ve önizleme</p>
             <h1 id="atlas-stage-title">{release.label}</h1>
           </div>
           <div className="era-switch" aria-label="Harita görünümü">
@@ -414,6 +441,13 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
             ))}
           </div>
         </div>
+
+        {view !== "inventory" && release.eraArtStatus[selectedPeriod ?? "1600 civarı"] === "unavailable" && (
+          <div className="map-art-unavailable" role="status">
+            <strong>{periodLabel(selectedPeriod ?? "1600 civarı")} için onaylı harita görseli henüz hazır değil.</strong>
+            <span>Gösterilen kara şekilleri sunum taslağıdır; dönem kanıtı ve wiki bağlantıları kullanılabilir.</span>
+          </div>
+        )}
 
         <div
           className="atlas-canvas"
@@ -426,6 +460,7 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
           {webgl === "available" && (
             <MapErrorBoundary>
               <Canvas
+                key={view}
                 orthographic
                 frameloop="demand"
                 dpr={[1, 1.6]}
@@ -451,7 +486,7 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
           <p className="atlas-live-status" aria-live="polite">
             {visibleLandforms.length} kara parçası ve {visibleMarkers.length} konum işareti gösteriliyor.
           </p>
-          {selectedMarker && selectedWikiHref && <EntityPreviewPanel marker={selectedMarker} visibleInEra={selectedVisible} wikiHref={selectedWikiHref} onClose={() => updateRoute({ entity: null })} />}
+          {selectedLocation && selectedWikiHref && <EntityPreviewPanel location={selectedLocation} period={selectedPeriod} visibleInEra={selectedVisible} wikiHref={selectedWikiHref} onClose={() => updateRoute({ entity: null })} />}
         </div>
       </section>
 

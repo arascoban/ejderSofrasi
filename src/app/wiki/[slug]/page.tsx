@@ -7,13 +7,14 @@ import { MapReturnLink } from "@/components/map-return-link";
 import { WikiArticle } from "@/components/wiki-article";
 import { getAllEntitySummaries, getEntityById, getEntityBySlug, getEntityEraState } from "@/lib/data/repository";
 import { getEntityPage } from "@/lib/domain/entity-page";
-import { confidenceLabel, entityTypeLabel, incomingRelationLabel, periodLabel, periodLabels, relationLabel, temporalBasisLabel } from "@/lib/domain/labels";
+import { confidenceLabel, entityTypeLabel, incomingRelationLabel, periodFromUrl, periodLabel, periodLabels, relationLabel, temporalBasisLabel } from "@/lib/domain/labels";
 import type { Fact, Period, Relationship } from "@/lib/domain/types";
 import { getPublishedEditorialContent } from "@/lib/editorial/repository";
 import { entityHref, episodeHref } from "@/lib/routing/entity";
 
 interface EntityPageProps {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }
 
 // Published editorial text is read from Supabase at request time. Keeping
@@ -61,8 +62,11 @@ async function RelationItem({ relationship, direction }: { relationship: Relatio
   );
 }
 
-export default async function EntityWikiPage({ params }: EntityPageProps) {
+export default async function EntityWikiPage({ params, searchParams }: EntityPageProps) {
   const { slug } = await params;
+  const query = await searchParams;
+  const eraQuery = Array.isArray(query.era) ? query.era[0] : query.era;
+  const selectedPeriod = periodFromUrl(eraQuery);
   const resolved = await getEntityBySlug(slug);
   if (!resolved) notFound();
   const page = await getEntityPage(resolved.id);
@@ -75,7 +79,11 @@ export default async function EntityWikiPage({ params }: EntityPageProps) {
       result: await getEntityEraState(page.entity.id, period),
     })),
   );
-  const datedFacts = page.facts.filter((fact) => fact.assertions.some((assertion) => assertion.period));
+  const selectedEraState = selectedPeriod ? eraStates.find(({ period }) => period === selectedPeriod)?.result ?? null : null;
+  const datedFacts = page.facts.filter((fact) => fact.assertions.some((assertion) => assertion.period && (!selectedPeriod || assertion.period === selectedPeriod)));
+  const otherPeriodFacts = selectedPeriod
+    ? page.facts.filter((fact) => !fact.assertions.some((assertion) => assertion.period === selectedPeriod) && fact.assertions.some((assertion) => assertion.period))
+    : [];
   const undatedFacts = page.facts.filter((fact) => fact.assertions.every((assertion) => !assertion.period));
 
   return (
@@ -99,7 +107,17 @@ export default async function EntityWikiPage({ params }: EntityPageProps) {
         </dl>
       </header>
 
-      {publishedEditorial ? <WikiArticle content={publishedEditorial} /> : null}
+      {publishedEditorial ? <WikiArticle content={publishedEditorial} selectedPeriod={selectedPeriod} /> : null}
+
+      {selectedPeriod && selectedEraState && (
+        <aside className="selected-era-context" data-state={selectedEraState.state} aria-label="Seçili dönem bağlamı">
+          <p className="eyebrow">Seçili dönem</p>
+          <strong>{periodLabel(selectedPeriod)}</strong>
+          <span>{ERA_STATE_LABELS[selectedEraState.state]}</span>
+          {selectedEraState.state === "unknown" && <p>Bu kaydın bu dönem için kanıtı bulunmuyor; dönem belirtilmemiş bilgiler aşağıda ayrı tutulur.</p>}
+          {selectedEraState.state === "reported_lost" && <p>Bu durum, varlığın bu dönemde mevcut olmadığını bildiren kaynak kaydıdır; yok oluş tarihi ayrıca kanıtlanmış değildir.</p>}
+        </aside>
+      )}
 
       <section className="era-evidence" aria-labelledby="donem-baslik">
         <div>
@@ -121,6 +139,15 @@ export default async function EntityWikiPage({ params }: EntityPageProps) {
           <div className="section-heading"><p className="eyebrow">Kaynak destekli</p><h2 id="tarihli-olgular">Dönemi belirtilen bilgiler</h2></div>
           <ul className="fact-list">
             {datedFacts.map((fact) => <FactItem key={fact.id} fact={fact} />)}
+          </ul>
+        </section>
+      )}
+
+      {otherPeriodFacts.length > 0 && (
+        <section className="lore-section lore-section--other-period" aria-labelledby="diger-donem-olgulari">
+          <div className="section-heading"><p className="eyebrow">Seçili döneme ait değil</p><h2 id="diger-donem-olgulari">Diğer dönem kayıtları</h2><p>Bu bilgiler başka bir tarihsel döneme aittir ve seçili döneme aktarılmaz.</p></div>
+          <ul className="fact-list">
+            {otherPeriodFacts.map((fact) => <FactItem key={fact.id} fact={fact} />)}
           </ul>
         </section>
       )}

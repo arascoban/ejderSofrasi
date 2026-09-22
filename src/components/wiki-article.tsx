@@ -1,17 +1,21 @@
 /* eslint-disable @next/next/no-img-element -- Kullanıcı yüklemelerinin hostu Supabase proje ayarından gelir. */
 import type { PublishedEditorialContent } from "@/lib/editorial/contracts";
 import { renderPublishedArticle } from "@/lib/editorial/render";
+import { periodLabel } from "@/lib/domain/labels";
+import type { Period } from "@/lib/domain/types";
 
-export function WikiArticle({ content }: { content: PublishedEditorialContent }) {
-  const inlineMedia = content.media.map((media) => ({
+export function WikiArticle({ content, selectedPeriod = null }: { content: PublishedEditorialContent; selectedPeriod?: Period | null }) {
+  const articlePeriodMatches = !selectedPeriod || content.revision.period === null || content.revision.period === selectedPeriod;
+  const visibleMedia = content.media.filter((media) => !selectedPeriod || content.revision.period === null || media.period === null || media.period === selectedPeriod);
+  const inlineMedia = visibleMedia.map((media) => ({
     mediaId: media.mediaId,
     publicUrl: media.publicUrl,
     alternativeTextTr: media.alternativeTextTr,
     captionTr: media.captionTr,
   }));
-  const html = renderPublishedArticle(content.revision.document, inlineMedia);
-  const cover = content.media.find((media) => media.role === "cover" || media.role === "portrait");
-  const gallery = content.media.filter((media) => media.role === "gallery");
+  const html = articlePeriodMatches ? renderPublishedArticle(content.revision.document, inlineMedia) : "";
+  const cover = visibleMedia.find((media) => media.role === "cover" || media.role === "portrait");
+  const gallery = visibleMedia.filter((media) => media.role === "gallery");
 
   return (
     <section className="wiki-article" aria-labelledby="wiki-makalesi-baslik">
@@ -20,7 +24,14 @@ export function WikiArticle({ content }: { content: PublishedEditorialContent })
         <h2 id="wiki-makalesi-baslik">Makale</h2>
       </div>
 
-      {cover ? (
+      {selectedPeriod && content.revision.period === null && (
+        <p className="wiki-period-note">Bu makale belirli bir döneme atanmadı; seçili döneme aitmiş gibi yorumlanmamalıdır.</p>
+      )}
+      {selectedPeriod && !articlePeriodMatches && (
+        <p className="wiki-period-note">Bu makale {periodLabel(content.revision.period)} kaydıdır; seçili döneme otomatik olarak aktarılmadı.</p>
+      )}
+
+      {cover && articlePeriodMatches ? (
         <figure className="wiki-article-cover">
           <img
             src={cover.publicUrl}
@@ -30,14 +41,14 @@ export function WikiArticle({ content }: { content: PublishedEditorialContent })
           />
           <figcaption>
             {cover.captionTr && <span>{cover.captionTr}</span>}
-            <small>{cover.creatorCredit} · {cover.sourceLabel}</small>
+            <small>{cover.period ? periodLabel(cover.period) : "Dönemi belirtilmemiş"} · {cover.creatorCredit} · {cover.sourceLabel}</small>
           </figcaption>
         </figure>
       ) : null}
 
-      <article className="wiki-prose" dangerouslySetInnerHTML={{ __html: html }} />
+      {articlePeriodMatches ? <article className="wiki-prose" dangerouslySetInnerHTML={{ __html: html }} /> : null}
 
-      {gallery.length > 0 ? (
+      {articlePeriodMatches && gallery.length > 0 ? (
         <div className="wiki-gallery" aria-label="Görsel galerisi">
           {gallery.map((media) => (
             <figure key={media.mediaId}>
@@ -50,7 +61,7 @@ export function WikiArticle({ content }: { content: PublishedEditorialContent })
               />
               <figcaption>
                 {media.captionTr && <span>{media.captionTr}</span>}
-                <small>{media.creatorCredit} · {media.sourceLabel}</small>
+                <small>{media.period ? periodLabel(media.period) : "Dönemi belirtilmemiş"} · {media.creatorCredit} · {media.sourceLabel}</small>
               </figcaption>
             </figure>
           ))}

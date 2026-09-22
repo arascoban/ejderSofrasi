@@ -1,4 +1,4 @@
-import type { Entity, EntityType, Period } from "@/lib/domain/types";
+import type { Entity, EntityEraState, EntityType, Period } from "@/lib/domain/types";
 
 export interface MapFrame {
   frameId: string;
@@ -43,6 +43,7 @@ export interface MapLandform {
   canonBasis: "CANONICAL" | "CANON_CONSTRAINED" | "UNKNOWN";
   worldPoints: Array<[number, number]>;
   worldCenter: [number, number];
+  preview: MapEntityPreview;
 }
 
 export type LocationCoverageStatus = "mapped" | "local_map" | "unplaced" | "supernatural_or_uncertain";
@@ -77,6 +78,7 @@ export interface MapEntityPreview {
   facts: string[];
   context: MapPreviewRelation[];
   relatedLocations: MapPreviewRelation[];
+  eraStates: Partial<Record<Period, EntityEraState>>;
 }
 
 export interface MapLocationMarker {
@@ -97,6 +99,7 @@ export interface MapInventoryRelease {
   mapId: string;
   label: string;
   presentationNotice: string;
+  eraArtStatus: Record<Period, "approved" | "unavailable">;
   defaultView: { targetX: number; targetZ: number; zoom: number };
   landforms: MapLandform[];
   counts: { islands: number; continents: number; total: number };

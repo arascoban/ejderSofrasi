@@ -220,8 +220,16 @@ button, input, select { font: inherit; }
 .era-grid article[data-state="reported_lost"] { border-top-color: var(--ember); }
 .era-grid article strong, .era-grid article span { display: block; }
 .era-grid article span { margin-top: 0.45rem; color: var(--ink-muted); font-size: 0.78rem; line-height: 1.45; }
+.selected-era-context { display: grid; gap: 0.35rem; margin: 0 0 2rem; padding: 1rem 1.15rem; background: var(--night-soft); border: 1px solid var(--line); border-left: 3px solid var(--gold); }
+.selected-era-context[data-state="reported_lost"] { border-left-color: var(--ember); }
+.selected-era-context[data-state="conflicted"] { border-left-color: #c18b49; }
+.selected-era-context strong { color: var(--gold-bright); font: 500 1.2rem/1.15 var(--serif); }
+.selected-era-context span { color: var(--ink); font-size: 0.78rem; }
+.selected-era-context p:last-child { margin: 0.35rem 0 0; color: var(--ink-muted); font-size: 0.75rem; line-height: 1.5; }
 .lore-section { display: grid; grid-template-columns: minmax(14rem, 0.8fr) minmax(0, 2fr); gap: clamp(2rem, 6vw, 6rem); padding: clamp(3rem, 6vw, 5rem) 0; border-top: 1px solid var(--line); }
 .lore-section--undated { background: linear-gradient(90deg, rgba(211,173,101,0.025), transparent); }
+.lore-section--other-period { background: linear-gradient(90deg, rgba(154,78,50,0.045), transparent); }
+.wiki-period-note { grid-column: 2; margin: 0; padding: 0.7rem 0.85rem; color: var(--ink-muted); background: rgba(211,173,101,0.05); border-left: 2px solid var(--gold); font-size: 0.76rem; line-height: 1.5; }
 .section-heading { align-self: start; position: sticky; top: 2rem; }
 .fact-list, .relation-list, .episode-strip ul { margin: 0; padding: 0; list-style: none; }
 .fact-list { display: grid; gap: 0.7rem; }
@@ -319,6 +327,8 @@ button, input, select { font: inherit; }
   border-bottom: 1px solid var(--line);
 }
 .atlas-toolbar h1 { margin: 0.18rem 0 0; font: 500 clamp(1.4rem, 2.3vw, 2rem)/1 var(--serif); }
+.map-art-unavailable { display: grid; gap: 0.25rem; padding: 0.65rem clamp(1rem, 3vw, 2.2rem); color: #e3d3b4; background: rgba(154, 78, 50, 0.14); border-bottom: 1px solid rgba(154, 78, 50, 0.38); font-size: 0.74rem; line-height: 1.45; }
+.map-art-unavailable strong { color: var(--gold-bright); }
 .era-switch { display: flex; padding: 0.2rem; background: #101b19; border: 1px solid var(--line); border-radius: 999px; }
 .era-switch button {
   min-height: 2.35rem;
@@ -347,14 +357,18 @@ button, input, select { font: inherit; }
 }
 .atlas-fallback span { color: var(--gold); font-size: 4rem; }
 .landform-label {
+  display: block;
   min-width: max-content;
   padding: 0.38rem 0.55rem;
   color: #f0e7d2;
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
   text-align: center;
   text-shadow: 0 2px 8px #04100d, 0 1px 2px #04100d;
-  pointer-events: none;
   user-select: none;
 }
+.landform-label:hover, .landform-label:focus-visible { border-color: rgba(227, 193, 126, 0.72); background: rgba(8, 25, 22, 0.72); outline: none; }
 .landform-label strong, .landform-label span { display: block; }
 .landform-label strong { font: 600 0.82rem/1.1 var(--serif); letter-spacing: 0.035em; }
 .landform-label span { margin-top: 0.25rem; color: #cdbd99; font-size: 0.57rem; letter-spacing: 0.04em; }

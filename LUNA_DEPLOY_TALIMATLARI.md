@@ -6,6 +6,8 @@
 
 **Dönem etiketi kararı:** Ziyaretçi arayüzünde eski dönem adları kullanılmayacak. `1600 civarı` kaynak anahtarı **Günümüz**, `1300 civarı` kaynak anahtarı **Gümüş Tanrısının 1673 yılı** olarak gösterilir. Bu anahtarlar mevcut veri, makale ve eski URL uyumluluğu için saklanır; F dönem geçişi yeni Türkçe etiketlerle kabul edilir.
 
+**F durumu:** F'nin dönem durumu, seçili dönem wiki/harita bağlamı, emekli kimlik çözümlemesi, eksik sanat bildirimi, dönemsiz içerik ayrımı ve dönemler arası kamera/sahne izolasyonu yerelde uygulandı ve kabul edildi. Sıradaki yayın adımı yeni commit için Vercel Production dağıtımı ve HTTPS smoke kontrolüdür. CPU PRB-0017 ertelenmiş olarak kalır.
+
 1. AGENTS.md, güncel durum ve kabul raporunu oku; mevcut staged/unstaged değişiklikleri koru. Kanonu/ID'leri frontend için değiştirme. Yeni bir hata yoksa D2 test içeriğini yeniden yaratma; canlı NPC-0006 temiz V17, geçmiş revizyonlar/özel dosyalar korunuyor.
 2. `81e63d0` için GitHub push, Vercel Production success ve `https://ejder-map.vercel.app` HTTPS smoke tamamlandı. Yeni değişikliklerde doğru commit için Vercel success ve HTTPS smoke doğrula. İşletim erişimi engeli varsa PRB kaydına bağlamı ekle; yerel D2 kabulünü başarısız sayma ve deploy olmuş gibi raporlama.
 3. **E1:** Merkezi depodan Türkçe/ASCII arama eşleştirmesini genişlet: kanonik ad, alias, sabit/eski ID ve eski slug. Aynı alias birden fazla kimliğe aitse tüm sonuçları koru. Akmer, Pastırman, Helvanar, Çöl Şehri/col sehri, Karapancar kabul örnekleridir. Sonuçlar mevcut canonical route çözümleyicisini kullansın.
@@ -17,6 +19,12 @@
 ### E uygulama kaydı — 22 Eylül 2026, Astra
 
 E1–E3 kodu uygulandı ve canlıda kabul edildi. `src/lib/domain/search.ts` tek normalizasyon/filtre katmanıdır; `/wiki` ve yeni Türkçe `/search` aynı kayıt deposunu kullanır. Kanonik ad, alias, slug ve mevcut ID yönlendirmelerinden gelen eski ID'ler aranır; editoryal metin yalnızca public `wiki_articles` içindeki güncel `published_revision_id` üzerinden, draft ve tarihçe dışarıda bırakılarak okunur. Arama formu klavye ile çalışır; `q`, `type` ve `period` URL parametreleri geri/ileri gezinmede korunur. `npm run lint`, `npm run typecheck`, `npm run test` (78 Vitest + 6 export testi) ve `npm run build` (527/527) başarılıdır. Yerel `/search?q=col%20sehri`, eski `NPC-0059` ve tür/dönem filtreleri gerçek HTML ile kontrol edildi. `cb6bb4b` commit'i GitHub main'e gönderildi, Vercel Production success oldu; canlı `/search?q=col%20sehri`, `/search?q=NPC-0059` ve `karapancar` gemi+dönem filtresi HTTP 200 ve beklenen sonuçları verdi. E kabulü kapandı; F'ye geçilebilir.
+
+### F uygulama kaydı — 22 Eylül 2026, Luna
+
+F'nin ilk uygulaması tamamlandı. `getEntityEraState` emekli kimlik yönlendirmelerini de çözerek `ISL-0002 → CON-0001` durumunu koruyor. Harita kara şekilleri artık seçilebilir dönem önizlemesine, dönem durumu kanıtına ve onaylı sanat yoksa açık bir eksik sanat bildirimine sahip; kamera oturumu `map_id + dönem` ile ayrılıyor ve dönem değişiminde Canvas anahtarı sahne katmanını yeniliyor. Wiki URL'deki `era` seçimi dönem bağlamını, diğer dönem kayıtlarını ve dönemsiz makale/görsellerin otomatik aktarılmadığı uyarısını gösteriyor. `map_assets.json` şu anda boş olduğu için iki dönem de `unavailable` olarak dürüstçe sunuluyor; yaratıcı final koordinat veya sanat uydurulmadı.
+
+Yerel kabul kanıtı: `npm run lint`, `npm run typecheck`, `npm run test` (81 Vitest + 6 export testi), `npm run build` (527/527) başarılı. Yerel tarayıcıda iki dönem haritası, Helvanar'ın Günümüz'de kayıp bildirimi, Gümüş Tanrısının 1673 yılında kanıtlı görünümü, wiki seçili dönem paneli ve hızlı geçişte katman tutarlılığı doğrulandı. Yeni commit için Vercel Production dağıtımı ve HTTPS smoke bir sonraki yayın kontrolüdür. Yeni sorun çıkarsa yalnızca ilgili PRB kaydı açılacak; CPU PRB-0017 yeniden başlatılmayacak.
 
 Davet/SMTP işletim kabulü I aşamasında PRB-0018 altında açık; E'yi engellemez. Yeni editör daveti göndermeden önce mutlak site adresi ve callback izin listesini doğrula.
 

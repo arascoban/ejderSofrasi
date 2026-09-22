@@ -56,6 +56,14 @@ describe("katman sınırları", () => {
     ]));
   });
 
+  it("dönem sunumunda Helvanar durumunu ve onaylı sanat eksikliğini açıklar", async () => {
+    const release = await getMapInventoryRelease();
+    const helvanar = release.landforms.find((landform) => landform.entityId === "CON-0001");
+    expect(release.eraArtStatus).toEqual({ "1300 civarı": "unavailable", "1600 civarı": "unavailable" });
+    expect(helvanar?.preview.eraStates["1300 civarı"]).toMatchObject({ state: "attested" });
+    expect(helvanar?.preview.eraStates["1600 civarı"]).toMatchObject({ state: "reported_lost" });
+  });
+
   it("yerel alan konumunu dünya koordinatına kayıpsız dönüştürür", () => {
     const frames: MapFrame[] = [
       {

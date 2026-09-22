@@ -383,9 +383,10 @@ export async function getEntityRelations(id: string): Promise<EntityRelations> {
 
 export async function getEntityEraState(id: string, period: Period): Promise<EntityEraState> {
   const database = await getDatabase();
-  const entity = database.entityById.get(id);
+  const resolvedId = database.redirectById.get(id) ?? id;
+  const entity = database.entityById.get(resolvedId);
   if (!entity) return { state: "unknown", evidence: [] };
-  const evidence = database.worldStates.filter((item) => item.entity_id === id && item.period === period);
+  const evidence = database.worldStates.filter((item) => item.entity_id === resolvedId && item.period === period);
   const hasPositive = entity.periods.includes(period) || evidence.some((item) => item.state === "exists");
   const hasNegative = evidence.some((item) => item.state === "reported_lost");
   if (hasPositive && hasNegative) return { state: "conflicted", evidence };

@@ -165,7 +165,32 @@ function buildPreview(entity: Entity, database: Awaited<ReturnType<typeof getDat
     facts: facts.map((fact) => fact.text),
     context,
     relatedLocations,
+    eraStates: Object.fromEntries((["1300 civarı", "1600 civarı"] as const).map((period) => {
+      const evidence = database.worldStates.filter((item) => item.entity_id === entity.id && item.period === period);
+      const hasPositive = entity.periods.includes(period) || evidence.some((item) => item.state === "exists");
+      const hasNegative = evidence.some((item) => item.state === "reported_lost");
+      const state = hasPositive && hasNegative
+        ? "conflicted"
+        : hasNegative
+          ? "reported_lost"
+          : hasPositive
+            ? "attested"
+            : "unknown";
+      return [period, { state, evidence }] as const;
+    })) as MapEntityPreview["eraStates"],
   };
+}
+
+function hasApprovedArt(assetDocument: unknown, period: Period): boolean {
+  if (!assetDocument || typeof assetDocument !== "object") return false;
+  const assets = (assetDocument as { assets?: unknown }).assets;
+  if (!Array.isArray(assets)) return false;
+  return assets.some((asset) => {
+    if (!asset || typeof asset !== "object") return false;
+    const candidate = asset as { status?: unknown; periods?: unknown };
+    if (candidate.status !== "approved") return false;
+    return Array.isArray(candidate.periods) && candidate.periods.includes(period);
+  });
 }
 
 async function buildInventoryRelease(): Promise<MapInventoryRelease> {
@@ -227,6 +252,7 @@ async function buildInventoryRelease(): Promise<MapInventoryRelease> {
       canonBasis: feature.canon_basis,
       worldPoints,
       worldCenter: [center.x, center.z],
+      preview: buildPreview(entity, database),
     };
   });
 
@@ -292,6 +318,10 @@ async function buildInventoryRelease(): Promise<MapInventoryRelease> {
     mapId: release.map_id,
     label: release.label,
     presentationNotice: release.presentation_notice,
+    eraArtStatus: {
+      "1300 civarı": hasApprovedArt(assetDocument, "1300 civarı") ? "approved" : "unavailable",
+      "1600 civarı": hasApprovedArt(assetDocument, "1600 civarı") ? "approved" : "unavailable",
+    },
     defaultView: { targetX: release.default_view.target_x, targetZ: release.default_view.target_z, zoom: release.default_view.zoom },
     landforms: landforms.sort((a, b) => a.name.localeCompare(b.name, "tr-TR")),
     counts: { islands, continents, total: landforms.length },

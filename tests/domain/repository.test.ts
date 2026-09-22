@@ -96,9 +96,9 @@ describe("merkezi dünya verisi", () => {
     expect(facts.every((fact) => campus?.fact_ids?.includes(fact.id))).toBe(true);
   });
 
-  it("dönem kanıtını yokluktan türetmez", async () => {
-    await expect(getEntityEraState("ISL-0002", "1300 civarı")).resolves.toMatchObject({ state: "unknown" });
-    await expect(getEntityEraState("ISL-0002", "1600 civarı")).resolves.toMatchObject({ state: "unknown" });
+  it("emekli kimlikte dönem kanıtını hedef varlıktan çözer", async () => {
+    await expect(getEntityEraState("ISL-0002", "1300 civarı")).resolves.toMatchObject({ state: "attested" });
+    await expect(getEntityEraState("ISL-0002", "1600 civarı")).resolves.toMatchObject({ state: "reported_lost" });
     await expect(getEntityEraState("CON-0001", "1300 civarı")).resolves.toMatchObject({ state: "attested" });
     await expect(getEntityEraState("CON-0001", "1600 civarı")).resolves.toMatchObject({ state: "reported_lost" });
   });
