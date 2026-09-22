@@ -4,6 +4,7 @@
 
 Bu bölüm aşağıdaki tarihsel G'ye-geç yönergelerinden önceliklidir. Son kullanıcı isteği menü donmasını düzeltmek, aramayı Dünya Arşivi'nde birleştirmek ve tüm varlıklar için makale planı hazırlamaktır.
 
+- Canlı kabul: `9927973` Vercel dağıtımı success; normal menü tıklaması, konum seçimi, geri dönüş ve dönem değişimi canlıda geçti; console hata/uyarı yok. Lint/typecheck, 85+6 test ve 527/527 build başarılı.
 - PRB-0019: R3F Canvas, `IsolatedScene` içinde Next yönlendirme bağlamından ayrılır. Sahne verileri/callback'leri açık prop olarak geçer. Bu sınırın içine `useRouter/useSearchParams/Link` ekleme; sayfa linkleri dıştaki DOM ağacında kalır. Menüde normal Next Link gezinmesi korunur; tam sayfa anchor geçici denemesi kaldırıldı.
 - Harita seçim/dönem URL'si native history ile değişir; sunucuya gereksiz RSC isteği yapılmaz. Geri/ileri, konum seçimi, dönem ve harita→wiki→harita kabulü yeni harita değişikliğinde tekrarlanır. Canvas `eventSource` gerçek DOM elemanıdır; gecikmeli yapılandırma sırasında null olabilen ref ile değiştirme.
 - Ayrı Ara menüsü/sayfası yok. `/wiki` sorgu, tür ve dönem filtrelerinin tek yüzeyi. Eski `/search` URL'leri query/filter kaybetmeden yönlenir. Sorgusuz arşiv Supabase'i beklemez; isteğe bağlı yayımlanmış makale araması ortak üç saniyelik süre sınırına sahiptir.

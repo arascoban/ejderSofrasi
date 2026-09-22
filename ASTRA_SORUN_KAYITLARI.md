@@ -715,3 +715,5 @@ Son toplu doğrulama: `npm run check` çıkış 0; lint + typecheck + 14/14 test
 - Üretim kabulü: lint/typecheck, 85 Vitest + 6 export testi, 527/527 build geçti. Yerel production tarayıcıda Helvanar seçimi → 1673 → Dünya Arşivi → geri → tam wiki → Haritaya dön → panel kapat → Bölümler geçti. Son console error/warn listesi boş. Eski `/search?q=karapancar&type=SHIP&period=1600` arşive aynı filtrelerle yönlendi, Karapancar Gemisi ve seçili Günümüz doğrulandı.
 - Kaynak sınırı: Next yönlendirme ile Canvas bağlam köprüsü arasındaki uygulama etkileşimi izole edilerek çözüldü. Upstream kütüphanede belirli bir commit hatası kanıtlandı iddiası yok; sürüm düşürme veya node_modules yaması yapılmadı.
 - İlk plan: altı pilot ve 10'lu gruplarla tüm etkin varlıklar için kanıtlı Türkçe makale taslağı; `LUNA_MAKALE_PLANI.md`. Bu tur makale üretimi/yayın yok.
+
+- Canlı yayın kanıtı: `9927973` main üzerinde; GitHub Vercel status = success / Deployment has completed. Canlı tarayıcıda Helvanar seçimi → Dünya Arşivi → geri → 1673 geçişi başarılı; error/warn yok.
