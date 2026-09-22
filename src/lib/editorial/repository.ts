@@ -102,6 +102,49 @@ function parsePublishedContent(value: unknown): PublishedEditorialContent | null
   };
 }
 
+function documentText(value: unknown): string {
+  if (Array.isArray(value)) return value.map(documentText).filter(Boolean).join(" ");
+  if (!isObject(value)) return "";
+  const ownText = typeof value.text === "string" ? value.text : "";
+  return [ownText, ...Object.values(value).map(documentText)].filter(Boolean).join(" ");
+}
+
+/**
+ * Returns only the current published revision of each public article. Drafts
+ * and historical revisions never enter this index. A missing editorial
+ * service leaves the core archive searchable and does not break the directory.
+ */
+export async function getPublishedEditorialSearchText(): Promise<ReadonlyMap<string, string>> {
+  const config = getPublicSupabaseConfig();
+  if (!config || !isEditorialEnabled()) return new Map();
+
+  try {
+    const supabase = createClient(config.url, config.publishableKey, {
+      auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false },
+    });
+    const articles = await supabase
+      .from("wiki_articles")
+      .select("entity_id, published_revision_id")
+      .not("published_revision_id", "is", null);
+    if (articles.error) return new Map();
+    const revisionIds = (articles.data ?? [])
+      .map((row) => typeof row.published_revision_id === "string" ? row.published_revision_id : null)
+      .filter((id): id is string => Boolean(id));
+    if (!revisionIds.length) return new Map();
+    const revisions = await supabase.from("wiki_revisions").select("revision_id, document").in("revision_id", revisionIds);
+    if (revisions.error) return new Map();
+    const documents = new Map((revisions.data ?? []).map((row) => [String(row.revision_id), documentText(row.document)]));
+    return new Map((articles.data ?? []).flatMap((row) => {
+      const entityId = typeof row.entity_id === "string" ? row.entity_id : null;
+      const revisionId = typeof row.published_revision_id === "string" ? row.published_revision_id : null;
+      const text = revisionId ? documents.get(revisionId) : "";
+      return entityId && text ? [[entityId, text] as const] : [];
+    }));
+  } catch {
+    return new Map();
+  }
+}
+
 export async function getPublishedEditorialContent(
   entityId: string,
 ): Promise<PublishedEditorialContent | null> {

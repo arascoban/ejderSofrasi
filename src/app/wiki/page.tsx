@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import { EntityCard } from "@/components/entity-card";
 import { getAllEntitySummaries } from "@/lib/data/repository";
+import { getPublishedEditorialSearchText } from "@/lib/editorial/repository";
+import { filterEntitySummaries } from "@/lib/domain/search";
 import { ENTITY_TYPES, type EntityType, type Period } from "@/lib/domain/types";
 import { entityTypeLabel } from "@/lib/domain/labels";
 
@@ -21,13 +23,15 @@ export default async function WikiDirectory({ searchParams }: WikiDirectoryProps
   const requestedPeriod = (["1300 civarı", "1600 civarı"] as const).includes(parameters.period as Period)
     ? (parameters.period as Period)
     : null;
-  const normalizedQuery = query.toLocaleLowerCase("tr-TR");
-  const entities = (await getAllEntitySummaries()).filter((entity) => {
-    if (requestedType && entity.type !== requestedType) return false;
-    if (requestedPeriod && !entity.periods.includes(requestedPeriod)) return false;
-    if (!normalizedQuery) return true;
-    const names = [entity.name, entity.slug, ...entity.aliases].map((value) => value.toLocaleLowerCase("tr-TR"));
-    return names.some((value) => value.includes(normalizedQuery)) || entity.id.toLowerCase() === normalizedQuery;
+  const [summaries, editorialTextByEntity] = await Promise.all([
+    getAllEntitySummaries(),
+    getPublishedEditorialSearchText(),
+  ]);
+  const entities = filterEntitySummaries(summaries, {
+    query,
+    type: requestedType,
+    period: requestedPeriod,
+    editorialTextByEntity,
   });
   const hasFilters = Boolean(query || requestedType || requestedPeriod);
 

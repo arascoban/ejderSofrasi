@@ -406,6 +406,9 @@ export async function getAllEntitySummaries(): Promise<EntitySummary[]> {
       periods: entity.periods,
       firstAppearance: entity.first_appearance,
       recordStatus: entity.record_status,
+      legacyIds: [...database.redirectById.entries()]
+        .filter(([, targetId]) => targetId === entity.id)
+        .map(([legacyId]) => legacyId),
     }))
     .sort((a, b) => a.name.localeCompare(b.name, "tr-TR"));
 }

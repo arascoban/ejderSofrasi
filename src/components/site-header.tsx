@@ -13,6 +13,7 @@ export function SiteHeader() {
       <nav aria-label="Ana gezinme">
         <Link href="/map">Harita</Link>
         <Link href="/wiki">Dünya arşivi</Link>
+        <Link href="/search">Ara</Link>
         <Link href="/episodes">Bölümler</Link>
         <Link href="/lore">Lore</Link>
       </nav>

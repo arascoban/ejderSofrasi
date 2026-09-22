@@ -2,7 +2,7 @@
 
 ## Güncel Astra yönergesi — 22 Eylül 2026
 
-**D2 tamamlandı; sıradaki özellik E.** `D2_KABUL_RAPORU.md` kabul matrisi bu dosyanın daha eski açık-test talimatlarının önündedir. PRB-0013/0014 çözüldü. CPU konusu PRB-0017 kullanıcı isteğiyle ertelendi; yeniden ölçüm veya yük testi başlatma. PT409 migration ve bootstrap'ı canlıda tekrar çalıştırma. Owner/secret onayını yeniden isteme.
+**D2 tamamlandı; E1–E3 yerel uygulaması tamamlandı, canlı kabulü bekliyor.** `D2_KABUL_RAPORU.md` kabul matrisi bu dosyanın daha eski açık-test talimatlarının önündedir. PRB-0013/0014 çözüldü. CPU konusu PRB-0017 kullanıcı isteğiyle ertelendi; yeniden ölçüm veya yük testi başlatma. PT409 migration ve bootstrap'ı canlıda tekrar çalıştırma. Owner/secret onayını yeniden isteme.
 
 1. AGENTS.md, güncel durum ve kabul raporunu oku; mevcut staged/unstaged değişiklikleri koru. Kanonu/ID'leri frontend için değiştirme. Yeni bir hata yoksa D2 test içeriğini yeniden yaratma; canlı NPC-0006 temiz V17, geçmiş revizyonlar/özel dosyalar korunuyor.
 2. `81e63d0` için GitHub push, Vercel Production success ve `https://ejder-map.vercel.app` HTTPS smoke tamamlandı. Yeni değişikliklerde doğru commit için Vercel success ve HTTPS smoke doğrula. İşletim erişimi engeli varsa PRB kaydına bağlamı ekle; yerel D2 kabulünü başarısız sayma ve deploy olmuş gibi raporlama.
@@ -11,6 +11,10 @@
 5. **E3:** Yalnızca etkin yayımlanmış editoryal metni ara. İlk kapsam küçük indeks/ölçülü sunucu isteği; her tuşta Supabase sorgusu ve ücretli harici arama servisi yok. Taslak, eski revizyon veya özel dosya adresi istemci indeksine girmesin. Publish/rollback sonrası eski metnin sonuçtan kalkması kabul şartıdır. Migration gerekirse yeni ileri migration hazırla; uygulanmış dosyaları değiştirme.
 6. Her adımı dar diff, anlamlı test ve tarayıcı kabulüyle doğrula. Next API değişikliği yapmadan ilgili yerel `node_modules/next/dist/docs/` belgesini oku. E sonunda lint/typecheck/test/build ve klavye/mobil/URL/arama güncelliği sonuçlarını yaz. E tamamlanmadan F/G/H/I'yi topluca uygulama.
 7. Çözülemeyen yeni işleri mevcut manuel Astra protokolüyle `ASTRA_SORUN_KAYITLARI.md` içine kaydet. Alt ajan/model değişikliği yapma. D2'de yapılmayan canlı ağ emülasyonu/ayrı publish HTTP gözlemini yapılmış diye aktarma; bunlar kabul raporundaki katmanlı doğrulamayla karşılanmıştır.
+
+### E uygulama kaydı — 22 Eylül 2026, Astra
+
+E1–E3 kodu uygulandı ve yerelde kabul edildi. `src/lib/domain/search.ts` tek normalizasyon/filtre katmanıdır; `/wiki` ve yeni Türkçe `/search` aynı kayıt deposunu kullanır. Kanonik ad, alias, slug ve mevcut ID yönlendirmelerinden gelen eski ID'ler aranır; editoryal metin yalnızca public `wiki_articles` içindeki güncel `published_revision_id` üzerinden, draft ve tarihçe dışarıda bırakılarak okunur. Arama formu klavye ile çalışır; `q`, `type` ve `period` URL parametreleri geri/ileri gezinmede korunur. `npm run lint`, `npm run typecheck`, `npm run test` (78 Vitest + 6 export testi) ve `npm run build` (527/527) başarılıdır. Yerel `/search?q=col%20sehri`, eski `NPC-0059` ve tür/dönem filtreleri gerçek HTML ile kontrol edildi. Yeni commit sonrası Vercel Production success ve `https://ejder-map.vercel.app/search` canlı smoke kontrolü E kapanış kanıtıdır.
 
 Davet/SMTP işletim kabulü I aşamasında PRB-0018 altında açık; E'yi engellemez. Yeni editör daveti göndermeden önce mutlak site adresi ve callback izin listesini doğrula.
 

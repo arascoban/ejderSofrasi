@@ -205,6 +205,8 @@ export interface EntitySummary {
   periods: Period[];
   firstAppearance: string | null;
   recordStatus: string;
+  /** IDs retired by a confirmed merge; retained for search and old links. */
+  legacyIds?: string[];
 }
 
 export type EraState = "attested" | "reported_lost" | "unknown" | "conflicted";
