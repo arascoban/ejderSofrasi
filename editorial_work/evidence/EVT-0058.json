@@ -104,12 +104,74 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the nature and location of the ruins have not yet been explained in the continuing story.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/5/facts/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/7/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/12/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/links/15"
+        }
+      ],
+      "before": "Ruins may be a temple trial illusion, a buried physical ruin, or a timeless pocket. Source literal LOCATED_IN Helvanar is disputed by explicit uncertainty. Oasis appearance does not prove identity with ruins.",
+      "after": "CANON_UNCERTAIN: the ruins' physical or dimensional location remains unexplained."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the nature and location of the ruins have not yet been explained in the continuing story.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/5/facts/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/7/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/12/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/links/15"
+        }
+      ],
+      "before": "Ruins may be a temple trial illusion, a buried physical ruin, or a timeless pocket. Source literal LOCATED_IN Helvanar is disputed by explicit uncertainty. Oasis appearance does not prove identity with ruins.",
+      "after": "CANON_UNCERTAIN: the ruins' physical or dimensional location remains unexplained."
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/12/facts/0"
+      },
       {
         "source_id": "SRC-EP23",
         "pointer": "/entities/3/facts/4"
@@ -117,6 +179,18 @@
       {
         "source_id": "SRC-EP23",
         "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/uncertainties/1"
       },
       {
         "source_id": "SRC-EP23"
@@ -133,8 +207,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 0
     }
   }

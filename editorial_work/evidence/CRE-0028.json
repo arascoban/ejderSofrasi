@@ -570,6 +570,39 @@
   ],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the parrot’s wording as a shortened form of the item name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Şampiyon Fener sözünü, eşyanın gerçek adı olan Şampiyonların Feneri’nden türetir; papağan olduğu için adı kısaltarak söyler."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the last known status of the companions.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the last known status of the companions.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "EP04 identifies Cemil as the parrot and supplies exact Canon alias. Do not merge Muzaffer Cemil.",
       "source_refs": [
@@ -587,6 +620,30 @@
         "Cemil (Papağan)"
       ],
       "after": "CRE-0028"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the phrase’s source.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Cemil Papağan'ın 'Şampiyon Fener' Sözlerinin Kaynağı",
+      "after": "Şampiyon Fener, Şampiyonların Feneri adının Cemil (Papağan) tarafından kısaltılmış söylenişidir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the party left Cemil, İbrahim and the duck behind; their later fate is unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Kışlada Unutulan Cemil (Papağan) ve İbrahim'in (Kompisaurus) Akıbeti",
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; akıbetleri belirsizdir."
     },
     {
       "kind": "travel_review",
@@ -675,7 +732,65 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the parrot’s wording as a shortened form of the item name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Şampiyon Fener sözünü, eşyanın gerçek adı olan Şampiyonların Feneri’nden türetir; papağan olduğu için adı kısaltarak söyler."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the last known status of the companions.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the last known status of the companions.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the phrase’s source.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Cemil Papağan'ın 'Şampiyon Fener' Sözlerinin Kaynağı",
+      "after": "Şampiyon Fener, Şampiyonların Feneri adının Cemil (Papağan) tarafından kısaltılmış söylenişidir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the party left Cemil, İbrahim and the duck behind; their later fate is unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Kışlada Unutulan Cemil (Papağan) ve İbrahim'in (Kompisaurus) Akıbeti",
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; akıbetleri belirsizdir."
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0009",
@@ -874,8 +989,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 1,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 7,
+      "owner_confirmations": 5,
       "linked_entities": 7
     }
   }

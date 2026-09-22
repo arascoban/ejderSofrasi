@@ -110,12 +110,107 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the biography is undated.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/lore/2"
+        }
+      ],
+      "after": "Hapsedilmesi ve çocukluk dönemindeki mutfak geçmişinin kesin tarihleri bilinmemektedir."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP24 explicitly gives the full name Akmer Sütçüoğlu in facts referring to Akmer; Canon confirms that full spelling.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/5/facts/0"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/12/facts/0"
+        }
+      ],
+      "before": [
+        "Akmer",
+        "Akmer Sütçüoğlu"
+      ],
+      "after": "NPC-0006"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the dates of Doktor Aktar's imprisonment and childhood kitchen history are unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/5"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/lore/2"
+        }
+      ],
+      "before": "Doktor Aktar imprisonment and kitchen childhood lore are recalled during the 1300 trial; their original dates are not given.",
+      "after": "CANON_UNCERTAIN: the biography is canonically undated."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the biography is undated.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/lore/2"
+        }
+      ],
+      "after": "Hapsedilmesi ve çocukluk dönemindeki mutfak geçmişinin kesin tarihleri bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the dates of Doktor Aktar's imprisonment and childhood kitchen history are unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/5"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/lore/2"
+        }
+      ],
+      "before": "Doktor Aktar imprisonment and kitchen childhood lore are recalled during the 1300 trial; their original dates are not given.",
+      "after": "CANON_UNCERTAIN: the biography is canonically undated."
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5"
+      },
       {
         "source_id": "SRC-EP24",
         "pointer": "/entities/5/facts/0"
@@ -143,8 +238,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 2,
       "linked_entities": 0
     }
   }

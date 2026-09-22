@@ -3041,6 +3041,81 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the lower desert-facing city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": "CIT-0007"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the middle commercial city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": "CIT-0008"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the upper royal and Arifler city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "CIT-0009"
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the canonical three-city vertical structure of Yaz Helvası Şehri.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "Yaz Helvası Şehri, çölde başlayıp dağın tepesine yükselen üç bağlı şehirden oluşur. Şehirler arasında surlar ve kapılar bulunur; büyülü zipline hatları ve büyük ana yol şehirleri birbirine bağlar."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the boulevard's extent and function.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "3. bölgenin tam ortasından geçen bulvar, 1. şehre kadar uzanan ana yol görevi görür."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Project owner confirmed that the city commonly described as Çöl Şehri is Yaz Helvası Şehri, the historical capital of Yaz Helvası Krallığı.",
       "source_refs": [
@@ -3058,6 +3133,96 @@
         "Yaz Helvası Şehri"
       ],
       "after": "CIT-0006"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Üst Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "BORDERS",
+        "Helvanar Çölü"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "CONNECTED_BY_ROAD",
+        "Yaz Helvası Orta Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "CONNECTED_BY_ROAD",
+        "Yaz Helvası Üst Şehri"
+      ]
     },
     {
       "kind": "travel_review",
@@ -3556,9 +3721,523 @@
         },
         "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved."
       }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Arifler Okulu",
+        "to": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+        "via": [
+          "3. Bölge Bulvarı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Sancar Devran",
+          "Bando Takımı",
+          "Muhafızlar"
+        ],
+        "transport": "Yürüyerek & At Arabası Üzerinde"
+      },
+      "after": {
+        "id": "TRV-0031",
+        "episode": "EP16",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0023",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "destination": {
+          "label": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+          "entity_id": null,
+          "context_id": "BLD-0020",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Bulvarı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Bando Takımı",
+            "entity_id": null
+          },
+          {
+            "label": "Muhafızlar",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek & At Arabası Üzerinde",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0031",
+        "unresolved_locations": [
+          "3. Bölge Bulvarı"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the lower desert-facing city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": "CIT-0007"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the middle commercial city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": "CIT-0008"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the upper royal and Arifler city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "CIT-0009"
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the canonical three-city vertical structure of Yaz Helvası Şehri.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "Yaz Helvası Şehri, çölde başlayıp dağın tepesine yükselen üç bağlı şehirden oluşur. Şehirler arasında surlar ve kapılar bulunur; büyülü zipline hatları ve büyük ana yol şehirleri birbirine bağlar."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the boulevard's extent and function.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "3. bölgenin tam ortasından geçen bulvar, 1. şehre kadar uzanan ana yol görevi görür."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that the city commonly described as Çöl Şehri is Yaz Helvası Şehri, the historical capital of Yaz Helvası Krallığı.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": [
+        "Çöl Şehri",
+        "Yaz Helvası Şehri"
+      ],
+      "after": "CIT-0006"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Üst Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "BORDERS",
+        "Helvanar Çölü"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "CONNECTED_BY_ROAD",
+        "Yaz Helvası Orta Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "CONNECTED_BY_ROAD",
+        "Yaz Helvası Üst Şehri"
+      ]
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Zümrüt Ejderha Şifa Tapınağı",
+        "to": "Çöl Şehri",
+        "via": [
+          "Beyaz-Sarı Damarlı Merdivenler",
+          "Terk Edilmiş Ahşap Baraka"
+        ],
+        "party": [
+          "Akmer",
+          "Roary",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0013",
+        "episode": "EP07",
+        "sequence": 1,
+        "period": null,
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "TMP-0003",
+        "to_id": "CIT-0006",
+        "via_ids": [],
+        "origin": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı",
+          "entity_id": "TMP-0003",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri",
+          "entity_id": "CIT-0006",
+          "resolution": "exact",
+          "reviewed_context_id": "CIT-0007"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Beyaz-Sarı Damarlı Merdivenler",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Terk Edilmiş Ahşap Baraka",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "temporal_transition",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "from_period": "1600 civarı",
+        "to_period": "1300 civarı",
+        "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+        "to": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+        "via": [
+          "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+          "Dennu'nun Evi",
+          "Üçlü Geçiş Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Raer",
+          "Dennu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0014",
+        "episode": "EP08",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0022",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Dennu'nun Evi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 3,
+            "label": "Üçlü Geçiş Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0031",
+        "unresolved_locations": [
+          "3. Bölge Bulvarı"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0001",
@@ -4809,8 +5488,8 @@
       "map_constraints": 13,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 7,
-      "owner_confirmations": 0,
+      "normalization_decisions": 20,
+      "owner_confirmations": 15,
       "linked_entities": 37
     }
   }

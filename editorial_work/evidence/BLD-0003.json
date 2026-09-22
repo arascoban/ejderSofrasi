@@ -661,6 +661,18 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "entity_review",
+      "reason": "The divine gauntlet is fixed in the square and explicitly becomes Demir Yumruk Anıtı in EP15; normalize as monument/building.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/18"
+        }
+      ],
+      "before": "ITEM",
+      "after": "BUILDING"
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "EP15 explicitly aliases the named iron gauntlet and describes the EP13 divine manifestation becoming a fixed monument. Type should be BUILDING, with original ITEM classification retained in provenance.",
       "source_refs": [
@@ -1051,7 +1063,7 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
+      "normalization_decisions": 3,
       "owner_confirmations": 0,
       "linked_entities": 9
     }

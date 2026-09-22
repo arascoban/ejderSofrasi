@@ -782,7 +782,27 @@
       }
     }
   ],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP04 identifies Cemil as the parrot and supplies exact Canon alias. Do not merge Muzaffer Cemil.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/6/a/0"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/5/a/0"
+        }
+      ],
+      "before": [
+        "Cemil",
+        "Cemil (Papağan)"
+      ],
+      "after": "CRE-0028"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [
     {
@@ -827,6 +847,10 @@
       {
         "source_id": "SRC-EP04",
         "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/6/a/0"
       },
       {
         "source_id": "SRC-EP04",
@@ -1041,7 +1065,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 1,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 2
     }

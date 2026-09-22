@@ -249,7 +249,31 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP14 identifies Beltis Ana as the woman whose daughter Kalender healed; EP12 records that specific mother/daughter healing encounter. Retain the descriptive early name as provenance.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/7/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/4/facts/0"
+        }
+      ],
+      "before": [
+        "Teyze (Hasta Kızın Annesi)",
+        "Beltis Ana"
+      ],
+      "after": "NPC-0014"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [
     {
@@ -334,6 +358,10 @@
       },
       {
         "source_id": "SRC-EP12",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
         "pointer": "/entities/8"
       },
       {
@@ -354,6 +382,10 @@
       },
       {
         "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/4/facts/0"
       }
     ],
     "counts": {
@@ -367,7 +399,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 4
     }

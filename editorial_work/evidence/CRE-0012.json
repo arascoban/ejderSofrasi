@@ -1322,6 +1322,28 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the last known status of the companions.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the last known status of the companions.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Source explicitly aliases the named individual İbrahim to Kompi and describes him as a Kompisaurus. Canon identifies the individual as İbrahim (Kompi); do not merge species Kompisaurus.",
       "source_refs": [
@@ -1362,6 +1384,18 @@
         "İbrahim (Kompi)"
       ],
       "after": "CRE-0012"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the party left Cemil, İbrahim and the duck behind; their later fate is unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Kışlada Unutulan Cemil (Papağan) ve İbrahim'in (Kompisaurus) Akıbeti",
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; akıbetleri belirsizdir."
     },
     {
       "kind": "travel_review",
@@ -1447,6 +1481,90 @@
           "entity_ids": []
         },
         "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/12/facts/0"
+        }
+      ],
+      "before": {
+        "from": "Beltis Ana'nın Evi",
+        "to": "Çöl Şehri Gölet Alanı",
+        "via": [
+          "Çöl Şehri Alt Sokakları"
+        ],
+        "party": [
+          "Roary",
+          "İbrahim (Kompisaurus)"
+        ],
+        "transport": "Yürüyerek & Pelerinli"
+      },
+      "after": {
+        "id": "TRV-0026",
+        "episode": "EP14",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0002",
+        "to_id": "NAT-0008",
+        "via_ids": [],
+        "origin": {
+          "label": "Beltis Ana'nın Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri Gölet Alanı",
+          "entity_id": "NAT-0008",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri Alt Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/12/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Pelerinli",
+          "entity_ids": []
+        },
+        "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved."
       }
     },
     {
@@ -1550,9 +1668,308 @@
         },
         "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list."
       }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus; İbrahim remains an individual animal.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/6/a/1"
+        }
+      ],
+      "before": "Individual creature nickname collides with species; keep searchable context but exclude from automatic identity joining.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus; İbrahim remains an individual animal.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/11/a/1"
+        }
+      ],
+      "before": "Individual creature nickname collides with species; do not merge İbrahim into Kompisaurus.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/7/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/11/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/12/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/12/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/11/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/11/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/12/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/29/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand; İbrahim is a named individual Kompisaurus found by Kalender.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": "Kompi names both species and individual nickname; keep individual İbrahim and species Kompisaurus separate.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the last known status of the companions.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the last known status of the companions.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the party left Cemil, İbrahim and the duck behind; their later fate is unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Kışlada Unutulan Cemil (Papağan) ve İbrahim'in (Kompisaurus) Akıbeti",
+      "after": "Cemil, İbrahim ve ördek geride bırakılmıştır; akıbetleri belirsizdir."
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus; İbrahim remains an individual animal.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/6/a/1"
+        }
+      ],
+      "before": "Individual creature nickname collides with species; keep searchable context but exclude from automatic identity joining.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus; İbrahim remains an individual animal.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/11/a/1"
+        }
+      ],
+      "before": "Individual creature nickname collides with species; do not merge İbrahim into Kompisaurus.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/7/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/11/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/12/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/12/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/11/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/11/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/12/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/29/a/1"
+        }
+      ],
+      "before": "Kompi is shared with the species and is not a unique identifier.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand; İbrahim is a named individual Kompisaurus found by Kalender.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": "Kompi names both species and individual nickname; keep individual İbrahim and species Kompisaurus separate.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0009",
@@ -1751,6 +2168,10 @@
       },
       {
         "source_id": "SRC-EP05",
+        "pointer": "/entities/6/a/1"
+      },
+      {
+        "source_id": "SRC-EP05",
         "pointer": "/entities/6/facts/0"
       },
       {
@@ -1775,6 +2196,10 @@
       {
         "source_id": "SRC-EP06",
         "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/11/a/1"
       },
       {
         "source_id": "SRC-EP06",
@@ -1827,6 +2252,10 @@
       },
       {
         "source_id": "SRC-EP11",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP11",
         "pointer": "/entities/7/a/2"
       },
       {
@@ -1859,6 +2288,10 @@
       {
         "source_id": "SRC-EP12",
         "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/11/a/1"
       },
       {
         "source_id": "SRC-EP12",
@@ -1898,6 +2331,10 @@
       {
         "source_id": "SRC-EP14",
         "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12/a/1"
       },
       {
         "source_id": "SRC-EP14",
@@ -1941,6 +2378,10 @@
       },
       {
         "source_id": "SRC-EP14",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP14",
         "pointer": "/travel/2"
       },
       {
@@ -1953,6 +2394,10 @@
       {
         "source_id": "SRC-EP15",
         "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/12/a/1"
       },
       {
         "source_id": "SRC-EP15",
@@ -1979,6 +2424,10 @@
       },
       {
         "source_id": "SRC-EP16",
+        "pointer": "/entities/11/a/1"
+      },
+      {
+        "source_id": "SRC-EP16",
         "pointer": "/entities/11/a/2"
       },
       {
@@ -1999,6 +2448,10 @@
       {
         "source_id": "SRC-EP17",
         "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/11/a/1"
       },
       {
         "source_id": "SRC-EP17",
@@ -2025,6 +2478,10 @@
       },
       {
         "source_id": "SRC-EP19",
+        "pointer": "/entities/12/a/1"
+      },
+      {
+        "source_id": "SRC-EP19",
         "pointer": "/entities/12/a/2"
       },
       {
@@ -2045,6 +2502,10 @@
       {
         "source_id": "SRC-EP20",
         "pointer": "/entities/29/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/29/a/1"
       },
       {
         "source_id": "SRC-EP20",
@@ -2081,8 +2542,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "normalization_decisions": 19,
+      "owner_confirmations": 14,
       "linked_entities": 12
     }
   }

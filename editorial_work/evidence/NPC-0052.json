@@ -178,8 +178,58 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Adnan Körkapak is the person's actual name and O'Rusbu Adnan is the name everyone uses for the same person. Kara Kapak remains a separate former companion.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 17
+        },
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 18
+        },
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/entities/9"
+        }
+      ],
+      "before": [
+        "O'Rusbu Adnan",
+        "Adnan Körkapak",
+        "Körkapak"
+      ],
+      "after": "NPC-0004"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Adnan Körkapak is the person's actual name and O'Rusbu Adnan is the name everyone uses for the same person. Kara Kapak remains a separate former companion.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 17
+        },
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 18
+        },
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/entities/9"
+        }
+      ],
+      "before": [
+        "O'Rusbu Adnan",
+        "Adnan Körkapak",
+        "Körkapak"
+      ],
+      "after": "NPC-0004"
+    }
+  ],
   "linked_entities": [
     {
       "id": "NPC-0004",
@@ -217,6 +267,14 @@
     "review_status": "sufficient_narrative",
     "source_refs": [
       {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 17
+      },
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 18
+      },
+      {
         "source_id": "SRC-EP01",
         "pointer": "/entities/2/facts/2"
       },
@@ -251,8 +309,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 2
     }
   }

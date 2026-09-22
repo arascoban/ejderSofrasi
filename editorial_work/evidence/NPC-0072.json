@@ -268,9 +268,53 @@
         "Opera Sanatçısı Dayı"
       ],
       "after": "NPC-0072"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Opera Sanatçısı Dayı and Operacı Nihat are the same person.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/9"
+        }
+      ],
+      "before": "Opera Sanatçısı Dayı is not explicitly named Operacı Nihat in these episodes. A compatible Canon name alone cannot establish identity.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed Opera Sanatçısı Dayı and Operacı Nihat are the same person.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 78
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/9"
+        }
+      ],
+      "before": [
+        "Operacı Nihat",
+        "Opera Sanatçısı Dayı"
+      ],
+      "after": "NPC-0072"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Opera Sanatçısı Dayı and Operacı Nihat are the same person.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/9"
+        }
+      ],
+      "before": "Opera Sanatçısı Dayı is not explicitly named Operacı Nihat in these episodes. A compatible Canon name alone cannot establish identity.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0002",
@@ -381,8 +425,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 3
     }
   }

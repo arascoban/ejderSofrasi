@@ -285,7 +285,27 @@
       "after": "CRE-0008"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Dev Timsah and Mega Timsah are the same creature.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-BOSSES",
+          "line": 1
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/22"
+        }
+      ],
+      "before": [
+        "Dev Timsah",
+        "Mega Timsah"
+      ],
+      "after": "CRE-0008"
+    }
+  ],
   "linked_entities": [
     {
       "id": "ISL-0001",
@@ -366,7 +386,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 1
     }
   }

@@ -287,8 +287,78 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Toyya's rank.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Yeşim rahipleri arasında alt kademe rütbededir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Tefnut's rank.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Yeşim rahipleri arasında üst kademe rütbededir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed Toyya is lower rank and Tefnut is higher rank.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Toyya ve Tefnut'un Kıyafet Cinsleri ve Rütbeleri",
+      "after": "Toyya alt kademe rahip, Tefnut üst kademe Yeşim rahibesidir."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Toyya's rank.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Yeşim rahipleri arasında alt kademe rütbededir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Tefnut's rank.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Yeşim rahipleri arasında üst kademe rütbededir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed Toyya is lower rank and Tefnut is higher rank.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Toyya ve Tefnut'un Kıyafet Cinsleri ve Rütbeleri",
+      "after": "Toyya alt kademe rahip, Tefnut üst kademe Yeşim rahibesidir."
+    }
+  ],
   "linked_entities": [
     {
       "id": "DRG-0003",
@@ -375,8 +445,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 2
     }
   }

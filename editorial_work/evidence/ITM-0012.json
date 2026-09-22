@@ -740,6 +740,21 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the sword-to-axe transformation and handoff sequence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "after": "Kristal Kılıç'ı demirciden aldı; kılıç her tuttuğunda eline dikenler saplandı ve Kalender onu Akmer'e verdi. Ertesi sabah kılıç Helvacıoğlu Baltası'na dönüştü."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Project owner confirmed the item began as Kristal Kılıç, was handed from Kalender to Akmer, and transformed into Helvacıoğlu Baltası the next morning.",
       "source_refs": [
@@ -757,9 +772,114 @@
         "Kristal Kılıç"
       ],
       "after": "ITM-0012"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        }
+      ],
+      "after": [
+        "Kalender Tütüncüoğlu",
+        "FORMERLY_OWNED",
+        "Helvacıoğlu Baltası"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kristal Kılıç and Helvacıoğlu Baltası are the same transforming item, handed from Kalender to Akmer.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/29/facts/0"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/1/fact"
+        }
+      ],
+      "before": "EP15 describes separately gifted Helvacıoğlu Baltası (Akmer) and Kristal Kılıç (Kalender). EP16 says Kristal Kılıç transforms into the named axe. Preserve both established item IDs and the transformation claim as unresolved item identity, without collapsing the earlier distinct gifts.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the sword-to-axe transformation and handoff sequence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "after": "Kristal Kılıç'ı demirciden aldı; kılıç her tuttuğunda eline dikenler saplandı ve Kalender onu Akmer'e verdi. Ertesi sabah kılıç Helvacıoğlu Baltası'na dönüştü."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed the item began as Kristal Kılıç, was handed from Kalender to Akmer, and transformed into Helvacıoğlu Baltası the next morning.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "before": [
+        "Helvacıoğlu Baltası",
+        "Kristal Kılıç"
+      ],
+      "after": "ITM-0012"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        }
+      ],
+      "after": [
+        "Kalender Tütüncüoğlu",
+        "FORMERLY_OWNED",
+        "Helvacıoğlu Baltası"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kristal Kılıç and Helvacıoğlu Baltası are the same transforming item, handed from Kalender to Akmer.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/29/facts/0"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/1/fact"
+        }
+      ],
+      "before": "EP15 describes separately gifted Helvacıoğlu Baltası (Akmer) and Kristal Kılıç (Kalender). EP16 says Kristal Kılıç transforms into the named axe. Preserve both established item IDs and the transformation claim as unresolved item identity, without collapsing the earlier distinct gifts.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0004",
@@ -1109,8 +1229,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 4,
       "linked_entities": 12
     }
   }

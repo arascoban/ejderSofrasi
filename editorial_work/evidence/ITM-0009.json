@@ -1138,8 +1138,48 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/links/4"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/18/facts/0"
+        }
+      ],
+      "after": [
+        "Akmer",
+        "OWNS",
+        "Durgunluk Buhurdanı"
+      ]
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/links/4"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/18/facts/0"
+        }
+      ],
+      "after": [
+        "Akmer",
+        "OWNS",
+        "Durgunluk Buhurdanı"
+      ]
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0002",
@@ -1615,8 +1655,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 14
     }
   }

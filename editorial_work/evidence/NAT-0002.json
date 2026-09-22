@@ -596,7 +596,179 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Zümrüt Ejderha Şifa Zindanı Girişi",
+        "to": "İdilik Yayla",
+        "via": [
+          "Zümrüt Bronz Kapılar",
+          "5 Nolu Zümrüt Ejderha Küpü"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Büyülü Geçit"
+      },
+      "after": {
+        "id": "TRV-0010",
+        "episode": "EP05",
+        "sequence": 2,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "NAT-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Zümrüt Ejderha Şifa Zindanı Girişi",
+          "entity_id": null,
+          "context_id": "TMP-0003",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "İdilik Yayla",
+          "entity_id": "NAT-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Zümrüt Bronz Kapılar",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "5 Nolu Zümrüt Ejderha Küpü",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Büyülü Geçit",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "İdilik Yayla",
+        "to": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+        "via": [
+          "4 Kollu Yeşim Kapı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Jifa"
+        ],
+        "transport": "Yürüyerek & Tırmanarak"
+      },
+      "after": {
+        "id": "TRV-0011",
+        "episode": "EP06",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0049",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "NAT-0002",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "İdilik Yayla",
+          "entity_id": "NAT-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+          "entity_id": null,
+          "context_id": "TMP-0003",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "4 Kollu Yeşim Kapı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Tırmanarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room."
+      }
+    }
+  ],
   "linked_entities": [
     {
       "id": "NPC-0006",
@@ -757,7 +929,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "owner_confirmations": 2,
       "linked_entities": 5
     }
   }

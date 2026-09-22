@@ -985,6 +985,17 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner identified 5 silver as the likely amount but explicitly marked it uncertain.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Tayfaya haftalık 5 gümüş ödeme/borç miktarı aktarılır; miktarın kesinliği yoktur."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "EP01 explicitly lists the exact Canon name as alias of the captain. This does not identify the separately listed Körkapak or Kara Kapak with the captain.",
       "source_refs": [
@@ -1024,7 +1035,43 @@
       "after": "NPC-0004"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner identified 5 silver as the likely amount but explicitly marked it uncertain.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Tayfaya haftalık 5 gümüş ödeme/borç miktarı aktarılır; miktarın kesinliği yoktur."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Adnan Körkapak is the person's actual name and O'Rusbu Adnan is the name everyone uses for the same person. Kara Kapak remains a separate former companion.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 17
+        },
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 18
+        },
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/entities/9"
+        }
+      ],
+      "before": [
+        "O'Rusbu Adnan",
+        "Adnan Körkapak",
+        "Körkapak"
+      ],
+      "after": "NPC-0004"
+    }
+  ],
   "linked_entities": [
     {
       "id": "ITM-0011",
@@ -1311,8 +1358,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 2,
       "linked_entities": 5
     }
   }

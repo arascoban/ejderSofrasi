@@ -338,8 +338,220 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the loot composition and left the exact total unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Sandık ve yağmalama sonucunda 5000'den fazla altın ile büyülü yüzükler, kolyeler ve başka karışık değerli ganimetler elde edilmiştir; toplam miktar kesin değildir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner clarified that the loot exceeds 5000 gold and includes mixed-value magical jewelry, but the exact amount is unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Hulusi'nin Altın Çuvalındaki Gerçek Miktar",
+      "after": "5000'den fazla altın ve büyülü yüzükler/kolyeler gibi karışık değerli ganimet vardır; tam miktar bilinmiyor."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/2/facts/3"
+        }
+      ],
+      "after": [
+        "Ariflerin Yumruğu",
+        "OWNS",
+        "Hulusi'nin Altın Sandığı"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        }
+      ],
+      "after": [
+        "Roary",
+        "POSSESSES",
+        "Hulusi'nin Altın Sandığı"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed İto and Roary took the chest and gold, and the recovered gold became shared group property.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/2/facts/3"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/links/6"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/links/11"
+        }
+      ],
+      "before": "Hulusi's chest belonged to Hulusi, but the record describes İto/Roary taking its gold into bags; chest ownership is not proven to transfer.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner clarified the loot total without fixing an exact amount.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/2/facts/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/30/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "EP22 chest and looting facts give 3400 gold while EP23 reports 5000+ and uncertainty lists 5799; preserve values and evidence without choosing a total.",
+      "after": "CANON_UNCERTAIN: the group had more than 5000 gold plus mixed-value loot such as enchanted rings and necklaces; the exact total is unknown."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the loot composition and left the exact total unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Sandık ve yağmalama sonucunda 5000'den fazla altın ile büyülü yüzükler, kolyeler ve başka karışık değerli ganimetler elde edilmiştir; toplam miktar kesin değildir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner clarified that the loot exceeds 5000 gold and includes mixed-value magical jewelry, but the exact amount is unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Hulusi'nin Altın Çuvalındaki Gerçek Miktar",
+      "after": "5000'den fazla altın ve büyülü yüzükler/kolyeler gibi karışık değerli ganimet vardır; tam miktar bilinmiyor."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/2/facts/3"
+        }
+      ],
+      "after": [
+        "Ariflerin Yumruğu",
+        "OWNS",
+        "Hulusi'nin Altın Sandığı"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        }
+      ],
+      "after": [
+        "Roary",
+        "POSSESSES",
+        "Hulusi'nin Altın Sandığı"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed İto and Roary took the chest and gold, and the recovered gold became shared group property.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/2/facts/3"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/links/6"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/links/11"
+        }
+      ],
+      "before": "Hulusi's chest belonged to Hulusi, but the record describes İto/Roary taking its gold into bags; chest ownership is not proven to transfer.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner clarified the loot total without fixing an exact amount.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/2/facts/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/30/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "EP22 chest and looting facts give 3400 gold while EP23 reports 5000+ and uncertainty lists 5799; preserve values and evidence without choosing a total.",
+      "after": "CANON_UNCERTAIN: the group had more than 5000 gold plus mixed-value loot such as enchanted rings and necklaces; the exact total is unknown."
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0006",
@@ -467,6 +679,14 @@
       },
       {
         "source_id": "SRC-EP23",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/30/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
         "pointer": "/uncertainties/0"
       }
     ],
@@ -481,8 +701,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 6,
       "linked_entities": 5
     }
   }

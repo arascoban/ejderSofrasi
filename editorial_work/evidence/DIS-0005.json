@@ -904,6 +904,70 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the middle commercial city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": "CIT-0008"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the upper royal and Arifler city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "CIT-0009"
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the canonical three-city vertical structure of Yaz Helvası Şehri.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "Yaz Helvası Şehri, çölde başlayıp dağın tepesine yükselen üç bağlı şehirden oluşur. Şehirler arasında surlar ve kapılar bulunur; büyülü zipline hatları ve büyük ana yol şehirleri birbirine bağlar."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Üst Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
       "kind": "travel_review",
       "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list.",
       "source_refs": [
@@ -1006,7 +1070,72 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the middle commercial city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": "CIT-0008"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the upper royal and Arifler city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "CIT-0009"
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the canonical three-city vertical structure of Yaz Helvası Şehri.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "Yaz Helvası Şehri, çölde başlayıp dağın tepesine yükselen üç bağlı şehirden oluşur. Şehirler arasında surlar ve kapılar bulunur; büyülü zipline hatları ve büyük ana yol şehirleri birbirine bağlar."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Üst Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0018",
@@ -1093,11 +1222,19 @@
     "source_refs": [
       {
         "source_id": "SRC-EP08",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
         "pointer": "/entities/12"
       },
       {
         "source_id": "SRC-EP08",
         "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/1"
       },
       {
         "source_id": "SRC-EP08"
@@ -1290,8 +1427,8 @@
       "map_constraints": 5,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 4,
       "linked_entities": 6
     }
   }

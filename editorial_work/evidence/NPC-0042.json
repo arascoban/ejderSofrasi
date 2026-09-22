@@ -724,8 +724,50 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner clarified the loot total without fixing an exact amount.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/2/facts/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/30/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "EP22 chest and looting facts give 3400 gold while EP23 reports 5000+ and uncertainty lists 5799; preserve values and evidence without choosing a total.",
+      "after": "CANON_UNCERTAIN: the group had more than 5000 gold plus mixed-value loot such as enchanted rings and necklaces; the exact total is unknown."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner clarified the loot total without fixing an exact amount.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/2/facts/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/30/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "EP22 chest and looting facts give 3400 gold while EP23 reports 5000+ and uncertainty lists 5799; preserve values and evidence without choosing a total.",
+      "after": "CANON_UNCERTAIN: the group had more than 5000 gold plus mixed-value loot such as enchanted rings and necklaces; the exact total is unknown."
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0006",
@@ -984,6 +1026,10 @@
       },
       {
         "source_id": "SRC-EP23",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
         "pointer": "/entities/30"
       },
       {
@@ -993,6 +1039,10 @@
       {
         "source_id": "SRC-EP23",
         "pointer": "/entities/30/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/uncertainties/0"
       },
       {
         "source_id": "SRC-EP23"
@@ -1009,8 +1059,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 9
     }
   }

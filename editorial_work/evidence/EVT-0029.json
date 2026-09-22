@@ -113,15 +113,103 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Helvanar Kıtası and Helva Adası are the same enormous island; the continent label describes its scale.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 13
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/25"
+        }
+      ],
+      "before": [
+        "Helvanar Kıtası",
+        "Helva Adası"
+      ],
+      "after": "CON-0001"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the exact historical date represented by Gümüş Ejderha 1673 is not known.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/lore/2"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Gümüş Ejderha 1673 is a named local calendar; do not numerically equate it with circa1600 world era. EP08 explicitly associates it with pre-loss circa1300 Helvanar.",
+      "after": "CANON_UNCERTAIN: 1673 is retained as a named local calendar/date reference; its conversion to the world historical eras is unknown."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Helvanar Kıtası and Helva Adası are the same enormous island; the continent label describes its scale.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 13
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/25"
+        }
+      ],
+      "before": [
+        "Helvanar Kıtası",
+        "Helva Adası"
+      ],
+      "after": "CON-0001"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the exact historical date represented by Gümüş Ejderha 1673 is not known.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/lore/2"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Gümüş Ejderha 1673 is a named local calendar; do not numerically equate it with circa1600 world era. EP08 explicitly associates it with pre-loss circa1300 Helvanar.",
+      "after": "CANON_UNCERTAIN: 1673 is retained as a named local calendar/date reference; its conversion to the world historical eras is unknown."
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
       {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 13
+      },
+      {
         "source_id": "SRC-EP08",
         "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/25"
       },
       {
         "source_id": "SRC-EP08",
@@ -129,7 +217,15 @@
       },
       {
         "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
         "pointer": "/lore/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/uncertainties/0"
       },
       {
         "source_id": "SRC-EP08"
@@ -146,8 +242,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 0
     }
   }

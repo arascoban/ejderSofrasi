@@ -323,6 +323,85 @@
       "after": "CIT-0007"
     },
     {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the middle commercial city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": "CIT-0008"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that the city commonly described as Çöl Şehri is Yaz Helvası Şehri, the historical capital of Yaz Helvası Krallığı.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": [
+        "Çöl Şehri",
+        "Yaz Helvası Şehri"
+      ],
+      "after": "CIT-0006"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "BORDERS",
+        "Helvanar Çölü"
+      ]
+    },
+    {
       "kind": "travel_review",
       "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka.",
       "source_refs": [
@@ -413,7 +492,192 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the lower desert-facing city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": "CIT-0007"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the middle commercial city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": "CIT-0008"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that the city commonly described as Çöl Şehri is Yaz Helvası Şehri, the historical capital of Yaz Helvası Krallığı.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": [
+        "Çöl Şehri",
+        "Yaz Helvası Şehri"
+      ],
+      "after": "CIT-0006"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "BORDERS",
+        "Helvanar Çölü"
+      ]
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Zümrüt Ejderha Şifa Tapınağı",
+        "to": "Çöl Şehri",
+        "via": [
+          "Beyaz-Sarı Damarlı Merdivenler",
+          "Terk Edilmiş Ahşap Baraka"
+        ],
+        "party": [
+          "Akmer",
+          "Roary",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0013",
+        "episode": "EP07",
+        "sequence": 1,
+        "period": null,
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "TMP-0003",
+        "to_id": "CIT-0006",
+        "via_ids": [],
+        "origin": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı",
+          "entity_id": "TMP-0003",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri",
+          "entity_id": "CIT-0006",
+          "resolution": "exact",
+          "reviewed_context_id": "CIT-0007"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Beyaz-Sarı Damarlı Merdivenler",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Terk Edilmiş Ahşap Baraka",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "temporal_transition",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "from_period": "1600 civarı",
+        "to_period": "1300 civarı",
+        "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka."
+      }
+    }
+  ],
   "linked_entities": [
     {
       "id": "CIT-0006",
@@ -464,6 +728,10 @@
         "pointer": "/travel/0"
       },
       {
+        "source_id": "SRC-EP07",
+        "pointer": "/uncertainties/0"
+      },
+      {
         "source_id": "SRC-EP07"
       },
       {
@@ -476,6 +744,10 @@
       },
       {
         "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/23/facts/0"
       },
       {
         "source_id": "SRC-EP17",
@@ -496,8 +768,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 7,
+      "owner_confirmations": 7,
       "linked_entities": 3
     }
   }

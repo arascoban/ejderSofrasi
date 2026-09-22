@@ -294,9 +294,53 @@
         "Gavurdağı Golemi"
       ],
       "after": "CRE-0014"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kainatın Salatası and Gavurdağı Golemi are the same creature.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/7"
+        }
+      ],
+      "before": "Canon boss Kainatın Salatası may be Gavurdağı Golemi but no source alias establishes this; similarity of salad theme is insufficient.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed Kainatın Salatası and Gavurdağı Golemi are the same creature.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-BOSSES",
+          "line": 5
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/7"
+        }
+      ],
+      "before": [
+        "Kainatın Salatası",
+        "Gavurdağı Golemi"
+      ],
+      "after": "CRE-0014"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kainatın Salatası and Gavurdağı Golemi are the same creature.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/7"
+        }
+      ],
+      "before": "Canon boss Kainatın Salatası may be Gavurdağı Golemi but no source alias establishes this; similarity of salad theme is insufficient.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "ITM-0002",
@@ -397,8 +441,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 2
     }
   }

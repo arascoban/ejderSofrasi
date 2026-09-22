@@ -597,6 +597,33 @@
       "after": "NPC-0014"
     },
     {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "The early house belongs to the mother of the healed daughter; EP14 identifies that host as Beltis Ana and continues the party’s refuge there. Source-specific interior facts remain separate claims.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/25/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/links/18"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/24/facts/0"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/4/facts/0"
+        }
+      ],
+      "before": [
+        "Teyze'nin Evi",
+        "Beltis Ana'nın Evi"
+      ],
+      "after": "BLD-0002"
+    },
+    {
       "kind": "travel_review",
       "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
       "source_refs": [
@@ -687,7 +714,98 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 2. Bölge Sokakları",
+        "to": "Teyze'nin Evi",
+        "via": [
+          "Pazar Yeri Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Teyze (Hasta Kızın Annesi)",
+          "Halk Kalabalığı"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0022",
+        "episode": "EP12",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0014",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "BLD-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge Sokakları",
+          "entity_id": null,
+          "context_id": "DIS-0004",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pazar Yeri Sokakları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Halk Kalabalığı",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail."
+      }
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0002",
@@ -775,6 +893,10 @@
       },
       {
         "source_id": "SRC-EP12",
+        "pointer": "/entities/25/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
         "pointer": "/entities/3/facts/2"
       },
       {
@@ -823,6 +945,10 @@
       },
       {
         "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/24/facts/0"
       },
       {
         "source_id": "SRC-EP14",
@@ -894,8 +1020,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 1,
       "linked_entities": 5
     }
   }

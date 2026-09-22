@@ -1146,7 +1146,27 @@
       "after": "ITM-0036"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Büyülü Taç and Işık Tacı are the same item.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-ITEMS",
+          "line": 5
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/12"
+        }
+      ],
+      "before": [
+        "Işık Tacı",
+        "Büyülü Taç"
+      ],
+      "after": "ITM-0036"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0023",
@@ -1587,7 +1607,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 11
     }
   }

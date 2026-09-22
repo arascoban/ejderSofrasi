@@ -1171,6 +1171,32 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the cup's custody and loss during the escape.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Azize'nin Gözyaşları Kadehi hep Roary'deydi; gördüğü kâbusların etkisiyle odasında kadehi fırlattı ve ekip Yaz Helvası Şehri'nden kaçarken kadehi alamadı."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the curse mechanism and why Roary threw the cup.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        }
+      ],
+      "after": "Kadeh lanetlidir; Azize’nin son anlarında yaşadığı eziyeti kullanıcısına rüya yoluyla tekrar tekrar yaşatır. Roary bu rüyanın ardından kadehi fırlatmıştır."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Canon exact item title agrees with distinctive source possessive name; source adds an apostrophe and descriptive container suffix Kadehi. This is spelling/title normalization, not an identity inference from magical function.",
       "source_refs": [
@@ -1184,9 +1210,98 @@
         "Azizenin Gözyaşları"
       ],
       "after": "ITM-0004"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": [
+        "Roary",
+        "OWNS",
+        "Azize'nin Gözyaşları Kadehi"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed the priestess massacre is a curse-induced dream caused by Azizenin Gözyaşları; it is not independently dated as a circa-1300 event.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        }
+      ],
+      "before": "EP16 Roary sees a priestess’s wedding massacre and transformation in a dream; the source does not supply an absolute date or independently verify the vision. Store as revelation, not an occurred circa-1300 massacre.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the cup's custody and loss during the escape.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Azize'nin Gözyaşları Kadehi hep Roary'deydi; gördüğü kâbusların etkisiyle odasında kadehi fırlattı ve ekip Yaz Helvası Şehri'nden kaçarken kadehi alamadı."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the curse mechanism and why Roary threw the cup.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        }
+      ],
+      "after": "Kadeh lanetlidir; Azize’nin son anlarında yaşadığı eziyeti kullanıcısına rüya yoluyla tekrar tekrar yaşatır. Roary bu rüyanın ardından kadehi fırlatmıştır."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": [
+        "Roary",
+        "OWNS",
+        "Azize'nin Gözyaşları Kadehi"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed the priestess massacre is a curse-induced dream caused by Azizenin Gözyaşları; it is not independently dated as a circa-1300 event.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/3/facts/2"
+        }
+      ],
+      "before": "EP16 Roary sees a priestess’s wedding massacre and transformation in a dream; the source does not supply an absolute date or independently verify the vision. Store as revelation, not an occurred circa-1300 massacre.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0002",
@@ -1702,8 +1817,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 4,
       "linked_entities": 14
     }
   }

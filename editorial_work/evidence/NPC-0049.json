@@ -627,6 +627,29 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified Jifa's age and long temple service.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "after": "Yaşı bilinmemektedir; tapınakta çok uzun süredir nöbet tutmaktadır."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed that Jifa's exact age is unknown, while her long service at the temple is canonical.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "before": "Jifa'nın Gerçek Yaşı ve Dönemi",
+      "after": "Jifa'nın yaşı bilinmiyor; tapınakta çok uzun süredir nöbet tuttuğu kanondur."
+    },
+    {
       "kind": "travel_review",
       "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
       "source_refs": [
@@ -708,9 +731,172 @@
         },
         "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room."
       }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the nature and location of the ruins have not yet been explained in the continuing story.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/5/facts/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/7/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/12/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/links/15"
+        }
+      ],
+      "before": "Ruins may be a temple trial illusion, a buried physical ruin, or a timeless pocket. Source literal LOCATED_IN Helvanar is disputed by explicit uncertainty. Oasis appearance does not prove identity with ruins.",
+      "after": "CANON_UNCERTAIN: the ruins' physical or dimensional location remains unexplained."
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified Jifa's age and long temple service.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "after": "Yaşı bilinmemektedir; tapınakta çok uzun süredir nöbet tutmaktadır."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed that Jifa's exact age is unknown, while her long service at the temple is canonical.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "before": "Jifa'nın Gerçek Yaşı ve Dönemi",
+      "after": "Jifa'nın yaşı bilinmiyor; tapınakta çok uzun süredir nöbet tuttuğu kanondur."
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "İdilik Yayla",
+        "to": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+        "via": [
+          "4 Kollu Yeşim Kapı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Jifa"
+        ],
+        "transport": "Yürüyerek & Tırmanarak"
+      },
+      "after": {
+        "id": "TRV-0011",
+        "episode": "EP06",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0049",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "NAT-0002",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "İdilik Yayla",
+          "entity_id": "NAT-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+          "entity_id": null,
+          "context_id": "TMP-0003",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "4 Kollu Yeşim Kapı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Tırmanarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room."
+      }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the nature and location of the ruins have not yet been explained in the continuing story.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/5/facts/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/7/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/12/facts/0"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/uncertainties/1"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/links/15"
+        }
+      ],
+      "before": "Ruins may be a temple trial illusion, a buried physical ruin, or a timeless pocket. Source literal LOCATED_IN Helvanar is disputed by explicit uncertainty. Oasis appearance does not prove identity with ruins.",
+      "after": "CANON_UNCERTAIN: the ruins' physical or dimensional location remains unexplained."
+    }
+  ],
   "linked_entities": [
     {
       "id": "NAT-0002",
@@ -874,6 +1060,10 @@
       },
       {
         "source_id": "SRC-EP23",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
         "pointer": "/entities/3/facts/4"
       },
       {
@@ -902,7 +1092,19 @@
       },
       {
         "source_id": "SRC-EP23",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP23",
         "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/uncertainties/1"
       },
       {
         "source_id": "SRC-EP23"
@@ -919,8 +1121,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 4,
       "linked_entities": 5
     }
   }

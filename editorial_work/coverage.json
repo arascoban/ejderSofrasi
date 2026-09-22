@@ -461,7 +461,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "owner_confirmations": 2,
       "linked_entities": 12
     },
     {
@@ -483,7 +483,7 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
+      "normalization_decisions": 3,
       "owner_confirmations": 0,
       "linked_entities": 9
     },
@@ -530,7 +530,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "owner_confirmations": 2,
       "linked_entities": 8
     },
     {
@@ -552,8 +552,8 @@
       "map_constraints": 4,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 4,
       "linked_entities": 20
     },
     {
@@ -656,7 +656,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/BLD-0012.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 9,
+      "source_ref_count": 12,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -667,8 +667,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 4,
       "linked_entities": 5
     },
     {
@@ -760,7 +760,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 9
     },
     {
@@ -806,7 +806,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 6,
-      "owner_confirmations": 0,
+      "owner_confirmations": 4,
       "linked_entities": 19
     },
     {
@@ -817,7 +817,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/BLD-0019.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 6,
+      "source_ref_count": 7,
       "facts": 1,
       "relationships_outgoing": 1,
       "relationships_incoming": 0,
@@ -828,8 +828,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 3
     },
     {
@@ -840,7 +840,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/BLD-0020.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 49,
+      "source_ref_count": 51,
       "facts": 5,
       "relationships_outgoing": 1,
       "relationships_incoming": 7,
@@ -851,8 +851,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 3,
-      "owner_confirmations": 0,
+      "normalization_decisions": 11,
+      "owner_confirmations": 10,
       "linked_entities": 9
     },
     {
@@ -909,7 +909,7 @@
       "record_status": "editorial_entity_split",
       "package_path": "evidence/BLD-0023.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 85,
+      "source_ref_count": 88,
       "facts": 0,
       "relationships_outgoing": 2,
       "relationships_incoming": 15,
@@ -920,8 +920,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 11,
-      "owner_confirmations": 0,
+      "normalization_decisions": 13,
+      "owner_confirmations": 3,
       "linked_entities": 18
     },
     {
@@ -955,7 +955,7 @@
       "record_status": "editorial_entity_split",
       "package_path": "evidence/BLD-0025.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 6,
       "facts": 1,
       "relationships_outgoing": 1,
       "relationships_incoming": 0,
@@ -966,8 +966,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 6,
       "linked_entities": 1
     },
     {
@@ -1104,8 +1104,8 @@
       "map_constraints": 13,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 7,
-      "owner_confirmations": 0,
+      "normalization_decisions": 20,
+      "owner_confirmations": 15,
       "linked_entities": 37
     },
     {
@@ -1116,7 +1116,7 @@
       "record_status": "editorial_entity_split",
       "package_path": "evidence/CIT-0007.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 8,
+      "source_ref_count": 10,
       "facts": 1,
       "relationships_outgoing": 4,
       "relationships_incoming": 0,
@@ -1127,8 +1127,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 7,
+      "owner_confirmations": 7,
       "linked_entities": 3
     },
     {
@@ -1139,7 +1139,7 @@
       "record_status": "editorial_entity_split",
       "package_path": "evidence/CIT-0008.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 9,
+      "source_ref_count": 11,
       "facts": 2,
       "relationships_outgoing": 3,
       "relationships_incoming": 2,
@@ -1150,8 +1150,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 11,
+      "owner_confirmations": 11,
       "linked_entities": 4
     },
     {
@@ -1173,8 +1173,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 7,
+      "owner_confirmations": 7,
       "linked_entities": 2
     },
     {
@@ -1185,7 +1185,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/CON-0001.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 110,
+      "source_ref_count": 112,
       "facts": 3,
       "relationships_outgoing": 0,
       "relationships_incoming": 5,
@@ -1196,8 +1196,8 @@
       "map_constraints": 6,
       "world_states": 2,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 6,
       "linked_entities": 7
     },
     {
@@ -1266,7 +1266,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 8
     },
     {
@@ -1277,7 +1277,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/CRE-0003.json",
       "review_status": "source_review_required",
-      "source_ref_count": 55,
+      "source_ref_count": 56,
       "facts": 15,
       "relationships_outgoing": 2,
       "relationships_incoming": 0,
@@ -1288,7 +1288,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 1,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 2
     },
@@ -1381,7 +1381,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 1
     },
     {
@@ -1438,7 +1438,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/CRE-0012.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 87,
+      "source_ref_count": 98,
       "facts": 18,
       "relationships_outgoing": 3,
       "relationships_incoming": 1,
@@ -1449,8 +1449,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "normalization_decisions": 19,
+      "owner_confirmations": 14,
       "linked_entities": 12
     },
     {
@@ -1495,8 +1495,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 2
     },
     {
@@ -1530,7 +1530,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/CRE-0016.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 8,
+      "source_ref_count": 11,
       "facts": 2,
       "relationships_outgoing": 1,
       "relationships_incoming": 1,
@@ -1541,8 +1541,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 5,
       "linked_entities": 2
     },
     {
@@ -1564,8 +1564,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 2
     },
     {
@@ -1737,7 +1737,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/CRE-0026.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 27,
+      "source_ref_count": 31,
       "facts": 4,
       "relationships_outgoing": 2,
       "relationships_incoming": 0,
@@ -1748,8 +1748,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 3,
       "linked_entities": 8
     },
     {
@@ -1794,8 +1794,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 1,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 7,
+      "owner_confirmations": 5,
       "linked_entities": 7
     },
     {
@@ -2024,8 +2024,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 33
     },
     {
@@ -2082,7 +2082,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/DEI-0014.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 5,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -2093,8 +2093,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -2277,8 +2277,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 1,
       "linked_entities": 1
     },
     {
@@ -2300,8 +2300,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 1,
       "linked_entities": 1
     },
     {
@@ -2335,7 +2335,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/DIS-0002.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 7,
+      "source_ref_count": 8,
       "facts": 1,
       "relationships_outgoing": 1,
       "relationships_incoming": 0,
@@ -2346,7 +2346,7 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 4
     },
@@ -2370,7 +2370,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 11
     },
     {
@@ -2393,7 +2393,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "owner_confirmations": 3,
       "linked_entities": 11
     },
     {
@@ -2404,7 +2404,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/DIS-0005.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 49,
+      "source_ref_count": 51,
       "facts": 5,
       "relationships_outgoing": 1,
       "relationships_incoming": 4,
@@ -2415,8 +2415,8 @@
       "map_constraints": 5,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 4,
       "linked_entities": 6
     },
     {
@@ -2485,7 +2485,7 @@
       "world_states": 0,
       "conflicts": 1,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -2496,7 +2496,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/DRG-0003.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 36,
+      "source_ref_count": 38,
       "facts": 6,
       "relationships_outgoing": 0,
       "relationships_incoming": 3,
@@ -2507,8 +2507,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 7
     },
     {
@@ -2611,7 +2611,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/DRG-0009.json",
       "review_status": "source_review_required",
-      "source_ref_count": 6,
+      "source_ref_count": 10,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -2622,8 +2622,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 1,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 4,
       "linked_entities": 0
     },
     {
@@ -2726,7 +2726,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/DRG-0014.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 95,
+      "source_ref_count": 96,
       "facts": 19,
       "relationships_outgoing": 4,
       "relationships_incoming": 3,
@@ -2737,8 +2737,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 4,
       "linked_entities": 16
     },
     {
@@ -2841,7 +2841,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0002.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 4,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -2852,7 +2852,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -3082,8 +3082,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -3094,7 +3094,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0013.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 6,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -3105,8 +3105,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -3243,8 +3243,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 0
     },
     {
@@ -3393,7 +3393,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0026.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 5,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -3404,8 +3404,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 5,
       "linked_entities": 0
     },
     {
@@ -3462,7 +3462,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0029.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 8,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -3473,8 +3473,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 0
     },
     {
@@ -3600,7 +3600,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0035.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 6,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -3611,7 +3611,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -3623,7 +3623,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0036.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 9,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -3634,8 +3634,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 3,
       "linked_entities": 0
     },
     {
@@ -3646,7 +3646,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0037.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 2,
+      "source_ref_count": 3,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -3657,7 +3657,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 2,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -3669,7 +3669,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0038.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 5,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -3680,7 +3680,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 2,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -3726,8 +3726,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 0
     },
     {
@@ -3853,7 +3853,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0046.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 2,
+      "source_ref_count": 3,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -3864,8 +3864,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -3876,7 +3876,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0047.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 6,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -3887,7 +3887,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -3945,7 +3945,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0050.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 2,
+      "source_ref_count": 4,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -3956,7 +3956,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -4002,8 +4002,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -4014,7 +4014,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0053.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 6,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4025,8 +4025,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 0
     },
     {
@@ -4083,7 +4083,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0056.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 7,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4094,8 +4094,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -4129,7 +4129,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0058.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 7,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4140,8 +4140,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -4175,7 +4175,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0060.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 5,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4186,7 +4186,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -4244,7 +4244,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0063.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 7,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4255,8 +4255,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 2,
       "linked_entities": 0
     },
     {
@@ -4336,7 +4336,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0067.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 4,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4347,8 +4347,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -4428,7 +4428,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0071.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 8,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4439,8 +4439,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -4451,7 +4451,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0072.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 6,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4462,7 +4462,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -4600,8 +4600,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 0
     },
     {
@@ -4635,7 +4635,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0080.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 3,
+      "source_ref_count": 7,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4646,7 +4646,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -4658,7 +4658,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0081.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 6,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4669,8 +4669,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 5,
       "linked_entities": 0
     },
     {
@@ -4704,7 +4704,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0083.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 5,
+      "source_ref_count": 8,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4715,8 +4715,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 1,
       "linked_entities": 0
     },
     {
@@ -4727,7 +4727,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0084.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 6,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4738,8 +4738,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 0
     },
     {
@@ -4749,6 +4749,29 @@
       "type": "HISTORICAL_EVENT",
       "record_status": "source_event",
       "package_path": "evidence/EVT-0085.json",
+      "review_status": "sufficient_narrative",
+      "source_ref_count": 6,
+      "facts": 1,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
+      "linked_entities": 0
+    },
+    {
+      "entity_id": "EVT-0086",
+      "slug": "bakimevi-hucresinin-ortaya-cikarilmasi",
+      "name": "Bakımevi hücresinin ortaya çıkarılması",
+      "type": "HISTORICAL_EVENT",
+      "record_status": "source_event",
+      "package_path": "evidence/EVT-0086.json",
       "review_status": "sufficient_narrative",
       "source_ref_count": 5,
       "facts": 1,
@@ -4761,30 +4784,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
-      "linked_entities": 0
-    },
-    {
-      "entity_id": "EVT-0086",
-      "slug": "bakimevi-hucresinin-ortaya-cikarilmasi",
-      "name": "Bakımevi hücresinin ortaya çıkarılması",
-      "type": "HISTORICAL_EVENT",
-      "record_status": "source_event",
-      "package_path": "evidence/EVT-0086.json",
-      "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
-      "facts": 1,
-      "relationships_outgoing": 0,
-      "relationships_incoming": 0,
-      "timeline_events": 0,
-      "travel_records": 0,
-      "lore_records": 0,
-      "episode_records": 1,
-      "map_constraints": 0,
-      "world_states": 0,
-      "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -4796,7 +4796,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0087.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 5,
+      "source_ref_count": 7,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4807,8 +4807,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 4,
       "linked_entities": 0
     },
     {
@@ -4865,7 +4865,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0090.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 2,
+      "source_ref_count": 3,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4876,8 +4876,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 4,
       "linked_entities": 0
     },
     {
@@ -4888,7 +4888,7 @@
       "record_status": "source_event",
       "package_path": "evidence/EVT-0091.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 4,
+      "source_ref_count": 5,
       "facts": 1,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -4899,7 +4899,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     },
@@ -4991,8 +4991,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 3
     },
     {
@@ -5152,8 +5152,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 4,
       "linked_entities": 20
     },
     {
@@ -5210,7 +5210,7 @@
       "record_status": "canon_only",
       "package_path": "evidence/ISL-0005.json",
       "review_status": "short_entry",
-      "source_ref_count": 2,
+      "source_ref_count": 3,
       "facts": 0,
       "relationships_outgoing": 0,
       "relationships_incoming": 1,
@@ -5221,8 +5221,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 1
     },
     {
@@ -5244,7 +5244,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 1
     },
@@ -5313,8 +5313,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 4,
       "linked_entities": 14
     },
     {
@@ -5382,8 +5382,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 14
     },
     {
@@ -5428,8 +5428,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 4
     },
     {
@@ -5451,8 +5451,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 4,
       "linked_entities": 12
     },
     {
@@ -5463,7 +5463,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/ITM-0013.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 12,
+      "source_ref_count": 14,
       "facts": 3,
       "relationships_outgoing": 1,
       "relationships_incoming": 4,
@@ -5474,8 +5474,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 6,
       "linked_entities": 5
     },
     {
@@ -5727,7 +5727,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 1
     },
@@ -5831,7 +5831,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/ITM-0030.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 9,
+      "source_ref_count": 12,
       "facts": 1,
       "relationships_outgoing": 1,
       "relationships_incoming": 0,
@@ -5842,8 +5842,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 2,
       "linked_entities": 5
     },
     {
@@ -5865,8 +5865,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 10
     },
     {
@@ -5911,8 +5911,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 3,
       "linked_entities": 7
     },
     {
@@ -5958,7 +5958,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 11
     },
     {
@@ -5969,7 +5969,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/ITM-0037.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 9,
+      "source_ref_count": 10,
       "facts": 2,
       "relationships_outgoing": 1,
       "relationships_incoming": 2,
@@ -5980,8 +5980,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 8
     },
     {
@@ -6153,7 +6153,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/KNG-0008.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 146,
+      "source_ref_count": 152,
       "facts": 16,
       "relationships_outgoing": 4,
       "relationships_incoming": 16,
@@ -6164,8 +6164,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 21,
+      "owner_confirmations": 19,
       "linked_entities": 19
     },
     {
@@ -6395,7 +6395,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "owner_confirmations": 2,
       "linked_entities": 5
     },
     {
@@ -6441,7 +6441,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 10
     },
     {
@@ -6452,7 +6452,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NAT-0005.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 6,
+      "source_ref_count": 10,
       "facts": 1,
       "relationships_outgoing": 1,
       "relationships_incoming": 0,
@@ -6463,8 +6463,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 5
     },
     {
@@ -6487,7 +6487,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 2
     },
     {
@@ -6624,8 +6624,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 2,
       "linked_entities": 5
     },
     {
@@ -6659,7 +6659,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0006.json",
       "review_status": "source_review_required",
-      "source_ref_count": 512,
+      "source_ref_count": 516,
       "facts": 92,
       "relationships_outgoing": 38,
       "relationships_incoming": 4,
@@ -6670,8 +6670,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 5,
-      "normalization_decisions": 24,
-      "owner_confirmations": 0,
+      "normalization_decisions": 31,
+      "owner_confirmations": 20,
       "linked_entities": 51
     },
     {
@@ -6693,8 +6693,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 4,
       "linked_entities": 4
     },
     {
@@ -6843,7 +6843,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0014.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 30,
+      "source_ref_count": 32,
       "facts": 6,
       "relationships_outgoing": 2,
       "relationships_incoming": 0,
@@ -6854,8 +6854,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 1,
       "linked_entities": 5
     },
     {
@@ -6924,7 +6924,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 4
     },
     {
@@ -7039,7 +7039,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 2
     },
     {
@@ -7050,7 +7050,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0023.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 85,
+      "source_ref_count": 90,
       "facts": 18,
       "relationships_outgoing": 8,
       "relationships_incoming": 4,
@@ -7061,8 +7061,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 11,
+      "owner_confirmations": 8,
       "linked_entities": 16
     },
     {
@@ -7073,7 +7073,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0024.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 20,
+      "source_ref_count": 21,
       "facts": 5,
       "relationships_outgoing": 2,
       "relationships_incoming": 0,
@@ -7084,8 +7084,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 4,
       "linked_entities": 10
     },
     {
@@ -7096,7 +7096,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0025.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 9,
+      "source_ref_count": 11,
       "facts": 3,
       "relationships_outgoing": 1,
       "relationships_incoming": 1,
@@ -7107,8 +7107,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 2,
       "linked_entities": 2
     },
     {
@@ -7372,7 +7372,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0037.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 9,
+      "source_ref_count": 11,
       "facts": 2,
       "relationships_outgoing": 1,
       "relationships_incoming": 1,
@@ -7383,7 +7383,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 4
     },
@@ -7487,7 +7487,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0042.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 35,
+      "source_ref_count": 37,
       "facts": 7,
       "relationships_outgoing": 5,
       "relationships_incoming": 4,
@@ -7498,8 +7498,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 9
     },
     {
@@ -7579,7 +7579,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0046.json",
       "review_status": "source_review_required",
-      "source_ref_count": 403,
+      "source_ref_count": 408,
       "facts": 83,
       "relationships_outgoing": 34,
       "relationships_incoming": 4,
@@ -7590,8 +7590,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 8,
-      "normalization_decisions": 22,
-      "owner_confirmations": 0,
+      "normalization_decisions": 33,
+      "owner_confirmations": 25,
       "linked_entities": 50
     },
     {
@@ -7625,7 +7625,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0049.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 29,
+      "source_ref_count": 33,
       "facts": 10,
       "relationships_outgoing": 3,
       "relationships_incoming": 0,
@@ -7636,8 +7636,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 4,
       "linked_entities": 5
     },
     {
@@ -7660,7 +7660,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 2
     },
     {
@@ -7671,7 +7671,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0051.json",
       "review_status": "source_review_required",
-      "source_ref_count": 515,
+      "source_ref_count": 520,
       "facts": 115,
       "relationships_outgoing": 38,
       "relationships_incoming": 4,
@@ -7682,8 +7682,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 9,
-      "normalization_decisions": 21,
-      "owner_confirmations": 0,
+      "normalization_decisions": 41,
+      "owner_confirmations": 33,
       "linked_entities": 56
     },
     {
@@ -7694,7 +7694,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0052.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 6,
+      "source_ref_count": 8,
       "facts": 1,
       "relationships_outgoing": 1,
       "relationships_incoming": 0,
@@ -7705,8 +7705,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 2
     },
     {
@@ -7751,8 +7751,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 1,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 8
     },
     {
@@ -7797,8 +7797,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 3
     },
     {
@@ -7843,8 +7843,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 1
     },
     {
@@ -7855,7 +7855,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0060.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 123,
+      "source_ref_count": 126,
       "facts": 20,
       "relationships_outgoing": 10,
       "relationships_incoming": 3,
@@ -7866,8 +7866,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "normalization_decisions": 17,
+      "owner_confirmations": 12,
       "linked_entities": 20
     },
     {
@@ -7889,8 +7889,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 1
     },
     {
@@ -7958,8 +7958,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 2
     },
     {
@@ -8050,8 +8050,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 7
     },
     {
@@ -8119,8 +8119,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 3
     },
     {
@@ -8338,7 +8338,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0082.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 24,
+      "source_ref_count": 26,
       "facts": 6,
       "relationships_outgoing": 2,
       "relationships_incoming": 1,
@@ -8349,8 +8349,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 5
     },
     {
@@ -8361,7 +8361,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/NPC-0083.json",
       "review_status": "source_review_required",
-      "source_ref_count": 463,
+      "source_ref_count": 465,
       "facts": 95,
       "relationships_outgoing": 33,
       "relationships_incoming": 5,
@@ -8372,8 +8372,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 5,
-      "normalization_decisions": 24,
-      "owner_confirmations": 0,
+      "normalization_decisions": 34,
+      "owner_confirmations": 23,
       "linked_entities": 55
     },
     {
@@ -8464,8 +8464,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 7,
+      "owner_confirmations": 5,
       "linked_entities": 3
     },
     {
@@ -8579,8 +8579,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 2
     },
     {
@@ -8625,8 +8625,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 2
     },
     {
@@ -8936,7 +8936,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/ORG-0001.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 77,
+      "source_ref_count": 81,
       "facts": 10,
       "relationships_outgoing": 1,
       "relationships_incoming": 8,
@@ -8947,8 +8947,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 2,
       "linked_entities": 12
     },
     {
@@ -8970,8 +8970,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 1,
       "linked_entities": 4
     },
     {
@@ -9016,8 +9016,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 1,
       "linked_entities": 2
     },
     {
@@ -9028,7 +9028,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/OTH-0004.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 6,
+      "source_ref_count": 7,
       "facts": 2,
       "relationships_outgoing": 0,
       "relationships_incoming": 0,
@@ -9039,8 +9039,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 0
     },
     {
@@ -9062,7 +9062,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 2
     },
@@ -9132,7 +9132,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 10
     },
     {
@@ -9201,7 +9201,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 21
     },
     {
@@ -9373,7 +9373,7 @@
       "record_status": "episode_attested",
       "package_path": "evidence/TMP-0001.json",
       "review_status": "sufficient_narrative",
-      "source_ref_count": 54,
+      "source_ref_count": 55,
       "facts": 4,
       "relationships_outgoing": 0,
       "relationships_incoming": 20,
@@ -9384,8 +9384,8 @@
       "map_constraints": 4,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 19
     },
     {
@@ -9430,8 +9430,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "normalization_decisions": 17,
+      "owner_confirmations": 16,
       "linked_entities": 24
     },
     {
@@ -9499,8 +9499,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 0
     },
     {

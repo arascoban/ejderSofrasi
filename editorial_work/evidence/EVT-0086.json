@@ -112,7 +112,20 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "entity_review",
+      "reason": "Canon names the father Kızıl Komutan Sancar; Devran is explicitly his separate son. Preserve the source compound only as full alias.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": "PERSON",
+      "after": "PERSON"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [],
   "evidence": {
@@ -125,6 +138,10 @@
       {
         "source_id": "SRC-EP15",
         "pointer": "/entities/26/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6"
       },
       {
         "source_id": "SRC-EP15",
@@ -145,7 +162,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     }

@@ -246,7 +246,20 @@
   ],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "type_normalization",
+      "reason": "Normalize the category using explicit source description and canonical type.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/18/t"
+        }
+      ],
+      "before": "SQUARE",
+      "after": "DISTRICT"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [
     {
@@ -314,6 +327,10 @@
       },
       {
         "source_id": "SRC-EP00",
+        "pointer": "/entities/18/t"
+      },
+      {
+        "source_id": "SRC-EP00",
         "pointer": "/links/15"
       },
       {
@@ -339,7 +356,7 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 4
     }

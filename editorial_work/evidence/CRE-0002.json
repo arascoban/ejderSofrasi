@@ -570,7 +570,27 @@
       "after": "CRE-0002"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Boyut Avcısı Fener Balığı and Dev Fener Balığı are the same creature.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-BOSSES",
+          "line": 2
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": [
+        "Boyut Avcısı Fener Balığı",
+        "Dev Fener Balığı"
+      ],
+      "after": "CRE-0002"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0023",
@@ -847,7 +867,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 8
     }
   }

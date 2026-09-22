@@ -1047,7 +1047,178 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 2. Bölge Sokakları",
+        "to": "Teyze'nin Evi",
+        "via": [
+          "Pazar Yeri Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Teyze (Hasta Kızın Annesi)",
+          "Halk Kalabalığı"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0022",
+        "episode": "EP12",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0014",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "BLD-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge Sokakları",
+          "entity_id": null,
+          "context_id": "DIS-0004",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pazar Yeri Sokakları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Halk Kalabalığı",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the security gates belong to the inter-city wall system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "from": "Teyze'nin Evi",
+        "to": "Çöl Şehri 3. Bölge Kışlası",
+        "via": [
+          "3. Bölge Güvenlik Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kovalayarak"
+      },
+      "after": {
+        "id": "TRV-0023",
+        "episode": "EP12",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0002",
+        "to_id": "BLD-0018",
+        "via_ids": [],
+        "origin": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Bölge Kışlası",
+          "entity_id": "BLD-0018",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Güvenlik Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kovalayarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the security gates belong to the inter-city wall system."
+      }
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0018",
@@ -1370,7 +1541,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "owner_confirmations": 2,
       "linked_entities": 12
     }
   }

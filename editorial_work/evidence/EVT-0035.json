@@ -104,12 +104,49 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP11 explicitly states Ammon is the updated/corrected name of Raer and lists Raer as an alias. Canon supplies the combined full name Raer Ammon.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/5/facts/0"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/5/a/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": [
+        "Ammon",
+        "Raer",
+        "Raer Ammon"
+      ],
+      "after": "NPC-0007"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/6"
+      },
       {
         "source_id": "SRC-EP17",
         "pointer": "/entities/6/facts/1"
@@ -133,7 +170,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     }

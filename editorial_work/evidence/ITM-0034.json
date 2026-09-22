@@ -459,6 +459,28 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the sword's temporary benefits and later rejection effect.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Çemenin Kılıcı savaş yemini sonrasında +2 Strength ve Rage vermiştir. Kalender Wisdom (d20) ile kılıçtan kurtulduktan ve yemini bozduktan sonra kılıcı tutamaz; tuttuğunda ellerine saplanarak ellerini kullanılamaz hâle getirir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the item's effect and post-oath behavior.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Kalender'in savaş yemini sonrasında +2 Strength ve Rage sağlayan; yemin bozulduktan sonra Kalender'in ellerine saplanan lanetli/uyumsuz kılıçtır."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "EP20 explicit item alias and lore parenthesis identify the same sword.",
       "source_refs": [
@@ -476,9 +498,56 @@
         "Çemendar"
       ],
       "after": "ITM-0034"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner specified the sword's temporary combat benefits and the later curse-like rejection after Kalender's oath break.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Çemenin Kılıcı'nın Kalender'in İradesi Üzerindeki Uzun Vadeli Etkisi",
+      "after": "Çemenin Kılıcı savaş yemini sonrasında Kalender'e +2 Strength ve Rage verdi. Kalender Wisdom (d20) ile kılıçtan kurtulduktan ve yemini bozduktan sonra kılıcı artık tutamaz; tuttuğunda ellerine saplanarak ellerini kullanılamaz hâle getirir."
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the sword's temporary benefits and later rejection effect.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Çemenin Kılıcı savaş yemini sonrasında +2 Strength ve Rage vermiştir. Kalender Wisdom (d20) ile kılıçtan kurtulduktan ve yemini bozduktan sonra kılıcı tutamaz; tuttuğunda ellerine saplanarak ellerini kullanılamaz hâle getirir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the item's effect and post-oath behavior.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Kalender'in savaş yemini sonrasında +2 Strength ve Rage sağlayan; yemin bozulduktan sonra Kalender'in ellerine saplanan lanetli/uyumsuz kılıçtır."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner specified the sword's temporary combat benefits and the later curse-like rejection after Kalender's oath break.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Çemenin Kılıcı'nın Kalender'in İradesi Üzerindeki Uzun Vadeli Etkisi",
+      "after": "Çemenin Kılıcı savaş yemini sonrasında Kalender'e +2 Strength ve Rage verdi. Kalender Wisdom (d20) ile kılıçtan kurtulduktan ve yemini bozduktan sonra kılıcı artık tutamaz; tuttuğunda ellerine saplanarak ellerini kullanılamaz hâle getirir."
+    }
+  ],
   "linked_entities": [
     {
       "id": "DEI-0011",
@@ -694,8 +763,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 3,
       "linked_entities": 7
     }
   }

@@ -104,7 +104,37 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Explicit Kızıl Komutan aliases identify the senior commander, while source calls Devran his son. Use the canonical father’s spelling; never tokenize this compound source name into a Devran alias.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/4"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/a"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/6/a"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/5/facts/0"
+        }
+      ],
+      "before": [
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)",
+        "Sancar Devran",
+        "Kızıl Komutan Sancar"
+      ],
+      "after": "NPC-0060"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [],
   "evidence": {
@@ -116,10 +146,26 @@
       },
       {
         "source_id": "SRC-EP13",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP13",
         "pointer": "/entities/4/facts/2"
       },
       {
         "source_id": "SRC-EP13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/a"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/a"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/5/facts/0"
       }
     ],
     "counts": {
@@ -133,7 +179,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     }

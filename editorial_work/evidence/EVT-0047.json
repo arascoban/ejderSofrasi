@@ -112,7 +112,27 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP21 explicitly aliases Hınzır Zırnık to Zırnık and Gözcübaşı Zırnık, continuing EP20 named guard commander.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/8"
+        },
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": [
+        "Zırnık",
+        "Hınzır Zırnık"
+      ],
+      "after": "NPC-0043"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [],
   "evidence": {
@@ -128,10 +148,18 @@
       },
       {
         "source_id": "SRC-EP20",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP20",
         "pointer": "/entities/8/facts/1"
       },
       {
         "source_id": "SRC-EP20"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/6"
       }
     ],
     "counts": {
@@ -145,7 +173,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     }

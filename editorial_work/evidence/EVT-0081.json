@@ -112,12 +112,183 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner clarified the delayed reveal of Sancar's magical projection through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "before": "Kızıl Komutan'ın oğlu olan, babasının kaskını takarak büyülü yansıtmayla Batan Güneş Kahvesi'ndeki görüşmeye katılan, çakmak çakmak sapsarı amber gözlü, serseri tavırlı son derece yakışıklı genç subay/komutan.",
+      "after": "Babasının büyülü kaskını takarak Batan Güneş Kahvesi görüşmesine katılmış; Sancar bu bağlantı üzerinden Devran'ın ağzından konuşmuş ve gerçek Devran kaskını çıkarınca ortaya çıkmıştır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the magical Arifler connection and delayed reveal of Sancar speaking through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "after": "Arifler Loncası bağlantısıyla Devran'ın ağzından konuşmuştur; o sırada karakterler bunun Sancar olduğunu fark etmemiş, Devran kaskını çıkarınca bağlantı kopmuştur."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the allegiance question remains open in canon.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "after": "Devran/Kartal Sniper'ın Siyah Ejderha Tarikatı ile gerçek bağlılığı hikâyede kesinleştirilmemiştir."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP14 explicitly reveals the sniper is the commander’s son; EP16 explicitly names the son Devran. Canon lists Devran separately from Kızıl Komutan Sancar.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/lore/2/fact"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/5/a/2"
+        }
+      ],
+      "before": [
+        "Kartal Sniper",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Kızıl Komutan'ın Oğlu",
+        "Devran"
+      ],
+      "after": "NPC-0023"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified Sancar spoke through Devran's mouth via an Arifler magical connection; this was remote projection, not Genç Komutan bodily presence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        }
+      ],
+      "before": "Genç Komutan participates in the EP14 café meeting through a magical helmet projection. This supports remote participation, not bodily presence or travel to the café.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that Devran/Kartal Sniper's ultimate allegiance is deliberately left unresolved in the story.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "before": "EP10–EP11 classify Kartal Sniper as a Siyah Ejderha operative; EP14 identifies him as the kingdom commander’s son and EP16 explicitly leaves secret loyalties uncertain. Source-described attacks do not settle allegiance.",
+      "after": "CANON_UNCERTAIN: his relationship with the Siyah Ejderha Tarikatı and independent loyalties remain unknown."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner clarified the delayed reveal of Sancar's magical projection through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "before": "Kızıl Komutan'ın oğlu olan, babasının kaskını takarak büyülü yansıtmayla Batan Güneş Kahvesi'ndeki görüşmeye katılan, çakmak çakmak sapsarı amber gözlü, serseri tavırlı son derece yakışıklı genç subay/komutan.",
+      "after": "Babasının büyülü kaskını takarak Batan Güneş Kahvesi görüşmesine katılmış; Sancar bu bağlantı üzerinden Devran'ın ağzından konuşmuş ve gerçek Devran kaskını çıkarınca ortaya çıkmıştır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the magical Arifler connection and delayed reveal of Sancar speaking through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "after": "Arifler Loncası bağlantısıyla Devran'ın ağzından konuşmuştur; o sırada karakterler bunun Sancar olduğunu fark etmemiş, Devran kaskını çıkarınca bağlantı kopmuştur."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the allegiance question remains open in canon.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "after": "Devran/Kartal Sniper'ın Siyah Ejderha Tarikatı ile gerçek bağlılığı hikâyede kesinleştirilmemiştir."
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified Sancar spoke through Devran's mouth via an Arifler magical connection; this was remote projection, not Genç Komutan bodily presence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        }
+      ],
+      "before": "Genç Komutan participates in the EP14 café meeting through a magical helmet projection. This supports remote participation, not bodily presence or travel to the café.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that Devran/Kartal Sniper's ultimate allegiance is deliberately left unresolved in the story.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "before": "EP10–EP11 classify Kartal Sniper as a Siyah Ejderha operative; EP14 identifies him as the kingdom commander’s son and EP16 explicitly leaves secret loyalties uncertain. Source-described attacks do not settle allegiance.",
+      "after": "CANON_UNCERTAIN: his relationship with the Siyah Ejderha Tarikatı and independent loyalties remain unknown."
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/facts/2"
+      },
       {
         "source_id": "SRC-EP14",
         "pointer": "/entities/6/facts/0"
@@ -132,6 +303,10 @@
       },
       {
         "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/5/a/2"
       }
     ],
     "counts": {
@@ -145,8 +320,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 5,
       "linked_entities": 0
     }
   }

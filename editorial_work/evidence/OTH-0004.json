@@ -136,6 +136,17 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Podcastia is a same-universe crossover reference with limited current detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Aynı evrende geçen başka bir D&D serisidir; mevcut ana zaman çizgisinde yalnızca sınırlı bir gönderme/crossover bilgisi bulunmaktadır."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Project owner confirmed Podcastia is another D&D series set in the same universe and referenced as a limited crossover.",
       "source_refs": [
@@ -153,13 +164,88 @@
         "Podcastia"
       ],
       "after": "OTH-0004"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Podcastia is a limited crossover reference to another D&D series in the same universe.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Podcasa and Tiamat are mentioned by Ametist Kristali in a MAIN_TIMELINE source, with source uncertainty about the claim. Preserve reported lore only; do not create another continuity or import offscreen crossover events.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Podcastia is a same-universe crossover reference with limited current detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Aynı evrende geçen başka bir D&D serisidir; mevcut ana zaman çizgisinde yalnızca sınırlı bir gönderme/crossover bilgisi bulunmaktadır."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed Podcastia is another D&D series set in the same universe and referenced as a limited crossover.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": [
+        "Podcasa Evreni",
+        "Podcastia"
+      ],
+      "after": "OTH-0004"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Podcastia is a limited crossover reference to another D&D series in the same universe.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Podcasa and Tiamat are mentioned by Ametist Kristali in a MAIN_TIMELINE source, with source uncertainty about the claim. Preserve reported lore only; do not create another continuity or import offscreen crossover events.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/16"
+      },
       {
         "source_id": "SRC-EP24",
         "pointer": "/entities/17"
@@ -195,8 +281,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 0
     }
   }

@@ -112,12 +112,37 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP11 explicitly names the four-person team and its Demir Yumruk alias; EP14 identifies the portrait’s alternate team name. Canon/Other.md explicitly gives Ariflerin Yumruğu / Demir Yumruk Ekibi.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/15"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/26"
+        }
+      ],
+      "before": [
+        "Yamuk Demlik (Demir Yumruk)",
+        "Ariflerin Yumruğu",
+        "Demir Yumruk Ekibi"
+      ],
+      "after": "FAC-0001"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/15"
+      },
       {
         "source_id": "SRC-EP11",
         "pointer": "/entities/15/facts/0"
@@ -132,6 +157,10 @@
       },
       {
         "source_id": "SRC-EP11"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/26"
       }
     ],
     "counts": {
@@ -145,7 +174,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     }

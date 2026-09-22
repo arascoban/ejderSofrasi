@@ -1189,7 +1189,262 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 2. Bölge Sokakları",
+        "to": "Teyze'nin Evi",
+        "via": [
+          "Pazar Yeri Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Teyze (Hasta Kızın Annesi)",
+          "Halk Kalabalığı"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0022",
+        "episode": "EP12",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0014",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "BLD-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge Sokakları",
+          "entity_id": null,
+          "context_id": "DIS-0004",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pazar Yeri Sokakları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Halk Kalabalığı",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed this is another gate in the inter-city wall system between Yaz Helvası cities.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 3. Bölge Kışlası Koridorları",
+        "to": "Çöl Şehri 2. Bölge",
+        "via": [
+          "3. Bölge ile 2. Bölge Arasındaki Güvenlik Kapısı"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Rozet Göstererek"
+      },
+      "after": {
+        "id": "TRV-0038",
+        "episode": "EP19",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "DIS-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Koridorları",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge ile 2. Bölge Arasındaki Güvenlik Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Rozet Göstererek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed this is another gate in the inter-city wall system between Yaz Helvası cities."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "order": 3,
+        "from": "Çöl Şehri 2. Bölge",
+        "to": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+        "via": [
+          "Pastırman Anıtı Meydanı"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kalender'i Taşıyarak"
+      },
+      "after": {
+        "id": "TRV-0039",
+        "episode": "EP19",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "DIS-0004",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+          "entity_id": null,
+          "context_id": "DIS-0003",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pastırman Anıtı Meydanı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kalender'i Taşıyarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers."
+      }
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0002",
@@ -1529,7 +1784,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "owner_confirmations": 3,
       "linked_entities": 11
     }
   }

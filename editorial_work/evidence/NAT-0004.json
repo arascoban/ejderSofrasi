@@ -804,7 +804,97 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Gizemler Adası Tepeliği",
+        "to": "Zümrüt Ejderha Pulu",
+        "via": [
+          "Gizemler Adası Ormanı",
+          "Şifa Deresi"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0008",
+        "episode": "EP04",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "NAT-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Gizemler Adası Tepeliği",
+          "entity_id": null,
+          "context_id": "ISL-0001",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Pulu",
+          "entity_id": "NAT-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Gizemler Adası Ormanı",
+            "entity_id": null,
+            "context_id": "ISL-0001",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Şifa Deresi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint."
+      }
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0009",
@@ -1110,7 +1200,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 10
     }
   }

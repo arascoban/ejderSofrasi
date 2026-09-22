@@ -616,7 +616,94 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 1. Bölge Surları",
+        "to": "Er Meydanı Saha Çadırı",
+        "via": [
+          "1. Duvar Özel Minik Kapısı",
+          "Er Meydanı Hendekleri"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0033",
+        "episode": "EP17",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051"
+        ],
+        "from_id": "BLD-0016",
+        "to_id": "BLD-0005",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Bölge Surları",
+          "entity_id": "BLD-0016",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Er Meydanı Saha Çadırı",
+          "entity_id": "BLD-0005",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "1. Duvar Özel Minik Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Er Meydanı Hendekleri",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification."
+      }
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0005",
@@ -844,7 +931,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 9
     }
   }

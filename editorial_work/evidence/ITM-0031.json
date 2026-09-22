@@ -794,9 +794,61 @@
         "Zümrüt Yüzük"
       ],
       "after": "ITM-0031"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Yeniden Yaşam Yüzüğü was always Kalender's and never left his hand.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/1/facts/4"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/32/facts/0"
+        }
+      ],
+      "before": "Yeniden Yaşam Yüzüğü is repeatedly worn by Akmer through EP14, but EP15 attributes its resurrection effect to Kalender. Do not silently replace ownership or assume a transfer.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Zümrüt Yüzük and Yeniden Yaşam Yüzüğü are the same item.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-ITEMS",
+          "line": 4
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/13"
+        }
+      ],
+      "before": [
+        "Yeniden Yaşam Yüzüğü",
+        "Zümrüt Yüzük"
+      ],
+      "after": "ITM-0031"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Yeniden Yaşam Yüzüğü was always Kalender's and never left his hand.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/1/facts/4"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/32/facts/0"
+        }
+      ],
+      "before": "Yeniden Yaşam Yüzüğü is repeatedly worn by Akmer through EP14, but EP15 attributes its resurrection effect to Kalender. Do not silently replace ownership or assume a transfer.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0023",
@@ -1143,8 +1195,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 10
     }
   }

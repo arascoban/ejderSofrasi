@@ -1802,6 +1802,17 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified that the guards fled the caravanserai.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Hulusi'nin sarı zırhlı korumaları, efendilerinin ölümünden sonra kervansaraydan kaçmıştır; sonraki akıbetleri belirsizdir."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "EP23 explicitly aliases Tahin Saray Kervansarayı to Kervansaray and recalls the EP22 escape; EP20 and EP21 share explicit Çöl Kervansarayı alias and the same named operators. This does not establish identity with Canon Ozempic Kervansaray.",
       "source_refs": [
@@ -1844,9 +1855,90 @@
         "Kervansaray"
       ],
       "after": "BLD-0006"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the guards fled the caravanserai, while their later response remains unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Hulusi'nin Sarı Zırhlı Korumalarının Efendilerinin Öldüğünü Anlaması Durumunda Vereceği Tepki",
+      "after": "Hulusi'nin sarı zırhlı korumaları, efendilerinin ölümünden sonra kervansaraydan kaçmıştır; sonraki akıbetleri belirsizdir."
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Ozempic Kervansaray and Tahin Saray are the same building.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/21"
+        }
+      ],
+      "before": "Canon names Ozempic Kervansaray; episode source identifies Kervansaray/Tahin Saray but supplies no alias to Ozempic.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified that the guards fled the caravanserai.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Hulusi'nin sarı zırhlı korumaları, efendilerinin ölümünden sonra kervansaraydan kaçmıştır; sonraki akıbetleri belirsizdir."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed Ozempic Kervansaray is another name for Tahin Saray, whose full canonical location name is Tahin Saray Kervansarayı.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 40
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/21"
+        }
+      ],
+      "before": [
+        "Ozempic Kervansaray",
+        "Tahin Saray Kervansarayı",
+        "Tahin Saray",
+        "Kervansaray"
+      ],
+      "after": "BLD-0006"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the guards fled the caravanserai, while their later response remains unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Hulusi'nin Sarı Zırhlı Korumalarının Efendilerinin Öldüğünü Anlaması Durumunda Vereceği Tepki",
+      "after": "Hulusi'nin sarı zırhlı korumaları, efendilerinin ölümünden sonra kervansaraydan kaçmıştır; sonraki akıbetleri belirsizdir."
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Ozempic Kervansaray and Tahin Saray are the same building.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/21"
+        }
+      ],
+      "before": "Canon names Ozempic Kervansaray; episode source identifies Kervansaray/Tahin Saray but supplies no alias to Ozempic.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0013",
@@ -2491,8 +2583,8 @@
       "map_constraints": 4,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 4,
       "linked_entities": 20
     }
   }

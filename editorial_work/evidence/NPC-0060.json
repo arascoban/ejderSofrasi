@@ -2199,6 +2199,122 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner clarified the delayed reveal of Sancar's magical projection through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "before": "Kızıl Komutan'ın oğlu olan, babasının kaskını takarak büyülü yansıtmayla Batan Güneş Kahvesi'ndeki görüşmeye katılan, çakmak çakmak sapsarı amber gözlü, serseri tavırlı son derece yakışıklı genç subay/komutan.",
+      "after": "Babasının büyülü kaskını takarak Batan Güneş Kahvesi görüşmesine katılmış; Sancar bu bağlantı üzerinden Devran'ın ağzından konuşmuş ve gerçek Devran kaskını çıkarınca ortaya çıkmıştır."
+    },
+    {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner clarified that Sancar spoke through Devran's mouth via the magical Arifler connection.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        }
+      ],
+      "before": "Oğlunun büyülü kask projeksiyonu üzerinden maceracılarla gergin konuşma yaptığını öğrenince kapılara kontrol için hareket etmiştir.",
+      "after": "Devran'ın büyülü kaskı üzerinden Arifler bağlantısıyla Devran'ın ağzından konuşarak maceracılarla gergin görüşme yapmıştır; gerçek bağlantı Devran kaskını çıkarınca anlaşılmıştır."
+    },
+    {
+      "kind": "entity_review",
+      "reason": "Canon names the father Kızıl Komutan Sancar; Devran is explicitly his separate son. Preserve the source compound only as full alias.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": "PERSON",
+      "after": "PERSON"
+    },
+    {
+      "kind": "entity_review",
+      "reason": "Canon names the father Kızıl Komutan Sancar; Devran is explicitly his separate son. Preserve the source compound only as full alias.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/4"
+        }
+      ],
+      "before": "PERSON",
+      "after": "PERSON"
+    },
+    {
+      "kind": "owner_confirmed_alias_exclusion",
+      "reason": "Project owner clarified that Sancar is the Kızıl Komutan's name; Devran is his son. 'Sancar Devran' is an extracted naming error, not a canonical person name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/5/n"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4/n"
+        }
+      ],
+      "before": "Sancar Devran",
+      "after": "excluded_from_normalized_aliases"
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the magical Arifler connection and delayed reveal of Sancar speaking through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "after": "Arifler Loncası bağlantısıyla Devran'ın ağzından konuşmuştur; o sırada karakterler bunun Sancar olduğunu fark etmemiş, Devran kaskını çıkarınca bağlantı kopmuştur."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the negotiated permission and remaining royal uncertainty.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Kalender ile anlaşarak Pastırman mitingine izin vermiş, dini konuların savaş bittikten sonra konuşulmasını şart koşmuştur; kraliyet ailesinin tepkisi bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Sancar's command rank.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner updated the political scope of the Çöl Şehri expression while preserving the three-city urban record.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Kaynaklarda 'Çöl Şehri' diye geçen siyasal ve askerî bağlam Yaz Helvası Krallığı'nı ifade eder. Yaz Helvası Şehri ise krallığın üç şehirli kentsel yapısı olarak ayrı tutulur."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "EP18 explicitly calls Sancar Devran Kızıl Komutan and separately identifies Devran as his son; Canon names these as Kızıl Komutan Sancar and Devran. Normalize father name only; never merge father with son.",
       "source_refs": [
@@ -2249,6 +2365,30 @@
         "Kızıl Komutan Sancar"
       ],
       "after": "NPC-0060"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the Kızıl Komutan's negotiated permission and kept the royal family's response unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Çöl Şehri Yönetiminin ve Gümüş Ejderha Rahiplerinin Pastırman Mitingine Tepkisi",
+      "after": "Kızıl Komutan Sancar, Kalender ile anlaşarak mitinge izin vermiştir; şartı dini konuların savaş bittikten sonra konuşulmasıdır. Kraliyet ailesinin tepkisi belirsizdir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed Kızıl Komutan Sancar's position in the Yaz Helvası Krallığı command structure.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Kızıl Komutan'ın (Derbaş) Unvanı ve Rütbesi",
+      "after": "Kızıl Komutan Sancar, Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır."
     },
     {
       "kind": "travel_review",
@@ -2429,9 +2569,290 @@
         },
         "reason": "Project owner confirmed there is no canonical Dimension Door; retain only the physical first-wall gate and preserve the extracted phrase as source evidence."
       }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kızıl Komutan Sancar and his son Devran are separate people.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/6"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/links/13"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": "Canonical Kızıl Komutan Sancar and Devran are explicitly father and son; Sancar Devran source naming must never cause a father/son merge.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified Sancar spoke through Devran's mouth via an Arifler magical connection; this was remote projection, not Genç Komutan bodily presence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        }
+      ],
+      "before": "Genç Komutan participates in the EP14 café meeting through a magical helmet projection. This supports remote participation, not bodily presence or travel to the café.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner clarified the delayed reveal of Sancar's magical projection through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "before": "Kızıl Komutan'ın oğlu olan, babasının kaskını takarak büyülü yansıtmayla Batan Güneş Kahvesi'ndeki görüşmeye katılan, çakmak çakmak sapsarı amber gözlü, serseri tavırlı son derece yakışıklı genç subay/komutan.",
+      "after": "Babasının büyülü kaskını takarak Batan Güneş Kahvesi görüşmesine katılmış; Sancar bu bağlantı üzerinden Devran'ın ağzından konuşmuş ve gerçek Devran kaskını çıkarınca ortaya çıkmıştır."
+    },
+    {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner clarified that Sancar spoke through Devran's mouth via the magical Arifler connection.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        }
+      ],
+      "before": "Oğlunun büyülü kask projeksiyonu üzerinden maceracılarla gergin konuşma yaptığını öğrenince kapılara kontrol için hareket etmiştir.",
+      "after": "Devran'ın büyülü kaskı üzerinden Arifler bağlantısıyla Devran'ın ağzından konuşarak maceracılarla gergin görüşme yapmıştır; gerçek bağlantı Devran kaskını çıkarınca anlaşılmıştır."
+    },
+    {
+      "kind": "owner_confirmed_alias_exclusion",
+      "reason": "Project owner clarified that Sancar is the Kızıl Komutan's name; Devran is his son. 'Sancar Devran' is an extracted naming error, not a canonical person name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/5/n"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4/n"
+        }
+      ],
+      "before": "Sancar Devran",
+      "after": "excluded_from_normalized_aliases"
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the magical Arifler connection and delayed reveal of Sancar speaking through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "after": "Arifler Loncası bağlantısıyla Devran'ın ağzından konuşmuştur; o sırada karakterler bunun Sancar olduğunu fark etmemiş, Devran kaskını çıkarınca bağlantı kopmuştur."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the negotiated permission and remaining royal uncertainty.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Kalender ile anlaşarak Pastırman mitingine izin vermiş, dini konuların savaş bittikten sonra konuşulmasını şart koşmuştur; kraliyet ailesinin tepkisi bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Sancar's command rank.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner updated the political scope of the Çöl Şehri expression while preserving the three-city urban record.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Kaynaklarda 'Çöl Şehri' diye geçen siyasal ve askerî bağlam Yaz Helvası Krallığı'nı ifade eder. Yaz Helvası Şehri ise krallığın üç şehirli kentsel yapısı olarak ayrı tutulur."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the Kızıl Komutan's negotiated permission and kept the royal family's response unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Çöl Şehri Yönetiminin ve Gümüş Ejderha Rahiplerinin Pastırman Mitingine Tepkisi",
+      "after": "Kızıl Komutan Sancar, Kalender ile anlaşarak mitinge izin vermiştir; şartı dini konuların savaş bittikten sonra konuşulmasıdır. Kraliyet ailesinin tepkisi belirsizdir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed Kızıl Komutan Sancar's position in the Yaz Helvası Krallığı command structure.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Kızıl Komutan'ın (Derbaş) Unvanı ve Rütbesi",
+      "after": "Kızıl Komutan Sancar, Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır."
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed there is no canonical Dimension Door; retain only the physical first-wall gate and preserve the extracted phrase as source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "order": 3,
+        "from": "Er Meydanı Saha Çadırı",
+        "to": "Arifler Okulu",
+        "via": [
+          "1. Duvar Kapısı",
+          "Büyülü Dimension Door Geçidi"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Sancar Devran"
+        ],
+        "transport": "Yürüyerek & Büyülü Işınlanma"
+      },
+      "after": {
+        "id": "TRV-0034",
+        "episode": "EP17",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0005",
+        "to_id": "BLD-0023",
+        "via_ids": [],
+        "origin": {
+          "label": "Er Meydanı Saha Çadırı",
+          "entity_id": "BLD-0005",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "1. Duvar Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Büyülü Işınlanma",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed there is no canonical Dimension Door; retain only the physical first-wall gate and preserve the extracted phrase as source evidence."
+      }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kızıl Komutan Sancar and his son Devran are separate people.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/6"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/links/13"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": "Canonical Kızıl Komutan Sancar and Devran are explicitly father and son; Sancar Devran source naming must never cause a father/son merge.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified Sancar spoke through Devran's mouth via an Arifler magical connection; this was remote projection, not Genç Komutan bodily presence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        }
+      ],
+      "before": "Genç Komutan participates in the EP14 café meeting through a magical helmet projection. This supports remote participation, not bodily presence or travel to the café.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0001",
@@ -2923,6 +3344,10 @@
       },
       {
         "source_id": "SRC-EP15",
+        "pointer": "/entities/5/n"
+      },
+      {
+        "source_id": "SRC-EP15",
         "pointer": "/entities/6"
       },
       {
@@ -3096,7 +3521,15 @@
       },
       {
         "source_id": "SRC-EP18",
+        "pointer": "/entities/4/n"
+      },
+      {
+        "source_id": "SRC-EP18",
         "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/6"
       },
       {
         "source_id": "SRC-EP18",
@@ -3230,8 +3663,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "normalization_decisions": 17,
+      "owner_confirmations": 12,
       "linked_entities": 20
     }
   }

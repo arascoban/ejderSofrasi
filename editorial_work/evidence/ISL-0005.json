@@ -110,8 +110,78 @@
   ],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Helvanar Kıtası and Helva Adası are the same enormous island; the continent label describes its scale.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 13
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/25"
+        }
+      ],
+      "before": [
+        "Helvanar Kıtası",
+        "Helva Adası"
+      ],
+      "after": "CON-0001"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 13
+        }
+      ],
+      "after": [
+        "Şalgam Kasabası",
+        "LOCATED_IN",
+        "Şalgam Adası"
+      ]
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Helvanar Kıtası and Helva Adası are the same enormous island; the continent label describes its scale.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 13
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/25"
+        }
+      ],
+      "before": [
+        "Helvanar Kıtası",
+        "Helva Adası"
+      ],
+      "after": "CON-0001"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 13
+        }
+      ],
+      "after": [
+        "Şalgam Kasabası",
+        "LOCATED_IN",
+        "Şalgam Adası"
+      ]
+    }
+  ],
   "linked_entities": [
     {
       "id": "TWN-0011",
@@ -133,6 +203,10 @@
       {
         "source_id": "SRC-EP00",
         "pointer": "/entities/32"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/25"
       }
     ],
     "counts": {
@@ -146,8 +220,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 1
     }
   }

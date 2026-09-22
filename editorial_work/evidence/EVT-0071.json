@@ -112,12 +112,141 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri Terk Edilmiş İnşaat",
+        "to": "Arifler Okulu (Akademi Bahçesi)",
+        "via": [
+          "Çöl Şehri Arka Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Gizlenerek (Pass without Trace)"
+      },
+      "after": {
+        "id": "TRV-0020",
+        "episode": "EP11",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0021",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri Terk Edilmiş İnşaat",
+          "entity_id": "BLD-0021",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu (Akademi Bahçesi)",
+          "entity_id": null,
+          "context_id": "BLD-0023",
+          "resolution": "within_named_location",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri Arka Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Gizlenerek (Pass without Trace)",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner previously confirmed Arifler Okulu is the wizard organization and Arifler Okulu Yerleşkesi is its separate physical campus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/links/9"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/links/19"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/travel/0/to"
+        }
+      ],
+      "before": "Arifler Okulu source entities mix an organization’s membership and leadership with buildings, gardens, travel destinations, and rooms. Normalize the institution and explicit physical campus into separate role entities linked by reviewed evidence only.",
+      "after": "resolved"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner previously confirmed Arifler Okulu is the wizard organization and Arifler Okulu Yerleşkesi is its separate physical campus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/links/9"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/links/19"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/travel/0/to"
+        }
+      ],
+      "before": "Arifler Okulu source entities mix an organization’s membership and leadership with buildings, gardens, travel destinations, and rooms. Normalize the institution and explicit physical campus into separate role entities linked by reviewed evidence only.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/11/facts/0"
+      },
       {
         "source_id": "SRC-EP11",
         "pointer": "/entities/2/facts/1"
@@ -128,7 +257,19 @@
       },
       {
         "source_id": "SRC-EP11",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP11",
         "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/travel/0/to"
       },
       {
         "source_id": "SRC-EP11"
@@ -145,8 +286,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 1,
       "linked_entities": 0
     }
   }

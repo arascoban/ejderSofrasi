@@ -112,8 +112,34 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the identity of Hulusi's secret noble love is unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Hulusi'nin Sarayda Aşk Yaşadığı Gizli Soylu Şahsın Kimliği",
+      "after": "Hulusi'nin sarayda aşk yaşadığı soylu kişinin kimliği bilinmiyor."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the identity of Hulusi's secret noble love is unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Hulusi'nin Sarayda Aşk Yaşadığı Gizli Soylu Şahsın Kimliği",
+      "after": "Hulusi'nin sarayda aşk yaşadığı soylu kişinin kimliği bilinmiyor."
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
@@ -145,8 +171,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 0
     }
   }

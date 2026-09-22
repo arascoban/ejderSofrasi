@@ -112,7 +112,23 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canon Bosses explicitly lists Tahin Pekmez; source exact name stem plus generic Canavarı descriptor identifies the named boss, with no competing same-name entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/8"
+        }
+      ],
+      "before": [
+        "Tahin Pekmez Canavarı",
+        "Tahin Pekmez"
+      ],
+      "after": "CRE-0025"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [],
   "evidence": {
@@ -125,6 +141,10 @@
       {
         "source_id": "SRC-EP24",
         "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/8"
       },
       {
         "source_id": "SRC-EP24",
@@ -145,7 +165,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 0
     }

@@ -1510,6 +1510,28 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the historical context of magic.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "after": "1300'lü yıllarda büyü benimsenen ve çoğu kişinin bildiği bir şeydir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the historical context of magic.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "after": "1600'lü yıllarda büyü lanetli kabul edilen bir şeydir."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Explicit reciprocal source aliases and Canon dragon name; not a merge with the temple or a deity.",
       "source_refs": [
@@ -1551,9 +1573,110 @@
         "Zümrüt Ejderha"
       ],
       "after": "DRG-0014"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Zümrüt Yüzük and Yeniden Yaşam Yüzüğü are the same item.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-ITEMS",
+          "line": 4
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/13"
+        }
+      ],
+      "before": [
+        "Yeniden Yaşam Yüzüğü",
+        "Zümrüt Yüzük"
+      ],
+      "after": "ITM-0031"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner explained the apparent doctrine conflict through the historical difference between the eras.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/14/facts/0"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "before": "Earlier Zümrüt Ejderha accounts describe sacred healing relics and healing as its domain, whereas EP16 states magical healing violates its doctrine. Preserve source perspective and episode context; do not synthesize a single rule.",
+      "after": "CANON_CONTEXTUAL: in the 1300s magic was accepted and widely known; in the 1600s magic was regarded as cursed. Preserve both period-specific perspectives."
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the historical context of magic.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "after": "1300'lü yıllarda büyü benimsenen ve çoğu kişinin bildiği bir şeydir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the historical context of magic.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "after": "1600'lü yıllarda büyü lanetli kabul edilen bir şeydir."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Zümrüt Yüzük and Yeniden Yaşam Yüzüğü are the same item.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-ITEMS",
+          "line": 4
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/13"
+        }
+      ],
+      "before": [
+        "Yeniden Yaşam Yüzüğü",
+        "Zümrüt Yüzük"
+      ],
+      "after": "ITM-0031"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner explained the apparent doctrine conflict through the historical difference between the eras.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/14/facts/0"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "before": "Earlier Zümrüt Ejderha accounts describe sacred healing relics and healing as its domain, whereas EP16 states magical healing violates its doctrine. Preserve source perspective and episode context; do not synthesize a single rule.",
+      "after": "CANON_CONTEXTUAL: in the 1300s magic was accepted and widely known; in the 1600s magic was regarded as cursed. Preserve both period-specific perspectives."
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0009",
@@ -1805,6 +1928,10 @@
       {
         "source_id": "SRC-CANON-DRAGONANDGODNAMES",
         "line": 24
+      },
+      {
+        "source_id": "SRC-CANON-ITEMS",
+        "line": 4
       },
       {
         "source_id": "SRC-EP04",
@@ -2179,8 +2306,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 4,
       "linked_entities": 16
     }
   }

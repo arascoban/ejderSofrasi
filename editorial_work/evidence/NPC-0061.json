@@ -141,8 +141,34 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kışla Komutanı and Kızıl Komutan Sancar are different people.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/10"
+        }
+      ],
+      "before": "Kışla Komutanı in EP12 is unnamed. Kızıl Komutan appears in EP13 and is a senior commander; title/workplace similarity alone cannot prove these records identical.",
+      "after": "resolved"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kışla Komutanı and Kızıl Komutan Sancar are different people.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/10"
+        }
+      ],
+      "before": "Kışla Komutanı in EP12 is unnamed. Kızıl Komutan appears in EP13 and is a senior commander; title/workplace similarity alone cannot prove these records identical.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0018",
@@ -196,8 +222,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 1
     }
   }

@@ -268,8 +268,32 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner gave the best current reading while retaining uncertainty.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP02",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "after": "Haritadaki yaratık sembolü ejderha olarak yorumlanır; bu yorum kesin değildir."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner gave the best current reading while retaining uncertainty.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP02",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "after": "Haritadaki yaratık sembolü ejderha olarak yorumlanır; bu yorum kesin değildir."
+    }
+  ],
   "linked_entities": [
     {
       "id": "NPC-0004",
@@ -386,8 +410,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 4
     }
   }

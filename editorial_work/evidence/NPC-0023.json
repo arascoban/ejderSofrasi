@@ -1483,6 +1483,78 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner clarified the delayed reveal of Sancar's magical projection through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "before": "Kızıl Komutan'ın oğlu olan, babasının kaskını takarak büyülü yansıtmayla Batan Güneş Kahvesi'ndeki görüşmeye katılan, çakmak çakmak sapsarı amber gözlü, serseri tavırlı son derece yakışıklı genç subay/komutan.",
+      "after": "Babasının büyülü kaskını takarak Batan Güneş Kahvesi görüşmesine katılmış; Sancar bu bağlantı üzerinden Devran'ın ağzından konuşmuş ve gerçek Devran kaskını çıkarınca ortaya çıkmıştır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the magical Arifler connection and delayed reveal of Sancar speaking through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "after": "Arifler Loncası bağlantısıyla Devran'ın ağzından konuşmuştur; o sırada karakterler bunun Sancar olduğunu fark etmemiş, Devran kaskını çıkarınca bağlantı kopmuştur."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the allegiance question remains open in canon.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "after": "Devran/Kartal Sniper'ın Siyah Ejderha Tarikatı ile gerçek bağlılığı hikâyede kesinleştirilmemiştir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the likely but unproven assassin identity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Sancar'ı Devran'ın öldürdüğü düşünülmektedir; bu hiçbir zaman kesin olarak kanıtlanmamıştır."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP18 explicitly calls Sancar Devran Kızıl Komutan and separately identifies Devran as his son; Canon names these as Kızıl Komutan Sancar and Devran. Normalize father name only; never merge father with son.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/6/facts/0"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": [
+        "Sancar Devran",
+        "Kızıl Komutan Sancar"
+      ],
+      "after": "NPC-0060"
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "EP14 explicitly reveals the sniper is the commander’s son; EP16 explicitly names the son Devran. Canon lists Devran separately from Kızıl Komutan Sancar.",
       "source_refs": [
@@ -1506,9 +1578,224 @@
         "Devran"
       ],
       "after": "NPC-0023"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Explicit Kızıl Komutan aliases identify the senior commander, while source calls Devran his son. Use the canonical father’s spelling; never tokenize this compound source name into a Devran alias.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/4"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/a"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/6/a"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/5/facts/0"
+        }
+      ],
+      "before": [
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)",
+        "Sancar Devran",
+        "Kızıl Komutan Sancar"
+      ],
+      "after": "NPC-0060"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner considers Devran the likely killer but confirmed that the story never proves it conclusively.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Sancar Devran'ı Öldüren Gerçek Suikastçının Kimliği",
+      "after": "Sancar'ı Devran'ın öldürdüğü düşünülmektedir; ancak gerçek hiçbir zaman kesin olarak kanıtlanmamıştır."
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kızıl Komutan Sancar and his son Devran are separate people.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/6"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/links/13"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": "Canonical Kızıl Komutan Sancar and Devran are explicitly father and son; Sancar Devran source naming must never cause a father/son merge.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified Sancar spoke through Devran's mouth via an Arifler magical connection; this was remote projection, not Genç Komutan bodily presence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        }
+      ],
+      "before": "Genç Komutan participates in the EP14 café meeting through a magical helmet projection. This supports remote participation, not bodily presence or travel to the café.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that Devran/Kartal Sniper's ultimate allegiance is deliberately left unresolved in the story.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "before": "EP10–EP11 classify Kartal Sniper as a Siyah Ejderha operative; EP14 identifies him as the kingdom commander’s son and EP16 explicitly leaves secret loyalties uncertain. Source-described attacks do not settle allegiance.",
+      "after": "CANON_UNCERTAIN: his relationship with the Siyah Ejderha Tarikatı and independent loyalties remain unknown."
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner clarified the delayed reveal of Sancar's magical projection through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "before": "Kızıl Komutan'ın oğlu olan, babasının kaskını takarak büyülü yansıtmayla Batan Güneş Kahvesi'ndeki görüşmeye katılan, çakmak çakmak sapsarı amber gözlü, serseri tavırlı son derece yakışıklı genç subay/komutan.",
+      "after": "Babasının büyülü kaskını takarak Batan Güneş Kahvesi görüşmesine katılmış; Sancar bu bağlantı üzerinden Devran'ın ağzından konuşmuş ve gerçek Devran kaskını çıkarınca ortaya çıkmıştır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the magical Arifler connection and delayed reveal of Sancar speaking through Devran.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        }
+      ],
+      "after": "Arifler Loncası bağlantısıyla Devran'ın ağzından konuşmuştur; o sırada karakterler bunun Sancar olduğunu fark etmemiş, Devran kaskını çıkarınca bağlantı kopmuştur."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the allegiance question remains open in canon.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "after": "Devran/Kartal Sniper'ın Siyah Ejderha Tarikatı ile gerçek bağlılığı hikâyede kesinleştirilmemiştir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the likely but unproven assassin identity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Sancar'ı Devran'ın öldürdüğü düşünülmektedir; bu hiçbir zaman kesin olarak kanıtlanmamıştır."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner considers Devran the likely killer but confirmed that the story never proves it conclusively.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Sancar Devran'ı Öldüren Gerçek Suikastçının Kimliği",
+      "after": "Sancar'ı Devran'ın öldürdüğü düşünülmektedir; ancak gerçek hiçbir zaman kesin olarak kanıtlanmamıştır."
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kızıl Komutan Sancar and his son Devran are separate people.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/6"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/links/13"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": "Canonical Kızıl Komutan Sancar and Devran are explicitly father and son; Sancar Devran source naming must never cause a father/son merge.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified Sancar spoke through Devran's mouth via an Arifler magical connection; this was remote projection, not Genç Komutan bodily presence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/0"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/facts/2"
+        }
+      ],
+      "before": "Genç Komutan participates in the EP14 café meeting through a magical helmet projection. This supports remote participation, not bodily presence or travel to the café.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that Devran/Kartal Sniper's ultimate allegiance is deliberately left unresolved in the story.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/6/facts/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/lore/2/fact"
+        }
+      ],
+      "before": "EP10–EP11 classify Kartal Sniper as a Siyah Ejderha operative; EP14 identifies him as the kingdom commander’s son and EP16 explicitly leaves secret loyalties uncertain. Source-described attacks do not settle allegiance.",
+      "after": "CANON_UNCERTAIN: his relationship with the Siyah Ejderha Tarikatı and independent loyalties remain unknown."
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0018",
@@ -1873,12 +2160,24 @@
         "source_id": "SRC-EP11"
       },
       {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4"
+      },
+      {
         "source_id": "SRC-EP14",
         "pointer": "/entities/1/facts/3"
       },
       {
         "source_id": "SRC-EP14",
         "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/a"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/facts/2"
       },
       {
         "source_id": "SRC-EP14",
@@ -1926,6 +2225,10 @@
       },
       {
         "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/a"
       },
       {
         "source_id": "SRC-EP15",
@@ -2012,6 +2315,10 @@
       },
       {
         "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4"
       },
       {
         "source_id": "SRC-EP18",
@@ -2107,8 +2414,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 11,
+      "owner_confirmations": 8,
       "linked_entities": 16
     }
   }

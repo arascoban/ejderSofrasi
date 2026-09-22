@@ -2224,6 +2224,80 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the temporal transition while leaving the exact exit point unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/2"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Şifa zindanındaki kapının tam mekânsal çıkış noktası kesin değildir; kapıdan geçildikten sonra grup tarihsel olarak geçmişe ulaşmıştır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner identified Şifa Deresi as an interior dungeon stream.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Şifa Deresi, tapınağın içindeki Şifa Zindanı'nda bulunan bir deredir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner classified the EP05 waypoints as temple-internal structures.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Zümrüt Bronz Kapılar ve 5 Nolu Zümrüt Ejderha Küpü tapınağın içindeki kapı/yapı alanlarıdır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the door location and reward-room sequence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "4 Kollu Yeşim Kapı tapınağın içindedir; bu kapı geçildikten sonra ödül odasına ulaşılır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the physical and magical stair behavior.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Beyaz-Sarı Damarlı Merdivenler tapınağın fiziksel merdivenleridir; aynı zamanda garip bir büyü nedeniyle yukarı çıkışın bazen aşağıya, aşağı inişin de aynı yere döndüğü bir geçiş etkisi taşır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the entrance structures and the temple passage.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Terk Edilmiş Ahşap Baraka, tapınağın girişindeki gerçek yapıdır; Dennu'nun Evi bu barakanın yanında bulunan gerçek bir evdir. Üçlü Geçiş Kapıları tapınak içindeki üç kapılı geçiştir."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Explicit EP04 canonical alias plus EP05/EP06 shared Şifa Tapınağı alias and description of same dungeon below the scale; dragon and scale remain distinct.",
       "source_refs": [
@@ -2250,6 +2324,116 @@
         "Zümrüt Ejderha Tapınağı"
       ],
       "after": "TMP-0003"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Gizemler Adası Tepeliği",
+        "to": "Zümrüt Ejderha Pulu",
+        "via": [
+          "Gizemler Adası Ormanı",
+          "Şifa Deresi"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0008",
+        "episode": "EP04",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "NAT-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Gizemler Adası Tepeliği",
+          "entity_id": null,
+          "context_id": "ISL-0001",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Pulu",
+          "entity_id": "NAT-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Gizemler Adası Ormanı",
+            "entity_id": null,
+            "context_id": "ISL-0001",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Şifa Deresi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0008",
+        "unresolved_locations": [
+          "Şifa Deresi"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
     },
     {
       "kind": "travel_review",
@@ -2340,6 +2524,28 @@
       }
     },
     {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0010",
+        "unresolved_locations": [
+          "Zümrüt Bronz Kapılar",
+          "5 Nolu Zümrüt Ejderha Küpü"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
       "kind": "travel_review",
       "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
       "source_refs": [
@@ -2421,6 +2627,27 @@
         },
         "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room."
       }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0011",
+        "unresolved_locations": [
+          "4 Kollu Yeşim Kapı"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
     },
     {
       "kind": "travel_review",
@@ -2511,9 +2738,788 @@
         "to_period": "1300 civarı",
         "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka."
       }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0013",
+        "unresolved_locations": [
+          "Beyaz-Sarı Damarlı Merdivenler",
+          "Terk Edilmiş Ahşap Baraka"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+        "to": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+        "via": [
+          "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+          "Dennu'nun Evi",
+          "Üçlü Geçiş Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Raer",
+          "Dennu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0014",
+        "episode": "EP08",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0022",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Dennu'nun Evi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 3,
+            "label": "Üçlü Geçiş Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0014",
+        "unresolved_locations": [
+          "Dennu'nun Evi",
+          "Üçlü Geçiş Kapıları"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the temporal transition while leaving the exact exit point unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/2"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Şifa zindanındaki kapının tam mekânsal çıkış noktası kesin değildir; kapıdan geçildikten sonra grup tarihsel olarak geçmişe ulaşmıştır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner identified Şifa Deresi as an interior dungeon stream.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Şifa Deresi, tapınağın içindeki Şifa Zindanı'nda bulunan bir deredir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner classified the EP05 waypoints as temple-internal structures.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Zümrüt Bronz Kapılar ve 5 Nolu Zümrüt Ejderha Küpü tapınağın içindeki kapı/yapı alanlarıdır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the door location and reward-room sequence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "4 Kollu Yeşim Kapı tapınağın içindedir; bu kapı geçildikten sonra ödül odasına ulaşılır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the physical and magical stair behavior.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Beyaz-Sarı Damarlı Merdivenler tapınağın fiziksel merdivenleridir; aynı zamanda garip bir büyü nedeniyle yukarı çıkışın bazen aşağıya, aşağı inişin de aynı yere döndüğü bir geçiş etkisi taşır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the entrance structures and the temple passage.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Terk Edilmiş Ahşap Baraka, tapınağın girişindeki gerçek yapıdır; Dennu'nun Evi bu barakanın yanında bulunan gerçek bir evdir. Üçlü Geçiş Kapıları tapınak içindeki üç kapılı geçiştir."
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Gizemler Adası Tepeliği",
+        "to": "Zümrüt Ejderha Pulu",
+        "via": [
+          "Gizemler Adası Ormanı",
+          "Şifa Deresi"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0008",
+        "episode": "EP04",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "NAT-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Gizemler Adası Tepeliği",
+          "entity_id": null,
+          "context_id": "ISL-0001",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Pulu",
+          "entity_id": "NAT-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Gizemler Adası Ormanı",
+            "entity_id": null,
+            "context_id": "ISL-0001",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Şifa Deresi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0008",
+        "unresolved_locations": [
+          "Şifa Deresi"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Zümrüt Ejderha Şifa Zindanı Girişi",
+        "to": "İdilik Yayla",
+        "via": [
+          "Zümrüt Bronz Kapılar",
+          "5 Nolu Zümrüt Ejderha Küpü"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Büyülü Geçit"
+      },
+      "after": {
+        "id": "TRV-0010",
+        "episode": "EP05",
+        "sequence": 2,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "NAT-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Zümrüt Ejderha Şifa Zindanı Girişi",
+          "entity_id": null,
+          "context_id": "TMP-0003",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "İdilik Yayla",
+          "entity_id": "NAT-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Zümrüt Bronz Kapılar",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "5 Nolu Zümrüt Ejderha Küpü",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Büyülü Geçit",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0010",
+        "unresolved_locations": [
+          "Zümrüt Bronz Kapılar",
+          "5 Nolu Zümrüt Ejderha Küpü"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "İdilik Yayla",
+        "to": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+        "via": [
+          "4 Kollu Yeşim Kapı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Jifa"
+        ],
+        "transport": "Yürüyerek & Tırmanarak"
+      },
+      "after": {
+        "id": "TRV-0011",
+        "episode": "EP06",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0049",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "NAT-0002",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "İdilik Yayla",
+          "entity_id": "NAT-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+          "entity_id": null,
+          "context_id": "TMP-0003",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "4 Kollu Yeşim Kapı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Tırmanarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0011",
+        "unresolved_locations": [
+          "4 Kollu Yeşim Kapı"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Zümrüt Ejderha Şifa Tapınağı",
+        "to": "Çöl Şehri",
+        "via": [
+          "Beyaz-Sarı Damarlı Merdivenler",
+          "Terk Edilmiş Ahşap Baraka"
+        ],
+        "party": [
+          "Akmer",
+          "Roary",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0013",
+        "episode": "EP07",
+        "sequence": 1,
+        "period": null,
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "TMP-0003",
+        "to_id": "CIT-0006",
+        "via_ids": [],
+        "origin": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı",
+          "entity_id": "TMP-0003",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri",
+          "entity_id": "CIT-0006",
+          "resolution": "exact",
+          "reviewed_context_id": "CIT-0007"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Beyaz-Sarı Damarlı Merdivenler",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Terk Edilmiş Ahşap Baraka",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "temporal_transition",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "from_period": "1600 civarı",
+        "to_period": "1300 civarı",
+        "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0013",
+        "unresolved_locations": [
+          "Beyaz-Sarı Damarlı Merdivenler",
+          "Terk Edilmiş Ahşap Baraka"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+        "to": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+        "via": [
+          "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+          "Dennu'nun Evi",
+          "Üçlü Geçiş Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Raer",
+          "Dennu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0014",
+        "episode": "EP08",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0022",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Dennu'nun Evi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 3,
+            "label": "Üçlü Geçiş Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0014",
+        "unresolved_locations": [
+          "Dennu'nun Evi",
+          "Üçlü Geçiş Kapıları"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0009",
@@ -3251,8 +4257,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 4,
-      "owner_confirmations": 0,
+      "normalization_decisions": 17,
+      "owner_confirmations": 16,
       "linked_entities": 24
     }
   }

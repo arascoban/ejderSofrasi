@@ -214,8 +214,100 @@
   ],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified that the walls and gates belong to a connected three-city system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/17/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": "Her şehir arasında surlar ve kapılar vardır. Surlar arasındaki büyülü zipline sistemi ve büyük ana yol şehirler arası seyahati kolaylaştırır."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "CONNECTED_TO",
+        "Yaz Helvası Orta Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "CONNECTED_TO",
+        "Yaz Helvası Üst Şehri"
+      ]
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified that the walls and gates belong to a connected three-city system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/17/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": "Her şehir arasında surlar ve kapılar vardır. Surlar arasındaki büyülü zipline sistemi ve büyük ana yol şehirler arası seyahati kolaylaştırır."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "CONNECTED_TO",
+        "Yaz Helvası Orta Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "CONNECTED_TO",
+        "Yaz Helvası Üst Şehri"
+      ]
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0016",
@@ -263,6 +355,10 @@
     "review_status": "sufficient_narrative",
     "source_refs": [
       {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
         "source_id": "SRC-EP17",
         "pointer": "/entities/28"
       },
@@ -297,8 +393,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 3
     }
   }

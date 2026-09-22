@@ -120,8 +120,232 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+        "to": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+        "via": [
+          "Kışla Merdivenleri ve Koridorları",
+          "Kışla Çıkış Kapısı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kaçarak"
+      },
+      "after": {
+        "id": "TRV-0024",
+        "episode": "EP13",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+          "entity_id": null,
+          "context_id": "BLD-0020",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Kışla Merdivenleri ve Koridorları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Kışla Çıkış Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kaçarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0024",
+        "unresolved_locations": [
+          "Kışla Merdivenleri ve Koridorları",
+          "Kışla Çıkış Kapısı"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+        "to": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+        "via": [
+          "Kışla Merdivenleri ve Koridorları",
+          "Kışla Çıkış Kapısı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kaçarak"
+      },
+      "after": {
+        "id": "TRV-0024",
+        "episode": "EP13",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+          "entity_id": null,
+          "context_id": "BLD-0020",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Kışla Merdivenleri ve Koridorları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Kışla Çıkış Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kaçarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0024",
+        "unresolved_locations": [
+          "Kışla Merdivenleri ve Koridorları",
+          "Kışla Çıkış Kapısı"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
@@ -157,8 +381,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 0
     }
   }

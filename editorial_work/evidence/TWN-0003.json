@@ -130,6 +130,30 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner confirmed that Güllaç is a kasaba; the normalized description should use the canonical settlement term.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "before": "Şeker madenlerinin ve Sütçüoğlu tesislerinin bulunduğu şehir devleti.",
+      "after": "Şeker madenlerinin ve Sütçüoğlu tesislerinin bulunduğu kasaba."
+    },
+    {
+      "kind": "entity_review",
+      "reason": "Canon explicitly calls this settlement Güllaç Kasabası; owner confirmed the normalized type and description as kasaba.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/28"
+        }
+      ],
+      "before": "CITY",
+      "after": "TOWN"
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Explicit source alias matches owner canonical spelling; retain conflicting city-state classification as provenance and review issue.",
       "source_refs": [
@@ -145,7 +169,47 @@
       "after": "TWN-0003"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner confirmed that Güllaç is a kasaba; the normalized description should use the canonical settlement term.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "before": "Şeker madenlerinin ve Sütçüoğlu tesislerinin bulunduğu şehir devleti.",
+      "after": "Şeker madenlerinin ve Sütçüoğlu tesislerinin bulunduğu kasaba."
+    },
+    {
+      "kind": "entity_review",
+      "reason": "Canon explicitly calls this settlement Güllaç Kasabası; owner confirmed the normalized type and description as kasaba.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/28"
+        }
+      ],
+      "before": "CITY",
+      "after": "TOWN"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Explicit source alias matches owner canonical spelling; retain conflicting city-state classification as provenance and review issue.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/28/a/0"
+        }
+      ],
+      "before": [
+        "Güllaç Şehir Devleti",
+        "Güllaç Kasabası"
+      ],
+      "after": "TWN-0003"
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
@@ -185,8 +249,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 0
     }
   }

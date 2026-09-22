@@ -923,7 +923,90 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "order": 3,
+        "from": "Çöl Şehri 2. Bölge",
+        "to": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+        "via": [
+          "Pastırman Anıtı Meydanı"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kalender'i Taşıyarak"
+      },
+      "after": {
+        "id": "TRV-0039",
+        "episode": "EP19",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "DIS-0004",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+          "entity_id": null,
+          "context_id": "DIS-0003",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pastırman Anıtı Meydanı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kalender'i Taşıyarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers."
+      }
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0001",
@@ -1261,7 +1344,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 11
     }
   }

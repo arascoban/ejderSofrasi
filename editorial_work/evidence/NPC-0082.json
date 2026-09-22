@@ -444,8 +444,42 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_alias_exclusion",
+      "reason": "Project owner clarified that Sancar is the Kızıl Komutan's name; Devran is his son. 'Sancar Devran' is an extracted naming error, not a canonical person name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/5/n"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4/n"
+        }
+      ],
+      "before": "Sancar Devran",
+      "after": "excluded_from_normalized_aliases"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_alias_exclusion",
+      "reason": "Project owner clarified that Sancar is the Kızıl Komutan's name; Devran is his son. 'Sancar Devran' is an extracted naming error, not a canonical person name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/5/n"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4/n"
+        }
+      ],
+      "before": "Sancar Devran",
+      "after": "excluded_from_normalized_aliases"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0018",
@@ -607,10 +641,18 @@
       },
       {
         "source_id": "SRC-EP15",
+        "pointer": "/entities/5/n"
+      },
+      {
+        "source_id": "SRC-EP15",
         "pointer": "/links/19"
       },
       {
         "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4/n"
       }
     ],
     "counts": {
@@ -624,8 +666,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 5
     }
   }

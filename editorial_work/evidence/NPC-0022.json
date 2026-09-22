@@ -451,7 +451,109 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+        "to": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+        "via": [
+          "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+          "Dennu'nun Evi",
+          "Üçlü Geçiş Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Raer",
+          "Dennu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0014",
+        "episode": "EP08",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0022",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Dennu'nun Evi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 3,
+            "label": "Üçlü Geçiş Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple."
+      }
+    }
+  ],
   "linked_entities": [
     {
       "id": "CIT-0006",
@@ -548,7 +650,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 2
     }
   }

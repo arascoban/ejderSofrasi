@@ -120,12 +120,246 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/12/facts/0"
+        }
+      ],
+      "before": {
+        "from": "Beltis Ana'nın Evi",
+        "to": "Çöl Şehri Gölet Alanı",
+        "via": [
+          "Çöl Şehri Alt Sokakları"
+        ],
+        "party": [
+          "Roary",
+          "İbrahim (Kompisaurus)"
+        ],
+        "transport": "Yürüyerek & Pelerinli"
+      },
+      "after": {
+        "id": "TRV-0026",
+        "episode": "EP14",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0002",
+        "to_id": "NAT-0008",
+        "via_ids": [],
+        "origin": {
+          "label": "Beltis Ana'nın Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri Gölet Alanı",
+          "entity_id": "NAT-0008",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri Alt Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/12/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Pelerinli",
+          "entity_ids": []
+        },
+        "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/3"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri Gölet Alanı",
+        "to": "Arifler Okulu",
+        "via": [
+          "3. Bölge Cümle Kapısı",
+          "Çöl Şehri 3. Bölge"
+        ],
+        "party": [
+          "Roary",
+          "İbrahim (Kompisaurus)",
+          "Yeni Ördek (Ördek-ül Deva 2)",
+          "Muhafız Askerler"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0027",
+        "episode": "EP14",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "CRE-0012",
+          "CRE-0026",
+          "NPC-0083"
+        ],
+        "from_id": "NAT-0008",
+        "to_id": "BLD-0023",
+        "via_ids": [
+          "DIS-0005",
+          "BLD-0018"
+        ],
+        "origin": {
+          "label": "Çöl Şehri Gölet Alanı",
+          "entity_id": "NAT-0008",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Cümle Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Çöl Şehri 3. Bölge",
+            "entity_id": "DIS-0005",
+            "resolution": "exact"
+          },
+          {
+            "sequence": 3,
+            "label": "Çöl Şehri Kışlası",
+            "entity_id": "BLD-0018",
+            "resolution": "exact"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Muhafız Askerler",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/3"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0027",
+        "unresolved_locations": [
+          "3. Bölge Cümle Kapısı"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/3"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0027",
+        "unresolved_locations": [
+          "3. Bölge Cümle Kapısı"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12/facts/0"
+      },
       {
         "source_id": "SRC-EP14",
         "pointer": "/entities/3/facts/1"
@@ -143,6 +377,14 @@
         "pointer": "/entities/3/facts/4"
       },
       {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/2"
+      },
+      {
         "source_id": "SRC-EP14"
       }
     ],
@@ -157,8 +399,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 1,
       "linked_entities": 0
     }
   }

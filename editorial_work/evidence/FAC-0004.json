@@ -212,8 +212,56 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the siege alliance context.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Siyah Ejderha, Kırmızı Ejderha ve Pastırman inancına sahip kuşatmacılar, Yaz Helvası Krallığı'na karşı kuşatma bağlamında müttefik konumundadır."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the groups are allied in the siege context because they share or support the relevant faiths.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Siyah Ejderha Fedailerinin Pastırman İnancı İddiası",
+      "after": "Siyah Ejderha, Kırmızı Ejderha ve Pastırman inancına sahip kişiler şehri kuşattıkları için bu bağlamda müttefik konumundadır."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the siege alliance context.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Siyah Ejderha, Kırmızı Ejderha ve Pastırman inancına sahip kuşatmacılar, Yaz Helvası Krallığı'na karşı kuşatma bağlamında müttefik konumundadır."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the groups are allied in the siege context because they share or support the relevant faiths.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Siyah Ejderha Fedailerinin Pastırman İnancı İddiası",
+      "after": "Siyah Ejderha, Kırmızı Ejderha ve Pastırman inancına sahip kişiler şehri kuşattıkları için bu bağlamda müttefik konumundadır."
+    }
+  ],
   "linked_entities": [
     {
       "id": "DRG-0013",
@@ -307,8 +355,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 3
     }
   }

@@ -145,7 +145,20 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "entity_review",
+      "reason": "Limonlu Hardal Sosu is prepared sauce/material, not a living plant.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/10"
+        }
+      ],
+      "before": "PLANT",
+      "after": "ITEM"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [
     {
@@ -204,7 +217,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 1,
       "owner_confirmations": 0,
       "linked_entities": 1
     }

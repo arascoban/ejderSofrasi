@@ -112,7 +112,38 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Orthographic whitespace normalization of the explicitly self-named parasite; Canon provides Yokoluş Bey. Keep separate from Işık Tacı and host İto.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/7/facts/1"
+        }
+      ],
+      "before": [
+        "Yok Oluş Bey",
+        "Yokoluş Bey"
+      ],
+      "after": "CRE-0027"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canonical spacing of the explicitly named parasitic mouth.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/7"
+        }
+      ],
+      "before": [
+        "Yok Oluş Bey",
+        "Yokoluş Bey"
+      ],
+      "after": "CRE-0027"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [],
   "evidence": {
@@ -121,6 +152,10 @@
       {
         "source_id": "SRC-EP18",
         "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7"
       },
       {
         "source_id": "SRC-EP18",
@@ -145,7 +180,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 2,
       "owner_confirmations": 0,
       "linked_entities": 0
     }

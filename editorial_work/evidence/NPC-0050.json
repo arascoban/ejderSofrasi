@@ -194,7 +194,27 @@
       "after": "NPC-0050"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Jiwong and Ji Wong Wang are the same person.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 37
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/5"
+        }
+      ],
+      "before": [
+        "Jiwong",
+        "Ji Wong Wang"
+      ],
+      "after": "NPC-0050"
+    }
+  ],
   "linked_entities": [
     {
       "id": "NPC-0049",
@@ -276,7 +296,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "owner_confirmations": 1,
       "linked_entities": 2
     }
   }

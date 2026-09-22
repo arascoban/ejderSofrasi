@@ -1152,8 +1152,56 @@
       }
     }
   ],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner left Kavurhan's future direction unresolved.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Gelecekte hangi tarafı seçeceği ve fetih yönü bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner left Kavurhan's future side and conquest direction unknown; the party had already fled to Tahin Saray during the siege.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Kavurhan Satıroğlu'nun Gelecekteki Tarafı ve Fetih Yönü",
+      "after": "Kavurhan'ın gelecekteki tarafı ve fetih yönü belirsizdir; kuşatma sırasında grup şehirden kaçıp Tahin Saray'a gitmiştir."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner left Kavurhan's future direction unresolved.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Gelecekte hangi tarafı seçeceği ve fetih yönü bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner left Kavurhan's future side and conquest direction unknown; the party had already fled to Tahin Saray during the siege.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Kavurhan Satıroğlu'nun Gelecekteki Tarafı ve Fetih Yönü",
+      "after": "Kavurhan'ın gelecekteki tarafı ve fetih yönü belirsizdir; kuşatma sırasında grup şehirden kaçıp Tahin Saray'a gitmiştir."
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0005",
@@ -1498,8 +1546,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 1,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 8
     }
   }

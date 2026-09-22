@@ -643,6 +643,32 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the later betrayal reveal and likely assistance.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Şebekem'in hain olduğu sonraki bölümlerde açığa çıkar; Siyah Ejderha ajanlarının şehre sızmasına büyük ihtimalle yardım etmiştir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the betrayal reveal and off-screen execution.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/uncertainties/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Patlama sonrası nerede olduğu kesin değildir. Siyah Ejderha suikastçısının sorgulanmasıyla ajan olduğu açığa çıkmış ve Kızıl Komutan tarafından ekran dışında öldürülmüştür."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Canonical spelling corrects the repeatedly named intelligence official. This is an orthographic correction of the single source spelling, with no inferred affiliations.",
       "source_refs": [
@@ -675,9 +701,108 @@
         "Shebekem"
       ],
       "after": "NPC-0087"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner left the infiltration route uncertain but confirmed later story evidence that Şebekem was a traitor who probably assisted.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Siyah Ejderha Ajanlarının Şehre Sızma Yolu",
+      "after": "Siyah Ejderha ajanlarının şehre sızma yolu belirsizdir; Şebekem'in hain olduğu daha sonra açığa çıkar ve büyük ihtimalle yardım etmiştir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed Şebekem's final location after the explosion is unknown, while later interrogation exposed the betrayal and the Kızıl Komutan killed him off-screen.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Şebekem'in Patlama Sonrasındaki Konumu ve Siyasi Sadakati",
+      "after": "Şebekem'in patlama sonrası konumu kesin değildir; Siyah Ejderha suikastçısının sorgulanmasıyla ajan olduğu açığa çıkmış ve Kızıl Komutan tarafından ekran dışında öldürülmüştür."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed that Şebekem was executed as a traitor by the Kızıl Komutan.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Şebekem'in Gerçek Ölüm Nedeni",
+      "after": "Şebekem, hain olduğu için Kızıl Komutan Sancar tarafından ekran dışında öldürülmüştür."
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the later betrayal reveal and likely assistance.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Şebekem'in hain olduğu sonraki bölümlerde açığa çıkar; Siyah Ejderha ajanlarının şehre sızmasına büyük ihtimalle yardım etmiştir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the betrayal reveal and off-screen execution.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/uncertainties/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Patlama sonrası nerede olduğu kesin değildir. Siyah Ejderha suikastçısının sorgulanmasıyla ajan olduğu açığa çıkmış ve Kızıl Komutan tarafından ekran dışında öldürülmüştür."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner left the infiltration route uncertain but confirmed later story evidence that Şebekem was a traitor who probably assisted.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Siyah Ejderha Ajanlarının Şehre Sızma Yolu",
+      "after": "Siyah Ejderha ajanlarının şehre sızma yolu belirsizdir; Şebekem'in hain olduğu daha sonra açığa çıkar ve büyük ihtimalle yardım etmiştir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed Şebekem's final location after the explosion is unknown, while later interrogation exposed the betrayal and the Kızıl Komutan killed him off-screen.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Şebekem'in Patlama Sonrasındaki Konumu ve Siyasi Sadakati",
+      "after": "Şebekem'in patlama sonrası konumu kesin değildir; Siyah Ejderha suikastçısının sorgulanmasıyla ajan olduğu açığa çıkmış ve Kızıl Komutan tarafından ekran dışında öldürülmüştür."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed that Şebekem was executed as a traitor by the Kızıl Komutan.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Şebekem'in Gerçek Ölüm Nedeni",
+      "after": "Şebekem, hain olduğu için Kızıl Komutan Sancar tarafından ekran dışında öldürülmüştür."
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0018",
@@ -905,8 +1030,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 7,
+      "owner_confirmations": 5,
       "linked_entities": 3
     }
   }

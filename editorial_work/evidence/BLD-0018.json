@@ -1978,7 +1978,345 @@
       }
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the security gates belong to the inter-city wall system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "from": "Teyze'nin Evi",
+        "to": "Çöl Şehri 3. Bölge Kışlası",
+        "via": [
+          "3. Bölge Güvenlik Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kovalayarak"
+      },
+      "after": {
+        "id": "TRV-0023",
+        "episode": "EP12",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0002",
+        "to_id": "BLD-0018",
+        "via_ids": [],
+        "origin": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Bölge Kışlası",
+          "entity_id": "BLD-0018",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Güvenlik Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kovalayarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the security gates belong to the inter-city wall system."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+        "to": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+        "via": [
+          "Kışla Merdivenleri ve Koridorları",
+          "Kışla Çıkış Kapısı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kaçarak"
+      },
+      "after": {
+        "id": "TRV-0024",
+        "episode": "EP13",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+          "entity_id": null,
+          "context_id": "BLD-0020",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Kışla Merdivenleri ve Koridorları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Kışla Çıkış Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kaçarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed these are the same barracks interior stairs/corridors already recorded; no extra route detail is needed.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+        "to": "Çöl Şehri 3. Bölge Kışlası Nezarethanesi",
+        "via": [
+          "Kışla Merdivenleri ve Koridorları"
+        ],
+        "characters_present": [
+          "İto İtoğlu",
+          "Roary",
+          "Kışla Muhafızları"
+        ],
+        "transport": "Gözaltında Yürütülerek"
+      },
+      "after": {
+        "id": "TRV-0036",
+        "episode": "EP18",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0046",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Nezarethanesi",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Kışla Merdivenleri ve Koridorları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Kışla Muhafızları",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Gözaltında Yürütülerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed these are the same barracks interior stairs/corridors already recorded; no extra route detail is needed."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed this is another gate in the inter-city wall system between Yaz Helvası cities.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 3. Bölge Kışlası Koridorları",
+        "to": "Çöl Şehri 2. Bölge",
+        "via": [
+          "3. Bölge ile 2. Bölge Arasındaki Güvenlik Kapısı"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Rozet Göstererek"
+      },
+      "after": {
+        "id": "TRV-0038",
+        "episode": "EP19",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "DIS-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Koridorları",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge ile 2. Bölge Arasındaki Güvenlik Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Rozet Göstererek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed this is another gate in the inter-city wall system between Yaz Helvası cities."
+      }
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0002",
@@ -2590,7 +2928,7 @@
       "world_states": 0,
       "conflicts": 0,
       "normalization_decisions": 6,
-      "owner_confirmations": 0,
+      "owner_confirmations": 4,
       "linked_entities": 19
     }
   }

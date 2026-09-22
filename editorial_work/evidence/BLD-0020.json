@@ -889,6 +889,47 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified that the walls and gates belong to a connected three-city system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/17/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": "Her şehir arasında surlar ve kapılar vardır. Surlar arasındaki büyülü zipline sistemi ve büyük ana yol şehirler arası seyahati kolaylaştırır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the inter-city wall and gate system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Şehirler arası sur sisteminde gerçek güvenlik kapıları bulunur; büyük sur kapılarının üzerinde yalnızca insanların geçişi için küçük kapılar da vardır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the small-door construction on the major gates.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Her şehirler arası büyük sur kapısının üzerinde insanların geçişi için ayrıca küçük kapılar bulunur."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Project owner confirmed that the source label Çöl Şehri refers to Yaz Helvası Şehri; the existing wall record is renamed without changing its stable identity.",
       "source_refs": [
@@ -910,6 +951,36 @@
         "Yaz Helvası Şehri Surları"
       ],
       "after": "BLD-0020"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "CONNECTED_TO",
+        "Yaz Helvası Orta Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "CONNECTED_TO",
+        "Yaz Helvası Üst Şehri"
+      ]
     },
     {
       "kind": "travel_review",
@@ -1095,9 +1166,441 @@
         },
         "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
       }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 1. Bölge Surları",
+        "to": "Er Meydanı Saha Çadırı",
+        "via": [
+          "1. Duvar Özel Minik Kapısı",
+          "Er Meydanı Hendekleri"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0033",
+        "episode": "EP17",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051"
+        ],
+        "from_id": "BLD-0016",
+        "to_id": "BLD-0005",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Bölge Surları",
+          "entity_id": "BLD-0016",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Er Meydanı Saha Çadırı",
+          "entity_id": "BLD-0005",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "1. Duvar Özel Minik Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Er Meydanı Hendekleri",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0033",
+        "unresolved_locations": [
+          "1. Duvar Özel Minik Kapısı",
+          "Er Meydanı Hendekleri"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner replaced the generic Çöl Şehri interpretation with the canonical Yaz Helvası Şehri three-city structure; wall and gate relations are retained as a connected system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/17/facts/0"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/links/18/ev"
+        }
+      ],
+      "before": "Çöl Şehri Surları means the city’s external wall in EP10 but the third/second district boundary and Cümle Kapısı square in EP13/EP16. The generic wall system and its inner segment must not automatically become one precise map polygon.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified that the walls and gates belong to a connected three-city system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/17/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": "Her şehir arasında surlar ve kapılar vardır. Surlar arasındaki büyülü zipline sistemi ve büyük ana yol şehirler arası seyahati kolaylaştırır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the inter-city wall and gate system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Şehirler arası sur sisteminde gerçek güvenlik kapıları bulunur; büyük sur kapılarının üzerinde yalnızca insanların geçişi için küçük kapılar da vardır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the small-door construction on the major gates.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Her şehirler arası büyük sur kapısının üzerinde insanların geçişi için ayrıca küçük kapılar bulunur."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that the source label Çöl Şehri refers to Yaz Helvası Şehri; the existing wall record is renamed without changing its stable identity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/entities/14"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/25"
+        }
+      ],
+      "before": [
+        "Çöl Şehri Surları",
+        "Yaz Helvası Şehri Surları"
+      ],
+      "after": "BLD-0020"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "CONNECTED_TO",
+        "Yaz Helvası Orta Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "CONNECTED_TO",
+        "Yaz Helvası Üst Şehri"
+      ]
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+        "to": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+        "via": [
+          "Kışla Merdivenleri ve Koridorları",
+          "Kışla Çıkış Kapısı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kaçarak"
+      },
+      "after": {
+        "id": "TRV-0024",
+        "episode": "EP13",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+          "entity_id": null,
+          "context_id": "BLD-0020",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Kışla Merdivenleri ve Koridorları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Kışla Çıkış Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kaçarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 1. Bölge Surları",
+        "to": "Er Meydanı Saha Çadırı",
+        "via": [
+          "1. Duvar Özel Minik Kapısı",
+          "Er Meydanı Hendekleri"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0033",
+        "episode": "EP17",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051"
+        ],
+        "from_id": "BLD-0016",
+        "to_id": "BLD-0005",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Bölge Surları",
+          "entity_id": "BLD-0016",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Er Meydanı Saha Çadırı",
+          "entity_id": "BLD-0005",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "1. Duvar Özel Minik Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Er Meydanı Hendekleri",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0033",
+        "unresolved_locations": [
+          "1. Duvar Özel Minik Kapısı",
+          "Er Meydanı Hendekleri"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner replaced the generic Çöl Şehri interpretation with the canonical Yaz Helvası Şehri three-city structure; wall and gate relations are retained as a connected system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/17/facts/0"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/links/18/ev"
+        }
+      ],
+      "before": "Çöl Şehri Surları means the city’s external wall in EP10 but the third/second district boundary and Cümle Kapısı square in EP13/EP16. The generic wall system and its inner segment must not automatically become one precise map polygon.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0003",
@@ -1298,6 +1801,10 @@
         "source_id": "SRC-EP10"
       },
       {
+        "source_id": "SRC-EP12",
+        "pointer": "/travel/2"
+      },
+      {
         "source_id": "SRC-EP13",
         "pointer": "/entities/1/facts/3"
       },
@@ -1344,6 +1851,10 @@
       {
         "source_id": "SRC-EP13",
         "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/18/ev"
       },
       {
         "source_id": "SRC-EP13",
@@ -1463,8 +1974,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 3,
-      "owner_confirmations": 0,
+      "normalization_decisions": 11,
+      "owner_confirmations": 10,
       "linked_entities": 9
     }
   }

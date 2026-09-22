@@ -104,12 +104,104 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/2/facts/3"
+        }
+      ],
+      "after": [
+        "Ariflerin Yumruğu",
+        "OWNS",
+        "Hulusi'nin Altın Sandığı"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed İto and Roary took the chest and gold, and the recovered gold became shared group property.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/2/facts/3"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/links/6"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/links/11"
+        }
+      ],
+      "before": "Hulusi's chest belonged to Hulusi, but the record describes İto/Roary taking its gold into bags; chest ownership is not proven to transfer.",
+      "after": "resolved"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/2/facts/3"
+        }
+      ],
+      "after": [
+        "Ariflerin Yumruğu",
+        "OWNS",
+        "Hulusi'nin Altın Sandığı"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed İto and Roary took the chest and gold, and the recovered gold became shared group property.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/2/facts/3"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/14/facts/1"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/links/6"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/links/11"
+        }
+      ],
+      "before": "Hulusi's chest belonged to Hulusi, but the record describes İto/Roary taking its gold into bags; chest ownership is not proven to transfer.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/14/facts/1"
+      },
       {
         "source_id": "SRC-EP22",
         "pointer": "/entities/2/facts/2"
@@ -117,6 +209,14 @@
       {
         "source_id": "SRC-EP22",
         "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/6"
       },
       {
         "source_id": "SRC-EP22"
@@ -133,8 +233,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 0
     }
   }

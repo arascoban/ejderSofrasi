@@ -193,8 +193,144 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/13"
+        }
+      ],
+      "after": [
+        "Kompisaurus Sürüsü",
+        "ASSOCIATED_WITH",
+        "Kompisaurus"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus; İbrahim remains an individual animal.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/6/a/1"
+        }
+      ],
+      "before": "Individual creature nickname collides with species; keep searchable context but exclude from automatic identity joining.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/13/a/0"
+        }
+      ],
+      "before": "A species nickname shared with the individual İbrahim (Kompi) is not identity.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompisaurus Sürüsü is the herd of the Kompisaurus species; both records remain separate.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/13"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/15"
+        }
+      ],
+      "before": "Kompisaurus Sürüsü is described as gigantic plated lizards whereas Kompisaurus is a tiny dinosaur species; extraction name may be misclassification. Keep separate.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand; İbrahim is a named individual Kompisaurus found by Kalender.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": "Kompi names both species and individual nickname; keep individual İbrahim and species Kompisaurus separate.",
+      "after": "resolved"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/13"
+        }
+      ],
+      "after": [
+        "Kompisaurus Sürüsü",
+        "ASSOCIATED_WITH",
+        "Kompisaurus"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus; İbrahim remains an individual animal.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/6/a/1"
+        }
+      ],
+      "before": "Individual creature nickname collides with species; keep searchable context but exclude from automatic identity joining.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand for Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/13/a/0"
+        }
+      ],
+      "before": "A species nickname shared with the individual İbrahim (Kompi) is not identity.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompisaurus Sürüsü is the herd of the Kompisaurus species; both records remain separate.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/13"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/15"
+        }
+      ],
+      "before": "Kompisaurus Sürüsü is described as gigantic plated lizards whereas Kompisaurus is a tiny dinosaur species; extraction name may be misclassification. Keep separate.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Kompi is the species shorthand; İbrahim is a named individual Kompisaurus found by Kalender.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": "Kompi names both species and individual nickname; keep individual İbrahim and species Kompisaurus separate.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "CRE-0017",
@@ -239,6 +375,10 @@
       },
       {
         "source_id": "SRC-EP04",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP04",
         "pointer": "/entities/13/a/1"
       },
       {
@@ -251,10 +391,18 @@
       },
       {
         "source_id": "SRC-EP04",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP04",
         "pointer": "/links/23"
       },
       {
         "source_id": "SRC-EP04"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/6"
       },
       {
         "source_id": "SRC-EP05",
@@ -272,8 +420,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 5,
       "linked_entities": 2
     }
   }

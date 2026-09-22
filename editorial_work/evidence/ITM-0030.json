@@ -210,8 +210,85 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_alias_exclusion",
+      "reason": "Project owner confirmed Kazandibi was the requested recipe, while the characters actually cooked Sütlaç; the foods remain distinct.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/12/a/1"
+        }
+      ],
+      "before": "Kazandibi",
+      "after": "excluded_from_normalized_aliases"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP24 explicitly gives the full name Akmer Sütçüoğlu in facts referring to Akmer; Canon confirms that full spelling.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/5/facts/0"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/12/facts/0"
+        }
+      ],
+      "before": [
+        "Akmer",
+        "Akmer Sütçüoğlu"
+      ],
+      "after": "NPC-0006"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified Kazandibi was requested but Sütlaç was actually cooked; the dessert names remain distinct.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/12/a"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/12/facts/0"
+        }
+      ],
+      "before": "The dessert record names Sütlaç but also aliases Kazandibi; preserve source wording without merging distinct foods elsewhere.",
+      "after": "resolved"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_alias_exclusion",
+      "reason": "Project owner confirmed Kazandibi was the requested recipe, while the characters actually cooked Sütlaç; the foods remain distinct.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/12/a/1"
+        }
+      ],
+      "before": "Kazandibi",
+      "after": "excluded_from_normalized_aliases"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified Kazandibi was requested but Sütlaç was actually cooked; the dessert names remain distinct.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/12/a"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/12/facts/0"
+        }
+      ],
+      "before": "The dessert record names Sütlaç but also aliases Kazandibi; preserve source wording without merging distinct foods elsewhere.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "NPC-0006",
@@ -321,7 +398,15 @@
       },
       {
         "source_id": "SRC-EP24",
+        "pointer": "/entities/12/a"
+      },
+      {
+        "source_id": "SRC-EP24",
         "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/12/a/1"
       },
       {
         "source_id": "SRC-EP24",
@@ -330,6 +415,10 @@
       {
         "source_id": "SRC-EP24",
         "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5/facts/0"
       },
       {
         "source_id": "SRC-EP24",
@@ -350,8 +439,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 2,
       "linked_entities": 5
     }
   }

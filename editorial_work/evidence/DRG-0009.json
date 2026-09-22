@@ -129,12 +129,136 @@
       ]
     }
   ],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed Bronz Ejderha and Kahverengi Ejderha are the same dragon; Metal Ejderha remains separate.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+          "line": 20
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21"
+        }
+      ],
+      "before": [
+        "Bronz Ejderha",
+        "Kahverengi Ejderha"
+      ],
+      "after": "DRG-0002"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Bronz Ejderha and Kahverengi Ejderha are the same dragon; Metal Ejderha is separate.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21/a/0"
+        }
+      ],
+      "before": "Canon lists Metal, Bronz and Kahverengi separately; the source conflates them and their identity is not securely established.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Bronz Ejderha and Kahverengi Ejderha are the same dragon; Metal Ejderha is separate.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21/a/1"
+        }
+      ],
+      "before": "Canon lists Metal, Bronz and Kahverengi separately; the source conflates them and their identity is not securely established.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Bronz and Kahverengi are the same dragon while Metal is a separate dragon.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21/a"
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/lore/0/fact"
+        }
+      ],
+      "before": "EP09 merges Metal, Bronz and Kahverengi dragons through aliases while Canon lists each separately. Do not unify their IDs until explicitly clarified.",
+      "after": "resolved"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed Bronz Ejderha and Kahverengi Ejderha are the same dragon; Metal Ejderha remains separate.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+          "line": 20
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21"
+        }
+      ],
+      "before": [
+        "Bronz Ejderha",
+        "Kahverengi Ejderha"
+      ],
+      "after": "DRG-0002"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Bronz Ejderha and Kahverengi Ejderha are the same dragon; Metal Ejderha is separate.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21/a/0"
+        }
+      ],
+      "before": "Canon lists Metal, Bronz and Kahverengi separately; the source conflates them and their identity is not securely established.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Bronz Ejderha and Kahverengi Ejderha are the same dragon; Metal Ejderha is separate.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21/a/1"
+        }
+      ],
+      "before": "Canon lists Metal, Bronz and Kahverengi separately; the source conflates them and their identity is not securely established.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Bronz and Kahverengi are the same dragon while Metal is a separate dragon.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21/a"
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/lore/0/fact"
+        }
+      ],
+      "before": "EP09 merges Metal, Bronz and Kahverengi dragons through aliases while Canon lists each separately. Do not unify their IDs until explicitly clarified.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "source_review_required",
     "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 20
+      },
       {
         "source_id": "SRC-CANON-DRAGONANDGODNAMES",
         "line": 23
@@ -146,6 +270,18 @@
       {
         "source_id": "SRC-EP09",
         "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/21/a"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/21/a/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/21/a/1"
       },
       {
         "source_id": "SRC-EP09",
@@ -170,8 +306,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 1,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 4,
       "linked_entities": 0
     }
   }

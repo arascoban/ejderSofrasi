@@ -2199,8 +2199,959 @@
   ],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the canonical three-city vertical structure of Yaz Helvası Şehri.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "Yaz Helvası Şehri, çölde başlayıp dağın tepesine yükselen üç bağlı şehirden oluşur. Şehirler arasında surlar ve kapılar bulunur; büyülü zipline hatları ve büyük ana yol şehirleri birbirine bağlar."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the negotiated permission and remaining royal uncertainty.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Kalender ile anlaşarak Pastırman mitingine izin vermiş, dini konuların savaş bittikten sonra konuşulmasını şart koşmuştur; kraliyet ailesinin tepkisi bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Sancar's command rank.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner updated the political scope of the Çöl Şehri expression while preserving the three-city urban record.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Kaynaklarda 'Çöl Şehri' diye geçen siyasal ve askerî bağlam Yaz Helvası Krallığı'nı ifade eder. Yaz Helvası Şehri ise krallığın üç şehirli kentsel yapısı olarak ayrı tutulur."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the last observed siege state.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Kuşatma sırasında 1. şehir/alt şehir surları düşmüş ve kuşatma ordusu içeri girmiştir; nihai sonuç, karakterler bölgeden ayrıldığı için bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the wall and gate system between the cities.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Krallığın şehirleri birbirinden surlar ve kapılarla ayrılır; güvenlik kapıları bu şehirler arası sınır sisteminin parçasıdır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the inter-city wall and gate system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Şehirler arası sur sisteminde gerçek güvenlik kapıları bulunur; büyük sur kapılarının üzerinde yalnızca insanların geçişi için küçük kapılar da vardır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the small-door construction on the major gates.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Her şehirler arası büyük sur kapısının üzerinde insanların geçişi için ayrıca küçük kapılar bulunur."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP12 explicitly places the city barracks in the third district and uses the expanded third-district name as a travel destination; EP13 continues there.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/24/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2/to"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/16"
+        }
+      ],
+      "before": [
+        "Çöl Şehri Kışlası",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "after": "BLD-0018"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the Kızıl Komutan's negotiated permission and kept the royal family's response unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Çöl Şehri Yönetiminin ve Gümüş Ejderha Rahiplerinin Pastırman Mitingine Tepkisi",
+      "after": "Kızıl Komutan Sancar, Kalender ile anlaşarak mitinge izin vermiştir; şartı dini konuların savaş bittikten sonra konuşulmasıdır. Kraliyet ailesinin tepkisi belirsizdir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed Kızıl Komutan Sancar's position in the Yaz Helvası Krallığı command structure.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Kızıl Komutan'ın (Derbaş) Unvanı ve Rütbesi",
+      "after": "Kızıl Komutan Sancar, Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed that the siege outcome after the first district fell is unknown because the characters left the area.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Kavurhan Ordusunun Gece Taarruzunun Çöl Şehri Surları Üzerindeki Sonucu",
+      "after": "Kuşatmanın sonucu bilinmiyor; 1. şehir/alt şehir surları düşmüş ve kuşatma ordusu içeri girmiştir, ancak sonrasını karakterler görmemiştir."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "CONNECTED_BY_ROAD",
+        "Yaz Helvası Orta Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "CONNECTED_BY_ROAD",
+        "Yaz Helvası Üst Şehri"
+      ]
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Arifler Okulu (3. Bölge)",
+        "to": "Çöl Şehri 2. Bölge",
+        "via": [
+          "3. Bölge Güvenlik Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "İbrahim (Kompisaurus)",
+          "Cemil (Papağan)"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0021",
+        "episode": "EP12",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "CRE-0012",
+          "CRE-0028",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "DIS-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Arifler Okulu (3. Bölge)",
+          "entity_id": null,
+          "context_id": "BLD-0023",
+          "resolution": "within_named_location",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "destination": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Güvenlik Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0021",
+        "unresolved_locations": [
+          "3. Bölge Güvenlik Kapıları"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the security gates belong to the inter-city wall system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "from": "Teyze'nin Evi",
+        "to": "Çöl Şehri 3. Bölge Kışlası",
+        "via": [
+          "3. Bölge Güvenlik Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kovalayarak"
+      },
+      "after": {
+        "id": "TRV-0023",
+        "episode": "EP12",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0002",
+        "to_id": "BLD-0018",
+        "via_ids": [],
+        "origin": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Bölge Kışlası",
+          "entity_id": "BLD-0018",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Güvenlik Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kovalayarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the security gates belong to the inter-city wall system."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the security gates belong to the inter-city wall system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0023",
+        "unresolved_locations": [
+          "3. Bölge Güvenlik Kapıları"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 1. Bölge Surları",
+        "to": "Er Meydanı Saha Çadırı",
+        "via": [
+          "1. Duvar Özel Minik Kapısı",
+          "Er Meydanı Hendekleri"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0033",
+        "episode": "EP17",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051"
+        ],
+        "from_id": "BLD-0016",
+        "to_id": "BLD-0005",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Bölge Surları",
+          "entity_id": "BLD-0016",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Er Meydanı Saha Çadırı",
+          "entity_id": "BLD-0005",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "1. Duvar Özel Minik Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Er Meydanı Hendekleri",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0033",
+        "unresolved_locations": [
+          "1. Duvar Özel Minik Kapısı",
+          "Er Meydanı Hendekleri"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the exact historical date represented by Gümüş Ejderha 1673 is not known.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/lore/2"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Gümüş Ejderha 1673 is a named local calendar; do not numerically equate it with circa1600 world era. EP08 explicitly associates it with pre-loss circa1300 Helvanar.",
+      "after": "CANON_UNCERTAIN: 1673 is retained as a named local calendar/date reference; its conversion to the world historical eras is unknown."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the canonical three-city vertical structure of Yaz Helvası Şehri.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "Yaz Helvası Şehri, çölde başlayıp dağın tepesine yükselen üç bağlı şehirden oluşur. Şehirler arasında surlar ve kapılar bulunur; büyülü zipline hatları ve büyük ana yol şehirleri birbirine bağlar."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the negotiated permission and remaining royal uncertainty.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Kalender ile anlaşarak Pastırman mitingine izin vermiş, dini konuların savaş bittikten sonra konuşulmasını şart koşmuştur; kraliyet ailesinin tepkisi bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Sancar's command rank.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner updated the political scope of the Çöl Şehri expression while preserving the three-city urban record.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Kaynaklarda 'Çöl Şehri' diye geçen siyasal ve askerî bağlam Yaz Helvası Krallığı'nı ifade eder. Yaz Helvası Şehri ise krallığın üç şehirli kentsel yapısı olarak ayrı tutulur."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the last observed siege state.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Kuşatma sırasında 1. şehir/alt şehir surları düşmüş ve kuşatma ordusu içeri girmiştir; nihai sonuç, karakterler bölgeden ayrıldığı için bilinmemektedir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the wall and gate system between the cities.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "after": "Krallığın şehirleri birbirinden surlar ve kapılarla ayrılır; güvenlik kapıları bu şehirler arası sınır sisteminin parçasıdır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the inter-city wall and gate system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Şehirler arası sur sisteminde gerçek güvenlik kapıları bulunur; büyük sur kapılarının üzerinde yalnızca insanların geçişi için küçük kapılar da vardır."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the small-door construction on the major gates.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Her şehirler arası büyük sur kapısının üzerinde insanların geçişi için ayrıca küçük kapılar bulunur."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the Kızıl Komutan's negotiated permission and kept the royal family's response unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Çöl Şehri Yönetiminin ve Gümüş Ejderha Rahiplerinin Pastırman Mitingine Tepkisi",
+      "after": "Kızıl Komutan Sancar, Kalender ile anlaşarak mitinge izin vermiştir; şartı dini konuların savaş bittikten sonra konuşulmasıdır. Kraliyet ailesinin tepkisi belirsizdir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed Kızıl Komutan Sancar's position in the Yaz Helvası Krallığı command structure.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Kızıl Komutan'ın (Derbaş) Unvanı ve Rütbesi",
+      "after": "Kızıl Komutan Sancar, Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed that the siege outcome after the first district fell is unknown because the characters left the area.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Kavurhan Ordusunun Gece Taarruzunun Çöl Şehri Surları Üzerindeki Sonucu",
+      "after": "Kuşatmanın sonucu bilinmiyor; 1. şehir/alt şehir surları düşmüş ve kuşatma ordusu içeri girmiştir, ancak sonrasını karakterler görmemiştir."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "CONNECTED_BY_ROAD",
+        "Yaz Helvası Orta Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "CONNECTED_BY_ROAD",
+        "Yaz Helvası Üst Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0021",
+        "unresolved_locations": [
+          "3. Bölge Güvenlik Kapıları"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the security gates belong to the inter-city wall system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "from": "Teyze'nin Evi",
+        "to": "Çöl Şehri 3. Bölge Kışlası",
+        "via": [
+          "3. Bölge Güvenlik Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kovalayarak"
+      },
+      "after": {
+        "id": "TRV-0023",
+        "episode": "EP12",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0002",
+        "to_id": "BLD-0018",
+        "via_ids": [],
+        "origin": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Bölge Kışlası",
+          "entity_id": "BLD-0018",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Güvenlik Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kovalayarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the security gates belong to the inter-city wall system."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the security gates belong to the inter-city wall system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0023",
+        "unresolved_locations": [
+          "3. Bölge Güvenlik Kapıları"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 1. Bölge Surları",
+        "to": "Er Meydanı Saha Çadırı",
+        "via": [
+          "1. Duvar Özel Minik Kapısı",
+          "Er Meydanı Hendekleri"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0033",
+        "episode": "EP17",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051"
+        ],
+        "from_id": "BLD-0016",
+        "to_id": "BLD-0005",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Bölge Surları",
+          "entity_id": "BLD-0016",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Er Meydanı Saha Çadırı",
+          "entity_id": "BLD-0005",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "1. Duvar Özel Minik Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Er Meydanı Hendekleri",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0033",
+        "unresolved_locations": [
+          "1. Duvar Özel Minik Kapısı",
+          "Er Meydanı Hendekleri"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the exact historical date represented by Gümüş Ejderha 1673 is not known.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/lore/2"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Gümüş Ejderha 1673 is a named local calendar; do not numerically equate it with circa1600 world era. EP08 explicitly associates it with pre-loss circa1300 Helvanar.",
+      "after": "CANON_UNCERTAIN: 1673 is retained as a named local calendar/date reference; its conversion to the world historical eras is unknown."
+    }
+  ],
   "linked_entities": [
     {
       "id": "CIT-0006",
@@ -2549,6 +3500,10 @@
         "pointer": "/lore/2"
       },
       {
+        "source_id": "SRC-EP08",
+        "pointer": "/uncertainties/0"
+      },
+      {
         "source_id": "SRC-EP08"
       },
       {
@@ -2658,6 +3613,14 @@
       },
       {
         "source_id": "SRC-EP12",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/24/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
         "pointer": "/links/28"
       },
       {
@@ -2667,6 +3630,10 @@
       {
         "source_id": "SRC-EP12",
         "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/travel/2/to"
       },
       {
         "source_id": "SRC-EP12",
@@ -2690,6 +3657,10 @@
       {
         "source_id": "SRC-EP13",
         "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/16"
       },
       {
         "source_id": "SRC-EP13",
@@ -2850,6 +3821,10 @@
       {
         "source_id": "SRC-EP17",
         "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/27/facts/0"
       },
       {
         "source_id": "SRC-EP17",
@@ -3048,8 +4023,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 21,
+      "owner_confirmations": 19,
       "linked_entities": 19
     }
   }

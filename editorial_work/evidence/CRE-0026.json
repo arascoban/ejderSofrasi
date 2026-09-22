@@ -637,9 +637,90 @@
         },
         "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list."
       }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified the duck has no specific personal name; Ördek-ül Deva is Roary's public title.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/9/a/1"
+        }
+      ],
+      "before": "Shared title with Roary does not establish identity; the acquired individual duck remains separate.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Ördek-ül Deva is Roary's public title and not the duck's name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/12/a/1"
+        }
+      ],
+      "before": "Owner confirmed Ördek-ül Deva is Roary's public title; the duck has no specific personal name.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Roary and the unnamed duck are separate; the duck has no specific personal name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/3/a"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/12/a"
+        }
+      ],
+      "before": "Ördek-ül Deva is applied both to Roary and the separate carried duck; a shared religious nickname does not establish identity.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified the duck has no specific personal name; Ördek-ül Deva is Roary's public title.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/9/a/1"
+        }
+      ],
+      "before": "Shared title with Roary does not establish identity; the acquired individual duck remains separate.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Ördek-ül Deva is Roary's public title and not the duck's name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/12/a/1"
+        }
+      ],
+      "before": "Owner confirmed Ördek-ül Deva is Roary's public title; the duck has no specific personal name.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Roary and the unnamed duck are separate; the duck has no specific personal name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/3/a"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/12/a"
+        }
+      ],
+      "before": "Ördek-ül Deva is applied both to Roary and the separate carried duck; a shared religious nickname does not establish identity.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0018",
@@ -837,6 +918,10 @@
       },
       {
         "source_id": "SRC-EP16",
+        "pointer": "/entities/9/a/1"
+      },
+      {
+        "source_id": "SRC-EP16",
         "pointer": "/entities/9/facts/0"
       },
       {
@@ -848,11 +933,23 @@
       },
       {
         "source_id": "SRC-EP17",
+        "pointer": "/entities/12/a"
+      },
+      {
+        "source_id": "SRC-EP17",
         "pointer": "/entities/12/a/0"
       },
       {
         "source_id": "SRC-EP17",
+        "pointer": "/entities/12/a/1"
+      },
+      {
+        "source_id": "SRC-EP17",
         "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/3/a"
       },
       {
         "source_id": "SRC-EP17"
@@ -876,8 +973,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 5,
+      "owner_confirmations": 3,
       "linked_entities": 8
     }
   }

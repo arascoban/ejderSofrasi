@@ -39,6 +39,14 @@ function collectSourceRefs(values) {
   return uniqueByJson(refs).sort((a, b) => JSON.stringify(a).localeCompare(JSON.stringify(b)));
 }
 
+function sourceRefsOverlap(left, right) {
+  if (left.source_id !== right.source_id) return false;
+  if (left.line !== undefined || right.line !== undefined) return left.line === right.line;
+  const a = left.pointer ?? '';
+  const b = right.pointer ?? '';
+  return a === b || a.startsWith(`${b}/`) || b.startsWith(`${a}/`);
+}
+
 function containsExactId(value, entityId) {
   if (Array.isArray(value)) return value.some((item) => containsExactId(item, entityId));
   if (!value || typeof value !== 'object') return value === entityId;
@@ -47,6 +55,7 @@ function containsExactId(value, entityId) {
 
 function hasOwnerMarker(value) {
   if (Array.isArray(value)) return value.some(hasOwnerMarker);
+  if (typeof value === 'string') return value.toLowerCase().includes('owner');
   if (!value || typeof value !== 'object') return false;
   return Object.entries(value).some(([key, item]) =>
     key.toLowerCase().includes('owner') || hasOwnerMarker(item),
@@ -154,7 +163,13 @@ function packageFor(entity, context) {
   const mapRecords = mapCanon.filter((item) => matchingMapCanon(item, entityId));
   const stateRecords = worldStates.filter((item) => item.entity_id === entityId);
   const conflictRecords = conflicts.filter((item) => item.entity_ids?.includes(entityId));
-  const matchingDecisions = decisions.filter((item) => containsExactId(item, entityId));
+  const entitySourceRefs = collectSourceRefs([entity]);
+  const matchingDecisions = decisions.filter((item) => {
+    if (containsExactId(item, entityId)) return true;
+    return collectSourceRefs([item]).some((decisionRef) =>
+      entitySourceRefs.some((entityRef) => sourceRefsOverlap(decisionRef, entityRef)),
+    );
+  });
   const ownerConfirmations = matchingDecisions.filter((item) => hasOwnerMarker(item));
   const summaryFacts = events
     .map((event) => event.summary_fact_id)

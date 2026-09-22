@@ -1241,9 +1241,98 @@
         "ORG-0001",
         "BLD-0023"
       ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Arifler Okulu is the wizard organization and Arifler Okulu Yerleşkesi is its physical building.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/13"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/links/3"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/links/24"
+        }
+      ],
+      "before": "Arifler Okulu is an institution with a physical school and garden in source; retain organization identity and distinguish site facts/visits without classifying the institution itself as a person or purely a building.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner previously confirmed Arifler Okulu is the wizard organization and Arifler Okulu Yerleşkesi is its separate physical campus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/links/9"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/links/19"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/travel/0/to"
+        }
+      ],
+      "before": "Arifler Okulu source entities mix an organization’s membership and leadership with buildings, gardens, travel destinations, and rooms. Normalize the institution and explicit physical campus into separate role entities linked by reviewed evidence only.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Arifler Okulu is the wizard organization and Arifler Okulu Yerleşkesi is its physical building.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/13"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/links/3"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/links/24"
+        }
+      ],
+      "before": "Arifler Okulu is an institution with a physical school and garden in source; retain organization identity and distinguish site facts/visits without classifying the institution itself as a person or purely a building.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner previously confirmed Arifler Okulu is the wizard organization and Arifler Okulu Yerleşkesi is its separate physical campus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/links/9"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/links/19"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/travel/0/to"
+        }
+      ],
+      "before": "Arifler Okulu source entities mix an organization’s membership and leadership with buildings, gardens, travel destinations, and rooms. Normalize the institution and explicit physical campus into separate role entities linked by reviewed evidence only.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0023",
@@ -1497,6 +1586,14 @@
         "pointer": "/links/21"
       },
       {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/3"
+      },
+      {
         "source_id": "SRC-EP08"
       },
       {
@@ -1540,7 +1637,15 @@
       },
       {
         "source_id": "SRC-EP11",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP11",
         "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/travel/0/to"
       },
       {
         "source_id": "SRC-EP11"
@@ -1741,8 +1846,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 2,
       "linked_entities": 12
     }
   }

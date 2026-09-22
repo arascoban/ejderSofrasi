@@ -96,12 +96,47 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Maraşel is a transposition in the military title; the distinctive full personal name is unchanged, and Canon confirms Mareşal.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/5"
+        }
+      ],
+      "before": [
+        "Maraşel Cart Curtoğlu",
+        "Mareşal Cart Curtoğlu"
+      ],
+      "after": "NPC-0062"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canonical spelling and title; same named commander.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/5"
+        }
+      ],
+      "before": [
+        "Maraşel Cart Curtoğlu",
+        "Mareşal Cart Curtoğlu"
+      ],
+      "after": "NPC-0062"
+    }
+  ],
   "owner_confirmations": [],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
     "source_refs": [
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5"
+      },
       {
         "source_id": "SRC-EP18",
         "pointer": "/entities/5/facts/1"
@@ -121,7 +156,7 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
+      "normalization_decisions": 2,
       "owner_confirmations": 0,
       "linked_entities": 0
     }

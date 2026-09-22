@@ -3007,8 +3007,56 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the public deception and preserved the underlying relationship as unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Pastırman ile Yeşil Ejderha'nın gerçek ilahi ilişkisi kesin değildir; Akmer ve Kalender halkı kandırmak için ikisinin müttefik olduğunu ve evleneceğini söylemiştir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed that reliable information about the divine relationship is scarce and that Akmer and Kalender used an alliance/marriage claim to deceive the public.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Pastırman ile Yeşil Ejderha Arasındaki İlahi İlişki",
+      "after": "Pastırman ile Yeşil Ejderha'nın gerçek ilişkisi bilinmiyor; Akmer ve Kalender halkı kandırmak için müttefik olduklarını, hatta evleneceklerini söylemiştir."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the public deception and preserved the underlying relationship as unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "after": "Pastırman ile Yeşil Ejderha'nın gerçek ilahi ilişkisi kesin değildir; Akmer ve Kalender halkı kandırmak için ikisinin müttefik olduğunu ve evleneceğini söylemiştir."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed that reliable information about the divine relationship is scarce and that Akmer and Kalender used an alliance/marriage claim to deceive the public.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/uncertainties/1"
+        }
+      ],
+      "before": "Pastırman ile Yeşil Ejderha Arasındaki İlahi İlişki",
+      "after": "Pastırman ile Yeşil Ejderha'nın gerçek ilişkisi bilinmiyor; Akmer ve Kalender halkı kandırmak için müttefik olduklarını, hatta evleneceklerini söylemiştir."
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0002",
@@ -4156,8 +4204,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 33
     }
   }

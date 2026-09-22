@@ -434,6 +434,57 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact_exclusion",
+      "reason": "Project owner confirmed Dingi Sandalı is a person; the extracted small-boat description is a source classification error and must not appear as a person fact.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/24/facts/0"
+        }
+      ],
+      "before": "Karapancar gemisinin kıçında taşınan, karaya çıkmak için kullanılan küçük sandal.",
+      "after": "retained_as_source_classification_error"
+    },
+    {
+      "kind": "type_normalization",
+      "reason": "Normalize the category using explicit source description and canonical type.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/24/t"
+        }
+      ],
+      "before": "ITEM",
+      "after": "PERSON"
+    },
+    {
+      "kind": "type_reconciliation",
+      "reason": "Retained the normalized type; all original category assertions remain traceable.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 31
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/6"
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/24"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/5"
+        }
+      ],
+      "before": [
+        "ITEM",
+        "PERSON"
+      ],
+      "after": "PERSON"
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Project owner confirmed that Dingi Sandalı is the person's actual name and Dingi is the short name; there is no separate boat entity.",
       "source_refs": [
@@ -533,9 +584,155 @@
         },
         "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name."
       }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Dingi and Dingi Sandalı are the same person, with Dingi as the short name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/6"
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/24/a/0"
+        }
+      ],
+      "before": "Dingi names both a sailor and boat alias; references must resolve by record context.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact_exclusion",
+      "reason": "Project owner confirmed Dingi Sandalı is a person; the extracted small-boat description is a source classification error and must not appear as a person fact.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/24/facts/0"
+        }
+      ],
+      "before": "Karapancar gemisinin kıçında taşınan, karaya çıkmak için kullanılan küçük sandal.",
+      "after": "retained_as_source_classification_error"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Dingi Sandalı is the person's actual name and Dingi is the short name; there is no separate boat entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/6"
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/24"
+        }
+      ],
+      "before": [
+        "Dingi",
+        "Dingi Sandalı"
+      ],
+      "after": "NPC-0024"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Revanya Limanı",
+        "to": "Gizemler Adası",
+        "via": [
+          "Revania Denizleri"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Borda Feneri",
+          "Dingi",
+          "Daltonlar"
+        ],
+        "transport": "Karapancar Gemisi & Dingi Sandalı"
+      },
+      "after": {
+        "id": "TRV-0007",
+        "episode": "EP03",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0017",
+          "NPC-0024",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "OTH-0001"
+        ],
+        "from_id": "PRT-0001",
+        "to_id": "ISL-0001",
+        "via_ids": [
+          "NAT-0006"
+        ],
+        "origin": {
+          "label": "Revanya Limanı",
+          "entity_id": "PRT-0001",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Gizemler Adası",
+          "entity_id": "ISL-0001",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Revania Denizleri",
+            "entity_id": "NAT-0006",
+            "resolution": "exact"
+          }
+        ],
+        "status": "completed",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Karapancar Gemisi & Dingi Sandalı",
+          "entity_ids": [
+            "SHP-0001"
+          ]
+        },
+        "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name."
+      }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner clarified that Dingi and Dingi Sandalı are the same person, with Dingi as the short name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/6"
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/24/a/0"
+        }
+      ],
+      "before": "Dingi names both a sailor and boat alias; references must resolve by record context.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "ISL-0001",
@@ -711,6 +908,10 @@
       },
       {
         "source_id": "SRC-EP03",
+        "pointer": "/entities/24/t"
+      },
+      {
+        "source_id": "SRC-EP03",
         "pointer": "/entities/6"
       },
       {
@@ -779,8 +980,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 2,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 4,
       "linked_entities": 10
     }
   }

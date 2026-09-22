@@ -392,6 +392,21 @@
   "normalization_decisions": [
     {
       "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the lower desert-facing city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": "CIT-0007"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
       "reason": "Project owner defined the middle commercial city as a separate city-level map entity.",
       "source_refs": [
         {
@@ -404,9 +419,480 @@
         }
       ],
       "after": "CIT-0008"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the upper royal and Arifler city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "CIT-0009"
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the canonical three-city vertical structure of Yaz Helvası Şehri.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "Yaz Helvası Şehri, çölde başlayıp dağın tepesine yükselen üç bağlı şehirden oluşur. Şehirler arasında surlar ve kapılar bulunur; büyülü zipline hatları ve büyük ana yol şehirleri birbirine bağlar."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner placed the market streets in the second city.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Pazar Yeri Sokakları, Yaz Helvası'nın 2. şehrindeki yerlerdir."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that the city commonly described as Çöl Şehri is Yaz Helvası Şehri, the historical capital of Yaz Helvası Krallığı.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": [
+        "Çöl Şehri",
+        "Yaz Helvası Şehri"
+      ],
+      "after": "CIT-0006"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Üst Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 2. Bölge Sokakları",
+        "to": "Teyze'nin Evi",
+        "via": [
+          "Pazar Yeri Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Teyze (Hasta Kızın Annesi)",
+          "Halk Kalabalığı"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0022",
+        "episode": "EP12",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0014",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "BLD-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge Sokakları",
+          "entity_id": null,
+          "context_id": "DIS-0004",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pazar Yeri Sokakları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Halk Kalabalığı",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0022",
+        "unresolved_locations": [
+          "Pazar Yeri Sokakları"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the lower desert-facing city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": "CIT-0007"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the middle commercial city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": "CIT-0008"
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the upper royal and Arifler city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "CIT-0009"
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified the canonical three-city vertical structure of Yaz Helvası Şehri.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8/facts/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "Yaz Helvası Şehri, çölde başlayıp dağın tepesine yükselen üç bağlı şehirden oluşur. Şehirler arasında surlar ve kapılar bulunur; büyülü zipline hatları ve büyük ana yol şehirleri birbirine bağlar."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner placed the market streets in the second city.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "after": "Pazar Yeri Sokakları, Yaz Helvası'nın 2. şehrindeki yerlerdir."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that the city commonly described as Çöl Şehri is Yaz Helvası Şehri, the historical capital of Yaz Helvası Krallığı.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": [
+        "Çöl Şehri",
+        "Yaz Helvası Şehri"
+      ],
+      "after": "CIT-0006"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Alt Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Orta Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ],
+      "after": [
+        "Yaz Helvası Üst Şehri",
+        "PART_OF",
+        "Yaz Helvası Şehri"
+      ]
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 2. Bölge Sokakları",
+        "to": "Teyze'nin Evi",
+        "via": [
+          "Pazar Yeri Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Teyze (Hasta Kızın Annesi)",
+          "Halk Kalabalığı"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0022",
+        "episode": "EP12",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0014",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "BLD-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge Sokakları",
+          "entity_id": null,
+          "context_id": "DIS-0004",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pazar Yeri Sokakları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Halk Kalabalığı",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail."
+      }
+    },
+    {
+      "kind": "owner_confirmed_travel_resolution",
+      "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "travel_id": "TRV-0022",
+        "unresolved_locations": [
+          "Pazar Yeri Sokakları"
+        ]
+      },
+      "after": "retained_as_contextual_route_detail"
+    }
+  ],
   "linked_entities": [
     {
       "id": "CIT-0006",
@@ -464,6 +950,10 @@
         "pointer": "/entities/16/facts/0"
       },
       {
+        "source_id": "SRC-EP07",
+        "pointer": "/uncertainties/0"
+      },
+      {
         "source_id": "SRC-EP08",
         "pointer": "/entities/11/facts/0"
       },
@@ -487,6 +977,10 @@
       },
       {
         "source_id": "SRC-EP17",
+        "pointer": "/entities/27/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
         "pointer": "/entities/28/facts/0"
       },
       {
@@ -504,8 +998,8 @@
       "map_constraints": 2,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 11,
+      "owner_confirmations": 11,
       "linked_entities": 4
     }
   }

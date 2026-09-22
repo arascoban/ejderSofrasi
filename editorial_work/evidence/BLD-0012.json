@@ -207,8 +207,138 @@
   ],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner requested separate records for the real childhood kitchen and its magically recreated temple-trial manifestation.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "before": "Sütçüoğlu hanedanının konağında yer alan, yeni sütlü tatlı tariflerinin geliştirildiği, Akmer'in çocukluğunda kaçıp hazır noodle/puding yaptığı özel mutfak alanı; Ametist Kristali tarafından sınav mekanı olarak canlandırılmıştır.",
+      "after": "Sütçüoğlu hanedanının konağında yer alan, yeni sütlü tatlı tariflerinin geliştirildiği ve Akmer'in çocukluğunda kaçıp hazır noodle/puding yaptığı özel mutfak alanıdır."
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner confirmed the real childhood kitchen and the magically recreated temple-trial manifestation must be separate records.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": "Sütçüoğlu Deney Mutfağı",
+      "after": "BLD-0025"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed the real Sütçüoğlu Deney Mutfağı and its magical temple-trial manifestation require separate records.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": "Sütçüoğlu Deney Mutfağı describes the childhood kitchen and its magically recreated trial representation in one record. Do not place the original in the temple.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the dates of Doktor Aktar's imprisonment and childhood kitchen history are unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/5"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/lore/2"
+        }
+      ],
+      "before": "Doktor Aktar imprisonment and kitchen childhood lore are recalled during the 1300 trial; their original dates are not given.",
+      "after": "CANON_UNCERTAIN: the biography is canonically undated."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact_text",
+      "reason": "Project owner requested separate records for the real childhood kitchen and its magically recreated temple-trial manifestation.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "before": "Sütçüoğlu hanedanının konağında yer alan, yeni sütlü tatlı tariflerinin geliştirildiği, Akmer'in çocukluğunda kaçıp hazır noodle/puding yaptığı özel mutfak alanı; Ametist Kristali tarafından sınav mekanı olarak canlandırılmıştır.",
+      "after": "Sütçüoğlu hanedanının konağında yer alan, yeni sütlü tatlı tariflerinin geliştirildiği ve Akmer'in çocukluğunda kaçıp hazır noodle/puding yaptığı özel mutfak alanıdır."
+    },
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner confirmed the real childhood kitchen and the magically recreated temple-trial manifestation must be separate records.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": "Sütçüoğlu Deney Mutfağı",
+      "after": "BLD-0025"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed the real Sütçüoğlu Deney Mutfağı and its magical temple-trial manifestation require separate records.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": "Sütçüoğlu Deney Mutfağı describes the childhood kitchen and its magically recreated trial representation in one record. Do not place the original in the temple.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Project owner confirmed that the dates of Doktor Aktar's imprisonment and childhood kitchen history are unknown.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/5"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/lore/2"
+        }
+      ],
+      "before": "Doktor Aktar imprisonment and kitchen childhood lore are recalled during the 1300 trial; their original dates are not given.",
+      "after": "CANON_UNCERTAIN: the biography is canonically undated."
+    }
+  ],
   "linked_entities": [
     {
       "id": "NPC-0006",
@@ -333,6 +463,18 @@
         "pointer": "/entities/3/facts/3"
       },
       {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/lore/2"
+      },
+      {
         "source_id": "SRC-EP24"
       }
     ],
@@ -347,8 +489,8 @@
       "map_constraints": 1,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 4,
       "linked_entities": 5
     }
   }

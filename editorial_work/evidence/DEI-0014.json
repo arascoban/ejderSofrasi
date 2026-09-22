@@ -94,8 +94,50 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Podcastia is a limited crossover reference to another D&D series in the same universe.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Podcasa and Tiamat are mentioned by Ametist Kristali in a MAIN_TIMELINE source, with source uncertainty about the claim. Preserve reported lore only; do not create another continuity or import offscreen crossover events.",
+      "after": "resolved"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Podcastia is a limited crossover reference to another D&D series in the same universe.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Podcasa and Tiamat are mentioned by Ametist Kristali in a MAIN_TIMELINE source, with source uncertainty about the claim. Preserve reported lore only; do not create another continuity or import offscreen crossover events.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
@@ -107,6 +149,14 @@
       {
         "source_id": "SRC-EP24",
         "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/uncertainties/0"
       },
       {
         "source_id": "SRC-EP24"
@@ -123,8 +173,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 1,
       "linked_entities": 0
     }
   }

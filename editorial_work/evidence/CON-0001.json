@@ -1493,6 +1493,17 @@
   "conflicts": [],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner linked the sinking to the dragon-god war while keeping timing uncertain.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "after": "Ejderhalar ve tanrılar arasındaki savaştan sonra battığı düşünülmektedir; kuşatmadan ne kadar sonra battığı bilinmemektedir."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "Project owner confirmed that Helvanar Kıtası and Helva Adası are the same enormous island; the continent label describes its scale.",
       "source_refs": [
@@ -1510,9 +1521,136 @@
         "Helva Adası"
       ],
       "after": "CON-0001"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner linked Helvanar's sinking to the war between dragons and gods while leaving the exact timing uncertain.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "before": "Helvanar Kıtası'nın Batış / Tufan Zamanı",
+      "after": "Helvanar'ın ejderhalar ve tanrılar arasındaki savaştan sonra battığı düşünülür; kuşatmadan ne kadar sonra olduğu belirsizdir."
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed the same Helva Adası / Helvanar Kıtası identity across the EP08 alias occurrence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/25/a/0"
+        }
+      ],
+      "before": "Canon lists the island and continent separately; alias identity is not established.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed the canonical continent and island labels refer to the same landmass.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/35/a/0"
+        }
+      ],
+      "before": "A continent and named island are separately supplied by Canon; preserve identity uncertainty instead of merging via this alias.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Helva Adası is the scale/classification description of Helvanar Kıtası.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/35/a/0"
+        }
+      ],
+      "before": "Helvanar Kıtası is assigned alias Helva Adası, but both canonical geographic names exist and differ in geographic class. Same-world different-period context does not establish same landmass.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner linked the sinking to the dragon-god war while keeping timing uncertain.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "after": "Ejderhalar ve tanrılar arasındaki savaştan sonra battığı düşünülmektedir; kuşatmadan ne kadar sonra battığı bilinmemektedir."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Helvanar Kıtası and Helva Adası are the same enormous island; the continent label describes its scale.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 13
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/25"
+        }
+      ],
+      "before": [
+        "Helvanar Kıtası",
+        "Helva Adası"
+      ],
+      "after": "CON-0001"
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner linked Helvanar's sinking to the war between dragons and gods while leaving the exact timing uncertain.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/uncertainties/2"
+        }
+      ],
+      "before": "Helvanar Kıtası'nın Batış / Tufan Zamanı",
+      "after": "Helvanar'ın ejderhalar ve tanrılar arasındaki savaştan sonra battığı düşünülür; kuşatmadan ne kadar sonra olduğu belirsizdir."
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed the same Helva Adası / Helvanar Kıtası identity across the EP08 alias occurrence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/25/a/0"
+        }
+      ],
+      "before": "Canon lists the island and continent separately; alias identity is not established.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed the canonical continent and island labels refer to the same landmass.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/35/a/0"
+        }
+      ],
+      "before": "A continent and named island are separately supplied by Canon; preserve identity uncertainty instead of merging via this alias.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Helva Adası is the scale/classification description of Helvanar Kıtası.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/35/a/0"
+        }
+      ],
+      "before": "Helvanar Kıtası is assigned alias Helva Adası, but both canonical geographic names exist and differ in geographic class. Same-world different-period context does not establish same landmass.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0006",
@@ -1660,6 +1798,10 @@
       },
       {
         "source_id": "SRC-EP08",
+        "pointer": "/entities/25/a/0"
+      },
+      {
+        "source_id": "SRC-EP08",
         "pointer": "/entities/25/facts/0"
       },
       {
@@ -1704,6 +1846,10 @@
       {
         "source_id": "SRC-EP09",
         "pointer": "/entities/35"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/35/a/0"
       },
       {
         "source_id": "SRC-EP09",
@@ -2051,8 +2197,8 @@
       "map_constraints": 6,
       "world_states": 2,
       "conflicts": 0,
-      "normalization_decisions": 1,
-      "owner_confirmations": 0,
+      "normalization_decisions": 6,
+      "owner_confirmations": 6,
       "linked_entities": 7
     }
   }

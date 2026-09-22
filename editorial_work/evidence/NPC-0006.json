@@ -10962,6 +10962,44 @@
   ],
   "normalization_decisions": [
     {
+      "kind": "owner_confirmed_alias_exclusion",
+      "reason": "Project owner confirmed Akmer wore the Kızıl Sıçan costume; EP22's Gümüş Sıçan assignment is reversed.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/0/a/3"
+        }
+      ],
+      "before": "Gümüş Sıçan",
+      "after": "excluded_from_normalized_aliases"
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Akmer wore the Kızıl Sıçan costume as a temporary diversion.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/0/a"
+        }
+      ],
+      "after": "Tahin Saray Delil Odası'nda bulunan Kızıl Sıçan kostümünü yalnızca dikkat dağıtmak için geçici olarak giymiştir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the sword-to-axe transformation and handoff sequence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "after": "Kristal Kılıç'ı demirciden aldı; kılıç her tuttuğunda eline dikenler saplandı ve Kalender onu Akmer'e verdi. Ertesi sabah kılıç Helvacıoğlu Baltası'na dönüştü."
+    },
+    {
       "kind": "evidence_backed_identity_merge",
       "reason": "EP24 explicitly gives the full name Akmer Sütçüoğlu in facts referring to Akmer; Canon confirms that full spelling.",
       "source_refs": [
@@ -10982,6 +11020,25 @@
     },
     {
       "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed the item began as Kristal Kılıç, was handed from Kalender to Akmer, and transformed into Helvacıoğlu Baltası the next morning.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "before": [
+        "Helvacıoğlu Baltası",
+        "Kristal Kılıç"
+      ],
+      "after": "ITM-0012"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
       "reason": "Canon names the player; EP00 explicitly identifies Akmer as the family princess.",
       "source_refs": [
         {
@@ -10994,6 +11051,21 @@
         "Akmer Sütçüoğlu"
       ],
       "after": "NPC-0006"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "after": [
+        "Akmer",
+        "OWNS",
+        "Helvacıoğlu Baltası"
+      ]
     },
     {
       "kind": "travel_review",
@@ -12816,9 +12888,1280 @@
         },
         "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers."
       }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kalender wore Gümüş Sıçan and Akmer wore Kızıl Sıçan costumes only as a temporary diversion.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/0/a"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/1/a"
+        }
+      ],
+      "before": "EP22 calls Akmer Gümüş Sıçan and Kalender Kızıl Sıçan; EP23 reverses those costume identities. They are temporary roles and must not merge the two characters or the show duo.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kristal Kılıç and Helvacıoğlu Baltası are the same transforming item, handed from Kalender to Akmer.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/29/facts/0"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/1/fact"
+        }
+      ],
+      "before": "EP15 describes separately gifted Helvacıoğlu Baltası (Akmer) and Kristal Kılıç (Kalender). EP16 says Kristal Kılıç transforms into the named axe. Preserve both established item IDs and the transformation claim as unresolved item identity, without collapsing the earlier distinct gifts.",
+      "after": "resolved"
     }
   ],
-  "owner_confirmations": [],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_alias_exclusion",
+      "reason": "Project owner confirmed Akmer wore the Kızıl Sıçan costume; EP22's Gümüş Sıçan assignment is reversed.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/0/a/3"
+        }
+      ],
+      "before": "Gümüş Sıçan",
+      "after": "excluded_from_normalized_aliases"
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Akmer wore the Kızıl Sıçan costume as a temporary diversion.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/0/a"
+        }
+      ],
+      "after": "Tahin Saray Delil Odası'nda bulunan Kızıl Sıçan kostümünü yalnızca dikkat dağıtmak için geçici olarak giymiştir."
+    },
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the sword-to-axe transformation and handoff sequence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "after": "Kristal Kılıç'ı demirciden aldı; kılıç her tuttuğunda eline dikenler saplandı ve Kalender onu Akmer'e verdi. Ertesi sabah kılıç Helvacıoğlu Baltası'na dönüştü."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed the item began as Kristal Kılıç, was handed from Kalender to Akmer, and transformed into Helvacıoğlu Baltası the next morning.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "before": [
+        "Helvacıoğlu Baltası",
+        "Kristal Kılıç"
+      ],
+      "after": "ITM-0012"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "after": [
+        "Akmer",
+        "OWNS",
+        "Helvacıoğlu Baltası"
+      ]
+    },
+    {
+      "kind": "travel_review",
+      "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Revanya Limanı",
+        "to": "Gizemler Adası",
+        "via": [
+          "Revania Denizleri"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Borda Feneri",
+          "Dingi",
+          "Daltonlar"
+        ],
+        "transport": "Karapancar Gemisi & Dingi Sandalı"
+      },
+      "after": {
+        "id": "TRV-0007",
+        "episode": "EP03",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0017",
+          "NPC-0024",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "OTH-0001"
+        ],
+        "from_id": "PRT-0001",
+        "to_id": "ISL-0001",
+        "via_ids": [
+          "NAT-0006"
+        ],
+        "origin": {
+          "label": "Revanya Limanı",
+          "entity_id": "PRT-0001",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Gizemler Adası",
+          "entity_id": "ISL-0001",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Revania Denizleri",
+            "entity_id": "NAT-0006",
+            "resolution": "exact"
+          }
+        ],
+        "status": "completed",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Karapancar Gemisi & Dingi Sandalı",
+          "entity_ids": [
+            "SHP-0001"
+          ]
+        },
+        "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Gizemler Adası Tepeliği",
+        "to": "Zümrüt Ejderha Pulu",
+        "via": [
+          "Gizemler Adası Ormanı",
+          "Şifa Deresi"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0008",
+        "episode": "EP04",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "NAT-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Gizemler Adası Tepeliği",
+          "entity_id": null,
+          "context_id": "ISL-0001",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Pulu",
+          "entity_id": "NAT-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Gizemler Adası Ormanı",
+            "entity_id": null,
+            "context_id": "ISL-0001",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Şifa Deresi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Zümrüt Ejderha Şifa Zindanı Girişi",
+        "to": "İdilik Yayla",
+        "via": [
+          "Zümrüt Bronz Kapılar",
+          "5 Nolu Zümrüt Ejderha Küpü"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Büyülü Geçit"
+      },
+      "after": {
+        "id": "TRV-0010",
+        "episode": "EP05",
+        "sequence": 2,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "NAT-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Zümrüt Ejderha Şifa Zindanı Girişi",
+          "entity_id": null,
+          "context_id": "TMP-0003",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "İdilik Yayla",
+          "entity_id": "NAT-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Zümrüt Bronz Kapılar",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "5 Nolu Zümrüt Ejderha Küpü",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Büyülü Geçit",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "İdilik Yayla",
+        "to": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+        "via": [
+          "4 Kollu Yeşim Kapı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Jifa"
+        ],
+        "transport": "Yürüyerek & Tırmanarak"
+      },
+      "after": {
+        "id": "TRV-0011",
+        "episode": "EP06",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0049",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "NAT-0002",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "İdilik Yayla",
+          "entity_id": "NAT-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+          "entity_id": null,
+          "context_id": "TMP-0003",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "4 Kollu Yeşim Kapı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Tırmanarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Zümrüt Ejderha Şifa Tapınağı",
+        "to": "Çöl Şehri",
+        "via": [
+          "Beyaz-Sarı Damarlı Merdivenler",
+          "Terk Edilmiş Ahşap Baraka"
+        ],
+        "party": [
+          "Akmer",
+          "Roary",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0013",
+        "episode": "EP07",
+        "sequence": 1,
+        "period": null,
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "TMP-0003",
+        "to_id": "CIT-0006",
+        "via_ids": [],
+        "origin": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı",
+          "entity_id": "TMP-0003",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri",
+          "entity_id": "CIT-0006",
+          "resolution": "exact",
+          "reviewed_context_id": "CIT-0007"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Beyaz-Sarı Damarlı Merdivenler",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Terk Edilmiş Ahşap Baraka",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "temporal_transition",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "from_period": "1600 civarı",
+        "to_period": "1300 civarı",
+        "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+        "to": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+        "via": [
+          "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+          "Dennu'nun Evi",
+          "Üçlü Geçiş Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Raer",
+          "Dennu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0014",
+        "episode": "EP08",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0022",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Dennu'nun Evi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 3,
+            "label": "Üçlü Geçiş Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 2. Bölge Sokakları",
+        "to": "Teyze'nin Evi",
+        "via": [
+          "Pazar Yeri Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Teyze (Hasta Kızın Annesi)",
+          "Halk Kalabalığı"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0022",
+        "episode": "EP12",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0014",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "BLD-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge Sokakları",
+          "entity_id": null,
+          "context_id": "DIS-0004",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pazar Yeri Sokakları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Halk Kalabalığı",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the security gates belong to the inter-city wall system.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "from": "Teyze'nin Evi",
+        "to": "Çöl Şehri 3. Bölge Kışlası",
+        "via": [
+          "3. Bölge Güvenlik Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kovalayarak"
+      },
+      "after": {
+        "id": "TRV-0023",
+        "episode": "EP12",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0002",
+        "to_id": "BLD-0018",
+        "via_ids": [],
+        "origin": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Bölge Kışlası",
+          "entity_id": "BLD-0018",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Güvenlik Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kovalayarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the security gates belong to the inter-city wall system."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+        "to": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+        "via": [
+          "Kışla Merdivenleri ve Koridorları",
+          "Kışla Çıkış Kapısı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kaçarak"
+      },
+      "after": {
+        "id": "TRV-0024",
+        "episode": "EP13",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Toplantı Odası",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+          "entity_id": null,
+          "context_id": "BLD-0020",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Kışla Merdivenleri ve Koridorları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Kışla Çıkış Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kaçarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the barracks stairs/corridors and exit are separate interior details but no further subdivision is canonical."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 1. Bölge Surları",
+        "to": "Er Meydanı Saha Çadırı",
+        "via": [
+          "1. Duvar Özel Minik Kapısı",
+          "Er Meydanı Hendekleri"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0033",
+        "episode": "EP17",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051"
+        ],
+        "from_id": "BLD-0016",
+        "to_id": "BLD-0005",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Bölge Surları",
+          "entity_id": "BLD-0016",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Er Meydanı Saha Çadırı",
+          "entity_id": "BLD-0005",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "1. Duvar Özel Minik Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Er Meydanı Hendekleri",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the small door is mounted on the large wall gate; the moat is part of the physical fortification."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed there is no canonical Dimension Door; retain only the physical first-wall gate and preserve the extracted phrase as source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "order": 3,
+        "from": "Er Meydanı Saha Çadırı",
+        "to": "Arifler Okulu",
+        "via": [
+          "1. Duvar Kapısı",
+          "Büyülü Dimension Door Geçidi"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Sancar Devran"
+        ],
+        "transport": "Yürüyerek & Büyülü Işınlanma"
+      },
+      "after": {
+        "id": "TRV-0034",
+        "episode": "EP17",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0005",
+        "to_id": "BLD-0023",
+        "via_ids": [],
+        "origin": {
+          "label": "Er Meydanı Saha Çadırı",
+          "entity_id": "BLD-0005",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "1. Duvar Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Büyülü Işınlanma",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed there is no canonical Dimension Door; retain only the physical first-wall gate and preserve the extracted phrase as source evidence."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed this is another gate in the inter-city wall system between Yaz Helvası cities.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 3. Bölge Kışlası Koridorları",
+        "to": "Çöl Şehri 2. Bölge",
+        "via": [
+          "3. Bölge ile 2. Bölge Arasındaki Güvenlik Kapısı"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Rozet Göstererek"
+      },
+      "after": {
+        "id": "TRV-0038",
+        "episode": "EP19",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "DIS-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Koridorları",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge ile 2. Bölge Arasındaki Güvenlik Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Rozet Göstererek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed this is another gate in the inter-city wall system between Yaz Helvası cities."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "order": 3,
+        "from": "Çöl Şehri 2. Bölge",
+        "to": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+        "via": [
+          "Pastırman Anıtı Meydanı"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kalender'i Taşıyarak"
+      },
+      "after": {
+        "id": "TRV-0039",
+        "episode": "EP19",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "DIS-0004",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+          "entity_id": null,
+          "context_id": "DIS-0003",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pastırman Anıtı Meydanı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kalender'i Taşıyarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers."
+      }
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kalender wore Gümüş Sıçan and Akmer wore Kızıl Sıçan costumes only as a temporary diversion.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/0/a"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/1/a"
+        }
+      ],
+      "before": "EP22 calls Akmer Gümüş Sıçan and Kalender Kızıl Sıçan; EP23 reverses those costume identities. They are temporary roles and must not merge the two characters or the show duo.",
+      "after": "resolved"
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Kristal Kılıç and Helvacıoğlu Baltası are the same transforming item, handed from Kalender to Akmer.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/29/facts/0"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/lore/1/fact"
+        }
+      ],
+      "before": "EP15 describes separately gifted Helvacıoğlu Baltası (Akmer) and Kristal Kılıç (Kalender). EP16 says Kristal Kılıç transforms into the named axe. Preserve both established item IDs and the transformation claim as unresolved item identity, without collapsing the earlier distinct gifts.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0002",
@@ -14735,6 +16078,10 @@
       },
       {
         "source_id": "SRC-EP15",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP15",
         "pointer": "/entities/28/facts/0"
       },
       {
@@ -14819,6 +16166,10 @@
       {
         "source_id": "SRC-EP16",
         "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/29/facts/0"
       },
       {
         "source_id": "SRC-EP16",
@@ -15276,6 +16627,10 @@
       },
       {
         "source_id": "SRC-EP22",
+        "pointer": "/entities/0/a/3"
+      },
+      {
+        "source_id": "SRC-EP22",
         "pointer": "/entities/0/facts/0"
       },
       {
@@ -15376,6 +16731,10 @@
       {
         "source_id": "SRC-EP23",
         "pointer": "/entities/0/n"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/1/a"
       },
       {
         "source_id": "SRC-EP23",
@@ -15543,8 +16902,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 5,
-      "normalization_decisions": 24,
-      "owner_confirmations": 0,
+      "normalization_decisions": 31,
+      "owner_confirmations": 20,
       "linked_entities": 51
     }
   }

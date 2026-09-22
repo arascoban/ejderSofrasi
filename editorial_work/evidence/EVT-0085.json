@@ -120,8 +120,94 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Işık Tacı's permanent attachment and İto's refusal of Remove Curse.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/2/facts/3"
+        }
+      ],
+      "after": "Işık Tacı kafasına yapışmıştır; Arifler Loncası Remove Curse ile kaldırabileceğini söylemiş, ancak İto bunu istememiştir."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/2/facts/3"
+        }
+      ],
+      "after": [
+        "İto İtoğlu",
+        "OWNS",
+        "Işık Tacı"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Yeniden Yaşam Yüzüğü was always Kalender's and never left his hand.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/1/facts/4"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/32/facts/0"
+        }
+      ],
+      "before": "Yeniden Yaşam Yüzüğü is repeatedly worn by Akmer through EP14, but EP15 attributes its resurrection effect to Kalender. Do not silently replace ownership or assume a transfer.",
+      "after": "resolved"
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed Işık Tacı's permanent attachment and İto's refusal of Remove Curse.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/2/facts/3"
+        }
+      ],
+      "after": "Işık Tacı kafasına yapışmıştır; Arifler Loncası Remove Curse ile kaldırabileceğini söylemiş, ancak İto bunu istememiştir."
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/2/facts/3"
+        }
+      ],
+      "after": [
+        "İto İtoğlu",
+        "OWNS",
+        "Işık Tacı"
+      ]
+    },
+    {
+      "kind": "owner_confirmed_conflict_resolution",
+      "reason": "Owner confirmed Yeniden Yaşam Yüzüğü was always Kalender's and never left his hand.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/1/facts/4"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/32/facts/0"
+        }
+      ],
+      "before": "Yeniden Yaşam Yüzüğü is repeatedly worn by Akmer through EP14, but EP15 attributes its resurrection effect to Kalender. Do not silently replace ownership or assume a transfer.",
+      "after": "resolved"
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
@@ -137,6 +223,10 @@
       {
         "source_id": "SRC-EP15",
         "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/32/facts/0"
       },
       {
         "source_id": "SRC-EP15",
@@ -157,8 +247,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 0
     }
   }

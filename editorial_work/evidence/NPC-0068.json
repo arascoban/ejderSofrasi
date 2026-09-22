@@ -701,8 +701,56 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified Bumblebor/Muzaffer Dede’s role as the ancient emerald dragon temple guardian.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Kadim Zümrüt Ejderha tapınağının koruyucusudur."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the guardian role.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Bumblebor / Muzaffer Dede'nin Yaşı ve Kimliği",
+      "after": "Bumblebor/Muzaffer Dede, kadim Zümrüt Ejderha tapınağının koruyucusudur."
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner clarified Bumblebor/Muzaffer Dede’s role as the ancient emerald dragon temple guardian.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "after": "Kadim Zümrüt Ejderha tapınağının koruyucusudur."
+    },
+    {
+      "kind": "owner_confirmed_uncertainty_resolution",
+      "reason": "Project owner confirmed the guardian role.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": "Bumblebor / Muzaffer Dede'nin Yaşı ve Kimliği",
+      "after": "Bumblebor/Muzaffer Dede, kadim Zümrüt Ejderha tapınağının koruyucusudur."
+    }
+  ],
   "linked_entities": [
     {
       "id": "BLD-0009",
@@ -945,8 +993,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 2,
       "linked_entities": 7
     }
   }

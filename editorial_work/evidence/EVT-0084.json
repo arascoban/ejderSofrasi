@@ -112,8 +112,108 @@
   "map_canon": [],
   "world_states": [],
   "conflicts": [],
-  "normalization_decisions": [],
-  "owner_confirmations": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the sword-to-axe transformation and handoff sequence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "after": "Kristal Kılıç'ı demirciden aldı; kılıç her tuttuğunda eline dikenler saplandı ve Kalender onu Akmer'e verdi. Ertesi sabah kılıç Helvacıoğlu Baltası'na dönüştü."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed the item began as Kristal Kılıç, was handed from Kalender to Akmer, and transformed into Helvacıoğlu Baltası the next morning.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "before": [
+        "Helvacıoğlu Baltası",
+        "Kristal Kılıç"
+      ],
+      "after": "ITM-0012"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        }
+      ],
+      "after": [
+        "Kalender Tütüncüoğlu",
+        "FORMERLY_OWNED",
+        "Helvacıoğlu Baltası"
+      ]
+    }
+  ],
+  "owner_confirmations": [
+    {
+      "kind": "owner_confirmed_fact",
+      "reason": "Project owner confirmed the sword-to-axe transformation and handoff sequence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "after": "Kristal Kılıç'ı demirciden aldı; kılıç her tuttuğunda eline dikenler saplandı ve Kalender onu Akmer'e verdi. Ertesi sabah kılıç Helvacıoğlu Baltası'na dönüştü."
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed the item began as Kristal Kılıç, was handed from Kalender to Akmer, and transformed into Helvacıoğlu Baltası the next morning.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/0/facts/2"
+        }
+      ],
+      "before": [
+        "Helvacıoğlu Baltası",
+        "Kristal Kılıç"
+      ],
+      "after": "ITM-0012"
+    },
+    {
+      "kind": "owner_confirmed_relationship",
+      "reason": "Project owner supplied the canonical relationship.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/28"
+        }
+      ],
+      "after": [
+        "Kalender Tütüncüoğlu",
+        "FORMERLY_OWNED",
+        "Helvacıoğlu Baltası"
+      ]
+    }
+  ],
   "linked_entities": [],
   "evidence": {
     "review_status": "sufficient_narrative",
@@ -121,6 +221,10 @@
       {
         "source_id": "SRC-EP15",
         "pointer": "/entities/27/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/28"
       },
       {
         "source_id": "SRC-EP15",
@@ -132,6 +236,10 @@
       },
       {
         "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/0/facts/2"
       }
     ],
     "counts": {
@@ -145,8 +253,8 @@
       "map_constraints": 0,
       "world_states": 0,
       "conflicts": 0,
-      "normalization_decisions": 0,
-      "owner_confirmations": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 3,
       "linked_entities": 0
     }
   }
