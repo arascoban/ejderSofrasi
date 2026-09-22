@@ -5,10 +5,10 @@ Son güncelleme: 22 Eylül 2026, Europe/Berlin
 ## Güncel kabul — 22 Eylül 2026, Astra
 
 - **D2 tamamlandı.** Kabul matrisi ve test sınırları `D2_KABUL_RAPORU.md` içindedir. PRB-0013 ve PRB-0014 kapandı; PRB-0017 kullanıcı kararıyla ertelendi ve D2 engeli değildir.
-- E1–E3 yerel uygulaması tamamlandı: merkezi Türkçe/ASCII arama, alias/slug/eski ID eşleşmesi, Türkçe global `/search` ekranı, URL'de dönem/tür filtreleri ve yalnızca güncel yayımlanmış editoryal metin indeksi eklendi. Yerel klavye ve HTTP smoke kabulü geçti; canlı deploy doğrulaması bu kaydın devamındadır.
+- E1–E3 tamamlandı: merkezi Türkçe/ASCII arama, alias/slug/eski ID eşleşmesi, Türkçe global `/search` ekranı, URL'de dönem/tür filtreleri ve yalnızca güncel yayımlanmış editoryal metin indeksi eklendi. Yerel klavye/HTTP smoke ve canlı HTTPS arama kabulü geçti.
 - Lint/typecheck,78 Vitest +6 export testi ve üretim build527/527 başarılı; yerel SQL35/36 denetim geçti. Canlı V16 ID bağlantısı ve temiz V17 yayını doğrulandı. Özgün medya + editoryal metadata dışa aktarıldı.
 - I aşamasının davet ortam kontrolü PRB-0018 altında açık; E için engel değildir.
-- E kabulü için kalan adım yeni commit'in Vercel Production sonucu ve canlı HTTPS arama smoke kontrolüdür. F/G/H/I'ye E canlı doğrulanmadan geçilmeyecek. Güncel yürütme sırası `LUNA_DEPLOY_TALIMATLARI.md`.
+- E kabulü kapandı. `cb6bb4b` GitHub main'e gönderildi, Vercel Production success oldu; canlı `/search?q=col%20sehri`, `/search?q=NPC-0059` ve gemi+tür+dönem filtresi 200 ile beklenen sonuçları verdi. Sıradaki özellik F; güncel yürütme sırası `LUNA_DEPLOY_TALIMATLARI.md`.
 - Uygulama commit'i `81e63d0` GitHub main dalına gönderildi; Vercel Production success aynı commit için doğrulandı. `https://ejder-map.vercel.app` üzerinde temel sayfalar200, editör giriş koruması307 ve temiz V17 kontrolü geçti. Ayrıntılar `D2_KABUL_RAPORU.md`.
 
 ## Tarihsel kabul — 21 Eylül 2026, Astra

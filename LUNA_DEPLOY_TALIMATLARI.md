@@ -2,7 +2,7 @@
 
 ## Güncel Astra yönergesi — 22 Eylül 2026
 
-**D2 tamamlandı; E1–E3 yerel uygulaması tamamlandı, canlı kabulü bekliyor.** `D2_KABUL_RAPORU.md` kabul matrisi bu dosyanın daha eski açık-test talimatlarının önündedir. PRB-0013/0014 çözüldü. CPU konusu PRB-0017 kullanıcı isteğiyle ertelendi; yeniden ölçüm veya yük testi başlatma. PT409 migration ve bootstrap'ı canlıda tekrar çalıştırma. Owner/secret onayını yeniden isteme.
+**D2 tamamlandı; E1–E3 canlıda tamamlandı, sıradaki özellik F.** `D2_KABUL_RAPORU.md` kabul matrisi bu dosyanın daha eski açık-test talimatlarının önündedir. PRB-0013/0014 çözüldü. CPU konusu PRB-0017 kullanıcı isteğiyle ertelendi; yeniden ölçüm veya yük testi başlatma. PT409 migration ve bootstrap'ı canlıda tekrar çalıştırma. Owner/secret onayını yeniden isteme.
 
 1. AGENTS.md, güncel durum ve kabul raporunu oku; mevcut staged/unstaged değişiklikleri koru. Kanonu/ID'leri frontend için değiştirme. Yeni bir hata yoksa D2 test içeriğini yeniden yaratma; canlı NPC-0006 temiz V17, geçmiş revizyonlar/özel dosyalar korunuyor.
 2. `81e63d0` için GitHub push, Vercel Production success ve `https://ejder-map.vercel.app` HTTPS smoke tamamlandı. Yeni değişikliklerde doğru commit için Vercel success ve HTTPS smoke doğrula. İşletim erişimi engeli varsa PRB kaydına bağlamı ekle; yerel D2 kabulünü başarısız sayma ve deploy olmuş gibi raporlama.
@@ -14,7 +14,7 @@
 
 ### E uygulama kaydı — 22 Eylül 2026, Astra
 
-E1–E3 kodu uygulandı ve yerelde kabul edildi. `src/lib/domain/search.ts` tek normalizasyon/filtre katmanıdır; `/wiki` ve yeni Türkçe `/search` aynı kayıt deposunu kullanır. Kanonik ad, alias, slug ve mevcut ID yönlendirmelerinden gelen eski ID'ler aranır; editoryal metin yalnızca public `wiki_articles` içindeki güncel `published_revision_id` üzerinden, draft ve tarihçe dışarıda bırakılarak okunur. Arama formu klavye ile çalışır; `q`, `type` ve `period` URL parametreleri geri/ileri gezinmede korunur. `npm run lint`, `npm run typecheck`, `npm run test` (78 Vitest + 6 export testi) ve `npm run build` (527/527) başarılıdır. Yerel `/search?q=col%20sehri`, eski `NPC-0059` ve tür/dönem filtreleri gerçek HTML ile kontrol edildi. Yeni commit sonrası Vercel Production success ve `https://ejder-map.vercel.app/search` canlı smoke kontrolü E kapanış kanıtıdır.
+E1–E3 kodu uygulandı ve canlıda kabul edildi. `src/lib/domain/search.ts` tek normalizasyon/filtre katmanıdır; `/wiki` ve yeni Türkçe `/search` aynı kayıt deposunu kullanır. Kanonik ad, alias, slug ve mevcut ID yönlendirmelerinden gelen eski ID'ler aranır; editoryal metin yalnızca public `wiki_articles` içindeki güncel `published_revision_id` üzerinden, draft ve tarihçe dışarıda bırakılarak okunur. Arama formu klavye ile çalışır; `q`, `type` ve `period` URL parametreleri geri/ileri gezinmede korunur. `npm run lint`, `npm run typecheck`, `npm run test` (78 Vitest + 6 export testi) ve `npm run build` (527/527) başarılıdır. Yerel `/search?q=col%20sehri`, eski `NPC-0059` ve tür/dönem filtreleri gerçek HTML ile kontrol edildi. `cb6bb4b` commit'i GitHub main'e gönderildi, Vercel Production success oldu; canlı `/search?q=col%20sehri`, `/search?q=NPC-0059` ve `karapancar` gemi+dönem filtresi HTTP 200 ve beklenen sonuçları verdi. E kabulü kapandı; F'ye geçilebilir.
 
 Davet/SMTP işletim kabulü I aşamasında PRB-0018 altında açık; E'yi engellemez. Yeni editör daveti göndermeden önce mutlak site adresi ve callback izin listesini doğrula.
 
