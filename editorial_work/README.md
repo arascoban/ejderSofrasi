@@ -15,3 +15,5 @@ Her paket kimlik bilgisini, kaynaklı olguları, giden/gelen ilişkileri, ilgili
 M1 kanıt üretimi Supabase yazımı veya yayın işlemi yapmaz. M2’deki altı pilot taslak Tiptap belgeleri olarak `drafts/` altında hazırlanır; bunlar yayınlanmış içerik değildir ve görsel içermez. Pilot incelemesi tamamlanmadan toplu makale üretimi ve yayın başlatılamaz.
 
 M2 pilotları `drafts/` altında, `manifest.json` ile birlikte tutulur. `npm run editorial:pilots` altı pilotu (Akmer, Kalender, Yaz Helvası Krallığı, Helvacıoğlu Baltası, Arifler Okulu ve Alafğöğüs) aynı kanıt paketlerinden deterministik olarak üretir. Pilotlar `pilot_review`, `not_published` ve `dry_run_only` durumundadır; mevcut Supabase taslaklarının okunup üzerine yazıldığı varsayılmaz.
+
+Owner/editör incelemesi için canlı uygulamada `/editor/pilots` rotası vardır. Bu rota dosya tabanlı pilotları yalnızca doğrulanmış editör oturumunda salt-okunur gösterir; Supabase taslağı oluşturmaz, mevcut makaleyi değiştirmez ve public wiki'ye içerik eklemez. Her karttaki düzenleme bağlantısı mevcut editöre götürür; bu bağlantı ancak kullanıcı bilinçli olarak içerik girişi yaparsa Supabase'e yazar.

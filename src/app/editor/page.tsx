@@ -36,6 +36,7 @@ export default async function EditorHome({ searchParams }: EditorHomeProps) {
           <p>{session.profile.displayName} · {session.profile.role === "owner" ? "Site sahibi" : "Editör"}</p>
         </div>
         <div className="editor-header-actions">
+          <Link className="button" href="/editor/pilots">Pilot taslakları incele</Link>
           {session.profile.role === "owner" ? <Link className="button" href="/editor/team">Editör ekibi</Link> : null}
           <form action={logoutAction}><button className="button" type="submit">Çıkış yap</button></form>
         </div>
