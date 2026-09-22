@@ -2,7 +2,7 @@
 
 ## Güncel Astra yönergesi — 22 Eylül 2026
 
-**D2 tamamlandı; E1–E3 canlıda tamamlandı, sıradaki özellik F.** `D2_KABUL_RAPORU.md` kabul matrisi bu dosyanın daha eski açık-test talimatlarının önündedir. PRB-0013/0014 çözüldü. CPU konusu PRB-0017 kullanıcı isteğiyle ertelendi; yeniden ölçüm veya yük testi başlatma. PT409 migration ve bootstrap'ı canlıda tekrar çalıştırma. Owner/secret onayını yeniden isteme.
+**D2 tamamlandı; E1–E3 ve F canlıda tamamlandı, sıradaki özellik G.** `D2_KABUL_RAPORU.md` kabul matrisi bu dosyanın daha eski açık-test talimatlarının önündedir. PRB-0013/0014 çözüldü. CPU konusu PRB-0017 kullanıcı isteğiyle ertelendi; yeniden ölçüm veya yük testi başlatma. PT409 migration ve bootstrap'ı canlıda tekrar çalıştırma. Owner/secret onayını yeniden isteme.
 
 **Dönem etiketi kararı:** Ziyaretçi arayüzünde eski dönem adları kullanılmayacak. `1600 civarı` kaynak anahtarı **Günümüz**, `1300 civarı` kaynak anahtarı **Gümüş Tanrısının 1673 yılı** olarak gösterilir. Bu anahtarlar mevcut veri, makale ve eski URL uyumluluğu için saklanır; F dönem geçişi yeni Türkçe etiketlerle kabul edilir.
 
