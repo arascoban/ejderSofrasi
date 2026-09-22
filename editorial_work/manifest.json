@@ -1,0 +1,68 @@
+{
+  "schema_version": "editorial-manifest-v1",
+  "language": "tr",
+  "stage": "M2",
+  "base_core_release_id": "core-1347ac6cd7a65e58",
+  "source_hash": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e",
+  "draft_count": 6,
+  "drafts": [
+    {
+      "entity_id": "NPC-0006",
+      "path": "drafts/NPC-0006.json",
+      "document_hash": "c85bc5e54bdb221ab7390b9606c7f94074ddf060a0bbc28aa240e5adefc05a7f",
+      "period": null,
+      "claim_count": 6,
+      "review_status": "pilot_review",
+      "publication_status": "not_published"
+    },
+    {
+      "entity_id": "NPC-0051",
+      "path": "drafts/NPC-0051.json",
+      "document_hash": "2b97af0a119f3b03a62d75fd4c0d11eef7605036a995f2b41b01e9474372c6de",
+      "period": null,
+      "claim_count": 5,
+      "review_status": "pilot_review",
+      "publication_status": "not_published"
+    },
+    {
+      "entity_id": "KNG-0008",
+      "path": "drafts/KNG-0008.json",
+      "document_hash": "2204f6302094c5f6116fa79e1df58a16e7d2d54bf5ca63834510597014fbc94b",
+      "period": "1300 civarı",
+      "claim_count": 4,
+      "review_status": "pilot_review",
+      "publication_status": "not_published"
+    },
+    {
+      "entity_id": "ITM-0012",
+      "path": "drafts/ITM-0012.json",
+      "document_hash": "2a4955c4f94a8ab9b14a67c6fe8fa219299102cf3366a0dd55d62ab7f7cf4124",
+      "period": null,
+      "claim_count": 4,
+      "review_status": "pilot_review",
+      "publication_status": "not_published"
+    },
+    {
+      "entity_id": "ORG-0001",
+      "path": "drafts/ORG-0001.json",
+      "document_hash": "32e7d28342b8edf2fb21e8478d27564858580c58d8749ee1c569461e005ccbd8",
+      "period": null,
+      "claim_count": 4,
+      "review_status": "pilot_review",
+      "publication_status": "not_published"
+    },
+    {
+      "entity_id": "DEI-0001",
+      "path": "drafts/DEI-0001.json",
+      "document_hash": "4a590892905d1387960b35c25f623ccf93f61104cde8fd74adfdbabe64ff0290",
+      "period": null,
+      "claim_count": 2,
+      "review_status": "pilot_review",
+      "publication_status": "not_published"
+    }
+  ],
+  "review_status": "pilot_review",
+  "publication_status": "none",
+  "existing_editorial_state": "not_checked",
+  "import_mode": "dry_run_only"
+}

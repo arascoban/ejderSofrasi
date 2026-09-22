@@ -1,0 +1,761 @@
+{
+  "schema_version": "editorial-draft-v1",
+  "entity_id": "NPC-0051",
+  "language": "tr",
+  "base_core_release_id": "core-1347ac6cd7a65e58",
+  "source_hash": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e",
+  "document_hash": "2b97af0a119f3b03a62d75fd4c0d11eef7605036a995f2b41b01e9474372c6de",
+  "document": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Kalender Tütüncüoğlu, Pastırman inancına bağlı bir Paladin savaşçısı olarak tanıtılır. Bebekken katledilen bir tütüncü ailenin sepetinde bulunmuş ve yetimhanede büyümüştür; "
+          },
+          {
+            "type": "text",
+            "text": "İto İtoğlu",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "NPC-0046",
+                  "href": "/entity/NPC-0046"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "nu da yetimhaneden beri koruyup kolladığı aktarılır."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Mehdi unvanı ve gerçeklik sınırı"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Çöl Şehri’nde yaptığı şifa ve mucize gösterileri sonrasında halk tarafından “Mehdi” ilan edildi. Proje sahibinin doğruladığı kanonik açıklama, Kalender’in gerçek Mehdi olmadığını; bu unvanın halkın ona taktığı bir ad olduğunu belirtir."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Çemenin Kılıcı ve güç kaybı"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Kalender, "
+          },
+          {
+            "type": "text",
+            "text": "Çemenin Kılıcı",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "ITM-0036",
+                  "href": "/entity/ITM-0036"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "nı savaş yemini ettikten sonra Kavurhan’dan aldı. Kılıç geçici olarak +2 Strength ve Rage özelliği sağladı; Kalender savaştan vazgeçip kılıçtan kurtulduktan sonra bu güçlerin ve Paladin yeteneklerinin kaybı anlatıldı. EP21’den itibaren macerasına Fighter, yani “Düz Adam”, olarak devam ettiği kaydedilir."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Eşyalar ve bağlantılar"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Yeniden Yaşam Yüzüğü’nün Kalender’in elinden hiç çıkmadığı doğrulanmıştır. Helvacıoğlu Baltası kaydında ise Kalender’in eşyanın önceki sahibi olduğu ve daha sonra Akmer’e geçtiği yönlü ilişki bulunur."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Belirsizlikler"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Kalender’in bazı seyahat uçları ve dönem bağlamları kaynaklarda kesin değildir. Bu taslak, açık çatışmaları çözülmüş gerçekler gibi sunmak yerine ilgili kayıtları incelemeye bırakır."
+          }
+        ]
+      }
+    ]
+  },
+  "period": null,
+  "claims": [
+    {
+      "claim_id": "CLM-NPC-0051-01",
+      "block_path": "/content/0",
+      "claim": "Kalender’in başlangıç öyküsü, sınıfı, inancı ve İto ile ilişkisi.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-72f0bae9af59e0a4",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/1/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/1/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-ff3a8f3cccf878eb",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/1/facts/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/1/facts/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-49db3cc8957c9ef4",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/1/facts/3"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/1/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-NPC-0051-02",
+      "block_path": "/content/2",
+      "claim": "Kalender’in halk tarafından Mehdi ilan edilmesi ile gerçek kimliği arasındaki ayrım.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-0ad499b80749bf93",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/1/facts/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/1/facts/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-4df6be6f6880b9c5",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/uncertainties/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "owner_confirmation",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/uncertainties/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "normalization_decision",
+          "id": "normalization_decision:4",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/uncertainties/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "decision_index": 4,
+              "decision_kind": "owner_confirmed_fact",
+              "temporal_basis": "owner_confirmation",
+              "confidence": "reviewed",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/uncertainties/1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "owner_confirmation",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-NPC-0051-03",
+      "block_path": "/content/4",
+      "claim": "Çemenin Kılıcı’nın geçici etkileri, yemin krizi ve Kalender’in sonraki sınıfı.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-b93e74c00d3f0eee",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/1/facts/5"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/1/facts/5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-ae7f1eb4f80229eb",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/1/facts/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/1/facts/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-eeb543cc84f9add3",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/1/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/1/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-fbd41e0726a4a886",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/1/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/1/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-1d9d9dcff172a76f",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/uncertainties/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "owner_confirmation",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/uncertainties/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-777c45ee863ebc47",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/1/facts/3"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/1/facts/3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0043",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/1/facts/5"
+            },
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/4/facts/3"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/1/facts/5"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/4/facts/3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0048",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/1/facts/0"
+            },
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/1/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "revealed",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/1/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/1/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "owner_confirmation",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-NPC-0051-04",
+      "block_path": "/content/6",
+      "claim": "Kalender’in yüzük üzerindeki sürekli sahipliği ve Helvacıoğlu Baltası ile önceki sahiplik ilişkisi.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-99fa1d2b453be4fa",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/1/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "owner_confirmation",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/1/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0527",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/links/5"
+            },
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/28"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/links/5"
+                }
+              ]
+            },
+            {
+              "assertion_index": 1,
+              "period": null,
+              "temporal_basis": "owner_confirmation",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "normalization_decision",
+          "id": "normalization_decision:2",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/1/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "decision_index": 2,
+              "decision_kind": "owner_confirmed_fact",
+              "temporal_basis": "owner_confirmation",
+              "confidence": "reviewed",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/1/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "owner_confirmation",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-NPC-0051-05",
+      "block_path": "/content/8",
+      "claim": "Kalender’e bağlı seyahat ve dönem belirsizlikleri.",
+      "evidence": [
+        {
+          "kind": "conflict",
+          "id": "CNF-0145",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/travel/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "status": "open",
+              "temporal_basis": "unresolved_conflict",
+              "confidence": "open",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/travel/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "conflict",
+          "id": "CNF-0171",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/travel/3"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "status": "open",
+              "temporal_basis": "unresolved_conflict",
+              "confidence": "open",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/travel/3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "conflict",
+          "id": "CNF-0172",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/travel/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "status": "open",
+              "temporal_basis": "unresolved_conflict",
+              "confidence": "open",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "conflict",
+          "id": "CNF-0174",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/travel/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "status": "open",
+              "temporal_basis": "unresolved_conflict",
+              "confidence": "open",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/travel/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "conflict",
+          "id": "CNF-0175",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/travel/3"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "status": "open",
+              "temporal_basis": "unresolved_conflict",
+              "confidence": "open",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/travel/3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "qualified",
+      "conflict_ids": [
+        "CNF-0145",
+        "CNF-0171",
+        "CNF-0172",
+        "CNF-0174",
+        "CNF-0175"
+      ]
+    }
+  ],
+  "review_status": "pilot_review",
+  "publication_status": "not_published",
+  "existing_editorial_state": "not_checked",
+  "editorial_import": "dry_run_only",
+  "pilot": true,
+  "notes": [
+    "M2 pilot taslağıdır; Supabase editörüne aktarılmamış ve yayımlanmamıştır.",
+    "Metin ve kanıt defteri kaynak incelemesinden sonra insan editör tarafından gözden geçirilmelidir."
+  ]
+}

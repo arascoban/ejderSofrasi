@@ -1,0 +1,945 @@
+{
+  "schema_version": "editorial-draft-v1",
+  "entity_id": "NPC-0006",
+  "language": "tr",
+  "base_core_release_id": "core-1347ac6cd7a65e58",
+  "source_hash": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e",
+  "document_hash": "c85bc5e54bdb221ab7390b9606c7f94074ddf060a0bbc28aa240e5adefc05a7f",
+  "document": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Akmer Sütçüoğlu, "
+          },
+          {
+            "type": "text",
+            "text": "Sütçüoğlu Ailesi'nin prensesi ve varisi",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "FAM-0004",
+                  "href": "/entity/FAM-0004"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " olarak kaydedilen ve Ancestral Guardian sınıfında barbar bir savaşçı olarak tanımlanan bir kişidir."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Geçmişi ve kaçışı"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Kaynaklara göre ailesinden, ailenin ineklerini ve süt kompleksini özgürleştirmek amacıyla kaçtı. Bu kaçışın ardından kendisinin canlı getirilmesi şartıyla bir ödül kondu."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Karapancar yolculuğu"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Revanya’dan ayrılırken "
+          },
+          {
+            "type": "text",
+            "text": "Karapancar",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "SHP-0001",
+                  "href": "/entity/SHP-0001"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " gemisine 27,5 altın karşılığında bindi. Gemide "
+          },
+          {
+            "type": "text",
+            "text": "Adnan Körkapak",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "NPC-0046",
+                  "href": "/entity/NPC-0046"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " ile yaşanan çatışmanın ardından idareyi ele geçirip kendisini yeni kaptan ilan etti."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Şifa zindanı ve Yaz Helvası"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Şifa zindanı sürecinde Akmer, "
+          },
+          {
+            "type": "text",
+            "text": "Kalender Tütüncüoğlu",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "NPC-0051",
+                  "href": "/entity/NPC-0051"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " ile dostane bir düello yaptı ve zindandaki olayların ardından ekip ile birlikte "
+          },
+          {
+            "type": "text",
+            "text": "Yaz Helvası Şehri",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "CIT-0006",
+                  "href": "/entity/CIT-0006"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " bağlamına çıktı. Bu kayıtlar, karşılaşmaların ve bulunulan yerlerin dönemini her olay için ayrı tutar."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Eşyalar ve sonraki olaylar"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Akmer, Şifa zindanındaki üç nesneden "
+          },
+          {
+            "type": "text",
+            "text": "Yeniden Yaşam Yüzüğü",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "ITM-0031",
+                  "href": "/entity/ITM-0031"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "nü seçip taktı. Daha sonra Demirci Rando’dan "
+          },
+          {
+            "type": "text",
+            "text": "Helvacıoğlu Baltası",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "ITM-0012",
+                  "href": "/entity/ITM-0012"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "nı aldı; Durgunluk Buhurdanı’nı ise çölde öfkeyle fırlattığı kaynaklarda yer alır."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Kaynak sınırları"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Akmer’in bazı seyahat kayıtlarında başlangıç, varış veya yol arkadaşlarının kimliği kesinleştirilemez. Bu belirsizlikler burada kapatılmamış, ilgili kaynak çatışmalarıyla birlikte korunmuştur."
+          }
+        ]
+      }
+    ]
+  },
+  "period": null,
+  "claims": [
+    {
+      "claim_id": "CLM-NPC-0006-01",
+      "block_path": "/content/0",
+      "claim": "Akmer’in kimliği, aile konumu ve sınıfı.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-b45182c07aaaeacc",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/0/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/0/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-af2bb16c32a8c9c3",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/0/facts/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/0/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-NPC-0006-02",
+      "block_path": "/content/2",
+      "claim": "Akmer’in aileden kaçışının amacı ve arama durumu.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-1efd5129ffe4eb4c",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/0/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/0/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-851279b81724ea28",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/0/facts/4"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/0/facts/4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0002",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/0/facts/2"
+            },
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/0/facts/4"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": null,
+              "temporal_basis": "historical",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/0/facts/4"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-NPC-0006-03",
+      "block_path": "/content/4",
+      "claim": "Akmer’in Karapancar’a katılması ve gemi idaresini ele geçirmesi.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-8327c28fc816f220",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/0/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP01",
+                  "pointer": "/entities/0/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-cc19efe4c86f193d",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/0/facts/3"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP01",
+                  "pointer": "/entities/0/facts/3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0005",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/0/facts/3"
+            },
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/1/facts/2"
+            },
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/4/facts/3"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP01",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP01",
+                  "pointer": "/entities/1/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP01",
+                  "pointer": "/entities/4/facts/3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0392",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/0/facts/3"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP01",
+                  "pointer": "/entities/0/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-NPC-0006-04",
+      "block_path": "/content/6",
+      "claim": "Akmer’in Şifa zindanı ve Yaz Helvası bağlamındaki doğrulanmış olay bağlantıları.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-88d3976387985c90",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/0/facts/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/entities/0/facts/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0026",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/travel/0"
+            },
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/16/facts/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/travel/0"
+                },
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/16/facts/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0028",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/5/facts/1"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/7/facts/1"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/2/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/5/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/7/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/2/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0114",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/links/2"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/links/2"
+                }
+              ]
+            },
+            {
+              "assertion_index": 1,
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_narrative_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-NPC-0006-05",
+      "block_path": "/content/8",
+      "claim": "Akmer’in önemli eşya seçimleri, baltayı edinmesi ve buhurdanın kaybı.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-1deeb407f37a1a61",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/0/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/entities/0/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-3686936dcaae1ebe",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/0/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/0/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-6bf530b2148fc19b",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/0/facts/4"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/0/facts/4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0084",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/4/facts/2"
+            },
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/27/facts/0"
+            },
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/28/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/27/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/28/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0046",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/18/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/18/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-NPC-0006-06",
+      "block_path": "/content/10",
+      "claim": "Akmer’e bağlı bazı seyahat uçlarının çözülememiş olması.",
+      "evidence": [
+        {
+          "kind": "conflict",
+          "id": "CNF-0150",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/travel/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "status": "open",
+              "temporal_basis": "unresolved_conflict",
+              "confidence": "open",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/travel/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "conflict",
+          "id": "CNF-0175",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/travel/3"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "status": "open",
+              "temporal_basis": "unresolved_conflict",
+              "confidence": "open",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/travel/3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "conflict",
+          "id": "CNF-0182",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/travel/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "status": "open",
+              "temporal_basis": "unresolved_conflict",
+              "confidence": "open",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "conflict",
+          "id": "CNF-0183",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/travel/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "status": "open",
+              "temporal_basis": "unresolved_conflict",
+              "confidence": "open",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/travel/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "conflict",
+          "id": "CNF-0184",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/travel/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "status": "open",
+              "temporal_basis": "unresolved_conflict",
+              "confidence": "open",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/travel/2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "qualified",
+      "conflict_ids": [
+        "CNF-0150",
+        "CNF-0175",
+        "CNF-0182",
+        "CNF-0183",
+        "CNF-0184"
+      ]
+    }
+  ],
+  "review_status": "pilot_review",
+  "publication_status": "not_published",
+  "existing_editorial_state": "not_checked",
+  "editorial_import": "dry_run_only",
+  "pilot": true,
+  "notes": [
+    "M2 pilot taslağıdır; Supabase editörüne aktarılmamış ve yayımlanmamıştır.",
+    "Metin ve kanıt defteri kaynak incelemesinden sonra insan editör tarafından gözden geçirilmelidir."
+  ]
+}

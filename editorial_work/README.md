@@ -12,4 +12,6 @@ Her paket kimlik bilgisini, kaynaklı olguları, giden/gelen ilişkileri, ilgili
 - `short_entry`: yalnızca kısa ve dürüst bir kimlik maddesi için kanıt var.
 - `source_review_required`: açık çatışma veya kullanıcı kararı ayrıca incelenmeli.
 
-Bu aşamada taslak metin, Tiptap belgesi, görsel, Supabase yazımı veya yayın işlemi üretilmez. M2 pilot incelemesi tamamlanmadan toplu makale üretimi ve yayın başlatılamaz.
+M1 kanıt üretimi Supabase yazımı veya yayın işlemi yapmaz. M2’deki altı pilot taslak Tiptap belgeleri olarak `drafts/` altında hazırlanır; bunlar yayınlanmış içerik değildir ve görsel içermez. Pilot incelemesi tamamlanmadan toplu makale üretimi ve yayın başlatılamaz.
+
+M2 pilotları `drafts/` altında, `manifest.json` ile birlikte tutulur. `npm run editorial:pilots` altı pilotu (Akmer, Kalender, Yaz Helvası Krallığı, Helvacıoğlu Baltası, Arifler Okulu ve Alafğöğüs) aynı kanıt paketlerinden deterministik olarak üretir. Pilotlar `pilot_review`, `not_published` ve `dry_run_only` durumundadır; mevcut Supabase taslaklarının okunup üzerine yazıldığı varsayılmaz.

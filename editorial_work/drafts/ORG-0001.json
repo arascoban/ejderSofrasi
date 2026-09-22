@@ -1,0 +1,657 @@
+{
+  "schema_version": "editorial-draft-v1",
+  "entity_id": "ORG-0001",
+  "language": "tr",
+  "base_core_release_id": "core-1347ac6cd7a65e58",
+  "source_hash": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e",
+  "document_hash": "32e7d28342b8edf2fb21e8478d27564858580c58d8749ee1c569461e005ccbd8",
+  "document": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Arifler Okulu, uzgörü (divination) ve kader araştırmaları yapan bir büyü okulu/locasıdır. Kaynaklarda "
+          },
+          {
+            "type": "text",
+            "text": "Yaz Helvası Şehri",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "CIT-0006",
+                  "href": "/entity/CIT-0006"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "nin üçüncü katı veya üçüncü bölgesiyle ilişkilendirilir."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Yerleşke ve mekânlar"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Okulun serinletilen bir bahçesi, havuzu, gül bahçesi, kütüphanesi, öğrenci misafirhanesi ve hamamı bulunur. Subira’nın büyülü demirhanesi/atölyesi de okulun fiziksel mekânları arasında anılır. "
+          },
+          {
+            "type": "text",
+            "text": "Arifler Okulu Yerleşkesi",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "BLD-0023",
+                  "href": "/entity/BLD-0023"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " kurumdan ayrı fiziksel bina kimliği olarak tutulur."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Üyeler ve olaylar"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "İlişki kayıtları Arif Bey’in okulu yönettiğini, Subira’nın okulun büyülü eşya/rün uzmanlarından biri olduğunu ve çeşitli öğrenciler ile görevlilerin kuruma bağlı bulunduğunu gösterir. Ammon Hoca’nın kütüphanede ders verdiği; okul bahçesinde ise Siyah Ejderha canlı bomba saldırısının yaşandığı kaydedilmiştir."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Dönem sınırı"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Okulun kimlik kaydında tek bir tarihsel dönem atanmış değildir. Bu nedenle bu pilot, okulu iki döneme otomatik olarak yaymaz; bölümlerdeki tekil olayların dönem bilgisi kendi kanıtıyla birlikte okunmalıdır."
+          }
+        ]
+      }
+    ]
+  },
+  "period": null,
+  "claims": [
+    {
+      "claim_id": "CLM-ORG-0001-01",
+      "block_path": "/content/0",
+      "claim": "Arifler Okulu’nun kurumsal türü, uzmanlık alanı ve şehir içindeki bağlamı.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-797cf8ccf97c9d39",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/13/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/13/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-9e2b4abcce046651",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/19/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/19/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0422",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/13/facts/0"
+            },
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/11/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/13/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP11",
+                  "pointer": "/entities/11/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-ORG-0001-02",
+      "block_path": "/content/2",
+      "claim": "Arifler Okulu’nun doğrulanmış mekânları ve kurum-yerleşke ayrımı.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-4eb1a8707fa727e6",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/11/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP11",
+                  "pointer": "/entities/11/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-9e2b4abcce046651",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/19/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/19/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-11ef80668ee90ce1",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/25/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/25/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-97cee8ed1ec0706e",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/27/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/27/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "normalization_decision",
+          "id": "normalization_decision:1",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/13"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/3"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/24"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "decision_index": 1,
+              "decision_kind": "owner_confirmed_conflict_resolution",
+              "temporal_basis": "owner_confirmation",
+              "confidence": "reviewed",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/13"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/3"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/24"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "owner_confirmation",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-ORG-0001-03",
+      "block_path": "/content/4",
+      "claim": "Arifler Okulu’nun yöneticileri, üyeleri, eğitim faaliyeti ve bahçedeki saldırı olayı.",
+      "evidence": [
+        {
+          "kind": "relationship",
+          "id": "REL-0148",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/21"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_narrative_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/21"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0203",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/links/10"
+            },
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/links/24"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/links/18"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP11",
+                  "pointer": "/links/10"
+                }
+              ]
+            },
+            {
+              "assertion_index": 1,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/links/24"
+                }
+              ]
+            },
+            {
+              "assertion_index": 2,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/links/18"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-2f61f0c7a5783052",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/30/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/30/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-578fc192ed265758",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/22/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/22/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-ORG-0001-04",
+      "block_path": "/content/6",
+      "claim": "Arifler Okulu’nun genel kimliğinde dönem atamasının belirlenmemiş olması.",
+      "evidence": [
+        {
+          "kind": "normalization_decision",
+          "id": "normalization_decision:1",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/13"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/3"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/24"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "decision_index": 1,
+              "decision_kind": "owner_confirmed_conflict_resolution",
+              "temporal_basis": "owner_confirmation",
+              "confidence": "reviewed",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/13"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/3"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0028",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/5/facts/1"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/7/facts/1"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/2/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/5/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/7/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/2/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0031",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/5/facts/2"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/3/facts/1"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/17"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/18"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/19"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/20"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "revealed",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/5/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/17"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/18"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/19"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/20"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "qualified",
+      "conflict_ids": []
+    }
+  ],
+  "review_status": "pilot_review",
+  "publication_status": "not_published",
+  "existing_editorial_state": "not_checked",
+  "editorial_import": "dry_run_only",
+  "pilot": true,
+  "notes": [
+    "M2 pilot taslağıdır; Supabase editörüne aktarılmamış ve yayımlanmamıştır.",
+    "Metin ve kanıt defteri kaynak incelemesinden sonra insan editör tarafından gözden geçirilmelidir."
+  ]
+}

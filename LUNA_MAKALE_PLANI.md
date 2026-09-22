@@ -1,6 +1,6 @@
 # Astra → Luna: varlık makaleleri için ara aşama M
 
-22 Eylül 2026. Kullanıcının son isteği: mevcut dünya varlıklarının her biri için olaylardan, eşyalardan, mekânlardan ve diğer ilişkilerden yararlanan, Türkçe ve kaynaklara dayalı wiki makaleleri hazırlamak. Bu turda plan istendi; toplu üretim, veritabanına aktarım ve yayın yapılmadı. Luna'ya uygulama yetkisi geldiğinde M1'den başla. G–I kapsamı korunur; hepsini bu ara aşamayla aynı anda uygulama.
+22 Eylül 2026. Kullanıcının son isteği: mevcut dünya varlıklarının her biri için olaylardan, eşyalardan, mekânlardan ve diğer ilişkilerden yararlanan, Türkçe ve kaynaklara dayalı wiki makaleleri hazırlamak. M1 kanıt paketleri ve M2’nin altı pilot taslağı üretildi; hiçbir içerik Supabase’e aktarılmadı veya yayımlanmadı. Sonraki adım pilot kaynak incelemesidir. G–I kapsamı korunur; hepsini bu ara aşamayla aynı anda uygulama.
 
 ## Ürün ve kapsam
 
@@ -37,6 +37,8 @@ Her etkin ID için `editorial_work/evidence/<ENTITY-ID>.json` hazırla. Bu dizin
 Kabul: tüm etkin ID'lerin tam bir paketi vardır; her kanıt ve bağlantı gerçek kayda çözülür; emekli ID ikinci makaleye dönüşmez; deterministik çıktı aynı kaynaktan aynı hash'i verir. Kanon dosyalarının diff'i boş kalır.
 
 ## M2 — altı pilot makale ve yazım sözleşmesi
+
+**Uygulama durumu — 22 Eylül 2026:** Akmer (`NPC-0006`), Kalender (`NPC-0051`), Yaz Helvası Krallığı (`KNG-0008`), Helvacıoğlu Baltası (`ITM-0012`), Arifler Okulu (`ORG-0001`) ve az verili tanrı Alafğöğüs (`DEI-0001`) için Türkçe Tiptap pilot taslakları `editorial_work/drafts/` altında üretildi. `editorial_work/manifest.json` taslak hash’lerini ve `pilot_review` durumunu tutar. Bu taslaklar `not_published` ve `dry_run_only` durumundadır; M3 aktarımına geçmeden önce kaynak ve cümle kanıtı insan incelemesi gerekir.
 
 Kanıt paketlerini hazırladıktan sonra pilotları seç: Akmer, Kalender, Yaz Helvası Krallığı, Helvacıoğlu Baltası, Arifler Okulu ve yalnızca adı doğrulanmış az verili bir tanrı. İlgili ID'leri registry'den çöz; ada bakıp benzer başka kayıt seçme. Pilotlar kişi/eşya/yer/örgüt/az verili kayıt ayrımını sınar.
 

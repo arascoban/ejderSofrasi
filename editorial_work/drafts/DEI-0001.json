@@ -1,0 +1,111 @@
+{
+  "schema_version": "editorial-draft-v1",
+  "entity_id": "DEI-0001",
+  "language": "tr",
+  "base_core_release_id": "core-1347ac6cd7a65e58",
+  "source_hash": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e",
+  "document_hash": "4a590892905d1387960b35c25f623ccf93f61104cde8fd74adfdbabe64ff0290",
+  "document": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Alafğöğüs (Alaf Göğüs), şehirlerde popüler olduğu söylenen şehvet, intikam ve hilekârlık tanrısıdır."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Mevcut kayıtlarda bu tanrının tarihi, takipçileri, ibadet yerleri veya başka olaylardaki rolü hakkında doğrulanmış ek bilgi bulunmaz. Bu nedenle madde kısa tutulmuştur."
+          }
+        ]
+      }
+    ]
+  },
+  "period": null,
+  "claims": [
+    {
+      "claim_id": "CLM-DEI-0001-01",
+      "block_path": "/content/0",
+      "claim": "Alafğöğüs’ün kaynakta verilen tanımı.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-a2115685f85d197a",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/24/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/24/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-DEI-0001-02",
+      "block_path": "/content/1",
+      "claim": "Alafğöğüs hakkında mevcut kanıtın sınırlı olması.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-a2115685f85d197a",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/24/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/24/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "qualified",
+      "conflict_ids": []
+    }
+  ],
+  "review_status": "pilot_review",
+  "publication_status": "not_published",
+  "existing_editorial_state": "not_checked",
+  "editorial_import": "dry_run_only",
+  "pilot": true,
+  "notes": [
+    "M2 pilot taslağıdır; Supabase editörüne aktarılmamış ve yayımlanmamıştır.",
+    "Metin ve kanıt defteri kaynak incelemesinden sonra insan editör tarafından gözden geçirilmelidir."
+  ]
+}

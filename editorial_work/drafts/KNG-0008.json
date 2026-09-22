@@ -1,0 +1,1171 @@
+{
+  "schema_version": "editorial-draft-v1",
+  "entity_id": "KNG-0008",
+  "language": "tr",
+  "base_core_release_id": "core-1347ac6cd7a65e58",
+  "source_hash": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e",
+  "document_hash": "2204f6302094c5f6116fa79e1df58a16e7d2d54bf5ca63834510597014fbc94b",
+  "document": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Yaz Helvası Krallığı, kaynaklarda Helvanar Kıtası / Helva Adası bağlamında, Gümüş Tanrısının 1673 yılına ait geçmiş dünyada bulunan; çöl, kum taşı mimarisi, yaz helvası üretimi ve ticaretiyle tanınan bir krallık olarak anlatılır."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Yaz Helvası Şehri ve katmanlı yapı"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Kaynaklarda “Çöl Şehri” diye geçen siyasal ve askerî bağlam Yaz Helvası Krallığı’nı ifade eder; Yaz Helvası Şehri ise krallığın üç şehirli kentsel yapısı olarak ayrı tutulur. Bu şehirler ve katlar surlar ile güvenlik kapılarıyla ayrılır. Krallığın üç kademeli yapısında ilk kat alt gelir grupları ve pazar çevresiyle, ikinci kat orta mahallelerle, üçüncü kat ise saray, Gümüş Ejderha Tapınağı ve "
+          },
+          {
+            "type": "text",
+            "text": "Arifler Okulu",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "ORG-0001",
+                  "href": "/entity/ORG-0001"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " ile ilişkilendirilir."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Başkent ve siyasi bağlantılar"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Krallığın başkenti "
+          },
+          {
+            "type": "text",
+            "text": "Yaz Helvası Şehri",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "CIT-0006",
+                  "href": "/entity/CIT-0006"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " olarak gösterilir ve krallık "
+          },
+          {
+            "type": "text",
+            "text": "Helvanar Kıtası",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "entityId": "CON-0001",
+                  "href": "/entity/CON-0001"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " içinde konumlandırılır. İlişki kayıtları ayrıca krallığın Un Helvası ve İrmik Helvası krallıklarıyla düşmanlık içinde olduğunu belirtir."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Kuşatma ve bilinmeyen sonuç"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Yaz Helvası Krallığı, Kırmızı Ejderha desteğiyle Un Helvası ve İrmik Helvası ittifakının kuşatması altındaydı. Kaynakların son gözleminde birinci şehrin surları düşmüş ve kuşatma ordusu içeri girmiştir; karakterler bölgeden ayrıldığı için kuşatmanın nihai sonucu bilinmemektedir."
+          }
+        ]
+      }
+    ]
+  },
+  "period": "1300 civarı",
+  "claims": [
+    {
+      "claim_id": "CLM-KNG-0008-01",
+      "block_path": "/content/0",
+      "claim": "Yaz Helvası Krallığı’nın tarihsel bağlamı, coğrafi çerçevesi ve ekonomik niteliği.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-1071aa5c0763c8a7",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/8/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/8/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-ed1301b207446641",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/23/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/23/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0458",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/33"
+            },
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/links/23"
+            },
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/links/25"
+            },
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/links/20"
+            },
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/links/25"
+            },
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/links/38"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/links/25"
+            },
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/links/22"
+            },
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/links/25"
+            },
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/links/23"
+            },
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/links/15"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_narrative_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/33"
+                }
+              ]
+            },
+            {
+              "assertion_index": 1,
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_narrative_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/links/23"
+                }
+              ]
+            },
+            {
+              "assertion_index": 2,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/links/25"
+                }
+              ]
+            },
+            {
+              "assertion_index": 3,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/links/20"
+                }
+              ]
+            },
+            {
+              "assertion_index": 4,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/links/25"
+                }
+              ]
+            },
+            {
+              "assertion_index": 5,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/links/38"
+                }
+              ]
+            },
+            {
+              "assertion_index": 6,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/links/25"
+                }
+              ]
+            },
+            {
+              "assertion_index": 7,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/links/22"
+                }
+              ]
+            },
+            {
+              "assertion_index": 8,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/links/25"
+                }
+              ]
+            },
+            {
+              "assertion_index": 9,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/links/23"
+                }
+              ]
+            },
+            {
+              "assertion_index": 10,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/links/15"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-KNG-0008-02",
+      "block_path": "/content/2",
+      "claim": "Çöl Şehri/Yaz Helvası Krallığı ayrımı ve üç kademeli şehir savunması.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-0e7697ef7558656c",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/uncertainties/1"
+            },
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/uncertainties/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "owner_confirmation",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/uncertainties/1"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/uncertainties/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-095de8c840f1eaf5",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/8/facts/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/8/facts/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-3c8462fe519d1206",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/travel/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "owner_confirmation",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-f4de705c7d317ea3",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/travel/2"
+            },
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/travel/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "owner_confirmation",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/travel/2"
+                },
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/travel/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "normalization_decision",
+          "id": "normalization_decision:0",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/8/facts/1"
+            },
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/23/facts/0"
+            },
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/27/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "decision_index": 0,
+              "decision_kind": "owner_confirmed_fact",
+              "temporal_basis": "owner_confirmation",
+              "confidence": "reviewed",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/8/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/23/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/27/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "confidence": "owner_confirmation",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-KNG-0008-03",
+      "block_path": "/content/4",
+      "claim": "Yaz Helvası Krallığı’nın başkent, kıta ve siyasi düşmanlık bağlantıları.",
+      "evidence": [
+        {
+          "kind": "relationship",
+          "id": "REL-0457",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/32"
+            },
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/links/22"
+            },
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/links/24"
+            },
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/links/20"
+            },
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/links/28"
+            },
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/links/19"
+            },
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/links/24"
+            },
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/links/37"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/links/23"
+            },
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/links/21"
+            },
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/links/24"
+            },
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/links/22"
+            },
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/links/14"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_narrative_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/32"
+                }
+              ]
+            },
+            {
+              "assertion_index": 1,
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_narrative_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/links/22"
+                }
+              ]
+            },
+            {
+              "assertion_index": 2,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/links/24"
+                }
+              ]
+            },
+            {
+              "assertion_index": 3,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP11",
+                  "pointer": "/links/20"
+                }
+              ]
+            },
+            {
+              "assertion_index": 4,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/links/28"
+                }
+              ]
+            },
+            {
+              "assertion_index": 5,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/links/19"
+                }
+              ]
+            },
+            {
+              "assertion_index": 6,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/links/24"
+                }
+              ]
+            },
+            {
+              "assertion_index": 7,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/links/37"
+                }
+              ]
+            },
+            {
+              "assertion_index": 8,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/links/23"
+                }
+              ]
+            },
+            {
+              "assertion_index": 9,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/links/21"
+                }
+              ]
+            },
+            {
+              "assertion_index": 10,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/links/24"
+                }
+              ]
+            },
+            {
+              "assertion_index": 11,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/links/22"
+                }
+              ]
+            },
+            {
+              "assertion_index": 12,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/links/14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0458",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/33"
+            },
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/links/23"
+            },
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/links/25"
+            },
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/links/20"
+            },
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/links/25"
+            },
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/links/38"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/links/25"
+            },
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/links/22"
+            },
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/links/25"
+            },
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/links/23"
+            },
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/links/15"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_narrative_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/33"
+                }
+              ]
+            },
+            {
+              "assertion_index": 1,
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_narrative_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/links/23"
+                }
+              ]
+            },
+            {
+              "assertion_index": 2,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/links/25"
+                }
+              ]
+            },
+            {
+              "assertion_index": 3,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/links/20"
+                }
+              ]
+            },
+            {
+              "assertion_index": 4,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/links/25"
+                }
+              ]
+            },
+            {
+              "assertion_index": 5,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/links/38"
+                }
+              ]
+            },
+            {
+              "assertion_index": 6,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/links/25"
+                }
+              ]
+            },
+            {
+              "assertion_index": 7,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/links/22"
+                }
+              ]
+            },
+            {
+              "assertion_index": 8,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/links/25"
+                }
+              ]
+            },
+            {
+              "assertion_index": 9,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/links/23"
+                }
+              ]
+            },
+            {
+              "assertion_index": 10,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/links/15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0155",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/28"
+            },
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/links/26"
+            },
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/links/21"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/links/24"
+            },
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/links/26"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/28"
+                }
+              ]
+            },
+            {
+              "assertion_index": 1,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/links/26"
+                }
+              ]
+            },
+            {
+              "assertion_index": 2,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/links/21"
+                }
+              ]
+            },
+            {
+              "assertion_index": 3,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/links/24"
+                }
+              ]
+            },
+            {
+              "assertion_index": 4,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/links/26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0156",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/links/29"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/links/29"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-KNG-0008-04",
+      "block_path": "/content/6",
+      "claim": "Kuşatmanın tarafları, son gözlenen durum ve sonuç üzerindeki belirsizlik.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-5c7911a006b5ab0b",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/8/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/8/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-d6cdf1677a10149b",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/uncertainties/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "owner_confirmation",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/uncertainties/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0030",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/8/facts/2"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/lore/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/8/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/lore/1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "confidence": "qualified",
+      "conflict_ids": []
+    }
+  ],
+  "review_status": "pilot_review",
+  "publication_status": "not_published",
+  "existing_editorial_state": "not_checked",
+  "editorial_import": "dry_run_only",
+  "pilot": true,
+  "notes": [
+    "M2 pilot taslağıdır; Supabase editörüne aktarılmamış ve yayımlanmamıştır.",
+    "Metin ve kanıt defteri kaynak incelemesinden sonra insan editör tarafından gözden geçirilmelidir."
+  ]
+}

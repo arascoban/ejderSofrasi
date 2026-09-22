@@ -1,0 +1,654 @@
+{
+  "schema_version": "editorial-draft-v1",
+  "entity_id": "ITM-0012",
+  "language": "tr",
+  "base_core_release_id": "core-1347ac6cd7a65e58",
+  "source_hash": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e",
+  "document_hash": "2a4955c4f94a8ab9b14a67c6fe8fa219299102cf3366a0dd55d62ab7f7cf4124",
+  "document": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Helvacıoğlu Baltası, Helvacıoğlu Hanedanı’yla ilişkilendirilen kadim bir savaş eşyasıdır. Bir kaynakta uzun siyah saplı, bakır işlemeli, 2d6 hasarlı ve +1 bonuslu bir balta olarak; Rando’nun Akmer’e hediyesi şeklinde anlatılır."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Kristal Kılıç’tan dönüşüm"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Owner doğrulamasıyla korunan sıra şöyledir: Kalender, Kristal Kılıç olarak aldığı eşyayı Akmer’e verdi; ertesi sabah kılıç Helvacıoğlu Baltası’na dönüştü. Dönüşüm, Akmer’in kanı ve öfkesiyle ortaya çıkan, kadim ejderha kemiğinden dövülmüş ve onun canına bağlanan baltayla ilişkilendirilir."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Sahiplik ve kullanımlar"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sonraki kayıtlar baltayı Akmer’in taşıdığını ve Kalender’in önceki sahibi olduğunu gösterir. Eşya, Ejderhalar Sofrası Harabeleri’nde kan akıtılan ritüel denemesinde kullanıldı; daha sonra Gavurdağı Golemi’ni yararak Ametist Kristali’ni açığa çıkardığı ve Ejder Öldürücü özelliğiyle anıldığı kaydedildi."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Kaynakların birlikte okunması"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "EP15 kayıtlarında Akmer’e verilen bir Helvacıoğlu Baltası ile Kalender’e teslim edilen ejder kemiği kılıcı ayrı betimlenir. Bu taslak, bu betimleri silmeden owner tarafından doğrulanan Kristal Kılıç → Helvacıoğlu Baltası dönüşüm sırasını ayrıca belirtir; kaynak anlatımlarının ayrıntıları tek bir cümlede zorla birleştirilmez."
+          }
+        ]
+      }
+    ]
+  },
+  "period": null,
+  "claims": [
+    {
+      "claim_id": "CLM-ITM-0012-01",
+      "block_path": "/content/0",
+      "claim": "Helvacıoğlu Baltası’nın temel fiziksel ve oyun içi özellikleri ile Akmer’e hediye edilmesi.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-89f5cf415154c094",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/27/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/27/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0261",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/links/1"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/links/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/links/1"
+                }
+              ]
+            },
+            {
+              "assertion_index": 1,
+              "period": "1300 civarı",
+              "temporal_basis": "episode_scene",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/links/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0084",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/4/facts/2"
+            },
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/27/facts/0"
+            },
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/28/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/27/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/28/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-ITM-0012-02",
+      "block_path": "/content/2",
+      "claim": "Kristal Kılıç’ın Akmer’e geçişi ve ertesi sabah Helvacıoğlu Baltası’na dönüşmesi.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-0b91acc8602a908c",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/29/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/29/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "normalization_decision",
+          "id": "normalization_decision:0",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/28"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/0/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "decision_index": 0,
+              "decision_kind": "owner_confirmed_fact",
+              "temporal_basis": "owner_confirmation",
+              "confidence": "reviewed",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/28"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/0/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "normalization_decision",
+          "id": "normalization_decision:3",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/0/facts/2"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/29/facts/0"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/lore/1/fact"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "decision_index": 3,
+              "decision_kind": "owner_confirmed_conflict_resolution",
+              "temporal_basis": "owner_confirmation",
+              "confidence": "reviewed",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/29/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/lore/1/fact"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "owner_confirmation",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-ITM-0012-03",
+      "block_path": "/content/4",
+      "claim": "Baltanın sahiplik geçişi ve sonraki kullanımları.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-794112dadd3a1e7d",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/36/facts/0"
+            },
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/18/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/36/facts/0"
+                }
+              ]
+            },
+            {
+              "assertion_index": 1,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/18/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-d0027970e463dec5",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/31/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/31/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-9d3cde8b1ab6a6eb",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/18/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/18/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0527",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/links/5"
+            },
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/28"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/links/5"
+                }
+              ]
+            },
+            {
+              "assertion_index": 1,
+              "period": null,
+              "temporal_basis": "owner_confirmation",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "relationship",
+          "id": "REL-0531",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/0/facts/2"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "owner_confirmation",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/0/facts/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0087",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/0/facts/1"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/0/facts/2"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/2/facts/1"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/lore/1/fact"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/0/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/lore/1/fact"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "event",
+          "id": "EVT-0061",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/0/facts/2"
+            },
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/4/facts/1"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "occurred",
+              "confidence": null,
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/4/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "source_supported",
+      "conflict_ids": []
+    },
+    {
+      "claim_id": "CLM-ITM-0012-04",
+      "block_path": "/content/6",
+      "claim": "Ayrı kaynak betimlerinin korunması ve dönüşüm kararının açıkça nitelenmesi.",
+      "evidence": [
+        {
+          "kind": "fact",
+          "id": "FCT-89f5cf415154c094",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/27/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/27/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fact",
+          "id": "FCT-c191db9edb759aa1",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/28/facts/0"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "assertion_index": 0,
+              "period": null,
+              "temporal_basis": "not_established",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/28/facts/0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "normalization_decision",
+          "id": "normalization_decision:3",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/0/facts/2"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/29/facts/0"
+            },
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/lore/1/fact"
+            }
+          ],
+          "assertion_refs": [
+            {
+              "decision_index": 3,
+              "decision_kind": "owner_confirmed_conflict_resolution",
+              "temporal_basis": "owner_confirmation",
+              "confidence": "reviewed",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/29/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/lore/1/fact"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "periods": [],
+      "confidence": "qualified",
+      "conflict_ids": []
+    }
+  ],
+  "review_status": "pilot_review",
+  "publication_status": "not_published",
+  "existing_editorial_state": "not_checked",
+  "editorial_import": "dry_run_only",
+  "pilot": true,
+  "notes": [
+    "M2 pilot taslağıdır; Supabase editörüne aktarılmamış ve yayımlanmamıştır.",
+    "Metin ve kanıt defteri kaynak incelemesinden sonra insan editör tarafından gözden geçirilmelidir."
+  ]
+}
