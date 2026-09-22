@@ -1,0 +1,4817 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "CIT-0006",
+    "slug": "col-sehri",
+    "name": "Yaz Helvası Şehri",
+    "type": "CITY",
+    "aliases": [
+      "Baharat ve Kum Şehri",
+      "Çöl Şehri"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP07",
+      "EP08",
+      "EP09",
+      "EP10",
+      "EP11",
+      "EP12",
+      "EP13",
+      "EP14",
+      "EP15",
+      "EP16",
+      "EP17",
+      "EP18",
+      "EP19",
+      "EP20"
+    ],
+    "first_appearance": "EP07",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/19"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Baharat ve Kum Şehri",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/16/a/0"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/11/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Çöl Şehri",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/16/n"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/11/n"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/24/n"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/12/n"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/14/n"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/21/n"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/15/n"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/22/n"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/21/n"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/21/n"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/22/n"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/19/n"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/16/n"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/19/n"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP07",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP11",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP13",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-911fc7b4475d91b5",
+      "text": "Zümrüt Ejderha Şifa Tapınağı'nın çıkış kapısının açıldığı; havası baharat, kum ve çöl sıcağı kokan, pazar yeri, develeri ve surları bulunan kadim çöl şehri.",
+      "assertions": [
+        {
+          "period": "1300 civarı",
+          "temporal_basis": "reviewed_source_context",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/16/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-df21289aa23822f1",
+      "text": "Çıkar çıkmaz gökyüzünden 4 adet yanan devasa ateş topu düşmüş, sivilleri katletmiş ve binaları yakarak savaşı başlatmıştır.",
+      "assertions": [
+        {
+          "period": "1300 civarı",
+          "temporal_basis": "reviewed_source_context",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/16/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-34ce8a3de3e8b72a",
+      "text": "Yaz Helvası Krallığı'nın başkenti / ana şehri; arkasını büyük dağlara vermiş, önü kum taşı duvarlar ve büyülü kalkanla korunan, mancınıklardan atılan yanan dev taşlarla vurulan şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5dbb66f506757277",
+      "text": "Surlar, kapılar, yalılar, dar sokaklar ve terk edilmiş depolar barındıran, kuşatma altındaki şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/24/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5257992ea3b22161",
+      "text": "Yaz Helvası Krallığı'nın başkenti; surları, terk edilmiş binaları ve dar sokakları bulunan, kuşatma altındaki şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-55a369e35237f490",
+      "text": "Yaz Helvası Krallığı'nın başkenti; surları, pusu binaları ve Arifler Okulu'nu barındıran kuşatma altındaki şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/14/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-dd10f05653f12b65",
+      "text": "1., 2. ve 3. Bölgelerden oluşan, surlarla çevrili, kuşatma altındaki şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-348cad1918de785f",
+      "text": "Yaz Helvası Krallığı'nın başkenti; 3 kademeli sur ve bölgelerden oluşan, kuşatma altındaki şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-92ba743f5e30b2d9",
+      "text": "Yaz Helvası Krallığı'nın başkenti; Beltis Ana'nın evi, Batan Güneş Kahvesi ve Arifler Okulu'nu barındıran şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1296957e53c258a2",
+      "text": "Yaz Helvası Krallığı'nın başkenti.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-b7297884efc0db79",
+      "text": "Yaz Helvası Krallığı'nın başkenti; 3 kademeli sur ve bölgelerden oluşan, mancınık atışları altında kalan şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-4fdb8de05f22e176",
+      "text": "3 kademeli sur ve bölgelerden oluşan, kuşatma altındaki başkent.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d65f7b015d75dfd1",
+      "text": "Yaz Helvası Krallığı'nın başkenti; Sancar Devran'ın öldürüldüğü kışlayı ve nezarethaneyi barındıran şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/19/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-66687cae818ae9bf",
+      "text": "Yaz Helvası Krallığı'nın başkenti; 3 bölgeden oluşan, sokağa çıkma yasağı ilan edilen şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/16/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f0a93847178c33bf",
+      "text": "Yaz Helvası Krallığı'nın başkenti; Siyah, Kırmızı ve Pastırmancı orduların taarruzuyla 1. Bölge kapıları düşen ve yağmalanan şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/19/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f75a50414ee4278f",
+      "text": "Yaz Helvası Şehri, çölde başlayıp dağın tepesine yükselen üç bağlı şehirden oluşur. Şehirler arasında surlar ve kapılar bulunur; büyülü zipline hatları ve büyük ana yol şehirleri birbirine bağlar.",
+      "assertions": [
+        {
+          "period": "1300 civarı",
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/8/facts/1"
+            },
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/23/facts/0"
+            },
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/27/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-578fe47d02e63be8",
+      "text": "3. bölgenin tam ortasından geçen bulvar, 1. şehre kadar uzanan ana yol görevi görür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/travel/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-911fc7b4475d91b5",
+    "FCT-df21289aa23822f1",
+    "FCT-34ce8a3de3e8b72a",
+    "FCT-5dbb66f506757277",
+    "FCT-5257992ea3b22161",
+    "FCT-55a369e35237f490",
+    "FCT-dd10f05653f12b65",
+    "FCT-348cad1918de785f",
+    "FCT-92ba743f5e30b2d9",
+    "FCT-1296957e53c258a2",
+    "FCT-b7297884efc0db79",
+    "FCT-4fdb8de05f22e176",
+    "FCT-d65f7b015d75dfd1",
+    "FCT-66687cae818ae9bf",
+    "FCT-f0a93847178c33bf",
+    "FCT-f75a50414ee4278f",
+    "FCT-578fe47d02e63be8"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0457",
+        "subject_id": "CIT-0006",
+        "relation": "CAPITAL_OF",
+        "object_id": "KNG-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08",
+          "EP09",
+          "EP10",
+          "EP11",
+          "EP12",
+          "EP13",
+          "EP14",
+          "EP15",
+          "EP16",
+          "EP17",
+          "EP18",
+          "EP19",
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı'nın merkez şehridir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/32"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/28"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/37"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/23"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0114",
+        "subject_id": "NPC-0006",
+        "relation": "VISITED",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP07",
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Tapınak çıkış kapısından çöl şehrine geçmiştir.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP07",
+                "pointer": "/links/2"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri'nde ilerlemiştir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/2"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0118",
+        "subject_id": "NPC-0083",
+        "relation": "VISITED",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP07",
+          "EP08",
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Tapınaktan tırmanarak çöl şehrine çıkmıştır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP07",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri'nde bulunmuştur.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri gölet alanında ördek bulmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0130",
+        "subject_id": "TMP-0003",
+        "relation": "CONNECTED_TO",
+        "object_id": "CIT-0006",
+        "period": null,
+        "episodes": [
+          "EP07"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Tapınağın beyaz merdivenli çıkış kapısı çöl şehrine açılmaktadır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP07",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0134",
+        "subject_id": "NPC-0051",
+        "relation": "VISITED",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nde halkı iyileştirmiş ve surlardan geçmiştir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0137",
+        "subject_id": "NPC-0046",
+        "relation": "VISITED",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nde bulunmuştur.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0142",
+        "subject_id": "NPC-0022",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 2. Surlarında görev yapmaktadır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0145",
+        "subject_id": "NPC-0007",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 3. Katında yaşamaktadır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0455",
+        "subject_id": "BLD-0023",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08",
+          "EP09",
+          "EP11",
+          "EP14",
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nin 3. Katında yer alır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri'nde yer almaktadır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri'nin 3. katındadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri 3. Bölgesi'nde yer alır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/23"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri 3. Bölgesi'ndedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/28"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0456",
+        "subject_id": "TMP-0002",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08",
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nin 3. Katında yer alır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/25"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri'nin 3. katındadır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0459",
+        "subject_id": "BLD-0021",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri caddelerinde yer almaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0460",
+        "subject_id": "BLD-0020",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10",
+          "EP13"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nin dış surlarıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/23"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri 3. Bölge ile 2. Bölge arasındadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0197",
+        "subject_id": "CRE-0004",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Niani'nin gizli ıslığı üzerine Çöl Şehri semalarında sesi duyulmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/27"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0201",
+        "subject_id": "NPC-0023",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP11"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri surları üzerinde mevzilenmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0465",
+        "subject_id": "BLD-0011",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri meydanındadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/25"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0466",
+        "subject_id": "DIS-0004",
+        "relation": "INSIDE",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12",
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nin orta bölgesidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/26"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri'nin orta bölgesidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0467",
+        "subject_id": "DIS-0005",
+        "relation": "INSIDE",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12",
+          "EP18",
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nin üst bölgesidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/27"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri'nin üst bölgesidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/23"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri'nin üst bölgesidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0469",
+        "subject_id": "BLD-0018",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP13"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nin 3. Bölgesi'ndedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0254",
+        "subject_id": "NPC-0032",
+        "relation": "WORKS_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nde demircilik yapmaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0470",
+        "subject_id": "TAV-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14",
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 2. Bölgesi'nde yer alır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri 2. Bölgesi'ndedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/29"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0471",
+        "subject_id": "BLD-0002",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri mahallesinde yer alır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0472",
+        "subject_id": "BLD-0004",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri caddelerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/27"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0473",
+        "subject_id": "BLD-0003",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri surları önündedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/30"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0474",
+        "subject_id": "BLD-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 1. Bölgesi'ndedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/31"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0320",
+        "subject_id": "BLD-0003",
+        "relation": "HISTORICALLY_ASSOCIATED_WITH",
+        "object_id": "CIT-0006",
+        "period": null,
+        "episodes": [
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "EP19'da Pastırman tarafından yerin altına çekilerek kaybolmuştur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0481",
+        "subject_id": "DIS-0003",
+        "relation": "INSIDE",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nin en dış bölgesidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0407",
+        "subject_id": "BLD-0006",
+        "relation": "NEAR",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Source gives approximate 10 km separation; no map coordinates or direction are known.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/entities/21/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0532",
+        "subject_id": "CRE-0012",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed İbrahim remained in Yaz Helvası Şehri when the team fled.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/travel/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0533",
+        "subject_id": "CRE-0028",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed Cemil remained in Yaz Helvası Şehri when the team fled.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/travel/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0534",
+        "subject_id": "CRE-0026",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed the unnamed duck remained in Yaz Helvası Şehri when the team fled.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/travel/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0543",
+        "subject_id": "CIT-0007",
+        "relation": "PART_OF",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Alt şehir, Yaz Helvası Şehri içindeki üç şehirden biridir.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/entities/11/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0544",
+        "subject_id": "CIT-0008",
+        "relation": "PART_OF",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Orta şehir, Yaz Helvası Şehri içindeki üç şehirden biridir.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/entities/11/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0545",
+        "subject_id": "CIT-0009",
+        "relation": "PART_OF",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Üst şehir, Yaz Helvası Şehri içindeki üç şehirden biridir.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/entities/23/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0026",
+        "episode": "EP07",
+        "period": "1300 civarı",
+        "title": "Çöl Şehri'ne çıkış ve bombardıman",
+        "summary_fact_id": "FCT-e12b07bd146a6e32",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/16/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "TMP-0003"
+        ]
+      },
+      {
+        "event_id": "EVT-0027",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Dennu'nun kızının iyileştirilmesi",
+        "summary_fact_id": "FCT-36b3162701b71e5d",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/1/facts/2"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/4/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0022",
+          "NPC-0051"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "DEI-0011"
+        ]
+      },
+      {
+        "event_id": "EVT-0028",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Ariflerle görüşme ve seçilmişlerin tanınması",
+        "summary_fact_id": "FCT-3185817aa1cfbc7c",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/5/facts/1"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/7/facts/1"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/2/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0008",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "DRG-0014",
+          "ORG-0001"
+        ]
+      },
+      {
+        "event_id": "EVT-0029",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Helvanar'ın geçmişine varıldığının anlaşılması",
+        "summary_fact_id": "FCT-a26299f92bdbfc64",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/25/facts/0"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/lore/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0046"
+        ],
+        "location_ids": [
+          "CIT-0006",
+          "CON-0001"
+        ],
+        "related_entity_ids": [
+          "KNG-0008"
+        ]
+      },
+      {
+        "event_id": "EVT-0030",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Helva krallıkları kuşatması",
+        "summary_fact_id": "FCT-502baab1e4504fb9",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/8/facts/2"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/lore/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [],
+        "location_ids": [
+          "CIT-0006",
+          "CON-0001"
+        ],
+        "related_entity_ids": [
+          "DRG-0006",
+          "KNG-0003",
+          "KNG-0007",
+          "KNG-0008"
+        ]
+      },
+      {
+        "event_id": "EVT-0031",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Dört kutsal yadigarın güçlerinin öğrenilmesi",
+        "summary_fact_id": "FCT-0e22f3833c09c406",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/5/facts/2"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/17"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/18"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/19"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/20"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "ITM-0004",
+          "ITM-0009",
+          "ITM-0031",
+          "ITM-0036",
+          "ORG-0001"
+        ]
+      },
+      {
+        "event_id": "EVT-0037",
+        "episode": "EP18",
+        "period": "1300 civarı",
+        "title": "Komutanlığın devri ve olağanüstü hal",
+        "summary_fact_id": "FCT-383b86b55c4924fa",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/5/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0062"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "KNG-0008",
+          "NPC-0060"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-e12b07bd146a6e32",
+        "entity_id": "EVT-0026",
+        "fact": {
+          "id": "FCT-e12b07bd146a6e32",
+          "text": "Maceracılar tapınağın merdivenlerinden çöl şehrine çıkar. Yanan dev ateş topları düşerek sivilleri ve binaları vurur. Sonraki bölüm bu varışın eski Helvanar döneminde olduğunu açıklar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/travel/0"
+                },
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/16/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-36b3162701b71e5d",
+        "entity_id": "EVT-0027",
+        "fact": {
+          "id": "FCT-36b3162701b71e5d",
+          "text": "Dennu grubu kuşkuyla karşıladıktan sonra Akmer hasta kızını muayene eder; Kalender şifa gücüyle hastalığı iyileştirir. Dennu minnettarlıkla gruba rehberlik eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/1/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/4/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-3185817aa1cfbc7c",
+        "entity_id": "EVT-0028",
+        "fact": {
+          "id": "FCT-3185817aa1cfbc7c",
+          "text": "Raer zihin okuyarak grubun şifa tapınağından geldiğini doğrular ve onları Arifler Okulu'na götürür. Arif Bey kader ve mücadele üzerine konuşur; İto kalıp savaşmak istediğini belirtir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/5/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/7/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/2/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-a26299f92bdbfc64",
+        "entity_id": "EVT-0029",
+        "fact": {
+          "id": "FCT-a26299f92bdbfc64",
+          "text": "İto kayıp Helvanar hakkındaki tarih bilgisini hatırlar. Yerel Gümüş Ejderha 1673 takvimi, kıtanın batışından önceki dönemi işaret eder; kesin takvim dönüşümü bilinmez.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/25/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/lore/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-502baab1e4504fb9",
+        "entity_id": "EVT-0030",
+        "fact": {
+          "id": "FCT-502baab1e4504fb9",
+          "text": "Un Helvası ve İrmik Helvası ittifakı, Kırmızı Ejderha desteği ve ölüm büyüleriyle Yaz Helvası Krallığı'nı kuşatır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/8/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/lore/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-0e22f3833c09c406",
+        "entity_id": "EVT-0031",
+        "fact": {
+          "id": "FCT-0e22f3833c09c406",
+          "text": "Arifler büyücüsü eşyaları inceletir; kadeh, buhurdan, yüzük ve tacın şifa, korunma ve ışık güçleri tanımlanır. Roary bahçede şifalı sisi etkinleştirir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/5/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/17"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/18"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/19"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/20"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-383b86b55c4924fa",
+        "entity_id": "EVT-0037",
+        "fact": {
+          "id": "FCT-383b86b55c4924fa",
+          "text": "Mareşal Cart Curtoğlu, Sancar'ın ölümünden sonra şehir yönetimini ve başkomutanlığı devralır; sokağa çıkma yasağı ve olağanüstü hal ilan eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/entities/5/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0013",
+      "episode": "EP07",
+      "sequence": 1,
+      "period": null,
+      "temporal_basis": "reviewed_source_context",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "TMP-0003",
+      "to_id": "CIT-0006",
+      "via_ids": [],
+      "origin": {
+        "label": "Zümrüt Ejderha Şifa Tapınağı",
+        "entity_id": "TMP-0003",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Çöl Şehri",
+        "entity_id": "CIT-0006",
+        "resolution": "exact",
+        "reviewed_context_id": "CIT-0007"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Beyaz-Sarı Damarlı Merdivenler",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        },
+        {
+          "sequence": 2,
+          "label": "Terk Edilmiş Ahşap Baraka",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "temporal_transition",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "from_period": "1600 civarı",
+      "to_period": "1300 civarı",
+      "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP07",
+      "number": 7,
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP11",
+      "number": 11,
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP13",
+      "number": 13,
+      "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "BLD-0004",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0472"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/24"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0006",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CON-0001",
+          "parent_candidate_ids": [
+            "CON-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0482"
+          ],
+          "spatial_relations": [
+            {
+              "relation": "NEAR",
+              "target_id": "CIT-0006",
+              "relationship_id": "REL-0407"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 40
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/21"
+        },
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/entities/10"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/15"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/13"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0011",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0465"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/26"
+        }
+      ]
+    },
+    {
+      "location_id": "CIT-0006",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "KNG-0008",
+          "parent_candidate_ids": [
+            "KNG-0008"
+          ],
+          "containment_relationship_ids": [
+            "REL-0457"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11"
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/24"
+        },
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/entities/12"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/14"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/21"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/15"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/22"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/21"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/21"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/22"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/19"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/19"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0020",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0460"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/entities/14"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/25"
+        }
+      ]
+    },
+    {
+      "location_id": "TMP-0003",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": null,
+          "parent_id": null,
+          "parent_candidate_ids": [],
+          "containment_relationship_ids": [],
+          "spatial_relations": [
+            {
+              "relation": "CONNECTED_TO",
+              "target_id": "CIT-0006",
+              "relationship_id": "REL-0130"
+            }
+          ]
+        },
+        {
+          "period": "1600 civarı",
+          "parent_id": "NAT-0004",
+          "parent_candidate_ids": [
+            "NAT-0004"
+          ],
+          "containment_relationship_ids": [
+            "REL-0449",
+            "REL-0400",
+            "REL-0454"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-OTHER",
+          "line": 6
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/12"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/14"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/15"
+        }
+      ]
+    },
+    {
+      "location_id": "DIS-0003",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0481"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/22"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/23"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/20"
+        }
+      ]
+    },
+    {
+      "location_id": "DIS-0004",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0466"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/22"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/23"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/25"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/18"
+        }
+      ]
+    },
+    {
+      "location_id": "DIS-0005",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0467"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/24"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/21"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/19"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0021",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0459"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/entities/13"
+        }
+      ]
+    },
+    {
+      "location_id": "CIT-0007",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0543"
+          ],
+          "spatial_relations": [
+            {
+              "relation": "BORDERS",
+              "target_id": "NAT-0007",
+              "relationship_id": "REL-0546"
+            },
+            {
+              "relation": "CONNECTED_BY_ROAD",
+              "target_id": "CIT-0008",
+              "relationship_id": "REL-0547"
+            },
+            {
+              "relation": "CONNECTED_TO",
+              "target_id": "CIT-0008",
+              "relationship_id": "REL-0549"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ]
+    },
+    {
+      "location_id": "CIT-0008",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0544"
+          ],
+          "spatial_relations": [
+            {
+              "relation": "CONNECTED_BY_ROAD",
+              "target_id": "CIT-0009",
+              "relationship_id": "REL-0548"
+            },
+            {
+              "relation": "CONNECTED_TO",
+              "target_id": "CIT-0009",
+              "relationship_id": "REL-0550"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ]
+    },
+    {
+      "location_id": "CIT-0009",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0545"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that the city commonly described as Çöl Şehri is Yaz Helvası Şehri, the historical capital of Yaz Helvası Krallığı.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/uncertainties/0"
+        }
+      ],
+      "before": [
+        "Çöl Şehri",
+        "Yaz Helvası Şehri"
+      ],
+      "after": "CIT-0006"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Zümrüt Ejderha Şifa Tapınağı",
+        "to": "Çöl Şehri",
+        "via": [
+          "Beyaz-Sarı Damarlı Merdivenler",
+          "Terk Edilmiş Ahşap Baraka"
+        ],
+        "party": [
+          "Akmer",
+          "Roary",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0013",
+        "episode": "EP07",
+        "sequence": 1,
+        "period": null,
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "TMP-0003",
+        "to_id": "CIT-0006",
+        "via_ids": [],
+        "origin": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı",
+          "entity_id": "TMP-0003",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri",
+          "entity_id": "CIT-0006",
+          "resolution": "exact",
+          "reviewed_context_id": "CIT-0007"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Beyaz-Sarı Damarlı Merdivenler",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Terk Edilmiş Ahşap Baraka",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "temporal_transition",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "from_period": "1600 civarı",
+        "to_period": "1300 civarı",
+        "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+        "to": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+        "via": [
+          "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+          "Dennu'nun Evi",
+          "Üçlü Geçiş Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Raer",
+          "Dennu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0014",
+        "episode": "EP08",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0022",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Dennu'nun Evi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 3,
+            "label": "Üçlü Geçiş Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Arifler Okulu",
+        "to": "Gümüş Ejderha Tapınağı",
+        "via": [
+          "Çöl Şehri 3. Kat Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0015",
+        "episode": "EP09",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0023",
+        "to_id": "TMP-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "destination": {
+          "label": "Gümüş Ejderha Tapınağı",
+          "entity_id": "TMP-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 3. Kat Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Gümüş Ejderha Tapınağı",
+        "to": "Arifler Okulu",
+        "via": [
+          "Çöl Şehri 3. Kat Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0016",
+        "episode": "EP09",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "TMP-0002",
+        "to_id": "BLD-0023",
+        "via_ids": [],
+        "origin": {
+          "label": "Gümüş Ejderha Tapınağı",
+          "entity_id": "TMP-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 3. Kat Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri Terk Edilmiş İnşaat",
+        "to": "Arifler Okulu (Akademi Bahçesi)",
+        "via": [
+          "Çöl Şehri Arka Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Gizlenerek (Pass without Trace)"
+      },
+      "after": {
+        "id": "TRV-0020",
+        "episode": "EP11",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0021",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri Terk Edilmiş İnşaat",
+          "entity_id": "BLD-0021",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu (Akademi Bahçesi)",
+          "entity_id": null,
+          "context_id": "BLD-0023",
+          "resolution": "within_named_location",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri Arka Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Gizlenerek (Pass without Trace)",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/12/facts/0"
+        }
+      ],
+      "before": {
+        "from": "Beltis Ana'nın Evi",
+        "to": "Çöl Şehri Gölet Alanı",
+        "via": [
+          "Çöl Şehri Alt Sokakları"
+        ],
+        "party": [
+          "Roary",
+          "İbrahim (Kompisaurus)"
+        ],
+        "transport": "Yürüyerek & Pelerinli"
+      },
+      "after": {
+        "id": "TRV-0026",
+        "episode": "EP14",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0002",
+        "to_id": "NAT-0008",
+        "via_ids": [],
+        "origin": {
+          "label": "Beltis Ana'nın Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri Gölet Alanı",
+          "entity_id": "NAT-0008",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri Alt Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/12/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Pelerinli",
+          "entity_ids": []
+        },
+        "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0001",
+      "slug": "1-bolge-bakimevi",
+      "name": "1. Bölge Bakımevi",
+      "type": "BUILDING",
+      "aliases": [
+        "Bakımevi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0002",
+      "slug": "beltis-ana-nin-evi",
+      "name": "Beltis Ana'nın Evi",
+      "type": "BUILDING",
+      "aliases": [
+        "Beltis Hala'nın Evi",
+        "Teyze'nin Evi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0003",
+      "slug": "demir-yumruk-aniti",
+      "name": "Demir Yumruk Anıtı",
+      "type": "BUILDING",
+      "aliases": [
+        "Demir Yumruk Miting Alanı",
+        "Dev Demir El",
+        "Pastırman Anıtı",
+        "Pastırman Heykeli",
+        "Pastırman'ın Demir Eldiveni",
+        "Pastırman'ın Guntlet'i"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0004",
+      "slug": "demirci-dukkani",
+      "name": "Demirci Dükkanı",
+      "type": "BUILDING",
+      "aliases": [
+        "Rando'nun Demirhanesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0006",
+      "slug": "tahin-saray-kervansarayi",
+      "name": "Tahin Saray Kervansarayı",
+      "type": "BUILDING",
+      "aliases": [
+        "Kervansaray",
+        "Ozempic Kervansaray",
+        "Tahin Han",
+        "Tahin Saray",
+        "Vaha Dinlenme Tesisleri",
+        "Çöl Kervansarayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0011",
+      "slug": "saat-kulesi",
+      "name": "Saat Kulesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0018",
+      "slug": "col-sehri-kislasi",
+      "name": "Çöl Şehri Kışlası",
+      "type": "BUILDING",
+      "aliases": [
+        "Baraks",
+        "Karargah",
+        "Kışla",
+        "Kışla Nezarethanesi",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0020",
+      "slug": "col-sehri-surlari",
+      "name": "Yaz Helvası Şehri Surları",
+      "type": "BUILDING",
+      "aliases": [
+        "3. Bölge Surları",
+        "Cümle Kapısı Meydanı",
+        "Çöl Surları",
+        "Çöl Şehri Surları",
+        "Şehir Surları"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0021",
+      "slug": "col-sehri-terk-edilmis-insaat",
+      "name": "Çöl Şehri Terk Edilmiş İnşaat",
+      "type": "BUILDING",
+      "aliases": [
+        "Terk Edilmiş İnşaat",
+        "Terk Edilmiş Mahalle Binası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0007",
+      "slug": "yaz-helvasi-alt-sehri",
+      "name": "Yaz Helvası Alt Şehri",
+      "type": "CITY",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0008",
+      "slug": "yaz-helvasi-orta-sehri",
+      "name": "Yaz Helvası Orta Şehri",
+      "type": "CITY",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0009",
+      "slug": "yaz-helvasi-ust-sehri",
+      "name": "Yaz Helvası Üst Şehri",
+      "type": "CITY",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CON-0001",
+      "slug": "helva-adasi",
+      "name": "Helvanar Kıtası",
+      "type": "CONTINENT",
+      "aliases": [
+        "Helva Adası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0004",
+      "slug": "dag-kartali",
+      "name": "Dağ Kartalı",
+      "type": "CREATURE",
+      "aliases": [
+        "Dağ Şahini",
+        "Dağ Şahini Kuşu",
+        "Devran'ın Kuşu",
+        "Genç Komutan'ın Kartalı",
+        "Gözcü Kuş",
+        "Yırtıcı Kuş",
+        "Şahin"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0012",
+      "slug": "ibrahim-kompi",
+      "name": "İbrahim (Kompi)",
+      "type": "CREATURE",
+      "aliases": [
+        "Burak Çikpaka",
+        "İbrahim",
+        "İbrahim (Kompisaurus)",
+        "Ibo"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0026",
+      "slug": "yeni-ordek",
+      "name": "Yeni Ördek",
+      "type": "CREATURE",
+      "aliases": [
+        "Ekmekçi Ördek",
+        "Yeni Ördek (Ördek-ül Deva 2)",
+        "Ördek-ül Deva 2",
+        "Ünlü Ördek"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0028",
+      "slug": "radam-in-papagani",
+      "name": "Radam'ın Papağanı",
+      "type": "CREATURE",
+      "aliases": [
+        "Cemil (Papağan)"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0003",
+      "slug": "col-sehri-1-bolge",
+      "name": "Çöl Şehri 1. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Birinci Bölge",
+        "Birinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0004",
+      "slug": "col-sehri-2-bolge",
+      "name": "Çöl Şehri 2. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "İkinci Bölge",
+        "İkinci Cadde",
+        "İkinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0005",
+      "slug": "col-sehri-3-bolge",
+      "name": "Çöl Şehri 3. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Üçüncü Bölge",
+        "Üçüncü Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0008",
+      "slug": "yaz-helvasi-kralligi",
+      "name": "Yaz Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Yaz Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NAT-0004",
+      "slug": "zumrut-ejderha-pulu",
+      "name": "Zümrüt Ejderha Pulu",
+      "type": "NATURAL_FEATURE",
+      "aliases": [
+        "Geriye Kalan Pul",
+        "Zümrüt Pul"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NAT-0007",
+      "slug": "helvanar-colu",
+      "name": "Helvanar Çölü",
+      "type": "NATURAL_FEATURE",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0007",
+      "slug": "raer-ammon",
+      "name": "Raer Ammon",
+      "type": "PERSON",
+      "aliases": [
+        "Ammon",
+        "Ammon Bey",
+        "Başbüyücü Ammon",
+        "Büyücü Raer",
+        "Büyük Büyücü Rer",
+        "Rael",
+        "Raer",
+        "Rer"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0008",
+      "slug": "arif-bey",
+      "name": "Arif Bey",
+      "type": "PERSON",
+      "aliases": [
+        "Arif Arifoğlu",
+        "Ariflerin Başı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0022",
+      "slug": "dennu",
+      "name": "Dennu",
+      "type": "PERSON",
+      "aliases": [
+        "Denar",
+        "Komutan Dennu"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0023",
+      "slug": "devran",
+      "name": "Devran",
+      "type": "PERSON",
+      "aliases": [
+        "Dubai Hurması",
+        "Genç Komutan",
+        "Kartal Sniper",
+        "Kızıl Komutan'ın Oğlu",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Oğul Komutan",
+        "Siyah Ejderha Keskin Nişancısı",
+        "Siyah Süvari",
+        "Surlar Üzerindeki Nişancı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0032",
+      "slug": "gandu",
+      "name": "Gandu",
+      "type": "PERSON",
+      "aliases": [
+        "Demirci Gandu",
+        "Demirci Rando",
+        "Demirci Usta",
+        "Hodor",
+        "Mirçe",
+        "Rando"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0062",
+      "slug": "maresal-cart-curtoglu",
+      "name": "Mareşal Cart Curtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Cart Curt",
+        "Cart Curtoğlu Bey",
+        "Maraşel",
+        "Maraşel Cart Curtoğlu",
+        "Tümgeneral Cart Curtoğlu"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TAV-0001",
+      "slug": "batangunes-kahvesi",
+      "name": "Batangüneş Kahvesi",
+      "type": "TAVERN",
+      "aliases": [
+        "Batan Güneş Kahvesi",
+        "Batan Güneş Kıraathanesi",
+        "Emilsum'un Kahvesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0002",
+      "slug": "gumus-ejderha-tapinagi",
+      "name": "Gümüş Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Gümüş Katedral"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 40
+      },
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 6
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16/a/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16/facts/1"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16/n"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/links/2"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP07"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11/a/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11/n"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/25/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/25"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/32"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/24/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/24/n"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/12/n"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/23"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/27"
+      },
+      {
+        "source_id": "SRC-EP10"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/14/facts/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/14/n"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP11"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/21/n"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/26"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/25"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/26"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/27"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/28"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/15/n"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/22/n"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/23"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/21/n"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/27"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/28"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/29"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/30"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/31"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/37"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/21/n"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/23"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/22/n"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/27"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/27/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/19/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/19/n"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/23"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP18"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/16/n"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/19/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/19/n"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP20"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/13"
+      }
+    ],
+    "counts": {
+      "facts": 17,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 32,
+      "timeline_events": 7,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 14,
+      "map_constraints": 13,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 7,
+      "owner_confirmations": 0,
+      "linked_entities": 37
+    }
+  }
+}

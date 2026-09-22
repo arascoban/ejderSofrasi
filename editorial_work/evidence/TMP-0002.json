@@ -1,0 +1,1592 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "TMP-0002",
+    "slug": "gumus-ejderha-tapinagi",
+    "name": "Gümüş Ejderha Tapınağı",
+    "type": "TEMPLE",
+    "aliases": [
+      "Gümüş Katedral"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP08",
+      "EP09",
+      "EP16",
+      "EP18"
+    ],
+    "first_appearance": "EP08",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/26"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/22"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Gümüş Katedral",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/22/a/0"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/26/a/0"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/22/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-05ff19ad66f767b5",
+      "text": "Çöl Şehri'nin 3. katında yer alan, buz kristali gibi yükselen yarı şeffaf taşlardan yapılmış, üzerinde devasa gümüş ejderha heykeli bulunan, gün ışığını prizma gibi kırıp tüm mahalleye renkli ışıklar saçan heybetli bilim ve ibadet tapınağı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5d72299320d63c00",
+      "text": "Çöl Şehri'nin 3. katında yer alan, buzdan/kristalden oyulmuş devasa ejderha heykeli şeklinde yükselen, kapısı olmayan, içerisinde 9 ejderhanın kozmik döngüsünü gösteren hareketli dev vitray bulunan tapınak.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-0b9851879f11a015",
+      "text": "Dışarıda kuşatma olmasına rağmen içi son derece temiz, kokusuz ve huzurlu bir atmosfere sahiptir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/22/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-fd517842640e1de2",
+      "text": "Çöl Şehri 3. Bölgesi'nde yer alan, elmas/kristal görünümlü, içerisinde tüm ejderhaların mabetlerini barındıran huzurlu devasa katedral.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/26/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7319f80cff1d1759",
+      "text": "Çöl Şehri 3. Bölgesi'nde yer alan tapınak.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-05ff19ad66f767b5",
+    "FCT-5d72299320d63c00",
+    "FCT-0b9851879f11a015",
+    "FCT-fd517842640e1de2",
+    "FCT-7319f80cff1d1759"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0456",
+        "subject_id": "TMP-0002",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08",
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nin 3. Katında yer alır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/25"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri'nin 3. katındadır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0153",
+        "subject_id": "TMP-0002",
+        "relation": "TEMPLE_OF",
+        "object_id": "DRG-0003",
+        "period": null,
+        "episodes": [
+          "EP08",
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gümüş Ejderha'ya adanmış ana tapınaktır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/26"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gümüş Ejderha'ya adanmıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0406",
+        "subject_id": "TMP-0002",
+        "relation": "LOCATED_IN",
+        "object_id": "DIS-0005",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP16",
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 3. Bölgesi'ndedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Source explicitly places the temple in the third district.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/entities/22/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0163",
+        "subject_id": "NPC-0006",
+        "relation": "PRESENT_IN",
+        "object_id": "TMP-0002",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP09",
+          "EP16"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gümüş Ejderha Tapınağı'nda ibadet etmiş ve Yeşim Ejderha Rahibesi Tefnut ile görüşmüştür.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/1"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gümüş Ejderha Tapınağı'nda Yeşim Ejderha sunağında ibadet etmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/3"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0166",
+        "subject_id": "NPC-0051",
+        "relation": "PRESENT_IN",
+        "object_id": "TMP-0002",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gümüş Ejderha Tapınağı'na gitmiştir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/5"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0168",
+        "subject_id": "NPC-0046",
+        "relation": "PRESENT_IN",
+        "object_id": "TMP-0002",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gümüş Ejderha Tapınağı'ndan pirinç şamdan çalmıştır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0169",
+        "subject_id": "NPC-0083",
+        "relation": "PRESENT_IN",
+        "object_id": "TMP-0002",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gümüş Ejderha Tapınağı'na gitmiştir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0170",
+        "subject_id": "NPC-0094",
+        "relation": "SERVES",
+        "object_id": "TMP-0002",
+        "period": null,
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gümüş Ejderha Tapınağı'nda rahiptir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0172",
+        "subject_id": "NPC-0092",
+        "relation": "SERVES",
+        "object_id": "TMP-0002",
+        "period": null,
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gümüş Ejderha Tapınağı'nın arka odasında Yeşim Ejderha rahibesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0285",
+        "subject_id": "NPC-0023",
+        "relation": "PRESENT_IN",
+        "object_id": "TMP-0002",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP16"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Tapınak çıkışında Akmer ile gizlice görüşmüştür.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0065",
+        "episode": "EP09",
+        "period": "1300 civarı",
+        "title": "Tefnut’un seçilmişlere görevi",
+        "summary_fact_id": "FCT-7354bd55858c2b4c",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/5/facts/1"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/lore/2/fact"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "NPC-0092"
+        ],
+        "location_ids": [
+          "TMP-0002"
+        ],
+        "related_entity_ids": [
+          "DRG-0014"
+        ]
+      },
+      {
+        "event_id": "EVT-0067",
+        "episode": "EP09",
+        "period": "1300 civarı",
+        "title": "Tapınaktaki ejderha kozmolojisinin öğrenilmesi",
+        "summary_fact_id": "FCT-14f0052e22490091",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/lore/0/fact"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "NPC-0094"
+        ],
+        "location_ids": [
+          "TMP-0002"
+        ],
+        "related_entity_ids": [
+          "DRG-0003"
+        ]
+      },
+      {
+        "event_id": "EVT-0087",
+        "episode": "EP16",
+        "period": "1300 civarı",
+        "title": "Ejder kemiği silahıyla kan bağı",
+        "summary_fact_id": "FCT-adbc58f6e6f7c925",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/0/facts/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/lore/1/fact"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051"
+        ],
+        "location_ids": [
+          "BLD-0023",
+          "TMP-0002"
+        ],
+        "related_entity_ids": [
+          "DRG-0014",
+          "ITM-0012"
+        ]
+      },
+      {
+        "event_id": "EVT-0089",
+        "episode": "EP16",
+        "period": "1300 civarı",
+        "title": "Devran’ın Akmer’e uyarısı",
+        "summary_fact_id": "FCT-4ac240f4ecf65c66",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/5/facts/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/5/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0023"
+        ],
+        "location_ids": [
+          "TMP-0002"
+        ],
+        "related_entity_ids": [
+          "DEI-0011",
+          "ITM-0024"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-7354bd55858c2b4c",
+        "entity_id": "EVT-0065",
+        "fact": {
+          "id": "FCT-7354bd55858c2b4c",
+          "text": "Tefnut, Zümrüt Ejderha yadigarlarını taşıyan ekibi kuşatma altındaki şehre umut olmak ve ön saflarda savaşmak üzere görevlendirip kutsar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/5/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/lore/2/fact"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-14f0052e22490091",
+        "entity_id": "EVT-0067",
+        "fact": {
+          "id": "FCT-14f0052e22490091",
+          "text": "Toyya tapınağın hareketli vitrayındaki ejderha döngüsünü anlatır; bu anlatı ejderhaların yaratılıştaki rolleri hakkında bilgi verir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/lore/0/fact"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-adbc58f6e6f7c925",
+        "entity_id": "EVT-0087",
+        "fact": {
+          "id": "FCT-adbc58f6e6f7c925",
+          "text": "Akmer tapınakta kanını Kristal Kılıç’a aktarır. Kaynak, silahın balta biçimine dönüştüğünü ve Akmer’in can gücüne bağlandığını bildirir; EP15’te ayrı verilen balta ile kimliği çözümlenmemiştir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/0/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/lore/1/fact"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-4ac240f4ecf65c66",
+        "entity_id": "EVT-0089",
+        "fact": {
+          "id": "FCT-4ac240f4ecf65c66",
+          "text": "Devran tapınak çıkışında Akmer’e Pastırman hareketinin iki tarafı da savaşa sürükleyebileceğini söyler ve acil yardım işareti verebilen kırmızı ejderha figürünü teslim eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/5/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/5/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0015",
+      "episode": "EP09",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "reviewed_narrative_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0023",
+      "to_id": "TMP-0002",
+      "via_ids": [],
+      "origin": {
+        "label": "Arifler Okulu",
+        "entity_id": "BLD-0023",
+        "resolution": "exact",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "destination": {
+        "label": "Gümüş Ejderha Tapınağı",
+        "entity_id": "TMP-0002",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri 3. Kat Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "id": "TRV-0016",
+      "episode": "EP09",
+      "sequence": 2,
+      "period": "1300 civarı",
+      "temporal_basis": "reviewed_narrative_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "TMP-0002",
+      "to_id": "BLD-0023",
+      "via_ids": [],
+      "origin": {
+        "label": "Gümüş Ejderha Tapınağı",
+        "entity_id": "TMP-0002",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Arifler Okulu",
+        "entity_id": "BLD-0023",
+        "resolution": "exact",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri 3. Kat Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/travel/1"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "id": "TRV-0030",
+      "episode": "EP16",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006"
+      ],
+      "from_id": "BLD-0023",
+      "to_id": "TMP-0002",
+      "via_ids": [],
+      "origin": {
+        "label": "Arifler Okulu",
+        "entity_id": "BLD-0023",
+        "resolution": "exact",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "destination": {
+        "label": "Gümüş Ejderha Tapınağı",
+        "entity_id": "TMP-0002",
+        "resolution": "exact"
+      },
+      "waypoints": [],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "TMP-0002",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "DIS-0005",
+          "parent_candidate_ids": [
+            "DIS-0005"
+          ],
+          "containment_relationship_ids": [
+            "REL-0456",
+            "REL-0406"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/12"
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/22"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/26"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/22"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Arifler Okulu",
+        "to": "Gümüş Ejderha Tapınağı",
+        "via": [
+          "Çöl Şehri 3. Kat Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0015",
+        "episode": "EP09",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0023",
+        "to_id": "TMP-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "destination": {
+          "label": "Gümüş Ejderha Tapınağı",
+          "entity_id": "TMP-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 3. Kat Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Gümüş Ejderha Tapınağı",
+        "to": "Arifler Okulu",
+        "via": [
+          "Çöl Şehri 3. Kat Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0016",
+        "episode": "EP09",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "TMP-0002",
+        "to_id": "BLD-0023",
+        "via_ids": [],
+        "origin": {
+          "label": "Gümüş Ejderha Tapınağı",
+          "entity_id": "TMP-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 3. Kat Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Arifler Okulu",
+        "to": "Gümüş Ejderha Tapınağı",
+        "via": [],
+        "party": [
+          "Akmer"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0030",
+        "episode": "EP16",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006"
+        ],
+        "from_id": "BLD-0023",
+        "to_id": "TMP-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "destination": {
+          "label": "Gümüş Ejderha Tapınağı",
+          "entity_id": "TMP-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0005",
+      "slug": "col-sehri-3-bolge",
+      "name": "Çöl Şehri 3. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Üçüncü Bölge",
+        "Üçüncü Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DRG-0003",
+      "slug": "gumus-ejderha",
+      "name": "Gümüş Ejderha",
+      "type": "DRAGON",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0023",
+      "slug": "devran",
+      "name": "Devran",
+      "type": "PERSON",
+      "aliases": [
+        "Dubai Hurması",
+        "Genç Komutan",
+        "Kartal Sniper",
+        "Kızıl Komutan'ın Oğlu",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Oğul Komutan",
+        "Siyah Ejderha Keskin Nişancısı",
+        "Siyah Süvari",
+        "Surlar Üzerindeki Nişancı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0092",
+      "slug": "tefnut",
+      "name": "Tefnut",
+      "type": "PERSON",
+      "aliases": [
+        "Tefnut Hanım"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0094",
+      "slug": "toyya",
+      "name": "Toyya",
+      "type": "PERSON",
+      "aliases": [
+        "Toya",
+        "Toyya Bey"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/25"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/26"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/22/a/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/22/facts/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/5"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/lore/0/fact"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/lore/2/fact"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/0/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/26"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/26/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/26/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/3"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/lore/1/fact"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/22/a/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18"
+      }
+    ],
+    "counts": {
+      "facts": 5,
+      "relationships_outgoing": 3,
+      "relationships_incoming": 7,
+      "timeline_events": 4,
+      "travel_records": 3,
+      "lore_records": 0,
+      "episode_records": 4,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 3,
+      "owner_confirmations": 0,
+      "linked_entities": 11
+    }
+  }
+}

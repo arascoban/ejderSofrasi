@@ -1,0 +1,1594 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "ITM-0036",
+    "slug": "isik-taci",
+    "name": "Işık Tacı",
+    "type": "ITEM",
+    "aliases": [
+      "Büyülü Taç",
+      "Fener Balığı Oltası",
+      "Gözlü Taç",
+      "Lanetli Balık Tacı",
+      "Lanetli Taç"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP06",
+      "EP07",
+      "EP08",
+      "EP09",
+      "EP10",
+      "EP12",
+      "EP13",
+      "EP14",
+      "EP15",
+      "EP17",
+      "EP18"
+    ],
+    "first_appearance": "EP06",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-ITEMS",
+        "line": 5
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/27"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/27"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/29"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/33"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/38"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/26"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Büyülü Taç",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/9/n"
+          }
+        ]
+      },
+      {
+        "name": "Fener Balığı Oltası",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/9/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Gözlü Taç",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/27/a/0"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/29/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Lanetli Balık Tacı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/27/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Lanetli Taç",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/9/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP06",
+        "kinds": [
+          "entity_record",
+          "event_reference"
+        ]
+      },
+      {
+        "episode": "EP07",
+        "kinds": [
+          "entity_record",
+          "event_reference"
+        ]
+      },
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "event_reference"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP13",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-3fa97b4ecec03883",
+      "text": "Hazine odasında metal işlemeli minimalist bir taç gibi görünen, ancak gerçekte Dev Fener Balığı'nın bedenine bağlı olta uzvu (lure) olan ilüzyonlu nesne.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/9/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1825e14307f6b674",
+      "text": "Hazine odasından kurtarılan büyülü taç.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-03645e93b98c584d",
+      "text": "Kristalize saf ışıktan asılı taç.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/20/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5d6c54e1ed0ff0fd",
+      "text": "Taşıyana 120 feet karanlıkta görüş ve Insight zarlarına +5 bonus verir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/20/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-3b28f193c7213b34",
+      "text": "Parlatıldığında (bonus action) 30 feet içindeki düşmanları DC 17 Con saving throw ile 1 dakika kör eder (günde 3 kez).",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/20/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d5174acb75a4c6d6",
+      "text": "Günde 1 kez 6. seviye Sunbeam (yeşim renkli radyan ışın) ateşler.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/20/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-484837459740ec53",
+      "text": "Kalender'in taşıdığı, parlatıldığında düşmanları kör eden kızıl ışın saçan büyülü taç.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/27/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-2353a9e7fbeecb77",
+      "text": "İto tarafından aktifleştirilip 6. seviye Sunbeam (28 radyan damage) ışını fırlatarak Siyah Ejderha cambazlarını kör eden ve yakan büyülü taç.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/18/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-34df7d22bd95140d",
+      "text": "İto'nun kafasında taşıdığı, ortasında büyük kırmızı bir göz ve etrafında minik balık gözleri barındıran, kas/tendon dokularıyla kafatasına yapışmış grotesque lanetli eşya.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/27/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-2dcfeb702cb540fc",
+      "text": "İto'nun algısını ve zihin okuma yeteneğini artırır, ancak taşıyıcının zihnini ve bedenini kademeli olarak etkiler.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/27/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-19964b802452fd36",
+      "text": "İto'nun kafasında parazit gibi büyüyen, Sunbeam ışını fırlatarak kışla koridorundaki askerleri kör eden büyülü taç.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/20/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-07874684b58282ea",
+      "text": "İto'nun kafasındaki grotesk lanetli eşya.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/29/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a0ab434377128c6e",
+      "text": "İto'nun kafasındaki Sunbeam ışını fırlatarak rooftop suikastçılarını yakan büyülü parazit taç.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/33/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-9af213da4ba629fd",
+      "text": "İto'nun kafasındaki Sunbeam kızıl lazer fırlatan parazit taç.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/38/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e398ce3dfa2927e5",
+      "text": "İto'nun kafasındaki büyülü parazit taç.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/26/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-3fa97b4ecec03883",
+    "FCT-1825e14307f6b674",
+    "FCT-03645e93b98c584d",
+    "FCT-5d6c54e1ed0ff0fd",
+    "FCT-3b28f193c7213b34",
+    "FCT-d5174acb75a4c6d6",
+    "FCT-484837459740ec53",
+    "FCT-2353a9e7fbeecb77",
+    "FCT-34df7d22bd95140d",
+    "FCT-2dcfeb702cb540fc",
+    "FCT-19964b802452fd36",
+    "FCT-07874684b58282ea",
+    "FCT-a0ab434377128c6e",
+    "FCT-9af213da4ba629fd",
+    "FCT-e398ce3dfa2927e5"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "id": "REL-0167",
+        "subject_id": "NPC-0051",
+        "relation": "USES",
+        "object_id": "ITM-0036",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Işık Tacı'nı düşmanları kör etmek için kullanmıştır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0182",
+        "subject_id": "NPC-0046",
+        "relation": "USES",
+        "object_id": "ITM-0036",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10",
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Işık Tacı'nı kullanarak Sunbeam ışını ateşlemiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Işık Tacı ile çatıdaki suikastçıları yakmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0216",
+        "subject_id": "NPC-0046",
+        "relation": "POSSESSES",
+        "object_id": "ITM-0036",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12",
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kafasında parazit gibi büyüyen Işık Tacı'nı taşımaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Işık Tacı'nı kafasında taşımaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0529",
+        "subject_id": "NPC-0046",
+        "relation": "OWNS",
+        "object_id": "ITM-0036",
+        "period": null,
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed Işık Tacı was always attached to İto; Arifler said Remove Curse could remove it, but İto refused.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/entities/2/facts/3"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0022",
+        "episode": "EP06",
+        "period": "1600 civarı",
+        "title": "Fener balığının boyutsal saldırısı",
+        "summary_fact_id": "FCT-aeb150f5dc2eb59e",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/1/facts/2"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/1/facts/3"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/2/facts/2"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0002",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0003"
+        ],
+        "related_entity_ids": [
+          "ITM-0036"
+        ]
+      },
+      {
+        "event_id": "EVT-0025",
+        "episode": "EP07",
+        "period": "1600 civarı",
+        "title": "Kutsal eşyaların çıkarılması",
+        "summary_fact_id": "FCT-eecd49bca922ab53",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/2/facts/3"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/3/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0058",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0003"
+        ],
+        "related_entity_ids": [
+          "ITM-0004",
+          "ITM-0009",
+          "ITM-0036"
+        ]
+      },
+      {
+        "event_id": "EVT-0031",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Dört kutsal yadigarın güçlerinin öğrenilmesi",
+        "summary_fact_id": "FCT-0e22f3833c09c406",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/5/facts/2"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/17"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/18"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/19"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/20"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "ITM-0004",
+          "ITM-0009",
+          "ITM-0031",
+          "ITM-0036",
+          "ORG-0001"
+        ]
+      },
+      {
+        "event_id": "EVT-0075",
+        "episode": "EP12",
+        "period": "1300 civarı",
+        "title": "Işık Tacı’nın parazitik biçiminin açığa çıkması",
+        "summary_fact_id": "FCT-a7a90d4f72960e57",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/2/facts/2"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/2/facts/3"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/5/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "NPC-0089"
+        ],
+        "location_ids": [
+          "BLD-0023"
+        ],
+        "related_entity_ids": [
+          "CRE-0002",
+          "ITM-0036"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-aeb150f5dc2eb59e",
+        "entity_id": "EVT-0022",
+        "fact": {
+          "id": "FCT-aeb150f5dc2eb59e",
+          "text": "Taç görünümündeki yem Kalender'i büyüler. Dev Fener Balığı Kalender'i yutar; onu bırakmayan İto da bilinmeyen boyuta çekilir, Akmer ve Roary tapınakta kalır.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/entities/1/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/entities/1/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/entities/2/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/travel/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-eecd49bca922ab53",
+        "entity_id": "EVT-0025",
+        "fact": {
+          "id": "FCT-eecd49bca922ab53",
+          "text": "Durgunluk Buhurdanı seçilir, Köpo'nun attığı kadeh İto'ya ulaşır ve Kalender Işık Tacı'nı kurtarır.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/2/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/3/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-0e22f3833c09c406",
+        "entity_id": "EVT-0031",
+        "fact": {
+          "id": "FCT-0e22f3833c09c406",
+          "text": "Arifler büyücüsü eşyaları inceletir; kadeh, buhurdan, yüzük ve tacın şifa, korunma ve ışık güçleri tanımlanır. Roary bahçede şifalı sisi etkinleştirir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/5/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/17"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/18"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/19"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/20"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-a7a90d4f72960e57",
+        "entity_id": "EVT-0075",
+        "fact": {
+          "id": "FCT-a7a90d4f72960e57",
+          "text": "Ammon illüzyonu kaldırınca İto’nun tacının kafatasına bağlı kozmik bir parazit olduğu görülür. İto sağladığı güçler nedeniyle lanetin kaldırılmasını reddeder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/2/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/2/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/5/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP07",
+      "number": 7,
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP13",
+      "number": 13,
+      "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Büyülü Taç and Işık Tacı are the same item.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-ITEMS",
+          "line": 5
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/12"
+        }
+      ],
+      "before": [
+        "Işık Tacı",
+        "Büyülü Taç"
+      ],
+      "after": "ITM-0036"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0002",
+      "slug": "boyut-avcisi-fener-baligi",
+      "name": "Boyut Avcısı Fener Balığı",
+      "type": "CREATURE",
+      "aliases": [
+        "Angler Fish",
+        "Dev Fener Balığı",
+        "Kozmik Fener Balığı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0007",
+      "slug": "raer-ammon",
+      "name": "Raer Ammon",
+      "type": "PERSON",
+      "aliases": [
+        "Ammon",
+        "Ammon Bey",
+        "Başbüyücü Ammon",
+        "Büyücü Raer",
+        "Büyük Büyücü Rer",
+        "Rael",
+        "Raer",
+        "Rer"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0058",
+      "slug": "kopo-kurtoglu",
+      "name": "Köpo Kurtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Köpo"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0089",
+      "slug": "subira",
+      "name": "Subira",
+      "type": "PERSON",
+      "aliases": [
+        "Demirci Subira",
+        "Subira Hanım"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-ITEMS",
+        "line": 5
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/9/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/9/a/1"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/9/n"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP06"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP07"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/20/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/20/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/20/facts/3"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/27"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/27/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/18/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP10"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/27"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/27/a/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/27/a/1"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/27/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/27/facts/1"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/29"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/29/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/29/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/33"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/33/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/38"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/38/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/26"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/26/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18"
+      }
+    ],
+    "counts": {
+      "facts": 15,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 4,
+      "timeline_events": 4,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 11,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 11
+    }
+  }
+}

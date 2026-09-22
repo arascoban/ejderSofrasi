@@ -1,0 +1,651 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NAT-0008",
+    "slug": "col-sehri-golet-alani",
+    "name": "Çöl Şehri Gölet Alanı",
+    "type": "NATURAL_FEATURE",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP14"
+    ],
+    "first_appearance": "EP14",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_descriptor",
+    "record_status": "travel_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/1/to"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP14",
+        "kinds": [
+          "event_reference",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [],
+  "fact_ids": [],
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0083",
+        "episode": "EP14",
+        "period": "1300 civarı",
+        "title": "Roary’nin ayrı güzergâhı ve komutanla görüşmesi",
+        "summary_fact_id": "FCT-3164285185ca11ad",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/3"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/4"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0060",
+          "NPC-0082",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0018",
+          "BLD-0023",
+          "NAT-0008"
+        ],
+        "related_entity_ids": [
+          "CRE-0012",
+          "CRE-0026"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-3164285185ca11ad",
+        "entity_id": "EVT-0083",
+        "fact": {
+          "id": "FCT-3164285185ca11ad",
+          "text": "Roary gölet çevresinden bir ördek edinir; İbrahim’i sokakta bulur. Kışlada Kızıl Komutan ile görüştükten sonra izniyle Arifler yerleşkesine giderek Radam ile buluşur.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/4"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0026",
+      "episode": "EP14",
+      "sequence": 2,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0002",
+      "to_id": "NAT-0008",
+      "via_ids": [],
+      "origin": {
+        "label": "Beltis Ana'nın Evi",
+        "entity_id": "BLD-0002",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Çöl Şehri Gölet Alanı",
+        "entity_id": "NAT-0008",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri Alt Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/12/facts/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Pelerinli",
+        "entity_ids": []
+      },
+      "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved."
+    },
+    {
+      "id": "TRV-0027",
+      "episode": "EP14",
+      "sequence": 3,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "CRE-0012",
+        "CRE-0026",
+        "NPC-0083"
+      ],
+      "from_id": "NAT-0008",
+      "to_id": "BLD-0023",
+      "via_ids": [
+        "DIS-0005",
+        "BLD-0018"
+      ],
+      "origin": {
+        "label": "Çöl Şehri Gölet Alanı",
+        "entity_id": "NAT-0008",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Arifler Okulu",
+        "entity_id": "BLD-0023",
+        "resolution": "exact",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "3. Bölge Cümle Kapısı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        },
+        {
+          "sequence": 2,
+          "label": "Çöl Şehri 3. Bölge",
+          "entity_id": "DIS-0005",
+          "resolution": "exact"
+        },
+        {
+          "sequence": 3,
+          "label": "Çöl Şehri Kışlası",
+          "entity_id": "BLD-0018",
+          "resolution": "exact"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/3"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "unresolved_travelers": [
+        {
+          "label": "Muhafız Askerler",
+          "entity_id": null
+        }
+      ],
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "NAT-0008",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "UNKNOWN",
+      "spatial_domain": "unknown",
+      "states": [],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/1/to"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/12/facts/0"
+        }
+      ],
+      "before": {
+        "from": "Beltis Ana'nın Evi",
+        "to": "Çöl Şehri Gölet Alanı",
+        "via": [
+          "Çöl Şehri Alt Sokakları"
+        ],
+        "party": [
+          "Roary",
+          "İbrahim (Kompisaurus)"
+        ],
+        "transport": "Yürüyerek & Pelerinli"
+      },
+      "after": {
+        "id": "TRV-0026",
+        "episode": "EP14",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0002",
+        "to_id": "NAT-0008",
+        "via_ids": [],
+        "origin": {
+          "label": "Beltis Ana'nın Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri Gölet Alanı",
+          "entity_id": "NAT-0008",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri Alt Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/12/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Pelerinli",
+          "entity_ids": []
+        },
+        "reason": "Roary finds İbrahim alone in the street after leaving Beltis’s house; participation from the route origin is unsupported. Its later route participation is preserved."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/3"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri Gölet Alanı",
+        "to": "Arifler Okulu",
+        "via": [
+          "3. Bölge Cümle Kapısı",
+          "Çöl Şehri 3. Bölge"
+        ],
+        "party": [
+          "Roary",
+          "İbrahim (Kompisaurus)",
+          "Yeni Ördek (Ördek-ül Deva 2)",
+          "Muhafız Askerler"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0027",
+        "episode": "EP14",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "CRE-0012",
+          "CRE-0026",
+          "NPC-0083"
+        ],
+        "from_id": "NAT-0008",
+        "to_id": "BLD-0023",
+        "via_ids": [
+          "DIS-0005",
+          "BLD-0018"
+        ],
+        "origin": {
+          "label": "Çöl Şehri Gölet Alanı",
+          "entity_id": "NAT-0008",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Cümle Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Çöl Şehri 3. Bölge",
+            "entity_id": "DIS-0005",
+            "resolution": "exact"
+          },
+          {
+            "sequence": 3,
+            "label": "Çöl Şehri Kışlası",
+            "entity_id": "BLD-0018",
+            "resolution": "exact"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Muhafız Askerler",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0002",
+      "slug": "beltis-ana-nin-evi",
+      "name": "Beltis Ana'nın Evi",
+      "type": "BUILDING",
+      "aliases": [
+        "Beltis Hala'nın Evi",
+        "Teyze'nin Evi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0018",
+      "slug": "col-sehri-kislasi",
+      "name": "Çöl Şehri Kışlası",
+      "type": "BUILDING",
+      "aliases": [
+        "Baraks",
+        "Karargah",
+        "Kışla",
+        "Kışla Nezarethanesi",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "DIS-0005",
+      "slug": "col-sehri-3-bolge",
+      "name": "Çöl Şehri 3. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Üçüncü Bölge",
+        "Üçüncü Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0060",
+      "slug": "kizil-komutan-sancar",
+      "name": "Kızıl Komutan Sancar",
+      "type": "PERSON",
+      "aliases": [
+        "Başkomutan",
+        "Büyük Komutan",
+        "Derbaş",
+        "Komutan",
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0082",
+      "slug": "radam",
+      "name": "Radam",
+      "type": "PERSON",
+      "aliases": [
+        "Büyücü Radam"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/1/to"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP14"
+      }
+    ],
+    "counts": {
+      "facts": 0,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 7
+    }
+  }
+}

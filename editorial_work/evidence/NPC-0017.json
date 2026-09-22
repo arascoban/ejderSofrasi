@@ -1,0 +1,665 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0017",
+    "slug": "borda-feneri",
+    "name": "Borda Feneri",
+    "type": "PERSON",
+    "aliases": [
+      "Borda"
+    ],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP03",
+      "EP04"
+    ],
+    "first_appearance": "EP03",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 30
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/4"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Borda",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/5/a/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/4/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP03",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP04",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-0fa091872e45f665",
+      "text": "Karapancar gemisinde tayfa/denizcidir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP03",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1b5f5acf9f1e45dc",
+      "text": "Harita okuyabildiğini söylemiş ancak rotayı ve seyrüsefer yönünü tam bilmediğini, sadece adayı teşhis edebildiğini belirtmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP03",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-288c02fab3e11d14",
+      "text": "Gizemler Adası'nda karaya çıkan keşif ekibine katılmış, sivri tepeyi tespit ederek göletin yerini göstermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP03",
+              "pointer": "/entities/5/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5daa1b078eda5920",
+      "text": "Karapancar gemisinde haritadan sorumlu tayfadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-ae2cf0fce71b91f3",
+      "text": "Gizemler Adası'nın tepesinden bakıldığında adanın haritaya göre çok daha büyük olduğunu ve Adnan Körkapak'ın timsahlarla dolu bu kadar zorlu bir adaya hazine gömmüş olamayacağını düşünerek şüpheye düşmüştür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-26df9e9c3636c94e",
+      "text": "Akmer ve ekibe haritada gösterilen derenin paralelinde ilerleyip beyaz dumanın çıktığı açıklığı hedeflemelerini önermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-0fa091872e45f665",
+    "FCT-1b5f5acf9f1e45dc",
+    "FCT-288c02fab3e11d14",
+    "FCT-5daa1b078eda5920",
+    "FCT-ae2cf0fce71b91f3",
+    "FCT-26df9e9c3636c94e"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0062",
+        "subject_id": "NPC-0017",
+        "relation": "WORKS_IN",
+        "object_id": "SHP-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03",
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Karapancar gemisinde haritadan sorumlu tayfadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Karapancar gemisinde tayfadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/8"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0063",
+        "subject_id": "NPC-0017",
+        "relation": "VISITED",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03",
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası keşif ekibine rehberlik etmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası'nda haritayı incelemiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0012",
+        "episode": "EP03",
+        "period": "1600 civarı",
+        "title": "Gizemler Adası'na çıkış",
+        "summary_fact_id": "FCT-c46fafee61495bdd",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/21/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0017",
+          "NPC-0024",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "OTH-0001"
+        ],
+        "location_ids": [
+          "ISL-0001"
+        ],
+        "related_entity_ids": [
+          "NPC-0024",
+          "SHP-0001"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-c46fafee61495bdd",
+        "entity_id": "EVT-0012",
+        "fact": {
+          "id": "FCT-c46fafee61495bdd",
+          "text": "Karapancar adanın açıklarına demirler; maceracılar, Borda Feneri, Dingi ve kazı tayfası sandalla adaya çıkar.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP03",
+                  "pointer": "/travel/0"
+                },
+                {
+                  "source_id": "SRC-EP03",
+                  "pointer": "/entities/21/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0007",
+      "episode": "EP03",
+      "sequence": 1,
+      "period": "1600 civarı",
+      "temporal_basis": "reviewed_source_context",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0017",
+        "NPC-0024",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083",
+        "OTH-0001"
+      ],
+      "from_id": "PRT-0001",
+      "to_id": "ISL-0001",
+      "via_ids": [
+        "NAT-0006"
+      ],
+      "origin": {
+        "label": "Revanya Limanı",
+        "entity_id": "PRT-0001",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Gizemler Adası",
+        "entity_id": "ISL-0001",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Revania Denizleri",
+          "entity_id": "NAT-0006",
+          "resolution": "exact"
+        }
+      ],
+      "status": "completed",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Karapancar Gemisi & Dingi Sandalı",
+        "entity_ids": [
+          "SHP-0001"
+        ]
+      },
+      "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP03",
+      "number": 3,
+      "title": "DnD: EJDER SOFRASI 03 - GİZEMLER ADASI ve MEGA TİMSAH",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP04",
+      "number": 4,
+      "title": "DnD: EJDER SOFRASI 04 - GİZEMLİ CANAVARLAR ve CEMİL",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Revanya Limanı",
+        "to": "Gizemler Adası",
+        "via": [
+          "Revania Denizleri"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Borda Feneri",
+          "Dingi",
+          "Daltonlar"
+        ],
+        "transport": "Karapancar Gemisi & Dingi Sandalı"
+      },
+      "after": {
+        "id": "TRV-0007",
+        "episode": "EP03",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0017",
+          "NPC-0024",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "OTH-0001"
+        ],
+        "from_id": "PRT-0001",
+        "to_id": "ISL-0001",
+        "via_ids": [
+          "NAT-0006"
+        ],
+        "origin": {
+          "label": "Revanya Limanı",
+          "entity_id": "PRT-0001",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Gizemler Adası",
+          "entity_id": "ISL-0001",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Revania Denizleri",
+            "entity_id": "NAT-0006",
+            "resolution": "exact"
+          }
+        ],
+        "status": "completed",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Karapancar Gemisi & Dingi Sandalı",
+          "entity_ids": [
+            "SHP-0001"
+          ]
+        },
+        "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "ISL-0001",
+      "slug": "gizemler-adasi",
+      "name": "Gizemler Adası",
+      "type": "ISLAND",
+      "aliases": [
+        "Palmiyeli ve Dağlı Ada",
+        "PNG Adası",
+        "Züber Adası"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NAT-0006",
+      "slug": "revania-denizleri",
+      "name": "Revania Denizleri",
+      "type": "NATURAL_FEATURE",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "PRT-0001",
+      "slug": "revanya-limani",
+      "name": "Revanya Limanı",
+      "type": "PORT",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "SHP-0001",
+      "slug": "karapancar-gemisi",
+      "name": "Karapancar Gemisi",
+      "type": "SHIP",
+      "aliases": [
+        "Karapancar"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 30
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/21/facts/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP03"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP04"
+      }
+    ],
+    "counts": {
+      "facts": 6,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 4
+    }
+  }
+}

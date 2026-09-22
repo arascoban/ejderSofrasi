@@ -1,0 +1,579 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0070",
+    "slug": "niani",
+    "name": "Niani",
+    "type": "PERSON",
+    "aliases": [
+      "Niani (Un Helvası Gözcüsü)"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP10"
+    ],
+    "first_appearance": "EP10",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 70
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/5"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Niani (Un Helvası Gözcüsü)",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/5/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-46c3571dd8a1e323",
+      "text": "Un Helvası Krallığı kuşatma ordusuna bağlı 19 yaşında gözcü/asker.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-42aa1894499af052",
+      "text": "Çatışmada silahını bırakıp kaçmaya çalışırken Kalender Tütüncüoğlu tarafından yakalanıp sorgulanmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-659653fa0de7414d",
+      "text": "Ordularına Mehdi'yi (Kalender) bulmaları, esir alıp 'namussuzlar adına çalışmama ve kendi tanrısına ihanet etmeme' mesajını iletmeleri emri verildiğini açıklamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/5/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-65425156410e9e35",
+      "text": "Siyah Ejderha tarikatına bağlı gizli cambaz liderlerini çağırmak için özel ıslık çalmış, ıslığın ardından 150-180 metre öteden surlardaki nişancı tarafından boğazından iki özel okla vurularak öldürülmüştür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/5/facts/3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-46c3571dd8a1e323",
+    "FCT-42aa1894499af052",
+    "FCT-659653fa0de7414d",
+    "FCT-65425156410e9e35"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0184",
+        "subject_id": "NPC-0070",
+        "relation": "SERVES",
+        "object_id": "KNG-0007",
+        "period": null,
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Un Helvası Krallığı kuşatma ordusunda gözcüdür.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0185",
+        "subject_id": "NPC-0070",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0021",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Terk edilmiş bina civarında yakalanıp sorgulanmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0187",
+        "subject_id": "NPC-0023",
+        "relation": "ENEMY_OF",
+        "object_id": "NPC-0070",
+        "period": null,
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Niani konuşmasın diye onu boğazından vurmuştur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0069",
+        "episode": "EP10",
+        "period": "1300 civarı",
+        "title": "Niani’nin yakalanması ve sorgulanması",
+        "summary_fact_id": "FCT-a35302b5093a23e9",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/1/facts/3"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/5/facts/2"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0070",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0024"
+        ],
+        "related_entity_ids": [
+          "KNG-0007"
+        ]
+      },
+      {
+        "event_id": "EVT-0070",
+        "episode": "EP10",
+        "period": "1300 civarı",
+        "title": "Niani’nin keskin nişancı tarafından susturulması",
+        "summary_fact_id": "FCT-e1f72958e6a4fa9e",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/5/facts/3"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/6/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0023",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0070",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0020"
+        ],
+        "related_entity_ids": [
+          "ITM-0035"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-a35302b5093a23e9",
+        "entity_id": "EVT-0069",
+        "fact": {
+          "id": "FCT-a35302b5093a23e9",
+          "text": "Kalender kaçan gözcü Niani’yi yakalar. Niani Mehdi’yi esir alma emrini açıklar ve gizli ıslıkla çağrı yapar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/1/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/5/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/travel/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-e1f72958e6a4fa9e",
+        "entity_id": "EVT-0070",
+        "fact": {
+          "id": "FCT-e1f72958e6a4fa9e",
+          "text": "Niani gizli ıslık çaldıktan sonra surlardaki nişancının özel oklarıyla öldürülür; nişancı uzaklaşır. Nişancının kimliği sonraki bölüm açıklamalarında çözülür.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/5/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/6/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0019",
+      "episode": "EP10",
+      "sequence": 2,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0070",
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0021",
+      "to_id": "BLD-0024",
+      "via_ids": [],
+      "origin": {
+        "label": "Çöl Şehri Terk Edilmiş İnşaat",
+        "entity_id": "BLD-0021",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Çöl Şehri İnşaat Yakını Gizli Ev / Sığınak",
+        "entity_id": "BLD-0024",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/travel/1"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Kovalayarak",
+        "entity_ids": []
+      }
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0020",
+      "slug": "col-sehri-surlari",
+      "name": "Yaz Helvası Şehri Surları",
+      "type": "BUILDING",
+      "aliases": [
+        "3. Bölge Surları",
+        "Cümle Kapısı Meydanı",
+        "Çöl Surları",
+        "Çöl Şehri Surları",
+        "Şehir Surları"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0021",
+      "slug": "col-sehri-terk-edilmis-insaat",
+      "name": "Çöl Şehri Terk Edilmiş İnşaat",
+      "type": "BUILDING",
+      "aliases": [
+        "Terk Edilmiş İnşaat",
+        "Terk Edilmiş Mahalle Binası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0024",
+      "slug": "col-sehri-insaat-yakini-gizli-ev-siginak",
+      "name": "Çöl Şehri İnşaat Yakını Gizli Ev / Sığınak",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "KNG-0007",
+      "slug": "un-helvasi-kralligi",
+      "name": "Un Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Un Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0023",
+      "slug": "devran",
+      "name": "Devran",
+      "type": "PERSON",
+      "aliases": [
+        "Dubai Hurması",
+        "Genç Komutan",
+        "Kartal Sniper",
+        "Kızıl Komutan'ın Oğlu",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Oğul Komutan",
+        "Siyah Ejderha Keskin Nişancısı",
+        "Siyah Süvari",
+        "Surlar Üzerindeki Nişancı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 70
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/5/facts/3"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP10"
+      }
+    ],
+    "counts": {
+      "facts": 4,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 1,
+      "timeline_events": 2,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 5
+    }
+  }
+}

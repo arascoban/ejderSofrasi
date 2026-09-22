@@ -1,0 +1,764 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NAT-0002",
+    "slug": "idilik-yayla",
+    "name": "İdilik Yayla",
+    "type": "NATURAL_FEATURE",
+    "aliases": [
+      "Cennet Vadisi",
+      "Şifa Vadisi"
+    ],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP05",
+      "EP06"
+    ],
+    "first_appearance": "EP05",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/19"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Cennet Vadisi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/19/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Şifa Vadisi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/19/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP05",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP06",
+        "kinds": [
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-4d130b74f4b4ff23",
+      "text": "Zümrüt Ejderha Şifa Zindanı içerisindeki 5 nolu zümrüt konteyner kapısından girilen ekstradimensiyonel cennet vadisi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/19/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-16a79fc791b66947",
+      "text": "Farklı iklimlerden ağaçları ve kuşları barındırır; deredeki suya bakıldığında kişiyi geçici olarak 25 yaş yaşlandırır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/19/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e6333f05816b4236",
+      "text": "Deresine damlatılan kan çimenleri büyütür, kana koşan balıkları şeytani canlılara, kaçan balıkları ise kutsal gümüş canlılara dönüştürür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/19/facts/2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-4d130b74f4b4ff23",
+    "FCT-16a79fc791b66947",
+    "FCT-e6333f05816b4236"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0450",
+        "subject_id": "NAT-0002",
+        "relation": "INSIDE",
+        "object_id": "TMP-0003",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Şifa Zindanı içerisindeki 5 nolu küp kapısından ulaşılan ekstradimensiyonel alandır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0019",
+        "episode": "EP05",
+        "period": "1600 civarı",
+        "title": "Şifa vadisinin dönüşüm gücünün keşfi",
+        "summary_fact_id": "FCT-a76f7077bb06be03",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/3/facts/3"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "NAT-0002"
+        ],
+        "related_entity_ids": [
+          "TMP-0003"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-a76f7077bb06be03",
+        "entity_id": "EVT-0019",
+        "fact": {
+          "id": "FCT-a76f7077bb06be03",
+          "text": "Grup zindandaki ekstra-boyutsal vadiye ulaşır. Akmer'in dökülen kanı çevreyi ve balıkları değiştirir; Roary'nin içtiği özsu saçlarını ve tırnaklarını hızla uzatır.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/entities/3/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/travel/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0010",
+      "episode": "EP05",
+      "sequence": 2,
+      "period": "1600 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": null,
+      "to_id": "NAT-0002",
+      "via_ids": [],
+      "origin": {
+        "label": "Zümrüt Ejderha Şifa Zindanı Girişi",
+        "entity_id": null,
+        "context_id": "TMP-0003",
+        "resolution": "location_description"
+      },
+      "destination": {
+        "label": "İdilik Yayla",
+        "entity_id": "NAT-0002",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Zümrüt Bronz Kapılar",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        },
+        {
+          "sequence": 2,
+          "label": "5 Nolu Zümrüt Ejderha Küpü",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Büyülü Geçit",
+        "entity_ids": []
+      },
+      "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple."
+    },
+    {
+      "id": "TRV-0011",
+      "episode": "EP06",
+      "sequence": 1,
+      "period": "1600 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0049",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "NAT-0002",
+      "to_id": null,
+      "via_ids": [],
+      "origin": {
+        "label": "İdilik Yayla",
+        "entity_id": "NAT-0002",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+        "entity_id": null,
+        "context_id": "TMP-0003",
+        "resolution": "location_description"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "4 Kollu Yeşim Kapı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Tırmanarak",
+        "entity_ids": []
+      },
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP05",
+      "number": 5,
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "NAT-0002",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "supernatural_or_uncertain",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "TMP-0003",
+          "parent_candidate_ids": [
+            "TMP-0003"
+          ],
+          "containment_relationship_ids": [
+            "REL-0450"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/19"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Zümrüt Ejderha Şifa Zindanı Girişi",
+        "to": "İdilik Yayla",
+        "via": [
+          "Zümrüt Bronz Kapılar",
+          "5 Nolu Zümrüt Ejderha Küpü"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Büyülü Geçit"
+      },
+      "after": {
+        "id": "TRV-0010",
+        "episode": "EP05",
+        "sequence": 2,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "NAT-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Zümrüt Ejderha Şifa Zindanı Girişi",
+          "entity_id": null,
+          "context_id": "TMP-0003",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "İdilik Yayla",
+          "entity_id": "NAT-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Zümrüt Bronz Kapılar",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "5 Nolu Zümrüt Ejderha Küpü",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Büyülü Geçit",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed both named waypoints are structures/doors inside the temple."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "İdilik Yayla",
+        "to": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+        "via": [
+          "4 Kollu Yeşim Kapı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Jifa"
+        ],
+        "transport": "Yürüyerek & Tırmanarak"
+      },
+      "after": {
+        "id": "TRV-0011",
+        "episode": "EP06",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0049",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "NAT-0002",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "İdilik Yayla",
+          "entity_id": "NAT-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+          "entity_id": null,
+          "context_id": "TMP-0003",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "4 Kollu Yeşim Kapı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Tırmanarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/19/a/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/19/a/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/19/facts/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/19/facts/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/19/facts/2"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP05"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP06"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 5
+    }
+  }
+}

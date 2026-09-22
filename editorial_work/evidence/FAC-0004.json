@@ -1,0 +1,315 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "FAC-0004",
+    "slug": "siyah-ejderha-tarikati",
+    "name": "Siyah Ejderha Tarikatı",
+    "type": "FACTION",
+    "aliases": [
+      "Onyx Ejderha Kültü",
+      "Siyah Ejderha Örgütü"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP10"
+    ],
+    "first_appearance": "EP10",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/9"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Onyx Ejderha Kültü",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/9/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Siyah Ejderha Örgütü",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/9/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-89c2b2fed489ecef",
+      "text": "Siyah Ejderha'ya (Onyx Dragon) hizmet eden, Un Helvası ordusu içinde komuta kademesine sızmış, gizemli semboller ve suikastçılar barındıran fanatik tarikat.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/9/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-bd6afe72dea5e8da",
+      "text": "Siyah Ejderha, Kırmızı Ejderha ve Pastırman inancına sahip kuşatmacılar, Yaz Helvası Krallığı'na karşı kuşatma bağlamında müttefik konumundadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/uncertainties/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-89c2b2fed489ecef",
+    "FCT-bd6afe72dea5e8da"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0193",
+        "subject_id": "FAC-0004",
+        "relation": "AFFILIATED_WITH",
+        "object_id": "KNG-0007",
+        "period": null,
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Un Helvası ordusunu kontrol etmekte ve sızmış durumdadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0194",
+        "subject_id": "FAC-0004",
+        "relation": "WORSHIPS",
+        "object_id": "DRG-0013",
+        "period": null,
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Siyah Ejderha'ya tapınmaktadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0189",
+        "subject_id": "MIL-0005",
+        "relation": "MEMBER_OF",
+        "object_id": "FAC-0004",
+        "period": null,
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Siyah Ejderha tarikatına bağlı suikastçılardır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "DRG-0013",
+      "slug": "siyah-ejderha",
+      "name": "Siyah Ejderha",
+      "type": "DRAGON",
+      "aliases": [
+        "Gölge Ejderhası",
+        "Kül Ejderhası",
+        "Onyx Ejderha"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0007",
+      "slug": "un-helvasi-kralligi",
+      "name": "Un Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Un Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "MIL-0005",
+      "slug": "siyah-ejderha-cambazlari",
+      "name": "Siyah Ejderha Cambazları",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Cambaz Kardeşler",
+        "Siyah Ejderha Suikastçıları",
+        "Siyah Ejderha Zırhlı Savaşçıları"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/9/a/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/9/a/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP10"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/uncertainties/1"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 1,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

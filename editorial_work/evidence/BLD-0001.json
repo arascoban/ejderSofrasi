@@ -1,0 +1,374 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "BLD-0001",
+    "slug": "1-bolge-bakimevi",
+    "name": "1. Bölge Bakımevi",
+    "type": "BUILDING",
+    "aliases": [
+      "Bakımevi"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP15"
+    ],
+    "first_appearance": "EP15",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/26"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Bakımevi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/26/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-f0c9c9c486403b3f",
+      "text": "Çöl Şehri 1. Bölgesi'nde yer alan, Siyah Ejderha ajanlarının hücresi ve şehre sızma noktası olarak kullanılan bakımevi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/26/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-f0c9c9c486403b3f"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0474",
+        "subject_id": "BLD-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 1. Bölgesi'ndedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/31"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0420",
+        "subject_id": "BLD-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "DIS-0003",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "The care home is explicitly located in the first district.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/entities/26/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0086",
+        "episode": "EP15",
+        "period": "1300 civarı",
+        "title": "Bakımevi hücresinin ortaya çıkarılması",
+        "summary_fact_id": "FCT-435be189d67ff808",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/1/facts/5"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/6/facts/2"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/26/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051",
+          "NPC-0060"
+        ],
+        "location_ids": [
+          "BLD-0001",
+          "BLD-0023"
+        ],
+        "related_entity_ids": [
+          "MIL-0006"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-435be189d67ff808",
+        "entity_id": "EVT-0086",
+        "fact": {
+          "id": "FCT-435be189d67ff808",
+          "text": "Yakalanan suikastçı sorguda birinci bölgedeki bakımevi hücresini açıklar. Kızıl Komutan buraya baskın yapılmasını emreder; baskının gerçekleştiği bu kayıtta doğrulanmaz.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/1/facts/5"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/6/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/26/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "BLD-0001",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "DIS-0003",
+          "parent_candidate_ids": [
+            "DIS-0003"
+          ],
+          "containment_relationship_ids": [
+            "REL-0474",
+            "REL-0420"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/26"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0003",
+      "slug": "col-sehri-1-bolge",
+      "name": "Çöl Şehri 1. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Birinci Bölge",
+        "Birinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0060",
+      "slug": "kizil-komutan-sancar",
+      "name": "Kızıl Komutan Sancar",
+      "type": "PERSON",
+      "aliases": [
+        "Başkomutan",
+        "Büyük Komutan",
+        "Derbaş",
+        "Komutan",
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/1/facts/5"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/26"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/26/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/26/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/31"
+      },
+      {
+        "source_id": "SRC-EP15"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 4
+    }
+  }
+}

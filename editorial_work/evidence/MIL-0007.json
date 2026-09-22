@@ -1,0 +1,504 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "MIL-0007",
+    "slug": "siyah-ejderha-ordusu",
+    "name": "Siyah Ejderha Ordusu",
+    "type": "MILITARY_UNIT",
+    "aliases": [
+      "Siyah Birlikler",
+      "Siyah Ordu"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP17",
+      "EP19",
+      "EP20"
+    ],
+    "first_appearance": "EP17",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/31"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/22"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Siyah Birlikler",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/31/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Siyah Ordu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/31/a/0"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/21/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/22/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record",
+          "event_reference"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-9bf465fad6f096e5",
+      "text": "Kuşatma ordusunun 3 birliğini oluşturan; barbarlar, BDSM zırhlılar, mamutumsu dev yaratıklar ve kuleler taşıyan kaos kuvvetleri.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/31/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-55b8a80b1ac7f7a7",
+      "text": "Kuşatma kampında yer alan, gece eğlencesi ve çarmıh sesleri gelen kaos kuvvetleri.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-23c1a84c1bd43204",
+      "text": "Kendilerini mancınıkla fırlatan, tencere kasklı, 1. Bölge'ye girip sivilleri katleden kaos kuvvetleri.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-9bf465fad6f096e5",
+    "FCT-55b8a80b1ac7f7a7",
+    "FCT-23c1a84c1bd43204"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0299",
+        "subject_id": "MIL-0007",
+        "relation": "SERVES",
+        "object_id": "DRG-0013",
+        "period": null,
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Siyah Ejderha faksiyonunun ordusudur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0323",
+        "subject_id": "MIL-0007",
+        "relation": "ALLIED_WITH",
+        "object_id": "MIL-0004",
+        "period": null,
+        "episodes": [
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri kuşatma ittifakının parçasıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0044",
+        "episode": "EP20",
+        "period": "1300 civarı",
+        "title": "Çöl Şehri'nin dış surlarının düşmesi",
+        "summary_fact_id": "FCT-b78095c089cf50c6",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/20/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0054",
+          "NPC-0062"
+        ],
+        "location_ids": [
+          "DIS-0003"
+        ],
+        "related_entity_ids": [
+          "MIL-0002",
+          "MIL-0004",
+          "MIL-0007"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-b78095c089cf50c6",
+        "entity_id": "EVT-0044",
+        "fact": {
+          "id": "FCT-b78095c089cf50c6",
+          "text": "Kavurhan'ın genel taarruzunda Siyah Ejderha Ordusu dış surları aşar; ilk bölge yakılıp yağmalanır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/20/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "DIS-0003",
+      "slug": "col-sehri-1-bolge",
+      "name": "Çöl Şehri 1. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Birinci Bölge",
+        "Birinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DRG-0013",
+      "slug": "siyah-ejderha",
+      "name": "Siyah Ejderha",
+      "type": "DRAGON",
+      "aliases": [
+        "Gölge Ejderhası",
+        "Kül Ejderhası",
+        "Onyx Ejderha"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "MIL-0004",
+      "slug": "pastirmanci-radikal-birlikler",
+      "name": "Pastırmancı Radikal Birlikler",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Kavurhan'ın Lejyonu",
+        "Kavurhan'ın Ordusu",
+        "Ortadaki Ordu",
+        "Pastırman Ordusu"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0054",
+      "slug": "kavurhan-satiroglu",
+      "name": "Kavurhan Satıroğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Kavurhan",
+        "Kavurhan Bey"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0062",
+      "slug": "maresal-cart-curtoglu",
+      "name": "Mareşal Cart Curtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Cart Curt",
+        "Cart Curtoğlu Bey",
+        "Maraşel",
+        "Maraşel Cart Curtoğlu",
+        "Tümgeneral Cart Curtoğlu"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/31"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/31/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/31/a/1"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/31/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/21/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/22/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 5
+    }
+  }
+}

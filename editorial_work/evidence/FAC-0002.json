@@ -1,0 +1,390 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "FAC-0002",
+    "slug": "gumus-sicanlar",
+    "name": "Gümüş Sıçanlar",
+    "type": "FACTION",
+    "aliases": [
+      "Gümüş Sıçan ve Kızıl Sıçan",
+      "Gümüş Sıçanlar İkilisi"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP22"
+    ],
+    "first_appearance": "EP22",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/10"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Gümüş Sıçan ve Kızıl Sıçan",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/10/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Gümüş Sıçanlar İkilisi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/10/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-45bd3fea0b82fff0",
+      "text": "Kervansaray delil odasındaki kostüm dolabında pelerinli/pullu sahne elbiseleri ve afişleri bulunan, sırtlarından vurularak öldürülmüş olan antik akrobasi, dans ve gösteri ikilisi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/10/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e07d69988dc7ffff",
+      "text": "Akmer ve Kalender onların gümüş ve kırmızı pullu, ejderha motifli sahne kostümlerini giyerek 'Gümüş Sıçan ve Kızıl Sıçan' kimliğine bürünmüştür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/10/facts/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-45bd3fea0b82fff0",
+    "FCT-e07d69988dc7ffff"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0356",
+        "subject_id": "FAC-0002",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "ITM-0010",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gümüş Sıçanlar ekibinin sahne kostümleridir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0054",
+        "episode": "EP22",
+        "period": "1300 civarı",
+        "title": "Nezarethane isyanı ve Gümüş Sıçanlar kılığı",
+        "summary_fact_id": "FCT-e37960e5a3762d3d",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/0/facts/1"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/1/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0051"
+        ],
+        "location_ids": [
+          "BLD-0006",
+          "BLD-0013"
+        ],
+        "related_entity_ids": [
+          "FAC-0002",
+          "ITM-0010"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-e37960e5a3762d3d",
+        "entity_id": "EVT-0054",
+        "fact": {
+          "id": "FCT-e37960e5a3762d3d",
+          "text": "Akmer hapishane kapısını kırar; Akmer ve Kalender delil odasındaki eşyaları alıp ölmüş göstericilerin kostümleriyle avluda dikkat dağıtır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/entities/0/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/entities/1/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0006",
+      "slug": "tahin-saray-kervansarayi",
+      "name": "Tahin Saray Kervansarayı",
+      "type": "BUILDING",
+      "aliases": [
+        "Kervansaray",
+        "Ozempic Kervansaray",
+        "Tahin Han",
+        "Tahin Saray",
+        "Vaha Dinlenme Tesisleri",
+        "Çöl Kervansarayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0013",
+      "slug": "tahin-saray-delil-odasi",
+      "name": "Tahin Saray Delil Odası",
+      "type": "BUILDING",
+      "aliases": [
+        "Delil Odası",
+        "Zimmet Odası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ITM-0010",
+      "slug": "gumus-sicanlar-kostumleri",
+      "name": "Gümüş Sıçanlar Kostümleri",
+      "type": "ITEM",
+      "aliases": [
+        "Gümüş Sıçan Kostümü"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/0/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/10/a/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/10/a/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/10/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP22"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 5
+    }
+  }
+}

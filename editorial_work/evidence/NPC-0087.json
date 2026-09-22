@@ -1,0 +1,913 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0087",
+    "slug": "shebekem",
+    "name": "Shebekem",
+    "type": "PERSON",
+    "aliases": [
+      "Şebekem",
+      "Şebekem Bey"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP12",
+      "EP13",
+      "EP14",
+      "EP15",
+      "EP17"
+    ],
+    "first_appearance": "EP12",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 73
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/10"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Şebekem",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/6/n"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/5/n"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/11/n"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/10/n"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/10/n"
+          }
+        ]
+      },
+      {
+        "name": "Şebekem Bey",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/6/a/0"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/5/a/0"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/11/a/0"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/10/a/0"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/10/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP13",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-eb47b5b913eab83d",
+      "text": "Yaz Helvası Krallığı Arifler Okulu'nun istihbarat ve güvenlik işlerinden sorumlu, şık aristokrat kıyafetli, ince uzun yılan bıyıklı ve gözlüklü görevlisi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-2282909097999466",
+      "text": "Müştemilattaki tabut kapılı bir ofiste çalışır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-fd6f8fdda66baa5b",
+      "text": "Siyah Ejderha ajanlarının cesetlerinin sorgulanması için ekip görevlendirildiğini, ancak ölülerin her zaman doğruyu söylemeyebileceğini belirtmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/6/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a7e6b30dffdc630d",
+      "text": "Çöl Şehri'nin 3. Bölgesi üzerindeki büyülü kubbeye takip ve koruma büyüleri yerleştirildiğini açıklamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/6/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-3cc278a929b42f28",
+      "text": "Arifler Okulu istihbarat ve güvenlik yöneticisi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-acbe2c8555b0e24a",
+      "text": "Kışla toplantı odasında Kızıl Komutan'ın yanında yer almış, şehirde öldürülen Siyah Ejderha ajanları raporunu sunmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d94c37b80dc2aa1a",
+      "text": "İto'nun komutana saldırması üzerine masanın altına yuvarlanarak saklanmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/5/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a15f0425acbbee0d",
+      "text": "Arifler Okulu istihbarat yöneticisi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-c5ab3ae2f5bf95fa",
+      "text": "Batan Güneş Kahvesi'ndeki toplantıya askerlerle birlikte katılmış, ortam gerilince dışarı çıkmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/11/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-2116e637865c9ec4",
+      "text": "Arifler Okulu istihbarat yöneticisi; patlama sonrası ortadan kaybolduğu için hainlik şüphesiyle aranmaktadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/10/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-0749e955882b34a6",
+      "text": "Sancar Devran tarafından öldürüldüğü açıklanan (hainlik/casusluk şüphesiyle) Arifler Okulu eski istihbarat yöneticisi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/10/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-02cc9ff59cc59986",
+      "text": "Şebekem'in hain olduğu sonraki bölümlerde açığa çıkar; Siyah Ejderha ajanlarının şehre sızmasına büyük ihtimalle yardım etmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/uncertainties/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e11ff647db0c16a1",
+      "text": "Patlama sonrası nerede olduğu kesin değildir. Siyah Ejderha suikastçısının sorgulanmasıyla ajan olduğu açığa çıkmış ve Kızıl Komutan tarafından ekran dışında öldürülmüştür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/uncertainties/0"
+            },
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/uncertainties/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-eb47b5b913eab83d",
+    "FCT-2282909097999466",
+    "FCT-fd6f8fdda66baa5b",
+    "FCT-a7e6b30dffdc630d",
+    "FCT-3cc278a929b42f28",
+    "FCT-acbe2c8555b0e24a",
+    "FCT-d94c37b80dc2aa1a",
+    "FCT-a15f0425acbbee0d",
+    "FCT-c5ab3ae2f5bf95fa",
+    "FCT-2116e637865c9ec4",
+    "FCT-0749e955882b34a6",
+    "FCT-02cc9ff59cc59986",
+    "FCT-e11ff647db0c16a1"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0219",
+        "subject_id": "NPC-0087",
+        "relation": "WORKS_IN",
+        "object_id": "BLD-0023",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Arifler Okulu istihbarat müştemilatını yönetmektedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0240",
+        "subject_id": "NPC-0087",
+        "relation": "SERVES",
+        "object_id": "ORG-0001",
+        "period": null,
+        "episodes": [
+          "EP13",
+          "EP14",
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Arifler Okulu istihbaratçısı olarak kışladaki toplantıda rapor sunmuştur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Arifler Okulu istihbarat yöneticisidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Arifler Okulu istihbaratçısıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/25"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0078",
+        "episode": "EP13",
+        "period": "1300 civarı",
+        "title": "Kışla görüşmesinin çatışmaya dönüşmesi",
+        "summary_fact_id": "FCT-6a5beeb2d1a3c40d",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/2/facts/2"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0047",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083",
+          "NPC-0087"
+        ],
+        "location_ids": [
+          "BLD-0018"
+        ],
+        "related_entity_ids": []
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-6a5beeb2d1a3c40d",
+        "entity_id": "EVT-0078",
+        "fact": {
+          "id": "FCT-6a5beeb2d1a3c40d",
+          "text": "İto Kızıl Komutan’ı boğazından yaralar. Büyüyle durdurulan ekip, Roary’nin Akmer’in prangalarını açmasının ardından kışladan kaçar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/2/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP13",
+      "number": 13,
+      "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canonical spelling corrects the repeatedly named intelligence official. This is an orthographic correction of the single source spelling, with no inferred affiliations.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/6"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/5"
+        }
+      ],
+      "before": [
+        "Şebekem",
+        "Shebekem"
+      ],
+      "after": "NPC-0087"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canonical Turkish transcription of this school official.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": [
+        "Şebekem",
+        "Shebekem"
+      ],
+      "after": "NPC-0087"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0018",
+      "slug": "col-sehri-kislasi",
+      "name": "Çöl Şehri Kışlası",
+      "type": "BUILDING",
+      "aliases": [
+        "Baraks",
+        "Karargah",
+        "Kışla",
+        "Kışla Nezarethanesi",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "ORG-0001",
+      "slug": "arifler-okulu",
+      "name": "Arifler Okulu",
+      "type": "ORGANIZATION",
+      "aliases": [
+        "Akademi",
+        "Arifler Kahvesi",
+        "Arifler Loncası",
+        "Arifler Meclisi Bahçesi",
+        "Divination Okulu"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 73
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/uncertainties/1"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/6/facts/3"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/6/n"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/5/n"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/11/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/11/n"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/10/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/10/n"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/25"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/10/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/10/n"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/uncertainties/1"
+      },
+      {
+        "source_id": "SRC-EP17"
+      }
+    ],
+    "counts": {
+      "facts": 13,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 5,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

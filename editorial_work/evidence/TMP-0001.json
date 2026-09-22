@@ -1,0 +1,1801 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "TMP-0001",
+    "slug": "ejderhalar-sofrasi-harabeleri",
+    "name": "Ejderhalar Sofrası Harabeleri",
+    "type": "TEMPLE",
+    "aliases": [
+      "Gizemli Şef Ejderha Mabedi",
+      "Terfedilmiş Tarifler Kuyusu",
+      "Yaratılışın Kileri",
+      "Ziyafet Mabedi",
+      "Çöl Harabeleri"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP23",
+      "EP24"
+    ],
+    "first_appearance": "EP23",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/13"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Gizemli Şef Ejderha Mabedi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/7/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Terfedilmiş Tarifler Kuyusu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/13/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Yaratılışın Kileri",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/13/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Ziyafet Mabedi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/7/a/2"
+          }
+        ]
+      },
+      {
+        "name": "Çöl Harabeleri",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/7/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP24",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-97d8dd0dd274728c",
+      "text": "Helvanar Çölü'nde geceleyin Vaha olarak görünen, sabah vakti ortaya çıkan 3 katlı, kumların altına doğru gömülerek uzanan, zamanın durduğu (güneşin sabit kaldığı, sıcaklık hasarı verilmediği) kadim ziyafet mabedi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-23ed6cbb5ec1d6c4",
+      "text": "İlk salonunun zemini limonlu hardal sosuyla, ikinci salonunun zemini acı biberli tereyağı ve füme et sosuyla kaplıdır; kapılarında Şef Ejderha kabartmaları bulunur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/7/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-8c6b2c4867fdd2d1",
+      "text": "9 Ulu Ejderha tarafından evrenin lezzet denemeleri için inşa edilmiş, ideal bulunmayan tariflerin ve canlı sosların biriktirildiği 7 katlı dikey ziyafet kuyusu/mabedi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-22621a316c30ea0e",
+      "text": "Harabelerin fiziksel konumu veya başka bir boyutla ilişkisi hikâyenin bu aşamasında açıklanmamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/uncertainties/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-97d8dd0dd274728c",
+    "FCT-23ed6cbb5ec1d6c4",
+    "FCT-8c6b2c4867fdd2d1",
+    "FCT-22621a316c30ea0e"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "id": "REL-0364",
+        "subject_id": "NPC-0006",
+        "relation": "VISITED",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'ne girip incelemiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/1"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0365",
+        "subject_id": "NPC-0051",
+        "relation": "VISITED",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nde kapı manivelalarını açmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/3"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0366",
+        "subject_id": "NPC-0046",
+        "relation": "VISITED",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nde fener yağı yakarak sinekleri püskürtmüştür.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/4"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0367",
+        "subject_id": "NPC-0083",
+        "relation": "VISITED",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nde Meld into Stone ve Giant Toad kullanmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0489",
+        "subject_id": "CRE-0018",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri salonunda bulunur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0490",
+        "subject_id": "ITM-0025",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nin ilk salonunun zeminindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0491",
+        "subject_id": "ITM-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nin ikinci salonunun zeminindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0492",
+        "subject_id": "BLD-0007",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri zeminindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0493",
+        "subject_id": "BLD-0022",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri salonlarındadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0376",
+        "subject_id": "NPC-0006",
+        "relation": "PRESENT_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nde Gavurdağı Golemi'ni baltasıyla kesmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/2"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0377",
+        "subject_id": "NPC-0051",
+        "relation": "PRESENT_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nde tahin kübüne saplanmış ve mutfakta sütlaç yapmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/4"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0378",
+        "subject_id": "NPC-0046",
+        "relation": "PRESENT_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nde Ametist Ejderha Kristali ile konuşmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/5"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0379",
+        "subject_id": "NPC-0083",
+        "relation": "PRESENT_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nde Dev Örümcek formuna dönüşmüştür.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0495",
+        "subject_id": "ITM-0002",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nin kalbindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0520",
+        "subject_id": "CRE-0014",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "5. salonda ortaya çıkmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0497",
+        "subject_id": "CRE-0025",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "3. salonda tahin ve pekmezin karışımıyla oluşmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0498",
+        "subject_id": "CRE-0013",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "2. salonun zemininde bulunur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0499",
+        "subject_id": "CRE-0021",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "4. salonda bulunur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0521",
+        "subject_id": "BLD-0025",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ametist Kristali tarafından tapınağın dibinde canlandırılmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "The magical trial manifestation was recreated inside the ruins; the real childhood kitchen remains a separate location with unknown parent geography.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0388",
+        "subject_id": "DRG-0014",
+        "relation": "HISTORICALLY_ASSOCIATED_WITH",
+        "object_id": "TMP-0001",
+        "period": null,
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ekibi bu sınava gönderen ejderhadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0056",
+        "episode": "EP23",
+        "period": "1300 civarı",
+        "title": "Vahaya varış ve harabelerin ortaya çıkışı",
+        "summary_fact_id": "FCT-cbbe290e38edfdcb",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/12/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "NAT-0005",
+          "TMP-0001"
+        ],
+        "related_entity_ids": []
+      },
+      {
+        "event_id": "EVT-0057",
+        "episode": "EP23",
+        "period": "1300 civarı",
+        "title": "Ziyafet mabedinin keşfi",
+        "summary_fact_id": "FCT-7f9531cd927af0dd",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/8/facts/0"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/9/facts/0"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/6/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "BLD-0007",
+          "BLD-0022",
+          "CRE-0018"
+        ]
+      },
+      {
+        "event_id": "EVT-0058",
+        "episode": "EP23",
+        "period": "1300 civarı",
+        "title": "Jifa'nın sınav uyarısı",
+        "summary_fact_id": "FCT-218d518dbea199fa",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/3/facts/4"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/5/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0049",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": []
+      },
+      {
+        "event_id": "EVT-0060",
+        "episode": "EP24",
+        "period": "1300 civarı",
+        "title": "Canlı yağ ve tahin pekmez odalarından geçiş",
+        "summary_fact_id": "FCT-a541e5813a21d777",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/1/facts/2"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/8/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "CRE-0013",
+          "CRE-0021",
+          "CRE-0025"
+        ]
+      },
+      {
+        "event_id": "EVT-0061",
+        "episode": "EP24",
+        "period": "1300 civarı",
+        "title": "Gavurdağı Golemi ve Ametist Kristali'nin açığa çıkışı",
+        "summary_fact_id": "FCT-a9e1f3b62554a791",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/4/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0014",
+          "CRE-0027",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "ITM-0002",
+          "ITM-0012"
+        ]
+      },
+      {
+        "event_id": "EVT-0062",
+        "episode": "EP24",
+        "period": "1300 civarı",
+        "title": "Ejderhaların yaratılış doktrininin açıklanması",
+        "summary_fact_id": "FCT-fe17683cebaf0dd2",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/2/facts/4"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/lore/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0046"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "ITM-0002"
+        ]
+      },
+      {
+        "event_id": "EVT-0064",
+        "episode": "EP24",
+        "period": "1300 civarı",
+        "title": "Ataların rehberliğiyle sütlaç sınavının tamamlanması",
+        "summary_fact_id": "FCT-5e7d9469062bff5e",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/0/facts/4"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/1/facts/4"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/3/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0051",
+          "NPC-0083",
+          "OTH-0005"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "BLD-0012",
+          "ITM-0002",
+          "ITM-0030"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-cbbe290e38edfdcb",
+        "entity_id": "EVT-0056",
+        "fact": {
+          "id": "FCT-cbbe290e38edfdcb",
+          "text": "Kervansaraydan kaçan ekip iki buçuk saatlik çöl yolculuğundan sonra vahaya sığınır; sabah vahanın yerinde Ejderhalar Sofrası Harabeleri görünür.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/12/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-7f9531cd927af0dd",
+        "entity_id": "EVT-0057",
+        "fact": {
+          "id": "FCT-7f9531cd927af0dd",
+          "text": "Ekip, dokuz ejderhanın tasvir edildiği mozaikleri ve Şef Ejderha kapılarını inceler; içerideki asidik sineklerle karşılaşır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/8/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/9/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/6/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-218d518dbea199fa",
+        "entity_id": "EVT-0058",
+        "fact": {
+          "id": "FCT-218d518dbea199fa",
+          "text": "Jifa, Roary'nin vizyonunda belirerek ekibin hâlâ tapınak sınavında olduğunu ve sınır dışında zamanın durduğunu söyler; bu fiziksel olarak orada bulunduğunu kanıtlamaz.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/3/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/5/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-a541e5813a21d777",
+        "entity_id": "EVT-0060",
+        "fact": {
+          "id": "FCT-a541e5813a21d777",
+          "text": "Ekip canlı yağ, tahin ve pekmez engellerini aşar; Kalender tahin kübünden kurtarılır, Roary örümcek formuyla arkadaşlarına yardım eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/1/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/3/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/8/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-a9e1f3b62554a791",
+        "entity_id": "EVT-0061",
+        "fact": {
+          "id": "FCT-a9e1f3b62554a791",
+          "text": "Yokoluş Bey golemi ısırır; Akmer baltasıyla gövdeyi yararak merkezindeki Ametist Kristali'ni dışarı çıkarır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/4/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-fe17683cebaf0dd2",
+        "entity_id": "EVT-0062",
+        "fact": {
+          "id": "FCT-fe17683cebaf0dd2",
+          "text": "Ametist Kristali insanlığın amacının ejderhaların damak tadına hizmet etmek olduğunu iddia eder; bu, kristale atfedilen bir öğreti olarak korunur.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/2/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/lore/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-5e7d9469062bff5e",
+        "entity_id": "EVT-0064",
+        "fact": {
+          "id": "FCT-5e7d9469062bff5e",
+          "text": "Ametist Kristali mutfak sahnesini canlandırır. Akmer, Kalender ve Roary, Akmer'in kadın atalarının rehberliğiyle sütlaç hazırlayıp sınavı tamamlar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/0/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/1/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/3/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP24",
+      "number": 24,
+      "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "TMP-0001",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "UNKNOWN",
+      "spatial_domain": "supernatural_or_uncertain",
+      "states": [],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/7"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/13"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0007",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "TMP-0001",
+          "parent_candidate_ids": [
+            "TMP-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0492"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/8"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0022",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "TMP-0001",
+          "parent_candidate_ids": [
+            "TMP-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0493"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/9"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0025",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "supernatural_or_uncertain",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "TMP-0001",
+          "parent_candidate_ids": [
+            "TMP-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0521"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/links/14"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0007",
+      "slug": "kutsal-canak-ve-ejderha-mozaigi",
+      "name": "Kutsal Çanak ve Ejderha Mozaiği",
+      "type": "BUILDING",
+      "aliases": [
+        "Ejderha Çanağı Panosu",
+        "Ziyafet Mozaiği"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0022",
+      "slug": "sef-ejderha-kapilari",
+      "name": "Şef Ejderha Kapıları",
+      "type": "BUILDING",
+      "aliases": [
+        "Aşçı Ejderha Kapısı",
+        "Spatulalı Kapılar"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0025",
+      "slug": "sutcuoglu-deney-mutfagi-sinav-yansimasi",
+      "name": "Sütçüoğlu Deney Mutfağı Sınav Yansıması",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CRE-0013",
+      "slug": "iskender-tereyagi-obekleri",
+      "name": "İskender Tereyağı Öbekleri",
+      "type": "CREATURE",
+      "aliases": [
+        "İskender Yağı",
+        "Kızgın Yağ Öbekleri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0014",
+      "slug": "kainatin-salatasi",
+      "name": "Kainatın Salatası",
+      "type": "CREATURE",
+      "aliases": [
+        "Gavurdağı Golemi",
+        "Gavurdağı Salatası Canavarı",
+        "Çemenli Golem",
+        "Çiğ Köfte ve Salata Golemi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0018",
+      "slug": "limon-cekirdegi-sinekleri",
+      "name": "Limon Çekirdeği Sinekleri",
+      "type": "CREATURE",
+      "aliases": [
+        "Asidik Sinekler",
+        "Limon Çekirdekleri",
+        "Sarı Sinekler"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0021",
+      "slug": "nar-eksisi-canavari",
+      "name": "Nar Ekşisi Canavarı",
+      "type": "CREATURE",
+      "aliases": [
+        "Siyah Nar Ekşisi Blobu"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0025",
+      "slug": "tahin-pekmez",
+      "name": "Tahin Pekmez",
+      "type": "CREATURE",
+      "aliases": [
+        "Dev Shitstorm Canavarı",
+        "Tahin Pekmez Canavarı",
+        "Tahin-Pekmez Vortexi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0027",
+      "slug": "yokolus-bey",
+      "name": "Yokoluş Bey",
+      "type": "CREATURE",
+      "aliases": [
+        "İto'nun Sırtındaki Ağız",
+        "Kozmik Parazit Ağız",
+        "Yok Oluş Bey"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DRG-0014",
+      "slug": "zumrut-ejderha",
+      "name": "Zümrüt Ejderha",
+      "type": "DRAGON",
+      "aliases": [
+        "Yeşil Ejderha",
+        "Yeşim Ejderha"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ITM-0001",
+      "slug": "aci-biberli-tereyagi-sosu",
+      "name": "Acı Biberli Tereyağı Sosu",
+      "type": "ITEM",
+      "aliases": [
+        "Acı Yağ",
+        "Füme Biberli Yağ"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ITM-0002",
+      "slug": "ametist-ejderha-kristali",
+      "name": "Ametist Ejderha Kristali",
+      "type": "ITEM",
+      "aliases": [
+        "20 Yüzlü Ametist Taş",
+        "Ametist Bekçi",
+        "Ametist Kristali"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ITM-0025",
+      "slug": "limonlu-hardal-sosu",
+      "name": "Limonlu Hardal Sosu",
+      "type": "ITEM",
+      "aliases": [
+        "Asidik Hardal Sosu",
+        "Limonlu Hardal"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0049",
+      "slug": "jifa",
+      "name": "Jifa",
+      "type": "PERSON",
+      "aliases": [
+        "Ruh Jifa",
+        "Yeşim Ejderha Rahibi",
+        "Şifa"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "OTH-0005",
+      "slug": "sutcuoglu-atalari",
+      "name": "Sütçüoğlu Ataları",
+      "type": "OTHER",
+      "aliases": [
+        "Sütçüoğlu Babaanneleri ve Teyzeleri",
+        "Sütçüoğlu Ruhları"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/7/a/2"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/3"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/4"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/uncertainties/1"
+      },
+      {
+        "source_id": "SRC-EP23"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/13/a/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/2/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/5"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/lore/1"
+      },
+      {
+        "source_id": "SRC-EP24"
+      }
+    ],
+    "counts": {
+      "facts": 4,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 20,
+      "timeline_events": 7,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 4,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 19
+    }
+  }
+}

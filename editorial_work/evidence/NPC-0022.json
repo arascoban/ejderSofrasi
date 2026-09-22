@@ -1,0 +1,555 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0022",
+    "slug": "dennu",
+    "name": "Dennu",
+    "type": "PERSON",
+    "aliases": [
+      "Denar",
+      "Komutan Dennu"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP08"
+    ],
+    "first_appearance": "EP08",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 40
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/4"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Denar",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/4/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Komutan Dennu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/4/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-fffd04c219fdf623",
+      "text": "Yaz Helvası Krallığı'nda Çöl Şehri'nin 2. Sur/Kapı Komutanıdır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5398b560ef606933",
+      "text": "Şehir dışından gelen maceracıları ve 'Mehdi' iddialarını şüpheyle karşılayıp karargah hücrelerine aldırmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-cabb3c0f62bbc8b6",
+      "text": "Şehrin kuyu suyundan pis su içtiği için dizanteri ve yüksek ateş geçiren 15-16 yaşlarında bir kızı vardır; Kalender ve ekip kızını iyileştirince maceracılara minnettar kalmış ve saraya gitmelerine rehberlik etmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-fffd04c219fdf623",
+    "FCT-5398b560ef606933",
+    "FCT-cabb3c0f62bbc8b6"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0141",
+        "subject_id": "NPC-0022",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı 2. Sur Komutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0142",
+        "subject_id": "NPC-0022",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 2. Surlarında görev yapmaktadır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0027",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Dennu'nun kızının iyileştirilmesi",
+        "summary_fact_id": "FCT-36b3162701b71e5d",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/1/facts/2"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/4/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0022",
+          "NPC-0051"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "DEI-0011"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-36b3162701b71e5d",
+        "entity_id": "EVT-0027",
+        "fact": {
+          "id": "FCT-36b3162701b71e5d",
+          "text": "Dennu grubu kuşkuyla karşıladıktan sonra Akmer hasta kızını muayene eder; Kalender şifa gücüyle hastalığı iyileştirir. Dennu minnettarlıkla gruba rehberlik eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/1/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/4/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0014",
+      "episode": "EP08",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "reviewed_narrative_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0007",
+        "NPC-0022",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": null,
+      "to_id": null,
+      "via_ids": [],
+      "origin": {
+        "label": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+        "entity_id": null,
+        "context_id": "CIT-0006",
+        "resolution": "location_description"
+      },
+      "destination": {
+        "label": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+        "entity_id": null,
+        "context_id": "CIT-0006",
+        "resolution": "location_description"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        {
+          "sequence": 2,
+          "label": "Dennu'nun Evi",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        },
+        {
+          "sequence": 3,
+          "label": "Üçlü Geçiş Kapıları",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+        "to": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+        "via": [
+          "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+          "Dennu'nun Evi",
+          "Üçlü Geçiş Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Raer",
+          "Dennu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0014",
+        "episode": "EP08",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0022",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 1. Kat (Pazar / Dış Surlar)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 3. Kat (Arifler Okulu / Saray Bölgesi)",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri 2. Surlar / Kapı (Dennu'nun Karargahı)",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Dennu'nun Evi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 3,
+            "label": "Üçlü Geçiş Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Dennu’s house is a real house at the temple entrance, next to the real entrance baraka; the three-door passage is inside the temple."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0008",
+      "slug": "yaz-helvasi-kralligi",
+      "name": "Yaz Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Yaz Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 40
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP08"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

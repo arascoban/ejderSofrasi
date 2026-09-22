@@ -1,0 +1,448 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "DEI-0016",
+    "slug": "urcipur",
+    "name": "Urçipur",
+    "type": "DEITY",
+    "aliases": [
+      "Ur Çipura",
+      "Uğur Çipura"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP00",
+      "EP02",
+      "EP03",
+      "EP09",
+      "EP23"
+    ],
+    "first_appearance": "EP00",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 6
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/22"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Ur Çipura",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/10/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Uğur Çipura",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/10/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP00",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP02",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP03",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-dad0215b63fc3447",
+      "text": "Deniz, hava durumu ve doğa tanrısıdır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1875c3f96429a373",
+      "text": "Deniz, hava durumu ve doğa tanrısıdır; Roary denizdeki köleleri ikna etmek için bu tanrının adını kullanmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP02",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e805e8286f13fbac",
+      "text": "Deniz ve hava durumu tanrısıdır; Karapancar tayfasının her gece dua ettiği ana deniz tanrısıdır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP03",
+              "pointer": "/entities/10/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-c4afb5022ea66546",
+      "text": "Deniz ve balık tanrısı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1682269e2993078f",
+      "text": "Doğanın sinirli, öfkeli, deniz, fırtına ve yağmur yönü tanrısı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-dad0215b63fc3447",
+    "FCT-1875c3f96429a373",
+    "FCT-e805e8286f13fbac",
+    "FCT-c4afb5022ea66546",
+    "FCT-1682269e2993078f"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "id": "REL-0057",
+        "subject_id": "NPC-0083",
+        "relation": "WORSHIPS",
+        "object_id": "DEI-0016",
+        "period": null,
+        "episodes": [
+          "EP03"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Deniz Tanrısı Urçipur'un elçisi olduğunu söylemiştir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP00",
+      "number": 0,
+      "title": "DnD: EJDER SOFRASI 00 - MACERA BAŞLIYOR! Revania Krallığı ve O'Rus Adnan",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP02",
+      "number": 2,
+      "title": "DnD: EJDER SOFRASI 02 - TEK BİR HARİTA İÇİN",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP02",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP03",
+      "number": 3,
+      "title": "DnD: EJDER SOFRASI 03 - GİZEMLER ADASI ve MEGA TİMSAH",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 6
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP00"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP02"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/10/a/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/10/a/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP03"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23"
+      }
+    ],
+    "counts": {
+      "facts": 5,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 1,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 5,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

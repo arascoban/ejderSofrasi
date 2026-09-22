@@ -1,0 +1,2089 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "CRE-0012",
+    "slug": "ibrahim-kompi",
+    "name": "İbrahim (Kompi)",
+    "type": "CREATURE",
+    "aliases": [
+      "Burak Çikpaka",
+      "İbrahim",
+      "İbrahim (Kompisaurus)",
+      "Ibo"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı",
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP05",
+      "EP06",
+      "EP08",
+      "EP09",
+      "EP11",
+      "EP12",
+      "EP14",
+      "EP15",
+      "EP16",
+      "EP17",
+      "EP19",
+      "EP20"
+    ],
+    "first_appearance": "EP05",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 33
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/33"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/29"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Burak Çikpaka",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/7/a/2"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/11/a/3"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/12/a/2"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/12/a/2"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/11/a/2"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/11/a/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/12/a/2"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/29/a/2"
+          }
+        ]
+      },
+      {
+        "name": "İbrahim",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/6/a/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/11/a/0"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/7/a/0"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/11/a/0"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/12/a/0"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/12/a/0"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/11/a/0"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/11/a/0"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/12/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/29/a/0"
+          }
+        ]
+      },
+      {
+        "name": "İbrahim (Kompisaurus)",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/7/n"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/11/n"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/12/n"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/12/n"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/11/n"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/11/n"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/12/n"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/29/n"
+          }
+        ]
+      },
+      {
+        "name": "Ibo",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/11/a/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/12/a/3"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP05",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP06",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP11",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-e19334e4222dfb01",
+      "text": "İto ve Roary'nin sahiplendiği minik Kompisaurus dinozoru.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-2278809233ef79ed",
+      "text": "Kahvaltıda soslu sosis yemekte, İto'nun çantasında taşınmakta ve zindandaki korkutucu atmosferden ürktüğünde çantaya küçük kakasını yapmaktadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-cb9a4ecec0871fa6",
+      "text": "İto'nun çantasında taşıdığı minik Kompisaurus dinozoru.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-de913617da3d42c1",
+      "text": "İto'nun çantasında taşıdığı Kompisaurus dinozoru.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-0fabc6fad075431b",
+      "text": "İto'nun çantasındaki minik dinozor.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/33/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-be2154442ea2ea4c",
+      "text": "İto ve Roary'nin yanında taşıdığı 102 yaşındaki iki ayaklı minik Kompisaurus dinozoru.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7aab04db4b5cce62",
+      "text": "Kendi dilindeki gerçek adının 'Burak Çikpaka' olduğunu açıklamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/7/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-b5a8d5d55b7da782",
+      "text": "Bir tencere kavurmayı yemiş; insanları 'kaslı/keyifsiz et' olarak gördüğünü, göz emmek, yanak eti yemek ve kulak kıkırdağı ısırmak istediğini belirten kanlı/psikopat bir iç dünyaya sahip olduğu anlaşılmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/7/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e5289a136390946a",
+      "text": "İto ve Roary'nin yanında taşıdığı 102 yaşındaki minik Kompisaurus dinozoru.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d630325823c6b1c4",
+      "text": "Kahvaltıda bir tencere sıcak kavurmaya tek başına saldırmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/11/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-75de51253f6798a7",
+      "text": "Roary tarafından sokakta tek başına gezerken bulunmuş, sakatatçıdan alınan ciğerlerle beslenmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6fa84ae4bd00aeb6",
+      "text": "Roary'nin bulduğu yeni ekmek düşkünü ördekle kıskançlık kavgası etmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/12/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-444c36bcdb0bcf1f",
+      "text": "İto ve Roary'nin çantasındaki minik Kompisaurus dinozoru; patlamadan Roary'nin şifasıyla kurtulmuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-26cc6bada9598dd5",
+      "text": "İto ve Roary'nin çantasındaki minik Kompisaurus dinozoru.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7715facf237a4924",
+      "text": "İto'nun çantasındaki Kompisaurus dinozoru.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-c0bd6efc4d7c2538",
+      "text": "İto ve Roary'nin Kışla odasında kalan minik Kompisaurus dinozoru.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-bfdc16f0dbc0048d",
+      "text": "İto ve Roary'nin Kışla odasında unuttuğu minik Kompisaurus dinozoru.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/29/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-905a1a3832d2de92",
+      "text": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/uncertainties/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-e19334e4222dfb01",
+    "FCT-2278809233ef79ed",
+    "FCT-cb9a4ecec0871fa6",
+    "FCT-de913617da3d42c1",
+    "FCT-0fabc6fad075431b",
+    "FCT-be2154442ea2ea4c",
+    "FCT-7aab04db4b5cce62",
+    "FCT-b5a8d5d55b7da782",
+    "FCT-e5289a136390946a",
+    "FCT-d630325823c6b1c4",
+    "FCT-75de51253f6798a7",
+    "FCT-6fa84ae4bd00aeb6",
+    "FCT-444c36bcdb0bcf1f",
+    "FCT-26cc6bada9598dd5",
+    "FCT-7715facf237a4924",
+    "FCT-c0bd6efc4d7c2538",
+    "FCT-bfdc16f0dbc0048d",
+    "FCT-905a1a3832d2de92"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0162",
+        "subject_id": "CRE-0012",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0046",
+        "period": null,
+        "episodes": [
+          "EP08",
+          "EP11",
+          "EP12"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "İto'nun çantasında taşınmaktadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/35"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "İto'nun yanında taşınmaktadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "İto'nun yanında gezer.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/29"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0259",
+        "subject_id": "CRE-0012",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0083",
+        "period": null,
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Roary'nin yanında taşınmaktadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/26"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0532",
+        "subject_id": "CRE-0012",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed İbrahim remained in Yaz Helvası Şehri when the team fled.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/travel/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0089",
+        "subject_id": "NPC-0046",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "CRE-0012",
+        "period": null,
+        "episodes": [
+          "EP05",
+          "EP06"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "İbrahim adındaki Kompisaurus'u çantasında taşımaktadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/5"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "İbrahim'i çantasında taşımaktadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP06",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0017",
+        "episode": "EP05",
+        "period": "1600 civarı",
+        "title": "Şampiyonların Feneri ile tapınağa giriş",
+        "summary_fact_id": "FCT-2daee88a6a5665e5",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0012",
+          "CRE-0028",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0068",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0003"
+        ],
+        "related_entity_ids": [
+          "ITM-0037"
+        ]
+      },
+      {
+        "event_id": "EVT-0083",
+        "episode": "EP14",
+        "period": "1300 civarı",
+        "title": "Roary’nin ayrı güzergâhı ve komutanla görüşmesi",
+        "summary_fact_id": "FCT-3164285185ca11ad",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/3"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/4"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0060",
+          "NPC-0082",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0018",
+          "BLD-0023",
+          "NAT-0008"
+        ],
+        "related_entity_ids": [
+          "CRE-0012",
+          "CRE-0026"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-2daee88a6a5665e5",
+        "entity_id": "EVT-0017",
+        "fact": {
+          "id": "FCT-2daee88a6a5665e5",
+          "text": "Muzaffer Cemil ekibe yol gösteren büyülü feneri verir. Grup, Cemil ve İbrahim ile dönüşü belirsiz şifa zindanına iner.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-3164285185ca11ad",
+        "entity_id": "EVT-0083",
+        "fact": {
+          "id": "FCT-3164285185ca11ad",
+          "text": "Roary gölet çevresinden bir ördek edinir; İbrahim’i sokakta bulur. Kışlada Kızıl Komutan ile görüştükten sonra izniyle Arifler yerleşkesine giderek Radam ile buluşur.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/4"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0009",
+      "episode": "EP05",
+      "sequence": 1,
+      "period": "1600 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "CRE-0012",
+        "CRE-0028",
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0009",
+      "to_id": "TMP-0003",
+      "via_ids": [],
+      "origin": {
+        "label": "Muzaffer Cemil'in Kulübesi",
+        "entity_id": "BLD-0009",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Zümrüt Ejderha Şifa Zindanı",
+        "entity_id": "TMP-0003",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Zümrüt Ejderha Pulu Kiler Kapağı",
+          "entity_id": null,
+          "context_id": "NAT-0004",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek (Merdivenlerden inerek)",
+        "entity_ids": []
+      }
+    },
+    {
+      "id": "TRV-0021",
+      "episode": "EP12",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "CRE-0012",
+        "CRE-0028",
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": null,
+      "to_id": "DIS-0004",
+      "via_ids": [],
+      "origin": {
+        "label": "Arifler Okulu (3. Bölge)",
+        "entity_id": null,
+        "context_id": "BLD-0023",
+        "resolution": "within_named_location",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "destination": {
+        "label": "Çöl Şehri 2. Bölge",
+        "entity_id": "DIS-0004",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "3. Bölge Güvenlik Kapıları",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "id": "TRV-0027",
+      "episode": "EP14",
+      "sequence": 3,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "CRE-0012",
+        "CRE-0026",
+        "NPC-0083"
+      ],
+      "from_id": "NAT-0008",
+      "to_id": "BLD-0023",
+      "via_ids": [
+        "DIS-0005",
+        "BLD-0018"
+      ],
+      "origin": {
+        "label": "Çöl Şehri Gölet Alanı",
+        "entity_id": "NAT-0008",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Arifler Okulu",
+        "entity_id": "BLD-0023",
+        "resolution": "exact",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "3. Bölge Cümle Kapısı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        },
+        {
+          "sequence": 2,
+          "label": "Çöl Şehri 3. Bölge",
+          "entity_id": "DIS-0005",
+          "resolution": "exact"
+        },
+        {
+          "sequence": 3,
+          "label": "Çöl Şehri Kışlası",
+          "entity_id": "BLD-0018",
+          "resolution": "exact"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/3"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "unresolved_travelers": [
+        {
+          "label": "Muhafız Askerler",
+          "entity_id": null
+        }
+      ],
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP05",
+      "number": 5,
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP11",
+      "number": 11,
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Source explicitly aliases the named individual İbrahim to Kompi and describes him as a Kompisaurus. Canon identifies the individual as İbrahim (Kompi); do not merge species Kompisaurus.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/11"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/12"
+        }
+      ],
+      "before": [
+        "İbrahim (Kompisaurus)",
+        "İbrahim (Kompi)"
+      ],
+      "after": "CRE-0012"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Both name the party’s carried minuscule dinosaur; EP11 explicitly aliases İbrahim and Kompi and records the revealed personal name Burak Çikpaka. Canon supplies the qualified canonical name; do not merge the creature species Kompisaurus with this individual.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/33/facts/0"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/7/a"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/7/facts/0"
+        }
+      ],
+      "before": [
+        "İbrahim (Kompisaurus)",
+        "İbrahim (Kompi)"
+      ],
+      "after": "CRE-0012"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Arifler Okulu (3. Bölge)",
+        "to": "Çöl Şehri 2. Bölge",
+        "via": [
+          "3. Bölge Güvenlik Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "İbrahim (Kompisaurus)",
+          "Cemil (Papağan)"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0021",
+        "episode": "EP12",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "CRE-0012",
+          "CRE-0028",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "DIS-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Arifler Okulu (3. Bölge)",
+          "entity_id": null,
+          "context_id": "BLD-0023",
+          "resolution": "within_named_location",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "destination": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Güvenlik Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/3"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri Gölet Alanı",
+        "to": "Arifler Okulu",
+        "via": [
+          "3. Bölge Cümle Kapısı",
+          "Çöl Şehri 3. Bölge"
+        ],
+        "party": [
+          "Roary",
+          "İbrahim (Kompisaurus)",
+          "Yeni Ördek (Ördek-ül Deva 2)",
+          "Muhafız Askerler"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0027",
+        "episode": "EP14",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "CRE-0012",
+          "CRE-0026",
+          "NPC-0083"
+        ],
+        "from_id": "NAT-0008",
+        "to_id": "BLD-0023",
+        "via_ids": [
+          "DIS-0005",
+          "BLD-0018"
+        ],
+        "origin": {
+          "label": "Çöl Şehri Gölet Alanı",
+          "entity_id": "NAT-0008",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Cümle Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Çöl Şehri 3. Bölge",
+            "entity_id": "DIS-0005",
+            "resolution": "exact"
+          },
+          {
+            "sequence": 3,
+            "label": "Çöl Şehri Kışlası",
+            "entity_id": "BLD-0018",
+            "resolution": "exact"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Muhafız Askerler",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0009",
+      "slug": "muzaffer-cemil-in-kulubesi",
+      "name": "Muzaffer Cemil'in Kulübesi",
+      "type": "BUILDING",
+      "aliases": [
+        "Muzaffer'in Kulübesi"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0018",
+      "slug": "col-sehri-kislasi",
+      "name": "Çöl Şehri Kışlası",
+      "type": "BUILDING",
+      "aliases": [
+        "Baraks",
+        "Karargah",
+        "Kışla",
+        "Kışla Nezarethanesi",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0004",
+      "slug": "col-sehri-2-bolge",
+      "name": "Çöl Şehri 2. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "İkinci Bölge",
+        "İkinci Cadde",
+        "İkinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0005",
+      "slug": "col-sehri-3-bolge",
+      "name": "Çöl Şehri 3. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Üçüncü Bölge",
+        "Üçüncü Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NAT-0008",
+      "slug": "col-sehri-golet-alani",
+      "name": "Çöl Şehri Gölet Alanı",
+      "type": "NATURAL_FEATURE",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0060",
+      "slug": "kizil-komutan-sancar",
+      "name": "Kızıl Komutan Sancar",
+      "type": "PERSON",
+      "aliases": [
+        "Başkomutan",
+        "Büyük Komutan",
+        "Derbaş",
+        "Komutan",
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0082",
+      "slug": "radam",
+      "name": "Radam",
+      "type": "PERSON",
+      "aliases": [
+        "Büyücü Radam"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 33
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/5"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP05"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP06"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/35"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/33"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/33/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/7/a"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/7/a/2"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/7/facts/2"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/7/n"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP11"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/11/a/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/11/a/3"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/11/facts/1"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/11/n"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/29"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12/a/2"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12/a/3"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/12/n"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/26"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/12/a/2"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/12/n"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/11/a/2"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/11/n"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/11/a/2"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/11/n"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/12/a/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/12/n"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/29"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/29/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/29/a/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/29/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/29/n"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/uncertainties/1"
+      },
+      {
+        "source_id": "SRC-EP20"
+      }
+    ],
+    "counts": {
+      "facts": 18,
+      "relationships_outgoing": 3,
+      "relationships_incoming": 1,
+      "timeline_events": 2,
+      "travel_records": 3,
+      "lore_records": 0,
+      "episode_records": 12,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 0,
+      "linked_entities": 12
+    }
+  }
+}

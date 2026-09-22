@@ -1,0 +1,144 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "DEI-0023",
+    "slug": "kitlikan",
+    "name": "Kıtlıkan",
+    "type": "DEITY",
+    "aliases": [],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP23"
+    ],
+    "first_appearance": "EP23",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "source_entity_split",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/28"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [],
+  "fact_ids": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0424",
+        "subject_id": "DEI-0023",
+        "relation": "PART_OF",
+        "object_id": "OTH-0003",
+        "period": null,
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "İsrafsoy ve Kıtlıkan are explicitly described as a pair of gods.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/entities/28"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "OTH-0003",
+      "slug": "israfsoy-ve-kitlikan",
+      "name": "İsrafsoy ve Kıtlıkan",
+      "type": "OTHER",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "short_entry",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP23"
+      }
+    ],
+    "counts": {
+      "facts": 0,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

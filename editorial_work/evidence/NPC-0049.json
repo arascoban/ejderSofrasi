@@ -1,0 +1,927 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0049",
+    "slug": "jifa",
+    "name": "Jifa",
+    "type": "PERSON",
+    "aliases": [
+      "Ruh Jifa",
+      "Yeşim Ejderha Rahibi",
+      "Şifa"
+    ],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP06",
+      "EP07",
+      "EP23"
+    ],
+    "first_appearance": "EP06",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 36
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/5"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Ruh Jifa",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/5/a/2"
+          }
+        ]
+      },
+      {
+        "name": "Yeşim Ejderha Rahibi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/5/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Şifa",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/4/a/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/6/a/0"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/5/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP06",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP07",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-364ef8e0e06616cd",
+      "text": "Zümrüt Ejderha Şifa Tapınağı'nda yüzyıllardır nöbet tutan, yeşil-beyaz cübbeli, yeşim asalı, at kuyruklu saçlara sahip son derece çevik ve güçlü keşiş/muhafız.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1d4994a6a2ca1f01",
+      "text": "Tapınağa gelen yolcuları sınamakla görevlidir; sıcak yeşil çay içmeyi sever.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-c6b7667f6fd20fbd",
+      "text": "Roary'yi üst platforma taşıyarak 'Şifa sadece bedensel değil ruhsaldır, başkalarından yardım almayı öğrenmektir' mesajını vermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e9a82c1213057cbf",
+      "text": "Zümrüt Ejderha Şifa Tapınağı'nın muhafızı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-0954ba35e9c0ef3a",
+      "text": "Akmer ve Roary'ye kaybolan arkadaşları için yardım edemeyeceğini, olay yerinde Astralum Tozu kaldığını ve farklı boyutların kesiştiğini belirtmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-648219251f62e7fe",
+      "text": "Akmer'e yeşil çay ve papatya kokulu mendil vermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/6/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7f0b92ec971b68f9",
+      "text": "Gruba 4 kollu kapı bulmacasında yardımlaşmaları gerektiği ipucunu vermiş, sınav geçildikten sonra yasemin yaprakları halinde kaybolmuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/6/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-9057ef1ce4fb13e9",
+      "text": "Roary'nin vizyonunda %60 opacity ruh formunda beliren Yeşim Ejderha tapınak görevlisi/rahibi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-9eb96164c4b9c5dd",
+      "text": "Roary'ye maceracıların henüz büyük sınavın (tapınak sınavı) içinde olduklarını, haritadan ve tapınak sınırlarından dışarı çıktıklarında zamanın durduğunu ve alemin renderlanmadığını söyleyerek onları uyarmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-33cc2acee4ef6744",
+      "text": "Yaşı bilinmemektedir; tapınakta çok uzun süredir nöbet tutmaktadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/uncertainties/2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-364ef8e0e06616cd",
+    "FCT-1d4994a6a2ca1f01",
+    "FCT-c6b7667f6fd20fbd",
+    "FCT-e9a82c1213057cbf",
+    "FCT-0954ba35e9c0ef3a",
+    "FCT-648219251f62e7fe",
+    "FCT-7f0b92ec971b68f9",
+    "FCT-9057ef1ce4fb13e9",
+    "FCT-9eb96164c4b9c5dd",
+    "FCT-33cc2acee4ef6744"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0104",
+        "subject_id": "NPC-0049",
+        "relation": "SERVES",
+        "object_id": "TMP-0003",
+        "period": null,
+        "episodes": [
+          "EP06",
+          "EP07"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Zümrüt Ejderha Şifa Tapınağı'nın muhafızı ve keşişidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP06",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Zümrüt Ejderha Şifa Tapınağı'nda nöbet tutmakta ve ipucu vermektedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP07",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0506",
+        "subject_id": "NPC-0049",
+        "relation": "MENTIONED_WITH",
+        "object_id": "NPC-0050",
+        "period": null,
+        "episodes": [
+          "EP06"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ji Wong Wang'ın tapınağı koruyan kadim bir alim olduğunu anlatmıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP06",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0368",
+        "subject_id": "NPC-0049",
+        "relation": "MENTIONED_WITH",
+        "object_id": "NPC-0083",
+        "period": null,
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Roary'nin vizyonunda gözüküp uyarıda bulunmuştur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/8"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0020",
+        "episode": "EP06",
+        "period": "1600 civarı",
+        "title": "Jifa'nın yardımlaşma sınavı",
+        "summary_fact_id": "FCT-b83704911f8ea88a",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/lore/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0049",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0003"
+        ],
+        "related_entity_ids": []
+      },
+      {
+        "event_id": "EVT-0058",
+        "episode": "EP23",
+        "period": "1300 civarı",
+        "title": "Jifa'nın sınav uyarısı",
+        "summary_fact_id": "FCT-218d518dbea199fa",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/3/facts/4"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/5/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0049",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": []
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-b83704911f8ea88a",
+        "entity_id": "EVT-0020",
+        "fact": {
+          "id": "FCT-b83704911f8ea88a",
+          "text": "Grup dar yeşim merdivenler ve dört kollu kapıda sınanır; Jifa, Roary'ye yardım ederek şifanın başkalarından yardım almayı da içerdiğini öğretir.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/lore/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-218d518dbea199fa",
+        "entity_id": "EVT-0058",
+        "fact": {
+          "id": "FCT-218d518dbea199fa",
+          "text": "Jifa, Roary'nin vizyonunda belirerek ekibin hâlâ tapınak sınavında olduğunu ve sınır dışında zamanın durduğunu söyler; bu fiziksel olarak orada bulunduğunu kanıtlamaz.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/3/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/5/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0011",
+      "episode": "EP06",
+      "sequence": 1,
+      "period": "1600 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0049",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "NAT-0002",
+      "to_id": null,
+      "via_ids": [],
+      "origin": {
+        "label": "İdilik Yayla",
+        "entity_id": "NAT-0002",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+        "entity_id": null,
+        "context_id": "TMP-0003",
+        "resolution": "location_description"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "4 Kollu Yeşim Kapı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Tırmanarak",
+        "entity_ids": []
+      },
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP07",
+      "number": 7,
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "İdilik Yayla",
+        "to": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+        "via": [
+          "4 Kollu Yeşim Kapı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Jifa"
+        ],
+        "transport": "Yürüyerek & Tırmanarak"
+      },
+      "after": {
+        "id": "TRV-0011",
+        "episode": "EP06",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0049",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "NAT-0002",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "İdilik Yayla",
+          "entity_id": "NAT-0002",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı Sınav Odası",
+          "entity_id": null,
+          "context_id": "TMP-0003",
+          "resolution": "location_description"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "4 Kollu Yeşim Kapı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Tırmanarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed the four-armed jade door is inside the temple; after passing it the party reaches the reward room."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NAT-0002",
+      "slug": "idilik-yayla",
+      "name": "İdilik Yayla",
+      "type": "NATURAL_FEATURE",
+      "aliases": [
+        "Cennet Vadisi",
+        "Şifa Vadisi"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0050",
+      "slug": "jiwong",
+      "name": "Jiwong",
+      "type": "PERSON",
+      "aliases": [
+        "J Wong Wang",
+        "Ji Wong Wang"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0001",
+      "slug": "ejderhalar-sofrasi-harabeleri",
+      "name": "Ejderhalar Sofrası Harabeleri",
+      "type": "TEMPLE",
+      "aliases": [
+        "Gizemli Şef Ejderha Mabedi",
+        "Terfedilmiş Tarifler Kuyusu",
+        "Yaratılışın Kileri",
+        "Ziyafet Mabedi",
+        "Çöl Harabeleri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 36
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/lore/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/uncertainties/2"
+      },
+      {
+        "source_id": "SRC-EP06"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/6/facts/3"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP07"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/5/a/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/5/a/2"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP23"
+      }
+    ],
+    "counts": {
+      "facts": 10,
+      "relationships_outgoing": 3,
+      "relationships_incoming": 0,
+      "timeline_events": 2,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 5
+    }
+  }
+}

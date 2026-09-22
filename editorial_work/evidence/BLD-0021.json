@@ -1,0 +1,1021 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "BLD-0021",
+    "slug": "col-sehri-terk-edilmis-insaat",
+    "name": "Çöl Şehri Terk Edilmiş İnşaat",
+    "type": "BUILDING",
+    "aliases": [
+      "Terk Edilmiş İnşaat",
+      "Terk Edilmiş Mahalle Binası"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP10",
+      "EP11"
+    ],
+    "first_appearance": "EP10",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/13"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Terk Edilmiş İnşaat",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/13/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Terk Edilmiş Mahalle Binası",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/13/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP11",
+        "kinds": [
+          "event_reference",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-c5f3a6189e510b8c",
+      "text": "Çöl Şehri'nin izbe caddelerinden birinde yer alan, sidik, beton ve insan teri kokan, 2-3 katlı yarım kalmış bina.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-811f156bec2fe4ce",
+      "text": "Siyah Ejderha / Un Helvası askerlerinin pusu kurup kullandığı, maceracıların savaşa katıldığı mekan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/13/facts/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-c5f3a6189e510b8c",
+    "FCT-811f156bec2fe4ce"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0459",
+        "subject_id": "BLD-0021",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri caddelerinde yer almaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0178",
+        "subject_id": "NPC-0006",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0021",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Terk edilmiş inşaat binasında düşmanlarla savaşmış ve vurulmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/1"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0179",
+        "subject_id": "NPC-0051",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0021",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Terk edilmiş inşaatta düşman okçularla savaşmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/3"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0180",
+        "subject_id": "NPC-0046",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0021",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Terk edilmiş inşaat çevresinde düşmanları etkisiz hale getirmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/4"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0183",
+        "subject_id": "NPC-0083",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0021",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Terk edilmiş inşaata Dev Pembe Kaplan formunda girmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0185",
+        "subject_id": "NPC-0070",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0021",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Terk edilmiş bina civarında yakalanıp sorgulanmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0190",
+        "subject_id": "MIL-0005",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0021",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Terk edilmiş inşaatta Akmer ve Roary'ye saldırmışlardır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0192",
+        "subject_id": "NPC-0069",
+        "relation": "DIED_IN",
+        "object_id": "BLD-0021",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Terk edilmiş inşaat merdivenlerinde öldürülmüştür.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0068",
+        "episode": "EP10",
+        "period": "1300 civarı",
+        "title": "Terk edilmiş inşaatta çatışma",
+        "summary_fact_id": "FCT-53e3a9118e4d8c31",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/7/facts/1"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/8/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0069",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0021"
+        ],
+        "related_entity_ids": [
+          "MIL-0005"
+        ]
+      },
+      {
+        "event_id": "EVT-0071",
+        "episode": "EP11",
+        "period": "1300 civarı",
+        "title": "Nişancıdan kaçış ve okula dönüş",
+        "summary_fact_id": "FCT-2b8a23ab9e29acd8",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0021",
+          "BLD-0023"
+        ],
+        "related_entity_ids": [
+          "NPC-0023"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-53e3a9118e4d8c31",
+        "entity_id": "EVT-0068",
+        "fact": {
+          "id": "FCT-53e3a9118e4d8c31",
+          "text": "Ekip Un Helvası askerleri ve Siyah Ejderha cambazlarıyla savaşır. Akmer bilincini kaybedip Roary tarafından iyileştirilir; Nacak Reis ölür, iki cambaz ışınlanarak kaçar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/7/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/8/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-2b8a23ab9e29acd8",
+        "entity_id": "EVT-0071",
+        "fact": {
+          "id": "FCT-2b8a23ab9e29acd8",
+          "text": "İto nişancı tarafından vurulur; Kalender ağır yaralı Roary’yi iyileştirir. Ekip iz gizleme büyüsüyle Arifler yerleşkesine döner.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP11",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP11",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP11",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0018",
+      "episode": "EP10",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "DIS-0006",
+      "to_id": "BLD-0021",
+      "via_ids": [],
+      "origin": {
+        "label": "Çöl Şehri Çıkmaz Sokağı",
+        "entity_id": "DIS-0006",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Çöl Şehri Terk Edilmiş İnşaat",
+        "entity_id": "BLD-0021",
+        "resolution": "exact"
+      },
+      "waypoints": [],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      }
+    },
+    {
+      "id": "TRV-0019",
+      "episode": "EP10",
+      "sequence": 2,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0070",
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0021",
+      "to_id": "BLD-0024",
+      "via_ids": [],
+      "origin": {
+        "label": "Çöl Şehri Terk Edilmiş İnşaat",
+        "entity_id": "BLD-0021",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Çöl Şehri İnşaat Yakını Gizli Ev / Sığınak",
+        "entity_id": "BLD-0024",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/travel/1"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Kovalayarak",
+        "entity_ids": []
+      }
+    },
+    {
+      "id": "TRV-0020",
+      "episode": "EP11",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0021",
+      "to_id": null,
+      "via_ids": [],
+      "origin": {
+        "label": "Çöl Şehri Terk Edilmiş İnşaat",
+        "entity_id": "BLD-0021",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Arifler Okulu (Akademi Bahçesi)",
+        "entity_id": null,
+        "context_id": "BLD-0023",
+        "resolution": "within_named_location",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri Arka Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Gizlenerek (Pass without Trace)",
+        "entity_ids": []
+      },
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP11",
+      "number": 11,
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "BLD-0021",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0459"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/entities/13"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri Terk Edilmiş İnşaat",
+        "to": "Arifler Okulu (Akademi Bahçesi)",
+        "via": [
+          "Çöl Şehri Arka Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Gizlenerek (Pass without Trace)"
+      },
+      "after": {
+        "id": "TRV-0020",
+        "episode": "EP11",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0021",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri Terk Edilmiş İnşaat",
+          "entity_id": "BLD-0021",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu (Akademi Bahçesi)",
+          "entity_id": null,
+          "context_id": "BLD-0023",
+          "resolution": "within_named_location",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Çöl Şehri Arka Sokakları",
+            "entity_id": null,
+            "context_id": "CIT-0006",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Gizlenerek (Pass without Trace)",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0024",
+      "slug": "col-sehri-insaat-yakini-gizli-ev-siginak",
+      "name": "Çöl Şehri İnşaat Yakını Gizli Ev / Sığınak",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0006",
+      "slug": "col-sehri-cikmaz-sokagi",
+      "name": "Çöl Şehri Çıkmaz Sokağı",
+      "type": "DISTRICT",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "MIL-0005",
+      "slug": "siyah-ejderha-cambazlari",
+      "name": "Siyah Ejderha Cambazları",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Cambaz Kardeşler",
+        "Siyah Ejderha Suikastçıları",
+        "Siyah Ejderha Zırhlı Savaşçıları"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0069",
+      "slug": "nacak-reis",
+      "name": "Nacak Reis",
+      "type": "PERSON",
+      "aliases": [
+        "Nacaklı Asker",
+        "Nacakçı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0070",
+      "slug": "niani",
+      "name": "Niani",
+      "type": "PERSON",
+      "aliases": [
+        "Niani (Un Helvası Gözcüsü)"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/13/a/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/13/facts/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8/facts/2"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/3"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/4"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP10"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP11"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 7,
+      "timeline_events": 2,
+      "travel_records": 3,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 10
+    }
+  }
+}

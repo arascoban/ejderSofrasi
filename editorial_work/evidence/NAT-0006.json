@@ -1,0 +1,454 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NAT-0006",
+    "slug": "revania-denizleri",
+    "name": "Revania Denizleri",
+    "type": "NATURAL_FEATURE",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP01",
+      "EP03"
+    ],
+    "first_appearance": "EP01",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_descriptor",
+    "record_status": "travel_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/travel/0/via/0"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP01",
+        "kinds": [
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP03",
+        "kinds": [
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [],
+  "fact_ids": [],
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [
+    {
+      "id": "TRV-0006",
+      "episode": "EP01",
+      "sequence": 1,
+      "period": "1600 civarı",
+      "temporal_basis": "reviewed_source_context",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "PRT-0001",
+      "to_id": "ISL-0001",
+      "via_ids": [
+        "NAT-0006"
+      ],
+      "origin": {
+        "label": "Revanya Limanı",
+        "entity_id": "PRT-0001",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "PNG Adası",
+        "entity_id": "ISL-0001",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Revania Denizleri",
+          "entity_id": "NAT-0006",
+          "resolution": "exact"
+        }
+      ],
+      "status": "in_progress",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Karapancar Gemisi",
+        "entity_ids": [
+          "SHP-0001"
+        ]
+      },
+      "reason": "Narrative only shows sailing toward the target; arrival occurs in EP03."
+    },
+    {
+      "id": "TRV-0007",
+      "episode": "EP03",
+      "sequence": 1,
+      "period": "1600 civarı",
+      "temporal_basis": "reviewed_source_context",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0017",
+        "NPC-0024",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083",
+        "OTH-0001"
+      ],
+      "from_id": "PRT-0001",
+      "to_id": "ISL-0001",
+      "via_ids": [
+        "NAT-0006"
+      ],
+      "origin": {
+        "label": "Revanya Limanı",
+        "entity_id": "PRT-0001",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Gizemler Adası",
+        "entity_id": "ISL-0001",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Revania Denizleri",
+          "entity_id": "NAT-0006",
+          "resolution": "exact"
+        }
+      ],
+      "status": "completed",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Karapancar Gemisi & Dingi Sandalı",
+        "entity_ids": [
+          "SHP-0001"
+        ]
+      },
+      "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP01",
+      "number": 1,
+      "title": "DnD: EJDER SOFRASI 01 - GEMİLER, KÖLELER ve KEDİLER",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP03",
+      "number": 3,
+      "title": "DnD: EJDER SOFRASI 03 - GİZEMLER ADASI ve MEGA TİMSAH",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "NAT-0006",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "UNKNOWN",
+      "spatial_domain": "unknown",
+      "states": [],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/travel/0/via/0"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Narrative only shows sailing toward the target; arrival occurs in EP03.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Revanya Limanı",
+        "to": "PNG Adası",
+        "via": [
+          "Revania Denizleri"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Karapancar Gemisi"
+      },
+      "after": {
+        "id": "TRV-0006",
+        "episode": "EP01",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "PRT-0001",
+        "to_id": "ISL-0001",
+        "via_ids": [
+          "NAT-0006"
+        ],
+        "origin": {
+          "label": "Revanya Limanı",
+          "entity_id": "PRT-0001",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "PNG Adası",
+          "entity_id": "ISL-0001",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Revania Denizleri",
+            "entity_id": "NAT-0006",
+            "resolution": "exact"
+          }
+        ],
+        "status": "in_progress",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP01",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Karapancar Gemisi",
+          "entity_ids": [
+            "SHP-0001"
+          ]
+        },
+        "reason": "Narrative only shows sailing toward the target; arrival occurs in EP03."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Revanya Limanı",
+        "to": "Gizemler Adası",
+        "via": [
+          "Revania Denizleri"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Borda Feneri",
+          "Dingi",
+          "Daltonlar"
+        ],
+        "transport": "Karapancar Gemisi & Dingi Sandalı"
+      },
+      "after": {
+        "id": "TRV-0007",
+        "episode": "EP03",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0017",
+          "NPC-0024",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "OTH-0001"
+        ],
+        "from_id": "PRT-0001",
+        "to_id": "ISL-0001",
+        "via_ids": [
+          "NAT-0006"
+        ],
+        "origin": {
+          "label": "Revanya Limanı",
+          "entity_id": "PRT-0001",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Gizemler Adası",
+          "entity_id": "ISL-0001",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Revania Denizleri",
+            "entity_id": "NAT-0006",
+            "resolution": "exact"
+          }
+        ],
+        "status": "completed",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Karapancar Gemisi & Dingi Sandalı",
+          "entity_ids": [
+            "SHP-0001"
+          ]
+        },
+        "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "ISL-0001",
+      "slug": "gizemler-adasi",
+      "name": "Gizemler Adası",
+      "type": "ISLAND",
+      "aliases": [
+        "Palmiyeli ve Dağlı Ada",
+        "PNG Adası",
+        "Züber Adası"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "PRT-0001",
+      "slug": "revanya-limani",
+      "name": "Revanya Limanı",
+      "type": "PORT",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/travel/0/via/0"
+      },
+      {
+        "source_id": "SRC-EP01"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP03"
+      }
+    ],
+    "counts": {
+      "facts": 0,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

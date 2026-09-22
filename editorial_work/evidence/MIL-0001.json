@@ -1,0 +1,207 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "MIL-0001",
+    "slug": "hulusi-nin-sari-zirhli-muhafizlari",
+    "name": "Hulusi'nin Sarı Zırhlı Muhafızları",
+    "type": "MILITARY_UNIT",
+    "aliases": [
+      "Hulusi'nin Korumaları",
+      "Sarı Kostümlü Korumalar"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP21"
+    ],
+    "first_appearance": "EP21",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/12"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Hulusi'nin Korumaları",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/12/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Sarı Kostümlü Korumalar",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/12/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP21",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-b8b1587c4345ac8c",
+      "text": "Helvacıoğlu Hulusi'yi korumakla görevli, sarı üniformalı, taret/crossbow ve kılıç taşıyan 4 kişilik özel koruma birliği.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-b8b1587c4345ac8c"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0346",
+        "subject_id": "MIL-0001",
+        "relation": "SERVES",
+        "object_id": "NPC-0042",
+        "period": null,
+        "episodes": [
+          "EP21"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hulusi'nin özel koruma birliğidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP21",
+      "number": 21,
+      "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0042",
+      "slug": "hulusi",
+      "name": "Hulusi",
+      "type": "PERSON",
+      "aliases": [
+        "Helvacıadelerin Hulusi",
+        "Helvacıoğlu Hulusi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/12/a/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP21"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

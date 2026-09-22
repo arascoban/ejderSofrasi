@@ -1,0 +1,406 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "TAV-0002",
+    "slug": "dusuk-anahtar-hani",
+    "name": "Düşük Anahtar Hanı",
+    "type": "TAVERN",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP00"
+    ],
+    "first_appearance": "EP00",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 15
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/22"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP00",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-ccc2a358004f2f8d",
+      "text": "Revanya'nın gözden uzak, bodrum katında yer alan düşük profilli hanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-ccc2a358004f2f8d"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0430",
+        "subject_id": "TAV-0002",
+        "relation": "LOCATED_IN",
+        "object_id": "DIS-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revantown bölgesindeki gözden uzak handır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0010",
+        "subject_id": "NPC-0036",
+        "relation": "WORKS_IN",
+        "object_id": "TAV-0002",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Düşük Anahtar Hanı'nı işletmektedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0389",
+        "subject_id": "NPC-0036",
+        "relation": "OPERATES",
+        "object_id": "TAV-0002",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Düşük Anahtar Hanı'nın hancısı ve işletmecisidir.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/entities/5/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [
+    {
+      "id": "TRV-0002",
+      "episode": "EP00",
+      "sequence": 2,
+      "period": "1600 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "DIS-0001",
+      "to_id": "TAV-0002",
+      "via_ids": [],
+      "origin": {
+        "label": "Revantown",
+        "entity_id": "DIS-0001",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Düşük Anahtar Hanı",
+        "entity_id": "TAV-0002",
+        "resolution": "exact"
+      },
+      "waypoints": [],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/travel/1"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE"
+    },
+    {
+      "id": "TRV-0003",
+      "episode": "EP00",
+      "sequence": 3,
+      "period": "1600 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "TAV-0002",
+      "to_id": "DIS-0002",
+      "via_ids": [
+        "BLD-0008"
+      ],
+      "origin": {
+        "label": "Düşük Anahtar Hanı",
+        "entity_id": "TAV-0002",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Revanya Meydanı",
+        "entity_id": "DIS-0002",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Limon Kalkan Binası",
+          "entity_id": "BLD-0008",
+          "resolution": "exact"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/travel/2"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE"
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP00",
+      "number": 0,
+      "title": "DnD: EJDER SOFRASI 00 - MACERA BAŞLIYOR! Revania Krallığı ve O'Rus Adnan",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "TAV-0002",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "DIS-0001",
+          "parent_candidate_ids": [
+            "DIS-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0430"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 15
+        },
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/22"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0008",
+      "slug": "limon-kalkan-binasi",
+      "name": "Limon Kalkan Binası",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0001",
+      "slug": "revantown",
+      "name": "Revantown",
+      "type": "DISTRICT",
+      "aliases": [
+        "Downtown Revanya",
+        "Revan Parti Semti"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0002",
+      "slug": "revanya-meydani",
+      "name": "Revanya Meydanı",
+      "type": "DISTRICT",
+      "aliases": [
+        "Revani Meydanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0036",
+      "slug": "harun",
+      "name": "Harun",
+      "type": "PERSON",
+      "aliases": [
+        "Harun O'Rusbu"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 15
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP00"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 2,
+      "timeline_events": 0,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 4
+    }
+  }
+}

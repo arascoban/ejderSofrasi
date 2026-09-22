@@ -1,0 +1,198 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "ITM-0032",
+    "slug": "yesim-asa",
+    "name": "Yeşim Asa",
+    "type": "ITEM",
+    "aliases": [
+      "Mürver Asa Versiyonu"
+    ],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP06"
+    ],
+    "first_appearance": "EP06",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/8"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Mürver Asa Versiyonu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/8/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP06",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-3ec6f65ce1166d3a",
+      "text": "Hazine odasında havada süzülen, tamamen saf yeşimden oyulmuş Mürver Asa benzeri büyülü asa.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/8/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-3ec6f65ce1166d3a"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0453",
+        "subject_id": "ITM-0032",
+        "relation": "INSIDE",
+        "object_id": "TMP-0003",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP06"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hazine odasındaki üç süzülen objeden biridir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP06",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/8/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP06"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

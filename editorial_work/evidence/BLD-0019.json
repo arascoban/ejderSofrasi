@@ -1,0 +1,305 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "BLD-0019",
+    "slug": "col-sehri-3-bolge-surlari",
+    "name": "Çöl Şehri 3. Bölge Surları",
+    "type": "BUILDING",
+    "aliases": [
+      "3. Duvar"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP17"
+    ],
+    "first_appearance": "EP17",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/28"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "3. Duvar",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/28/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-415600b385d80da7",
+      "text": "En üst sur; raylı/büyülü halat sisteminin kalktığı yer.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/28/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-415600b385d80da7"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0477",
+        "subject_id": "BLD-0019",
+        "relation": "LOCATED_IN",
+        "object_id": "DIS-0005",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 3. Bölgesi'nin surlarıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [
+    {
+      "id": "TRV-0032",
+      "episode": "EP17",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0019",
+      "to_id": "BLD-0016",
+      "via_ids": [
+        "BLD-0017"
+      ],
+      "origin": {
+        "label": "Çöl Şehri 3. Bölge Surları",
+        "entity_id": "BLD-0019",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Çöl Şehri 1. Bölge Surları",
+        "entity_id": "BLD-0016",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri 2. Bölge Surları",
+          "entity_id": "BLD-0017",
+          "resolution": "exact"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Büyülü Halat / Kasnak Sistemi",
+        "entity_ids": []
+      }
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "BLD-0019",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "DIS-0005",
+          "parent_candidate_ids": [
+            "DIS-0005"
+          ],
+          "containment_relationship_ids": [
+            "REL-0477"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/28"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0016",
+      "slug": "col-sehri-1-bolge-surlari",
+      "name": "Çöl Şehri 1. Bölge Surları",
+      "type": "BUILDING",
+      "aliases": [
+        "1. Duvar",
+        "Birinci Duvar"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0017",
+      "slug": "col-sehri-2-bolge-surlari",
+      "name": "Çöl Şehri 2. Bölge Surları",
+      "type": "BUILDING",
+      "aliases": [
+        "2. Duvar"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0005",
+      "slug": "col-sehri-3-bolge",
+      "name": "Çöl Şehri 3. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Üçüncü Bölge",
+        "Üçüncü Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/28/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/28/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP17"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

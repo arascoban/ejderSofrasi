@@ -1,0 +1,1117 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NAT-0004",
+    "slug": "zumrut-ejderha-pulu",
+    "name": "Zümrüt Ejderha Pulu",
+    "type": "NATURAL_FEATURE",
+    "aliases": [
+      "Geriye Kalan Pul",
+      "Zümrüt Pul"
+    ],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP04",
+      "EP05",
+      "EP06"
+    ],
+    "first_appearance": "EP04",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/15"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Geriye Kalan Pul",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/11/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Zümrüt Pul",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/11/a/1"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/15/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP04",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP05",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP06",
+        "kinds": [
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-063f1e7f4e5eb4f4",
+      "text": "Tanrılar ile ejderhalar arasındaki Büyük Savaş'ta yaralanan Zümrüt Ejderha'nın gökyüzünden düşen ve Gizemler Adası'nda yer alan devasa pulu.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a9f66ecffb5551a3",
+      "text": "Üzerinde mermer benzeri cilalı sert zemin, liken/yosun kaplı toprak ve gürül gürül akan şifalı su kaynağı barındırır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/11/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-47c96f4764c02a65",
+      "text": "Üzerinde duran canlılara muazzam bir kutsallık, şifa aurası ve büyü gücü artışı sağlar.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/11/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f2782fdaa974a146",
+      "text": "Üzerinde Muzaffer Cemil'in kulübesi bulunan ve altında şifa zindanına inen kapaklar barındıran devasa ejderha pulu.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-063f1e7f4e5eb4f4",
+    "FCT-a9f66ecffb5551a3",
+    "FCT-47c96f4764c02a65",
+    "FCT-f2782fdaa974a146"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0448",
+        "subject_id": "NAT-0004",
+        "relation": "LOCATED_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04",
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası'nın merkezinde yer alır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası'nın merkezinde yer almaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0078",
+        "subject_id": "NPC-0068",
+        "relation": "PRESENT_IN",
+        "object_id": "NAT-0004",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Zümrüt Ejderha Pulu üzerinde yaşamaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0447",
+        "subject_id": "BLD-0009",
+        "relation": "LOCATED_IN",
+        "object_id": "NAT-0004",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Zümrüt Ejderha Pulu üzerine inşa edilmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0449",
+        "subject_id": "TMP-0003",
+        "relation": "INSIDE",
+        "object_id": "NAT-0004",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Zümrüt Ejderha Pulu'nun altındadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0083",
+        "subject_id": "DRG-0014",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NAT-0004",
+        "period": null,
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Pulu gökyüzünden adaya düşmüştür.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0400",
+        "subject_id": "TMP-0003",
+        "relation": "LOCATED_IN",
+        "object_id": "NAT-0004",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP05",
+          "EP06"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Zümrüt Ejderha Pulu'nun altında yer alır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Tapınak Gizemler Adası üzerindeki pulun altında yer alır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP06",
+                "pointer": "/entities/14/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0015",
+        "episode": "EP04",
+        "period": "1600 civarı",
+        "title": "Zümrüt Ejderha Pulu'nun sırrı",
+        "summary_fact_id": "FCT-1aacca2d7efd727e",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/7/facts/2"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/7/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0068",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0009",
+          "NAT-0004"
+        ],
+        "related_entity_ids": [
+          "DRG-0014",
+          "EVT-0001",
+          "TMP-0003"
+        ]
+      },
+      {
+        "event_id": "EVT-0016",
+        "episode": "EP04",
+        "period": null,
+        "title": "Büyük Ejderha Savaşları ve pulun düşüşü",
+        "summary_fact_id": "FCT-fa16d169f2b8716f",
+        "event_status": "historical",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/10/facts/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/10/facts/1"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/20/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "DRG-0014"
+        ],
+        "location_ids": [],
+        "related_entity_ids": [
+          "EVT-0001",
+          "NAT-0004"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-1aacca2d7efd727e",
+        "entity_id": "EVT-0015",
+        "fact": {
+          "id": "FCT-1aacca2d7efd727e",
+          "text": "Muzaffer Cemil yaşadığı kutsal zeminin eski tanrı-ejderha savaşında düşen devasa bir pul olduğunu ve altındaki şifa zindanını koruduğunu açıklar.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP04",
+                  "pointer": "/entities/7/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP04",
+                  "pointer": "/entities/7/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-fa16d169f2b8716f",
+        "entity_id": "EVT-0016",
+        "fact": {
+          "id": "FCT-fa16d169f2b8716f",
+          "text": "Kaynak, tanrılar ile ejderhalar arasındaki eski savaşın kıtaları şekillendirdiğini ve Zümrüt Ejderha'nın yaralanarak pulunu düşürdüğünü anlatır.",
+          "assertions": [
+            {
+              "period": null,
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP04",
+                  "pointer": "/entities/10/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP04",
+                  "pointer": "/entities/10/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP04",
+                  "pointer": "/entities/20/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0008",
+      "episode": "EP04",
+      "sequence": 1,
+      "period": "1600 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": null,
+      "to_id": "NAT-0004",
+      "via_ids": [],
+      "origin": {
+        "label": "Gizemler Adası Tepeliği",
+        "entity_id": null,
+        "context_id": "ISL-0001",
+        "resolution": "location_description"
+      },
+      "destination": {
+        "label": "Zümrüt Ejderha Pulu",
+        "entity_id": "NAT-0004",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Gizemler Adası Ormanı",
+          "entity_id": null,
+          "context_id": "ISL-0001",
+          "resolution": "location_description"
+        },
+        {
+          "sequence": 2,
+          "label": "Şifa Deresi",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP04",
+      "number": 4,
+      "title": "DnD: EJDER SOFRASI 04 - GİZEMLİ CANAVARLAR ve CEMİL",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP05",
+      "number": 5,
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "BLD-0009",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "NAT-0004",
+          "parent_candidate_ids": [
+            "NAT-0004"
+          ],
+          "containment_relationship_ids": [
+            "REL-0447"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/19"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/16"
+        }
+      ]
+    },
+    {
+      "location_id": "NAT-0004",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "ISL-0001",
+          "parent_candidate_ids": [
+            "ISL-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0448"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/11"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/15"
+        }
+      ]
+    },
+    {
+      "location_id": "TMP-0003",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": null,
+          "parent_id": null,
+          "parent_candidate_ids": [],
+          "containment_relationship_ids": [],
+          "spatial_relations": [
+            {
+              "relation": "CONNECTED_TO",
+              "target_id": "CIT-0006",
+              "relationship_id": "REL-0130"
+            }
+          ]
+        },
+        {
+          "period": "1600 civarı",
+          "parent_id": "NAT-0004",
+          "parent_candidate_ids": [
+            "NAT-0004"
+          ],
+          "containment_relationship_ids": [
+            "REL-0449",
+            "REL-0400",
+            "REL-0454"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-OTHER",
+          "line": 6
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/12"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/14"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/15"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Gizemler Adası Tepeliği",
+        "to": "Zümrüt Ejderha Pulu",
+        "via": [
+          "Gizemler Adası Ormanı",
+          "Şifa Deresi"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0008",
+        "episode": "EP04",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "NAT-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Gizemler Adası Tepeliği",
+          "entity_id": null,
+          "context_id": "ISL-0001",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Pulu",
+          "entity_id": "NAT-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Gizemler Adası Ormanı",
+            "entity_id": null,
+            "context_id": "ISL-0001",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Şifa Deresi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0009",
+      "slug": "muzaffer-cemil-in-kulubesi",
+      "name": "Muzaffer Cemil'in Kulübesi",
+      "type": "BUILDING",
+      "aliases": [
+        "Muzaffer'in Kulübesi"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DRG-0014",
+      "slug": "zumrut-ejderha",
+      "name": "Zümrüt Ejderha",
+      "type": "DRAGON",
+      "aliases": [
+        "Yeşil Ejderha",
+        "Yeşim Ejderha"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ISL-0001",
+      "slug": "gizemler-adasi",
+      "name": "Gizemler Adası",
+      "type": "ISLAND",
+      "aliases": [
+        "Palmiyeli ve Dağlı Ada",
+        "PNG Adası",
+        "Züber Adası"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0068",
+      "slug": "muzaffer-cemil",
+      "name": "Muzaffer Cemil",
+      "type": "PERSON",
+      "aliases": [
+        "Bumblebor",
+        "Dumblebor",
+        "Muzaffer Dede",
+        "Zindan Efendisi"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 6
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/10/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/11/a/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/11/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/11/facts/2"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/facts/2"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/facts/3"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP04"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/15/a/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP05"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/14/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/15"
+      }
+    ],
+    "counts": {
+      "facts": 4,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 5,
+      "timeline_events": 2,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 3,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 10
+    }
+  }
+}

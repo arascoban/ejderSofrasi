@@ -1,0 +1,2168 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "ISL-0001",
+    "slug": "gizemler-adasi",
+    "name": "Gizemler Adası",
+    "type": "ISLAND",
+    "aliases": [
+      "Palmiyeli ve Dağlı Ada",
+      "PNG Adası",
+      "Züber Adası"
+    ],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP01",
+      "EP03",
+      "EP04",
+      "EP05",
+      "EP06"
+    ],
+    "first_appearance": "EP01",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 17
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/16"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Palmiyeli ve Dağlı Ada",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP01",
+            "pointer": "/entities/16/a/0"
+          }
+        ]
+      },
+      {
+        "name": "PNG Adası",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP01",
+            "pointer": "/entities/16/n"
+          },
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/20/a/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/17/a/0"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/14/a/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/16/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Züber Adası",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/20/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP01",
+        "kinds": [
+          "entity_record",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP03",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP04",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP05",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP06",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-bfc43ea97abfe111",
+      "text": "Adnan Körkapak'ın dümeni kırdığı, uzaktan üzerinde bir dağ ve palmiyeler görünen ada.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/16/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-c938977b68399bdc",
+      "text": "Adnan Körkapak'ın hazinesini gömdüğü ve haritada işaretli olan hedef adadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/16/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-268571107d127176",
+      "text": "Revanya ile Vhelin Adası arasında yer alan, haritada palmiyeler, sivri tepe ve X işaretiyle gösterilen adadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP03",
+              "pointer": "/entities/20/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-62c2afae740b3a69",
+      "text": "İçinde devasa bir nehir, sazlıklar, anormal derecede büyük yaşlı dev timsahlar, dev bir kertenkele ve göletin yanında bir kulübe barındırır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP03",
+              "pointer": "/entities/20/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-37aad7dc4fd79a94",
+      "text": "Zümrüt Ejderha Pulu'nu, Muzaffer Cemil'in kulübesini, dev zırhlı yaratıkları ve Kompisaurusları barındıran kutsal ada.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-8d00f6d37fac1a07",
+      "text": "Zümrüt Ejderha Pulu'nu ve Şifa Zindanı'nı barındıran ada.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/14/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-c9431bc6b5b0d10f",
+      "text": "Zümrüt Ejderha Şifa Tapınağı'nı barındıran ada.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/16/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-99b9bd13f8576ed4",
+      "text": "Adadaki olağanüstü büyük hayvanların büyülü etkiden kaynaklandığı açıklaması kanon olarak doğrulanmamıştır; yalnızca kanıtlanmamış bir yorumdur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP03",
+              "pointer": "/lore/4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-bfc43ea97abfe111",
+    "FCT-c938977b68399bdc",
+    "FCT-268571107d127176",
+    "FCT-62c2afae740b3a69",
+    "FCT-37aad7dc4fd79a94",
+    "FCT-8d00f6d37fac1a07",
+    "FCT-c9431bc6b5b0d10f",
+    "FCT-99b9bd13f8576ed4"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0442",
+        "subject_id": "ISL-0001",
+        "relation": "BETWEEN",
+        "object_id": "KNG-0005",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revanya ile Vhelin Adası arasında konumlanmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0443",
+        "subject_id": "ISL-0001",
+        "relation": "BETWEEN",
+        "object_id": "ISL-0004",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revanya ile Vhelin Adası arasında yer alır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0052",
+        "subject_id": "NPC-0006",
+        "relation": "VISITED",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03",
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası'na ayak basmış ve mega timsahla savaşmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/2"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası'nda yaratıklardan kaçmış ve zindana yönelmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/1"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0054",
+        "subject_id": "NPC-0051",
+        "relation": "VISITED",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03",
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası'nı ziyaret etmiş ve timsahı öldürmüştür.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/5"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası'nda dev zırhlı yaratık tarafından yaralanmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/3"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0056",
+        "subject_id": "NPC-0046",
+        "relation": "VISITED",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03",
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası'nda mega timsaha vurarak savaşmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası'nda bulunmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/5"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0060",
+        "subject_id": "NPC-0083",
+        "relation": "VISITED",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03",
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası'nda timsah formuna dönüşüp savaşmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası'nda büyü gücünün arttığını hissetmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0063",
+        "subject_id": "NPC-0017",
+        "relation": "VISITED",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03",
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası keşif ekibine rehberlik etmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası'nda haritayı incelemiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0065",
+        "subject_id": "NPC-0024",
+        "relation": "VISITED",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03",
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası karaya çıkış ekibinde yer almıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası'ndadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0067",
+        "subject_id": "OTH-0001",
+        "relation": "DIED_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası deresinde timsahlar tarafından katledilmişlerdir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0444",
+        "subject_id": "SHP-0001",
+        "relation": "NEAR",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03",
+          "EP04",
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası açıklarına demirlemiştir (fundo).",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası açıklarında demirlidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/25"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası sahilinde demirlidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0504",
+        "subject_id": "CRE-0008",
+        "relation": "PRESENT_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası deresinin sazlıklarında yaşamaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/23"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0072",
+        "subject_id": "CRE-0007",
+        "relation": "PRESENT_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası ormanında doğrulup çığlık atmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0075",
+        "subject_id": "CRE-0003",
+        "relation": "PRESENT_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası'nda Roary ile etkileşime girmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0448",
+        "subject_id": "NAT-0004",
+        "relation": "LOCATED_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04",
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası'nın merkezinde yer alır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Gizemler Adası'nın merkezinde yer almaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0084",
+        "subject_id": "CRE-0009",
+        "relation": "PRESENT_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası ormanında yaşamaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0085",
+        "subject_id": "CRE-0016",
+        "relation": "PRESENT_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası'nda yaşamaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/23"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0086",
+        "subject_id": "CRE-0017",
+        "relation": "PRESENT_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası ormanında devasa boyutta yaşamaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0454",
+        "subject_id": "TMP-0003",
+        "relation": "LOCATED_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP06"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası'nda yer almaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP06",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0012",
+        "episode": "EP03",
+        "period": "1600 civarı",
+        "title": "Gizemler Adası'na çıkış",
+        "summary_fact_id": "FCT-c46fafee61495bdd",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/21/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0017",
+          "NPC-0024",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "OTH-0001"
+        ],
+        "location_ids": [
+          "ISL-0001"
+        ],
+        "related_entity_ids": [
+          "NPC-0024",
+          "SHP-0001"
+        ]
+      },
+      {
+        "event_id": "EVT-0013",
+        "episode": "EP03",
+        "period": "1600 civarı",
+        "title": "Dev timsahla ölümcül mücadele",
+        "summary_fact_id": "FCT-39df28d06b9000bd",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/7/facts/1"
+          },
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/22/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0008",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "OTH-0001"
+        ],
+        "location_ids": [
+          "ISL-0001"
+        ],
+        "related_entity_ids": []
+      },
+      {
+        "event_id": "EVT-0014",
+        "episode": "EP04",
+        "period": "1600 civarı",
+        "title": "Dev zırhlı yaratığın saldırısı",
+        "summary_fact_id": "FCT-e1dd74cdac5fb2b7",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/0/facts/1"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/1/facts/1"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/1/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0009",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "ISL-0001"
+        ],
+        "related_entity_ids": [
+          "DEI-0011"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-c46fafee61495bdd",
+        "entity_id": "EVT-0012",
+        "fact": {
+          "id": "FCT-c46fafee61495bdd",
+          "text": "Karapancar adanın açıklarına demirler; maceracılar, Borda Feneri, Dingi ve kazı tayfası sandalla adaya çıkar.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP03",
+                  "pointer": "/travel/0"
+                },
+                {
+                  "source_id": "SRC-EP03",
+                  "pointer": "/entities/21/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-39df28d06b9000bd",
+        "entity_id": "EVT-0013",
+        "fact": {
+          "id": "FCT-39df28d06b9000bd",
+          "text": "Adadaki nehirde büyük timsah saldırısı yaşanır. Üç kazı tayfası ölür; Kalender ve İto ağır yaralanır; grup yaratığı birlikte öldürür.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP03",
+                  "pointer": "/entities/7/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP03",
+                  "pointer": "/entities/22/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-e1dd74cdac5fb2b7",
+        "entity_id": "EVT-0014",
+        "fact": {
+          "id": "FCT-e1dd74cdac5fb2b7",
+          "text": "Ormandaki zırhlı otobur Kalender'i ağır yaralar; grup savaşarak ve birbirine yardım ederek kutsal açıklığa ilerler.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP04",
+                  "pointer": "/entities/0/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP04",
+                  "pointer": "/entities/1/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP04",
+                  "pointer": "/entities/1/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0006",
+      "episode": "EP01",
+      "sequence": 1,
+      "period": "1600 civarı",
+      "temporal_basis": "reviewed_source_context",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "PRT-0001",
+      "to_id": "ISL-0001",
+      "via_ids": [
+        "NAT-0006"
+      ],
+      "origin": {
+        "label": "Revanya Limanı",
+        "entity_id": "PRT-0001",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "PNG Adası",
+        "entity_id": "ISL-0001",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Revania Denizleri",
+          "entity_id": "NAT-0006",
+          "resolution": "exact"
+        }
+      ],
+      "status": "in_progress",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Karapancar Gemisi",
+        "entity_ids": [
+          "SHP-0001"
+        ]
+      },
+      "reason": "Narrative only shows sailing toward the target; arrival occurs in EP03."
+    },
+    {
+      "id": "TRV-0007",
+      "episode": "EP03",
+      "sequence": 1,
+      "period": "1600 civarı",
+      "temporal_basis": "reviewed_source_context",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0017",
+        "NPC-0024",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083",
+        "OTH-0001"
+      ],
+      "from_id": "PRT-0001",
+      "to_id": "ISL-0001",
+      "via_ids": [
+        "NAT-0006"
+      ],
+      "origin": {
+        "label": "Revanya Limanı",
+        "entity_id": "PRT-0001",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Gizemler Adası",
+        "entity_id": "ISL-0001",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Revania Denizleri",
+          "entity_id": "NAT-0006",
+          "resolution": "exact"
+        }
+      ],
+      "status": "completed",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Karapancar Gemisi & Dingi Sandalı",
+        "entity_ids": [
+          "SHP-0001"
+        ]
+      },
+      "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP01",
+      "number": 1,
+      "title": "DnD: EJDER SOFRASI 01 - GEMİLER, KÖLELER ve KEDİLER",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP03",
+      "number": 3,
+      "title": "DnD: EJDER SOFRASI 03 - GİZEMLER ADASI ve MEGA TİMSAH",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP04",
+      "number": 4,
+      "title": "DnD: EJDER SOFRASI 04 - GİZEMLİ CANAVARLAR ve CEMİL",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP05",
+      "number": 5,
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "ISL-0001",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": null,
+          "parent_candidate_ids": [],
+          "containment_relationship_ids": [],
+          "spatial_relations": [
+            {
+              "relation": "BETWEEN",
+              "target_id": "KNG-0005",
+              "relationship_id": "REL-0442"
+            },
+            {
+              "relation": "BETWEEN",
+              "target_id": "ISL-0004",
+              "relationship_id": "REL-0443"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 17
+        },
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/20"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/14"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/16"
+        }
+      ]
+    },
+    {
+      "location_id": "NAT-0004",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "ISL-0001",
+          "parent_candidate_ids": [
+            "ISL-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0448"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/11"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/15"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP03 explicitly aliases PNG Adası to Gizemler Adası and describes the same treasure-map destination.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/20/a/0"
+        },
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/entities/16"
+        }
+      ],
+      "before": [
+        "PNG Adası",
+        "Gizemler Adası"
+      ],
+      "after": "ISL-0001"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Narrative only shows sailing toward the target; arrival occurs in EP03.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Revanya Limanı",
+        "to": "PNG Adası",
+        "via": [
+          "Revania Denizleri"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Karapancar Gemisi"
+      },
+      "after": {
+        "id": "TRV-0006",
+        "episode": "EP01",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "PRT-0001",
+        "to_id": "ISL-0001",
+        "via_ids": [
+          "NAT-0006"
+        ],
+        "origin": {
+          "label": "Revanya Limanı",
+          "entity_id": "PRT-0001",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "PNG Adası",
+          "entity_id": "ISL-0001",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Revania Denizleri",
+            "entity_id": "NAT-0006",
+            "resolution": "exact"
+          }
+        ],
+        "status": "in_progress",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP01",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Karapancar Gemisi",
+          "entity_ids": [
+            "SHP-0001"
+          ]
+        },
+        "reason": "Narrative only shows sailing toward the target; arrival occurs in EP03."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Revanya Limanı",
+        "to": "Gizemler Adası",
+        "via": [
+          "Revania Denizleri"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Borda Feneri",
+          "Dingi",
+          "Daltonlar"
+        ],
+        "transport": "Karapancar Gemisi & Dingi Sandalı"
+      },
+      "after": {
+        "id": "TRV-0007",
+        "episode": "EP03",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0017",
+          "NPC-0024",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "OTH-0001"
+        ],
+        "from_id": "PRT-0001",
+        "to_id": "ISL-0001",
+        "via_ids": [
+          "NAT-0006"
+        ],
+        "origin": {
+          "label": "Revanya Limanı",
+          "entity_id": "PRT-0001",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Gizemler Adası",
+          "entity_id": "ISL-0001",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Revania Denizleri",
+            "entity_id": "NAT-0006",
+            "resolution": "exact"
+          }
+        ],
+        "status": "completed",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Karapancar Gemisi & Dingi Sandalı",
+          "entity_ids": [
+            "SHP-0001"
+          ]
+        },
+        "reason": "The source transport wording is preserved, but Dingi Sandalı is excluded from transport entity references because the owner confirmed it is the person's name."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Gizemler Adası Tepeliği",
+        "to": "Zümrüt Ejderha Pulu",
+        "via": [
+          "Gizemler Adası Ormanı",
+          "Şifa Deresi"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0008",
+        "episode": "EP04",
+        "sequence": 1,
+        "period": "1600 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "NAT-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Gizemler Adası Tepeliği",
+          "entity_id": null,
+          "context_id": "ISL-0001",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Zümrüt Ejderha Pulu",
+          "entity_id": "NAT-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Gizemler Adası Ormanı",
+            "entity_id": null,
+            "context_id": "ISL-0001",
+            "resolution": "location_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Şifa Deresi",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed Şifa Deresi is a stream inside the dungeon; retain it as an interior descriptive waypoint."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "CRE-0003",
+      "slug": "cemil-papagan",
+      "name": "Cemil (Papağan)",
+      "type": "CREATURE",
+      "aliases": [
+        "Cemil",
+        "Papağan Cemil"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0007",
+      "slug": "dev-kertenkele",
+      "name": "Dev Kertenkele",
+      "type": "CREATURE",
+      "aliases": [
+        "Kertenkele Kafası"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0008",
+      "slug": "dev-timsah",
+      "name": "Dev Timsah",
+      "type": "CREATURE",
+      "aliases": [
+        "Giant Crocodile",
+        "Mega Timsah",
+        "Minibüs Timsahı",
+        "Timsah Dede"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0009",
+      "slug": "dev-zirhli-otobur",
+      "name": "Dev Zırhlı Otobur",
+      "type": "CREATURE",
+      "aliases": [
+        "Ankilosor",
+        "Topuzlu Yaratık",
+        "Zırhlı Yaratık"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0016",
+      "slug": "kompisaurus",
+      "name": "Kompisaurus",
+      "type": "CREATURE",
+      "aliases": [
+        "Kertenkelecik",
+        "Kompi"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0017",
+      "slug": "kompisaurus-surusu",
+      "name": "Kompisaurus Sürüsü",
+      "type": "CREATURE",
+      "aliases": [
+        "Sırtı Sivri Dev Kertenkele",
+        "Üç Deve Büyüklüğünde Kertenkele"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ISL-0004",
+      "slug": "vhelin-adasi",
+      "name": "Vhelin Adası",
+      "type": "ISLAND",
+      "aliases": [
+        "Wellin Adası"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0005",
+      "slug": "revania-kralligi",
+      "name": "Revania Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Revanya",
+        "Revanya Şehir Devleti"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NAT-0004",
+      "slug": "zumrut-ejderha-pulu",
+      "name": "Zümrüt Ejderha Pulu",
+      "type": "NATURAL_FEATURE",
+      "aliases": [
+        "Geriye Kalan Pul",
+        "Zümrüt Pul"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NAT-0006",
+      "slug": "revania-denizleri",
+      "name": "Revania Denizleri",
+      "type": "NATURAL_FEATURE",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0017",
+      "slug": "borda-feneri",
+      "name": "Borda Feneri",
+      "type": "PERSON",
+      "aliases": [
+        "Borda"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0024",
+      "slug": "dingi-sandali",
+      "name": "Dingi Sandalı",
+      "type": "PERSON",
+      "aliases": [
+        "Dingi",
+        "Dingil"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "OTH-0001",
+      "slug": "daltonlar",
+      "name": "Daltonlar",
+      "type": "OTHER",
+      "aliases": [
+        "Amele Tayfa",
+        "Kazmalı Tayfa"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "PRT-0001",
+      "slug": "revanya-limani",
+      "name": "Revanya Limanı",
+      "type": "PORT",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "SHP-0001",
+      "slug": "karapancar-gemisi",
+      "name": "Karapancar Gemisi",
+      "type": "SHIP",
+      "aliases": [
+        "Karapancar"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 17
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/16/a/0"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/16/facts/1"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/16/n"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP01"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/20/a/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/20/a/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/20/facts/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/21/facts/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/22/facts/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/2"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/23"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/5"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/lore/4"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP03"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/0/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/17/a/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/23"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/25"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/3"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/5"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP04"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/14/a/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/14/facts/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP05"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/16/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP06"
+      }
+    ],
+    "counts": {
+      "facts": 8,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 16,
+      "timeline_events": 3,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 5,
+      "map_constraints": 2,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 0,
+      "linked_entities": 20
+    }
+  }
+}

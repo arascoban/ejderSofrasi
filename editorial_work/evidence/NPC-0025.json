@@ -1,0 +1,362 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0025",
+    "slug": "doktor-aktar",
+    "name": "Doktor Aktar",
+    "type": "PERSON",
+    "aliases": [
+      "Aktar Amca",
+      "Doktor Aktar Amca"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP24"
+    ],
+    "first_appearance": "EP24",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Aktar Amca",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/5/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Doktor Aktar Amca",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/5/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP24",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-f79d4861e5ffed5f",
+      "text": "Akmer Sütçüoğlu'nun öz amcası; hem tıp doktoru hem de tüccar/girişimci.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "reviewed_source_context",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-17e5540e4c56bc65",
+      "text": "Geleneksel yemek ve sütlü tatlı süreçlerini zaman kaybı olarak görüp kısa yoldan hazır toz harçlar (kazandibi harcı, puding tozu, tost arası yemekler) ürettiği için hem ejderhalar hem de tanrılar tarafından lanetlenmiş ve sut denizinin dibine hapsedilmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "reviewed_source_context",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a3024305a49c7d7b",
+      "text": "Hapsedilmesi ve çocukluk dönemindeki mutfak geçmişinin kesin tarihleri bilinmemektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/lore/2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-f79d4861e5ffed5f",
+    "FCT-17e5540e4c56bc65",
+    "FCT-a3024305a49c7d7b"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0380",
+        "subject_id": "NPC-0025",
+        "relation": "MEMBER_OF",
+        "object_id": "FAM-0004",
+        "period": null,
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Akmer'in amcasıdır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0375",
+        "subject_id": "NPC-0006",
+        "relation": "RELATED_TO",
+        "object_id": "NPC-0025",
+        "period": null,
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Doktor Aktar Akmer'in öz amcasıdır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/1"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0063",
+        "episode": "EP24",
+        "period": null,
+        "title": "Doktor Aktar'ın lanetinin hatırlanması",
+        "summary_fact_id": "FCT-7f0a366bdacaa0d1",
+        "event_status": "historical",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/5/facts/0"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/5/facts/1"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/lore/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0025"
+        ],
+        "location_ids": [],
+        "related_entity_ids": [
+          "FAM-0004",
+          "NPC-0006"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-7f0a366bdacaa0d1",
+        "entity_id": "EVT-0063",
+        "fact": {
+          "id": "FCT-7f0a366bdacaa0d1",
+          "text": "Akmer'in amcası Doktor Aktar'ın hazır gıda tozları ürettiği için lanetlenip süt denizinin dibine hapsedildiği anlatılır. Olayın tarihi ve denizin konumu bilinmez.",
+          "assertions": [
+            {
+              "period": null,
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/5/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/5/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/lore/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP24",
+      "number": 24,
+      "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "FAM-0004",
+      "slug": "sutcuoglu-ailesi",
+      "name": "Sütçuoğlu Ailesi",
+      "type": "FAMILY",
+      "aliases": [
+        "Sütçüoğlu Ailesi",
+        "Sütçüoğulları"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5/a/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/lore/2"
+      },
+      {
+        "source_id": "SRC-EP24"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 1,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

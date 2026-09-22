@@ -1,0 +1,494 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "ITM-0024",
+    "slug": "kirmizi-ejderha-figuru",
+    "name": "Kırmızı Ejderha Figürü",
+    "type": "ITEM",
+    "aliases": [
+      "Devran'ın Yadigarı",
+      "S Şeklindeki Ejderha Heykelciği",
+      "S Şeklindeki Heykelcik"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP16",
+      "EP18",
+      "EP20"
+    ],
+    "first_appearance": "EP16",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/33"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/17"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Devran'ın Yadigarı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/33/a/0"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/25/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/17/a/0"
+          }
+        ]
+      },
+      {
+        "name": "S Şeklindeki Ejderha Heykelciği",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/33/a/1"
+          }
+        ]
+      },
+      {
+        "name": "S Şeklindeki Heykelcik",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/25/a/1"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/17/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-3e9eaabc67da507a",
+      "text": "Kızıl Komutan'ın Oğlu tarafından Akmer'e verilen, sıkıldığında gökyüzüne kırmızı ejderha simgesi çizen 'S' şeklindeki küçük heykelcik.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/33/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-9fcb8d7149604bb2",
+      "text": "Devran tarafından Akmer'e verilen, Akmer sisin içinde sıktığında kırmızı ejderha projeksiyonu saçan küçük 'S' şeklindeki figür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/25/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-2a4a29c85cd5203e",
+      "text": "Devran tarafından Akmer'e verilen, Akmer'in tepede sıktığı ancak Devran'ın gelmediği oyuncak/figür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-3e9eaabc67da507a",
+    "FCT-9fcb8d7149604bb2",
+    "FCT-2a4a29c85cd5203e"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "id": "REL-0279",
+        "subject_id": "NPC-0006",
+        "relation": "OWNS",
+        "object_id": "ITM-0024",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP16",
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kızıl Komutan'ın Oğlu'ndan kırmızı ejderha figürünü almıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/2"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Devran'ın verdiği figürü sis içinde aktifleştirmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/1"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0089",
+        "episode": "EP16",
+        "period": "1300 civarı",
+        "title": "Devran’ın Akmer’e uyarısı",
+        "summary_fact_id": "FCT-4ac240f4ecf65c66",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/5/facts/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/5/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0023"
+        ],
+        "location_ids": [
+          "TMP-0002"
+        ],
+        "related_entity_ids": [
+          "DEI-0011",
+          "ITM-0024"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-4ac240f4ecf65c66",
+        "entity_id": "EVT-0089",
+        "fact": {
+          "id": "FCT-4ac240f4ecf65c66",
+          "text": "Devran tapınak çıkışında Akmer’e Pastırman hareketinin iki tarafı da savaşa sürükleyebileceğini söyler ve acil yardım işareti verebilen kırmızı ejderha figürünü teslim eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/5/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/5/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0023",
+      "slug": "devran",
+      "name": "Devran",
+      "type": "PERSON",
+      "aliases": [
+        "Dubai Hurması",
+        "Genç Komutan",
+        "Kartal Sniper",
+        "Kızıl Komutan'ın Oğlu",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Oğul Komutan",
+        "Siyah Ejderha Keskin Nişancısı",
+        "Siyah Süvari",
+        "Surlar Üzerindeki Nişancı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0002",
+      "slug": "gumus-ejderha-tapinagi",
+      "name": "Gümüş Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Gümüş Katedral"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/33"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/33/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/33/a/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/33/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/2"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/25/a/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/25/a/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/25/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/1"
+      },
+      {
+        "source_id": "SRC-EP18"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/17/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/17/a/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 1,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

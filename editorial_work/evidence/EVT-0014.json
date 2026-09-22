@@ -1,0 +1,153 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "EVT-0014",
+    "slug": "dev-zirhli-yaratigin-saldirisi",
+    "name": "Dev zırhlı yaratığın saldırısı",
+    "type": "HISTORICAL_EVENT",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP04"
+    ],
+    "first_appearance": "EP04",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "editorial_title",
+    "record_status": "source_event",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/0/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/1/facts/2"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP04",
+        "kinds": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-e1dd74cdac5fb2b7",
+      "text": "Ormandaki zırhlı otobur Kalender'i ağır yaralar; grup savaşarak ve birbirine yardım ederek kutsal açıklığa ilerler.",
+      "assertions": [
+        {
+          "period": "1600 civarı",
+          "temporal_basis": "reviewed_source_context",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/0/facts/1"
+            },
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/1/facts/1"
+            },
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/1/facts/2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-e1dd74cdac5fb2b7"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP04",
+      "number": 4,
+      "title": "DnD: EJDER SOFRASI 04 - GİZEMLİ CANAVARLAR ve CEMİL",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/0/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP04"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 0
+    }
+  }
+}

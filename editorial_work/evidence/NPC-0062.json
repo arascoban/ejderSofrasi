@@ -1,0 +1,780 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0062",
+    "slug": "maresal-cart-curtoglu",
+    "name": "Mareşal Cart Curtoğlu",
+    "type": "PERSON",
+    "aliases": [
+      "Cart Curt",
+      "Cart Curtoğlu Bey",
+      "Maraşel",
+      "Maraşel Cart Curtoğlu",
+      "Tümgeneral Cart Curtoğlu"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP18",
+      "EP19",
+      "EP20"
+    ],
+    "first_appearance": "EP18",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 100
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/6"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Cart Curt",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/5/a/1"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/6/a/1"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/6/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Cart Curtoğlu Bey",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/5/a/0"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/6/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/6/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Maraşel",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/5/a/3"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/6/a/2"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/6/a/2"
+          }
+        ]
+      },
+      {
+        "name": "Maraşel Cart Curtoğlu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/5/n"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/6/n"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/6/n"
+          }
+        ]
+      },
+      {
+        "name": "Tümgeneral Cart Curtoğlu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/5/a/2"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-feb5740879876bb4",
+      "text": "Yaz Helvası Krallığı Çöl Şehri'nin 2. komutanı; kilolu/göbekli, sixpack motifli zırh giyen, bıyıklı, yüzünün kenarında yara izi olan ve yüzükler taşıyan sert mizaçlı komutan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-9ef9b97593f57c5f",
+      "text": "Sancar Devran'ın suikast sonucu ölümünün ardından Çöl Şehri başkomutanlığını ve idaresini üstlenmiş, şehirde sokağa çıkma yasağı ve olağanüstü hal (OHAL) ilan etmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d6de9ed0d40ffef2",
+      "text": "Maceracılardan ve Devran'dan şüphelenmiş, İto'nun sırtındaki parazit ağzın ortaya çıkması üzerine İto ve Roary'yi kışlanın alt nezarethanesine kapattırmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/5/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7f3c78d4fe6d88fc",
+      "text": "Savaşı er meydanında pazarlıkla çözmek yerine orduları sur dışına çıkarıp doğrudan meydan muharebesi yapmayı savunmuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/5/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-23aba3b34e51d18c",
+      "text": "Sancar Devran'ın ölümünden sonra Çöl Şehri yönetimini devralan ve sokağa çıkma yasağı (OHAL) ilan eden yeni komutan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-87b5e68ade676cf2",
+      "text": "Sancar Devran'ın ölümünden sonra Çöl Şehri başkomutanlığını devralan, surlardan ateşli oklar attırıp hendekleri yaktıran komutan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-feb5740879876bb4",
+    "FCT-9ef9b97593f57c5f",
+    "FCT-d6de9ed0d40ffef2",
+    "FCT-7f3c78d4fe6d88fc",
+    "FCT-23aba3b34e51d18c",
+    "FCT-87b5e68ade676cf2"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0501",
+        "subject_id": "NPC-0062",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Sancar Devran'ın ölümünden sonra başkomutanlığı devralmıştır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0310",
+        "subject_id": "NPC-0062",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0018",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kışla toplantı odasında sorgulama yapmış ve sokağa çıkma yasağı ilan etmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0502",
+        "subject_id": "NPC-0062",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "KNG-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP19",
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nde sokağa çıkma yasağı ilan etmiştir.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri surlarından taarruzu yönetmiştir.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0037",
+        "episode": "EP18",
+        "period": "1300 civarı",
+        "title": "Komutanlığın devri ve olağanüstü hal",
+        "summary_fact_id": "FCT-383b86b55c4924fa",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/5/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0062"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "KNG-0008",
+          "NPC-0060"
+        ]
+      },
+      {
+        "event_id": "EVT-0044",
+        "episode": "EP20",
+        "period": "1300 civarı",
+        "title": "Çöl Şehri'nin dış surlarının düşmesi",
+        "summary_fact_id": "FCT-b78095c089cf50c6",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/20/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0054",
+          "NPC-0062"
+        ],
+        "location_ids": [
+          "DIS-0003"
+        ],
+        "related_entity_ids": [
+          "MIL-0002",
+          "MIL-0004",
+          "MIL-0007"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-383b86b55c4924fa",
+        "entity_id": "EVT-0037",
+        "fact": {
+          "id": "FCT-383b86b55c4924fa",
+          "text": "Mareşal Cart Curtoğlu, Sancar'ın ölümünden sonra şehir yönetimini ve başkomutanlığı devralır; sokağa çıkma yasağı ve olağanüstü hal ilan eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/entities/5/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-b78095c089cf50c6",
+        "entity_id": "EVT-0044",
+        "fact": {
+          "id": "FCT-b78095c089cf50c6",
+          "text": "Kavurhan'ın genel taarruzunda Siyah Ejderha Ordusu dış surları aşar; ilk bölge yakılıp yağmalanır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/20/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Maraşel is a transposition in the military title; the distinctive full personal name is unchanged, and Canon confirms Mareşal.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/5"
+        }
+      ],
+      "before": [
+        "Maraşel Cart Curtoğlu",
+        "Mareşal Cart Curtoğlu"
+      ],
+      "after": "NPC-0062"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canonical spelling and title; same named commander.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/5"
+        }
+      ],
+      "before": [
+        "Maraşel Cart Curtoğlu",
+        "Mareşal Cart Curtoğlu"
+      ],
+      "after": "NPC-0062"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0018",
+      "slug": "col-sehri-kislasi",
+      "name": "Çöl Şehri Kışlası",
+      "type": "BUILDING",
+      "aliases": [
+        "Baraks",
+        "Karargah",
+        "Kışla",
+        "Kışla Nezarethanesi",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0003",
+      "slug": "col-sehri-1-bolge",
+      "name": "Çöl Şehri 1. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Birinci Bölge",
+        "Birinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0008",
+      "slug": "yaz-helvasi-kralligi",
+      "name": "Yaz Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Yaz Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 100
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/a/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/a/2"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/a/3"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/facts/3"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/n"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP18"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/6/a/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/6/a/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/6/n"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/6/a/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/6/a/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/6/n"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP20"
+      }
+    ],
+    "counts": {
+      "facts": 6,
+      "relationships_outgoing": 3,
+      "relationships_incoming": 0,
+      "timeline_events": 2,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 4
+    }
+  }
+}

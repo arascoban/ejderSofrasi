@@ -1,0 +1,384 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0092",
+    "slug": "tefnut",
+    "name": "Tefnut",
+    "type": "PERSON",
+    "aliases": [
+      "Tefnut Hanım"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP09"
+    ],
+    "first_appearance": "EP09",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 67
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/5"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Tefnut Hanım",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/5/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-5fedc5772aadd0b5",
+      "text": "Gümüş Ejderha Tapınağı'nın arka odasında görev yapan, siyah saçları otlar ve çiçeklerle örülü Yeşim/Zümrüt Ejderha rahibesi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-61303818063bd0a3",
+      "text": "Akmer'in duasını ve taşıdığı büyülü yadigarları Yeşim Ejderha'nın bir işareti kabul etmiş, maceracıları kuşatılmış şehre umut olmaları için ön saflara yönlendirmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-81b52a721c21a360",
+      "text": "Akmer'in elini öpüp alnına koyarak ekibi kutsamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/5/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-3ba814147143bc9f",
+      "text": "Yeşim rahipleri arasında üst kademe rütbededir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/uncertainties/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-5fedc5772aadd0b5",
+    "FCT-61303818063bd0a3",
+    "FCT-81b52a721c21a360",
+    "FCT-3ba814147143bc9f"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0172",
+        "subject_id": "NPC-0092",
+        "relation": "SERVES",
+        "object_id": "TMP-0002",
+        "period": null,
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gümüş Ejderha Tapınağı'nın arka odasında Yeşim Ejderha rahibesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0173",
+        "subject_id": "NPC-0092",
+        "relation": "WORSHIPS",
+        "object_id": "DRG-0014",
+        "period": null,
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yeşil Ejderha'ya adanmıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0065",
+        "episode": "EP09",
+        "period": "1300 civarı",
+        "title": "Tefnut’un seçilmişlere görevi",
+        "summary_fact_id": "FCT-7354bd55858c2b4c",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/5/facts/1"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/lore/2/fact"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "NPC-0092"
+        ],
+        "location_ids": [
+          "TMP-0002"
+        ],
+        "related_entity_ids": [
+          "DRG-0014"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-7354bd55858c2b4c",
+        "entity_id": "EVT-0065",
+        "fact": {
+          "id": "FCT-7354bd55858c2b4c",
+          "text": "Tefnut, Zümrüt Ejderha yadigarlarını taşıyan ekibi kuşatma altındaki şehre umut olmak ve ön saflarda savaşmak üzere görevlendirip kutsar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/5/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/lore/2/fact"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "DRG-0014",
+      "slug": "zumrut-ejderha",
+      "name": "Zümrüt Ejderha",
+      "type": "DRAGON",
+      "aliases": [
+        "Yeşil Ejderha",
+        "Yeşim Ejderha"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0002",
+      "slug": "gumus-ejderha-tapinagi",
+      "name": "Gümüş Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Gümüş Katedral"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 67
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/lore/2/fact"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP09"
+      }
+    ],
+    "counts": {
+      "facts": 4,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

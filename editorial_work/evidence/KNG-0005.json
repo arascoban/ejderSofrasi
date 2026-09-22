@@ -1,0 +1,1562 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "KNG-0005",
+    "slug": "revania-kralligi",
+    "name": "Revania Krallığı",
+    "type": "KINGDOM",
+    "aliases": [
+      "Revanya",
+      "Revanya Şehir Devleti"
+    ],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP00",
+      "EP01",
+      "EP02",
+      "EP03",
+      "EP04",
+      "EP05",
+      "EP06",
+      "EP07",
+      "EP09"
+    ],
+    "first_appearance": "EP00",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 9
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/31"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Revanya",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/16/a/0"
+          },
+          {
+            "source_id": "SRC-EP01",
+            "pointer": "/entities/13/a/0"
+          },
+          {
+            "source_id": "SRC-EP02",
+            "pointer": "/entities/17/a/0"
+          },
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/18/a/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/16/a/0"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/13/a/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/15/a/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/17/a/0"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/31/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Revanya Şehir Devleti",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/16/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP00",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP01",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP02",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP03",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP04",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP05",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP06",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP07",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-121608a7874f80e1",
+      "text": "Kültürü, mimarisi ve ekonomisi revani ve şerbetli tatlılar etrafında şekillenmiş krallık/şehir devleti.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/16/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-38a8f5844c2df01b",
+      "text": "Şerbetli tatlılar, revani ve limon temalı kültürü olan krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5a4dd20ac37048d9",
+      "text": "Büyü kullanımı gümrük vergisine tabidir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/13/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-0da961b036122db8",
+      "text": "Revanya limanının bulunduğu, şerbetli tatlı ve limon temalı kültüre sahip krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP02",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-60b90797dc9bfebc",
+      "text": "Revanya Limanı'nın bulunduğu krallık; Akmer'in başına 5000 altın ödül konduğu iddia edilmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP03",
+              "pointer": "/entities/18/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-540ce41f381e4db6",
+      "text": "Revanya Limanı'nın ve şerbetli tatlı kültürünün bulunduğu krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/16/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-74dce5238ff02e91",
+      "text": "Grup üyelerinin maceraya başladığı krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a54bf194c39ec5da",
+      "text": "Maceracıların başlangıç krallığı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-062462d69851bcd7",
+      "text": "Maceracıların geldiklerini iddia ettikleri gelecekteki (1600 civarı) krallık.",
+      "assertions": [
+        {
+          "period": "1600 civarı",
+          "temporal_basis": "reviewed_source_context",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/31/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-121608a7874f80e1",
+    "FCT-38a8f5844c2df01b",
+    "FCT-5a4dd20ac37048d9",
+    "FCT-0da961b036122db8",
+    "FCT-60b90797dc9bfebc",
+    "FCT-540ce41f381e4db6",
+    "FCT-74dce5238ff02e91",
+    "FCT-a54bf194c39ec5da",
+    "FCT-062462d69851bcd7"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0433",
+        "subject_id": "KNG-0005",
+        "relation": "LOCATED_IN",
+        "object_id": "CON-0002",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Masadan Kıtası üzerindeki krallık.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0003",
+        "subject_id": "NPC-0006",
+        "relation": "WANTED_BY",
+        "object_id": "KNG-0005",
+        "period": null,
+        "episodes": [
+          "EP00",
+          "EP01",
+          "EP03"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Başına 3500-5000 altın ödül konmuştur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/2"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Başına ödül konmuştur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP01",
+                "pointer": "/links/1"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Kaptan Adnan başına 5000 altın ödül konduğunu iddia etmiştir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/1"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0014",
+        "subject_id": "MIL-0003",
+        "relation": "SERVES",
+        "object_id": "KNG-0005",
+        "period": null,
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revania Krallığı'nın asayiş birliğidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0425",
+        "subject_id": "BLD-0008",
+        "relation": "LOCATED_IN",
+        "object_id": "KNG-0005",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revanya Meydanı yakınındaki karargahtır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0426",
+        "subject_id": "DIS-0002",
+        "relation": "LOCATED_IN",
+        "object_id": "KNG-0005",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revania Krallığı'nın merkez meydanıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0427",
+        "subject_id": "DIS-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "KNG-0005",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revanya'nın gentrifiye semtidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0428",
+        "subject_id": "PRT-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "KNG-0005",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP00",
+          "EP01",
+          "EP02"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revanya'nın liman bölgesidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Revania Krallığı'nın ana limanıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP01",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Revania Krallığı'nın ana limanıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP02",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0429",
+        "subject_id": "TAV-0004",
+        "relation": "LOCATED_IN",
+        "object_id": "KNG-0005",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revanya sınırlarındaki handır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0442",
+        "subject_id": "ISL-0001",
+        "relation": "BETWEEN",
+        "object_id": "KNG-0005",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP03"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revanya ile Vhelin Adası arasında konumlanmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0002",
+        "episode": "EP00",
+        "period": null,
+        "title": "Akmer'in aileden kaçışı",
+        "summary_fact_id": "FCT-2d75c1dde0c22542",
+        "event_status": "historical",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/0/facts/4"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006"
+        ],
+        "location_ids": [],
+        "related_entity_ids": [
+          "FAM-0004",
+          "KNG-0005"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-2d75c1dde0c22542",
+        "entity_id": "EVT-0002",
+        "fact": {
+          "id": "FCT-2d75c1dde0c22542",
+          "text": "Akmer, ailesinin ineklerini ve süt kompleksini özgürleştirme amacıyla ailesinden kaçar; canlı getirilmesi için ödül konur.",
+          "assertions": [
+            {
+              "period": null,
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/0/facts/4"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP00",
+      "number": 0,
+      "title": "DnD: EJDER SOFRASI 00 - MACERA BAŞLIYOR! Revania Krallığı ve O'Rus Adnan",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP01",
+      "number": 1,
+      "title": "DnD: EJDER SOFRASI 01 - GEMİLER, KÖLELER ve KEDİLER",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP02",
+      "number": 2,
+      "title": "DnD: EJDER SOFRASI 02 - TEK BİR HARİTA İÇİN",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP02",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP03",
+      "number": 3,
+      "title": "DnD: EJDER SOFRASI 03 - GİZEMLER ADASI ve MEGA TİMSAH",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP04",
+      "number": 4,
+      "title": "DnD: EJDER SOFRASI 04 - GİZEMLİ CANAVARLAR ve CEMİL",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP05",
+      "number": 5,
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP07",
+      "number": 7,
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "ISL-0001",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": null,
+          "parent_candidate_ids": [],
+          "containment_relationship_ids": [],
+          "spatial_relations": [
+            {
+              "relation": "BETWEEN",
+              "target_id": "KNG-0005",
+              "relationship_id": "REL-0442"
+            },
+            {
+              "relation": "BETWEEN",
+              "target_id": "ISL-0004",
+              "relationship_id": "REL-0443"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 17
+        },
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/20"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/14"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/16"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0008",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "KNG-0005",
+          "parent_candidate_ids": [
+            "KNG-0005"
+          ],
+          "containment_relationship_ids": [
+            "REL-0425"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/23"
+        }
+      ]
+    },
+    {
+      "location_id": "KNG-0005",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "CON-0002",
+          "parent_candidate_ids": [
+            "CON-0002"
+          ],
+          "containment_relationship_ids": [
+            "REL-0433"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 9
+        },
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/entities/13"
+        },
+        {
+          "source_id": "SRC-EP02",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/18"
+        },
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/13"
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/15"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/31"
+        }
+      ]
+    },
+    {
+      "location_id": "DIS-0001",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "KNG-0005",
+          "parent_candidate_ids": [
+            "KNG-0005"
+          ],
+          "containment_relationship_ids": [
+            "REL-0427"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 14
+        },
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/19"
+        }
+      ]
+    },
+    {
+      "location_id": "PRT-0001",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "KNG-0005",
+          "parent_candidate_ids": [
+            "KNG-0005"
+          ],
+          "containment_relationship_ids": [
+            "REL-0428"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/20"
+        },
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/entities/14"
+        },
+        {
+          "source_id": "SRC-EP02",
+          "pointer": "/entities/18"
+        }
+      ]
+    },
+    {
+      "location_id": "DIS-0002",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "KNG-0005",
+          "parent_candidate_ids": [
+            "KNG-0005"
+          ],
+          "containment_relationship_ids": [
+            "REL-0426"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/18"
+        }
+      ]
+    },
+    {
+      "location_id": "TAV-0004",
+      "periods": [
+        "1600 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1600 civarı",
+          "parent_id": "KNG-0005",
+          "parent_candidate_ids": [
+            "KNG-0005"
+          ],
+          "containment_relationship_ids": [
+            "REL-0429"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 10
+        },
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/21"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0008",
+      "slug": "limon-kalkan-binasi",
+      "name": "Limon Kalkan Binası",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CON-0002",
+      "slug": "masadan-kitasi",
+      "name": "Masadan Kıtası",
+      "type": "CONTINENT",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0001",
+      "slug": "revantown",
+      "name": "Revantown",
+      "type": "DISTRICT",
+      "aliases": [
+        "Downtown Revanya",
+        "Revan Parti Semti"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0002",
+      "slug": "revanya-meydani",
+      "name": "Revanya Meydanı",
+      "type": "DISTRICT",
+      "aliases": [
+        "Revani Meydanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ISL-0001",
+      "slug": "gizemler-adasi",
+      "name": "Gizemler Adası",
+      "type": "ISLAND",
+      "aliases": [
+        "Palmiyeli ve Dağlı Ada",
+        "PNG Adası",
+        "Züber Adası"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ISL-0004",
+      "slug": "vhelin-adasi",
+      "name": "Vhelin Adası",
+      "type": "ISLAND",
+      "aliases": [
+        "Wellin Adası"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "MIL-0003",
+      "slug": "limonkalkan-bolugu",
+      "name": "Limonkalkan Bölüğü",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Limon Kalkan Şövalyeleri"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "PRT-0001",
+      "slug": "revanya-limani",
+      "name": "Revanya Limanı",
+      "type": "PORT",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TAV-0004",
+      "slug": "serbetsiz-hani",
+      "name": "Şerbetsiz Hanı",
+      "type": "TAVERN",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 10
+      },
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 14
+      },
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 17
+      },
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 9
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/0/facts/4"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/16/a/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/16/a/1"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/2"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP00"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/13/facts/1"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/links/1"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP01"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/17/a/0"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP02"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/18/a/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/18/facts/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/1"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP03"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/16/a/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP04"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP05"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/15/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP06"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/17/a/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP07"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/31"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/31/a/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/31/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09"
+      }
+    ],
+    "counts": {
+      "facts": 9,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 8,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 9,
+      "map_constraints": 7,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 10
+    }
+  }
+}

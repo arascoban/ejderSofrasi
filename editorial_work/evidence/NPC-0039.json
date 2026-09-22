@@ -1,0 +1,322 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0039",
+    "slug": "hekim",
+    "name": "Hekim",
+    "type": "PERSON",
+    "aliases": [
+      "Başhekim",
+      "Kervansaray Doktoru"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP22"
+    ],
+    "first_appearance": "EP22",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/6"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Başhekim",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/6/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Kervansaray Doktoru",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/6/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-e76f3fc805ffeaa8",
+      "text": "Tahin Saray Kervansarayı'nın revirinden sorumlu, bitkisel merhemler ve Çin yağı/Vicks ile hastaları tedavi eden sakallı yaşlı doktor.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-af74af15c7ba8209",
+      "text": "Kalender'in donunu sorması üzerine onu yatıştırmaya çalışmış, Kalender kapıyı kırırken kafasında büyülü iksir şişesi patlatarak onu bayıltmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-faf14ea758a57e5c",
+      "text": "Kalender'in Kavurhan'ın yeğeni olduğunu söylemesi üzerine Kavurhan'ın çöl kampına ulak/haber göndermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/6/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-451520fcf72b5d75",
+      "text": "Avluda Kalender ve Akmer'i teşhir ederek muhafızları alarma geçirmiş, Akmer'den uçan tekme yemiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/6/facts/3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-e76f3fc805ffeaa8",
+    "FCT-af74af15c7ba8209",
+    "FCT-faf14ea758a57e5c",
+    "FCT-451520fcf72b5d75"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0353",
+        "subject_id": "NPC-0039",
+        "relation": "WORKS_IN",
+        "object_id": "BLD-0015",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Tahin Saray Kervansarayı revirinde hekimlik yapmaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0354",
+        "subject_id": "NPC-0039",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kervansaray revirinde ve avlusunda bulunmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0006",
+      "slug": "tahin-saray-kervansarayi",
+      "name": "Tahin Saray Kervansarayı",
+      "type": "BUILDING",
+      "aliases": [
+        "Kervansaray",
+        "Ozempic Kervansaray",
+        "Tahin Han",
+        "Tahin Saray",
+        "Vaha Dinlenme Tesisleri",
+        "Çöl Kervansarayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0015",
+      "slug": "tahin-saray-reviri",
+      "name": "Tahin Saray Reviri",
+      "type": "BUILDING",
+      "aliases": [
+        "Hekim Odası",
+        "Kervansaray Reviri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/6/a/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/6/facts/3"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP22"
+      }
+    ],
+    "counts": {
+      "facts": 4,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

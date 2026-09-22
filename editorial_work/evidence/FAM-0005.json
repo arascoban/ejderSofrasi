@@ -1,0 +1,294 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "FAM-0005",
+    "slug": "tutuncuogulu-ailesi",
+    "name": "Tütüncüoğulu Ailesi",
+    "type": "FAMILY",
+    "aliases": [
+      "Tütüncüoğlu Ailesi",
+      "Tütüncüoğulları"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP00"
+    ],
+    "first_appearance": "EP00",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 2
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/14"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Tütüncüoğlu Ailesi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/14/n"
+          }
+        ]
+      },
+      {
+        "name": "Tütüncüoğulları",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/14/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP00",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-f06498773407f2d3",
+      "text": "Tütün ticareti yapan, köyleri katledilen aile.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/14/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-f06498773407f2d3"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "id": "REL-0004",
+        "subject_id": "NPC-0051",
+        "relation": "MEMBER_OF",
+        "object_id": "FAM-0005",
+        "period": null,
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Tütüncüoğlu Ailesi'nin katliamından sağ kalan tek ferdidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/3"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0004",
+        "episode": "EP00",
+        "period": null,
+        "title": "Tütüncüoğlu ailesinin katliamından sağ kalış",
+        "summary_fact_id": "FCT-9971dad5e1be2497",
+        "event_status": "historical",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/1/facts/1"
+          },
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/links/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051"
+        ],
+        "location_ids": [],
+        "related_entity_ids": [
+          "FAM-0005"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-9971dad5e1be2497",
+        "entity_id": "EVT-0004",
+        "fact": {
+          "id": "FCT-9971dad5e1be2497",
+          "text": "Kalender bebekken tütün sepetinde bulunur ve yetimhanede büyür; kaynak onu aile katliamının sağ kalanı olarak tanımlar.",
+          "assertions": [
+            {
+              "period": null,
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/1/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/links/3"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP00",
+      "number": 0,
+      "title": "DnD: EJDER SOFRASI 00 - MACERA BAŞLIYOR! Revania Krallığı ve O'Rus Adnan",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canonical family spelling takes priority; no surname inference.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/14"
+        }
+      ],
+      "before": [
+        "Tütüncüoğlu Ailesi",
+        "Tütüncüoğulu Ailesi"
+      ],
+      "after": "FAM-0005"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 2
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/14/a/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/14/facts/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/14/n"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/3"
+      },
+      {
+        "source_id": "SRC-EP00"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 1,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

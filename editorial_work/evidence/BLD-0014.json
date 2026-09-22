@@ -1,0 +1,529 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "BLD-0014",
+    "slug": "tahin-saray-nezarethanesi",
+    "name": "Tahin Saray Nezarethanesi",
+    "type": "BUILDING",
+    "aliases": [
+      "Hapishane",
+      "Kervansaray Zindanı"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP21",
+      "EP22"
+    ],
+    "first_appearance": "EP21",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/11"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Hapishane",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/11/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Kervansaray Zindanı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/11/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP21",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP22",
+        "kinds": [
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-6306cb67d2bcdef3",
+      "text": "Tahin Saray Kervansarayı'nın alt katında yer alan, sarhoşlar, hırsızlar ve gariban mahkumların tıkıldığı F tipi nezarethane/zindan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-6306cb67d2bcdef3"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0483",
+        "subject_id": "BLD-0014",
+        "relation": "LOCATED_IN",
+        "object_id": "BLD-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP21"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kervansaray'ın alt katında yer alır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0049",
+        "episode": "EP21",
+        "period": "1300 civarı",
+        "title": "Akmer ve Kalender'in kervansarayda gözaltı",
+        "summary_fact_id": "FCT-55c46048314fbd53",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/1/facts/1"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0051",
+          "NPC-0079"
+        ],
+        "location_ids": [
+          "BLD-0014"
+        ],
+        "related_entity_ids": []
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-55c46048314fbd53",
+        "entity_id": "EVT-0049",
+        "fact": {
+          "id": "FCT-55c46048314fbd53",
+          "text": "Kalender ekibin kalan parasını kumarda kaybeder; Akmer ile kervansaray nezarethanesine düşer.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/1/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0045",
+      "episode": "EP21",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0051"
+      ],
+      "from_id": null,
+      "to_id": "BLD-0014",
+      "via_ids": [],
+      "origin": {
+        "label": "Tahin Saray Kervansarayı Avlusu",
+        "entity_id": null,
+        "context_id": "BLD-0006",
+        "resolution": "location_description"
+      },
+      "destination": {
+        "label": "Tahin Saray Nezarethanesi",
+        "entity_id": "BLD-0014",
+        "resolution": "exact"
+      },
+      "waypoints": [],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Muhafızlar Tarafından Gözaltına Alınarak",
+        "entity_ids": []
+      }
+    },
+    {
+      "id": "TRV-0054",
+      "episode": "EP22",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006"
+      ],
+      "from_id": "BLD-0014",
+      "to_id": null,
+      "via_ids": [
+        "BLD-0013"
+      ],
+      "origin": {
+        "label": "Tahin Saray Nezarethanesi",
+        "entity_id": "BLD-0014",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Tahin Saray Kervansarayı Avlusu",
+        "entity_id": null,
+        "context_id": "BLD-0006",
+        "resolution": "location_description"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Tahin Saray Delil Odası",
+          "entity_id": "BLD-0013",
+          "resolution": "exact"
+        }
+      ],
+      "status": "reviewed_split_route",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/0/facts/1"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/0/facts/2"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/0/facts/3"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Kaçarak",
+        "entity_ids": []
+      },
+      "branch": "akmer",
+      "reason": "Original combined route split using explicit character actions. No assertion that every traveler visited every original room."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP21",
+      "number": 21,
+      "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "BLD-0014",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "BLD-0006",
+          "parent_candidate_ids": [
+            "BLD-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0483"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/entities/11"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0006",
+      "slug": "tahin-saray-kervansarayi",
+      "name": "Tahin Saray Kervansarayı",
+      "type": "BUILDING",
+      "aliases": [
+        "Kervansaray",
+        "Ozempic Kervansaray",
+        "Tahin Han",
+        "Tahin Saray",
+        "Vaha Dinlenme Tesisleri",
+        "Çöl Kervansarayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0013",
+      "slug": "tahin-saray-delil-odasi",
+      "name": "Tahin Saray Delil Odası",
+      "type": "BUILDING",
+      "aliases": [
+        "Delil Odası",
+        "Zimmet Odası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0079",
+      "slug": "pokemon-kart-dolandiricisi",
+      "name": "Pokemon Kart Dolandırıcısı",
+      "type": "PERSON",
+      "aliases": [
+        "Bardakçı Dolandırıcı",
+        "Saydak Kumarbazı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/11/a/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP21"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/0/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP22"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 5
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0064",
+    "slug": "mesrep-sarmagil",
+    "name": "Meşrep Sarmagil",
+    "type": "PERSON",
+    "aliases": [
+      "Meşrep"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP07"
+    ],
+    "first_appearance": "EP07",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 39
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/5"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Meşrep",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/5/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP07",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-2c5fb4e23fcf8213",
+      "text": "Paladin (Oath of Glory) sınıfı savaşçıdır, Sarmagil soyuna mensuptur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-17962820d0fa0829",
+      "text": "Zümrüt Ejderha Şifa Tapınağı'nda hafızasını kaybetmiş olarak Köpo Kurtoğlu ile birlikte uyanmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-dda6accbc697edb4",
+      "text": "Pastırman'a dua ederek (Ham et çürür, tuzlanan dayanır...) Dev Fener Balığı'nın çenesini Kalender ile birlikte kırmış, ardından boyut boşluğuna çekilmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/5/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-4dcba34e1bd0ec75",
+      "text": "Köpo Kurtoğlu ile birlikte Dev Fener Balığı'nın ağzındaki kozmik karanlıkta kaybolmuştur; nihai akıbeti belirsizdir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/uncertainties/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-2c5fb4e23fcf8213",
+    "FCT-17962820d0fa0829",
+    "FCT-dda6accbc697edb4",
+    "FCT-4dcba34e1bd0ec75"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0124",
+        "subject_id": "NPC-0064",
+        "relation": "WORSHIPS",
+        "object_id": "DEI-0011",
+        "period": null,
+        "episodes": [
+          "EP07"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Pastırman dualarıyla güç kazanıp balığı tutmuştur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP07",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0125",
+        "subject_id": "NPC-0064",
+        "relation": "PRESENT_IN",
+        "object_id": "TMP-0003",
+        "period": null,
+        "episodes": [
+          "EP07"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Tapınak odasında uyanıp sınavı geçmiştir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP07",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0023",
+        "episode": "EP07",
+        "period": "1600 civarı",
+        "title": "Köpo ve Meşrep ile karşılaşma",
+        "summary_fact_id": "FCT-dfc7db00d15d24a1",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/5/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0058",
+          "NPC-0064",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0003"
+        ],
+        "related_entity_ids": []
+      },
+      {
+        "event_id": "EVT-0024",
+        "episode": "EP07",
+        "period": "1600 civarı",
+        "title": "Pastırman'ın müdahalesi ve kurtuluş",
+        "summary_fact_id": "FCT-0ab6c00c504eb151",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/1/facts/3"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/5/facts/2"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/9/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0002",
+          "DEI-0011",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0058",
+          "NPC-0064",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0003"
+        ],
+        "related_entity_ids": []
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-dfc7db00d15d24a1",
+        "entity_id": "EVT-0023",
+        "fact": {
+          "id": "FCT-dfc7db00d15d24a1",
+          "text": "Akmer ve Roary tapınakta hafızasını kaybetmiş Köpo ve Meşrep ile karşılaşır. İlk çatışmadan sonra grup kapı sınavında yardımlaşır.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/5/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-0ab6c00c504eb151",
+        "entity_id": "EVT-0024",
+        "fact": {
+          "id": "FCT-0ab6c00c504eb151",
+          "text": "Kalender ile Meşrep birlikte balığın çenesini kırar; Pastırman yaratığı kozmik karanlığa çeker. Roary İto'yu kurtarır; Köpo ve Meşrep'in akıbeti belirsiz kalır.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/1/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/5/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP07",
+                  "pointer": "/entities/9/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP07",
+      "number": 7,
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "DEI-0011",
+      "slug": "pastirman",
+      "name": "Pastırman",
+      "type": "DEITY",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 39
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/9/facts/1"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/uncertainties/1"
+      },
+      {
+        "source_id": "SRC-EP07"
+      }
+    ],
+    "counts": {
+      "facts": 4,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 2,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

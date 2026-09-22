@@ -1,0 +1,474 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "REG-0002",
+    "slug": "pastirmanci-radikal-birlikler-askeri-kampi",
+    "name": "Pastırmancı Radikal Birlikler Askeri Kampı",
+    "type": "REGION",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP19",
+      "EP20"
+    ],
+    "first_appearance": "EP19",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_descriptor",
+    "record_status": "travel_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/3/to"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP19",
+        "kinds": [
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [],
+  "fact_ids": [],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "id": "REL-0480",
+        "subject_id": "NPC-0051",
+        "relation": "VISITED",
+        "object_id": "REG-0002",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kavurhan'ın çöl kampına giderek genel savaş emri verilmesini sağlamıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/5"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0042",
+        "episode": "EP19",
+        "period": "1300 civarı",
+        "title": "Kalender'in tek başına kuşatma kampına gidişi",
+        "summary_fact_id": "FCT-94d9462d9e4ab9a3",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/1/facts/3"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051",
+          "NPC-0054"
+        ],
+        "location_ids": [
+          "REG-0002"
+        ],
+        "related_entity_ids": [
+          "MIL-0004",
+          "NPC-0060"
+        ]
+      },
+      {
+        "event_id": "EVT-0043",
+        "episode": "EP19",
+        "period": "1300 civarı",
+        "title": "Çemenin Kılıcı'nın teslimi",
+        "summary_fact_id": "FCT-df8194aba40ec817",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/1/facts/5"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/4/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051",
+          "NPC-0054"
+        ],
+        "location_ids": [
+          "REG-0002"
+        ],
+        "related_entity_ids": [
+          "DEI-0011",
+          "ITM-0034"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-94d9462d9e4ab9a3",
+        "entity_id": "EVT-0042",
+        "fact": {
+          "id": "FCT-94d9462d9e4ab9a3",
+          "text": "Kalender gece çölü tek başına geçerek Kavurhan'ın kampına gider ve Sancar'ın öldürülmesini anlatır. Kavurhan genel savaş emri verir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/1/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/travel/3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-df8194aba40ec817",
+        "entity_id": "EVT-0043",
+        "fact": {
+          "id": "FCT-df8194aba40ec817",
+          "text": "Kavurhan kutsal kılıcı Kalender'e verir. Dikenli kabza eline saplandığında Kalender'in savaş gücü ve Paladin aurası geri gelir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/1/facts/5"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/4/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0040",
+      "episode": "EP19",
+      "sequence": 4,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0051"
+      ],
+      "from_id": "DIS-0003",
+      "to_id": "REG-0002",
+      "via_ids": [],
+      "origin": {
+        "label": "Çöl Şehri 1. Bölge",
+        "entity_id": "DIS-0003",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Pastırmancı Radikal Birlikler Askeri Kampı",
+        "entity_id": "REG-0002",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "1. Bölge Dış Surları Yan Kapısı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        },
+        {
+          "sequence": 2,
+          "label": "Çöl Karanlığı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/3"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Koşarak (Tek Başına)",
+        "entity_ids": []
+      }
+    },
+    {
+      "id": "TRV-0041",
+      "episode": "EP20",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0054"
+      ],
+      "from_id": "REG-0002",
+      "to_id": null,
+      "via_ids": [],
+      "origin": {
+        "label": "Pastırmancı Radikal Birlikler Askeri Kampı",
+        "entity_id": "REG-0002",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Çöl Şehri 1. Bölge Surları Önü",
+        "entity_id": null,
+        "context_id": "BLD-0016",
+        "resolution": "location_description"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Meydanı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Dev Ayı Üzerinde & Süvari Taarruzu",
+        "entity_ids": []
+      }
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "REG-0002",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "UNKNOWN",
+      "spatial_domain": "unknown",
+      "states": [],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/3/to"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "DIS-0003",
+      "slug": "col-sehri-1-bolge",
+      "name": "Çöl Şehri 1. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Birinci Bölge",
+        "Birinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0054",
+      "slug": "kavurhan-satiroglu",
+      "name": "Kavurhan Satıroğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Kavurhan",
+        "Kavurhan Bey"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/1/facts/5"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/facts/3"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/5"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/3"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/3/to"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP20"
+      }
+    ],
+    "counts": {
+      "facts": 0,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 1,
+      "timeline_events": 2,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

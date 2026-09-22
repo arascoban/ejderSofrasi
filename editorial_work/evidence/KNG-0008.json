@@ -1,0 +1,3056 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "KNG-0008",
+    "slug": "yaz-helvasi-kralligi",
+    "name": "Yaz Helvası Krallığı",
+    "type": "KINGDOM",
+    "aliases": [
+      "Yaz Helvası"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP08",
+      "EP09",
+      "EP10",
+      "EP11",
+      "EP12",
+      "EP13",
+      "EP14",
+      "EP15",
+      "EP16",
+      "EP17",
+      "EP18",
+      "EP19",
+      "EP20",
+      "EP21",
+      "EP22",
+      "EP23"
+    ],
+    "first_appearance": "EP08",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 18
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/34"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Yaz Helvası",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/8/a/0"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/23/a/0"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/11/a/0"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/12/a/0"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/20/a/0"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/13/a/0"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/20/a/0"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/19/a/0"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/18/a/0"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/19/a/0"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/17/a/0"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/23/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/25/a/0"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/15/a/0"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/23/a/0"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/34/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP11",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP13",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP21",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-1071aa5c0763c8a7",
+      "text": "Helvanar Kıtası / Helva Adası döneminde (Gümüş Tanrısının 1673 yılı / 1300'ler geçmiş dönemi) var olan, çöl ve kum taşı mimarisine sahip, yaz helvası üretimi ve ticaretiyle tanınan krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/8/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-095de8c840f1eaf5",
+      "text": "Üç kademeli surlar/katlar ile korunur: 1. kat (garibanlar/pazar mahallesi), 2. kat (orta mahalleler), 3. kat (saray, Gümüş Ejderha Tapınağı, Arifler Okulu).",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/8/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5c7911a006b5ab0b",
+      "text": "Un Helvası Krallığı ve İrmik Helvası Krallığı ittifakının (Kırmızı Ejderha destekli) kuşatması altındadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/8/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-ed1301b207446641",
+      "text": "Helvanar Kıtası döneminde (1300 civarı) var olan krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/23/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7d9314688db9564e",
+      "text": "Helvanar Kıtası'nda yer alan, Çöl Şehri başkentli krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-790110969ba9732e",
+      "text": "Helvanar Kıtası döneminde (1300 civarı) var olan, Çöl Şehri başkentli krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-8182dc7738df09c4",
+      "text": "1300 civarı Helvanar Kıtası'nda yer alan, Çöl Şehri başkentli krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/20/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/20/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/18/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/19/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7e34575d57709650",
+      "text": "Helvanar Kıtası'nda Çöl Şehri merkezli krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/19/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/23/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1431f56377ed50a8",
+      "text": "1300 civarında Helvanar Kıtası'nda yer alan, Çöl Şehri başkentli krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/25/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-de07b646efd8e92d",
+      "text": "1300 civarı Helvanar Kıtası'nda yer alan krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-9e27f55e02e509d6",
+      "text": "Hulusi'nin ve sarayının köken aldığı krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/23/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-95205a1d9b6f7913",
+      "text": "Helvanar Kıtası'nda yer alan krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/34/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-0e7697ef7558656c",
+      "text": "Kaynaklarda 'Çöl Şehri' diye geçen siyasal ve askerî bağlam Yaz Helvası Krallığı'nı ifade eder. Yaz Helvası Şehri ise krallığın üç şehirli kentsel yapısı olarak ayrı tutulur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/uncertainties/1"
+            },
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/uncertainties/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d6cdf1677a10149b",
+      "text": "Kuşatma sırasında 1. şehir/alt şehir surları düşmüş ve kuşatma ordusu içeri girmiştir; nihai sonuç, karakterler bölgeden ayrıldığı için bilinmemektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/uncertainties/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-3c8462fe519d1206",
+      "text": "Krallığın şehirleri birbirinden surlar ve kapılarla ayrılır; güvenlik kapıları bu şehirler arası sınır sisteminin parçasıdır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/travel/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f4de705c7d317ea3",
+      "text": "Şehirler arası sur sisteminde gerçek güvenlik kapıları bulunur; büyük sur kapılarının üzerinde yalnızca insanların geçişi için küçük kapılar da vardır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/travel/2"
+            },
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/travel/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-1071aa5c0763c8a7",
+    "FCT-095de8c840f1eaf5",
+    "FCT-5c7911a006b5ab0b",
+    "FCT-ed1301b207446641",
+    "FCT-7d9314688db9564e",
+    "FCT-790110969ba9732e",
+    "FCT-8182dc7738df09c4",
+    "FCT-7e34575d57709650",
+    "FCT-1431f56377ed50a8",
+    "FCT-de07b646efd8e92d",
+    "FCT-9e27f55e02e509d6",
+    "FCT-95205a1d9b6f7913",
+    "FCT-0e7697ef7558656c",
+    "FCT-d6cdf1677a10149b",
+    "FCT-3c8462fe519d1206",
+    "FCT-f4de705c7d317ea3"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0154",
+        "subject_id": "KNG-0008",
+        "relation": "WORSHIPS",
+        "object_id": "DRG-0003",
+        "period": null,
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gümüş Ejderha inancını benimser.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/27"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0155",
+        "subject_id": "KNG-0008",
+        "relation": "ENEMY_OF",
+        "object_id": "KNG-0007",
+        "period": null,
+        "episodes": [
+          "EP08",
+          "EP10",
+          "EP13",
+          "EP16",
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Un Helvası Krallığı ile savaş halindedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/28"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Un Helvası Krallığı ile savaş halindedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/26"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Un Helvası Krallığı ile savaş halindedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Un Helvası Krallığı ile kuşatma savaşındadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Un Helvası Krallığı ile savaş halindedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/26"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0156",
+        "subject_id": "KNG-0008",
+        "relation": "ENEMY_OF",
+        "object_id": "KNG-0003",
+        "period": null,
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "İrmik Helvası Krallığı ile savaş halindedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/29"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0458",
+        "subject_id": "KNG-0008",
+        "relation": "LOCATED_IN",
+        "object_id": "CON-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08",
+          "EP09",
+          "EP10",
+          "EP13",
+          "EP14",
+          "EP15",
+          "EP16",
+          "EP17",
+          "EP18",
+          "EP19",
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Helvanar Kıtası / Helva Adası üzerinde yer alır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/33"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvanar Kıtası üzerindedir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/23"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvanar Kıtası üzerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/25"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvanar Kıtası üzerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvanar Kıtası üzerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/25"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvanar Kıtası üzerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/38"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvanar Kıtası üzerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/25"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvanar Kıtası üzerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvanar Kıtası üzerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/25"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvanar Kıtası üzerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/23"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvanar Kıtası üzerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0141",
+        "subject_id": "NPC-0022",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı 2. Sur Komutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0143",
+        "subject_id": "NPC-0007",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP08",
+          "EP11"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı başbüyücülerindendir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başbüyücüsüdür.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/8"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0149",
+        "subject_id": "NPC-0008",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı başbilgesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0457",
+        "subject_id": "CIT-0006",
+        "relation": "CAPITAL_OF",
+        "object_id": "KNG-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08",
+          "EP09",
+          "EP10",
+          "EP11",
+          "EP12",
+          "EP13",
+          "EP14",
+          "EP15",
+          "EP16",
+          "EP17",
+          "EP18",
+          "EP19",
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı'nın merkez şehridir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/32"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/28"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/37"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/23"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı'nın başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkentidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0208",
+        "subject_id": "FAC-0001",
+        "relation": "AFFILIATED_WITH",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP11"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ammon tarafından kurulan özel savunma ekibidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0239",
+        "subject_id": "NPC-0060",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP13",
+          "EP14",
+          "EP15",
+          "EP16"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı'nın en kıdemli başkomutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkomutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkomutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkomutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0241",
+        "subject_id": "NPC-0047",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP13"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kızıl Komutan'ın yardımcısı büyücü subaydır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0242",
+        "subject_id": "NPC-0077",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP13"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Roary ve ekibine rehberlik eden genç askerdir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0253",
+        "subject_id": "NPC-0023",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP14",
+          "EP15",
+          "EP16"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı'nda komutan/subaydır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı subayıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı subayıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0276",
+        "subject_id": "DYN-0001",
+        "relation": "HISTORICALLY_ASSOCIATED_WITH",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Helvanar döneminde adaya yerleşen kadim hanedandır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/34"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0500",
+        "subject_id": "NPC-0060",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP17",
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı başkomutanıdır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkomutanı iken suikast sonucu öldürülmüştür.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0297",
+        "subject_id": "NPC-0076",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "3. Duvar'da halat sistemini çalıştıran subaydır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0298",
+        "subject_id": "NPC-0019",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "1. ve 2. Duvar geçişinde görevli subaydır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0501",
+        "subject_id": "NPC-0062",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Sancar Devran'ın ölümünden sonra başkomutanlığı devralmıştır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0502",
+        "subject_id": "NPC-0062",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "KNG-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP19",
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nde sokağa çıkma yasağı ilan etmiştir.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri surlarından taarruzu yönetmiştir.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0322",
+        "subject_id": "MIL-0004",
+        "relation": "ENEMY_OF",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kavurhan önderliğinde Çöl Şehri'ne genel gece taarruzu başlatmıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0029",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Helvanar'ın geçmişine varıldığının anlaşılması",
+        "summary_fact_id": "FCT-a26299f92bdbfc64",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/25/facts/0"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/lore/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0046"
+        ],
+        "location_ids": [
+          "CIT-0006",
+          "CON-0001"
+        ],
+        "related_entity_ids": [
+          "KNG-0008"
+        ]
+      },
+      {
+        "event_id": "EVT-0030",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Helva krallıkları kuşatması",
+        "summary_fact_id": "FCT-502baab1e4504fb9",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/8/facts/2"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/lore/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [],
+        "location_ids": [
+          "CIT-0006",
+          "CON-0001"
+        ],
+        "related_entity_ids": [
+          "DRG-0006",
+          "KNG-0003",
+          "KNG-0007",
+          "KNG-0008"
+        ]
+      },
+      {
+        "event_id": "EVT-0037",
+        "episode": "EP18",
+        "period": "1300 civarı",
+        "title": "Komutanlığın devri ve olağanüstü hal",
+        "summary_fact_id": "FCT-383b86b55c4924fa",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/5/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0062"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "KNG-0008",
+          "NPC-0060"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-a26299f92bdbfc64",
+        "entity_id": "EVT-0029",
+        "fact": {
+          "id": "FCT-a26299f92bdbfc64",
+          "text": "İto kayıp Helvanar hakkındaki tarih bilgisini hatırlar. Yerel Gümüş Ejderha 1673 takvimi, kıtanın batışından önceki dönemi işaret eder; kesin takvim dönüşümü bilinmez.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/25/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/lore/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-502baab1e4504fb9",
+        "entity_id": "EVT-0030",
+        "fact": {
+          "id": "FCT-502baab1e4504fb9",
+          "text": "Un Helvası ve İrmik Helvası ittifakı, Kırmızı Ejderha desteği ve ölüm büyüleriyle Yaz Helvası Krallığı'nı kuşatır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/8/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/lore/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-383b86b55c4924fa",
+        "entity_id": "EVT-0037",
+        "fact": {
+          "id": "FCT-383b86b55c4924fa",
+          "text": "Mareşal Cart Curtoğlu, Sancar'ın ölümünden sonra şehir yönetimini ve başkomutanlığı devralır; sokağa çıkma yasağı ve olağanüstü hal ilan eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/entities/5/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP11",
+      "number": 11,
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP13",
+      "number": 13,
+      "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP21",
+      "number": 21,
+      "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "KNG-0008",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CON-0001",
+          "parent_candidate_ids": [
+            "CON-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0458"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 18
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/8"
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/23"
+        },
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/entities/11"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/12"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/20"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/13"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/20"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/19"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/18"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/19"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/23"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/25"
+        },
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/entities/15"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/23"
+        },
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/34"
+        }
+      ]
+    },
+    {
+      "location_id": "CIT-0006",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "KNG-0008",
+          "parent_candidate_ids": [
+            "KNG-0008"
+          ],
+          "containment_relationship_ids": [
+            "REL-0457"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11"
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/24"
+        },
+        {
+          "source_id": "SRC-EP10",
+          "pointer": "/entities/12"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/14"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/21"
+        },
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/15"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/22"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/21"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/21"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/22"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/19"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/16"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/19"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CON-0001",
+      "slug": "helva-adasi",
+      "name": "Helvanar Kıtası",
+      "type": "CONTINENT",
+      "aliases": [
+        "Helva Adası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DRG-0003",
+      "slug": "gumus-ejderha",
+      "name": "Gümüş Ejderha",
+      "type": "DRAGON",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DYN-0001",
+      "slug": "helvacioglu-hanedani",
+      "name": "Helvacıoğlu Hanedanı",
+      "type": "DYNASTY",
+      "aliases": [
+        "Helvacıadeler",
+        "Helvacıoğulları"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "FAC-0001",
+      "slug": "ariflerin-yumrugu",
+      "name": "Ariflerin Yumruğu",
+      "type": "FACTION",
+      "aliases": [
+        "Demir Yumruk Ekibi",
+        "Yamuk Demlik (Demir Yumruk)",
+        "Yamuk Demlik Ekibi"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0003",
+      "slug": "irmik-helvasi-kralligi",
+      "name": "İrmik Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0007",
+      "slug": "un-helvasi-kralligi",
+      "name": "Un Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Un Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "MIL-0004",
+      "slug": "pastirmanci-radikal-birlikler",
+      "name": "Pastırmancı Radikal Birlikler",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Kavurhan'ın Lejyonu",
+        "Kavurhan'ın Ordusu",
+        "Ortadaki Ordu",
+        "Pastırman Ordusu"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0007",
+      "slug": "raer-ammon",
+      "name": "Raer Ammon",
+      "type": "PERSON",
+      "aliases": [
+        "Ammon",
+        "Ammon Bey",
+        "Başbüyücü Ammon",
+        "Büyücü Raer",
+        "Büyük Büyücü Rer",
+        "Rael",
+        "Raer",
+        "Rer"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0008",
+      "slug": "arif-bey",
+      "name": "Arif Bey",
+      "type": "PERSON",
+      "aliases": [
+        "Arif Arifoğlu",
+        "Ariflerin Başı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0019",
+      "slug": "canop",
+      "name": "Canop",
+      "type": "PERSON",
+      "aliases": [
+        "Canop Bey"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0022",
+      "slug": "dennu",
+      "name": "Dennu",
+      "type": "PERSON",
+      "aliases": [
+        "Denar",
+        "Komutan Dennu"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0023",
+      "slug": "devran",
+      "name": "Devran",
+      "type": "PERSON",
+      "aliases": [
+        "Dubai Hurması",
+        "Genç Komutan",
+        "Kartal Sniper",
+        "Kızıl Komutan'ın Oğlu",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Oğul Komutan",
+        "Siyah Ejderha Keskin Nişancısı",
+        "Siyah Süvari",
+        "Surlar Üzerindeki Nişancı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0047",
+      "slug": "isu",
+      "name": "İşü",
+      "type": "PERSON",
+      "aliases": [
+        "İşu",
+        "İşue"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0060",
+      "slug": "kizil-komutan-sancar",
+      "name": "Kızıl Komutan Sancar",
+      "type": "PERSON",
+      "aliases": [
+        "Başkomutan",
+        "Büyük Komutan",
+        "Derbaş",
+        "Komutan",
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0062",
+      "slug": "maresal-cart-curtoglu",
+      "name": "Mareşal Cart Curtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Cart Curt",
+        "Cart Curtoğlu Bey",
+        "Maraşel",
+        "Maraşel Cart Curtoğlu",
+        "Tümgeneral Cart Curtoğlu"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0076",
+      "slug": "peki-bey",
+      "name": "Peki Bey",
+      "type": "PERSON",
+      "aliases": [
+        "Peki"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0077",
+      "slug": "petsibast",
+      "name": "Petsibast",
+      "type": "PERSON",
+      "aliases": [
+        "Petsast"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 18
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/25/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/a/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/27"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/28"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/29"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/32"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/33"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/2"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/23/a/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/23"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/25"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/26"
+      },
+      {
+        "source_id": "SRC-EP10"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP11"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/20/a/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/28"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/uncertainties/1"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/20/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/25"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/19/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/19/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/34"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/37"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/38"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/18/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/18/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/23"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/25"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/19/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/19/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/17/a/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/25"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/26"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP18"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/23/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/23"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/uncertainties/1"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/25/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/25/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP20"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/15/a/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/23/a/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/34"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/34/a/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/34/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23"
+      }
+    ],
+    "counts": {
+      "facts": 16,
+      "relationships_outgoing": 4,
+      "relationships_incoming": 16,
+      "timeline_events": 3,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 16,
+      "map_constraints": 2,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 19
+    }
+  }
+}

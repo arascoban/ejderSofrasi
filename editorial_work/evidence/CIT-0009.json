@@ -1,0 +1,425 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "CIT-0009",
+    "slug": "yaz-helvasi-ust-sehri",
+    "name": "Yaz Helvası Üst Şehri",
+    "type": "CITY",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP08",
+      "EP12",
+      "EP17"
+    ],
+    "first_appearance": "EP08",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "editorial_descriptor",
+    "record_status": "editorial_entity_split",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/27/facts/0"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP08",
+        "kinds": [
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-1d5b7f110cace55d",
+      "text": "Çölden çok yüksekte, dağın tepesinde bulunan üst şehirdir. Zemini seramik ve pahalı taşlardan oluşur; kraliyet sarayı dağın ucunda yer alır. Üst tabaka burada yaşar ve Arifler Loncası/Okulu bu şehirde bulunur. Çevresindeki büyülü aura yukarıdan gelen mancınık saldırılarına karşı koruma sağlar.",
+      "assertions": [
+        {
+          "period": "1300 civarı",
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/23/facts/0"
+            },
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/27/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-877654b2d61a4136",
+      "text": "Pastırman Anıtı Meydanı, 3. şehrin sur kapısının önündeki gerçek meydandır. Kalender paladin güçlerini kaybettikten sonra Pastırman'ın Eli toprağın içine çekilmiş ve üzeri kapanmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/travel/2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-1d5b7f110cace55d",
+    "FCT-877654b2d61a4136"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0545",
+        "subject_id": "CIT-0009",
+        "relation": "PART_OF",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Üst şehir, Yaz Helvası Şehri içindeki üç şehirden biridir.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/entities/23/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0548",
+        "subject_id": "CIT-0008",
+        "relation": "CONNECTED_BY_ROAD",
+        "object_id": "CIT-0009",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Büyük ana yol orta ve üst şehirleri birbirine bağlar.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/entities/8/facts/1"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0550",
+        "subject_id": "CIT-0008",
+        "relation": "CONNECTED_TO",
+        "object_id": "CIT-0009",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Surlar arasındaki büyülü zipline orta ve üst şehirler arasında seyahati kolaylaştırır.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/entities/28/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "CIT-0008",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0544"
+          ],
+          "spatial_relations": [
+            {
+              "relation": "CONNECTED_BY_ROAD",
+              "target_id": "CIT-0009",
+              "relationship_id": "REL-0548"
+            },
+            {
+              "relation": "CONNECTED_TO",
+              "target_id": "CIT-0009",
+              "relationship_id": "REL-0550"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        }
+      ]
+    },
+    {
+      "location_id": "CIT-0009",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0545"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the upper royal and Arifler city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/23/facts/0"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/27/facts/0"
+        }
+      ],
+      "after": "CIT-0009"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CIT-0008",
+      "slug": "yaz-helvasi-orta-sehri",
+      "name": "Yaz Helvası Orta Şehri",
+      "type": "CITY",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/27/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/28/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/2"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 2,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 2,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

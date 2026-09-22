@@ -1,0 +1,1506 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0054",
+    "slug": "kavurhan-satiroglu",
+    "name": "Kavurhan Satıroğlu",
+    "type": "PERSON",
+    "aliases": [
+      "Kavurhan",
+      "Kavurhan Bey"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP17",
+      "EP18",
+      "EP19",
+      "EP20",
+      "EP22"
+    ],
+    "first_appearance": "EP17",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 97
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/18"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Kavurhan",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/4/a/0"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/9/a/0"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/4/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/4/a/0"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/18/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Kavurhan Bey",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/4/a/1"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/9/a/1"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/4/a/1"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/4/a/1"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/18/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-9954b0fd222038e7",
+      "text": "Pastırman inancının antik, radikal ve efsanevi komutanı; 2.10m boyunda (Enlarge ile 2.60m'ye çıkan), et parçaları, kafatasları ve kurumuş pastırmalarla kaplı kan sızan büyülü siyah dikenli zırh giyen, 2.10m'lik devasa Greatsword taşıyan savaşçı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6c7f1401169a3c75",
+      "text": "Çöl Şehri 1. Duvarı önünde er dileyip Kalender Tütüncüoğlu ile teke tek duelloya tutuşmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-79a978e9be13f1d6",
+      "text": "Dövüş sırasında Banishment büyüsüyle Kalender'i Pastırman'ın kozmik boyutuna göndermiş, Akmer'in müdahalesiyle geri getirmiş, kafası kılıçla kesilmesine rağmen rejenerasyon gücüyle konuşmaya ve savaşmaya devam etmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-81fc16f43b53ef3f",
+      "text": "Kalender'in zaferini ve yiğitliğini kabul edip savaşı 1 günlüğüne durdurmuş, er meydanında saha çadırı kurdurmuş ve Kalender'e hatıra olarak kendi serçe parmağını vermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/4/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d7a9dcea71437a1f",
+      "text": "Pastırman inancının radikal antik komutanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/9/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-696fe5d65f867732",
+      "text": "EP17'deki duellonun ardından ertesi gün er meydanındaki saha çadırında pazarlık yapmak üzere ordusunda beklemektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/9/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-3a94994910b18465",
+      "text": "Pastırman inancının radikal ve efsanevi başkomutanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-605a7c85a3d41572",
+      "text": "Gece çöl kampına tek başına gelen Kalender Tütüncüoğlu'nu ağırlamış, ona ikramda (kutsal çemen) bulunmuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-8a9b5be0e7efbeea",
+      "text": "Kalender'in dövüldüğünü ve Sancar Devran'ın öldürüldüğünü öğrenince öfkelenerek Çöl Şehri'ne karşı genel savaş emri vermiş ve savaş borularını çaldırmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6ead8916db1ab614",
+      "text": "Kutsal yadigar kutusundan çıkardığı dikenli Çemenin Kılıcı'nı Kalender'e vererek onu ordusunun ön safına katmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/4/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-573d504dcb7f175b",
+      "text": "Dev ayısının üzerinde, pastırma flamaları ve çemen buhurdanlıklarıyla Çöl Şehri'ne genel taarruz başlatmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-64d244a7c971c2b8",
+      "text": "Siyah Ejderha Ordusu'nu öne sürerek 1. Bölge surlarını ve kapılarını yıkmış, şehri ele geçirmeye başlamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-97ceeebf8584b5e6",
+      "text": "Kalender'in kaçtığını görünce onun intikamını almak bahanesiyle şehri yerle bir edeceğini ilan etmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/4/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-39edb94df49f9e46",
+      "text": "Pastırman inancının radikal başkomutanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/18/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5f9475c0d73da2a1",
+      "text": "Kalender'in revirde hekime adını vermesi üzerine Hekim tarafından kendisine ulak/haber gönderilmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/18/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-05ad04058018c83f",
+      "text": "Gelecekte hangi tarafı seçeceği ve fetih yönü bilinmemektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/uncertainties/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-9954b0fd222038e7",
+    "FCT-6c7f1401169a3c75",
+    "FCT-79a978e9be13f1d6",
+    "FCT-81fc16f43b53ef3f",
+    "FCT-d7a9dcea71437a1f",
+    "FCT-696fe5d65f867732",
+    "FCT-3a94994910b18465",
+    "FCT-605a7c85a3d41572",
+    "FCT-8a9b5be0e7efbeea",
+    "FCT-6ead8916db1ab614",
+    "FCT-573d504dcb7f175b",
+    "FCT-64d244a7c971c2b8",
+    "FCT-97ceeebf8584b5e6",
+    "FCT-39edb94df49f9e46",
+    "FCT-5f9475c0d73da2a1",
+    "FCT-05ad04058018c83f"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0292",
+        "subject_id": "NPC-0054",
+        "relation": "WORSHIPS",
+        "object_id": "DEI-0011",
+        "period": null,
+        "episodes": [
+          "EP17",
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Pastırman inancının radikal antik komutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Pastırman'ın kutsal kılıcını korumakta ve Pastırman adına savaşmaktadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0293",
+        "subject_id": "NPC-0054",
+        "relation": "LEADS",
+        "object_id": "MIL-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP17",
+          "EP19",
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Pastırmancı radikal berserker birliğinin komutanıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Pastırmancı radikal ordusunun başkomutanıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Pastırmancı radikal ordusunun başkomutanıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0294",
+        "subject_id": "NPC-0054",
+        "relation": "ENEMY_OF",
+        "object_id": "NPC-0051",
+        "period": null,
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kalender ile teke tek duello yapmıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/8"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0330",
+        "subject_id": "NPC-0054",
+        "relation": "FOUGHT_IN",
+        "object_id": "DIS-0003",
+        "period": null,
+        "episodes": [
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "1. Bölge kapılarını yıkıp şehre girmiştir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/links/8"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0362",
+        "subject_id": "NPC-0054",
+        "relation": "MENTIONED_WITH",
+        "object_id": "NPC-0051",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kalender revirde hekime Kavurhan'ın dayısı olduğunu söylemiştir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/25"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0032",
+        "episode": "EP17",
+        "period": "1300 civarı",
+        "title": "Kalender ile Kavurhan'ın düellosu",
+        "summary_fact_id": "FCT-5ca32f1e2e73f962",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/1/facts/1"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/1/facts/3"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/4/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0054",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0016"
+        ],
+        "related_entity_ids": [
+          "DEI-0011"
+        ]
+      },
+      {
+        "event_id": "EVT-0033",
+        "episode": "EP17",
+        "period": "1300 civarı",
+        "title": "Kozmik savaş boyutuna sürgün ve dönüş",
+        "summary_fact_id": "FCT-8c677d53c4bddbd4",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/1/facts/2"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/0/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0051",
+          "NPC-0054"
+        ],
+        "location_ids": [
+          "REG-0001"
+        ],
+        "related_entity_ids": [
+          "DEI-0011"
+        ]
+      },
+      {
+        "event_id": "EVT-0034",
+        "episode": "EP17",
+        "period": "1300 civarı",
+        "title": "Bir günlük ateşkes ve müzakere",
+        "summary_fact_id": "FCT-72944933a65d8a69",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/4/facts/3"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/5/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0054",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0005"
+        ],
+        "related_entity_ids": [
+          "ITM-0021"
+        ]
+      },
+      {
+        "event_id": "EVT-0042",
+        "episode": "EP19",
+        "period": "1300 civarı",
+        "title": "Kalender'in tek başına kuşatma kampına gidişi",
+        "summary_fact_id": "FCT-94d9462d9e4ab9a3",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/1/facts/3"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051",
+          "NPC-0054"
+        ],
+        "location_ids": [
+          "REG-0002"
+        ],
+        "related_entity_ids": [
+          "MIL-0004",
+          "NPC-0060"
+        ]
+      },
+      {
+        "event_id": "EVT-0043",
+        "episode": "EP19",
+        "period": "1300 civarı",
+        "title": "Çemenin Kılıcı'nın teslimi",
+        "summary_fact_id": "FCT-df8194aba40ec817",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/1/facts/5"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/4/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051",
+          "NPC-0054"
+        ],
+        "location_ids": [
+          "REG-0002"
+        ],
+        "related_entity_ids": [
+          "DEI-0011",
+          "ITM-0034"
+        ]
+      },
+      {
+        "event_id": "EVT-0044",
+        "episode": "EP20",
+        "period": "1300 civarı",
+        "title": "Çöl Şehri'nin dış surlarının düşmesi",
+        "summary_fact_id": "FCT-b78095c089cf50c6",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/20/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0054",
+          "NPC-0062"
+        ],
+        "location_ids": [
+          "DIS-0003"
+        ],
+        "related_entity_ids": [
+          "MIL-0002",
+          "MIL-0004",
+          "MIL-0007"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-5ca32f1e2e73f962",
+        "entity_id": "EVT-0032",
+        "fact": {
+          "id": "FCT-5ca32f1e2e73f962",
+          "text": "Kalender, Kavurhan Satıroğlu ile Çöl Şehri'nin ilk suru önünde düello yapar; arkadaşları müdahale eder. Kavurhan'ın başı kesilir fakat rejenerasyonla yaşamaya devam eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/1/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/1/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/4/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-8c677d53c4bddbd4",
+        "entity_id": "EVT-0033",
+        "fact": {
+          "id": "FCT-8c677d53c4bddbd4",
+          "text": "Kavurhan, Kalender'i Banishment ile Pastırman'ın kozmik savaş boyutuna yollar; Akmer'in baskısı sonucunda geri çağırır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/1/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/0/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-72944933a65d8a69",
+        "entity_id": "EVT-0034",
+        "fact": {
+          "id": "FCT-72944933a65d8a69",
+          "text": "Kavurhan, Kalender'in yiğitliğini kabul ederek savaşı bir gün durdurur. Komutanlar ve maceracılar saha çadırında görüşür; Kalender serçe parmağını hatıra alır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/4/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/5/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-94d9462d9e4ab9a3",
+        "entity_id": "EVT-0042",
+        "fact": {
+          "id": "FCT-94d9462d9e4ab9a3",
+          "text": "Kalender gece çölü tek başına geçerek Kavurhan'ın kampına gider ve Sancar'ın öldürülmesini anlatır. Kavurhan genel savaş emri verir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/1/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/travel/3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-df8194aba40ec817",
+        "entity_id": "EVT-0043",
+        "fact": {
+          "id": "FCT-df8194aba40ec817",
+          "text": "Kavurhan kutsal kılıcı Kalender'e verir. Dikenli kabza eline saplandığında Kalender'in savaş gücü ve Paladin aurası geri gelir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/1/facts/5"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/4/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-b78095c089cf50c6",
+        "entity_id": "EVT-0044",
+        "fact": {
+          "id": "FCT-b78095c089cf50c6",
+          "text": "Kavurhan'ın genel taarruzunda Siyah Ejderha Ordusu dış surları aşar; ilk bölge yakılıp yağmalanır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/20/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0041",
+      "episode": "EP20",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0054"
+      ],
+      "from_id": "REG-0002",
+      "to_id": null,
+      "via_ids": [],
+      "origin": {
+        "label": "Pastırmancı Radikal Birlikler Askeri Kampı",
+        "entity_id": "REG-0002",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Çöl Şehri 1. Bölge Surları Önü",
+        "entity_id": null,
+        "context_id": "BLD-0016",
+        "resolution": "location_description"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Meydanı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Dev Ayı Üzerinde & Süvari Taarruzu",
+        "entity_ids": []
+      }
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [
+    {
+      "id": "CNF-0172",
+      "kind": "travel_resolution",
+      "status": "open",
+      "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+      "entity_ids": [
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0054"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/travel/0"
+        }
+      ],
+      "details": {
+        "travel_id": "TRV-0041",
+        "unresolved_locations": [
+          "Çöl Meydanı"
+        ],
+        "unresolved_travelers": []
+      }
+    }
+  ],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0005",
+      "slug": "er-meydani-saha-cadiri",
+      "name": "Er Meydanı Saha Çadırı",
+      "type": "BUILDING",
+      "aliases": [
+        "Barış Çadırı",
+        "Pazarlık Çadırı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0016",
+      "slug": "col-sehri-1-bolge-surlari",
+      "name": "Çöl Şehri 1. Bölge Surları",
+      "type": "BUILDING",
+      "aliases": [
+        "1. Duvar",
+        "Birinci Duvar"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DEI-0011",
+      "slug": "pastirman",
+      "name": "Pastırman",
+      "type": "DEITY",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0003",
+      "slug": "col-sehri-1-bolge",
+      "name": "Çöl Şehri 1. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Birinci Bölge",
+        "Birinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "MIL-0004",
+      "slug": "pastirmanci-radikal-birlikler",
+      "name": "Pastırmancı Radikal Birlikler",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Kavurhan'ın Lejyonu",
+        "Kavurhan'ın Ordusu",
+        "Ortadaki Ordu",
+        "Pastırman Ordusu"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "REG-0001",
+      "slug": "pastirman-kozmik-savas-boyutu",
+      "name": "Pastırman Kozmik Savaş Boyutu",
+      "type": "REGION",
+      "aliases": [
+        "Pastırman Valhallası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "REG-0002",
+      "slug": "pastirmanci-radikal-birlikler-askeri-kampi",
+      "name": "Pastırmancı Radikal Birlikler Askeri Kampı",
+      "type": "REGION",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "source_review_required",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 97
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4/facts/3"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/9/a/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/9/a/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/9/facts/1"
+      },
+      {
+        "source_id": "SRC-EP18"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/1/facts/5"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/facts/3"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/3"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/3"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP20"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/18/a/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/18/a/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/18/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/18/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/25"
+      },
+      {
+        "source_id": "SRC-EP22"
+      }
+    ],
+    "counts": {
+      "facts": 16,
+      "relationships_outgoing": 5,
+      "relationships_incoming": 0,
+      "timeline_events": 6,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 5,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 1,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 8
+    }
+  }
+}

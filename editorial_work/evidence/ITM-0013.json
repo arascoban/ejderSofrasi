@@ -1,0 +1,489 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "ITM-0013",
+    "slug": "hulusi-nin-altin-sandigi",
+    "name": "Hulusi'nin Altın Sandığı",
+    "type": "ITEM",
+    "aliases": [
+      "Hulusi'nin Hazinesi"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP22"
+    ],
+    "first_appearance": "EP22",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/14"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Hulusi'nin Hazinesi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/14/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-97d3e8484ced6dca",
+      "text": "Hulusi'nin yatağının altında sakladığı, içerisinde 3400 çil çil altın bulunan seyahat sandığı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/14/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-fda68ba958487166",
+      "text": "İto ve Roary tarafından bulunup ele geçirilmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/14/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6a90f6a5b36b764a",
+      "text": "Sandık ve yağmalama sonucunda 5000'den fazla altın ile büyülü yüzükler, kolyeler ve başka karışık değerli ganimetler elde edilmiştir; toplam miktar kesin değildir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/uncertainties/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-97d3e8484ced6dca",
+    "FCT-fda68ba958487166",
+    "FCT-6a90f6a5b36b764a"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0486",
+        "subject_id": "ITM-0013",
+        "relation": "LOCATED_IN",
+        "object_id": "BLD-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hulusi'nin yatağının altında bulunmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0518",
+        "subject_id": "NPC-0046",
+        "relation": "POSSESSES",
+        "object_id": "ITM-0013",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hulusi'nin yatağının altındaki 3400 altını almıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0519",
+        "subject_id": "NPC-0042",
+        "relation": "FORMERLY_OWNED",
+        "object_id": "ITM-0013",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yatağının altındaki altın sandığının sahibidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0523",
+        "subject_id": "FAC-0001",
+        "relation": "OWNS",
+        "object_id": "ITM-0013",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed the chest and its gold were taken and the recovered gold became shared group property.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/entities/14/facts/1"
+              },
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/entities/2/facts/3"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0524",
+        "subject_id": "NPC-0083",
+        "relation": "POSSESSES",
+        "object_id": "ITM-0013",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed İto and Roary took the chest and its gold; Roary carried part of the recovered gold during the escape.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/entities/3/facts/2"
+              },
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/entities/14/facts/1"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0053",
+        "episode": "EP22",
+        "period": "1300 civarı",
+        "title": "Sahte veda mektubu ve hazinenin alınması",
+        "summary_fact_id": "FCT-61b624c110d690bf",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/2/facts/2"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/2/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0046",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0006"
+        ],
+        "related_entity_ids": [
+          "ITM-0013",
+          "ITM-0015"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-61b624c110d690bf",
+        "entity_id": "EVT-0053",
+        "fact": {
+          "id": "FCT-61b624c110d690bf",
+          "text": "İto, Hulusi çöle kaçmış gibi gösteren sahte mektup bırakır. İto ve Roary yatak altındaki altınları alıp taşımak üzere saklar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/entities/2/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/entities/2/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0006",
+      "slug": "tahin-saray-kervansarayi",
+      "name": "Tahin Saray Kervansarayı",
+      "type": "BUILDING",
+      "aliases": [
+        "Kervansaray",
+        "Ozempic Kervansaray",
+        "Tahin Han",
+        "Tahin Saray",
+        "Vaha Dinlenme Tesisleri",
+        "Çöl Kervansarayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "FAC-0001",
+      "slug": "ariflerin-yumrugu",
+      "name": "Ariflerin Yumruğu",
+      "type": "FACTION",
+      "aliases": [
+        "Demir Yumruk Ekibi",
+        "Yamuk Demlik (Demir Yumruk)",
+        "Yamuk Demlik Ekibi"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0042",
+      "slug": "hulusi",
+      "name": "Hulusi",
+      "type": "PERSON",
+      "aliases": [
+        "Helvacıadelerin Hulusi",
+        "Helvacıoğlu Hulusi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/14/a/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/14/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/14/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP22"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/uncertainties/0"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 4,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 5
+    }
+  }
+}

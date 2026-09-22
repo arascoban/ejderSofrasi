@@ -1,0 +1,980 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "TAV-0001",
+    "slug": "batangunes-kahvesi",
+    "name": "Batangüneş Kahvesi",
+    "type": "TAVERN",
+    "aliases": [
+      "Batan Güneş Kahvesi",
+      "Batan Güneş Kıraathanesi",
+      "Emilsum'un Kahvesi"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP14",
+      "EP15"
+    ],
+    "first_appearance": "EP14",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 33
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/23"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Batan Güneş Kahvesi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/23/n"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/23/n"
+          }
+        ]
+      },
+      {
+        "name": "Batan Güneş Kıraathanesi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/23/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Emilsum'un Kahvesi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/23/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-e5065101b438263c",
+      "text": "Emilsum tarafından işletilen, perdeli, depoları ve gizli arka çıkış kapısı bulunan esnaf kahvehanesi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/23/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-fe5926edaf8b18de",
+      "text": "Maceracılar ile Kızıl Komutan'ın Oğlu arasındaki gergin pazarlığa ev sahipliği yapmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/23/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e65253b571cd3686",
+      "text": "Emilsum'un kahvehanesi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/23/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-e5065101b438263c",
+    "FCT-fe5926edaf8b18de",
+    "FCT-e65253b571cd3686"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0470",
+        "subject_id": "TAV-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14",
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 2. Bölgesi'nde yer alır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri 2. Bölgesi'ndedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/29"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0418",
+        "subject_id": "TAV-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "DIS-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "The geographic evidence explicitly places the café in the second district.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/21/ev"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0247",
+        "subject_id": "NPC-0006",
+        "relation": "VISITED",
+        "object_id": "TAV-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çarşafa sarınarak Batan Güneş Kahvesi'ne gitmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/2"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0249",
+        "subject_id": "NPC-0051",
+        "relation": "VISITED",
+        "object_id": "TAV-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Batan Güneş Kahvesi'nde Zone of Truth aktifleştirmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/5"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0251",
+        "subject_id": "NPC-0046",
+        "relation": "VISITED",
+        "object_id": "TAV-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Batan Güneş Kahvesi'nde görüşmeye katılmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/8"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0255",
+        "subject_id": "NPC-0027",
+        "relation": "OPERATES",
+        "object_id": "TAV-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14",
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Batan Güneş Kahvesi'ni işletmektedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Batan Güneş Kahvesi'ni işletmektedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/26"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0256",
+        "subject_id": "NPC-0015",
+        "relation": "PRESENT_IN",
+        "object_id": "TAV-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Batan Güneş Kahvesi'nde resim çizmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0081",
+        "episode": "EP14",
+        "period": "1300 civarı",
+        "title": "Kartal Sniper’ın kimliğinin açıklanması",
+        "summary_fact_id": "FCT-536f6f3b821c5094",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/6/facts/0"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/6/facts/1"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/lore/2/fact"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0023",
+          "NPC-0046",
+          "NPC-0051"
+        ],
+        "location_ids": [
+          "TAV-0001"
+        ],
+        "related_entity_ids": [
+          "NPC-0060"
+        ]
+      },
+      {
+        "event_id": "EVT-0082",
+        "episode": "EP14",
+        "period": "1300 civarı",
+        "title": "Ön safta savaşma anlaşması",
+        "summary_fact_id": "FCT-633c50f56e923615",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/1/facts/3"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/1/facts/4"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0023",
+          "NPC-0046",
+          "NPC-0051"
+        ],
+        "location_ids": [
+          "TAV-0001"
+        ],
+        "related_entity_ids": [
+          "DEI-0011"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-536f6f3b821c5094",
+        "entity_id": "EVT-0081",
+        "fact": {
+          "id": "FCT-536f6f3b821c5094",
+          "text": "Büyülü kask projeksiyonuyla Batangüneş Kahvesi’ndeki görüşmeye katılan genç komutan, Niani ve İto’yu vuran keskin nişancının kendisi olduğunu itiraf eder. Babası Kızıl Komutan’dır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/6/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/6/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/lore/2/fact"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-633c50f56e923615",
+        "entity_id": "EVT-0082",
+        "fact": {
+          "id": "FCT-633c50f56e923615",
+          "text": "Kalender doğruluk çemberi altında görüşür ve savaş sonrasında Pastırman inancını yayma şartıyla ön safta savaşmayı kabul eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/1/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/1/facts/4"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0025",
+      "episode": "EP14",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0014",
+        "NPC-0027",
+        "NPC-0032",
+        "NPC-0046",
+        "NPC-0051"
+      ],
+      "from_id": "BLD-0002",
+      "to_id": "TAV-0001",
+      "via_ids": [],
+      "origin": {
+        "label": "Beltis Ana'nın Evi",
+        "entity_id": "BLD-0002",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Batan Güneş Kahvesi",
+        "entity_id": "TAV-0001",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Çarşaflara Sarınarak",
+        "entity_ids": []
+      }
+    },
+    {
+      "id": "TRV-0028",
+      "episode": "EP15",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0027",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "TAV-0001",
+      "to_id": "BLD-0004",
+      "via_ids": [],
+      "origin": {
+        "label": "Batan Güneş Kahvesi",
+        "entity_id": "TAV-0001",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Demirci Dükkanı",
+        "entity_id": "BLD-0004",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri Arka Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Gizlenerek",
+        "entity_ids": []
+      }
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "TAV-0001",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "DIS-0004",
+          "parent_candidate_ids": [
+            "DIS-0004"
+          ],
+          "containment_relationship_ids": [
+            "REL-0470",
+            "REL-0418"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 33
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/23"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/23"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP14 explicitly gives the space-free canonical spelling as an alias; Canon/locations.md confirms that form.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/23/a/0"
+        }
+      ],
+      "before": [
+        "Batan Güneş Kahvesi",
+        "Batangüneş Kahvesi"
+      ],
+      "after": "TAV-0001"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0002",
+      "slug": "beltis-ana-nin-evi",
+      "name": "Beltis Ana'nın Evi",
+      "type": "BUILDING",
+      "aliases": [
+        "Beltis Hala'nın Evi",
+        "Teyze'nin Evi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0004",
+      "slug": "demirci-dukkani",
+      "name": "Demirci Dükkanı",
+      "type": "BUILDING",
+      "aliases": [
+        "Rando'nun Demirhanesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0004",
+      "slug": "col-sehri-2-bolge",
+      "name": "Çöl Şehri 2. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "İkinci Bölge",
+        "İkinci Cadde",
+        "İkinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0015",
+      "slug": "berosmus",
+      "name": "Berosmus",
+      "type": "PERSON",
+      "aliases": [
+        "Berosmus Bey"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0023",
+      "slug": "devran",
+      "name": "Devran",
+      "type": "PERSON",
+      "aliases": [
+        "Dubai Hurması",
+        "Genç Komutan",
+        "Kartal Sniper",
+        "Kızıl Komutan'ın Oğlu",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Oğul Komutan",
+        "Siyah Ejderha Keskin Nişancısı",
+        "Siyah Süvari",
+        "Surlar Üzerindeki Nişancı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0027",
+      "slug": "emilsum",
+      "name": "Emilsum",
+      "type": "PERSON",
+      "aliases": [
+        "Emilsum Abi",
+        "Emirsum",
+        "Emirsum Abi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 33
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/23/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/23/a/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/23/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/23/n"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/2"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/21/ev"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/5"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/lore/2/fact"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/23/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/23/n"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/26"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/29"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP15"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 5,
+      "timeline_events": 2,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 10
+    }
+  }
+}

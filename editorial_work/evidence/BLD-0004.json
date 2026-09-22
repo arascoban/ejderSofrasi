@@ -1,0 +1,747 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "BLD-0004",
+    "slug": "demirci-dukkani",
+    "name": "Demirci Dükkanı",
+    "type": "BUILDING",
+    "aliases": [
+      "Rando'nun Demirhanesi"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP15"
+    ],
+    "first_appearance": "EP15",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/24"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Rando'nun Demirhanesi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/24/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-296e31b614b32cef",
+      "text": "Rando'nun işlettiği, bahçesinde körükler ve arkasında eski savaş yadigarlarının saklandığı gizli deposu bulunan demirhane.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/24/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-296e31b614b32cef"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0472",
+        "subject_id": "BLD-0004",
+        "relation": "LOCATED_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri caddelerindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/27"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0262",
+        "subject_id": "NPC-0006",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Demirci dükkanını ziyaret etmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/2"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0265",
+        "subject_id": "NPC-0051",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Demirci dükkanına gitmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0267",
+        "subject_id": "NPC-0046",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Demirci dükkanında zırh ve hançer bakmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0268",
+        "subject_id": "NPC-0083",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Demirci dükkanında Ayı Zırhı için ölçü vermiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0269",
+        "subject_id": "NPC-0032",
+        "relation": "OPERATES",
+        "object_id": "BLD-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Demirci dükkanını işletmektedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0084",
+        "episode": "EP15",
+        "period": "1300 civarı",
+        "title": "Kadim silahların teslim alınması",
+        "summary_fact_id": "FCT-93fc17dc2983e2d8",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/27/facts/0"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/28/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0032",
+          "NPC-0051"
+        ],
+        "location_ids": [
+          "BLD-0004"
+        ],
+        "related_entity_ids": [
+          "DYN-0001",
+          "ITM-0012"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-93fc17dc2983e2d8",
+        "entity_id": "EVT-0084",
+        "fact": {
+          "id": "FCT-93fc17dc2983e2d8",
+          "text": "Gandu olarak da adlandırılan demirci Rando, Akmer’e Helvacıoğlu Baltası’nı ve Kalender’e Kristal Kılıç’ı verir. Silahların Helvacıoğlu Hanedanı ve ejderha kemikleriyle bağı anlatılır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/27/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/28/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0028",
+      "episode": "EP15",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0027",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "TAV-0001",
+      "to_id": "BLD-0004",
+      "via_ids": [],
+      "origin": {
+        "label": "Batan Güneş Kahvesi",
+        "entity_id": "TAV-0001",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Demirci Dükkanı",
+        "entity_id": "BLD-0004",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri Arka Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Gizlenerek",
+        "entity_ids": []
+      }
+    },
+    {
+      "id": "TRV-0029",
+      "episode": "EP15",
+      "sequence": 2,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0004",
+      "to_id": "BLD-0023",
+      "via_ids": [],
+      "origin": {
+        "label": "Demirci Dükkanı",
+        "entity_id": "BLD-0004",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Arifler Okulu",
+        "entity_id": "BLD-0023",
+        "resolution": "exact",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Demir Yumruk Anıtı Meydanı",
+          "entity_id": null,
+          "context_id": "BLD-0003",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/travel/1"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "BLD-0004",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0472"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/24"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Demirci Dükkanı",
+        "to": "Arifler Okulu",
+        "via": [
+          "Demir Yumruk Anıtı Meydanı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0029",
+        "episode": "EP15",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0004",
+        "to_id": "BLD-0023",
+        "via_ids": [],
+        "origin": {
+          "label": "Demirci Dükkanı",
+          "entity_id": "BLD-0004",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Demir Yumruk Anıtı Meydanı",
+            "entity_id": null,
+            "context_id": "BLD-0003",
+            "resolution": "location_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0032",
+      "slug": "gandu",
+      "name": "Gandu",
+      "type": "PERSON",
+      "aliases": [
+        "Demirci Gandu",
+        "Demirci Rando",
+        "Demirci Usta",
+        "Hodor",
+        "Mirçe",
+        "Rando"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TAV-0001",
+      "slug": "batangunes-kahvesi",
+      "name": "Batangüneş Kahvesi",
+      "type": "TAVERN",
+      "aliases": [
+        "Batan Güneş Kahvesi",
+        "Batan Güneş Kıraathanesi",
+        "Emilsum'un Kahvesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/24/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/24/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/27/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/28/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/2"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/27"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP15"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 5,
+      "timeline_events": 1,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 8
+    }
+  }
+}

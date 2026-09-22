@@ -1,0 +1,1066 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0089",
+    "slug": "subira",
+    "name": "Subira",
+    "type": "PERSON",
+    "aliases": [
+      "Demirci Subira",
+      "Subira Hanım"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP11",
+      "EP12",
+      "EP15",
+      "EP16",
+      "EP17",
+      "EP18"
+    ],
+    "first_appearance": "EP11",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 71
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/10"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Demirci Subira",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/6/a/1"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/4/a/1"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/9/a/0"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/7/a/0"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/7/a/0"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/10/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Subira Hanım",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/6/a/0"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/4/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP11",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-6b681b7d04713978",
+      "text": "Arifler Okulu'nun alt katlarındaki atölyede çalışan, siyah saçlı, kahverengi gözlü, demirci önlüğü ve koruyucu maske giyen kadın büyülü eşya ustası/büyücü.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-91421e8d375c6df9",
+      "text": "Büyülü eşya yapımını, rün örgüsünü ve büyü doldurulabilen eşya mekaniğini bilmektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-ac66ae0fa978b0e3",
+      "text": "Roary'nin kanından örnek alarak içine büyü enerjisi/ses yüklenebilen özel ok yapma denemesine başlamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/6/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-040a7ef38b17af28",
+      "text": "Arifler Okulu alt katındaki atölyede çalışan esmer, orta yaşlı, büyülü eşya ve rün uzmanı kadın büyücü.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-b0bba55668471af6",
+      "text": "İto'nun kafasındaki tacın dış alemlerden lanetli bir balık paraziti olduğunu ilk görüşte anlamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6d9ae99ca9687d79",
+      "text": "Akmer'in baltasını incelemiş, baltanın eski olduğunu ve büyü yüklenirse parçalanacağını söyleyerek yeni bir balta yaptırmasını önermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6a62c251c3c203b3",
+      "text": "Kendisine 'Eyvah Mehdi'yim ben' diyerek böbürlenen Kalender'i dondurarak öğrencilerinin onun alçı kalıbını almasını sağlamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/4/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d050ee94ff1dd642",
+      "text": "Arifler Okulu büyülü eşya ve rün uzmanı; patlamada ağır yaralanmış, Roary'nin kadeh şifasıyla iyileşmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/9/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-2b59d5b6475ee8df",
+      "text": "Arifler Okulu büyülü eşya ve rün uzmanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/10/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-06c531bdfbc51dc1",
+      "text": "Ammon Hoca ve öğrencilerle birlikte Kalender için Full Plate Mail zırh ritüeli gerçekleştirmiş, Roary'ye değişken görünümlü büyülü deri zırh ve büyülü dövme teslim etmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/7/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d4ef30a71ceadd07",
+      "text": "Kalender'i model alan hedef heykellerinin okulun döner sermayesi tarafından üretildiğini açıklamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/7/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-bfab84123403a2c6",
+      "text": "Arifler Okulu büyülü eşya ve rün uzmanı; koridorlarda Kalender heykelleri yaptırmış, atölyesinde çalışmalar yürütmektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-6b681b7d04713978",
+    "FCT-91421e8d375c6df9",
+    "FCT-ac66ae0fa978b0e3",
+    "FCT-040a7ef38b17af28",
+    "FCT-b0bba55668471af6",
+    "FCT-6d9ae99ca9687d79",
+    "FCT-6a62c251c3c203b3",
+    "FCT-d050ee94ff1dd642",
+    "FCT-2b59d5b6475ee8df",
+    "FCT-06c531bdfbc51dc1",
+    "FCT-d4ef30a71ceadd07",
+    "FCT-bfab84123403a2c6"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0203",
+        "subject_id": "NPC-0089",
+        "relation": "MEMBER_OF",
+        "object_id": "ORG-0001",
+        "period": null,
+        "episodes": [
+          "EP11",
+          "EP15",
+          "EP16"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Arifler Okulu demirhanesinde büyülü eşya ustasıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Arifler Okulu rün uzmanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Arifler Okulu büyü uzmanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0204",
+        "subject_id": "NPC-0089",
+        "relation": "WORKS_IN",
+        "object_id": "BLD-0023",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP11",
+          "EP12"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Arifler Okulu alt katındaki atölyede çalışmaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Arifler Okulu atölyesinde büyü ustası olarak çalışır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0405",
+        "subject_id": "NPC-0089",
+        "relation": "MEMBER_OF",
+        "object_id": "ORG-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Source explicitly calls Subira the school's magical-item/rune specialist.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/entities/7/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0075",
+        "episode": "EP12",
+        "period": "1300 civarı",
+        "title": "Işık Tacı’nın parazitik biçiminin açığa çıkması",
+        "summary_fact_id": "FCT-a7a90d4f72960e57",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/2/facts/2"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/2/facts/3"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/5/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "NPC-0089"
+        ],
+        "location_ids": [
+          "BLD-0023"
+        ],
+        "related_entity_ids": [
+          "CRE-0002",
+          "ITM-0036"
+        ]
+      },
+      {
+        "event_id": "EVT-0085",
+        "episode": "EP15",
+        "period": "1300 civarı",
+        "title": "Arifler bahçesine intihar saldırısı",
+        "summary_fact_id": "FCT-8e4de08a26ae8c23",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/1/facts/4"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/2/facts/3"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/3/facts/4"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/36/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083",
+          "NPC-0089"
+        ],
+        "location_ids": [
+          "BLD-0023"
+        ],
+        "related_entity_ids": [
+          "ITM-0031",
+          "MIL-0006"
+        ]
+      },
+      {
+        "event_id": "EVT-0088",
+        "episode": "EP16",
+        "period": "1300 civarı",
+        "title": "Kalender’in zırhının büyüyle üretilmesi",
+        "summary_fact_id": "FCT-0dfa6abbf047f938",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/1/facts/2"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/8/facts/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/30/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0007",
+          "NPC-0051",
+          "NPC-0089"
+        ],
+        "location_ids": [
+          "BLD-0023"
+        ],
+        "related_entity_ids": [
+          "ITM-0019"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-a7a90d4f72960e57",
+        "entity_id": "EVT-0075",
+        "fact": {
+          "id": "FCT-a7a90d4f72960e57",
+          "text": "Ammon illüzyonu kaldırınca İto’nun tacının kafatasına bağlı kozmik bir parazit olduğu görülür. İto sağladığı güçler nedeniyle lanetin kaldırılmasını reddeder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/2/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/2/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/5/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-8e4de08a26ae8c23",
+        "entity_id": "EVT-0085",
+        "fact": {
+          "id": "FCT-8e4de08a26ae8c23",
+          "text": "Siyah Ejderha fedaileri okul bahçesinde patlama düzenler. Kalender bilincini kaybeder ve kaynak yüzüğün onu ayağa kaldırdığını söyler; Roary yaralıları iyileştirir, İto çatılardaki saldırganlara karşılık verir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/1/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/2/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/3/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/36/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-0dfa6abbf047f938",
+        "entity_id": "EVT-0088",
+        "fact": {
+          "id": "FCT-0dfa6abbf047f938",
+          "text": "Ammon, Subira ve öğrenciler on bin altın değerinde elması kullanarak Fabricate ritüeliyle Kalender’in ağır zırhını üretir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/1/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/8/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/30/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP11",
+      "number": 11,
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "ORG-0001",
+      "slug": "arifler-okulu",
+      "name": "Arifler Okulu",
+      "type": "ORGANIZATION",
+      "aliases": [
+        "Akademi",
+        "Arifler Kahvesi",
+        "Arifler Loncası",
+        "Arifler Meclisi Bahçesi",
+        "Divination Okulu"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 71
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/6/a/1"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP11"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/4/facts/3"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/36/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/9/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/30/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/7/facts/2"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/10/a/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18"
+      }
+    ],
+    "counts": {
+      "facts": 12,
+      "relationships_outgoing": 3,
+      "relationships_incoming": 0,
+      "timeline_events": 3,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 6,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

@@ -1,0 +1,2234 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "FAM-0004",
+    "slug": "sutcuoglu-ailesi",
+    "name": "Sütçuoğlu Ailesi",
+    "type": "FAMILY",
+    "aliases": [
+      "Sütçüoğlu Ailesi",
+      "Sütçüoğulları"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP00",
+      "EP01",
+      "EP03",
+      "EP04",
+      "EP05",
+      "EP06",
+      "EP07",
+      "EP08",
+      "EP09",
+      "EP10",
+      "EP11",
+      "EP12",
+      "EP13",
+      "EP14",
+      "EP15",
+      "EP16",
+      "EP17",
+      "EP18",
+      "EP19",
+      "EP20",
+      "EP21",
+      "EP22",
+      "EP23",
+      "EP24"
+    ],
+    "first_appearance": "EP00",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 1
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/32"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/32"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/27"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/38"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/36"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/41"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/32"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/21"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Sütçüoğlu Ailesi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/13/n"
+          },
+          {
+            "source_id": "SRC-EP01",
+            "pointer": "/entities/12/n"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/21/n"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/12/n"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/17/n"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/18/n"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/24/n"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/32/n"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/22/n"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/21/n"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/32/n"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/23/n"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/27/n"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/38/n"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/36/n"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/41/n"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/28/n"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/28/n"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/17/n"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/21/n"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/32/n"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/21/n"
+          }
+        ]
+      },
+      {
+        "name": "Sütçüoğulları",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/13/a/0"
+          },
+          {
+            "source_id": "SRC-EP01",
+            "pointer": "/entities/12/a/0"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/21/a/0"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/12/a/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/17/a/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/18/a/0"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/32/a/0"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/21/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP00",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP01",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP03",
+        "kinds": [
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP04",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP05",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP06",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP07",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP11",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP13",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP21",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP24",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-5fdce5a06c851f63",
+      "text": "Dünyadaki süt üretimini ve pazar payını büyük oranda elinde tutan zengin hanedanlık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6abba828ebac0f28",
+      "text": "Prensesleri Akmer'in kaçışının ardından onu bulmak için büyük ödüller koymuşlardır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/13/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1e596e7243927641",
+      "text": "Akmer'in kaçtığı zengin süt üreticisi hanedan/aile.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-697354ed5b032c11",
+      "text": "Akmer'in mensubu olduğu zengin ve nüfuzlu süt tüccarı aile.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7893895d6e5ebcbf",
+      "text": "Akmer'in zindana girmeden önce babasına mektup yazdığı zengin süt üreticisi aile.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a88c76e173adabe4",
+      "text": "Akmer'in mensubu olduğu hanedan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/24/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/32/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/32/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/23/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/27/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/38/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/36/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/41/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/28/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/28/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/32/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-4cff6347de1fd0c7",
+      "text": "Akmer'in mensubu olduğu zengin hanedan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/18/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-acb28fb129e07fa4",
+      "text": "Akmer'in mensubu olduğu, falda 'süt havuzu' olarak simgelenen zengin hanedan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-0bf286016b23ecd2",
+      "text": "Akmer ve lanetlenmiş Doktor Aktar'ın mensubu olduğu soylu hanedan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-5fdce5a06c851f63",
+    "FCT-6abba828ebac0f28",
+    "FCT-1e596e7243927641",
+    "FCT-697354ed5b032c11",
+    "FCT-7893895d6e5ebcbf",
+    "FCT-a88c76e173adabe4",
+    "FCT-4cff6347de1fd0c7",
+    "FCT-acb28fb129e07fa4",
+    "FCT-0bf286016b23ecd2"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "id": "REL-0001",
+        "subject_id": "NPC-0006",
+        "relation": "MEMBER_OF",
+        "object_id": "FAM-0004",
+        "period": null,
+        "episodes": [
+          "EP00",
+          "EP01",
+          "EP03",
+          "EP04",
+          "EP05",
+          "EP06",
+          "EP07",
+          "EP08",
+          "EP09",
+          "EP10",
+          "EP11",
+          "EP12",
+          "EP13",
+          "EP14",
+          "EP15",
+          "EP16",
+          "EP17",
+          "EP18",
+          "EP19",
+          "EP20",
+          "EP21",
+          "EP22",
+          "EP23",
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Sütçüoğlu Ailesi'nin prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu Ailesi'nin prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP01",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu Ailesi'nin prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir ve babasına mektup yazmıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP06",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP07",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sütçüoğlu prensesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0002",
+        "subject_id": "NPC-0006",
+        "relation": "FUGITIVE_FROM",
+        "object_id": "FAM-0004",
+        "period": null,
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ailesinden ve süt kompleksinden kaçmıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/1"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0380",
+        "subject_id": "NPC-0025",
+        "relation": "MEMBER_OF",
+        "object_id": "FAM-0004",
+        "period": null,
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Akmer'in amcasıdır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0002",
+        "episode": "EP00",
+        "period": null,
+        "title": "Akmer'in aileden kaçışı",
+        "summary_fact_id": "FCT-2d75c1dde0c22542",
+        "event_status": "historical",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/0/facts/4"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006"
+        ],
+        "location_ids": [],
+        "related_entity_ids": [
+          "FAM-0004",
+          "KNG-0005"
+        ]
+      },
+      {
+        "event_id": "EVT-0063",
+        "episode": "EP24",
+        "period": null,
+        "title": "Doktor Aktar'ın lanetinin hatırlanması",
+        "summary_fact_id": "FCT-7f0a366bdacaa0d1",
+        "event_status": "historical",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/5/facts/0"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/5/facts/1"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/lore/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0025"
+        ],
+        "location_ids": [],
+        "related_entity_ids": [
+          "FAM-0004",
+          "NPC-0006"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-2d75c1dde0c22542",
+        "entity_id": "EVT-0002",
+        "fact": {
+          "id": "FCT-2d75c1dde0c22542",
+          "text": "Akmer, ailesinin ineklerini ve süt kompleksini özgürleştirme amacıyla ailesinden kaçar; canlı getirilmesi için ödül konur.",
+          "assertions": [
+            {
+              "period": null,
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP00",
+                  "pointer": "/entities/0/facts/4"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-7f0a366bdacaa0d1",
+        "entity_id": "EVT-0063",
+        "fact": {
+          "id": "FCT-7f0a366bdacaa0d1",
+          "text": "Akmer'in amcası Doktor Aktar'ın hazır gıda tozları ürettiği için lanetlenip süt denizinin dibine hapsedildiği anlatılır. Olayın tarihi ve denizin konumu bilinmez.",
+          "assertions": [
+            {
+              "period": null,
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/5/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/5/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/lore/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP00",
+      "number": 0,
+      "title": "DnD: EJDER SOFRASI 00 - MACERA BAŞLIYOR! Revania Krallığı ve O'Rus Adnan",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP01",
+      "number": 1,
+      "title": "DnD: EJDER SOFRASI 01 - GEMİLER, KÖLELER ve KEDİLER",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP03",
+      "number": 3,
+      "title": "DnD: EJDER SOFRASI 03 - GİZEMLER ADASI ve MEGA TİMSAH",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP04",
+      "number": 4,
+      "title": "DnD: EJDER SOFRASI 04 - GİZEMLİ CANAVARLAR ve CEMİL",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP05",
+      "number": 5,
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP07",
+      "number": 7,
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP11",
+      "number": 11,
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP13",
+      "number": 13,
+      "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP21",
+      "number": 21,
+      "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP24",
+      "number": 24,
+      "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canonical family spelling takes priority; no family membership inferred.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": "/entities/13"
+        }
+      ],
+      "before": [
+        "Sütçüoğlu Ailesi",
+        "Sütçuoğlu Ailesi"
+      ],
+      "after": "FAM-0004"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0025",
+      "slug": "doktor-aktar",
+      "name": "Doktor Aktar",
+      "type": "PERSON",
+      "aliases": [
+        "Aktar Amca",
+        "Doktor Aktar Amca"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 1
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/0/facts/4"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/13/facts/1"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/13/n"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/1"
+      },
+      {
+        "source_id": "SRC-EP00"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/12/n"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP01"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP03"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/21/a/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/21/n"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP04"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/12/n"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP05"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/17/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/17/n"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP06"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/18/a/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/18/facts/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/18/n"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP07"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/24/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/24/n"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/32"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/32/a/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/32/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/32/n"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/22/n"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP10"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/21/a/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/21/n"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP11"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/32"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/32/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/32/n"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/23/n"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/27"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/27/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/27/n"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/38"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/38/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/38/n"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/36"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/36/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/36/n"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/41"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/41/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/41/n"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/28/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/28/n"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP18"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/28/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/28/n"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP20"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/17/n"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP21"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/21/n"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP22"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/32"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/32/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/32/n"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP23"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/21/n"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/lore/2"
+      },
+      {
+        "source_id": "SRC-EP24"
+      }
+    ],
+    "counts": {
+      "facts": 9,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 3,
+      "timeline_events": 2,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 24,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

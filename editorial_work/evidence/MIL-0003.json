@@ -1,0 +1,278 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "MIL-0003",
+    "slug": "limonkalkan-bolugu",
+    "name": "Limonkalkan Bölüğü",
+    "type": "MILITARY_UNIT",
+    "aliases": [
+      "Limon Kalkan Şövalyeleri"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP00"
+    ],
+    "first_appearance": "EP00",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 3
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/15"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Limon Kalkan Şövalyeleri",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP00",
+            "pointer": "/entities/15/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP00",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-87cbd62308ad211a",
+      "text": "Revania Krallığı'nın ve Revanya şehrinin asayişinden sorumlu, limon motifi ve sarı kalkanlar taşıyan askeri şövalye birliği.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP00",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-87cbd62308ad211a"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0014",
+        "subject_id": "MIL-0003",
+        "relation": "SERVES",
+        "object_id": "KNG-0005",
+        "period": null,
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Revania Krallığı'nın asayiş birliğidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0011",
+        "subject_id": "NPC-0063",
+        "relation": "COMMANDS",
+        "object_id": "MIL-0003",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Limonkalkan Bölüğü'nün komutanıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0012",
+        "subject_id": "NPC-0096",
+        "relation": "SERVES",
+        "object_id": "MIL-0003",
+        "period": null,
+        "episodes": [
+          "EP00"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Limonkalkan Bölüğü'nde şeftir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP00",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP00",
+      "number": 0,
+      "title": "DnD: EJDER SOFRASI 00 - MACERA BAŞLIYOR! Revania Krallığı ve O'Rus Adnan",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP00",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "KNG-0005",
+      "slug": "revania-kralligi",
+      "name": "Revania Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Revanya",
+        "Revanya Şehir Devleti"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0063",
+      "slug": "mehmet-bey",
+      "name": "Mehmet Bey",
+      "type": "PERSON",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0096",
+      "slug": "turunc-bey",
+      "name": "Turunç Bey",
+      "type": "PERSON",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 3
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/15/a/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP00",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP00"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 2,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

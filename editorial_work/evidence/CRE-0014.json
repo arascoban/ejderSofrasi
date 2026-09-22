@@ -1,0 +1,405 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "CRE-0014",
+    "slug": "kainatin-salatasi",
+    "name": "Kainatın Salatası",
+    "type": "CREATURE",
+    "aliases": [
+      "Gavurdağı Golemi",
+      "Gavurdağı Salatası Canavarı",
+      "Çemenli Golem",
+      "Çiğ Köfte ve Salata Golemi"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP24"
+    ],
+    "first_appearance": "EP24",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-BOSSES",
+        "line": 5
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/7"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Gavurdağı Golemi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/7/n"
+          }
+        ]
+      },
+      {
+        "name": "Gavurdağı Salatası Canavarı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/7/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Çemenli Golem",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/7/a/2"
+          }
+        ]
+      },
+      {
+        "name": "Çiğ Köfte ve Salata Golemi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/7/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP24",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-150c02227a57c518",
+      "text": "5. salonda zemindeki ceviz, soğan, domates, nar ekşisi, sumak, zeytinyağı ve biberlerin toplanmasıyla oluşan 2 insan boyunda tepeleme devasa canlı salata golemi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-19b940ff920dfc61",
+      "text": "Ceviz mermileri fırlatır, soğan kollarıyla vurur ve karabiber/sumak aurası yayarak çevresindekilere fiziksel dezavantaj verir; kalbinde Ametist Ejderha Kristali'ni taşır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/7/facts/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-150c02227a57c518",
+    "FCT-19b940ff920dfc61"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0520",
+        "subject_id": "CRE-0014",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "5. salonda ortaya çıkmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0522",
+        "subject_id": "ITM-0002",
+        "relation": "INSIDE",
+        "object_id": "CRE-0014",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Crystal was initially held in the golem's core; episode event describes its subsequent removal.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/entities/6/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0061",
+        "episode": "EP24",
+        "period": "1300 civarı",
+        "title": "Gavurdağı Golemi ve Ametist Kristali'nin açığa çıkışı",
+        "summary_fact_id": "FCT-a9e1f3b62554a791",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/4/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0014",
+          "CRE-0027",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "ITM-0002",
+          "ITM-0012"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-a9e1f3b62554a791",
+        "entity_id": "EVT-0061",
+        "fact": {
+          "id": "FCT-a9e1f3b62554a791",
+          "text": "Yokoluş Bey golemi ısırır; Akmer baltasıyla gövdeyi yararak merkezindeki Ametist Kristali'ni dışarı çıkarır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/4/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP24",
+      "number": 24,
+      "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed Kainatın Salatası and Gavurdağı Golemi are the same creature.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-BOSSES",
+          "line": 5
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/7"
+        }
+      ],
+      "before": [
+        "Kainatın Salatası",
+        "Gavurdağı Golemi"
+      ],
+      "after": "CRE-0014"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "ITM-0002",
+      "slug": "ametist-ejderha-kristali",
+      "name": "Ametist Ejderha Kristali",
+      "type": "ITEM",
+      "aliases": [
+        "20 Yüzlü Ametist Taş",
+        "Ametist Bekçi",
+        "Ametist Kristali"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0001",
+      "slug": "ejderhalar-sofrasi-harabeleri",
+      "name": "Ejderhalar Sofrası Harabeleri",
+      "type": "TEMPLE",
+      "aliases": [
+        "Gizemli Şef Ejderha Mabedi",
+        "Terfedilmiş Tarifler Kuyusu",
+        "Yaratılışın Kileri",
+        "Ziyafet Mabedi",
+        "Çöl Harabeleri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-BOSSES",
+        "line": 5
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/7/a/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/7/n"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP24"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 1,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

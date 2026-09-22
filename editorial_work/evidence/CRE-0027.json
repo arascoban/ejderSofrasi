@@ -1,0 +1,873 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "CRE-0027",
+    "slug": "yokolus-bey",
+    "name": "Yokoluş Bey",
+    "type": "CREATURE",
+    "aliases": [
+      "İto'nun Sırtındaki Ağız",
+      "Kozmik Parazit Ağız",
+      "Yok Oluş Bey"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP18",
+      "EP19",
+      "EP23",
+      "EP24"
+    ],
+    "first_appearance": "EP18",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 102
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "İto'nun Sırtındaki Ağız",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/7/a/0"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/7/a/0"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/4/a/0"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/4/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Kozmik Parazit Ağız",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/7/a/1"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/7/a/1"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/4/a/1"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/4/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Yok Oluş Bey",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/7/n"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/7/n"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/4/n"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/4/n"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP24",
+        "kinds": [
+          "entity_record",
+          "event_reference"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-fa4815fdca798823",
+      "text": "İto İtoğlu'nun sırtında yetişen, zırhı yararak dışarı çıkan, sivri balık dişlerine ve bilince sahip olan kozmik parazit canlı ağız.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f53322f77f9b8b8a",
+      "text": "Kendi ağzından 'Bana Yok Oluş Bey diyeceksiniz', 'Ben kaosum, karanlığım, yok oluşum' ifadelerini söylemiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/7/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-83a4332228f34605",
+      "text": "Nezarethane koridorunda kışla muhafızlarından birinin iki parmağını ısırmış, kopardıktan sonra masaya tükürmüş ve arbedede muhafızlara saldırmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/7/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-69e7ff06862e002a",
+      "text": "İto'nun sırtındaki kozmik parazit ağız; EP19 süresince uykuya dalmış ve tepki vermemiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-68deb1482d57f0a9",
+      "text": "İto İtoğlu'nun sırtında büyüyen kozmik parazit canlı ağız.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1d5e5111553f14b2",
+      "text": "EP23'te uyanarak 'Burası çok lezzetli kokuyor, Kalender'in götünden bir parça ısırayım, vasat köpeği yiyeyim' diye bağırmış, Kalender sırtına vurunca susmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f65c57d59bd20cc7",
+      "text": "Kurutulmuş ve füme et kokularını duyduğunda acıktığını söyleyerek et ve pastırma talep etmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e24fa65140a0c69c",
+      "text": "İto İtoğlu'nun sırtında yaşayan, lezzetli yemek ve taze et kokularıyla çıldıran kozmik parazit canlı ağız.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-8da37eb3aacd98a8",
+      "text": "5. salondaki nar ekşili, cevizli, sumaklı ve çemenli Gavurdağı Golemi'ni 'tanrıların ve yaratılışın nar ekşisi' olarak adlandırıp devasa ağzıyla gövdeye dalmış ve boss yaratığın canını yarı yarıya düşürmüştür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-fa4815fdca798823",
+    "FCT-f53322f77f9b8b8a",
+    "FCT-83a4332228f34605",
+    "FCT-69e7ff06862e002a",
+    "FCT-68deb1482d57f0a9",
+    "FCT-1d5e5111553f14b2",
+    "FCT-f65c57d59bd20cc7",
+    "FCT-e24fa65140a0c69c",
+    "FCT-8da37eb3aacd98a8"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0479",
+        "subject_id": "CRE-0027",
+        "relation": "PART_OF",
+        "object_id": "NPC-0046",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP18",
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "İto'nun sırtında yaşayan parazit ağızdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "İto'nun sırtındaki parazit ağızdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0314",
+        "subject_id": "CRE-0027",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0018",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kışla nezarethanesinde muhafızın parmaklarını ısırmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0306",
+        "subject_id": "NPC-0046",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "CRE-0027",
+        "period": null,
+        "episodes": [
+          "EP18",
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Sırtında Yok Oluş Bey adlı parazit ağız büyümektedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Sırtındaki Yok Oluş Bey ile diyalog kurmuştur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/5"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0038",
+        "episode": "EP18",
+        "period": "1300 civarı",
+        "title": "Yokoluş Bey'in kendini açıklaması ve gözaltı",
+        "summary_fact_id": "FCT-d7d8cce70b0f7a50",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/7/facts/1"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/7/facts/2"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/2/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0027",
+          "NPC-0046",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0018"
+        ],
+        "related_entity_ids": []
+      },
+      {
+        "event_id": "EVT-0061",
+        "episode": "EP24",
+        "period": "1300 civarı",
+        "title": "Gavurdağı Golemi ve Ametist Kristali'nin açığa çıkışı",
+        "summary_fact_id": "FCT-a9e1f3b62554a791",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/4/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0014",
+          "CRE-0027",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "ITM-0002",
+          "ITM-0012"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-d7d8cce70b0f7a50",
+        "entity_id": "EVT-0038",
+        "fact": {
+          "id": "FCT-d7d8cce70b0f7a50",
+          "text": "İto'nun sırtındaki bilinçli parazit kendini Yok Oluş Bey diye tanıtır. İto ve Roary nezarethaneye kapatılır; parazit bir muhafızın parmaklarını ısırır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/entities/7/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/entities/7/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/entities/2/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-a9e1f3b62554a791",
+        "entity_id": "EVT-0061",
+        "fact": {
+          "id": "FCT-a9e1f3b62554a791",
+          "text": "Yokoluş Bey golemi ısırır; Akmer baltasıyla gövdeyi yararak merkezindeki Ametist Kristali'ni dışarı çıkarır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/4/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP24",
+      "number": 24,
+      "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Orthographic whitespace normalization of the explicitly self-named parasite; Canon provides Yokoluş Bey. Keep separate from Işık Tacı and host İto.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/7/facts/1"
+        }
+      ],
+      "before": [
+        "Yok Oluş Bey",
+        "Yokoluş Bey"
+      ],
+      "after": "CRE-0027"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canonical spacing of the explicitly named parasitic mouth.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/7"
+        }
+      ],
+      "before": [
+        "Yok Oluş Bey",
+        "Yokoluş Bey"
+      ],
+      "after": "CRE-0027"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0018",
+      "slug": "col-sehri-kislasi",
+      "name": "Çöl Şehri Kışlası",
+      "type": "BUILDING",
+      "aliases": [
+        "Baraks",
+        "Karargah",
+        "Kışla",
+        "Kışla Nezarethanesi",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0001",
+      "slug": "ejderhalar-sofrasi-harabeleri",
+      "name": "Ejderhalar Sofrası Harabeleri",
+      "type": "TEMPLE",
+      "aliases": [
+        "Gizemli Şef Ejderha Mabedi",
+        "Terfedilmiş Tarifler Kuyusu",
+        "Yaratılışın Kileri",
+        "Ziyafet Mabedi",
+        "Çöl Harabeleri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 102
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7/facts/2"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/7/n"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP18"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/7/n"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/4/n"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/5"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP23"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4/n"
+      },
+      {
+        "source_id": "SRC-EP24"
+      }
+    ],
+    "counts": {
+      "facts": 9,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 1,
+      "timeline_events": 2,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 4,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

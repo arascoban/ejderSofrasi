@@ -1,0 +1,3238 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0060",
+    "slug": "kizil-komutan-sancar",
+    "name": "Kızıl Komutan Sancar",
+    "type": "PERSON",
+    "aliases": [
+      "Başkomutan",
+      "Büyük Komutan",
+      "Derbaş",
+      "Komutan",
+      "Kızıl Komutan",
+      "Kızıl Komutan (Baba)"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP13",
+      "EP14",
+      "EP15",
+      "EP16",
+      "EP17",
+      "EP18",
+      "EP19",
+      "EP20",
+      "EP22"
+    ],
+    "first_appearance": "EP13",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 75
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/20"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Başkomutan",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/5/a/1"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/6/a/2"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/4/a/2"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/5/a/2"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/4/a/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/5/a/2"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/5/a/2"
+          }
+        ]
+      },
+      {
+        "name": "Büyük Komutan",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/20/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Derbaş",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/4/a/0"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/5/a/0"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/6/a/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/4/a/1"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/5/a/1"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/4/a/1"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/5/a/1"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/5/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Komutan",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/4/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Kızıl Komutan",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/4/n"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/4/a/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/5/a/2"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/6/a/0"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/4/a/0"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/5/a/0"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/4/a/0"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/5/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/5/a/0"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/20/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Kızıl Komutan (Baba)",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/5/n"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP13",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record",
+          "event_reference"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-64e3d4aa4f379b4c",
+      "text": "Yaz Helvası Krallığı Çöl Şehri'nin en yüksek rütbeli, disiplinli, spartalı kasklı, çakmak çakmak sarı gözlü ve geniş omuzlu emektar başkomutanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-83e049d7e2af56f1",
+      "text": "Toplantı odasında maceracılarla pazarlık yaparken İto'nun fırlattığı hançerle boğazından vurulup 46 hasar almış, ancak Second Wind gücüyle ayakta kalıp hançeri söküp çıkarmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-faa440e1f298182b",
+      "text": "Surlara çıkarak gür sesiyle halka Kalender ve ekibinin kraliyet karşıtı teröristler olduğunu ilan etmiş, ancak Pastırman'ın dev demir eli ortaya çıkınca ve Kalender boğazını şifalandırınca ikna olup geri çekilmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-222e15895c78e48b",
+      "text": "Yaz Helvası Krallığı Çöl Şehri'nin en kıdemli başkomutanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e62a23de419ad54e",
+      "text": "Kışladaki odasında Roary ile görüşmüş, oğlunun aksine maceracıları şehri korumak için cepheye sürmek istemiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-60060cccc24e7ef6",
+      "text": "Devran'ın büyülü kaskı üzerinden Arifler bağlantısıyla Devran'ın ağzından konuşarak maceracılarla gergin görüşme yapmıştır; gerçek bağlantı Devran kaskını çıkarınca anlaşılmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/5/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6a7e831813319539",
+      "text": "Yaz Helvası Krallığı Çöl Şehri başkomutanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-db50b61e6c73a1ac",
+      "text": "Roary'nin güvenliği için yanına 4-5 koruma muhafız görevlendirmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-368920def9b912b8",
+      "text": "Arifler Okulu bahçesindeki canlı bomba patlamasından kıl payı kurtulmuş, sorgulanan ajanın itirafları üzerine 1. Bölge Bakımevi'ne baskın emri vermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/6/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-47d853806411e5f7",
+      "text": "Pastırman Mitingi'nin organizasyonunu üstlenmiş, Kalender'i halka tanıtmış ve kuşatma ordusu saldırdığında şehri savunma emri vermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-8aa16e32276591f0",
+      "text": "3. Duvar'dan 1. Duvar'a geçişi koordine etmiş, 1. Duvar üzerindeki büyülü diafondan Kavurhan ile müzakere yapmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-0d1c1899b09c157c",
+      "text": "Duello sonrası er meydanındaki saha çadırına gelerek Kavurhan, Kalender ve maceracılarla pazarlık masasına oturmuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/5/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e7fe21a535983542",
+      "text": "Çöl Şehri 3. Bölge Kışlası toplantı odasında camdan giren 4 adet özel yapım suikast okuyla (2 ok boynuna, ardından 2 ok daha) vurularak ÖLDÜRÜLMÜŞTÜR.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-97573628a83067b1",
+      "text": "Kalender Tütüncüoğlu tarafından öldüğü doğrulanıp bedeni masanın üzerine yatırılmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6d6f5df32fa35a07",
+      "text": "EP18'de suikast sonucu öldürülen Yaz Helvası Krallığı Çöl Şehri başkomutanı; ölümü şehirde sokağa çıkma yasağına ve iç karışıklığa sebep olmuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-da6b0d1a074331f3",
+      "text": "EP18'de suikast sonucu öldürülen Yaz Helvası Krallığı Çöl Şehri başkomutanı; öngördüğü gibi Çöl Şehri 1. Bölge kapıları düşmüştür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a63837d34e4e62ca",
+      "text": "Hulusi'nin günlüğünde 'Büyük Komutan' olarak bahsettiği, Hulusi'ye şehirden fazla uzaklaşmaması talimatını veren mahlul Çöl Şehri başkomutanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/20/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-feb4936a2b4d69ab",
+      "text": "Arifler Loncası bağlantısıyla Devran'ın ağzından konuşmuştur; o sırada karakterler bunun Sancar olduğunu fark etmemiş, Devran kaskını çıkarınca bağlantı kopmuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/5/facts/2"
+            },
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-057b3a17647a6cbd",
+      "text": "Kalender ile anlaşarak Pastırman mitingine izin vermiş, dini konuların savaş bittikten sonra konuşulmasını şart koşmuştur; kraliyet ailesinin tepkisi bilinmemektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/uncertainties/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a477dbf3cbab8b56",
+      "text": "Yaz Helvası Krallığı'nın en yüksek rütbeli komutanıdır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/uncertainties/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-64e3d4aa4f379b4c",
+    "FCT-83e049d7e2af56f1",
+    "FCT-faa440e1f298182b",
+    "FCT-222e15895c78e48b",
+    "FCT-e62a23de419ad54e",
+    "FCT-60060cccc24e7ef6",
+    "FCT-6a7e831813319539",
+    "FCT-db50b61e6c73a1ac",
+    "FCT-368920def9b912b8",
+    "FCT-47d853806411e5f7",
+    "FCT-8aa16e32276591f0",
+    "FCT-0d1c1899b09c157c",
+    "FCT-e7fe21a535983542",
+    "FCT-97573628a83067b1",
+    "FCT-6d6f5df32fa35a07",
+    "FCT-da6b0d1a074331f3",
+    "FCT-a63837d34e4e62ca",
+    "FCT-feb4936a2b4d69ab",
+    "FCT-057b3a17647a6cbd",
+    "FCT-a477dbf3cbab8b56"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0238",
+        "subject_id": "NPC-0060",
+        "relation": "WORKS_IN",
+        "object_id": "BLD-0018",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP13"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "3. Bölge Kışlası'nın başkomutanıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0239",
+        "subject_id": "NPC-0060",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP13",
+          "EP14",
+          "EP15",
+          "EP16"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı'nın en kıdemli başkomutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkomutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkomutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkomutanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0270",
+        "subject_id": "NPC-0060",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0023",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Arifler Okulu bahçesindeki patlamada bulunmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0284",
+        "subject_id": "NPC-0060",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0020",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP16"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Pastırman Mitingi'nde Kalender ile birlikte yükselmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0500",
+        "subject_id": "NPC-0060",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP17",
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı başkomutanıdır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Yaz Helvası Krallığı başkomutanı iken suikast sonucu öldürülmüştür.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0296",
+        "subject_id": "NPC-0060",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0005",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Saha çadırında pazarlık yapmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0308",
+        "subject_id": "NPC-0060",
+        "relation": "DIED_IN",
+        "object_id": "BLD-0018",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "3. Bölge Kışlası toplantı odasında oklarla vurularak öldürülmüştür.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0312",
+        "subject_id": "NPC-0060",
+        "relation": "PARENT_OF",
+        "object_id": "NPC-0023",
+        "period": null,
+        "episodes": [
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Sancar Devran Devran'ın babasıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0363",
+        "subject_id": "NPC-0060",
+        "relation": "HISTORICALLY_ASSOCIATED_WITH",
+        "object_id": "NPC-0042",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hulusi'ye kervansarayda beklemesini söyleyen Büyük Komutan'dır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/26"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0412",
+        "subject_id": "NPC-0060",
+        "relation": "PARENT_OF",
+        "object_id": "NPC-0023",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "The young commander is explicitly described as Kızıl Komutan’s son.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/entities/6/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0235",
+        "subject_id": "NPC-0046",
+        "relation": "ENEMY_OF",
+        "object_id": "NPC-0060",
+        "period": null,
+        "episodes": [
+          "EP13"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kızıl Komutan'ın boğazına hançer saplayarak 46 hasar vermiştir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0286",
+        "subject_id": "NPC-0033",
+        "relation": "CHILD_OF",
+        "object_id": "NPC-0060",
+        "period": null,
+        "episodes": [
+          "EP16"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Sancar Devran'ın kızıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0311",
+        "subject_id": "NPC-0023",
+        "relation": "CHILD_OF",
+        "object_id": "NPC-0060",
+        "period": null,
+        "episodes": [
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "uncertain",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0078",
+        "episode": "EP13",
+        "period": "1300 civarı",
+        "title": "Kışla görüşmesinin çatışmaya dönüşmesi",
+        "summary_fact_id": "FCT-6a5beeb2d1a3c40d",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/2/facts/2"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0047",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083",
+          "NPC-0087"
+        ],
+        "location_ids": [
+          "BLD-0018"
+        ],
+        "related_entity_ids": []
+      },
+      {
+        "event_id": "EVT-0079",
+        "episode": "EP13",
+        "period": "1300 civarı",
+        "title": "Pastırman’ın demir el mucizesi",
+        "summary_fact_id": "FCT-8e08aef62c318688",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/1/facts/3"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/8/facts/1"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/lore/0/fact"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0020"
+        ],
+        "related_entity_ids": [
+          "BLD-0003",
+          "DEI-0011"
+        ]
+      },
+      {
+        "event_id": "EVT-0080",
+        "episode": "EP13",
+        "period": "1300 civarı",
+        "title": "Komutanla geçici uzlaşma",
+        "summary_fact_id": "FCT-728c311af6dd12ad",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/1/facts/4"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/4/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051",
+          "NPC-0060"
+        ],
+        "location_ids": [
+          "BLD-0020"
+        ],
+        "related_entity_ids": [
+          "DEI-0011"
+        ]
+      },
+      {
+        "event_id": "EVT-0081",
+        "episode": "EP14",
+        "period": "1300 civarı",
+        "title": "Kartal Sniper’ın kimliğinin açıklanması",
+        "summary_fact_id": "FCT-536f6f3b821c5094",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/6/facts/0"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/6/facts/1"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/lore/2/fact"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0023",
+          "NPC-0046",
+          "NPC-0051"
+        ],
+        "location_ids": [
+          "TAV-0001"
+        ],
+        "related_entity_ids": [
+          "NPC-0060"
+        ]
+      },
+      {
+        "event_id": "EVT-0083",
+        "episode": "EP14",
+        "period": "1300 civarı",
+        "title": "Roary’nin ayrı güzergâhı ve komutanla görüşmesi",
+        "summary_fact_id": "FCT-3164285185ca11ad",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/3"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/4"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0060",
+          "NPC-0082",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0018",
+          "BLD-0023",
+          "NAT-0008"
+        ],
+        "related_entity_ids": [
+          "CRE-0012",
+          "CRE-0026"
+        ]
+      },
+      {
+        "event_id": "EVT-0085",
+        "episode": "EP15",
+        "period": "1300 civarı",
+        "title": "Arifler bahçesine intihar saldırısı",
+        "summary_fact_id": "FCT-8e4de08a26ae8c23",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/1/facts/4"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/2/facts/3"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/3/facts/4"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/36/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083",
+          "NPC-0089"
+        ],
+        "location_ids": [
+          "BLD-0023"
+        ],
+        "related_entity_ids": [
+          "ITM-0031",
+          "MIL-0006"
+        ]
+      },
+      {
+        "event_id": "EVT-0086",
+        "episode": "EP15",
+        "period": "1300 civarı",
+        "title": "Bakımevi hücresinin ortaya çıkarılması",
+        "summary_fact_id": "FCT-435be189d67ff808",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/1/facts/5"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/6/facts/2"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/26/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051",
+          "NPC-0060"
+        ],
+        "location_ids": [
+          "BLD-0001",
+          "BLD-0023"
+        ],
+        "related_entity_ids": [
+          "MIL-0006"
+        ]
+      },
+      {
+        "event_id": "EVT-0091",
+        "episode": "EP16",
+        "period": "1300 civarı",
+        "title": "Pastırman mitingi ve savunma çağrısı",
+        "summary_fact_id": "FCT-257d83e53c562643",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/1/facts/4"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/22/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0020",
+          "DIS-0003"
+        ],
+        "related_entity_ids": [
+          "BLD-0003",
+          "DEI-0011"
+        ]
+      },
+      {
+        "event_id": "EVT-0034",
+        "episode": "EP17",
+        "period": "1300 civarı",
+        "title": "Bir günlük ateşkes ve müzakere",
+        "summary_fact_id": "FCT-72944933a65d8a69",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/4/facts/3"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/5/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0054",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0005"
+        ],
+        "related_entity_ids": [
+          "ITM-0021"
+        ]
+      },
+      {
+        "event_id": "EVT-0036",
+        "episode": "EP18",
+        "period": "1300 civarı",
+        "title": "Kızıl Komutan'a suikast",
+        "summary_fact_id": "FCT-e7330aeaee92a751",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/uncertainties/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0018"
+        ],
+        "related_entity_ids": [
+          "ITM-0035",
+          "NPC-0023"
+        ]
+      },
+      {
+        "event_id": "EVT-0037",
+        "episode": "EP18",
+        "period": "1300 civarı",
+        "title": "Komutanlığın devri ve olağanüstü hal",
+        "summary_fact_id": "FCT-383b86b55c4924fa",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/5/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0062"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "KNG-0008",
+          "NPC-0060"
+        ]
+      },
+      {
+        "event_id": "EVT-0042",
+        "episode": "EP19",
+        "period": "1300 civarı",
+        "title": "Kalender'in tek başına kuşatma kampına gidişi",
+        "summary_fact_id": "FCT-94d9462d9e4ab9a3",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/1/facts/3"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051",
+          "NPC-0054"
+        ],
+        "location_ids": [
+          "REG-0002"
+        ],
+        "related_entity_ids": [
+          "MIL-0004",
+          "NPC-0060"
+        ]
+      },
+      {
+        "event_id": "EVT-0052",
+        "episode": "EP22",
+        "period": "1300 civarı",
+        "title": "Hulusi'nin günlüğünün okunması",
+        "summary_fact_id": "FCT-23907cd8bd81402e",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/uncertainties/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0046"
+        ],
+        "location_ids": [
+          "BLD-0006"
+        ],
+        "related_entity_ids": [
+          "ITM-0014",
+          "NPC-0042",
+          "NPC-0060"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-6a5beeb2d1a3c40d",
+        "entity_id": "EVT-0078",
+        "fact": {
+          "id": "FCT-6a5beeb2d1a3c40d",
+          "text": "İto Kızıl Komutan’ı boğazından yaralar. Büyüyle durdurulan ekip, Roary’nin Akmer’in prangalarını açmasının ardından kışladan kaçar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/2/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-8e08aef62c318688",
+        "entity_id": "EVT-0079",
+        "fact": {
+          "id": "FCT-8e08aef62c318688",
+          "text": "Kalender’in duasına karşılık Cümle Kapısı önündeki zemin yarılır ve dev dökme demir el Kalender’i havaya kaldırır. Halkın önündeki tezahür daha sonra Demir Yumruk Anıtı olarak anılır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/1/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/8/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/lore/0/fact"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-728c311af6dd12ad",
+        "entity_id": "EVT-0080",
+        "fact": {
+          "id": "FCT-728c311af6dd12ad",
+          "text": "Mucizenin ardından Kalender komutanın boğazını iyileştirir ve ertesi gün halk önünde barışçıl görüşme yapmak üzere anlaşır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/1/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/4/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-536f6f3b821c5094",
+        "entity_id": "EVT-0081",
+        "fact": {
+          "id": "FCT-536f6f3b821c5094",
+          "text": "Büyülü kask projeksiyonuyla Batangüneş Kahvesi’ndeki görüşmeye katılan genç komutan, Niani ve İto’yu vuran keskin nişancının kendisi olduğunu itiraf eder. Babası Kızıl Komutan’dır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/6/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/6/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/lore/2/fact"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-3164285185ca11ad",
+        "entity_id": "EVT-0083",
+        "fact": {
+          "id": "FCT-3164285185ca11ad",
+          "text": "Roary gölet çevresinden bir ördek edinir; İbrahim’i sokakta bulur. Kışlada Kızıl Komutan ile görüştükten sonra izniyle Arifler yerleşkesine giderek Radam ile buluşur.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/4"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-8e4de08a26ae8c23",
+        "entity_id": "EVT-0085",
+        "fact": {
+          "id": "FCT-8e4de08a26ae8c23",
+          "text": "Siyah Ejderha fedaileri okul bahçesinde patlama düzenler. Kalender bilincini kaybeder ve kaynak yüzüğün onu ayağa kaldırdığını söyler; Roary yaralıları iyileştirir, İto çatılardaki saldırganlara karşılık verir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/1/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/2/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/3/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/36/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-435be189d67ff808",
+        "entity_id": "EVT-0086",
+        "fact": {
+          "id": "FCT-435be189d67ff808",
+          "text": "Yakalanan suikastçı sorguda birinci bölgedeki bakımevi hücresini açıklar. Kızıl Komutan buraya baskın yapılmasını emreder; baskının gerçekleştiği bu kayıtta doğrulanmaz.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/1/facts/5"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/6/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/26/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-257d83e53c562643",
+        "entity_id": "EVT-0091",
+        "fact": {
+          "id": "FCT-257d83e53c562643",
+          "text": "Kalender Cümle Kapısı önünde on binlerce kişiye hitap eder. Kızıl Komutan saldırı karşısında şehri savunma emri verir; birinci bölge mancınık atışlarından zarar görür.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/1/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/22/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-72944933a65d8a69",
+        "entity_id": "EVT-0034",
+        "fact": {
+          "id": "FCT-72944933a65d8a69",
+          "text": "Kavurhan, Kalender'in yiğitliğini kabul ederek savaşı bir gün durdurur. Komutanlar ve maceracılar saha çadırında görüşür; Kalender serçe parmağını hatıra alır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/4/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP17",
+                  "pointer": "/entities/5/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-e7330aeaee92a751",
+        "entity_id": "EVT-0036",
+        "fact": {
+          "id": "FCT-e7330aeaee92a751",
+          "text": "Sancar Devran kışlanın toplantı odasında dört özel okla öldürülür. Kalender ölümü doğrular; okların Devran için yapılmış olması saldırganın kimliğini kesinleştirmez.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/uncertainties/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-383b86b55c4924fa",
+        "entity_id": "EVT-0037",
+        "fact": {
+          "id": "FCT-383b86b55c4924fa",
+          "text": "Mareşal Cart Curtoğlu, Sancar'ın ölümünden sonra şehir yönetimini ve başkomutanlığı devralır; sokağa çıkma yasağı ve olağanüstü hal ilan eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP18",
+                  "pointer": "/entities/5/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-94d9462d9e4ab9a3",
+        "entity_id": "EVT-0042",
+        "fact": {
+          "id": "FCT-94d9462d9e4ab9a3",
+          "text": "Kalender gece çölü tek başına geçerek Kavurhan'ın kampına gider ve Sancar'ın öldürülmesini anlatır. Kavurhan genel savaş emri verir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/1/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/travel/3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-23907cd8bd81402e",
+        "entity_id": "EVT-0052",
+        "fact": {
+          "id": "FCT-23907cd8bd81402e",
+          "text": "İto günlükten Hulusi'nin saraydan sürülmesini ve Kızıl Komutan'ın yakınlarda beklemesi talimatını öğrenir. Gizli sevgilinin kimliği belirsizdir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/uncertainties/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0031",
+      "episode": "EP16",
+      "sequence": 2,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0060",
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0023",
+      "to_id": null,
+      "via_ids": [],
+      "origin": {
+        "label": "Arifler Okulu",
+        "entity_id": "BLD-0023",
+        "resolution": "exact",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "destination": {
+        "label": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+        "entity_id": null,
+        "context_id": "BLD-0020",
+        "resolution": "within_named_location"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "3. Bölge Bulvarı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "unresolved_travelers": [
+        {
+          "label": "Bando Takımı",
+          "entity_id": null
+        },
+        {
+          "label": "Muhafızlar",
+          "entity_id": null
+        }
+      ],
+      "transport": {
+        "description": "Yürüyerek & At Arabası Üzerinde",
+        "entity_ids": []
+      },
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "id": "TRV-0034",
+      "episode": "EP17",
+      "sequence": 3,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0060",
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0005",
+      "to_id": "BLD-0023",
+      "via_ids": [],
+      "origin": {
+        "label": "Er Meydanı Saha Çadırı",
+        "entity_id": "BLD-0005",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Arifler Okulu",
+        "entity_id": "BLD-0023",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "1. Duvar Kapısı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/2"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Büyülü Işınlanma",
+        "entity_ids": []
+      },
+      "reason": "Project owner confirmed there is no canonical Dimension Door; retain only the physical first-wall gate and preserve the extracted phrase as source evidence."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP13",
+      "number": 13,
+      "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP18 explicitly calls Sancar Devran Kızıl Komutan and separately identifies Devran as his son; Canon names these as Kızıl Komutan Sancar and Devran. Normalize father name only; never merge father with son.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/4"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/entities/6/facts/0"
+        },
+        {
+          "source_id": "SRC-EP18",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": [
+        "Sancar Devran",
+        "Kızıl Komutan Sancar"
+      ],
+      "after": "NPC-0060"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Explicit Kızıl Komutan aliases identify the senior commander, while source calls Devran his son. Use the canonical father’s spelling; never tokenize this compound source name into a Devran alias.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/4"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/5/a"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/6/a"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/5/facts/0"
+        }
+      ],
+      "before": [
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)",
+        "Sancar Devran",
+        "Kızıl Komutan Sancar"
+      ],
+      "after": "NPC-0060"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Arifler Okulu",
+        "to": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+        "via": [
+          "3. Bölge Bulvarı"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Sancar Devran",
+          "Bando Takımı",
+          "Muhafızlar"
+        ],
+        "transport": "Yürüyerek & At Arabası Üzerinde"
+      },
+      "after": {
+        "id": "TRV-0031",
+        "episode": "EP16",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0023",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "destination": {
+          "label": "Çöl Şehri Surları (Cümle Kapısı Meydanı)",
+          "entity_id": null,
+          "context_id": "BLD-0020",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Bulvarı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Bando Takımı",
+            "entity_id": null
+          },
+          {
+            "label": "Muhafızlar",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek & At Arabası Üzerinde",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed there is no canonical Dimension Door; retain only the physical first-wall gate and preserve the extracted phrase as source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "order": 3,
+        "from": "Er Meydanı Saha Çadırı",
+        "to": "Arifler Okulu",
+        "via": [
+          "1. Duvar Kapısı",
+          "Büyülü Dimension Door Geçidi"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Sancar Devran"
+        ],
+        "transport": "Yürüyerek & Büyülü Işınlanma"
+      },
+      "after": {
+        "id": "TRV-0034",
+        "episode": "EP17",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "from_id": "BLD-0005",
+        "to_id": "BLD-0023",
+        "via_ids": [],
+        "origin": {
+          "label": "Er Meydanı Saha Çadırı",
+          "entity_id": "BLD-0005",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "1. Duvar Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Büyülü Işınlanma",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed there is no canonical Dimension Door; retain only the physical first-wall gate and preserve the extracted phrase as source evidence."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0001",
+      "slug": "1-bolge-bakimevi",
+      "name": "1. Bölge Bakımevi",
+      "type": "BUILDING",
+      "aliases": [
+        "Bakımevi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0005",
+      "slug": "er-meydani-saha-cadiri",
+      "name": "Er Meydanı Saha Çadırı",
+      "type": "BUILDING",
+      "aliases": [
+        "Barış Çadırı",
+        "Pazarlık Çadırı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0006",
+      "slug": "tahin-saray-kervansarayi",
+      "name": "Tahin Saray Kervansarayı",
+      "type": "BUILDING",
+      "aliases": [
+        "Kervansaray",
+        "Ozempic Kervansaray",
+        "Tahin Han",
+        "Tahin Saray",
+        "Vaha Dinlenme Tesisleri",
+        "Çöl Kervansarayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0018",
+      "slug": "col-sehri-kislasi",
+      "name": "Çöl Şehri Kışlası",
+      "type": "BUILDING",
+      "aliases": [
+        "Baraks",
+        "Karargah",
+        "Kışla",
+        "Kışla Nezarethanesi",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0020",
+      "slug": "col-sehri-surlari",
+      "name": "Yaz Helvası Şehri Surları",
+      "type": "BUILDING",
+      "aliases": [
+        "3. Bölge Surları",
+        "Cümle Kapısı Meydanı",
+        "Çöl Surları",
+        "Çöl Şehri Surları",
+        "Şehir Surları"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0003",
+      "slug": "col-sehri-1-bolge",
+      "name": "Çöl Şehri 1. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Birinci Bölge",
+        "Birinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0008",
+      "slug": "yaz-helvasi-kralligi",
+      "name": "Yaz Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Yaz Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NAT-0008",
+      "slug": "col-sehri-golet-alani",
+      "name": "Çöl Şehri Gölet Alanı",
+      "type": "NATURAL_FEATURE",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0023",
+      "slug": "devran",
+      "name": "Devran",
+      "type": "PERSON",
+      "aliases": [
+        "Dubai Hurması",
+        "Genç Komutan",
+        "Kartal Sniper",
+        "Kızıl Komutan'ın Oğlu",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Oğul Komutan",
+        "Siyah Ejderha Keskin Nişancısı",
+        "Siyah Süvari",
+        "Surlar Üzerindeki Nişancı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0033",
+      "slug": "gizem",
+      "name": "Gizem",
+      "type": "PERSON",
+      "aliases": [
+        "Kızıl Komutan'ın Kızı"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0042",
+      "slug": "hulusi",
+      "name": "Hulusi",
+      "type": "PERSON",
+      "aliases": [
+        "Helvacıadelerin Hulusi",
+        "Helvacıoğlu Hulusi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0054",
+      "slug": "kavurhan-satiroglu",
+      "name": "Kavurhan Satıroğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Kavurhan",
+        "Kavurhan Bey"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0062",
+      "slug": "maresal-cart-curtoglu",
+      "name": "Mareşal Cart Curtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Cart Curt",
+        "Cart Curtoğlu Bey",
+        "Maraşel",
+        "Maraşel Cart Curtoğlu",
+        "Tümgeneral Cart Curtoğlu"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "REG-0002",
+      "slug": "pastirmanci-radikal-birlikler-askeri-kampi",
+      "name": "Pastırmancı Radikal Birlikler Askeri Kampı",
+      "type": "REGION",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "TAV-0001",
+      "slug": "batangunes-kahvesi",
+      "name": "Batangüneş Kahvesi",
+      "type": "TAVERN",
+      "aliases": [
+        "Batan Güneş Kahvesi",
+        "Batan Güneş Kıraathanesi",
+        "Emilsum'un Kahvesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 75
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/uncertainties/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4/a/2"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/4/n"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/lore/0/fact"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/a"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/a/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/a/2"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/5/n"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/lore/2/fact"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/1/facts/5"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/26/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/36/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/a"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/a/1"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/a/2"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/4/a/2"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/4/facts/3"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/5/a/1"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/5/a/2"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4/a/2"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP18"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/5/a/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/5/a/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/3"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/5/a/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/5/a/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/20/a/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/20/a/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/26"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP22"
+      }
+    ],
+    "counts": {
+      "facts": 20,
+      "relationships_outgoing": 10,
+      "relationships_incoming": 3,
+      "timeline_events": 13,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 9,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 0,
+      "linked_entities": 20
+    }
+  }
+}

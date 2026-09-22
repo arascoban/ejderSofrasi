@@ -1,0 +1,615 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0043",
+    "slug": "hinzir-zirnik",
+    "name": "Hınzır Zırnık",
+    "type": "PERSON",
+    "aliases": [
+      "Gözcübaşı Zırnık",
+      "Zırnık",
+      "Zırnık Bey",
+      "Zırnık Efendi"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP20",
+      "EP21",
+      "EP22"
+    ],
+    "first_appearance": "EP20",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/7"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Gözcübaşı Zırnık",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/8/a/0"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/6/a/2"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/7/a/2"
+          }
+        ]
+      },
+      {
+        "name": "Zırnık",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/8/n"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/6/a/0"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/7/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Zırnık Bey",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/8/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Zırnık Efendi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/6/a/1"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/7/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP21",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-3c92cbe6cc810b23",
+      "text": "Kervansaray'ın gözcübaşı; kafasında dev güneş şapkası bulunan, zırhlı, pazarlıkçı ve rüşvetçi orta yaşlı muhafız komutanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/8/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-bca4e1f8d72f9b40",
+      "text": "Yaz Helvası'ndan gelenleri içeri almama kuralına rağmen, hastalanan hayvanların iyileştirilmesi şartıyla maceracıları Kervansaray'a kabul etmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/8/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-29402fee9dd54a50",
+      "text": "Tahin Saray Kervansarayı muhafızlarının başı (gözcübaşı).",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-3465933d5a99b95e",
+      "text": "İto ile gizlice görüşerek handa huzursuzluk çıkaran ve zengin müşterileri rahatsız eden Hulusi'nin 'ortadan kaybolması' karşılığında ekibe 2. katta lüks oda tahsis edeceğini vaat etmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-486f965c7c650e7d",
+      "text": "Tahin Saray Kervansarayı gözcübaşısı; kaçış esnasında kervansarayda kargaşa çıkınca çağrılan muhafız amiri.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-3c92cbe6cc810b23",
+    "FCT-bca4e1f8d72f9b40",
+    "FCT-29402fee9dd54a50",
+    "FCT-3465933d5a99b95e",
+    "FCT-486f965c7c650e7d"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0331",
+        "subject_id": "NPC-0043",
+        "relation": "SERVES",
+        "object_id": "BLD-0006",
+        "period": null,
+        "episodes": [
+          "EP20",
+          "EP21",
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kervansaray'ın gözcübaşısıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Kervansaray muhafızlarının başıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Kervansaray gözcübaşı muhafızıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0047",
+        "episode": "EP20",
+        "period": "1300 civarı",
+        "title": "Dev kartallarla kervansaraya sığınma",
+        "summary_fact_id": "FCT-4e28050e1846fa5d",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/3/facts/3"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/8/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0043",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0006"
+        ],
+        "related_entity_ids": [
+          "CRE-0006",
+          "NPC-0099"
+        ]
+      },
+      {
+        "event_id": "EVT-0050",
+        "episode": "EP21",
+        "period": "1300 civarı",
+        "title": "Hulusi'ye suikast anlaşması",
+        "summary_fact_id": "FCT-1ef62bab9c55bcbe",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/6/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0043",
+          "NPC-0046"
+        ],
+        "location_ids": [
+          "BLD-0006"
+        ],
+        "related_entity_ids": [
+          "NPC-0042"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-4e28050e1846fa5d",
+        "entity_id": "EVT-0047",
+        "fact": {
+          "id": "FCT-4e28050e1846fa5d",
+          "text": "Roary'nin çağırdığı iki dev kartal ekibi çölde taşır. Hayvanların iyileştirilmesi koşuluyla kervansaraya kabul edilirler.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/3/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/3/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/8/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-1ef62bab9c55bcbe",
+        "entity_id": "EVT-0050",
+        "fact": {
+          "id": "FCT-1ef62bab9c55bcbe",
+          "text": "Gözcübaşı Hınzır Zırnık, Hulusi'nin ortadan kaldırılması karşılığında İto'ya lüks oda vaat eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/6/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP21",
+      "number": 21,
+      "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP21 explicitly aliases Hınzır Zırnık to Zırnık and Gözcübaşı Zırnık, continuing EP20 named guard commander.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/8"
+        },
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/entities/6"
+        }
+      ],
+      "before": [
+        "Zırnık",
+        "Hınzır Zırnık"
+      ],
+      "after": "NPC-0043"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0006",
+      "slug": "tahin-saray-kervansarayi",
+      "name": "Tahin Saray Kervansarayı",
+      "type": "BUILDING",
+      "aliases": [
+        "Kervansaray",
+        "Ozempic Kervansaray",
+        "Tahin Han",
+        "Tahin Saray",
+        "Vaha Dinlenme Tesisleri",
+        "Çöl Kervansarayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/8/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/8/a/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/8/n"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP20"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/6/a/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/6/a/2"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP21"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/7/a/2"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP22"
+      }
+    ],
+    "counts": {
+      "facts": 5,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 2,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

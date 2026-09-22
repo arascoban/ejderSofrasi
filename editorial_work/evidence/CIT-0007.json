@@ -1,0 +1,504 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "CIT-0007",
+    "slug": "yaz-helvasi-alt-sehri",
+    "name": "Yaz Helvası Alt Şehri",
+    "type": "CITY",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP07",
+      "EP08",
+      "EP17"
+    ],
+    "first_appearance": "EP07",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "editorial_descriptor",
+    "record_status": "editorial_entity_split",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11/facts/0"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP07",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-44a5551ab149227d",
+      "text": "Yaz Helvası Şehri’nin çölle bitişik alt şehridir; zemini kum ve çakıldır. Alt tabakadan insanların yaşadığı bu bölgede açlık, hastalık ve başka sıkıntılar görülür. Karakterler Şifa Zindanı çıkışında burada ortaya çıkar.",
+      "assertions": [
+        {
+          "period": "1300 civarı",
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/16/facts/0"
+            },
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-44a5551ab149227d"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0543",
+        "subject_id": "CIT-0007",
+        "relation": "PART_OF",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Alt şehir, Yaz Helvası Şehri içindeki üç şehirden biridir.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/entities/11/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0546",
+        "subject_id": "CIT-0007",
+        "relation": "BORDERS",
+        "object_id": "NAT-0007",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP07"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Alt şehir çölle bitişiktir.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP07",
+                "pointer": "/entities/16/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0547",
+        "subject_id": "CIT-0007",
+        "relation": "CONNECTED_BY_ROAD",
+        "object_id": "CIT-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Büyük ana yol alt ve orta şehirleri birbirine bağlar.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/entities/8/facts/1"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0549",
+        "subject_id": "CIT-0007",
+        "relation": "CONNECTED_TO",
+        "object_id": "CIT-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Surlar arasındaki büyülü zipline alt ve orta şehirler arasında seyahati kolaylaştırır.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/entities/28/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP07",
+      "number": 7,
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "CIT-0007",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0543"
+          ],
+          "spatial_relations": [
+            {
+              "relation": "BORDERS",
+              "target_id": "NAT-0007",
+              "relationship_id": "REL-0546"
+            },
+            {
+              "relation": "CONNECTED_BY_ROAD",
+              "target_id": "CIT-0008",
+              "relationship_id": "REL-0547"
+            },
+            {
+              "relation": "CONNECTED_TO",
+              "target_id": "CIT-0008",
+              "relationship_id": "REL-0549"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner defined the lower desert-facing city as a separate city-level map entity.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/16/facts/0"
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/11/facts/0"
+        }
+      ],
+      "after": "CIT-0007"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Zümrüt Ejderha Şifa Tapınağı",
+        "to": "Çöl Şehri",
+        "via": [
+          "Beyaz-Sarı Damarlı Merdivenler",
+          "Terk Edilmiş Ahşap Baraka"
+        ],
+        "party": [
+          "Akmer",
+          "Roary",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0013",
+        "episode": "EP07",
+        "sequence": 1,
+        "period": null,
+        "temporal_basis": "reviewed_source_context",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "TMP-0003",
+        "to_id": "CIT-0006",
+        "via_ids": [],
+        "origin": {
+          "label": "Zümrüt Ejderha Şifa Tapınağı",
+          "entity_id": "TMP-0003",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri",
+          "entity_id": "CIT-0006",
+          "resolution": "exact",
+          "reviewed_context_id": "CIT-0007"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Beyaz-Sarı Damarlı Merdivenler",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Terk Edilmiş Ahşap Baraka",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "temporal_transition",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "from_period": "1600 civarı",
+        "to_period": "1300 civarı",
+        "reason": "Project owner confirmed the physical stairs, their strange magical loop effect, and the real entrance baraka."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CIT-0008",
+      "slug": "yaz-helvasi-orta-sehri",
+      "name": "Yaz Helvası Orta Şehri",
+      "type": "CITY",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "NAT-0007",
+      "slug": "helvanar-colu",
+      "name": "Helvanar Çölü",
+      "type": "NATURAL_FEATURE",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP07"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/28/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 4,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

@@ -1,0 +1,1268 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "DIS-0003",
+    "slug": "col-sehri-1-bolge",
+    "name": "Çöl Şehri 1. Bölge",
+    "type": "DISTRICT",
+    "aliases": [
+      "Birinci Bölge",
+      "Birinci Şehir"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP15",
+      "EP16",
+      "EP17",
+      "EP19",
+      "EP20"
+    ],
+    "first_appearance": "EP15",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Birinci Bölge",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/22/a/0"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/23/a/1"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/17/a/1"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/20/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Birinci Şehir",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/23/a/0"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/17/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/20/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP15",
+        "kinds": [
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record",
+          "event_reference"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-48926a990f0fab04",
+      "text": "Şehrin en dış bölgesi; mancınık atışlarında en çok hasar gören mahalle.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-9c156a099f014805",
+      "text": "En dış mahalle; yoksul halkın, mülteci çadırlarının, toplu mezarların ve harabe binaların bulunduğu alan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/23/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d4c16d68f48a3a86",
+      "text": "Harabe binaların, toplu mezarların ve gariban yaralıların bulunduğu en dış bölge; Kalender'in bayılmasıyla 'Mehdi öldü' kaosunun yaşandığı mahalle.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-91f81efa895c426e",
+      "text": "Siyah Ordu tarafından girilip sivilleri katledilen ve yakılan dış şehir bölgesi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/20/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-48926a990f0fab04",
+    "FCT-9c156a099f014805",
+    "FCT-d4c16d68f48a3a86",
+    "FCT-91f81efa895c426e"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0481",
+        "subject_id": "DIS-0003",
+        "relation": "INSIDE",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nin en dış bölgesidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0475",
+        "subject_id": "BLD-0016",
+        "relation": "LOCATED_IN",
+        "object_id": "DIS-0003",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 1. Bölgesi'nin dış surlarıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0317",
+        "subject_id": "NPC-0006",
+        "relation": "VISITED",
+        "object_id": "DIS-0003",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "1. Bölge'de Kalender'i ayıltmaya çalışmış ve kalabalığı dağıtmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/2"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0330",
+        "subject_id": "NPC-0054",
+        "relation": "FOUGHT_IN",
+        "object_id": "DIS-0003",
+        "period": null,
+        "episodes": [
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "1. Bölge kapılarını yıkıp şehre girmiştir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/links/8"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0420",
+        "subject_id": "BLD-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "DIS-0003",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "The care home is explicitly located in the first district.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/entities/26/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0091",
+        "episode": "EP16",
+        "period": "1300 civarı",
+        "title": "Pastırman mitingi ve savunma çağrısı",
+        "summary_fact_id": "FCT-257d83e53c562643",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/1/facts/4"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/22/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0020",
+          "DIS-0003"
+        ],
+        "related_entity_ids": [
+          "BLD-0003",
+          "DEI-0011"
+        ]
+      },
+      {
+        "event_id": "EVT-0040",
+        "episode": "EP19",
+        "period": "1300 civarı",
+        "title": "Kışladan kanlı kaçış",
+        "summary_fact_id": "FCT-9c3357a27d9a7260",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/2/facts/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/3/facts/3"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0018",
+          "DIS-0003"
+        ],
+        "related_entity_ids": []
+      },
+      {
+        "event_id": "EVT-0041",
+        "episode": "EP19",
+        "period": "1300 civarı",
+        "title": "Pastırman Anıtı'nın kaybolması",
+        "summary_fact_id": "FCT-e69ee31ed7678990",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/1/facts/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/10/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0051"
+        ],
+        "location_ids": [
+          "DIS-0003"
+        ],
+        "related_entity_ids": [
+          "BLD-0003",
+          "DEI-0011"
+        ]
+      },
+      {
+        "event_id": "EVT-0044",
+        "episode": "EP20",
+        "period": "1300 civarı",
+        "title": "Çöl Şehri'nin dış surlarının düşmesi",
+        "summary_fact_id": "FCT-b78095c089cf50c6",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/20/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0054",
+          "NPC-0062"
+        ],
+        "location_ids": [
+          "DIS-0003"
+        ],
+        "related_entity_ids": [
+          "MIL-0002",
+          "MIL-0004",
+          "MIL-0007"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-257d83e53c562643",
+        "entity_id": "EVT-0091",
+        "fact": {
+          "id": "FCT-257d83e53c562643",
+          "text": "Kalender Cümle Kapısı önünde on binlerce kişiye hitap eder. Kızıl Komutan saldırı karşısında şehri savunma emri verir; birinci bölge mancınık atışlarından zarar görür.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/1/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP16",
+                  "pointer": "/entities/22/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-9c3357a27d9a7260",
+        "entity_id": "EVT-0040",
+        "fact": {
+          "id": "FCT-9c3357a27d9a7260",
+          "text": "İto muhafızları öldürür, Roary koridorda Fireball kullanır. Ekip kışladan ayrılıp şehrin dış bölgesine ulaşır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/2/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/3/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/travel/2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-e69ee31ed7678990",
+        "entity_id": "EVT-0041",
+        "fact": {
+          "id": "FCT-e69ee31ed7678990",
+          "text": "Dev demir eldiven anıtı toprağın altına çekilir; Kalender bunu ilahi terk ediliş olarak yorumlayıp güç ve inanç krizi yaşar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/1/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/10/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-b78095c089cf50c6",
+        "entity_id": "EVT-0044",
+        "fact": {
+          "id": "FCT-b78095c089cf50c6",
+          "text": "Kavurhan'ın genel taarruzunda Siyah Ejderha Ordusu dış surları aşar; ilk bölge yakılıp yağmalanır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/20/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0040",
+      "episode": "EP19",
+      "sequence": 4,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0051"
+      ],
+      "from_id": "DIS-0003",
+      "to_id": "REG-0002",
+      "via_ids": [],
+      "origin": {
+        "label": "Çöl Şehri 1. Bölge",
+        "entity_id": "DIS-0003",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Pastırmancı Radikal Birlikler Askeri Kampı",
+        "entity_id": "REG-0002",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "1. Bölge Dış Surları Yan Kapısı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        },
+        {
+          "sequence": 2,
+          "label": "Çöl Karanlığı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/3"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Koşarak (Tek Başına)",
+        "entity_ids": []
+      }
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "BLD-0001",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "DIS-0003",
+          "parent_candidate_ids": [
+            "DIS-0003"
+          ],
+          "containment_relationship_ids": [
+            "REL-0474",
+            "REL-0420"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/26"
+        }
+      ]
+    },
+    {
+      "location_id": "DIS-0003",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0481"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/22"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/23"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/17"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/20"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0016",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "DIS-0003",
+          "parent_candidate_ids": [
+            "DIS-0003"
+          ],
+          "containment_relationship_ids": [
+            "REL-0475"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/24"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "order": 3,
+        "from": "Çöl Şehri 2. Bölge",
+        "to": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+        "via": [
+          "Pastırman Anıtı Meydanı"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kalender'i Taşıyarak"
+      },
+      "after": {
+        "id": "TRV-0039",
+        "episode": "EP19",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "DIS-0004",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+          "entity_id": null,
+          "context_id": "DIS-0003",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pastırman Anıtı Meydanı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kalender'i Taşıyarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0001",
+      "slug": "1-bolge-bakimevi",
+      "name": "1. Bölge Bakımevi",
+      "type": "BUILDING",
+      "aliases": [
+        "Bakımevi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0016",
+      "slug": "col-sehri-1-bolge-surlari",
+      "name": "Çöl Şehri 1. Bölge Surları",
+      "type": "BUILDING",
+      "aliases": [
+        "1. Duvar",
+        "Birinci Duvar"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0054",
+      "slug": "kavurhan-satiroglu",
+      "name": "Kavurhan Satıroğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Kavurhan",
+        "Kavurhan Bey"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0060",
+      "slug": "kizil-komutan-sancar",
+      "name": "Kızıl Komutan Sancar",
+      "type": "PERSON",
+      "aliases": [
+        "Başkomutan",
+        "Büyük Komutan",
+        "Derbaş",
+        "Komutan",
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0062",
+      "slug": "maresal-cart-curtoglu",
+      "name": "Mareşal Cart Curtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Cart Curt",
+        "Cart Curtoğlu Bey",
+        "Maraşel",
+        "Maraşel Cart Curtoğlu",
+        "Tümgeneral Cart Curtoğlu"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "REG-0002",
+      "slug": "pastirmanci-radikal-birlikler-askeri-kampi",
+      "name": "Pastırmancı Radikal Birlikler Askeri Kampı",
+      "type": "REGION",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/26"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/26/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/22/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/23/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/23/a/1"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/17/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/17/a/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/3"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20/a/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP20"
+      }
+    ],
+    "counts": {
+      "facts": 4,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 4,
+      "timeline_events": 4,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 5,
+      "map_constraints": 3,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 11
+    }
+  }
+}

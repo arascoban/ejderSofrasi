@@ -1,0 +1,628 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "CRE-0004",
+    "slug": "dag-kartali",
+    "name": "Dağ Kartalı",
+    "type": "CREATURE",
+    "aliases": [
+      "Dağ Şahini",
+      "Dağ Şahini Kuşu",
+      "Devran'ın Kuşu",
+      "Genç Komutan'ın Kartalı",
+      "Gözcü Kuş",
+      "Yırtıcı Kuş",
+      "Şahin"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP10",
+      "EP11",
+      "EP14",
+      "EP16",
+      "EP18"
+    ],
+    "first_appearance": "EP10",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/11"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Dağ Şahini",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/15/n"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/10/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Dağ Şahini Kuşu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/15/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Devran'ın Kuşu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/11/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Genç Komutan'ın Kartalı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/12/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Gözcü Kuş",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/14/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Yırtıcı Kuş",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/10/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Şahin",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/14/a/0"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/11/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP11",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-4f214dfd6a3afd47",
+      "text": "Normalde dağlarda ve ovalarda avlanan, şehir içine girmeyen ancak Niani'nin gizli ıslık çalması üzerine Çöl Şehri semalarında sesi duyulan yırtıcı kuş.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-158e7fb20f12ee84",
+      "text": "Çöl Şehri semalarında 800-1000 metre yükseklikte uçan, Kartal Sniper ile büyülü bağ kurup gözcülük eden yırtıcı kuş.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/10/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e547c6da6e8aa597",
+      "text": "Kızıl Komutan'ın Oğluna (Kartal Sniper) gözcülük eden, gökyüzünde 6000-9000 metre yükseklikte uçan yırtıcı kuş.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/14/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-549aa006d6adca26",
+      "text": "Kızıl Komutan'ın Oğluna (Kartal Sniper) gökyüzünden gözcülük eden yırtıcı kuş.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-c77e1e350c2978a9",
+      "text": "Gökyüzünde ~3 km (9000 feet) yükseklikte uçarak Devran'a nişangah ve gözcülük sağlayan yırtıcı kuş.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-4f214dfd6a3afd47",
+    "FCT-158e7fb20f12ee84",
+    "FCT-e547c6da6e8aa597",
+    "FCT-549aa006d6adca26",
+    "FCT-c77e1e350c2978a9"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0197",
+        "subject_id": "CRE-0004",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Niani'nin gizli ıslığı üzerine Çöl Şehri semalarında sesi duyulmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/27"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0207",
+        "subject_id": "CRE-0004",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0023",
+        "period": null,
+        "episodes": [
+          "EP11",
+          "EP14",
+          "EP18"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kartal Sniper ile büyülü gözcülük bağı kurmuştur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Genç komutana gökyüzünden gözcülük etmektedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/28"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Devran'a gökyüzünden gözcülük etmektedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP18",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP11",
+      "number": 11,
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP11 explicitly aliases Dağ Şahini for the same sniper-linked scout creature.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/10/a/0"
+        },
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/10/facts/0"
+        }
+      ],
+      "before": [
+        "Dağ Kartalı",
+        "Dağ Şahini"
+      ],
+      "after": "CRE-0004"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0023",
+      "slug": "devran",
+      "name": "Devran",
+      "type": "PERSON",
+      "aliases": [
+        "Dubai Hurması",
+        "Genç Komutan",
+        "Kartal Sniper",
+        "Kızıl Komutan'ın Oğlu",
+        "Kızıl Komutan'ın Oğlu (Genç Komutan)",
+        "Oğul Komutan",
+        "Siyah Ejderha Keskin Nişancısı",
+        "Siyah Süvari",
+        "Surlar Üzerindeki Nişancı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/15/a/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/15/n"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/27"
+      },
+      {
+        "source_id": "SRC-EP10"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/10/a/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/10/a/1"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP11"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/14/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/14/a/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/14/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/28"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/11/a/1"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP18"
+      }
+    ],
+    "counts": {
+      "facts": 5,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 5,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

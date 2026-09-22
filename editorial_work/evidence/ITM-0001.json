@@ -1,0 +1,212 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "ITM-0001",
+    "slug": "aci-biberli-tereyagi-sosu",
+    "name": "Acı Biberli Tereyağı Sosu",
+    "type": "ITEM",
+    "aliases": [
+      "Acı Yağ",
+      "Füme Biberli Yağ"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP23"
+    ],
+    "first_appearance": "EP23",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/11"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Acı Yağ",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/11/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Füme Biberli Yağ",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/11/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-6ec01126c2b41cd7",
+      "text": "Ejderhalar Sofrası Harabeleri'nin ikinci metal salonunun zemininde ve duvarlarında bulunan, füme et, erimiş tereyağı ve kırmızı acı biber kokulu, son derece kaygan ve acı sos.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-6ec01126c2b41cd7"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0491",
+        "subject_id": "ITM-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nin ikinci salonunun zeminindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "TMP-0001",
+      "slug": "ejderhalar-sofrasi-harabeleri",
+      "name": "Ejderhalar Sofrası Harabeleri",
+      "type": "TEMPLE",
+      "aliases": [
+        "Gizemli Şef Ejderha Mabedi",
+        "Terfedilmiş Tarifler Kuyusu",
+        "Yaratılışın Kileri",
+        "Ziyafet Mabedi",
+        "Çöl Harabeleri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/11/a/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP23"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

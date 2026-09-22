@@ -1,0 +1,153 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "EVT-0057",
+    "slug": "ziyafet-mabedinin-kesfi",
+    "name": "Ziyafet mabedinin keşfi",
+    "type": "HISTORICAL_EVENT",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP23"
+    ],
+    "first_appearance": "EP23",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "editorial_title",
+    "record_status": "source_event",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/6/facts/1"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP23",
+        "kinds": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-7f9531cd927af0dd",
+      "text": "Ekip, dokuz ejderhanın tasvir edildiği mozaikleri ve Şef Ejderha kapılarını inceler; içerideki asidik sineklerle karşılaşır.",
+      "assertions": [
+        {
+          "period": "1300 civarı",
+          "temporal_basis": "reviewed_source_context",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/8/facts/0"
+            },
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/9/facts/0"
+            },
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-7f9531cd927af0dd"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 0
+    }
+  }
+}

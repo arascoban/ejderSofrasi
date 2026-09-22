@@ -1,0 +1,212 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "DEI-0003",
+    "slug": "aykazan",
+    "name": "Aykazan",
+    "type": "DEITY",
+    "aliases": [
+      "Ay Kazanı"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP03",
+      "EP23"
+    ],
+    "first_appearance": "EP03",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 8
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/15"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Ay Kazanı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/13/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP03",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-93b98d47532d4b89",
+      "text": "Evrendeki kutsal varlıklardan veya tanrılardan biridir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP03",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-43e99e85c6d60729",
+      "text": "Onur, adalet, hükümdarlık, cesaret ve yeminlerine sadık şövalyelerin tanrısı; Kalender'in sığınmayı düşündüğü ilah.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-93b98d47532d4b89",
+    "FCT-43e99e85c6d60729"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP03",
+      "number": 3,
+      "title": "DnD: EJDER SOFRASI 03 - GİZEMLER ADASI ve MEGA TİMSAH",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 8
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP03"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 0
+    }
+  }
+}

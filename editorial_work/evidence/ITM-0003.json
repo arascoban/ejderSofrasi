@@ -1,0 +1,221 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "ITM-0003",
+    "slug": "astralyum-tozu",
+    "name": "Astralyum Tozu",
+    "type": "ITEM",
+    "aliases": [
+      "Astralum Tozu"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP07"
+    ],
+    "first_appearance": "EP07",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-ITEMS",
+        "line": 1
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/14"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Astralum Tozu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/14/n"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP07",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-ffea470ef2e74f14",
+      "text": "Farklı boyutlar ve alemler kesiştiğinde taş aralarında kalan, büyü malzemelerinde kullanılan değerli ve nadir toz.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/14/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-ffea470ef2e74f14"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0129",
+        "subject_id": "ITM-0003",
+        "relation": "INSIDE",
+        "object_id": "TMP-0003",
+        "period": null,
+        "episodes": [
+          "EP07"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Boyut kırılmasının ardından tapınak duvarlarında kalmıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP07",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP07",
+      "number": 7,
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canonical spelling of the named magical dust.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": "/entities/14"
+        }
+      ],
+      "before": [
+        "Astralum Tozu",
+        "Astralyum Tozu"
+      ],
+      "after": "ITM-0003"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-ITEMS",
+        "line": 1
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/14"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/14/facts/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/14/n"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP07"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

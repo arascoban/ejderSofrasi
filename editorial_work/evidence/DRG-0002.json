@@ -1,0 +1,159 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "DRG-0002",
+    "slug": "bronz-ejderha",
+    "name": "Bronz Ejderha",
+    "type": "DRAGON",
+    "aliases": [
+      "Kahverengi Ejderha"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [],
+    "first_appearance": null,
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "canon_name_only",
+    "name_status": "canon_confirmed",
+    "record_status": "canon_only",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 20
+      },
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 21
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Kahverengi Ejderha",
+        "source_refs": [
+          {
+            "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+            "line": 20
+          }
+        ]
+      }
+    ],
+    "episode_connections": []
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [],
+  "fact_ids": [],
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [
+    {
+      "id": "CNF-0056",
+      "kind": "inconsistent_pantheon_count",
+      "status": "open",
+      "summary": "EP09 says nine primordial dragons yet creates Platin in addition to the nine listed in lore. Canon lists twelve dragon names. Preserve all established entities and the distinct source claims.",
+      "entity_ids": [
+        "DRG-0002",
+        "DRG-0009",
+        "DRG-0012"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/19"
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21"
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/lore/0/fact"
+        }
+      ],
+      "details": [
+        "nine named by the temple narrative, with other dragons outside that set",
+        "source’s pantheon enumeration incomplete or conflated"
+      ]
+    }
+  ],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed Bronz Ejderha and Kahverengi Ejderha are the same dragon; Metal Ejderha remains separate.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+          "line": 20
+        },
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/21"
+        }
+      ],
+      "before": [
+        "Bronz Ejderha",
+        "Kahverengi Ejderha"
+      ],
+      "after": "DRG-0002"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [],
+  "evidence": {
+    "review_status": "source_review_required",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 20
+      },
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 21
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/lore/0/fact"
+      }
+    ],
+    "counts": {
+      "facts": 0,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 0,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 1,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 0
+    }
+  }
+}

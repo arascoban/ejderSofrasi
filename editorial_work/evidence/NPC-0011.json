@@ -1,0 +1,487 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0011",
+    "slug": "aya",
+    "name": "Aya",
+    "type": "PERSON",
+    "aliases": [
+      "Büyücü Kadın",
+      "Hulusi'nin Yatak Arkadaşı",
+      "Sihirbaz Kadın"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP21",
+      "EP22"
+    ],
+    "first_appearance": "EP21",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/5"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Büyücü Kadın",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/5/n"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/5/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Hulusi'nin Yatak Arkadaşı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/5/a/0"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/5/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Sihirbaz Kadın",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/5/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP21",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-68f4231bef47d008",
+      "text": "Hulusi'nin 2. kattaki odasında onunla beraber helva yiyen, Web (Örümcek Ağı), Scorching Ray ve Misty Step büyülerini kullanabilen büyücü kadın.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-c3c7d8e56c2c9338",
+      "text": "Hulusi öldürüldüğünde panikleyerek Web büyüsüyle odayı kaplamış, Scorching Ray ile Roary'ye 22 hasar vermiş, ancak yakalandıktan sonra Hulusi ile derin bir bağı olmadığını söyleyerek İto ve Roary ile sessizlik anlaşması yapmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1d963c0326c36f39",
+      "text": "Hulusi'nin kervansaraydaki yan odasında kalan ve Hulusi'nin günlüğünde adından bahsettiği büyücü kadın.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-da75d12ff8d6a861",
+      "text": "EP21'deki arbedenin ardından odadan ayrılmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-68f4231bef47d008",
+    "FCT-c3c7d8e56c2c9338",
+    "FCT-1d963c0326c36f39",
+    "FCT-da75d12ff8d6a861"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0343",
+        "subject_id": "NPC-0011",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP21"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hulusi'nin odasında bulunmuştur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0352",
+        "subject_id": "NPC-0011",
+        "relation": "MENTIONED_WITH",
+        "object_id": "NPC-0042",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hulusi'nin günlüğünde adı geçen büyücü kadındır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0051",
+        "episode": "EP21",
+        "period": "1300 civarı",
+        "title": "Hulusi'nin öldürülmesi",
+        "summary_fact_id": "FCT-2f56a8c4a40e5d86",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/2/facts/3"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/3/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0011",
+          "NPC-0042",
+          "NPC-0046",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0006"
+        ],
+        "related_entity_ids": [
+          "DYN-0001"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-2f56a8c4a40e5d86",
+        "entity_id": "EVT-0051",
+        "fact": {
+          "id": "FCT-2f56a8c4a40e5d86",
+          "text": "İto, Roary'nin yardımıyla Hulusi'nin odasına sızıp onu öldürür. Roary cesedi yutar; odadaki büyücü kadınla sessizlik anlaşması yapılarak kadın serbest bırakılır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/2/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/3/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/3/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP21",
+      "number": 21,
+      "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP22 explicitly aliases Aya to Büyücü Kadın/Hulusi'nin Yatak Arkadaşı and refers back to the EP21 incident; same individual, not any generic mage woman elsewhere.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": "/entities/5"
+        },
+        {
+          "source_id": "SRC-EP22",
+          "pointer": "/entities/5"
+        }
+      ],
+      "before": [
+        "Büyücü Kadın",
+        "Aya"
+      ],
+      "after": "NPC-0011"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0006",
+      "slug": "tahin-saray-kervansarayi",
+      "name": "Tahin Saray Kervansarayı",
+      "type": "BUILDING",
+      "aliases": [
+        "Kervansaray",
+        "Ozempic Kervansaray",
+        "Tahin Han",
+        "Tahin Saray",
+        "Vaha Dinlenme Tesisleri",
+        "Çöl Kervansarayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0042",
+      "slug": "hulusi",
+      "name": "Hulusi",
+      "type": "PERSON",
+      "aliases": [
+        "Helvacıadelerin Hulusi",
+        "Helvacıoğlu Hulusi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/5/a/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/5/n"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP21"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/5/a/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP22"
+      }
+    ],
+    "counts": {
+      "facts": 4,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

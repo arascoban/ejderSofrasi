@@ -1,0 +1,165 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "EVT-0064",
+    "slug": "atalarin-rehberligiyle-sutlac-sinavinin-tamamlanmasi",
+    "name": "Ataların rehberliğiyle sütlaç sınavının tamamlanması",
+    "type": "HISTORICAL_EVENT",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP24"
+    ],
+    "first_appearance": "EP24",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "editorial_title",
+    "record_status": "source_event",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/3/facts/3"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP24",
+        "kinds": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-5e7d9469062bff5e",
+      "text": "Ametist Kristali mutfak sahnesini canlandırır. Akmer, Kalender ve Roary, Akmer'in kadın atalarının rehberliğiyle sütlaç hazırlayıp sınavı tamamlar.",
+      "assertions": [
+        {
+          "period": "1300 civarı",
+          "temporal_basis": "reviewed_source_context",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/0/facts/3"
+            },
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/0/facts/4"
+            },
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/1/facts/4"
+            },
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/3/facts/3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-5e7d9469062bff5e"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP24",
+      "number": 24,
+      "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP24"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 0
+    }
+  }
+}

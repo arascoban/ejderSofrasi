@@ -1,0 +1,354 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0047",
+    "slug": "isu",
+    "name": "İşü",
+    "type": "PERSON",
+    "aliases": [
+      "İşu",
+      "İşue"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP13"
+    ],
+    "first_appearance": "EP13",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 74
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/7"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "İşu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/7/n"
+          }
+        ]
+      },
+      {
+        "name": "İşue",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/7/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP13",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-24201881b6b698bd",
+      "text": "Kızıl Komutan'ın toplantı odasındaki iki yardımcısından biri; büyü yeteneklerine sahip olup İto'yu Hold Person ile dondurmuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-24201881b6b698bd"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0241",
+        "subject_id": "NPC-0047",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP13"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kızıl Komutan'ın yardımcısı büyücü subaydır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP13",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0078",
+        "episode": "EP13",
+        "period": "1300 civarı",
+        "title": "Kışla görüşmesinin çatışmaya dönüşmesi",
+        "summary_fact_id": "FCT-6a5beeb2d1a3c40d",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/2/facts/2"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0047",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083",
+          "NPC-0087"
+        ],
+        "location_ids": [
+          "BLD-0018"
+        ],
+        "related_entity_ids": []
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-6a5beeb2d1a3c40d",
+        "entity_id": "EVT-0078",
+        "fact": {
+          "id": "FCT-6a5beeb2d1a3c40d",
+          "text": "İto Kızıl Komutan’ı boğazından yaralar. Büyüyle durdurulan ekip, Roary’nin Akmer’in prangalarını açmasının ardından kışladan kaçar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/2/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP13",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP13",
+      "number": 13,
+      "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canon/characters.md confirms İşü; normalize the one-character ASR spelling while preserving original source name and İşue alias.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/7"
+        }
+      ],
+      "before": [
+        "İşu",
+        "İşü"
+      ],
+      "after": "NPC-0047"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canonical spelling of the named commander’s assistant.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": "/entities/7"
+        }
+      ],
+      "before": [
+        "İşu",
+        "İşü"
+      ],
+      "after": "NPC-0047"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0018",
+      "slug": "col-sehri-kislasi",
+      "name": "Çöl Şehri Kışlası",
+      "type": "BUILDING",
+      "aliases": [
+        "Baraks",
+        "Karargah",
+        "Kışla",
+        "Kışla Nezarethanesi",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0008",
+      "slug": "yaz-helvasi-kralligi",
+      "name": "Yaz Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Yaz Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 74
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/7/n"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP13"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

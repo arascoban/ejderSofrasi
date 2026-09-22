@@ -1,0 +1,736 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "FAC-0001",
+    "slug": "ariflerin-yumrugu",
+    "name": "Ariflerin Yumruğu",
+    "type": "FACTION",
+    "aliases": [
+      "Demir Yumruk Ekibi",
+      "Yamuk Demlik (Demir Yumruk)",
+      "Yamuk Demlik Ekibi"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP11",
+      "EP14",
+      "EP22"
+    ],
+    "first_appearance": "EP11",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 16
+      },
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 16
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/26"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Demir Yumruk Ekibi",
+        "source_refs": [
+          {
+            "source_id": "SRC-CANON-OTHER",
+            "line": 16
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/15/a/0"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/26/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Yamuk Demlik (Demir Yumruk)",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/26/n"
+          }
+        ]
+      },
+      {
+        "name": "Yamuk Demlik Ekibi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/26/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP11",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP22",
+        "kinds": [
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-157c9b7cb4694d07",
+      "text": "Ammon tarafından maceracı ekibe (Akmer, Kalender, İto, Roary) takılan, Yeşil Ejderha yadigarlarını taşıyan özel savunma ekibinin adı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-4d72aa1791617936",
+      "text": "Berosmus tarafından çizilen tabloda ekibe verilen mizahi/tarihi isim.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/26/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-157c9b7cb4694d07",
+    "FCT-4d72aa1791617936"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0208",
+        "subject_id": "FAC-0001",
+        "relation": "AFFILIATED_WITH",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP11"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ammon tarafından kurulan özel savunma ekibidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0209",
+        "subject_id": "FAC-0001",
+        "relation": "OWNS",
+        "object_id": "ITM-0017",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP11"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ammon tarafından ekibe verilmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0523",
+        "subject_id": "FAC-0001",
+        "relation": "OWNS",
+        "object_id": "ITM-0013",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed the chest and its gold were taken and the recovered gold became shared group property.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/entities/14/facts/1"
+              },
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/entities/2/facts/3"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0413",
+        "subject_id": "NPC-0006",
+        "relation": "MEMBER_OF",
+        "object_id": "FAC-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP11"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "The fact explicitly enumerates Akmer, Kalender, İto and Roary as the named team.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/entities/15/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0414",
+        "subject_id": "NPC-0051",
+        "relation": "MEMBER_OF",
+        "object_id": "FAC-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP11"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "The fact explicitly enumerates Akmer, Kalender, İto and Roary as the named team.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/entities/15/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0415",
+        "subject_id": "NPC-0046",
+        "relation": "MEMBER_OF",
+        "object_id": "FAC-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP11"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "The fact explicitly enumerates Akmer, Kalender, İto and Roary as the named team.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/entities/15/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0416",
+        "subject_id": "NPC-0083",
+        "relation": "MEMBER_OF",
+        "object_id": "FAC-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP11"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "The fact explicitly enumerates Akmer, Kalender, İto and Roary as the named team.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/entities/15/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0072",
+        "episode": "EP11",
+        "period": "1300 civarı",
+        "title": "Ariflerin Yumruğu’nun adlandırılması",
+        "summary_fact_id": "FCT-cf72f65d13874c60",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/5/facts/2"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/5/facts/3"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/15/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0023"
+        ],
+        "related_entity_ids": [
+          "FAC-0001",
+          "ITM-0017"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-cf72f65d13874c60",
+        "entity_id": "EVT-0072",
+        "fact": {
+          "id": "FCT-cf72f65d13874c60",
+          "text": "Ammon ekibe Ariflerin Yumruğu adını verir ve büyülü takibe karşı Jammerül Arif adlı kurşun muhafazayı teslim eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP11",
+                  "pointer": "/entities/5/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP11",
+                  "pointer": "/entities/5/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP11",
+                  "pointer": "/entities/15/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP11",
+      "number": 11,
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Canon explicitly joins these names with a slash.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-OTHER",
+          "line": 16
+        }
+      ],
+      "before": [
+        "Ariflerin Yumruğu",
+        "Demir Yumruk Ekibi"
+      ],
+      "after": "FAC-0001"
+    },
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP11 explicitly names the four-person team and its Demir Yumruk alias; EP14 identifies the portrait’s alternate team name. Canon/Other.md explicitly gives Ariflerin Yumruğu / Demir Yumruk Ekibi.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": "/entities/15"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/26"
+        }
+      ],
+      "before": [
+        "Yamuk Demlik (Demir Yumruk)",
+        "Ariflerin Yumruğu",
+        "Demir Yumruk Ekibi"
+      ],
+      "after": "FAC-0001"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "ITM-0013",
+      "slug": "hulusi-nin-altin-sandigi",
+      "name": "Hulusi'nin Altın Sandığı",
+      "type": "ITEM",
+      "aliases": [
+        "Hulusi'nin Hazinesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ITM-0017",
+      "slug": "jammerul-arif",
+      "name": "Jammerül Arif",
+      "type": "ITEM",
+      "aliases": [
+        "Al-Jammer",
+        "Kurşun Kutu",
+        "Kurşun Muhafaza Kutusu"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0008",
+      "slug": "yaz-helvasi-kralligi",
+      "name": "Yaz Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Yaz Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0007",
+      "slug": "raer-ammon",
+      "name": "Raer Ammon",
+      "type": "PERSON",
+      "aliases": [
+        "Ammon",
+        "Ammon Bey",
+        "Başbüyücü Ammon",
+        "Büyücü Raer",
+        "Büyük Büyücü Rer",
+        "Rael",
+        "Raer",
+        "Rer"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-OTHER",
+        "line": 16
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/15/a/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/5/facts/3"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP11"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/26"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/26/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/26/a/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/26/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/26/n"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/14/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP22"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 3,
+      "relationships_incoming": 4,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 9
+    }
+  }
+}

@@ -1,0 +1,884 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "CRE-0026",
+    "slug": "yeni-ordek",
+    "name": "Yeni Ördek",
+    "type": "CREATURE",
+    "aliases": [
+      "Ekmekçi Ördek",
+      "Yeni Ördek (Ördek-ül Deva 2)",
+      "Ördek-ül Deva 2",
+      "Ünlü Ördek"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP14",
+      "EP15",
+      "EP16",
+      "EP17",
+      "EP20"
+    ],
+    "first_appearance": "EP14",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/12"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Ekmekçi Ördek",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/13/a/0"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/13/a/0"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/9/a/0"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/12/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Yeni Ördek (Ördek-ül Deva 2)",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/13/n"
+          }
+        ]
+      },
+      {
+        "name": "Ördek-ül Deva 2",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/13/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Ünlü Ördek",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/13/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-2e05e0473c021107",
+      "text": "Roary tarafından Çöl Şehri'ndeki nargileli gölet alanında Locate Animals büyüsü ve ıslak ekmekle kandırılarak sahiplenilen, ekmek hastası beyaz ördek.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-4492835371ddaec4",
+      "text": "Roary'nin yanında gezdirdiği ekmek düşkünü ördek.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-0be63fb3fca596a1",
+      "text": "Roary'nin yanında taşıdığı, mitingde halkın ilgi odağı olan ünlü beyaz ördek.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/9/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-48c47810ad5064b8",
+      "text": "Roary'nin yanında taşıdığı ünlü beyaz ördek.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-2e05e0473c021107",
+    "FCT-4492835371ddaec4",
+    "FCT-0be63fb3fca596a1",
+    "FCT-48c47810ad5064b8"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0260",
+        "subject_id": "CRE-0026",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0083",
+        "period": null,
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Roary tarafından ekmekle kandırılarak sahiplenilmiştir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/27"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0534",
+        "subject_id": "CRE-0026",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed the unnamed duck remained in Yaz Helvası Şehri when the team fled.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/travel/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0083",
+        "episode": "EP14",
+        "period": "1300 civarı",
+        "title": "Roary’nin ayrı güzergâhı ve komutanla görüşmesi",
+        "summary_fact_id": "FCT-3164285185ca11ad",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/3"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/4"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0060",
+          "NPC-0082",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0018",
+          "BLD-0023",
+          "NAT-0008"
+        ],
+        "related_entity_ids": [
+          "CRE-0012",
+          "CRE-0026"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-3164285185ca11ad",
+        "entity_id": "EVT-0083",
+        "fact": {
+          "id": "FCT-3164285185ca11ad",
+          "text": "Roary gölet çevresinden bir ördek edinir; İbrahim’i sokakta bulur. Kışlada Kızıl Komutan ile görüştükten sonra izniyle Arifler yerleşkesine giderek Radam ile buluşur.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP14",
+                  "pointer": "/entities/3/facts/4"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0027",
+      "episode": "EP14",
+      "sequence": 3,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "CRE-0012",
+        "CRE-0026",
+        "NPC-0083"
+      ],
+      "from_id": "NAT-0008",
+      "to_id": "BLD-0023",
+      "via_ids": [
+        "DIS-0005",
+        "BLD-0018"
+      ],
+      "origin": {
+        "label": "Çöl Şehri Gölet Alanı",
+        "entity_id": "NAT-0008",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Arifler Okulu",
+        "entity_id": "BLD-0023",
+        "resolution": "exact",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "3. Bölge Cümle Kapısı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        },
+        {
+          "sequence": 2,
+          "label": "Çöl Şehri 3. Bölge",
+          "entity_id": "DIS-0005",
+          "resolution": "exact"
+        },
+        {
+          "sequence": 3,
+          "label": "Çöl Şehri Kışlası",
+          "entity_id": "BLD-0018",
+          "resolution": "exact"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/3"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "unresolved_travelers": [
+        {
+          "label": "Muhafız Askerler",
+          "entity_id": null
+        }
+      ],
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP14 introduces the acquired bread-loving duck with this qualified name; EP15 calls it Yeni Ördek and explicitly aliases Ördek-ül Deva 2. Do not merge with Roary, who also bears the Ördek-ül Deva title.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/13"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/13"
+        }
+      ],
+      "before": [
+        "Yeni Ördek (Ördek-ül Deva 2)",
+        "Yeni Ördek"
+      ],
+      "after": "CRE-0026"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/3/facts/3"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri Gölet Alanı",
+        "to": "Arifler Okulu",
+        "via": [
+          "3. Bölge Cümle Kapısı",
+          "Çöl Şehri 3. Bölge"
+        ],
+        "party": [
+          "Roary",
+          "İbrahim (Kompisaurus)",
+          "Yeni Ördek (Ördek-ül Deva 2)",
+          "Muhafız Askerler"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0027",
+        "episode": "EP14",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "CRE-0012",
+          "CRE-0026",
+          "NPC-0083"
+        ],
+        "from_id": "NAT-0008",
+        "to_id": "BLD-0023",
+        "via_ids": [
+          "DIS-0005",
+          "BLD-0018"
+        ],
+        "origin": {
+          "label": "Çöl Şehri Gölet Alanı",
+          "entity_id": "NAT-0008",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Cümle Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Çöl Şehri 3. Bölge",
+            "entity_id": "DIS-0005",
+            "resolution": "exact"
+          },
+          {
+            "sequence": 3,
+            "label": "Çöl Şehri Kışlası",
+            "entity_id": "BLD-0018",
+            "resolution": "exact"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/3/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Muhafız Askerler",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Roary’s fact explicitly records a barracks visit and meeting with the father before he allows her to continue to Arifler Okulu. This intermediate stop is omitted in the travel list."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0018",
+      "slug": "col-sehri-kislasi",
+      "name": "Çöl Şehri Kışlası",
+      "type": "BUILDING",
+      "aliases": [
+        "Baraks",
+        "Karargah",
+        "Kışla",
+        "Kışla Nezarethanesi",
+        "Çöl Şehri 3. Bölge Kışlası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0005",
+      "slug": "col-sehri-3-bolge",
+      "name": "Çöl Şehri 3. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "Üçüncü Bölge",
+        "Üçüncü Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NAT-0008",
+      "slug": "col-sehri-golet-alani",
+      "name": "Çöl Şehri Gölet Alanı",
+      "type": "NATURAL_FEATURE",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "NPC-0060",
+      "slug": "kizil-komutan-sancar",
+      "name": "Kızıl Komutan Sancar",
+      "type": "PERSON",
+      "aliases": [
+        "Başkomutan",
+        "Büyük Komutan",
+        "Derbaş",
+        "Komutan",
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0082",
+      "slug": "radam",
+      "name": "Radam",
+      "type": "PERSON",
+      "aliases": [
+        "Büyücü Radam"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/13/a/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/13/n"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/27"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/13/a/1"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/9/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP20"
+      }
+    ],
+    "counts": {
+      "facts": 4,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 5,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 8
+    }
+  }
+}

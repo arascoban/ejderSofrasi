@@ -1,0 +1,1017 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0042",
+    "slug": "hulusi",
+    "name": "Hulusi",
+    "type": "PERSON",
+    "aliases": [
+      "Helvacıadelerin Hulusi",
+      "Helvacıoğlu Hulusi"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP21",
+      "EP22",
+      "EP23"
+    ],
+    "first_appearance": "EP21",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/30"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Helvacıadelerin Hulusi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/4/a/0"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/4/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Helvacıoğlu Hulusi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/4/a/1"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/4/a/1"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/30/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP21",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-a34db821c0bf2922",
+      "text": "Yaz Helvası Krallığı'nın kadim soylu ailelerinden Helvacıoğulları (Helvacıadeler) hanedanına mensup, Yaz Helvası'ndan kovulmuş zengin asilzade.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6c852b80f5e83620",
+      "text": "Kervansaray'ın 2. katındaki lüks odada sarı zırhlı 4 özel korumasıyla konaklamakta ve han müşterileri arasında huzursuzluk çıkarmaktadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-bac89de59127794d",
+      "text": "Odasında büyücü bir kadınla yatakta helva yerken İto İtoğlu tarafından odasına sızılıp boğazı kesilerek öldürülmüş, cesedi Dev Kurbağa formundaki Roary tarafından yutulmuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f617f65cd3c888ae",
+      "text": "Helvacıoğlu Hanedanı (Helvacıadeler) mensubu, EP21'de İto tarafından öldürülen asilzade.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5b70809d4cfb55a5",
+      "text": "Kilitli günlüğünde Yaz Helvası sarayındaki genç bir soylu/kraliyet mensubuyla yaşadığı gizli platonik aşk yüzünden şehirden kovulduğunu, Kızıl Komutan'ın (Sancar Devran) 'gün gelir devran döner, şehirden uzaklaşma' talimatı üzerine Tahin Saray Kervansarayı'nda beklediğini yazmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-b89fd6775924095a",
+      "text": "İto tarafından sahte veda mektubu yazılarak çöle kaçmış gibi gösterilmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-b43d4d8d36dd1a50",
+      "text": "EP21/EP22'de öldürülen soylu; ekibin 5000+ altınını aldığı Helvacıoğlu mensubu.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/30/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-a34db821c0bf2922",
+    "FCT-6c852b80f5e83620",
+    "FCT-bac89de59127794d",
+    "FCT-f617f65cd3c888ae",
+    "FCT-5b70809d4cfb55a5",
+    "FCT-b89fd6775924095a",
+    "FCT-b43d4d8d36dd1a50"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0340",
+        "subject_id": "NPC-0042",
+        "relation": "MEMBER_OF",
+        "object_id": "DYN-0001",
+        "period": null,
+        "episodes": [
+          "EP21",
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Helvacıadeler soyundan gelmektedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Helvacıadeler soyundandır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/8"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0341",
+        "subject_id": "NPC-0042",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP21"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kervansaray'ın 2. katındaki lüks odada konaklamıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/8"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0342",
+        "subject_id": "NPC-0042",
+        "relation": "DIED_IN",
+        "object_id": "BLD-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP21",
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Tahin Saray Kervansarayı'ndaki odasında öldürülmüştür.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Tahin Saray Kervansarayı'nda öldürülmüştür.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0350",
+        "subject_id": "NPC-0042",
+        "relation": "OWNS",
+        "object_id": "ITM-0014",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kilitli günlüğün sahibidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0519",
+        "subject_id": "NPC-0042",
+        "relation": "FORMERLY_OWNED",
+        "object_id": "ITM-0013",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yatağının altındaki altın sandığının sahibidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0338",
+        "subject_id": "NPC-0046",
+        "relation": "ENEMY_OF",
+        "object_id": "NPC-0042",
+        "period": null,
+        "episodes": [
+          "EP21"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hulusi'nin boğazını keserek onu öldürmüştür.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/5"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0346",
+        "subject_id": "MIL-0001",
+        "relation": "SERVES",
+        "object_id": "NPC-0042",
+        "period": null,
+        "episodes": [
+          "EP21"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hulusi'nin özel koruma birliğidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0352",
+        "subject_id": "NPC-0011",
+        "relation": "MENTIONED_WITH",
+        "object_id": "NPC-0042",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hulusi'nin günlüğünde adı geçen büyücü kadındır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0363",
+        "subject_id": "NPC-0060",
+        "relation": "HISTORICALLY_ASSOCIATED_WITH",
+        "object_id": "NPC-0042",
+        "period": null,
+        "episodes": [
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hulusi'ye kervansarayda beklemesini söyleyen Büyük Komutan'dır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/26"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0050",
+        "episode": "EP21",
+        "period": "1300 civarı",
+        "title": "Hulusi'ye suikast anlaşması",
+        "summary_fact_id": "FCT-1ef62bab9c55bcbe",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/6/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0043",
+          "NPC-0046"
+        ],
+        "location_ids": [
+          "BLD-0006"
+        ],
+        "related_entity_ids": [
+          "NPC-0042"
+        ]
+      },
+      {
+        "event_id": "EVT-0051",
+        "episode": "EP21",
+        "period": "1300 civarı",
+        "title": "Hulusi'nin öldürülmesi",
+        "summary_fact_id": "FCT-2f56a8c4a40e5d86",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/2/facts/3"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/3/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0011",
+          "NPC-0042",
+          "NPC-0046",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0006"
+        ],
+        "related_entity_ids": [
+          "DYN-0001"
+        ]
+      },
+      {
+        "event_id": "EVT-0052",
+        "episode": "EP22",
+        "period": "1300 civarı",
+        "title": "Hulusi'nin günlüğünün okunması",
+        "summary_fact_id": "FCT-23907cd8bd81402e",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/2/facts/1"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/uncertainties/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0046"
+        ],
+        "location_ids": [
+          "BLD-0006"
+        ],
+        "related_entity_ids": [
+          "ITM-0014",
+          "NPC-0042",
+          "NPC-0060"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-1ef62bab9c55bcbe",
+        "entity_id": "EVT-0050",
+        "fact": {
+          "id": "FCT-1ef62bab9c55bcbe",
+          "text": "Gözcübaşı Hınzır Zırnık, Hulusi'nin ortadan kaldırılması karşılığında İto'ya lüks oda vaat eder.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/6/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-2f56a8c4a40e5d86",
+        "entity_id": "EVT-0051",
+        "fact": {
+          "id": "FCT-2f56a8c4a40e5d86",
+          "text": "İto, Roary'nin yardımıyla Hulusi'nin odasına sızıp onu öldürür. Roary cesedi yutar; odadaki büyücü kadınla sessizlik anlaşması yapılarak kadın serbest bırakılır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/2/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/3/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/3/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-23907cd8bd81402e",
+        "entity_id": "EVT-0052",
+        "fact": {
+          "id": "FCT-23907cd8bd81402e",
+          "text": "İto günlükten Hulusi'nin saraydan sürülmesini ve Kızıl Komutan'ın yakınlarda beklemesi talimatını öğrenir. Gizli sevgilinin kimliği belirsizdir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/entities/2/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP22",
+                  "pointer": "/uncertainties/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP21",
+      "number": 21,
+      "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0006",
+      "slug": "tahin-saray-kervansarayi",
+      "name": "Tahin Saray Kervansarayı",
+      "type": "BUILDING",
+      "aliases": [
+        "Kervansaray",
+        "Ozempic Kervansaray",
+        "Tahin Han",
+        "Tahin Saray",
+        "Vaha Dinlenme Tesisleri",
+        "Çöl Kervansarayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DYN-0001",
+      "slug": "helvacioglu-hanedani",
+      "name": "Helvacıoğlu Hanedanı",
+      "type": "DYNASTY",
+      "aliases": [
+        "Helvacıadeler",
+        "Helvacıoğulları"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ITM-0013",
+      "slug": "hulusi-nin-altin-sandigi",
+      "name": "Hulusi'nin Altın Sandığı",
+      "type": "ITEM",
+      "aliases": [
+        "Hulusi'nin Hazinesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ITM-0014",
+      "slug": "hulusi-nin-gunlugu",
+      "name": "Hulusi'nin Günlüğü",
+      "type": "ITEM",
+      "aliases": [
+        "Hulusi'nin Defteri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "MIL-0001",
+      "slug": "hulusi-nin-sari-zirhli-muhafizlari",
+      "name": "Hulusi'nin Sarı Zırhlı Muhafızları",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Hulusi'nin Korumaları",
+        "Sarı Kostümlü Korumalar"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0011",
+      "slug": "aya",
+      "name": "Aya",
+      "type": "PERSON",
+      "aliases": [
+        "Büyücü Kadın",
+        "Hulusi'nin Yatak Arkadaşı",
+        "Sihirbaz Kadın"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0043",
+      "slug": "hinzir-zirnik",
+      "name": "Hınzır Zırnık",
+      "type": "PERSON",
+      "aliases": [
+        "Gözcübaşı Zırnık",
+        "Zırnık",
+        "Zırnık Bey",
+        "Zırnık Efendi"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0060",
+      "slug": "kizil-komutan-sancar",
+      "name": "Kızıl Komutan Sancar",
+      "type": "PERSON",
+      "aliases": [
+        "Başkomutan",
+        "Büyük Komutan",
+        "Derbaş",
+        "Komutan",
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/5"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP21"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/2/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/26"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP22"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/30"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/30/a/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/30/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23"
+      }
+    ],
+    "counts": {
+      "facts": 7,
+      "relationships_outgoing": 5,
+      "relationships_incoming": 4,
+      "timeline_events": 3,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 9
+    }
+  }
+}

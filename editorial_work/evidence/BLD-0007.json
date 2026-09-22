@@ -1,0 +1,388 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "BLD-0007",
+    "slug": "kutsal-canak-ve-ejderha-mozaigi",
+    "name": "Kutsal Çanak ve Ejderha Mozaiği",
+    "type": "BUILDING",
+    "aliases": [
+      "Ejderha Çanağı Panosu",
+      "Ziyafet Mozaiği"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP23"
+    ],
+    "first_appearance": "EP23",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Ejderha Çanağı Panosu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/8/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Ziyafet Mozaiği",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/8/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-4ae4a509af00075c",
+      "text": "Ejderhalar Sofrası Harabeleri'nin girişinde ve zemininde yer alan, 9 ejderhanın bir çanak etrafında dönerek vücutlarından süzülen sıvılarla (kan/yaşam) mucizevi yaşam boncukları ürettiğini gösteren kadim mozaik ve kabartma panel.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/8/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-4ae4a509af00075c"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0492",
+        "subject_id": "BLD-0007",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP23"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri zeminindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP23",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0057",
+        "episode": "EP23",
+        "period": "1300 civarı",
+        "title": "Ziyafet mabedinin keşfi",
+        "summary_fact_id": "FCT-7f9531cd927af0dd",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/8/facts/0"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/9/facts/0"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/6/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "BLD-0007",
+          "BLD-0022",
+          "CRE-0018"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-7f9531cd927af0dd",
+        "entity_id": "EVT-0057",
+        "fact": {
+          "id": "FCT-7f9531cd927af0dd",
+          "text": "Ekip, dokuz ejderhanın tasvir edildiği mozaikleri ve Şef Ejderha kapılarını inceler; içerideki asidik sineklerle karşılaşır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/8/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/9/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP23",
+                  "pointer": "/entities/6/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "BLD-0007",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "TMP-0001",
+          "parent_candidate_ids": [
+            "TMP-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0492"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": "/entities/8"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0001",
+      "slug": "ejderhalar-sofrasi-harabeleri",
+      "name": "Ejderhalar Sofrası Harabeleri",
+      "type": "TEMPLE",
+      "aliases": [
+        "Gizemli Şef Ejderha Mabedi",
+        "Terfedilmiş Tarifler Kuyusu",
+        "Yaratılışın Kileri",
+        "Ziyafet Mabedi",
+        "Çöl Harabeleri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8/a/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8/a/1"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP23"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 5
+    }
+  }
+}

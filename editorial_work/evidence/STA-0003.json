@@ -1,0 +1,216 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "STA-0003",
+    "slug": "istakoz-ulkesi",
+    "name": "Istakoz Ülkesi",
+    "type": "STATE",
+    "aliases": [
+      "Istakoz"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP01"
+    ],
+    "first_appearance": "EP01",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 16
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/17"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Istakoz",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP01",
+            "pointer": "/entities/17/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP01",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-533b27d6d876bbe4",
+      "text": "Dümenci Gabya'nın memleketi olan yer.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-533b27d6d876bbe4"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "id": "REL-0033",
+        "subject_id": "NPC-0031",
+        "relation": "FROM",
+        "object_id": "STA-0003",
+        "period": null,
+        "episodes": [
+          "EP01"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Istakozlu olduğunu belirtmiştir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP01",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP01",
+      "number": 1,
+      "title": "DnD: EJDER SOFRASI 01 - GEMİLER, KÖLELER ve KEDİLER",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "STA-0003",
+      "periods": [],
+      "placement_basis": "UNKNOWN",
+      "spatial_domain": "unknown",
+      "states": [],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 16
+        },
+        {
+          "source_id": "SRC-EP01",
+          "pointer": "/entities/17"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0031",
+      "slug": "gabya",
+      "name": "Gabya",
+      "type": "PERSON",
+      "aliases": [],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 16
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/17/a/0"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP01"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 1,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

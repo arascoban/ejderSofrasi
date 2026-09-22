@@ -1,0 +1,608 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "ITM-0002",
+    "slug": "ametist-ejderha-kristali",
+    "name": "Ametist Ejderha Kristali",
+    "type": "ITEM",
+    "aliases": [
+      "20 Yüzlü Ametist Taş",
+      "Ametist Bekçi",
+      "Ametist Kristali"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP24"
+    ],
+    "first_appearance": "EP24",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/6"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "20 Yüzlü Ametist Taş",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/6/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Ametist Bekçi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/6/a/2"
+          }
+        ]
+      },
+      {
+        "name": "Ametist Kristali",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/6/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP24",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-ecda2dd88139ad42",
+      "text": "Ejderhalar Sofrası Harabeleri'nin kalbinde, Gavurdağı Golemi'nin çekirdeğinde saklanan 20 yüzlü (d20 biçiminde) mor prizmatik efsanevi kristal.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-42d7d48f50b8bdbf",
+      "text": "Rüyaların, şölenlerin, lezzetin ve bereketin temsilcisi olup 7 katlı tapınak yapısını zihinsel gücüyle bükerek dikey hale getirebilmekte ve maceracılara yemek sınavı uygulayarak evrenin sırlarını açıklamaktadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-ecda2dd88139ad42",
+    "FCT-42d7d48f50b8bdbf"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0495",
+        "subject_id": "ITM-0002",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ejderhalar Sofrası Harabeleri'nin kalbindedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/9"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0522",
+        "subject_id": "ITM-0002",
+        "relation": "INSIDE",
+        "object_id": "CRE-0014",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Crystal was initially held in the golem's core; episode event describes its subsequent removal.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/entities/6/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0061",
+        "episode": "EP24",
+        "period": "1300 civarı",
+        "title": "Gavurdağı Golemi ve Ametist Kristali'nin açığa çıkışı",
+        "summary_fact_id": "FCT-a9e1f3b62554a791",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/4/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0014",
+          "CRE-0027",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "ITM-0002",
+          "ITM-0012"
+        ]
+      },
+      {
+        "event_id": "EVT-0062",
+        "episode": "EP24",
+        "period": "1300 civarı",
+        "title": "Ejderhaların yaratılış doktrininin açıklanması",
+        "summary_fact_id": "FCT-fe17683cebaf0dd2",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/2/facts/4"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/lore/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0046"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "ITM-0002"
+        ]
+      },
+      {
+        "event_id": "EVT-0064",
+        "episode": "EP24",
+        "period": "1300 civarı",
+        "title": "Ataların rehberliğiyle sütlaç sınavının tamamlanması",
+        "summary_fact_id": "FCT-5e7d9469062bff5e",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/0/facts/4"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/1/facts/4"
+          },
+          {
+            "source_id": "SRC-EP24",
+            "pointer": "/entities/3/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0051",
+          "NPC-0083",
+          "OTH-0005"
+        ],
+        "location_ids": [
+          "TMP-0001"
+        ],
+        "related_entity_ids": [
+          "BLD-0012",
+          "ITM-0002",
+          "ITM-0030"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-a9e1f3b62554a791",
+        "entity_id": "EVT-0061",
+        "fact": {
+          "id": "FCT-a9e1f3b62554a791",
+          "text": "Yokoluş Bey golemi ısırır; Akmer baltasıyla gövdeyi yararak merkezindeki Ametist Kristali'ni dışarı çıkarır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/4/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-fe17683cebaf0dd2",
+        "entity_id": "EVT-0062",
+        "fact": {
+          "id": "FCT-fe17683cebaf0dd2",
+          "text": "Ametist Kristali insanlığın amacının ejderhaların damak tadına hizmet etmek olduğunu iddia eder; bu, kristale atfedilen bir öğreti olarak korunur.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/2/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/lore/1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-5e7d9469062bff5e",
+        "entity_id": "EVT-0064",
+        "fact": {
+          "id": "FCT-5e7d9469062bff5e",
+          "text": "Ametist Kristali mutfak sahnesini canlandırır. Akmer, Kalender ve Roary, Akmer'in kadın atalarının rehberliğiyle sütlaç hazırlayıp sınavı tamamlar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/0/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/1/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP24",
+                  "pointer": "/entities/3/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP24",
+      "number": 24,
+      "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "CRE-0014",
+      "slug": "kainatin-salatasi",
+      "name": "Kainatın Salatası",
+      "type": "CREATURE",
+      "aliases": [
+        "Gavurdağı Golemi",
+        "Gavurdağı Salatası Canavarı",
+        "Çemenli Golem",
+        "Çiğ Köfte ve Salata Golemi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0027",
+      "slug": "yokolus-bey",
+      "name": "Yokoluş Bey",
+      "type": "CREATURE",
+      "aliases": [
+        "İto'nun Sırtındaki Ağız",
+        "Kozmik Parazit Ağız",
+        "Yok Oluş Bey"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "OTH-0005",
+      "slug": "sutcuoglu-atalari",
+      "name": "Sütçüoğlu Ataları",
+      "type": "OTHER",
+      "aliases": [
+        "Sütçüoğlu Babaanneleri ve Teyzeleri",
+        "Sütçüoğlu Ruhları"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0001",
+      "slug": "ejderhalar-sofrasi-harabeleri",
+      "name": "Ejderhalar Sofrası Harabeleri",
+      "type": "TEMPLE",
+      "aliases": [
+        "Gizemli Şef Ejderha Mabedi",
+        "Terfedilmiş Tarifler Kuyusu",
+        "Yaratılışın Kileri",
+        "Ziyafet Mabedi",
+        "Çöl Harabeleri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/0/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/2/facts/4"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/3/facts/3"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/6/a/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/6/a/2"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/lore/1"
+      },
+      {
+        "source_id": "SRC-EP24"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 3,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 8
+    }
+  }
+}

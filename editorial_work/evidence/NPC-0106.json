@@ -1,0 +1,412 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0106",
+    "slug": "ispavlo",
+    "name": "Ispavlo",
+    "type": "PERSON",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP01",
+      "EP02"
+    ],
+    "first_appearance": "EP01",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 19
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/8"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP01",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP02",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-5cac22648d5b9365",
+      "text": "Kaptan Adnan'ın sağ kolu (first mate) olarak bilinen denizcidir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/8/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7a28791c72b1b1bb",
+      "text": "Karapancar gemisinde odası ve bozulmuş yatağı bulunmaktadır fakat ortalıkta görünmemektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP01",
+              "pointer": "/entities/8/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-69f733b511b847c3",
+      "text": "Karapancar'da tayfa/sağ koldur; Pıyan, Çima, Çoma ve Gırcıla'nın 5 denizci kardeşinden biridir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP02",
+              "pointer": "/entities/8/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-5cac22648d5b9365",
+    "FCT-7a28791c72b1b1bb",
+    "FCT-69f733b511b847c3"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0036",
+        "subject_id": "NPC-0106",
+        "relation": "WORKS_IN",
+        "object_id": "SHP-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP01"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Karapancar gemisinde first mate / sağ koldur.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP01",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0393",
+        "subject_id": "NPC-0106",
+        "relation": "SIBLING_OF",
+        "object_id": "NPC-0102",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP02"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Pıyan, Çima, Çoma ve Gırcıla ile beş denizci kardeşten biridir.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP02",
+                "pointer": "/entities/8/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0394",
+        "subject_id": "NPC-0106",
+        "relation": "SIBLING_OF",
+        "object_id": "NPC-0103",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP02"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Pıyan, Çima, Çoma ve Gırcıla ile beş denizci kardeşten biridir.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP02",
+                "pointer": "/entities/8/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0395",
+        "subject_id": "NPC-0106",
+        "relation": "SIBLING_OF",
+        "object_id": "NPC-0035",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP02"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Pıyan, Çima, Çoma ve Gırcıla ile beş denizci kardeşten biridir.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP02",
+                "pointer": "/entities/8/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0039",
+        "subject_id": "NPC-0081",
+        "relation": "SIBLING_OF",
+        "object_id": "NPC-0106",
+        "period": null,
+        "episodes": [
+          "EP02"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "5 denizci kardeşten biridir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP02",
+                "pointer": "/links/7"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP01",
+      "number": 1,
+      "title": "DnD: EJDER SOFRASI 01 - GEMİLER, KÖLELER ve KEDİLER",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP01",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP02",
+      "number": 2,
+      "title": "DnD: EJDER SOFRASI 02 - TEK BİR HARİTA İÇİN",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP02",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0035",
+      "slug": "gircila",
+      "name": "Gırcıla",
+      "type": "PERSON",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0081",
+      "slug": "piyan",
+      "name": "Pıyan",
+      "type": "PERSON",
+      "aliases": [
+        "Payon",
+        "Puyan"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0102",
+      "slug": "cima",
+      "name": "Çima",
+      "type": "PERSON",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0103",
+      "slug": "coma",
+      "name": "Çoma",
+      "type": "PERSON",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "SHP-0001",
+      "slug": "karapancar-gemisi",
+      "name": "Karapancar Gemisi",
+      "type": "SHIP",
+      "aliases": [
+        "Karapancar"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 19
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP01",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP01"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP02",
+        "pointer": "/links/7"
+      },
+      {
+        "source_id": "SRC-EP02"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 4,
+      "relationships_incoming": 1,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 5
+    }
+  }
+}

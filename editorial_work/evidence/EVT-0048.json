@@ -1,0 +1,141 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "EVT-0048",
+    "slug": "kalender-in-kutsal-guclerini-kaybettiginin-anlasilmasi",
+    "name": "Kalender'in kutsal güçlerini kaybettiğinin anlaşılması",
+    "type": "HISTORICAL_EVENT",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP21"
+    ],
+    "first_appearance": "EP21",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "editorial_title",
+    "record_status": "source_event",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/1/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/1/facts/2"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP21",
+        "kinds": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-7ba027f8755bac88",
+      "text": "Kalender'in Paladin büyüleri, savaştan kaçışı ve yemin ihlalinden sonra çalışmaz; maceraya geçici Fighter olarak devam eder.",
+      "assertions": [
+        {
+          "period": "1300 civarı",
+          "temporal_basis": "reviewed_source_context",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/1/facts/0"
+            },
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/1/facts/2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-7ba027f8755bac88"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP21",
+      "number": 21,
+      "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/1/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP21"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 0
+    }
+  }
+}

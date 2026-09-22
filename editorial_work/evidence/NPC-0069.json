@@ -1,0 +1,361 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0069",
+    "slug": "nacak-reis",
+    "name": "Nacak Reis",
+    "type": "PERSON",
+    "aliases": [
+      "Nacaklı Asker",
+      "Nacakçı"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP10"
+    ],
+    "first_appearance": "EP10",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/7"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Nacaklı Asker",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/7/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Nacakçı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/7/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-757a44524a46b241",
+      "text": "Un Helvası / Siyah Ejderha birliğinde nacak (balta) taşıyan yaralı asker.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-95c0752ef0118750",
+      "text": "Terk edilmiş binadaki merdivenlerde Roary'nin Thunderwave büyüsü ve Akmer'in hamleleriyle öldürülmüştür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/7/facts/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-757a44524a46b241",
+    "FCT-95c0752ef0118750"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0191",
+        "subject_id": "NPC-0069",
+        "relation": "SERVES",
+        "object_id": "KNG-0007",
+        "period": null,
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Un Helvası ordusu askeridir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0192",
+        "subject_id": "NPC-0069",
+        "relation": "DIED_IN",
+        "object_id": "BLD-0021",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Terk edilmiş inşaat merdivenlerinde öldürülmüştür.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/19"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0068",
+        "episode": "EP10",
+        "period": "1300 civarı",
+        "title": "Terk edilmiş inşaatta çatışma",
+        "summary_fact_id": "FCT-53e3a9118e4d8c31",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/7/facts/1"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/8/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0069",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0021"
+        ],
+        "related_entity_ids": [
+          "MIL-0005"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-53e3a9118e4d8c31",
+        "entity_id": "EVT-0068",
+        "fact": {
+          "id": "FCT-53e3a9118e4d8c31",
+          "text": "Ekip Un Helvası askerleri ve Siyah Ejderha cambazlarıyla savaşır. Akmer bilincini kaybedip Roary tarafından iyileştirilir; Nacak Reis ölür, iki cambaz ışınlanarak kaçar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/7/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/8/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0021",
+      "slug": "col-sehri-terk-edilmis-insaat",
+      "name": "Çöl Şehri Terk Edilmiş İnşaat",
+      "type": "BUILDING",
+      "aliases": [
+        "Terk Edilmiş İnşaat",
+        "Terk Edilmiş Mahalle Binası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0007",
+      "slug": "un-helvasi-kralligi",
+      "name": "Un Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Un Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8/facts/2"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/19"
+      },
+      {
+        "source_id": "SRC-EP10"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

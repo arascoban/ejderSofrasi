@@ -1,0 +1,1049 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "CRE-0003",
+    "slug": "cemil-papagan",
+    "name": "Cemil (Papağan)",
+    "type": "CREATURE",
+    "aliases": [
+      "Cemil",
+      "Papağan Cemil"
+    ],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP04",
+      "EP05",
+      "EP06",
+      "EP07",
+      "EP09",
+      "EP11",
+      "EP12",
+      "EP16",
+      "EP17",
+      "EP19",
+      "EP20"
+    ],
+    "first_appearance": "EP04",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 32
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/34"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/30"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Cemil",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/6/n"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/5/a/0"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/10/a/0"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/7/a/0"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/8/a/0"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/12/a/0"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/13/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/30/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Papağan Cemil",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/6/a/1"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/5/a/1"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/10/a/1"
+          },
+          {
+            "source_id": "SRC-EP07",
+            "pointer": "/entities/7/a/1"
+          },
+          {
+            "source_id": "SRC-EP11",
+            "pointer": "/entities/8/a/1"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/12/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP04",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP05",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP06",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP07",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP11",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-fd2446f3fe2b118b",
+      "text": "Roary tarafından çağrılan, konuşabilen ve çekirdek/kuru yemiş hastası neşeli ve geveze bir papağandır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-27aca884e824b778",
+      "text": "'Şampiyon Fener!', 'Ali Koç' gibi tuhaf insani ifadeler kullanmaktadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-ace8c9354d294b90",
+      "text": "Roary'nin tayfaya mesaj iletme ricasını anlamamış, sadece söylenen bazı kelimeleri tekrarlamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/6/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a04a69e6320d8ea1",
+      "text": "Muzaffer Cemil'in yanında yaşayan evcil/arkadaş papağandır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/6/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-78b9da2a260559c0",
+      "text": "Muzaffer Cemil'in neşeli, yapraklardan mohak saç stiline ve siyah dile sahip papağanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-045c85f849fd111d",
+      "text": "'Cemil', 'Şampiyon Fener' ve 'Ali Koç' kelimelerini tekrarlamaktadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/5/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-bf7e908db0c98273",
+      "text": "Roary'nin Beast Sense büyüsüyle labirent üzerinde uçarak havadan keşif yapmasını sağlamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/5/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-601f317bc14d93e2",
+      "text": "Gruptakilerin yanında süzülen, 'protein, protein' kelimelerini tekrarlayan geveze papağan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/10/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-26e4f0c1f6d24140",
+      "text": "Roary'nin yanında dolanan, 'Ablacığım, abiler gitmemiz lazım', 'Stradayım' gibi tuhaf terimler söyleyen geveze papağan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-fba9354c31fa7f51",
+      "text": "Ekibin yanındaki papağan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/34/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-04d0d71956da745c",
+      "text": "Roary ile konuşup Dağ Kartalı'nın tepede uçtuğunu doğrulamış, Radam ile sohbet etmeye gitmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP11",
+              "pointer": "/entities/8/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f1980a8a1e237e73",
+      "text": "Kahvaltıda ceviz, fındık, fıstık ve zeytin yiyen geveze papağan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-4ce8c7136d0e9f8b",
+      "text": "Roary'nin yanında dolanan geveze papağan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/10/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-253b6e331f78b9a1",
+      "text": "Kışla odasında kalan geveze papağan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f0c7618e54c31d86",
+      "text": "Kışla odasında unutulan geveze papağan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/30/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-fd2446f3fe2b118b",
+    "FCT-27aca884e824b778",
+    "FCT-ace8c9354d294b90",
+    "FCT-a04a69e6320d8ea1",
+    "FCT-78b9da2a260559c0",
+    "FCT-045c85f849fd111d",
+    "FCT-bf7e908db0c98273",
+    "FCT-601f317bc14d93e2",
+    "FCT-26e4f0c1f6d24140",
+    "FCT-fba9354c31fa7f51",
+    "FCT-04d0d71956da745c",
+    "FCT-f1980a8a1e237e73",
+    "FCT-4ce8c7136d0e9f8b",
+    "FCT-253b6e331f78b9a1",
+    "FCT-f0c7618e54c31d86"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0074",
+        "subject_id": "CRE-0003",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0068",
+        "period": null,
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Muzaffer Cemil'in arkadaş papağanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0075",
+        "subject_id": "CRE-0003",
+        "relation": "PRESENT_IN",
+        "object_id": "ISL-0001",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Gizemler Adası'nda Roary ile etkileşime girmiştir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP04",
+      "number": 4,
+      "title": "DnD: EJDER SOFRASI 04 - GİZEMLİ CANAVARLAR ve CEMİL",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP05",
+      "number": 5,
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP07",
+      "number": 7,
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP11",
+      "number": 11,
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [
+    {
+      "id": "CNF-0195",
+      "kind": "alias_collision",
+      "status": "open",
+      "summary": "Name or alias resolves to several distinct entities: cemil (papağan)",
+      "entity_ids": [
+        "CRE-0003",
+        "CRE-0028"
+      ],
+      "source_refs": [],
+      "details": {
+        "lookup": "cemil (papağan)"
+      }
+    }
+  ],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "ISL-0001",
+      "slug": "gizemler-adasi",
+      "name": "Gizemler Adası",
+      "type": "ISLAND",
+      "aliases": [
+        "Palmiyeli ve Dağlı Ada",
+        "PNG Adası",
+        "Züber Adası"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0068",
+      "slug": "muzaffer-cemil",
+      "name": "Muzaffer Cemil",
+      "type": "PERSON",
+      "aliases": [
+        "Bumblebor",
+        "Dumblebor",
+        "Muzaffer Dede",
+        "Zindan Efendisi"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "source_review_required",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 32
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/6/a/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/6/facts/3"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/6/n"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP04"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/5/a/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP05"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/10/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/10/a/1"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP07"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/34"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/34/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/8/a/0"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/8/a/1"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP11"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/12/a/1"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/13/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/30"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/30/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/30/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20"
+      }
+    ],
+    "counts": {
+      "facts": 15,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 11,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 1,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

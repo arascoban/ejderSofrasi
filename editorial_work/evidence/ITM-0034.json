@@ -1,0 +1,702 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "ITM-0034",
+    "slug": "cemenin-kilici",
+    "name": "Çemenin Kılıcı",
+    "type": "ITEM",
+    "aliases": [
+      "Kutsal Çemen Kılıcı",
+      "Pastırman'ın Dikenli Çemen Kılıcı",
+      "Çemendar"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP19",
+      "EP20",
+      "EP24"
+    ],
+    "first_appearance": "EP19",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/19"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Kutsal Çemen Kılıcı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/9/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Pastırman'ın Dikenli Çemen Kılıcı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/9/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/16/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Çemendar",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/16/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record",
+          "event_reference"
+        ]
+      },
+      {
+        "episode": "EP24",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-01245622d48c1188",
+      "text": "Kavurhan Satıroğlu'nun kutsal yadigar kutusunda sakladığı, kabzası ve yüzeyi dikenlerle kaplı, ucu çengel biçimli büyülü/kutsal kılıç.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/9/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5c45798a5e30bee3",
+      "text": "Kalender Tütüncüoğlu tarafından kavrandığında dikenleri kullanıcının avcuna saplanır; taşıyıcının Strength değerini 20'ye yükseltir ve kutsal savaş öfkesi bağışlar.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/9/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-eb1dfd953e1922df",
+      "text": "Kavurhan'ın Kalender'e verdiği, taşıyıcısına +2 Strength ve rage özelliği veren radikal kutsal kılıç; Kalender 20 Wisdom zarıyla kılıcı kınına sokarak zihnini kılıcın etkisinden kurtarmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/16/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f494bd941b6deda1",
+      "text": "Kalender'in taşıdığı; Pastırman tarafından reddedildiği için Kalender'in ellerine saplanarak ona zarar veren ve düşen kutsal kılıç.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/19/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-bb9235670c58cf68",
+      "text": "Kalender'in savaş yemini sonrasında +2 Strength ve Rage sağlayan; yemin bozulduktan sonra Kalender'in ellerine saplanan lanetli/uyumsuz kılıçtır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/uncertainties/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-01245622d48c1188",
+    "FCT-5c45798a5e30bee3",
+    "FCT-eb1dfd953e1922df",
+    "FCT-f494bd941b6deda1",
+    "FCT-bb9235670c58cf68"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0321",
+        "subject_id": "ITM-0034",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "DEI-0011",
+        "period": null,
+        "episodes": [
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Pastırman'ın kutsal gücünü ve Strength bonusunu taşır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0318",
+        "subject_id": "NPC-0051",
+        "relation": "OWNS",
+        "object_id": "ITM-0034",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kavurhan Satıroğlu'ndan Çemenin Kılıcı'nı teslim almıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/6"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0319",
+        "subject_id": "DEI-0011",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "ITM-0034",
+        "period": null,
+        "episodes": [
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çemenin Kılıcı Pastırman'ın kutsal yadigar kılıcıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0043",
+        "episode": "EP19",
+        "period": "1300 civarı",
+        "title": "Çemenin Kılıcı'nın teslimi",
+        "summary_fact_id": "FCT-df8194aba40ec817",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/1/facts/5"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/4/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0051",
+          "NPC-0054"
+        ],
+        "location_ids": [
+          "REG-0002"
+        ],
+        "related_entity_ids": [
+          "DEI-0011",
+          "ITM-0034"
+        ]
+      },
+      {
+        "event_id": "EVT-0045",
+        "episode": "EP20",
+        "period": "1300 civarı",
+        "title": "Kalender ve İto'nun savaşı bırakması",
+        "summary_fact_id": "FCT-54ae7609225a0e87",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/1/facts/2"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/2/facts/2"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [],
+        "related_entity_ids": [
+          "ITM-0034"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-df8194aba40ec817",
+        "entity_id": "EVT-0043",
+        "fact": {
+          "id": "FCT-df8194aba40ec817",
+          "text": "Kavurhan kutsal kılıcı Kalender'e verir. Dikenli kabza eline saplandığında Kalender'in savaş gücü ve Paladin aurası geri gelir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/1/facts/5"
+                },
+                {
+                  "source_id": "SRC-EP19",
+                  "pointer": "/entities/4/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-54ae7609225a0e87",
+        "entity_id": "EVT-0045",
+        "fact": {
+          "id": "FCT-54ae7609225a0e87",
+          "text": "İto savaşın dehşetini görüp Kalender'i geri dönmeye ikna eder. Kalender kılıcı kınına sokarak etkisini bastırır; ikisi Akmer ve Roary'ye katılır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/1/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/entities/2/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP20",
+                  "pointer": "/travel/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP24",
+      "number": 24,
+      "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP20 explicit item alias and lore parenthesis identify the same sword.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/entities/16/a/0"
+        },
+        {
+          "source_id": "SRC-EP20",
+          "pointer": "/lore/0/fact"
+        }
+      ],
+      "before": [
+        "Çemenin Kılıcı",
+        "Çemendar"
+      ],
+      "after": "ITM-0034"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "DEI-0011",
+      "slug": "pastirman",
+      "name": "Pastırman",
+      "type": "DEITY",
+      "aliases": [],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0054",
+      "slug": "kavurhan-satiroglu",
+      "name": "Kavurhan Satıroğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Kavurhan",
+        "Kavurhan Bey"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "REG-0002",
+      "slug": "pastirmanci-radikal-birlikler-askeri-kampi",
+      "name": "Pastırmancı Radikal Birlikler Askeri Kampı",
+      "type": "REGION",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/1/facts/5"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/4/facts/3"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/9/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/9/a/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/9/facts/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/6"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP19"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/16/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/16/a/1"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/lore/0/fact"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP20"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/19/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24"
+      }
+    ],
+    "counts": {
+      "facts": 5,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 2,
+      "timeline_events": 2,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 7
+    }
+  }
+}

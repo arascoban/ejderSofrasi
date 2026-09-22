@@ -1,0 +1,283 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0050",
+    "slug": "jiwong",
+    "name": "Jiwong",
+    "type": "PERSON",
+    "aliases": [
+      "J Wong Wang",
+      "Ji Wong Wang"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP06"
+    ],
+    "first_appearance": "EP06",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 37
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/5"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "J Wong Wang",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/5/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Ji Wong Wang",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/5/n"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP06",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-4e81e8c5bbbfdd3b",
+      "text": "Jifa'nın bahsettiği, geçmişte ejderha formuna dönüşerek Zümrüt Ejderha Tapınağı'nı dış saldırılardan koruyan kadim alim ve keşiş.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "reviewed_source_context",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/5/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-4e81e8c5bbbfdd3b"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0507",
+        "subject_id": "NPC-0050",
+        "relation": "HISTORICALLY_ASSOCIATED_WITH",
+        "object_id": "TMP-0003",
+        "period": null,
+        "episodes": [
+          "EP06"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Geçmişte ejderhaya dönüşüp tapınağı korumuştur.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP06",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0506",
+        "subject_id": "NPC-0049",
+        "relation": "MENTIONED_WITH",
+        "object_id": "NPC-0050",
+        "period": null,
+        "episodes": [
+          "EP06"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ji Wong Wang'ın tapınağı koruyan kadim bir alim olduğunu anlatmıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP06",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Jiwong and Ji Wong Wang are the same person.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-CHARACTERS",
+          "line": 37
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/5"
+        }
+      ],
+      "before": [
+        "Jiwong",
+        "Ji Wong Wang"
+      ],
+      "after": "NPC-0050"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0049",
+      "slug": "jifa",
+      "name": "Jifa",
+      "type": "PERSON",
+      "aliases": [
+        "Ruh Jifa",
+        "Yeşim Ejderha Rahibi",
+        "Şifa"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 37
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/5"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/5/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/5/n"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP06"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 1,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

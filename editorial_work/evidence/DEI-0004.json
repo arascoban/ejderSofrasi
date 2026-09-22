@@ -1,0 +1,290 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "DEI-0004",
+    "slug": "balgunes",
+    "name": "Balgüneş",
+    "type": "DEITY",
+    "aliases": [
+      "Bal Güneş"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP03",
+      "EP23"
+    ],
+    "first_appearance": "EP03",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 10
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/19"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Bal Güneş",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP03",
+            "pointer": "/entities/12/n"
+          },
+          {
+            "source_id": "SRC-EP23",
+            "pointer": "/entities/19/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP03",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP23",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-e71c5e57172612ec",
+      "text": "Şifa ve güneş ile ilişkilendirilen ilahi güç/tanrıdır; Roary tayfaya şifa gücünün kaynağını açıklarken bu tanrının adını vermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP03",
+              "pointer": "/entities/12/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-ef9b8efc80708562",
+      "text": "İyilik, güneş, dürüstlük ve şifa tanrısı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP23",
+              "pointer": "/entities/19/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-e71c5e57172612ec",
+    "FCT-ef9b8efc80708562"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "id": "REL-0059",
+        "subject_id": "NPC-0083",
+        "relation": "WORSHIPS",
+        "object_id": "DEI-0004",
+        "period": null,
+        "episodes": [
+          "EP03"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Şifa gücünü Bal Güneş'e bağlamıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP03",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP03",
+      "number": 3,
+      "title": "DnD: EJDER SOFRASI 03 - GİZEMLER ADASI ve MEGA TİMSAH",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP23",
+      "number": 23,
+      "title": "DnD: EJDER SOFRASI 23 - ZİYAFET HAYALİ",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP23",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Exact canonical name is a source alias.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP03",
+          "pointer": "/entities/12/a/0"
+        }
+      ],
+      "before": [
+        "Bal Güneş",
+        "Balgüneş"
+      ],
+      "after": "DEI-0004"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 10
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/12"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/12/a/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/12/facts/0"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/entities/12/n"
+      },
+      {
+        "source_id": "SRC-EP03",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP03"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/19/a/0"
+      },
+      {
+        "source_id": "SRC-EP23",
+        "pointer": "/entities/19/facts/0"
+      },
+      {
+        "source_id": "SRC-EP23"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 1,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

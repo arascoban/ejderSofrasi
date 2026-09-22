@@ -1,0 +1,953 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0068",
+    "slug": "muzaffer-cemil",
+    "name": "Muzaffer Cemil",
+    "type": "PERSON",
+    "aliases": [
+      "Bumblebor",
+      "Dumblebor",
+      "Muzaffer Dede",
+      "Zindan Efendisi"
+    ],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP04",
+      "EP05"
+    ],
+    "first_appearance": "EP04",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 34
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Bumblebor",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/7/a/1"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/4/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Dumblebor",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/7/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Muzaffer Dede",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/7/a/2"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/4/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Zindan Efendisi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/7/a/3"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/4/a/2"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP04",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP05",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-95b7a243e8e096c1",
+      "text": "Zümrüt Ejderha pulunun ve şifa zindanının 100 yılı aşkın süredir nöbetçisi ve muhafızı olan yaşlı, beyaz sakallı, pelerinli ve asalı büyücüdür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-883aacf6ccca05d0",
+      "text": "Asasıyla ateş yakabilir ve dokunduğu canlıların tüm yaralarını anında iyileştirebilir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/7/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-80931647318f77fc",
+      "text": "Yaşadığı yerin Tanrılar ile Ejderhalar arasındaki Büyük Savaş'ta yaralanan Zümrüt Ejderha'nın gökyüzünden düşen devasa bir pulunun (Zümrüt Ejderha Pulu) üzeri olduğunu açıklamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/7/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1d919c87852b0be2",
+      "text": "Kulübesinin içinden Zümrüt Ejderha Şifa Zindanı'na inen bir merdiven bulunmaktadır; zindanın bekçisidir ancak içeri hiç inmemiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/7/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-35bd2e3b672d6e6e",
+      "text": "Adayı ve pulun sırrını başkalarına haritayla veya sözle ifşa edenlerin ejderhaların lanetine uğrayacağını belirtmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/entities/7/facts/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-da53e06293482bbb",
+      "text": "Zümrüt Ejderha Şifa Zindanı'nın nöbetçisi olan kadim büyücü.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-2c9dc50ae3697750",
+      "text": "Maceracılara zindanda yollarını bulmaları ve kapıları açmaları için Şampiyonların Feneri adındaki özel asayı vermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-8ad1661487e3c9a3",
+      "text": "Zindana giren kahramanların sevdiklerine bıraktıkları mektupları sakladığı yüzyıllık bir mektup sandığı bulunmaktadır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-2ccf2570766079fe",
+      "text": "Kulübesinin arkasındaki ağılda uzun süredir şampiyon olamamış mutsuz bir koç (Ali Koç) beslemektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/4/facts/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-abcb9fd38250310e",
+      "text": "Zindanda zaman ve mekanın büküldüğünü, girilen kapıdan geri çıkış olmadığını ve başka bir kıtada çıkılabileceğini uyarmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/4/facts/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1fadd53fc22d045c",
+      "text": "Kadim Zümrüt Ejderha tapınağının koruyucusudur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/uncertainties/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-95b7a243e8e096c1",
+    "FCT-883aacf6ccca05d0",
+    "FCT-80931647318f77fc",
+    "FCT-1d919c87852b0be2",
+    "FCT-35bd2e3b672d6e6e",
+    "FCT-da53e06293482bbb",
+    "FCT-2c9dc50ae3697750",
+    "FCT-8ad1661487e3c9a3",
+    "FCT-2ccf2570766079fe",
+    "FCT-abcb9fd38250310e",
+    "FCT-1fadd53fc22d045c"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0446",
+        "subject_id": "NPC-0068",
+        "relation": "LIVES_IN",
+        "object_id": "BLD-0009",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04",
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kulübede yaşamaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Zümrüt Ejderha Pulu üzerindeki kulübede yaşamaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/10"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0077",
+        "subject_id": "NPC-0068",
+        "relation": "OPERATES",
+        "object_id": "TMP-0003",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Şifa zindanının bekçisidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0078",
+        "subject_id": "NPC-0068",
+        "relation": "PRESENT_IN",
+        "object_id": "NAT-0004",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Zümrüt Ejderha Pulu üzerinde yaşamaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0093",
+        "subject_id": "NPC-0068",
+        "relation": "SERVES",
+        "object_id": "TMP-0003",
+        "period": null,
+        "episodes": [
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Zümrüt Ejderha Şifa Zindanı'nın bekçisi ve efendisidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/11"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0074",
+        "subject_id": "CRE-0003",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0068",
+        "period": null,
+        "episodes": [
+          "EP04"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Muzaffer Cemil'in arkadaş papağanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP04",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0094",
+        "subject_id": "CRE-0001",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0068",
+        "period": null,
+        "episodes": [
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Muzaffer Cemil'in kulübe arkasındaki ağılda beslediği koçtur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/12"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0513",
+        "subject_id": "CRE-0028",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0068",
+        "period": null,
+        "episodes": [
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Muzaffer Cemil'in papağanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0095",
+        "subject_id": "ITM-0037",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0068",
+        "period": null,
+        "episodes": [
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Muzaffer Cemil'in zindan gezginlerine verdiği büyülü asadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0015",
+        "episode": "EP04",
+        "period": "1600 civarı",
+        "title": "Zümrüt Ejderha Pulu'nun sırrı",
+        "summary_fact_id": "FCT-1aacca2d7efd727e",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/7/facts/2"
+          },
+          {
+            "source_id": "SRC-EP04",
+            "pointer": "/entities/7/facts/3"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0068",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0009",
+          "NAT-0004"
+        ],
+        "related_entity_ids": [
+          "DRG-0014",
+          "EVT-0001",
+          "TMP-0003"
+        ]
+      },
+      {
+        "event_id": "EVT-0017",
+        "episode": "EP05",
+        "period": "1600 civarı",
+        "title": "Şampiyonların Feneri ile tapınağa giriş",
+        "summary_fact_id": "FCT-2daee88a6a5665e5",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0012",
+          "CRE-0028",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0068",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0003"
+        ],
+        "related_entity_ids": [
+          "ITM-0037"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-1aacca2d7efd727e",
+        "entity_id": "EVT-0015",
+        "fact": {
+          "id": "FCT-1aacca2d7efd727e",
+          "text": "Muzaffer Cemil yaşadığı kutsal zeminin eski tanrı-ejderha savaşında düşen devasa bir pul olduğunu ve altındaki şifa zindanını koruduğunu açıklar.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP04",
+                  "pointer": "/entities/7/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP04",
+                  "pointer": "/entities/7/facts/3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-2daee88a6a5665e5",
+        "entity_id": "EVT-0017",
+        "fact": {
+          "id": "FCT-2daee88a6a5665e5",
+          "text": "Muzaffer Cemil ekibe yol gösteren büyülü feneri verir. Grup, Cemil ve İbrahim ile dönüşü belirsiz şifa zindanına iner.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP04",
+      "number": 4,
+      "title": "DnD: EJDER SOFRASI 04 - GİZEMLİ CANAVARLAR ve CEMİL",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP05",
+      "number": 5,
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0009",
+      "slug": "muzaffer-cemil-in-kulubesi",
+      "name": "Muzaffer Cemil'in Kulübesi",
+      "type": "BUILDING",
+      "aliases": [
+        "Muzaffer'in Kulübesi"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0001",
+      "slug": "ali-koc",
+      "name": "Ali Koç",
+      "type": "CREATURE",
+      "aliases": [
+        "Ali Koç (Koç)",
+        "Mutsuz Koç"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0003",
+      "slug": "cemil-papagan",
+      "name": "Cemil (Papağan)",
+      "type": "CREATURE",
+      "aliases": [
+        "Cemil",
+        "Papağan Cemil"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CRE-0028",
+      "slug": "radam-in-papagani",
+      "name": "Radam'ın Papağanı",
+      "type": "CREATURE",
+      "aliases": [
+        "Cemil (Papağan)"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ITM-0037",
+      "slug": "sampiyonlarin-feneri",
+      "name": "Şampiyonların Feneri",
+      "type": "ITEM",
+      "aliases": [
+        "Şampiyon Feneri"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NAT-0004",
+      "slug": "zumrut-ejderha-pulu",
+      "name": "Zümrüt Ejderha Pulu",
+      "type": "NATURAL_FEATURE",
+      "aliases": [
+        "Geriye Kalan Pul",
+        "Zümrüt Pul"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 34
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/a/2"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/a/3"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/facts/2"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/facts/3"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/7/facts/4"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/uncertainties/0"
+      },
+      {
+        "source_id": "SRC-EP04"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/a/2"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/facts/3"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/facts/4"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/10"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/11"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/12"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP05"
+      }
+    ],
+    "counts": {
+      "facts": 11,
+      "relationships_outgoing": 4,
+      "relationships_incoming": 4,
+      "timeline_events": 2,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 7
+    }
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0027",
+    "slug": "emilsum",
+    "name": "Emilsum",
+    "type": "PERSON",
+    "aliases": [
+      "Emilsum Abi",
+      "Emirsum",
+      "Emirsum Abi"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP14",
+      "EP15"
+    ],
+    "first_appearance": "EP14",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 80
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/11"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Emilsum Abi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/11/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Emirsum",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/8/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Emirsum Abi",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/8/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-71f2dbec09259666",
+      "text": "Batan Güneş Kahvesi'nin sahibi, yanık ve telveli Türk kahvesi yapmasıyla tanınan esnaf.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/8/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-fa81c4902bfa80b1",
+      "text": "Maceracılara dükkanını açmış, Kızıl Komutan'ın askerleriyle gelen görüşmesine ev sahipliği yapmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/8/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7610ab330bf945c3",
+      "text": "Batan Güneş Kahvesi'nin sahibi; dükkanının kapısına Mehdi ve ekibinin tablosunu asmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-71f2dbec09259666",
+    "FCT-fa81c4902bfa80b1",
+    "FCT-7610ab330bf945c3"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0255",
+        "subject_id": "NPC-0027",
+        "relation": "OPERATES",
+        "object_id": "TAV-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14",
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Batan Güneş Kahvesi'ni işletmektedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Batan Güneş Kahvesi'ni işletmektedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/26"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [
+    {
+      "id": "TRV-0025",
+      "episode": "EP14",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0014",
+        "NPC-0027",
+        "NPC-0032",
+        "NPC-0046",
+        "NPC-0051"
+      ],
+      "from_id": "BLD-0002",
+      "to_id": "TAV-0001",
+      "via_ids": [],
+      "origin": {
+        "label": "Beltis Ana'nın Evi",
+        "entity_id": "BLD-0002",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Batan Güneş Kahvesi",
+        "entity_id": "TAV-0001",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Çarşaflara Sarınarak",
+        "entity_ids": []
+      }
+    },
+    {
+      "id": "TRV-0028",
+      "episode": "EP15",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0027",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "TAV-0001",
+      "to_id": "BLD-0004",
+      "via_ids": [],
+      "origin": {
+        "label": "Batan Güneş Kahvesi",
+        "entity_id": "TAV-0001",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Demirci Dükkanı",
+        "entity_id": "BLD-0004",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri Arka Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Gizlenerek",
+        "entity_ids": []
+      }
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0002",
+      "slug": "beltis-ana-nin-evi",
+      "name": "Beltis Ana'nın Evi",
+      "type": "BUILDING",
+      "aliases": [
+        "Beltis Hala'nın Evi",
+        "Teyze'nin Evi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0004",
+      "slug": "demirci-dukkani",
+      "name": "Demirci Dükkanı",
+      "type": "BUILDING",
+      "aliases": [
+        "Rando'nun Demirhanesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TAV-0001",
+      "slug": "batangunes-kahvesi",
+      "name": "Batangüneş Kahvesi",
+      "type": "TAVERN",
+      "aliases": [
+        "Batan Güneş Kahvesi",
+        "Batan Güneş Kıraathanesi",
+        "Emilsum'un Kahvesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 80
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/8/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/8/a/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/26"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP15"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

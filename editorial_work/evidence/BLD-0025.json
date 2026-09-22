@@ -1,0 +1,246 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "BLD-0025",
+    "slug": "sutcuoglu-deney-mutfagi-sinav-yansimasi",
+    "name": "Sütçüoğlu Deney Mutfağı Sınav Yansıması",
+    "type": "BUILDING",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP24"
+    ],
+    "first_appearance": "EP24",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "editorial_descriptor",
+    "record_status": "editorial_entity_split",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/14"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP24",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-0cd7766aa017d863",
+      "text": "Ametist Kristali tarafından Ejderhalar Sofrası Harabeleri içinde sınav mekânı olarak canlandırılan, gerçek Sütçüoğlu Deney Mutfağı'nın büyülü yansımasıdır.",
+      "assertions": [
+        {
+          "period": "1300 civarı",
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/entities/11/facts/0"
+            },
+            {
+              "source_id": "SRC-EP24",
+              "pointer": "/links/14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-0cd7766aa017d863"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0521",
+        "subject_id": "BLD-0025",
+        "relation": "LOCATED_IN",
+        "object_id": "TMP-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP24"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ametist Kristali tarafından tapınağın dibinde canlandırılmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "The magical trial manifestation was recreated inside the ruins; the real childhood kitchen remains a separate location with unknown parent geography.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP24",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP24",
+      "number": 24,
+      "title": "DnD: EJDER SOFRASI 24 - TERKEDİLMİŞ TARİFLER KUYUSU",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "BLD-0025",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "supernatural_or_uncertain",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "TMP-0001",
+          "parent_candidate_ids": [
+            "TMP-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0521"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/links/14"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "owner_confirmed_entity_split",
+      "reason": "Project owner confirmed the real childhood kitchen and the magically recreated temple-trial manifestation must be separate records.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/entities/11/facts/0"
+        },
+        {
+          "source_id": "SRC-EP24",
+          "pointer": "/links/14"
+        }
+      ],
+      "before": "Sütçüoğlu Deney Mutfağı",
+      "after": "BLD-0025"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "TMP-0001",
+      "slug": "ejderhalar-sofrasi-harabeleri",
+      "name": "Ejderhalar Sofrası Harabeleri",
+      "type": "TEMPLE",
+      "aliases": [
+        "Gizemli Şef Ejderha Mabedi",
+        "Terfedilmiş Tarifler Kuyusu",
+        "Yaratılışın Kileri",
+        "Ziyafet Mabedi",
+        "Çöl Harabeleri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP24",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP24"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 1
+    }
+  }
+}

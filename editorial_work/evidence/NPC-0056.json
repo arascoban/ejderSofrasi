@@ -1,0 +1,497 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0056",
+    "slug": "kefir",
+    "name": "Kefir",
+    "type": "PERSON",
+    "aliases": [
+      "Kefir (Siyah Ejderha Ajanı)"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP09",
+      "EP10"
+    ],
+    "first_appearance": "EP09",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 69
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/4"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Kefir (Siyah Ejderha Ajanı)",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/6/a/0"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/4/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-7323159527ea1eb9",
+      "text": "Siyah Ejderha faksiyonu adına çalışan, çıkmaz sokakta maceracılara pusu kuran kıllı ve zırhlı düşman suikastçı lideri.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/6/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-2714630a5952f4e2",
+      "text": "Yaralı kadın kılığındaki ajanı kullanarak maceracıları kapana kıstırmış, Kalender'in boğazına bıçak dayamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/6/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-a90e6ff601076b6b",
+      "text": "İto'nun hançer darbesi ve Kalender'in Işık Tacı ile kör edilmiş, kaçmaya çalışırken İto tarafından okla vurularak öldürülmüştür.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/6/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-148852e25ca4579d",
+      "text": "Siyah Ejderha faksiyonu adına çalışan, EP09'daki pusuda öldürülen suikastçı lideri.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1fbb92d9f8b68f23",
+      "text": "Üzerinden rulo parşömen, çöl tepesine çökmüş ejderha armalı siyah mühür yüzüğü, sembollü hançer ve yabancı ülke paraları çıkmıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-da863149ec541bdc",
+      "text": "Siyah Ejderha Cambazları'nın lideri olması muhtemeldir, ancak bu liderlik kesin olarak doğrulanmamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/links/9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-7323159527ea1eb9",
+    "FCT-2714630a5952f4e2",
+    "FCT-a90e6ff601076b6b",
+    "FCT-148852e25ca4579d",
+    "FCT-1fbb92d9f8b68f23",
+    "FCT-da863149ec541bdc"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0174",
+        "subject_id": "NPC-0056",
+        "relation": "LEADS",
+        "object_id": "MIL-0008",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Siyah Ejderha suikast grubunun lideridir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/15"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0175",
+        "subject_id": "NPC-0056",
+        "relation": "SERVES",
+        "object_id": "DRG-0013",
+        "period": null,
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Siyah Ejderha faksiyonuna çalışmaktadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0066",
+        "episode": "EP09",
+        "period": "1300 civarı",
+        "title": "Çıkmaz sokaktaki pusu ve Kefir’in ölümü",
+        "summary_fact_id": "FCT-b1bf68174d4cac33",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/6/facts/1"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/6/facts/2"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/7/facts/0"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/30/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0056",
+          "NPC-0083",
+          "NPC-0098"
+        ],
+        "location_details": [
+          {
+            "label": "Çöl Şehri Çıkmaz Sokağı (Pusu Bölgesi)",
+            "context_id": "DIS-0006"
+          }
+        ],
+        "location_ids": [
+          "DIS-0006"
+        ],
+        "related_entity_ids": [
+          "MIL-0008"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-b1bf68174d4cac33",
+        "entity_id": "EVT-0066",
+        "fact": {
+          "id": "FCT-b1bf68174d4cac33",
+          "text": "Yaralı kadın rolündeki ajan ekibi tuzağa çeker. Çatışmada Kefir öldürülür ve Siyah Ejderha pusu birliği yenilir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/6/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/6/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/7/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/30/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "DIS-0006",
+      "slug": "col-sehri-cikmaz-sokagi",
+      "name": "Çöl Şehri Çıkmaz Sokağı",
+      "type": "DISTRICT",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "DRG-0013",
+      "slug": "siyah-ejderha",
+      "name": "Siyah Ejderha",
+      "type": "DRAGON",
+      "aliases": [
+        "Gölge Ejderhası",
+        "Kül Ejderhası",
+        "Onyx Ejderha"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "MIL-0008",
+      "slug": "siyah-ejderha-pusu-grubu",
+      "name": "Siyah Ejderha Pusu Grubu",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Gölge Suikastçıları",
+        "Siyah Ejderha Ajanları"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 69
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/30/facts/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/6"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/6/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/15"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/9"
+      },
+      {
+        "source_id": "SRC-EP10"
+      }
+    ],
+    "counts": {
+      "facts": 6,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

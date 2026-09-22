@@ -1,0 +1,407 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0079",
+    "slug": "pokemon-kart-dolandiricisi",
+    "name": "Pokemon Kart Dolandırıcısı",
+    "type": "PERSON",
+    "aliases": [
+      "Bardakçı Dolandırıcı",
+      "Saydak Kumarbazı"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP21",
+      "EP22"
+    ],
+    "first_appearance": "EP21",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/8"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Bardakçı Dolandırıcı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/9/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Saydak Kumarbazı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/9/a/0"
+          },
+          {
+            "source_id": "SRC-EP22",
+            "pointer": "/entities/8/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP21",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP22",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-f6b090b920e88b6f",
+      "text": "Tahin Saray Kervansarayı bahçesinde 3 bardak ve Saydak Pokemon kartı ile kumar oynatan, el çabukluğuyla Kalender'in kalan tüm parasını (15-20 altın) çarpan dolandırıcı esnaf.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP21",
+              "pointer": "/entities/9/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-4d4366d9a2935d50",
+      "text": "Kervansaray avlusunda Saydak Pokemon kartı ile 3 bardak kumarı oynatan dolandırıcı esnaf.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/8/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-ec84e20c44c5e782",
+      "text": "Avluda Kalender ve Akmer'i görünce 'Bunlar benim Pokémon kartlarımı çaldı, beni dövdüler!' diye bağırarak kalabalığı galeyana getirmiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP22",
+              "pointer": "/entities/8/facts/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-f6b090b920e88b6f",
+    "FCT-4d4366d9a2935d50",
+    "FCT-ec84e20c44c5e782"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0345",
+        "subject_id": "NPC-0079",
+        "relation": "WORKS_IN",
+        "object_id": "BLD-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP21",
+          "EP22"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Kervansaray bahçesinde kumar oynatmaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP21",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Kervansaray avlusunda kumar oynatmaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP22",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0049",
+        "episode": "EP21",
+        "period": "1300 civarı",
+        "title": "Akmer ve Kalender'in kervansarayda gözaltı",
+        "summary_fact_id": "FCT-55c46048314fbd53",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/entities/1/facts/1"
+          },
+          {
+            "source_id": "SRC-EP21",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0051",
+          "NPC-0079"
+        ],
+        "location_ids": [
+          "BLD-0014"
+        ],
+        "related_entity_ids": []
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-55c46048314fbd53",
+        "entity_id": "EVT-0049",
+        "fact": {
+          "id": "FCT-55c46048314fbd53",
+          "text": "Kalender ekibin kalan parasını kumarda kaybeder; Akmer ile kervansaray nezarethanesine düşer.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/entities/1/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP21",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP21",
+      "number": 21,
+      "title": "DnD: EJDER SOFRASI 21 - 2. SEZON BAŞLIYOR",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP21",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP22",
+      "number": 22,
+      "title": "DnD: EJDER SOFRASI 22 - KERVANSARAY'da KARAMBOL",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP22",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0006",
+      "slug": "tahin-saray-kervansarayi",
+      "name": "Tahin Saray Kervansarayı",
+      "type": "BUILDING",
+      "aliases": [
+        "Kervansaray",
+        "Ozempic Kervansaray",
+        "Tahin Han",
+        "Tahin Saray",
+        "Vaha Dinlenme Tesisleri",
+        "Çöl Kervansarayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0014",
+      "slug": "tahin-saray-nezarethanesi",
+      "name": "Tahin Saray Nezarethanesi",
+      "type": "BUILDING",
+      "aliases": [
+        "Hapishane",
+        "Kervansaray Zindanı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/1/facts/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/9"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/9/a/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/9/a/1"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/entities/9/facts/0"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP21",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP21"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/8/a/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP22",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP22"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 2
+    }
+  }
+}

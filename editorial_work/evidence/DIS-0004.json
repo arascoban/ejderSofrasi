@@ -1,0 +1,1536 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "DIS-0004",
+    "slug": "col-sehri-2-bolge",
+    "name": "Çöl Şehri 2. Bölge",
+    "type": "DISTRICT",
+    "aliases": [
+      "İkinci Bölge",
+      "İkinci Cadde",
+      "İkinci Şehir"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP12",
+      "EP14",
+      "EP16",
+      "EP17",
+      "EP19"
+    ],
+    "first_appearance": "EP12",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/18"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "İkinci Bölge",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/22/a/1"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/23/a/0"
+          }
+        ]
+      },
+      {
+        "name": "İkinci Cadde",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/22/a/0"
+          }
+        ]
+      },
+      {
+        "name": "İkinci Şehir",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/25/a/0"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/entities/18/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP19",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-525e32162dbd53f6",
+      "text": "Çöl Şehri'nin ticaret, pazar, kafe, nargileci, demirci ve orta sınıf konutlarının yer aldığı canlı mahallesi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/22/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-e555dcb3fb0360fb",
+      "text": "Şehrin orta bölgesi.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/23/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-4a938c2946bf4578",
+      "text": "Orta şehir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/25/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-b32aa8023c1d4b70",
+      "text": "Maceracıların içinden geçtiği orta bölge.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP19",
+              "pointer": "/entities/18/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-525e32162dbd53f6",
+    "FCT-e555dcb3fb0360fb",
+    "FCT-4a938c2946bf4578",
+    "FCT-b32aa8023c1d4b70"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0466",
+        "subject_id": "DIS-0004",
+        "relation": "INSIDE",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12",
+          "EP19"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nin orta bölgesidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/26"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Çöl Şehri'nin orta bölgesidir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP19",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0211",
+        "subject_id": "NPC-0006",
+        "relation": "VISITED",
+        "object_id": "DIS-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 2. Bölgesi'nde halka karışmıştır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/2"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0526",
+        "subject_id": "NPC-0072",
+        "relation": "LIVES_IN",
+        "object_id": "DIS-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "2. Bölge caddelerinde yaşamaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/20"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0464",
+        "subject_id": "BLD-0002",
+        "relation": "LOCATED_IN",
+        "object_id": "DIS-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP12"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 2. Bölgesi'nde yer alır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/24"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0476",
+        "subject_id": "BLD-0017",
+        "relation": "LOCATED_IN",
+        "object_id": "DIS-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri 2. Bölgesi'nin surlarıdır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0418",
+        "subject_id": "TAV-0001",
+        "relation": "LOCATED_IN",
+        "object_id": "DIS-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "The geographic evidence explicitly places the café in the second district.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/21/ev"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0076",
+        "episode": "EP12",
+        "period": "1300 civarı",
+        "title": "Mahalle ve kışlada şifa dağıtılması",
+        "summary_fact_id": "FCT-27dec2c7cd934185",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/1/facts/3"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/3/facts/2"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/3/facts/4"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/lore/3/fact"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0014",
+          "NPC-0037",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0072",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0002",
+          "BLD-0018",
+          "DIS-0004"
+        ],
+        "related_entity_ids": [
+          "DEI-0011",
+          "ITM-0004",
+          "ITM-0009"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-27dec2c7cd934185",
+        "entity_id": "EVT-0076",
+        "fact": {
+          "id": "FCT-27dec2c7cd934185",
+          "text": "Kalender hasta kızı iyileştirir; Roary Durgunluk Buhurdanı ve şifa kadehiyle mahalle halkına ve yaralı askerlere yardım eder. Bu faaliyetler Pastırman ve Ördek-ül Şifa hareketlerinin yayılmasını sağlar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/1/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/3/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/entities/3/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP12",
+                  "pointer": "/lore/3/fact"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0021",
+      "episode": "EP12",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "CRE-0012",
+        "CRE-0028",
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": null,
+      "to_id": "DIS-0004",
+      "via_ids": [],
+      "origin": {
+        "label": "Arifler Okulu (3. Bölge)",
+        "entity_id": null,
+        "context_id": "BLD-0023",
+        "resolution": "within_named_location",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "destination": {
+        "label": "Çöl Şehri 2. Bölge",
+        "entity_id": "DIS-0004",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "3. Bölge Güvenlik Kapıları",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    },
+    {
+      "id": "TRV-0038",
+      "episode": "EP19",
+      "sequence": 2,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": null,
+      "to_id": "DIS-0004",
+      "via_ids": [],
+      "origin": {
+        "label": "Çöl Şehri 3. Bölge Kışlası Koridorları",
+        "entity_id": null,
+        "context_id": "BLD-0018",
+        "resolution": "location_description"
+      },
+      "destination": {
+        "label": "Çöl Şehri 2. Bölge",
+        "entity_id": "DIS-0004",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "3. Bölge ile 2. Bölge Arasındaki Güvenlik Kapısı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/1"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Rozet Göstererek",
+        "entity_ids": []
+      },
+      "reason": "Project owner confirmed this is another gate in the inter-city wall system between Yaz Helvası cities."
+    },
+    {
+      "id": "TRV-0039",
+      "episode": "EP19",
+      "sequence": 3,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "DIS-0004",
+      "to_id": null,
+      "via_ids": [],
+      "origin": {
+        "label": "Çöl Şehri 2. Bölge",
+        "entity_id": "DIS-0004",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+        "entity_id": null,
+        "context_id": "DIS-0003",
+        "resolution": "within_named_location"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Pastırman Anıtı Meydanı",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Kalender'i Taşıyarak",
+        "entity_ids": []
+      },
+      "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP19",
+      "number": 19,
+      "title": "DnD: EJDER SOFRASI 19 - Kaçarsak Anlarlar Ölenlerden",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "TAV-0001",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "DIS-0004",
+          "parent_candidate_ids": [
+            "DIS-0004"
+          ],
+          "containment_relationship_ids": [
+            "REL-0470",
+            "REL-0418"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 33
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/23"
+        },
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/23"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0002",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "DIS-0004",
+          "parent_candidate_ids": [
+            "DIS-0004"
+          ],
+          "containment_relationship_ids": [
+            "REL-0464",
+            "REL-0471"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/25"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/24"
+        }
+      ]
+    },
+    {
+      "location_id": "DIS-0004",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CIT-0006",
+          "parent_candidate_ids": [
+            "CIT-0006"
+          ],
+          "containment_relationship_ids": [
+            "REL-0466"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/entities/22"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/23"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/25"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/entities/18"
+        }
+      ]
+    },
+    {
+      "location_id": "BLD-0017",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "DIS-0004",
+          "parent_candidate_ids": [
+            "DIS-0004"
+          ],
+          "containment_relationship_ids": [
+            "REL-0476"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/26"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Arifler Okulu (3. Bölge)",
+        "to": "Çöl Şehri 2. Bölge",
+        "via": [
+          "3. Bölge Güvenlik Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "İbrahim (Kompisaurus)",
+          "Cemil (Papağan)"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0021",
+        "episode": "EP12",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "CRE-0012",
+          "CRE-0028",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "DIS-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Arifler Okulu (3. Bölge)",
+          "entity_id": null,
+          "context_id": "BLD-0023",
+          "resolution": "within_named_location",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "destination": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Güvenlik Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "from": "Çöl Şehri 2. Bölge Sokakları",
+        "to": "Teyze'nin Evi",
+        "via": [
+          "Pazar Yeri Sokakları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Teyze (Hasta Kızın Annesi)",
+          "Halk Kalabalığı"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0022",
+        "episode": "EP12",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0014",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "BLD-0002",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge Sokakları",
+          "entity_id": null,
+          "context_id": "DIS-0004",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Teyze'nin Evi",
+          "entity_id": "BLD-0002",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pazar Yeri Sokakları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "unresolved_travelers": [
+          {
+            "label": "Halk Kalabalığı",
+            "entity_id": null
+          }
+        ],
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed these are locations within Yaz Helvası’s second city; retain the source street label as an interior route detail."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed this is another gate in the inter-city wall system between Yaz Helvası cities.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/1"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/1"
+        }
+      ],
+      "before": {
+        "order": 2,
+        "from": "Çöl Şehri 3. Bölge Kışlası Koridorları",
+        "to": "Çöl Şehri 2. Bölge",
+        "via": [
+          "3. Bölge ile 2. Bölge Arasındaki Güvenlik Kapısı"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Rozet Göstererek"
+      },
+      "after": {
+        "id": "TRV-0038",
+        "episode": "EP19",
+        "sequence": 2,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "DIS-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 3. Bölge Kışlası Koridorları",
+          "entity_id": null,
+          "context_id": "BLD-0018",
+          "resolution": "location_description"
+        },
+        "destination": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge ile 2. Bölge Arasındaki Güvenlik Kapısı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/1"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Rozet Göstererek",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed this is another gate in the inter-city wall system between Yaz Helvası cities."
+      }
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        },
+        {
+          "source_id": "SRC-EP19",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "order": 3,
+        "from": "Çöl Şehri 2. Bölge",
+        "to": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+        "via": [
+          "Pastırman Anıtı Meydanı"
+        ],
+        "characters_present": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary"
+        ],
+        "transport": "Yürüyerek & Kalender'i Taşıyarak"
+      },
+      "after": {
+        "id": "TRV-0039",
+        "episode": "EP19",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": "DIS-0004",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "destination": {
+          "label": "Çöl Şehri 1. Bölge (Yıkık Mahalle)",
+          "entity_id": null,
+          "context_id": "DIS-0003",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Pastırman Anıtı Meydanı",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          },
+          {
+            "source_id": "SRC-EP19",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek & Kalender'i Taşıyarak",
+          "entity_ids": []
+        },
+        "reason": "Project owner confirmed this is a real square in front of the third city gate; the Pastırman Hand monument later sinks into the ground and is covered after Kalender loses his paladin powers."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0002",
+      "slug": "beltis-ana-nin-evi",
+      "name": "Beltis Ana'nın Evi",
+      "type": "BUILDING",
+      "aliases": [
+        "Beltis Hala'nın Evi",
+        "Teyze'nin Evi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0017",
+      "slug": "col-sehri-2-bolge-surlari",
+      "name": "Çöl Şehri 2. Bölge Surları",
+      "type": "BUILDING",
+      "aliases": [
+        "2. Duvar"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0014",
+      "slug": "beltis-ana",
+      "name": "Beltis Ana",
+      "type": "PERSON",
+      "aliases": [
+        "Beltis",
+        "Beltis Abla",
+        "Beltis Hala",
+        "Beltis Teyze",
+        "Teyze",
+        "Teyze (Hasta Kızın Annesi)"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0037",
+      "slug": "hasta-kiz",
+      "name": "Hasta Kız",
+      "type": "PERSON",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0072",
+      "slug": "operaci-nihat",
+      "name": "Operacı Nihat",
+      "type": "PERSON",
+      "aliases": [
+        "Opera Sanatçısı Dayı",
+        "Operacı Dayı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TAV-0001",
+      "slug": "batangunes-kahvesi",
+      "name": "Batangüneş Kahvesi",
+      "type": "TAVERN",
+      "aliases": [
+        "Batan Güneş Kahvesi",
+        "Batan Güneş Kıraathanesi",
+        "Emilsum'un Kahvesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 33
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/1/facts/3"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/22"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/22/a/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/22/a/1"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/22/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/3/facts/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/2"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/24"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/26"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/lore/3/fact"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/24"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/21/ev"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/23"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/23/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/23/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/25"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/25/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/25/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/26"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/18/a/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/entities/18/facts/0"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/links/20"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/1"
+      },
+      {
+        "source_id": "SRC-EP19",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP19"
+      }
+    ],
+    "counts": {
+      "facts": 4,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 5,
+      "timeline_events": 1,
+      "travel_records": 3,
+      "lore_records": 0,
+      "episode_records": 5,
+      "map_constraints": 4,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 4,
+      "owner_confirmations": 0,
+      "linked_entities": 11
+    }
+  }
+}

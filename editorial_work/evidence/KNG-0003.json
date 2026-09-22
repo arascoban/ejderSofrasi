@@ -1,0 +1,528 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "KNG-0003",
+    "slug": "irmik-helvasi-kralligi",
+    "name": "İrmik Helvası Krallığı",
+    "type": "KINGDOM",
+    "aliases": [],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP08",
+      "EP16",
+      "EP17"
+    ],
+    "first_appearance": "EP08",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 20
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/21"
+      }
+    ],
+    "alias_assertions": [],
+    "episode_connections": [
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-44b4116163a31254",
+      "text": "Helvanar Kıtası'nda Un Helvası Krallığı ile anlaşma yapıp topraklarını büyütmek için savaşa giren krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/10/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f96f0dc20d9e4d34",
+      "text": "Un Helvası ile ittifak yapıp kuşatmaya katılan krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/20/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d4e39c95fd7bee45",
+      "text": "Kuşatmaya katılan müttefik krallık.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-44b4116163a31254",
+    "FCT-f96f0dc20d9e4d34",
+    "FCT-d4e39c95fd7bee45"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0402",
+        "subject_id": "KNG-0003",
+        "relation": "LOCATED_IN",
+        "object_id": "CON-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Helvanar Kıtası üzerinde yer alır.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/entities/10/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0417",
+        "subject_id": "KNG-0003",
+        "relation": "ALLIED_WITH",
+        "object_id": "KNG-0007",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP16"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "İrmik Helvası explicitly allies with Un Helvası and joins the siege.",
+            "temporal_basis": "reviewed_source_context",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP16",
+                "pointer": "/entities/20/facts/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0156",
+        "subject_id": "KNG-0008",
+        "relation": "ENEMY_OF",
+        "object_id": "KNG-0003",
+        "period": null,
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "İrmik Helvası Krallığı ile savaş halindedir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/29"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0157",
+        "subject_id": "KNG-0007",
+        "relation": "ALLIED_WITH",
+        "object_id": "KNG-0003",
+        "period": null,
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "İrmik Helvası Krallığı ile ittifak kurmuştur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/30"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0030",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Helva krallıkları kuşatması",
+        "summary_fact_id": "FCT-502baab1e4504fb9",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/8/facts/2"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/lore/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [],
+        "location_ids": [
+          "CIT-0006",
+          "CON-0001"
+        ],
+        "related_entity_ids": [
+          "DRG-0006",
+          "KNG-0003",
+          "KNG-0007",
+          "KNG-0008"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-502baab1e4504fb9",
+        "entity_id": "EVT-0030",
+        "fact": {
+          "id": "FCT-502baab1e4504fb9",
+          "text": "Un Helvası ve İrmik Helvası ittifakı, Kırmızı Ejderha desteği ve ölüm büyüleriyle Yaz Helvası Krallığı'nı kuşatır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/8/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/lore/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [
+    {
+      "location_id": "KNG-0003",
+      "periods": [
+        "1300 civarı"
+      ],
+      "placement_basis": "CANON_CONSTRAINED",
+      "spatial_domain": "unknown",
+      "states": [
+        {
+          "period": "1300 civarı",
+          "parent_id": "CON-0001",
+          "parent_candidate_ids": [
+            "CON-0001"
+          ],
+          "containment_relationship_ids": [
+            "REL-0402"
+          ],
+          "spatial_relations": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-LOCATIONS",
+          "line": 20
+        },
+        {
+          "source_id": "SRC-EP08",
+          "pointer": "/entities/10"
+        },
+        {
+          "source_id": "SRC-EP16",
+          "pointer": "/entities/20"
+        },
+        {
+          "source_id": "SRC-EP17",
+          "pointer": "/entities/21"
+        }
+      ]
+    }
+  ],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CON-0001",
+      "slug": "helva-adasi",
+      "name": "Helvanar Kıtası",
+      "type": "CONTINENT",
+      "aliases": [
+        "Helva Adası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0007",
+      "slug": "un-helvasi-kralligi",
+      "name": "Un Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Un Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0008",
+      "slug": "yaz-helvasi-kralligi",
+      "name": "Yaz Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Yaz Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-LOCATIONS",
+        "line": 20
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/10"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/10/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/8/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/29"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/30"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/lore/1"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/20/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 2,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 3,
+      "map_constraints": 1,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 4
+    }
+  }
+}

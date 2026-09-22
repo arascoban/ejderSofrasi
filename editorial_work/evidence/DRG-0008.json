@@ -1,0 +1,237 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "DRG-0008",
+    "slug": "mavi-ejderha",
+    "name": "Mavi Ejderha",
+    "type": "DRAGON",
+    "aliases": [
+      "Safir Ejderha"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP05",
+      "EP09"
+    ],
+    "first_appearance": "EP05",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 19
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/18"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Safir Ejderha",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/11/n"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/18/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP05",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-d65ae35c201b9f1e",
+      "text": "Ejderha panteonunda 2 numarada yer alan, mavi kıymetli kristal ve safir taşıyla ilişkilendirilen ejderha.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP05",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1206474f7407be04",
+      "text": "İnsanların topraklarına inip yağmur, su ve yiyecek veren ejderha.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/18/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-d65ae35c201b9f1e",
+    "FCT-1206474f7407be04"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP05",
+      "number": 5,
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP09 explicitly supplies Safir Ejderha as alias of Mavi Ejderha; Canon confirms Mavi spelling.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/entities/18/a/0"
+        }
+      ],
+      "before": [
+        "Safir Ejderha",
+        "Mavi Ejderha"
+      ],
+      "after": "DRG-0008"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 19
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/11/n"
+      },
+      {
+        "source_id": "SRC-EP05"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/18/a/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/18/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 0,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 0
+    }
+  }
+}

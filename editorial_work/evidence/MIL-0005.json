@@ -1,0 +1,481 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "MIL-0005",
+    "slug": "siyah-ejderha-cambazlari",
+    "name": "Siyah Ejderha Cambazları",
+    "type": "MILITARY_UNIT",
+    "aliases": [
+      "Cambaz Kardeşler",
+      "Siyah Ejderha Suikastçıları",
+      "Siyah Ejderha Zırhlı Savaşçıları"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP10"
+    ],
+    "first_appearance": "EP10",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Cambaz Kardeşler",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/8/a/2"
+          }
+        ]
+      },
+      {
+        "name": "Siyah Ejderha Suikastçıları",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/8/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Siyah Ejderha Zırhlı Savaşçıları",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/8/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-e70acfaea2ca7c06",
+      "text": "Siyah Ejderha tarikatına bağlı, özel zırhlar, peçeler ve kıvrık kılıçlar taşıyan son derece çevik, akrobatik ve eğitimli iki savaşçı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/8/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5b1397da75eac32f",
+      "text": "Kılıçlarında ilahi/nekrotik yanık aura taşırlar; Akmer'i ağır yaralayarak 0 HP'ye düşürmüşlerdir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/8/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-55d5ecec21a191f8",
+      "text": "İto'nun Işık Tacı ile fırlattığı Sunbeam büyüsüyle (28 radyan damage) kör edilip yakıldıktan sonra parmak şıklatarak rastgele bir yere ışınlanıp kaçmışlardır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/8/facts/2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-e70acfaea2ca7c06",
+    "FCT-5b1397da75eac32f",
+    "FCT-55d5ecec21a191f8"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0189",
+        "subject_id": "MIL-0005",
+        "relation": "MEMBER_OF",
+        "object_id": "FAC-0004",
+        "period": null,
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Siyah Ejderha tarikatına bağlı suikastçılardır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0190",
+        "subject_id": "MIL-0005",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0021",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Terk edilmiş inşaatta Akmer ve Roary'ye saldırmışlardır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0068",
+        "episode": "EP10",
+        "period": "1300 civarı",
+        "title": "Terk edilmiş inşaatta çatışma",
+        "summary_fact_id": "FCT-53e3a9118e4d8c31",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/0/facts/3"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/7/facts/1"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/8/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0069",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "BLD-0021"
+        ],
+        "related_entity_ids": [
+          "MIL-0005"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-53e3a9118e4d8c31",
+        "entity_id": "EVT-0068",
+        "fact": {
+          "id": "FCT-53e3a9118e4d8c31",
+          "text": "Ekip Un Helvası askerleri ve Siyah Ejderha cambazlarıyla savaşır. Akmer bilincini kaybedip Roary tarafından iyileştirilir; Nacak Reis ölür, iki cambaz ışınlanarak kaçar.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/0/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/7/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP10",
+                  "pointer": "/entities/8/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0021",
+      "slug": "col-sehri-terk-edilmis-insaat",
+      "name": "Çöl Şehri Terk Edilmiş İnşaat",
+      "type": "BUILDING",
+      "aliases": [
+        "Terk Edilmiş İnşaat",
+        "Terk Edilmiş Mahalle Binası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "FAC-0004",
+      "slug": "siyah-ejderha-tarikati",
+      "name": "Siyah Ejderha Tarikatı",
+      "type": "FACTION",
+      "aliases": [
+        "Onyx Ejderha Kültü",
+        "Siyah Ejderha Örgütü"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0069",
+      "slug": "nacak-reis",
+      "name": "Nacak Reis",
+      "type": "PERSON",
+      "aliases": [
+        "Nacaklı Asker",
+        "Nacakçı"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/0/facts/3"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8/a/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8/a/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8/a/2"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8/facts/1"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/8/facts/2"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP10"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 7
+    }
+  }
+}

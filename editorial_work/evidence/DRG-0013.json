@@ -1,0 +1,930 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "DRG-0013",
+    "slug": "siyah-ejderha",
+    "name": "Siyah Ejderha",
+    "type": "DRAGON",
+    "aliases": [
+      "Gölge Ejderhası",
+      "Kül Ejderhası",
+      "Onyx Ejderha"
+    ],
+    "titles": [],
+    "periods": [],
+    "episodes": [
+      "EP09",
+      "EP10",
+      "EP12",
+      "EP13",
+      "EP14",
+      "EP15",
+      "EP16",
+      "EP17",
+      "EP18",
+      "EP20"
+    ],
+    "first_appearance": "EP09",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 16
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/15"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Gölge Ejderhası",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/15/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Kül Ejderhası",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/16/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Onyx Ejderha",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/15/a/1"
+          },
+          {
+            "source_id": "SRC-EP10",
+            "pointer": "/entities/21/a/0"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/entities/16/a/0"
+          },
+          {
+            "source_id": "SRC-EP13",
+            "pointer": "/entities/11/a/0"
+          },
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/18/a/0"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/17/a/0"
+          },
+          {
+            "source_id": "SRC-EP16",
+            "pointer": "/entities/17/a/0"
+          },
+          {
+            "source_id": "SRC-EP17",
+            "pointer": "/entities/18/a/0"
+          },
+          {
+            "source_id": "SRC-EP18",
+            "pointer": "/entities/16/a/0"
+          },
+          {
+            "source_id": "SRC-EP20",
+            "pointer": "/entities/15/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP10",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP13",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP16",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP17",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP18",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "entity_record"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-35ef6528440fef7a",
+      "text": "Yeraltından çıkan, kasırga, yıkım, savaş ve korkuyu temsil eden, şehri kuşatan karanlık güçlerin arkasındaki siyah ejderha.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-94d8537650624a65",
+      "text": "Yeraltı, yıkım ve kasırga ejderhası; Un Helvası ordusu ve Siyah Ejderha tarikatı bu ejderhanın emrindedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP10",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-59da31e0fb82a490",
+      "text": "Gökyüzünde yıldızların ötesindeki kozmik karanlığı temsil eden, yeraltı ve yıkım ejderhası.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/16/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-51bd3a74068abb32",
+      "text": "Yeraltı ve yıkım ejderhası; Un Helvası Krallığı ordusu bu ejderhanın etkisindedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/11/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-de2b131151257f81",
+      "text": "Yeraltı ve yıkım ejderhası; Un Helvası ordusu bu ejderhanın etkisindedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/18/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-15598834b27de724",
+      "text": "Canlı bomba fedaileri yetiştiren yıkım ejderhası.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-87d92f0a5633fc70",
+      "text": "Yeraltı ve yıkım ejderhası.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP16",
+              "pointer": "/entities/17/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP18",
+              "pointer": "/entities/16/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-fab302c31b5080b7",
+      "text": "Siyah Ordu'yu destekleyen yıkım ejderhası.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP17",
+              "pointer": "/entities/18/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-d8b32676fd2f63b3",
+      "text": "Siyah Ordu'yu destekleyen yıkım ve kaos ejderhası.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/entities/15/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-35ef6528440fef7a",
+    "FCT-94d8537650624a65",
+    "FCT-59da31e0fb82a490",
+    "FCT-51bd3a74068abb32",
+    "FCT-de2b131151257f81",
+    "FCT-15598834b27de724",
+    "FCT-87d92f0a5633fc70",
+    "FCT-fab302c31b5080b7",
+    "FCT-d8b32676fd2f63b3"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "id": "REL-0175",
+        "subject_id": "NPC-0056",
+        "relation": "SERVES",
+        "object_id": "DRG-0013",
+        "period": null,
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Siyah Ejderha faksiyonuna çalışmaktadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0194",
+        "subject_id": "FAC-0004",
+        "relation": "WORSHIPS",
+        "object_id": "DRG-0013",
+        "period": null,
+        "episodes": [
+          "EP10"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Siyah Ejderha'ya tapınmaktadır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP10",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0274",
+        "subject_id": "MIL-0006",
+        "relation": "SERVES",
+        "object_id": "DRG-0013",
+        "period": null,
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Siyah Ejderha örgütü fedaileridir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/32"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0299",
+        "subject_id": "MIL-0007",
+        "relation": "SERVES",
+        "object_id": "DRG-0013",
+        "period": null,
+        "episodes": [
+          "EP17"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Siyah Ejderha faksiyonunun ordusudur.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP17",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "summary_facts": []
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP10",
+      "number": 10,
+      "title": "DnD: EJDER SOFRASI 10 - Kavga Zamanı! Tırrekler vs Bizim Ekip",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP10",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP13",
+      "number": 13,
+      "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP16",
+      "number": 16,
+      "title": "DnD: EJDER SOFRASI 16 - Ulu Kılıç ve Pastırman Mitingi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP16",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP17",
+      "number": 17,
+      "title": "DnD: EJDER SOFRASI 17 - Savaş Tanrısı İçin Savaş!",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP17",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP18",
+      "number": 18,
+      "title": "DnD: EJDER SOFRASI 18 - Ailede Bir Ölüm",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP18",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "FAC-0004",
+      "slug": "siyah-ejderha-tarikati",
+      "name": "Siyah Ejderha Tarikatı",
+      "type": "FACTION",
+      "aliases": [
+        "Onyx Ejderha Kültü",
+        "Siyah Ejderha Örgütü"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "MIL-0006",
+      "slug": "siyah-ejderha-canli-bomba-ve-suikast-birligi",
+      "name": "Siyah Ejderha Canlı Bomba ve Suikast Birliği",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Siyah Zırhlı İntihar Saldırı Grubu"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "MIL-0007",
+      "slug": "siyah-ejderha-ordusu",
+      "name": "Siyah Ejderha Ordusu",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Siyah Birlikler",
+        "Siyah Ordu"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0056",
+      "slug": "kefir",
+      "name": "Kefir",
+      "type": "PERSON",
+      "aliases": [
+        "Kefir (Siyah Ejderha Ajanı)"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-DRAGONANDGODNAMES",
+        "line": 16
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/15/a/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/15/a/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/21/a/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP10",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP10"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/16/a/0"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/16/a/1"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/11"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/11/a/0"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/11/facts/0"
+      },
+      {
+        "source_id": "SRC-EP13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/18/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/18/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/17/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/32"
+      },
+      {
+        "source_id": "SRC-EP15"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/17/a/0"
+      },
+      {
+        "source_id": "SRC-EP16",
+        "pointer": "/entities/17/facts/0"
+      },
+      {
+        "source_id": "SRC-EP16"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/18/a/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/entities/18/facts/0"
+      },
+      {
+        "source_id": "SRC-EP17",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP17"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/16"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/16/a/0"
+      },
+      {
+        "source_id": "SRC-EP18",
+        "pointer": "/entities/16/facts/0"
+      },
+      {
+        "source_id": "SRC-EP18"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/15"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/15/a/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/entities/15/facts/0"
+      },
+      {
+        "source_id": "SRC-EP20"
+      }
+    ],
+    "counts": {
+      "facts": 9,
+      "relationships_outgoing": 0,
+      "relationships_incoming": 4,
+      "timeline_events": 0,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 10,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 4
+    }
+  }
+}

@@ -1,0 +1,645 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0032",
+    "slug": "gandu",
+    "name": "Gandu",
+    "type": "PERSON",
+    "aliases": [
+      "Demirci Gandu",
+      "Demirci Rando",
+      "Demirci Usta",
+      "Hodor",
+      "Mirçe",
+      "Rando"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP14",
+      "EP15"
+    ],
+    "first_appearance": "EP14",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 79
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Demirci Gandu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/7/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Demirci Rando",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/4/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Demirci Usta",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/4/a/2"
+          }
+        ]
+      },
+      {
+        "name": "Hodor",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP14",
+            "pointer": "/entities/7/a/1"
+          }
+        ]
+      },
+      {
+        "name": "Mirçe",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/4/a/3"
+          }
+        ]
+      },
+      {
+        "name": "Rando",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/4/n"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-5eda6f3d94e2e0a4",
+      "text": "Çöl Şehri'nde demircilik yapan, sosyoloji mezunu olduğunu ve 'Ot' dergisinde şiirler yazdığını iddia eden iri yarı esnaf/usta.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-396e6ff1e790d2e5",
+      "text": "Kalender'e zincir zırh veya plaka zırh yapmayı teklif etmiş, Batan Güneş Kahvesi'nin kapısını korumuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/7/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-9c3c3d5ec14ba696",
+      "text": "Arifler Okulu yakınında demirhanesi olan, felsefe ve 'Ejderha Çağında Diyalektik ve Materyalist Felsefe' kitapları okuyan bilge demirci usta.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/4/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-544b2fa461760f16",
+      "text": "Kalender'e özel sıvı soğutmalı dökme demir zırh tasarlamış, geçici olarak Kalender'in Seremoni Zırhı'nı kiralamıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/4/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-c302e5e6f4279a62",
+      "text": "Deposundaki Helvacıoğlu Hanedanı'na ait kadim Helvacıoğlu Baltası'nı Akmer'e hediye etmiş, ejderha kemiklerinden yapılma Kristal Kılıç'ı Kalender'e vermiştir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/4/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-947ce3830b1a11d6",
+      "text": "Roary'nin Dev Ayı formu için özel zırh ölçüsü almıştır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/4/facts/3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-5eda6f3d94e2e0a4",
+    "FCT-396e6ff1e790d2e5",
+    "FCT-9c3c3d5ec14ba696",
+    "FCT-544b2fa461760f16",
+    "FCT-c302e5e6f4279a62",
+    "FCT-947ce3830b1a11d6"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0254",
+        "subject_id": "NPC-0032",
+        "relation": "WORKS_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP14"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Çöl Şehri'nde demircilik yapmaktadır.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP14",
+                "pointer": "/links/16"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0269",
+        "subject_id": "NPC-0032",
+        "relation": "OPERATES",
+        "object_id": "BLD-0004",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP15"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Demirci dükkanını işletmektedir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP15",
+                "pointer": "/links/18"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0084",
+        "episode": "EP15",
+        "period": "1300 civarı",
+        "title": "Kadim silahların teslim alınması",
+        "summary_fact_id": "FCT-93fc17dc2983e2d8",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/4/facts/2"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/27/facts/0"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/28/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0032",
+          "NPC-0051"
+        ],
+        "location_ids": [
+          "BLD-0004"
+        ],
+        "related_entity_ids": [
+          "DYN-0001",
+          "ITM-0012"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-93fc17dc2983e2d8",
+        "entity_id": "EVT-0084",
+        "fact": {
+          "id": "FCT-93fc17dc2983e2d8",
+          "text": "Gandu olarak da adlandırılan demirci Rando, Akmer’e Helvacıoğlu Baltası’nı ve Kalender’e Kristal Kılıç’ı verir. Silahların Helvacıoğlu Hanedanı ve ejderha kemikleriyle bağı anlatılır.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/4/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/27/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/28/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0025",
+      "episode": "EP14",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0014",
+        "NPC-0027",
+        "NPC-0032",
+        "NPC-0046",
+        "NPC-0051"
+      ],
+      "from_id": "BLD-0002",
+      "to_id": "TAV-0001",
+      "via_ids": [],
+      "origin": {
+        "label": "Beltis Ana'nın Evi",
+        "entity_id": "BLD-0002",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Batan Güneş Kahvesi",
+        "entity_id": "TAV-0001",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Çöl Şehri Sokakları",
+          "entity_id": null,
+          "context_id": "CIT-0006",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek & Çarşaflara Sarınarak",
+        "entity_ids": []
+      }
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP15 explicitly lists Gandu as an alias of Rando; canonical spelling is Gandu. This merge is based on the explicit alias, not matching occupations.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": "/entities/4/a/1"
+        },
+        {
+          "source_id": "SRC-EP14",
+          "pointer": "/entities/7"
+        }
+      ],
+      "before": [
+        "Rando",
+        "Gandu"
+      ],
+      "after": "NPC-0032"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0002",
+      "slug": "beltis-ana-nin-evi",
+      "name": "Beltis Ana'nın Evi",
+      "type": "BUILDING",
+      "aliases": [
+        "Beltis Hala'nın Evi",
+        "Teyze'nin Evi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "BLD-0004",
+      "slug": "demirci-dukkani",
+      "name": "Demirci Dükkanı",
+      "type": "BUILDING",
+      "aliases": [
+        "Rando'nun Demirhanesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TAV-0001",
+      "slug": "batangunes-kahvesi",
+      "name": "Batangüneş Kahvesi",
+      "type": "TAVERN",
+      "aliases": [
+        "Batan Güneş Kahvesi",
+        "Batan Güneş Kıraathanesi",
+        "Emilsum'un Kahvesi"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 79
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/links/16"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/27/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/28/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/a/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/a/1"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/a/2"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/a/3"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/facts/2"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/facts/3"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/4/n"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/links/18"
+      },
+      {
+        "source_id": "SRC-EP15"
+      }
+    ],
+    "counts": {
+      "facts": 6,
+      "relationships_outgoing": 2,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 2,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 4
+    }
+  }
+}

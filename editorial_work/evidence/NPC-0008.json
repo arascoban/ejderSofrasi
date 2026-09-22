@@ -1,0 +1,415 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0008",
+    "slug": "arif-bey",
+    "name": "Arif Bey",
+    "type": "PERSON",
+    "aliases": [
+      "Arif Arifoğlu",
+      "Ariflerin Başı"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP08"
+    ],
+    "first_appearance": "EP08",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 43
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/7"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Arif Arifoğlu",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/7/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Ariflerin Başı",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/7/a/1"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-56a2d24548315948",
+      "text": "Yaz Helvası Krallığı'ndaki Arifler / Divination Büyücü Okulu'nun lideri, yaşlı, göbekli, 1970'ler Dumbledore tarzı büyük bilgedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5afb8b8d7b84bb6a",
+      "text": "Maceracıların geleceğinin yıldızlarda ve kitaplarda yazılı olduğunu belirterek onlara kader, inanç ve kaçış/savaş üzerine felsefi sorular sormuştur.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/7/facts/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-56a2d24548315948",
+    "FCT-5afb8b8d7b84bb6a"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0148",
+        "subject_id": "NPC-0008",
+        "relation": "LEADS",
+        "object_id": "ORG-0001",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Arifler Okulu'nun lideridir.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/21"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0149",
+        "subject_id": "NPC-0008",
+        "relation": "SERVES",
+        "object_id": "KNG-0008",
+        "period": null,
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yaz Helvası Krallığı başbilgesidir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/22"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0150",
+        "subject_id": "NPC-0008",
+        "relation": "PRESENT_IN",
+        "object_id": "BLD-0023",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Arifler Okulu bahçesinde maceracılarla konuşmuştur.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/23"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0028",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Ariflerle görüşme ve seçilmişlerin tanınması",
+        "summary_fact_id": "FCT-3185817aa1cfbc7c",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/5/facts/1"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/7/facts/1"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/2/facts/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0008",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "DRG-0014",
+          "ORG-0001"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-3185817aa1cfbc7c",
+        "entity_id": "EVT-0028",
+        "fact": {
+          "id": "FCT-3185817aa1cfbc7c",
+          "text": "Raer zihin okuyarak grubun şifa tapınağından geldiğini doğrular ve onları Arifler Okulu'na götürür. Arif Bey kader ve mücadele üzerine konuşur; İto kalıp savaşmak istediğini belirtir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/5/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/7/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/2/facts/2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "KNG-0008",
+      "slug": "yaz-helvasi-kralligi",
+      "name": "Yaz Helvası Krallığı",
+      "type": "KINGDOM",
+      "aliases": [
+        "Yaz Helvası"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "ORG-0001",
+      "slug": "arifler-okulu",
+      "name": "Arifler Okulu",
+      "type": "ORGANIZATION",
+      "aliases": [
+        "Akademi",
+        "Arifler Kahvesi",
+        "Arifler Loncası",
+        "Arifler Meclisi Bahçesi",
+        "Divination Okulu"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-CHARACTERS",
+        "line": 43
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/2/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/5/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/7/a/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/7/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/21"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/22"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/23"
+      },
+      {
+        "source_id": "SRC-EP08"
+      }
+    ],
+    "counts": {
+      "facts": 2,
+      "relationships_outgoing": 3,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 0,
+      "owner_confirmations": 0,
+      "linked_entities": 4
+    }
+  }
+}

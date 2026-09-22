@@ -4,7 +4,7 @@
 
 - Kullanıcının menü tıklamasında donma bildirimi PRB-0019 altında ele alındı; kayıt önceki denemeyi ve son düzeltmeyi korur.
 - Arama Dünya Arşivi'nde birleştirildi. Eski `/search` bağlantıları query/tür/dönem ile yönlenir. Dönem seçicinin URL token uyumsuzluğu giderildi; boş sorgulu arşiv editoryal servisi beklemez.
-- Tüm varlıklar için makale ara aşaması `LUNA_MAKALE_PLANI.md` içinde hazır; M1–M4 **henüz uygulanmadı**, içerik yayımlanmadı. Sonraki özellik sırası bu ara plan ve güncel kullanıcı yetkisine göre belirlenir; G–I eski planları korunur.
+- Tüm varlıklar için makale ara aşaması `LUNA_MAKALE_PLANI.md` içinde hazır. M1 kanıt paketi üretimi uygulandı: `editorial_work/evidence/` altında 403 etkin ID, `editorial_work/coverage.json` kapsam raporu ve deterministik kontrol komutu var. Henüz makale taslağı veya yayın yok; M2 altı pilot kaynak incelemesi bekleniyor. Sonraki özellik sırası bu ara plan ve güncel kullanıcı yetkisine göre belirlenir; G–I eski planları korunur.
 - Lint/typecheck, 85 Vitest + 6 export testi ve 527/527 üretim build geçti. Yerel production tarayıcıda konum/dönem/menü/wiki/haritaya dön/geri akışı geçti; hata/uyarı yok. Eski arama URL yönlendirmesi ve seçili dönem doğrulandı. PRB-0019 çözüldü. `9927973` GitHub main üzerinde; Vercel success doğrulandı. Canlı tarayıcıda Helvanar seçimi → Dünya Arşivi → geri → 1673 dönem geçişi geçti; console hata/uyarı yok.
 
 

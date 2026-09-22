@@ -1,0 +1,1151 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "ITM-0031",
+    "slug": "yeniden-yasam-yuzugu",
+    "name": "Yeniden Yaşam Yüzüğü",
+    "type": "ITEM",
+    "aliases": [
+      "Zümrüt Ejderha Yüzüğü",
+      "Zümrüt Yüzük"
+    ],
+    "titles": [],
+    "periods": [
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP06",
+      "EP07",
+      "EP08",
+      "EP09",
+      "EP12",
+      "EP13",
+      "EP14",
+      "EP15"
+    ],
+    "first_appearance": "EP06",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "canon_confirmed",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-ITEMS",
+        "line": 4
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/30"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/32"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/32"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Zümrüt Ejderha Yüzüğü",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/7/a/0"
+          }
+        ]
+      },
+      {
+        "name": "Zümrüt Yüzük",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/7/n"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP06",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP07",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "event_reference"
+        ]
+      },
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP13",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP14",
+        "kinds": [
+          "entity_record"
+        ]
+      },
+      {
+        "episode": "EP15",
+        "kinds": [
+          "entity_record",
+          "event_reference"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-5d46c225cf3caa89",
+      "text": "Hazine odasındaki üç nesneden biri olan, üzerinde Zümrüt Ejderha kabartması bulunan, Akmer tarafından seçildiğinde parmağına uyum sağlayıp zindelik ve ferahlık veren büyülü yüzük.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP06",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-1366b0478611b936",
+      "text": "Akmer'in taktığı büyülü yüzük.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP07",
+              "pointer": "/entities/13/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-8d0b0617b0329031",
+      "text": "Savaş dışında her 10 dakikada 1d6 HP yeniler; kopan uzuvları 1d4 günde yeniden çıkarır.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/19/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-f799496f16b36ab8",
+      "text": "Sıra dışı 0 HP'ye düşüldüğünde anında 1 HP ile ayağa kaldırır ve 10 feet alandaki düşmanlara 2d10 radyan patlama hasarı verir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/19/facts/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-6f615fdc2b2c4b27",
+      "text": "Ölen kişinin etrafında 24 saatte yeşim kozası oluşturup Reincarnate büyüsüyle tam canlı diriltir (yüzük parçalanır).",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/19/facts/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-b9ed64ef63de8ae1",
+      "text": "Akmer'in parmağındaki büyülü yüzük.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/28/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP12",
+              "pointer": "/entities/30/facts/0"
+            }
+          ]
+        },
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP13",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5449c7378feb19f8",
+      "text": "Akmer'in parmağındaki yüzük.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP14",
+              "pointer": "/entities/32/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-7ab3619712e498df",
+      "text": "Patlamada Kalender 0 HP'ye düştüğünde onu 1 HP ile dirilten ve 2d10 radyan patlama saçan büyülü yüzük.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP15",
+              "pointer": "/entities/32/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-5d46c225cf3caa89",
+    "FCT-1366b0478611b936",
+    "FCT-8d0b0617b0329031",
+    "FCT-f799496f16b36ab8",
+    "FCT-6f615fdc2b2c4b27",
+    "FCT-b9ed64ef63de8ae1",
+    "FCT-5449c7378feb19f8",
+    "FCT-7ab3619712e498df"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0510",
+        "subject_id": "ITM-0031",
+        "relation": "INSIDE",
+        "object_id": "TMP-0003",
+        "period": "1600 civarı",
+        "episodes": [
+          "EP06"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Hazine odasındaki üç süzülen objeden biridir.",
+            "temporal_basis": "episode_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP06",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0165",
+        "subject_id": "NPC-0006",
+        "relation": "POSSESSES",
+        "object_id": "ITM-0031",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Yeniden Yaşam Yüzüğü'nü parmağında taşımaktadır.",
+            "temporal_basis": "reviewed_narrative_scene",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/3"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0528",
+        "subject_id": "NPC-0051",
+        "relation": "OWNS",
+        "object_id": "ITM-0031",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed the ring was always Kalender's and could not leave his hand.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/entities/1/facts/2"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0021",
+        "episode": "EP06",
+        "period": "1600 civarı",
+        "title": "Zümrüt yüzüğün alınması",
+        "summary_fact_id": "FCT-2efd1af653ac714c",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/0/facts/2"
+          },
+          {
+            "source_id": "SRC-EP06",
+            "pointer": "/entities/7/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006"
+        ],
+        "location_ids": [
+          "TMP-0003"
+        ],
+        "related_entity_ids": [
+          "ITM-0031"
+        ]
+      },
+      {
+        "event_id": "EVT-0031",
+        "episode": "EP08",
+        "period": "1300 civarı",
+        "title": "Dört kutsal yadigarın güçlerinin öğrenilmesi",
+        "summary_fact_id": "FCT-0e22f3833c09c406",
+        "event_status": "revealed",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/5/facts/2"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/3/facts/1"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/17"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/18"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/19"
+          },
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/20"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "CIT-0006"
+        ],
+        "related_entity_ids": [
+          "ITM-0004",
+          "ITM-0009",
+          "ITM-0031",
+          "ITM-0036",
+          "ORG-0001"
+        ]
+      },
+      {
+        "event_id": "EVT-0085",
+        "episode": "EP15",
+        "period": "1300 civarı",
+        "title": "Arifler bahçesine intihar saldırısı",
+        "summary_fact_id": "FCT-8e4de08a26ae8c23",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/1/facts/4"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/2/facts/3"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/3/facts/4"
+          },
+          {
+            "source_id": "SRC-EP15",
+            "pointer": "/entities/36/facts/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0007",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0060",
+          "NPC-0083",
+          "NPC-0089"
+        ],
+        "location_ids": [
+          "BLD-0023"
+        ],
+        "related_entity_ids": [
+          "ITM-0031",
+          "MIL-0006"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-2efd1af653ac714c",
+        "entity_id": "EVT-0021",
+        "fact": {
+          "id": "FCT-2efd1af653ac714c",
+          "text": "Akmer hazine odasındaki Zümrüt Yüzük'ü seçip takar; yüzük parmağına uyum sağlayıp zindelik verir.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/entities/0/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP06",
+                  "pointer": "/entities/7/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-0e22f3833c09c406",
+        "entity_id": "EVT-0031",
+        "fact": {
+          "id": "FCT-0e22f3833c09c406",
+          "text": "Arifler büyücüsü eşyaları inceletir; kadeh, buhurdan, yüzük ve tacın şifa, korunma ve ışık güçleri tanımlanır. Roary bahçede şifalı sisi etkinleştirir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/5/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/3/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/17"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/18"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/19"
+                },
+                {
+                  "source_id": "SRC-EP08",
+                  "pointer": "/entities/20"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fact_id": "FCT-8e4de08a26ae8c23",
+        "entity_id": "EVT-0085",
+        "fact": {
+          "id": "FCT-8e4de08a26ae8c23",
+          "text": "Siyah Ejderha fedaileri okul bahçesinde patlama düzenler. Kalender bilincini kaybeder ve kaynak yüzüğün onu ayağa kaldırdığını söyler; Roary yaralıları iyileştirir, İto çatılardaki saldırganlara karşılık verir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/1/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/2/facts/3"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/3/facts/4"
+                },
+                {
+                  "source_id": "SRC-EP15",
+                  "pointer": "/entities/36/facts/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP06",
+      "number": 6,
+      "title": "DnD: EJDER SOFRASI 06 - ŞİFA TAPINAĞININ DAYAĞI",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP06",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP07",
+      "number": 7,
+      "title": "DnD: EJDER SOFRASI 07 - 2 KARDEŞ GİTTİ, 2 YENİSİ GELDİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP07",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP13",
+      "number": 13,
+      "title": "DnD: EJDER SOFRASI 13 - Kızıl Komutan ve Pastırman Mucizesi",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP13",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP14",
+      "number": 14,
+      "title": "DnD: EJDER SOFRASI 14 - Teyze Çırpması, Roary'nin Ördekleri ve Pastırman",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP14",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP15",
+      "number": 15,
+      "title": "DnD: EJDER SOFRASI 15 - Yeni Ekipmanlar ve Yeni Düşmanlar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP15",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "Project owner confirmed that Zümrüt Yüzük and Yeniden Yaşam Yüzüğü are the same item.",
+      "source_refs": [
+        {
+          "source_id": "SRC-CANON-ITEMS",
+          "line": 4
+        },
+        {
+          "source_id": "SRC-EP06",
+          "pointer": "/entities/13"
+        }
+      ],
+      "before": [
+        "Yeniden Yaşam Yüzüğü",
+        "Zümrüt Yüzük"
+      ],
+      "after": "ITM-0031"
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0006",
+      "slug": "akmer-sutcuoglu",
+      "name": "Akmer Sütçüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Akbaş",
+        "Akmer",
+        "Bayan Akmer",
+        "Kızıl Sıçan",
+        "Mina",
+        "Mina Sultan",
+        "Sütçüoğlu Prensesi"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0007",
+      "slug": "raer-ammon",
+      "name": "Raer Ammon",
+      "type": "PERSON",
+      "aliases": [
+        "Ammon",
+        "Ammon Bey",
+        "Başbüyücü Ammon",
+        "Büyücü Raer",
+        "Büyük Büyücü Rer",
+        "Rael",
+        "Raer",
+        "Rer"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0046",
+      "slug": "ito-itoglu",
+      "name": "İto İtoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "İto"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0051",
+      "slug": "kalender-tutuncuoglu",
+      "name": "Kalender Tütüncüoğlu",
+      "type": "PERSON",
+      "aliases": [
+        "Gümüş Sıçan",
+        "Kalender",
+        "Mahdi",
+        "Mehdi",
+        "Osco",
+        "Tepegöz Kaptan"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0060",
+      "slug": "kizil-komutan-sancar",
+      "name": "Kızıl Komutan Sancar",
+      "type": "PERSON",
+      "aliases": [
+        "Başkomutan",
+        "Büyük Komutan",
+        "Derbaş",
+        "Komutan",
+        "Kızıl Komutan",
+        "Kızıl Komutan (Baba)"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0089",
+      "slug": "subira",
+      "name": "Subira",
+      "type": "PERSON",
+      "aliases": [
+        "Demirci Subira",
+        "Subira Hanım"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "sufficient_narrative",
+    "source_refs": [
+      {
+        "source_id": "SRC-CANON-ITEMS",
+        "line": 4
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/0/facts/2"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/entities/7/n"
+      },
+      {
+        "source_id": "SRC-EP06",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP06"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/13"
+      },
+      {
+        "source_id": "SRC-EP07",
+        "pointer": "/entities/13/facts/0"
+      },
+      {
+        "source_id": "SRC-EP07"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/17"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/18"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/19"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/19/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/19/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/19/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/20"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/3/facts/1"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/5/facts/2"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/1/facts/2"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/28"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/28/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/3"
+      },
+      {
+        "source_id": "SRC-EP09"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/30"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/entities/30/facts/0"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP13",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP13"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/32"
+      },
+      {
+        "source_id": "SRC-EP14",
+        "pointer": "/entities/32/facts/0"
+      },
+      {
+        "source_id": "SRC-EP14"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/1/facts/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/2/facts/3"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/3/facts/4"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/32"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/32/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15",
+        "pointer": "/entities/36/facts/0"
+      },
+      {
+        "source_id": "SRC-EP15"
+      }
+    ],
+    "counts": {
+      "facts": 8,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 2,
+      "timeline_events": 3,
+      "travel_records": 0,
+      "lore_records": 0,
+      "episode_records": 8,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 0,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 10
+    }
+  }
+}

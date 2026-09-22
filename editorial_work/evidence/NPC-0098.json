@@ -1,0 +1,486 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "NPC-0098",
+    "slug": "yarali-ajan-kadin",
+    "name": "Yaralı Ajan Kadın",
+    "type": "PERSON",
+    "aliases": [
+      "Yaralı Kadın"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı"
+    ],
+    "episodes": [
+      "EP09"
+    ],
+    "first_appearance": "EP09",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/7"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Yaralı Kadın",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/7/a/0"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP09",
+        "kinds": [
+          "entity_record",
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-a54ff96e03d0a51a",
+      "text": "Arifler Okulu bahçesine üstü başı yırtık ve yanık halde gelerek 'aşağı mahallede salgın var, insanlar enkaz altında' yalanıyla maceracıları çıkmaz sokağa çeken düşman ajanı.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP09",
+              "pointer": "/entities/7/facts/0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-a54ff96e03d0a51a"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0176",
+        "subject_id": "NPC-0098",
+        "relation": "MEMBER_OF",
+        "object_id": "MIL-0008",
+        "period": null,
+        "episodes": [
+          "EP09"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Ekibi tuzağa çeken ajandır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP09",
+                "pointer": "/links/17"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0066",
+        "episode": "EP09",
+        "period": "1300 civarı",
+        "title": "Çıkmaz sokaktaki pusu ve Kefir’in ölümü",
+        "summary_fact_id": "FCT-b1bf68174d4cac33",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/6/facts/1"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/6/facts/2"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/7/facts/0"
+          },
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/entities/30/facts/1"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0056",
+          "NPC-0083",
+          "NPC-0098"
+        ],
+        "location_details": [
+          {
+            "label": "Çöl Şehri Çıkmaz Sokağı (Pusu Bölgesi)",
+            "context_id": "DIS-0006"
+          }
+        ],
+        "location_ids": [
+          "DIS-0006"
+        ],
+        "related_entity_ids": [
+          "MIL-0008"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-b1bf68174d4cac33",
+        "entity_id": "EVT-0066",
+        "fact": {
+          "id": "FCT-b1bf68174d4cac33",
+          "text": "Yaralı kadın rolündeki ajan ekibi tuzağa çeker. Çatışmada Kefir öldürülür ve Siyah Ejderha pusu birliği yenilir.",
+          "assertions": [
+            {
+              "period": "1300 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/6/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/6/facts/2"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/7/facts/0"
+                },
+                {
+                  "source_id": "SRC-EP09",
+                  "pointer": "/entities/30/facts/1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0017",
+      "episode": "EP09",
+      "sequence": 3,
+      "period": "1300 civarı",
+      "temporal_basis": "reviewed_narrative_scene",
+      "traveler_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083",
+        "NPC-0098"
+      ],
+      "from_id": "BLD-0023",
+      "to_id": null,
+      "via_ids": [],
+      "origin": {
+        "label": "Arifler Okulu",
+        "entity_id": "BLD-0023",
+        "resolution": "exact",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "destination": {
+        "label": "Çöl Şehri Çıkmaz Sokağı (Pusu Bölgesi)",
+        "entity_id": null,
+        "context_id": "DIS-0006",
+        "resolution": "within_named_location"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Yalılar Arası Gizli Geçitler",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        },
+        {
+          "sequence": 2,
+          "label": "Eski Depo ve Surlar",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/travel/2"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP09",
+      "number": 9,
+      "title": "DnD: EJDER SOFRASI 09 - Ejderhalar, Tanrılar, Din Kültürü ve Ahlak Bilgisi",
+      "source_periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [
+    {
+      "id": "CNF-0150",
+      "kind": "travel_resolution",
+      "status": "open",
+      "summary": "Route retains source descriptions that cannot be safely converted to exact global locations or named travelers.",
+      "entity_ids": [
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083",
+        "NPC-0098"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/travel/2"
+        }
+      ],
+      "details": {
+        "travel_id": "TRV-0017",
+        "unresolved_locations": [
+          "Yalılar Arası Gizli Geçitler",
+          "Eski Depo ve Surlar"
+        ],
+        "unresolved_travelers": []
+      }
+    }
+  ],
+  "normalization_decisions": [
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP09",
+          "pointer": "/travel/2"
+        }
+      ],
+      "before": {
+        "from": "Arifler Okulu",
+        "to": "Çöl Şehri Çıkmaz Sokağı (Pusu Bölgesi)",
+        "via": [
+          "Yalılar Arası Gizli Geçitler",
+          "Eski Depo ve Surlar"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "Yaralı Ajan Kadın"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0017",
+        "episode": "EP09",
+        "sequence": 3,
+        "period": "1300 civarı",
+        "temporal_basis": "reviewed_narrative_scene",
+        "traveler_ids": [
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083",
+          "NPC-0098"
+        ],
+        "from_id": "BLD-0023",
+        "to_id": null,
+        "via_ids": [],
+        "origin": {
+          "label": "Arifler Okulu",
+          "entity_id": "BLD-0023",
+          "resolution": "exact",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "destination": {
+          "label": "Çöl Şehri Çıkmaz Sokağı (Pusu Bölgesi)",
+          "entity_id": null,
+          "context_id": "DIS-0006",
+          "resolution": "within_named_location"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "Yalılar Arası Gizli Geçitler",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          },
+          {
+            "sequence": 2,
+            "label": "Eski Depo ve Surlar",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP09",
+            "pointer": "/travel/2"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0023",
+      "slug": "arifler-okulu-yerleskesi",
+      "name": "Arifler Okulu Yerleşkesi",
+      "type": "BUILDING",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "editorial_entity_split"
+    },
+    {
+      "id": "DIS-0006",
+      "slug": "col-sehri-cikmaz-sokagi",
+      "name": "Çöl Şehri Çıkmaz Sokağı",
+      "type": "DISTRICT",
+      "aliases": [],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "travel_attested"
+    },
+    {
+      "id": "MIL-0008",
+      "slug": "siyah-ejderha-pusu-grubu",
+      "name": "Siyah Ejderha Pusu Grubu",
+      "type": "MILITARY_UNIT",
+      "aliases": [
+        "Gölge Suikastçıları",
+        "Siyah Ejderha Ajanları"
+      ],
+      "periods": [],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "source_review_required",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/30/facts/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/6/facts/1"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/6/facts/2"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/7"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/7/a/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/entities/7/facts/0"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/links/17"
+      },
+      {
+        "source_id": "SRC-EP09",
+        "pointer": "/travel/2"
+      },
+      {
+        "source_id": "SRC-EP09"
+      }
+    ],
+    "counts": {
+      "facts": 1,
+      "relationships_outgoing": 1,
+      "relationships_incoming": 0,
+      "timeline_events": 1,
+      "travel_records": 1,
+      "lore_records": 0,
+      "episode_records": 1,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 1,
+      "normalization_decisions": 1,
+      "owner_confirmations": 0,
+      "linked_entities": 3
+    }
+  }
+}

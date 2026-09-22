@@ -1,0 +1,882 @@
+{
+  "schema_version": "editorial-evidence-v1",
+  "entity": {
+    "id": "CRE-0028",
+    "slug": "radam-in-papagani",
+    "name": "Radam'ın Papağanı",
+    "type": "CREATURE",
+    "aliases": [
+      "Cemil (Papağan)"
+    ],
+    "titles": [],
+    "periods": [
+      "1300 civarı",
+      "1600 civarı"
+    ],
+    "episodes": [
+      "EP05",
+      "EP08",
+      "EP11",
+      "EP12",
+      "EP20"
+    ],
+    "first_appearance": "EP05",
+    "continuity_scope": "MAIN_TIMELINE",
+    "confidence": "source_supported",
+    "name_status": "source_attested",
+    "record_status": "episode_attested",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/21"
+      }
+    ],
+    "alias_assertions": [
+      {
+        "name": "Cemil (Papağan)",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP08",
+            "pointer": "/entities/21"
+          }
+        ]
+      }
+    ],
+    "episode_connections": [
+      {
+        "episode": "EP05",
+        "kinds": [
+          "event_reference",
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP08",
+        "kinds": [
+          "entity_record",
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP11",
+        "kinds": [
+          "relationship"
+        ]
+      },
+      {
+        "episode": "EP12",
+        "kinds": [
+          "relationship",
+          "travel"
+        ]
+      },
+      {
+        "episode": "EP20",
+        "kinds": [
+          "relationship"
+        ]
+      }
+    ]
+  },
+  "source_version": {
+    "database_schema_version": "1.0.0",
+    "source_episode_range": [
+      "EP00",
+      "EP24"
+    ],
+    "source_inventory_sha256": "a53eac28cbd3eff603294ffb52989774852fa99ee2975ac0f9eb527eabb7398e"
+  },
+  "facts": [
+    {
+      "id": "FCT-da06a01e8ca53564",
+      "text": "Radam'ın ve Roary'nin yanında dolanan geveze papağan.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "not_established",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP08",
+              "pointer": "/entities/21/facts/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-be08bd8e7297e8f6",
+      "text": "Şampiyon Fener sözünü, eşyanın gerçek adı olan Şampiyonların Feneri’nden türetir; papağan olduğu için adı kısaltarak söyler.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP04",
+              "pointer": "/uncertainties/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FCT-5507b06ecf293c68",
+      "text": "Cemil, İbrahim ve ördek geride bırakılmıştır; sonraki akıbetleri bilinmemektedir.",
+      "assertions": [
+        {
+          "period": null,
+          "temporal_basis": "owner_confirmation",
+          "confidence": "source_supported",
+          "source_refs": [
+            {
+              "source_id": "SRC-EP20",
+              "pointer": "/uncertainties/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fact_ids": [
+    "FCT-da06a01e8ca53564",
+    "FCT-be08bd8e7297e8f6",
+    "FCT-5507b06ecf293c68"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "id": "REL-0513",
+        "subject_id": "CRE-0028",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0068",
+        "period": null,
+        "episodes": [
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Muzaffer Cemil'in papağanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/13"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0514",
+        "subject_id": "CRE-0028",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0082",
+        "period": null,
+        "episodes": [
+          "EP08"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Radam'ın evcil papağanıdır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP08",
+                "pointer": "/links/34"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0515",
+        "subject_id": "CRE-0028",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "NPC-0083",
+        "period": null,
+        "episodes": [
+          "EP11",
+          "EP12"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Roary ile sohbet etmiştir.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP11",
+                "pointer": "/links/14"
+              }
+            ],
+            "confidence": "source_supported"
+          },
+          {
+            "evidence": "Roary'nin yanında dolanır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP12",
+                "pointer": "/links/30"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      },
+      {
+        "id": "REL-0533",
+        "subject_id": "CRE-0028",
+        "relation": "PRESENT_IN",
+        "object_id": "CIT-0006",
+        "period": "1300 civarı",
+        "episodes": [
+          "EP20"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Project owner confirmed Cemil remained in Yaz Helvası Şehri when the team fled.",
+            "temporal_basis": "owner_confirmation",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP20",
+                "pointer": "/travel/0"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ],
+    "incoming": [
+      {
+        "id": "REL-0512",
+        "subject_id": "NPC-0083",
+        "relation": "ASSOCIATED_WITH",
+        "object_id": "CRE-0028",
+        "period": null,
+        "episodes": [
+          "EP05"
+        ],
+        "confidence": "source_supported",
+        "assertions": [
+          {
+            "evidence": "Papağan Cemil ile büyülü bağ kurup keşif yapmıştır.",
+            "temporal_basis": "not_established",
+            "source_refs": [
+              {
+                "source_id": "SRC-EP05",
+                "pointer": "/links/8"
+              }
+            ],
+            "confidence": "source_supported"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE"
+      }
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "event_id": "EVT-0017",
+        "episode": "EP05",
+        "period": "1600 civarı",
+        "title": "Şampiyonların Feneri ile tapınağa giriş",
+        "summary_fact_id": "FCT-2daee88a6a5665e5",
+        "event_status": "occurred",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/entities/4/facts/1"
+          },
+          {
+            "source_id": "SRC-EP05",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "participant_ids": [
+          "CRE-0012",
+          "CRE-0028",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0068",
+          "NPC-0083"
+        ],
+        "location_ids": [
+          "TMP-0003"
+        ],
+        "related_entity_ids": [
+          "ITM-0037"
+        ]
+      }
+    ],
+    "summary_facts": [
+      {
+        "fact_id": "FCT-2daee88a6a5665e5",
+        "entity_id": "EVT-0017",
+        "fact": {
+          "id": "FCT-2daee88a6a5665e5",
+          "text": "Muzaffer Cemil ekibe yol gösteren büyülü feneri verir. Grup, Cemil ve İbrahim ile dönüşü belirsiz şifa zindanına iner.",
+          "assertions": [
+            {
+              "period": "1600 civarı",
+              "temporal_basis": "reviewed_source_context",
+              "confidence": "source_supported",
+              "source_refs": [
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/entities/4/facts/1"
+                },
+                {
+                  "source_id": "SRC-EP05",
+                  "pointer": "/travel/0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "travel": [
+    {
+      "id": "TRV-0009",
+      "episode": "EP05",
+      "sequence": 1,
+      "period": "1600 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "CRE-0012",
+        "CRE-0028",
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": "BLD-0009",
+      "to_id": "TMP-0003",
+      "via_ids": [],
+      "origin": {
+        "label": "Muzaffer Cemil'in Kulübesi",
+        "entity_id": "BLD-0009",
+        "resolution": "exact"
+      },
+      "destination": {
+        "label": "Zümrüt Ejderha Şifa Zindanı",
+        "entity_id": "TMP-0003",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "Zümrüt Ejderha Pulu Kiler Kapağı",
+          "entity_id": null,
+          "context_id": "NAT-0004",
+          "resolution": "location_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek (Merdivenlerden inerek)",
+        "entity_ids": []
+      }
+    },
+    {
+      "id": "TRV-0021",
+      "episode": "EP12",
+      "sequence": 1,
+      "period": "1300 civarı",
+      "temporal_basis": "episode_scene",
+      "traveler_ids": [
+        "CRE-0012",
+        "CRE-0028",
+        "NPC-0006",
+        "NPC-0046",
+        "NPC-0051",
+        "NPC-0083"
+      ],
+      "from_id": null,
+      "to_id": "DIS-0004",
+      "via_ids": [],
+      "origin": {
+        "label": "Arifler Okulu (3. Bölge)",
+        "entity_id": null,
+        "context_id": "BLD-0023",
+        "resolution": "within_named_location",
+        "reviewed_context_id": "BLD-0023"
+      },
+      "destination": {
+        "label": "Çöl Şehri 2. Bölge",
+        "entity_id": "DIS-0004",
+        "resolution": "exact"
+      },
+      "waypoints": [
+        {
+          "sequence": 1,
+          "label": "3. Bölge Güvenlik Kapıları",
+          "entity_id": null,
+          "resolution": "unresolved_description"
+        }
+      ],
+      "status": "source_reported",
+      "confidence": "source_supported",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "continuity_scope": "MAIN_TIMELINE",
+      "transport": {
+        "description": "Yürüyerek",
+        "entity_ids": []
+      },
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+    }
+  ],
+  "lore": [],
+  "episodes": [
+    {
+      "id": "EP05",
+      "number": 5,
+      "title": "DnD: EJDER SOFRASI 05 - ZÜMRÜT TAPINAĞIN GİZEMİ",
+      "source_periods": [
+        "1600 civarı"
+      ],
+      "narrative_periods": [
+        "1600 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP05",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP08",
+      "number": 8,
+      "title": "DnD: EJDER SOFRASI 08 - Helva, Mahdi ve Arifler",
+      "source_periods": [
+        "1600 civarı",
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP08",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP11",
+      "number": 11,
+      "title": "DnD: EJDER SOFRASI 11 - Kartal Sniper ve Falcı Gacılar",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP11",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP12",
+      "number": 12,
+      "title": "DnD: EJDER SOFRASI 12 - Gizemli Taç ve Ördek-ül Şifa",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": ""
+        }
+      ]
+    },
+    {
+      "id": "EP20",
+      "number": 20,
+      "title": "DnD: EJDER SOFRASI 20 - Kumların İçinden Canım...",
+      "source_periods": [
+        "1300 civarı"
+      ],
+      "narrative_periods": [
+        "1300 civarı"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-EP20",
+          "pointer": ""
+        }
+      ]
+    }
+  ],
+  "map_canon": [],
+  "world_states": [],
+  "conflicts": [
+    {
+      "id": "CNF-0195",
+      "kind": "alias_collision",
+      "status": "open",
+      "summary": "Name or alias resolves to several distinct entities: cemil (papağan)",
+      "entity_ids": [
+        "CRE-0003",
+        "CRE-0028"
+      ],
+      "source_refs": [],
+      "details": {
+        "lookup": "cemil (papağan)"
+      }
+    }
+  ],
+  "normalization_decisions": [
+    {
+      "kind": "evidence_backed_identity_merge",
+      "reason": "EP04 identifies Cemil as the parrot and supplies exact Canon alias. Do not merge Muzaffer Cemil.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP04",
+          "pointer": "/entities/6/a/0"
+        },
+        {
+          "source_id": "SRC-EP05",
+          "pointer": "/entities/5/a/0"
+        }
+      ],
+      "before": [
+        "Cemil",
+        "Cemil (Papağan)"
+      ],
+      "after": "CRE-0028"
+    },
+    {
+      "kind": "travel_review",
+      "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence.",
+      "source_refs": [
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        },
+        {
+          "source_id": "SRC-EP12",
+          "pointer": "/travel/0"
+        }
+      ],
+      "before": {
+        "from": "Arifler Okulu (3. Bölge)",
+        "to": "Çöl Şehri 2. Bölge",
+        "via": [
+          "3. Bölge Güvenlik Kapıları"
+        ],
+        "party": [
+          "Akmer",
+          "Kalender Tütüncüoğlu",
+          "İto İtoğlu",
+          "Roary",
+          "İbrahim (Kompisaurus)",
+          "Cemil (Papağan)"
+        ],
+        "transport": "Yürüyerek"
+      },
+      "after": {
+        "id": "TRV-0021",
+        "episode": "EP12",
+        "sequence": 1,
+        "period": "1300 civarı",
+        "temporal_basis": "episode_scene",
+        "traveler_ids": [
+          "CRE-0012",
+          "CRE-0028",
+          "NPC-0006",
+          "NPC-0046",
+          "NPC-0051",
+          "NPC-0083"
+        ],
+        "from_id": null,
+        "to_id": "DIS-0004",
+        "via_ids": [],
+        "origin": {
+          "label": "Arifler Okulu (3. Bölge)",
+          "entity_id": null,
+          "context_id": "BLD-0023",
+          "resolution": "within_named_location",
+          "reviewed_context_id": "BLD-0023"
+        },
+        "destination": {
+          "label": "Çöl Şehri 2. Bölge",
+          "entity_id": "DIS-0004",
+          "resolution": "exact"
+        },
+        "waypoints": [
+          {
+            "sequence": 1,
+            "label": "3. Bölge Güvenlik Kapıları",
+            "entity_id": null,
+            "resolution": "unresolved_description"
+          }
+        ],
+        "status": "source_reported",
+        "confidence": "source_supported",
+        "source_refs": [
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/0"
+          },
+          {
+            "source_id": "SRC-EP12",
+            "pointer": "/travel/0"
+          }
+        ],
+        "continuity_scope": "MAIN_TIMELINE",
+        "transport": {
+          "description": "Yürüyerek",
+          "entity_ids": []
+        },
+        "reason": "Movement endpoint is the physical Arifler campus; original room/garden qualifier remains source evidence."
+      }
+    }
+  ],
+  "owner_confirmations": [],
+  "linked_entities": [
+    {
+      "id": "BLD-0009",
+      "slug": "muzaffer-cemil-in-kulubesi",
+      "name": "Muzaffer Cemil'in Kulübesi",
+      "type": "BUILDING",
+      "aliases": [
+        "Muzaffer'in Kulübesi"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "CIT-0006",
+      "slug": "col-sehri",
+      "name": "Yaz Helvası Şehri",
+      "type": "CITY",
+      "aliases": [
+        "Baharat ve Kum Şehri",
+        "Çöl Şehri"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "DIS-0004",
+      "slug": "col-sehri-2-bolge",
+      "name": "Çöl Şehri 2. Bölge",
+      "type": "DISTRICT",
+      "aliases": [
+        "İkinci Bölge",
+        "İkinci Cadde",
+        "İkinci Şehir"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0068",
+      "slug": "muzaffer-cemil",
+      "name": "Muzaffer Cemil",
+      "type": "PERSON",
+      "aliases": [
+        "Bumblebor",
+        "Dumblebor",
+        "Muzaffer Dede",
+        "Zindan Efendisi"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0082",
+      "slug": "radam",
+      "name": "Radam",
+      "type": "PERSON",
+      "aliases": [
+        "Büyücü Radam"
+      ],
+      "periods": [
+        "1300 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "NPC-0083",
+      "slug": "roary",
+      "name": "Roary",
+      "type": "PERSON",
+      "aliases": [
+        "Azize Rori",
+        "Cadı",
+        "Rori",
+        "Ördek-ül Deva",
+        "Ördek-ül Şifa"
+      ],
+      "periods": [
+        "1300 civarı",
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    },
+    {
+      "id": "TMP-0003",
+      "slug": "zumrut-ejderha-tapinagi",
+      "name": "Zümrüt Ejderha Tapınağı",
+      "type": "TEMPLE",
+      "aliases": [
+        "Zümrüt Ejderha Şifa Tapınağı",
+        "Zümrüt Ejderha Şifa Zindanı",
+        "Zümrüt Tapınak",
+        "Şifa Tapınağı",
+        "Şifa Zindanı"
+      ],
+      "periods": [
+        "1600 civarı"
+      ],
+      "record_status": "episode_attested"
+    }
+  ],
+  "evidence": {
+    "review_status": "source_review_required",
+    "source_refs": [
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/entities/6/a/0"
+      },
+      {
+        "source_id": "SRC-EP04",
+        "pointer": "/uncertainties/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/4/facts/1"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/entities/5/a/0"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/13"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/links/8"
+      },
+      {
+        "source_id": "SRC-EP05",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP05"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/21"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/entities/21/facts/0"
+      },
+      {
+        "source_id": "SRC-EP08",
+        "pointer": "/links/34"
+      },
+      {
+        "source_id": "SRC-EP08"
+      },
+      {
+        "source_id": "SRC-EP11",
+        "pointer": "/links/14"
+      },
+      {
+        "source_id": "SRC-EP11"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/links/30"
+      },
+      {
+        "source_id": "SRC-EP12",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP12"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/travel/0"
+      },
+      {
+        "source_id": "SRC-EP20",
+        "pointer": "/uncertainties/1"
+      },
+      {
+        "source_id": "SRC-EP20"
+      }
+    ],
+    "counts": {
+      "facts": 3,
+      "relationships_outgoing": 4,
+      "relationships_incoming": 1,
+      "timeline_events": 1,
+      "travel_records": 2,
+      "lore_records": 0,
+      "episode_records": 5,
+      "map_constraints": 0,
+      "world_states": 0,
+      "conflicts": 1,
+      "normalization_decisions": 2,
+      "owner_confirmations": 0,
+      "linked_entities": 7
+    }
+  }
+}
