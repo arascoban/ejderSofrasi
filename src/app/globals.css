@@ -315,6 +315,7 @@ button, input, select { font: inherit; }
   background: #071210;
 }
 .atlas-stage { min-width: 0; display: grid; grid-template-rows: auto minmax(34rem, 1fr); }
+.atlas-stage:has(.map-art-unavailable) { grid-template-rows: auto auto minmax(34rem, 1fr); }
 .atlas-toolbar {
   position: relative;
   z-index: 3;
@@ -341,6 +342,7 @@ button, input, select { font: inherit; }
 }
 .era-switch button[aria-pressed="true"] { color: #101512; background: var(--gold-bright); }
 .atlas-canvas { position: relative; min-height: 34rem; overflow: hidden; outline: none; touch-action: none; }
+.atlas-scene-root { position: absolute; inset: 0; }
 .atlas-canvas:focus-visible { box-shadow: inset 0 0 0 3px var(--gold-bright); }
 .atlas-canvas canvas { display: block; }
 .atlas-fallback {

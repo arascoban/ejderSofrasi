@@ -1,5 +1,13 @@
 # Uygulama ilerleme durumu
 
+## Güncel iş — 22 Eylül 2026, Astra gezinme düzeltmesi
+
+- Kullanıcının menü tıklamasında donma bildirimi PRB-0019 altında ele alındı; kayıt önceki denemeyi ve son düzeltmeyi korur.
+- Arama Dünya Arşivi'nde birleştirildi. Eski `/search` bağlantıları query/tür/dönem ile yönlenir. Dönem seçicinin URL token uyumsuzluğu giderildi; boş sorgulu arşiv editoryal servisi beklemez.
+- Tüm varlıklar için makale ara aşaması `LUNA_MAKALE_PLANI.md` içinde hazır; M1–M4 **henüz uygulanmadı**, içerik yayımlanmadı. Sonraki özellik sırası bu ara plan ve güncel kullanıcı yetkisine göre belirlenir; G–I eski planları korunur.
+- Lint/typecheck, 85 Vitest + 6 export testi ve 527/527 üretim build geçti. Yerel production tarayıcıda konum/dönem/menü/wiki/haritaya dön/geri akışı geçti; hata/uyarı yok. Eski arama URL yönlendirmesi ve seçili dönem doğrulandı. PRB-0019 çözüldü. Canlı yayın sonucu aşağıya eklenecek.
+
+
 Son güncelleme: 22 Eylül 2026, Europe/Berlin
 
 ## Güncel kabul — 22 Eylül 2026, Astra

@@ -2,7 +2,9 @@
 
 Luna, tamamlayamadığı işleri ve çözülmeden kalan problemleri burada bağlamıyla tutar. Kullanıcı ilgili kaydın **Astra'ya kopyalanacak paket** bölümünü manuel olarak Astra'ya iletir. Otomatik danışma yapılmaz.
 
-**Mevcut durum (22 Eylül 2026, Europe/Berlin):** D2 kabulü tamamlandı; PRB-0013 ve PRB-0014 `COZULDU`. Kanıt ve sınırlar `D2_KABUL_RAPORU.md` içinde. CPU PRB-0017 kullanıcı isteğiyle ertelendi; E'yi engellemiyor. E1–E3 yerel ve canlı kabulü tamamlandı. 78+6 test, lint/typecheck, build527/527; gerçek ID bağlantısı ve temiz V17; canlı metadata/25 dosya export'u başarılı. `cb6bb4b` GitHub main'e gönderildi, Vercel Production success ve üç canlı `/search` smoke kontrolü HTTP 200 verdi. E kapandı; sonraki aşama F.
+**En güncel durum:** PRB-0019 yerel üretim kabulüyle çözüldü; ayrıntısı dosya sonunda. F sonrası arama tek Dünya Arşivi yüzeyinde. Makale ara planı M hazır, uygulanmadı.
+
+**Tarihsel E kabulü (22 Eylül 2026, Europe/Berlin):** D2 kabulü tamamlandı; PRB-0013 ve PRB-0014 `COZULDU`. Kanıt ve sınırlar `D2_KABUL_RAPORU.md` içinde. CPU PRB-0017 kullanıcı isteğiyle ertelendi; E'yi engellemiyor. E1–E3 yerel ve canlı kabulü tamamlandı. 78+6 test, lint/typecheck, build527/527; gerçek ID bağlantısı ve temiz V17; canlı metadata/25 dosya export'u başarılı. `cb6bb4b` GitHub main'e gönderildi, Vercel Production success ve üç canlı `/search` smoke kontrolü HTTP 200 verdi. E kapandı; sonraki aşama F.
 
 **Tarihsel durum (21 Eylül 2026, Europe/Berlin):** PRB-0003, PRB-0009, PRB-0011, PRB-0012 ve PRB-0016 doğrulanarak çözüldü. Gerçek owner oturumunda inline kayıt/yeniden açma, yayın, yeniden düzenleme, rollback ve anonim medya kabulü geçti. NPC-0006 son canlı temizlikten sonra boş V15 yayınına döndü, draft yok; public sayfada test görseli yok. Kullanıcının seçtiği kanon dışı `deneme` görseli yüklenip reload sonrası doğrulandı, UI'den kaldırıldı ve boş V15 yayımlandı. Public sayfadaki geniş `deneme` eşleşmesi yalnızca kanonik “ritüel denemesi” cümlesidir; görsel/alt metin eşleşmesi yoktur. PRB-0014 hayalet taslak alt sorunu çözüldü; stale save canlıda hızlı PT409 verdi. Bu turda eşzamanlı save/publish başlatıldı; save başarılı olurken diğer sekme yerel metni koruyan çakışma durumuna geçti. Exact publish HTTP durumu tarayıcı UI'sinden görünmediği için doğrudan HTTP409 olarak raporlanmadı. Kullanıcının talimatıyla PRB-0017 CPU teşhisi ve tekrarlı canlı yarış/yük testleri rafa kaldırıldı. `pg_stat_statements` erişilebilir olduğu bildirildi ancak sonuç satırları Luna'ya görünmediği için belirli sorgu veya indeks tespit edilmedi. Lint/typecheck/64 test, enabled build526/526; PGlite23 ve bootstrap24 denetim başarılı. PRB-0013/0014 ve D2, kontrollü ağ gecikmesi, bağımsız publish HTTP kanıtı ve core reimport/export gibi kalan tam kabul maddeleri nedeniyle açık. Kanon ve önceden uygulanmış migration dosyaları bu tur değiştirilmedi. Yeni bootstrap paketi yalnızca yeni kurulum içindir. Commit/push/deploy yapılmadı.
 
@@ -44,6 +46,8 @@ Bu dosyada her kaydın en yeni tarihli Astra eki önceki teşhislerin önüne ge
 | PRB-0017 | Ücretsiz Supabase projesinde yüksek CPU uyarısı | D2/I | GIRDI_BEKLIYOR | 0 | Kullanıcı isteğiyle ertelendi; D2/E engeli değil | 21 Eylül 2026 |
 
 | PRB-0018 | Davet dönüş adresi yerel yapılandırmada şemasız | I | GIRDI_BEKLIYOR | 0 | Yeni editör daveti öncesi ortam doğrulaması; D2/E engeli değil | 22 Eylül 2026 |
+
+| PRB-0019 | Haritada istemci gezinmesi sekmeyi kilitliyor | F sonrası | COZULDU | 2 | Üretim tarayıcı kabulü ve regresyonlar geçti | 22 Eylül 2026 |
 
 Aşağıdaki şablon gerçek problem veya tamamlanmış iş değildir.
 
@@ -692,3 +696,22 @@ Luna için: Komut yalnızca başlangıç satırını yazıp uzun süre sessiz ka
 ESLint API uyumsuzluğunun resmi açıklaması: [ESLint 10 geçiş rehberi](https://eslint.org/docs/latest/use/migrate-to-10.0.0). Yerel eklentilerin peerDependencies kayıtları da ESLint 9 seçimini doğruladı. ESLint 9 destek sonu uyarısı takip edilmesi gereken bağımlılık bakımıdır; çalışan kuralları kapatma gerekçesi değildir.
 
 Son toplu doğrulama: `npm run check` çıkış 0; lint + typecheck + 14/14 test + 408/408 sayfa üretimi, toplam 18,86 saniye. Tarayıcı kabulü bu danışmada yapılmadı.
+
+
+### PRB-0019 — Haritada istemci gezinmesi sekmeyi kilitliyor
+
+- Durum: COZULDU
+- Tarih: 22 Eylül 2026, Europe/Berlin; aktif aşama F sonrası gezinme düzeltmesi.
+- Sürümler: Next 16.3.5, React 19.2.8, R3F 9.7.0, drei 10.7.8.
+- Yeniden üretim: canlı `/map` veya yerel `/map` aç → Dünya arşivi'ne normal tıkla. Sekme yanıt vermez. Direkt `/wiki` aç → Bölümler tıkla sorunsuz. Harita kamera zoom çalışır; router üzerinden dönem/konum değişimi kilitlenebilir.
+- Kanıt: CUA `Input.dispatchMouseEvent` zaman aşımı, ardından donmuş sekmede log okuma da CDP timeout. Yerel sunucu `/wiki` için 200 (1717 ms) verdi; sunucu yanıtı gelmesine rağmen sekme dondu. Bu bir Supabase CPU ölçümü değildir.
+- Dosyalar: `src/components/map/interactive-map.tsx`, R3F Canvas bağlam köprüsü, Next yönlendirme bağlamları.
+- Deneme 1: harita sınırında normal anchor, filtrelerde native history. Menü geçişi ve dönem değişimi geçti; haritaya dönüşten sonra Helvanar seçimi yeniden kilitlendi. Yetersiz; anchor geçici yaması kaldırıldı. Lint test kodunda children-prop uyarısı düzeltildi; typed URL hatası da ayrı derleme düzeltmesidir.
+- Deneme 2: Canvas ağacını ayrı DOM root içinde yalnızca açık prop/callback sözleşmesiyle kur; Next bağlamları otomatik köprülenmesin. Next Link menüsü korunur. Native history harita filtreleri için kalır. Tarayıcı kabulü ve regresyonlar bekleniyor.
+- Korunacaklar: R3F/Three/drei teknolojisi, kanon/ID'ler, dönem ve entity URL'leri, klavye kontrolleri ve kamera oturumu. Bootstrap/PT409/CPU testi yok.
+- Astra'ya kopyalanacak soru: Next 16.3.5 + R3F 9.7 Canvas açıkken istemci gezinmesi tarayıcıyı kilitliyor; aynı wiki sunucudan 200 geliyor ve direkt wiki→episodes geçişi çalışıyor. Native anchor kısmen düzeltti ama Canvas içi seçim yine kilitlendi. R3F Canvas `useBridge` ile üst Next bağlamlarını taşırken ayrı React root izolasyonu bunu çözebilir mi? İzolasyonun seçim, geri/ileri ve kaynak temizliği kabulleri geçmeden kaydı kapatma.
+
+- Son düzeltme/kabul: ayrı root izolasyonu donmayı giderdi; gerçek Next Link menüsü korundu. Hızlı geri dönüşte Canvas async kurulumunun `null.addEventListener` hatası, ref yerine sabit DOM eventSource verilerek giderildi. Bu, aynı izolasyon uygulamasının yaşam döngüsü düzeltmesidir.
+- Üretim kabulü: lint/typecheck, 85 Vitest + 6 export testi, 527/527 build geçti. Yerel production tarayıcıda Helvanar seçimi → 1673 → Dünya Arşivi → geri → tam wiki → Haritaya dön → panel kapat → Bölümler geçti. Son console error/warn listesi boş. Eski `/search?q=karapancar&type=SHIP&period=1600` arşive aynı filtrelerle yönlendi, Karapancar Gemisi ve seçili Günümüz doğrulandı.
+- Kaynak sınırı: Next yönlendirme ile Canvas bağlam köprüsü arasındaki uygulama etkileşimi izole edilerek çözüldü. Upstream kütüphanede belirli bir commit hatası kanıtlandı iddiası yok; sürüm düşürme veya node_modules yaması yapılmadı.
+- İlk plan: altı pilot ve 10'lu gruplarla tüm etkin varlıklar için kanıtlı Türkçe makale taslağı; `LUNA_MAKALE_PLANI.md`. Bu tur makale üretimi/yayın yok.

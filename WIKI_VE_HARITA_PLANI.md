@@ -1,5 +1,8 @@
 # Türkçe wiki ve güncellenebilir harita — kesinleştirilen kapsam
 
+**22 Eylül 2026 güncel ek:** Arama tek yüzey olarak Dünya Arşivi'nde bulunur; ayrı Ara sayfası kurulmaz. Varlıkların mevcut sayfalarına kaynaklara dayalı makale hazırlama ara aşaması `LUNA_MAKALE_PLANI.md` içinde tanımlıdır. Bu belge makale üretim/yayın kabulü yerine geçmez.
+
+
 15 Eylül 2026. Bu belge [ana uygulama planının](/Users/arascoban/Desktop/Ejder/IMPLEMENTATION_PLAN.md) parçasıdır. Şu an yalnızca plan güncellenmiştir; uygulama, harita çizimi ve bulut kurulumu başlamamıştır. Mevcut kaynaklar ve `/data` değiştirilmez.
 
 Uygulayıcı GPT-5.6 Luna / Max olacaktır. Okuma sırası ve küçük uygulama adımları [LUNA_UYGULAMA_REHBERI.md](/Users/arascoban/Desktop/Ejder/LUNA_UYGULAMA_REHBERI.md), sürekli çalışma kuralları [AGENTS.md](/Users/arascoban/Desktop/Ejder/AGENTS.md) içindedir. Teknik belirsizlikler, tamamlanamayan işler ve çözülemeyen problemler bağlamlarıyla [ASTRA_SORUN_KAYITLARI.md](/Users/arascoban/Desktop/Ejder/ASTRA_SORUN_KAYITLARI.md) dosyasına kaydedilir. Aynı problemin ikinci başarısız düzeltmesinden sonra üçüncü tahmini yama yapılmaz; kullanıcı kaydı manuel olarak Astra'ya iletir. Otomatik danışma yapılmaz; proje Luna'da kalır. Bu ekleme uygulamayı başlatmaz.

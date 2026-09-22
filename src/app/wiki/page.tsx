@@ -6,7 +6,7 @@ import { getAllEntitySummaries } from "@/lib/data/repository";
 import { getPublishedEditorialSearchText } from "@/lib/editorial/repository";
 import { filterEntitySummaries } from "@/lib/domain/search";
 import { ENTITY_TYPES, type EntityType } from "@/lib/domain/types";
-import { entityTypeLabel, PERIOD_OPTIONS, periodFromUrl } from "@/lib/domain/labels";
+import { entityTypeLabel, PERIOD_OPTIONS, periodFromUrl, periodUrlToken } from "@/lib/domain/labels";
 
 export const metadata: Metadata = { title: "Dünya arşivi" };
 
@@ -23,7 +23,7 @@ export default async function WikiDirectory({ searchParams }: WikiDirectoryProps
   const requestedPeriod = periodFromUrl(parameters.period);
   const [summaries, editorialTextByEntity] = await Promise.all([
     getAllEntitySummaries(),
-    getPublishedEditorialSearchText(),
+    query ? getPublishedEditorialSearchText() : Promise.resolve(new Map<string, string>()),
   ]);
   const entities = filterEntitySummaries(summaries, {
     query,
@@ -44,7 +44,7 @@ export default async function WikiDirectory({ searchParams }: WikiDirectoryProps
       <form className="directory-controls" action="/wiki" role="search">
         <label>
           <span>Arşivde ara</span>
-          <input name="q" type="search" defaultValue={query} placeholder="Ad, takma ad veya sabit kimlik" />
+          <input name="q" type="search" defaultValue={query} placeholder="Ad, diğer adlar, kimlik veya makale metni" />
         </label>
         <label>
           <span>Tür</span>
@@ -55,7 +55,7 @@ export default async function WikiDirectory({ searchParams }: WikiDirectoryProps
         </label>
         <label>
           <span>Dönem</span>
-          <select name="period" defaultValue={requestedPeriod ?? ""}>
+          <select name="period" defaultValue={requestedPeriod ? periodUrlToken(requestedPeriod) : ""}>
             <option value="">Bütün dönemler</option>
             {PERIOD_OPTIONS.map((option) => <option key={option.value} value={option.urlToken}>{option.label}</option>)}
           </select>

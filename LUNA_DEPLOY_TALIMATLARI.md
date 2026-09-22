@@ -1,5 +1,16 @@
 # Astra → Luna: ilk kurulum ve yayın
 
+## En güncel Astra devri — 22 Eylül 2026, gezinme ve makale ara aşaması
+
+Bu bölüm aşağıdaki tarihsel G'ye-geç yönergelerinden önceliklidir. Son kullanıcı isteği menü donmasını düzeltmek, aramayı Dünya Arşivi'nde birleştirmek ve tüm varlıklar için makale planı hazırlamaktır.
+
+- PRB-0019: R3F Canvas, `IsolatedScene` içinde Next yönlendirme bağlamından ayrılır. Sahne verileri/callback'leri açık prop olarak geçer. Bu sınırın içine `useRouter/useSearchParams/Link` ekleme; sayfa linkleri dıştaki DOM ağacında kalır. Menüde normal Next Link gezinmesi korunur; tam sayfa anchor geçici denemesi kaldırıldı.
+- Harita seçim/dönem URL'si native history ile değişir; sunucuya gereksiz RSC isteği yapılmaz. Geri/ileri, konum seçimi, dönem ve harita→wiki→harita kabulü yeni harita değişikliğinde tekrarlanır. Canvas `eventSource` gerçek DOM elemanıdır; gecikmeli yapılandırma sırasında null olabilen ref ile değiştirme.
+- Ayrı Ara menüsü/sayfası yok. `/wiki` sorgu, tür ve dönem filtrelerinin tek yüzeyi. Eski `/search` URL'leri query/filter kaybetmeden yönlenir. Sorgusuz arşiv Supabase'i beklemez; isteğe bağlı yayımlanmış makale araması ortak üç saniyelik süre sınırına sahiptir.
+- Sıradaki planlı ara iş **M: kaynaklara dayalı varlık makaleleri**. Uygulama yetkisi verildiğinde `LUNA_MAKALE_PLANI.md` içindeki M1→M4 sırasını izle. Bu tur yalnızca planlandı; makale üretildi veya yayımlandı sayma. Pilot kabulü olmadan tüm veritabanını topluca yazma. M, G/H/I'nin yerine geçmez.
+- Kanon/ID'lere, eski migration'lara ve D2 kabulüne dokunma. CPU PRB-0017 ertelenmiş, davet işletim kabulü PRB-0018 I kapsamındadır.
+
+
 ## Güncel Astra yönergesi — 22 Eylül 2026
 
 **D2 tamamlandı; E1–E3 ve F canlıda tamamlandı, sıradaki özellik G.** `D2_KABUL_RAPORU.md` kabul matrisi bu dosyanın daha eski açık-test talimatlarının önündedir. PRB-0013/0014 çözüldü. CPU konusu PRB-0017 kullanıcı isteğiyle ertelendi; yeniden ölçüm veya yük testi başlatma. PT409 migration ve bootstrap'ı canlıda tekrar çalıştırma. Owner/secret onayını yeniden isteme.

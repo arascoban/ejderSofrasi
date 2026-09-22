@@ -14,7 +14,7 @@ import {
 } from "react";
 import Link from "next/link";
 import type { Route } from "next";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { Canvas, useThree } from "@react-three/fiber";
 import { CameraControls, Html } from "@react-three/drei";
 import CameraControlsImpl from "camera-controls";
@@ -22,6 +22,7 @@ import { Box3, DoubleSide, OrthographicCamera, Shape, ShapeGeometry, Vector3 } f
 
 import { periodLabel, periodLabels, relationLabel } from "@/lib/domain/labels";
 import type { MapInventoryRelease, MapLandform, MapLocationMarker } from "@/lib/presentation/contracts";
+import { IsolatedScene } from "./isolated-scene";
 
 type AtlasView = "inventory" | "silver-god-1673" | "present";
 
@@ -312,7 +313,6 @@ function EntityPreviewPanel({
 }
 
 export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
-  const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const era = searchParams.get("era");
@@ -362,8 +362,13 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
       else next.delete("entity");
     }
     const query = next.toString();
-    router.push((query ? `${pathname}?${query}` : pathname) as Route, { scroll: false });
-  }, [pathname, router, searchParams]);
+    // These filters only affect the client scene. Avoid an RSC navigation and
+    // its transition across the separate WebGL renderer; Back/Forward still work.
+    const href = query ? `${pathname}?${query}` : pathname;
+    if (href !== `${window.location.pathname}${window.location.search}`) {
+      window.history.pushState(null, "", href);
+    }
+  }, [pathname, searchParams]);
 
   const selectMarker = useCallback((entityId: string) => {
     lastTriggerId.current = entityId;
@@ -432,7 +437,7 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
       <section className="atlas-stage" aria-labelledby="atlas-stage-title">
         <div className="atlas-toolbar">
           <div>
-            <p className="eyebrow">F aşaması · dönem görünümü ve önizleme</p>
+            <p className="eyebrow">Dünyayı keşfet</p>
             <h1 id="atlas-stage-title">{release.label}</h1>
           </div>
           <div className="era-switch" aria-label="Harita görünümü">
@@ -458,9 +463,10 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
           {webgl === "checking" && <MapFallback message="Harita yüzeyi hazırlanıyor…" />}
           {webgl === "unavailable" && <MapFallback message="WebGL kullanılamıyor. Konum listesi kullanılabilir durumda." />}
           {webgl === "available" && (
-            <MapErrorBoundary>
+            <IsolatedScene renderScene={(eventSource) => <MapErrorBoundary>
               <Canvas
                 key={view}
+                eventSource={eventSource}
                 orthographic
                 frameloop="demand"
                 dpr={[1, 1.6]}
@@ -476,7 +482,7 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
                   onCameraSettled={saveCamera}
                 />
               </Canvas>
-            </MapErrorBoundary>
+            </MapErrorBoundary>} />
           )}
           <div className="camera-controls" aria-label="Harita kamera kontrolleri">
             <button type="button" onClick={() => camera?.zoomIn()} aria-label="Yakınlaştır">+</button>

@@ -119,19 +119,23 @@ export async function getPublishedEditorialSearchText(): Promise<ReadonlyMap<str
   if (!config || !isEditorialEnabled()) return new Map();
 
   try {
+    // One deadline covers both reads; optional editorial search must not
+    // leave a public archive request waiting indefinitely.
+    const signal = AbortSignal.timeout(3000);
     const supabase = createClient(config.url, config.publishableKey, {
       auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false },
     });
     const articles = await supabase
       .from("wiki_articles")
       .select("entity_id, published_revision_id")
-      .not("published_revision_id", "is", null);
+      .not("published_revision_id", "is", null)
+      .abortSignal(signal);
     if (articles.error) return new Map();
     const revisionIds = (articles.data ?? [])
       .map((row) => typeof row.published_revision_id === "string" ? row.published_revision_id : null)
       .filter((id): id is string => Boolean(id));
     if (!revisionIds.length) return new Map();
-    const revisions = await supabase.from("wiki_revisions").select("revision_id, document").in("revision_id", revisionIds);
+    const revisions = await supabase.from("wiki_revisions").select("revision_id, document").in("revision_id", revisionIds).abortSignal(signal);
     if (revisions.error) return new Map();
     const documents = new Map((revisions.data ?? []).map((row) => [String(row.revision_id), documentText(row.document)]));
     return new Map((articles.data ?? []).flatMap((row) => {
