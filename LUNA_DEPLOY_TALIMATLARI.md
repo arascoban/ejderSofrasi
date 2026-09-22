@@ -4,6 +4,8 @@
 
 **D2 tamamlandı; E1–E3 canlıda tamamlandı, sıradaki özellik F.** `D2_KABUL_RAPORU.md` kabul matrisi bu dosyanın daha eski açık-test talimatlarının önündedir. PRB-0013/0014 çözüldü. CPU konusu PRB-0017 kullanıcı isteğiyle ertelendi; yeniden ölçüm veya yük testi başlatma. PT409 migration ve bootstrap'ı canlıda tekrar çalıştırma. Owner/secret onayını yeniden isteme.
 
+**Dönem etiketi kararı:** Ziyaretçi arayüzünde eski dönem adları kullanılmayacak. `1600 civarı` kaynak anahtarı **Günümüz**, `1300 civarı` kaynak anahtarı **Gümüş Tanrısının 1673 yılı** olarak gösterilir. Bu anahtarlar mevcut veri, makale ve eski URL uyumluluğu için saklanır; F dönem geçişi yeni Türkçe etiketlerle kabul edilir.
+
 1. AGENTS.md, güncel durum ve kabul raporunu oku; mevcut staged/unstaged değişiklikleri koru. Kanonu/ID'leri frontend için değiştirme. Yeni bir hata yoksa D2 test içeriğini yeniden yaratma; canlı NPC-0006 temiz V17, geçmiş revizyonlar/özel dosyalar korunuyor.
 2. `81e63d0` için GitHub push, Vercel Production success ve `https://ejder-map.vercel.app` HTTPS smoke tamamlandı. Yeni değişikliklerde doğru commit için Vercel success ve HTTPS smoke doğrula. İşletim erişimi engeli varsa PRB kaydına bağlamı ekle; yerel D2 kabulünü başarısız sayma ve deploy olmuş gibi raporlama.
 3. **E1:** Merkezi depodan Türkçe/ASCII arama eşleştirmesini genişlet: kanonik ad, alias, sabit/eski ID ve eski slug. Aynı alias birden fazla kimliğe aitse tüm sonuçları koru. Akmer, Pastırman, Helvanar, Çöl Şehri/col sehri, Karapancar kabul örnekleridir. Sonuçlar mevcut canonical route çözümleyicisini kullansın.

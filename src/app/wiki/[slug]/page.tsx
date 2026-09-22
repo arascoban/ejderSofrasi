@@ -7,7 +7,7 @@ import { MapReturnLink } from "@/components/map-return-link";
 import { WikiArticle } from "@/components/wiki-article";
 import { getAllEntitySummaries, getEntityById, getEntityBySlug, getEntityEraState } from "@/lib/data/repository";
 import { getEntityPage } from "@/lib/domain/entity-page";
-import { confidenceLabel, entityTypeLabel, incomingRelationLabel, relationLabel, temporalBasisLabel } from "@/lib/domain/labels";
+import { confidenceLabel, entityTypeLabel, incomingRelationLabel, periodLabel, periodLabels, relationLabel, temporalBasisLabel } from "@/lib/domain/labels";
 import type { Fact, Period, Relationship } from "@/lib/domain/types";
 import { getPublishedEditorialContent } from "@/lib/editorial/repository";
 import { entityHref, episodeHref } from "@/lib/routing/entity";
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: EntityPageProps): Promise<Met
 
 function factPeriods(fact: Fact): string {
   const periods = [...new Set(fact.assertions.map((assertion) => assertion.period).filter(Boolean))] as Period[];
-  return periods.length ? periods.join(" · ") : "Dönemi belirtilmemiş";
+  return periodLabels(periods);
 }
 
 async function RelationItem({ relationship, direction }: { relationship: Relationship; direction: "incoming" | "outgoing" }) {
@@ -50,7 +50,7 @@ async function RelationItem({ relationship, direction }: { relationship: Relatio
     <li>
       <span>{direction === "outgoing" ? relationLabel(relationship.relation) : incomingRelationLabel(relationship.relation)}</span>
       <Link href={entityHref(related.slug)}>{related.name}</Link>
-      <small>{relationship.period ?? "Dönemi belirtilmemiş"} · {relationship.episodes.join(", ") || "Bölüm belirtilmemiş"}</small>
+      <small>{periodLabel(relationship.period)} · {relationship.episodes.join(", ") || "Bölüm belirtilmemiş"}</small>
       <details className="evidence-details relation-evidence">
         <summary>İlişki kanıtı</summary>
         {relationship.assertions.map((assertion, index) => (
@@ -109,7 +109,7 @@ export default async function EntityWikiPage({ params }: EntityPageProps) {
         <div className="era-grid">
           {eraStates.map(({ period, result }) => (
             <article key={period} data-state={result.state}>
-              <strong>{period}</strong>
+              <strong>{periodLabel(period)}</strong>
               <span>{ERA_STATE_LABELS[result.state]}</span>
             </article>
           ))}
@@ -130,7 +130,7 @@ export default async function EntityWikiPage({ params }: EntityPageProps) {
           <div className="section-heading">
             <p className="eyebrow">Tarihsel konumu bilinmiyor</p>
             <h2 id="tarihsiz-olgular">Dönemi belirtilmemiş bilgiler</h2>
-            <p>Bu kayıtlar 1300 ve 1600 görünümlerine otomatik olarak aktarılmaz.</p>
+            <p>Bu kayıtlar Günümüz ve Gümüş Tanrısının 1673 yılı görünümlerine otomatik olarak aktarılmaz.</p>
           </div>
           <ul className="fact-list">
             {undatedFacts.map((fact) => <FactItem key={fact.id} fact={fact} />)}
@@ -188,7 +188,7 @@ function FactItem({ fact }: { fact: Fact }) {
         <ul>
           {fact.assertions.map((assertion, index) => (
             <li key={`${fact.id}-${index}`}>
-              <strong>{assertion.period ?? "Dönemi belirtilmemiş"}</strong>
+              <strong>{periodLabel(assertion.period)}</strong>
               <span>{temporalBasisLabel(assertion.temporal_basis)} · {confidenceLabel(assertion.confidence)}</span>
               <span>{assertion.source_refs.map((source) => source.source_id).join(" · ")}</span>
             </li>

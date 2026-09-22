@@ -5,8 +5,8 @@ import { EntityCard } from "@/components/entity-card";
 import { getAllEntitySummaries } from "@/lib/data/repository";
 import { getPublishedEditorialSearchText } from "@/lib/editorial/repository";
 import { filterEntitySummaries } from "@/lib/domain/search";
-import { ENTITY_TYPES, type EntityType, type Period } from "@/lib/domain/types";
-import { entityTypeLabel } from "@/lib/domain/labels";
+import { ENTITY_TYPES, type EntityType } from "@/lib/domain/types";
+import { entityTypeLabel, PERIOD_OPTIONS, periodFromUrl } from "@/lib/domain/labels";
 
 export const metadata: Metadata = { title: "Dünya arşivi" };
 
@@ -20,9 +20,7 @@ export default async function WikiDirectory({ searchParams }: WikiDirectoryProps
   const requestedType = ENTITY_TYPES.includes(parameters.type as EntityType)
     ? (parameters.type as EntityType)
     : null;
-  const requestedPeriod = (["1300 civarı", "1600 civarı"] as const).includes(parameters.period as Period)
-    ? (parameters.period as Period)
-    : null;
+  const requestedPeriod = periodFromUrl(parameters.period);
   const [summaries, editorialTextByEntity] = await Promise.all([
     getAllEntitySummaries(),
     getPublishedEditorialSearchText(),
@@ -59,8 +57,7 @@ export default async function WikiDirectory({ searchParams }: WikiDirectoryProps
           <span>Dönem</span>
           <select name="period" defaultValue={requestedPeriod ?? ""}>
             <option value="">Bütün dönemler</option>
-            <option value="1300 civarı">1300 civarı</option>
-            <option value="1600 civarı">1600 civarı</option>
+            {PERIOD_OPTIONS.map((option) => <option key={option.value} value={option.urlToken}>{option.label}</option>)}
           </select>
         </label>
         <button className="button button--primary" type="submit">Göster</button>

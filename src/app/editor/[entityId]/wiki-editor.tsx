@@ -6,6 +6,7 @@ import { EditorContent, useEditor } from "@tiptap/react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { EntitySummary, Period } from "@/lib/domain/types";
+import { PERIOD_OPTIONS } from "@/lib/domain/labels";
 import type { EditorArticleState, EditorialActionResult, EditorRevisionSummary } from "@/lib/editorial/editor-state";
 import { MAX_MEDIA_BYTES } from "@/lib/editorial/media-limits";
 import { SaveCoordinator, type SaveCoordinatorResult, type SaveCoordinatorResponse } from "@/lib/editorial/save-coordinator";
@@ -341,8 +342,7 @@ export function WikiEditor({
           <span>Dönem kapsamı</span>
           <select value={period} onChange={(event) => { const next = event.target.value as Period | ""; editSequence.current += 1; periodRef.current = next; setPeriod(next); setStatus(conflictRef.current ? "conflict" : "dirty"); }}>
             <option value="">Dönemi belirtilmemiş</option>
-            <option value="1300 civarı">1300 civarı</option>
-            <option value="1600 civarı">1600 civarı</option>
+            {PERIOD_OPTIONS.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}
           </select>
         </label>
         <label>

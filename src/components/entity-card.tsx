@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { entityTypeLabel } from "@/lib/domain/labels";
+import { entityTypeLabel, periodLabels } from "@/lib/domain/labels";
 import type { EntitySummary } from "@/lib/domain/types";
 import { entityHref } from "@/lib/routing/entity";
 
@@ -14,7 +14,7 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
       <h2>
         <Link href={entityHref(entity.slug)}>{entity.name}</Link>
       </h2>
-      <p>{entity.periods.length ? entity.periods.join(" · ") : "Dönemi belirtilmemiş"}</p>
+      <p>{periodLabels(entity.periods)}</p>
       <Link className="text-link" href={entityHref(entity.slug)}>
         Kaydı incele <span aria-hidden="true">→</span>
       </Link>

@@ -1,4 +1,36 @@
-import type { Confidence, EntityType } from "./types";
+import type { Confidence, EntityType, Period, PeriodUrlToken } from "./types";
+
+/**
+ * The source database keeps its reviewed legacy period keys. These labels are
+ * the only visitor-facing names, so existing imports and revisions stay valid.
+ */
+export const PERIOD_OPTIONS: readonly { value: Period; urlToken: PeriodUrlToken; label: string }[] = [
+  { value: "1600 civarı", urlToken: "present", label: "Günümüz" },
+  { value: "1300 civarı", urlToken: "silver-god-1673", label: "Gümüş Tanrısının 1673 yılı" },
+];
+
+const PERIOD_LABELS: Record<Period, string> = Object.fromEntries(
+  PERIOD_OPTIONS.map((option) => [option.value, option.label]),
+) as Record<Period, string>;
+
+export function periodLabel(period: Period | null | undefined): string {
+  return period ? PERIOD_LABELS[period] : "Dönemi belirtilmemiş";
+}
+
+export function periodLabels(periods: readonly Period[]): string {
+  return periods.length ? periods.map((period) => periodLabel(period)).join(" · ") : "Dönemi belirtilmemiş";
+}
+
+/** Accept old shared URLs while writing only the new public tokens. */
+export function periodFromUrl(value: string | null | undefined): Period | null {
+  if (value === "present" || value === "1600" || value === "1600 civarı") return "1600 civarı";
+  if (value === "silver-god-1673" || value === "1300" || value === "1300 civarı") return "1300 civarı";
+  return null;
+}
+
+export function periodUrlToken(period: Period): PeriodUrlToken {
+  return PERIOD_OPTIONS.find((option) => option.value === period)?.urlToken ?? "present";
+}
 
 export const ENTITY_TYPE_LABELS: Record<EntityType, string> = {
   PERSON: "Kişi",

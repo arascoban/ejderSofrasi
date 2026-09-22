@@ -10,7 +10,8 @@ export function MapReturnLink() {
   const mapQuery = new URLSearchParams();
   const era = query.get("era");
   const entity = query.get("entity");
-  if (era === "1300" || era === "1600") mapQuery.set("era", era);
+  if (era === "1300" || era === "silver-god-1673") mapQuery.set("era", "silver-god-1673");
+  if (era === "1600" || era === "present") mapQuery.set("era", "present");
   if (entity && /^[A-Z]{3}-[0-9]{4,}$/.test(entity)) mapQuery.set("entity", entity);
   const href = `/map${mapQuery.size ? `?${mapQuery.toString()}` : ""}` as Route;
   return <Link className="breadcrumb__return" href={href}>Haritaya dön</Link>;

@@ -1,4 +1,6 @@
 export type Period = "1300 civarı" | "1600 civarı";
+/** Stable URL tokens for the visitor-facing period selector. */
+export type PeriodUrlToken = "silver-god-1673" | "present";
 export type Confidence = "canon_name_only" | "source_supported" | "disputed";
 
 export const ENTITY_TYPES = [

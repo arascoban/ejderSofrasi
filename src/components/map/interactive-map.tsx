@@ -20,10 +20,10 @@ import { CameraControls, Html } from "@react-three/drei";
 import CameraControlsImpl from "camera-controls";
 import { Box3, DoubleSide, OrthographicCamera, Shape, ShapeGeometry, Vector3 } from "three";
 
-import { relationLabel } from "@/lib/domain/labels";
+import { periodLabel, periodLabels, relationLabel } from "@/lib/domain/labels";
 import type { MapInventoryRelease, MapLandform, MapLocationMarker } from "@/lib/presentation/contracts";
 
-type AtlasView = "inventory" | "1300" | "1600";
+type AtlasView = "inventory" | "silver-god-1673" | "present";
 
 interface CameraAdapter {
   pan: (horizontal: number, vertical: number) => void;
@@ -85,7 +85,7 @@ function LandformMesh({ landform }: { landform: MapLandform }) {
       <Html position={[landform.worldCenter[0], 0.7, landform.worldCenter[1]]} center zIndexRange={[20, 0]}>
         <div className="landform-label" aria-hidden="true">
           <strong>{landform.name}</strong>
-          <span>{landform.periodStatus === "unknown" ? "Dönemi bilinmiyor" : landform.periods.join(" · ")}</span>
+          <span>{landform.periodStatus === "unknown" ? "Dönemi bilinmiyor" : periodLabels(landform.periods)}</span>
         </div>
       </Html>
     </group>
@@ -256,7 +256,7 @@ function EntityPreviewPanel({
       </div>
       {!visibleInEra && <p className="preview-era-note">Bu konum seçili dönem görünümünde haritada gösterilmiyor.</p>}
       <dl className="preview-facts">
-        <div><dt>Dönem</dt><dd>{preview.periods.length ? preview.periods.join(" · ") : "Belirtilmemiş"}</dd></div>
+        <div><dt>Dönem</dt><dd>{periodLabels(preview.periods)}</dd></div>
         {preview.aliases.length > 0 && <div><dt>Diğer adları</dt><dd>{preview.aliases.join(" · ")}</dd></div>}
         {preview.context.map((item) => (
           <div key={`${item.relation}-${item.id}`}>
@@ -296,7 +296,11 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const era = searchParams.get("era");
-  const view: AtlasView = era === "1300" || era === "1600" ? era : "inventory";
+  const view: AtlasView = era === "silver-god-1673" || era === "1300"
+    ? "silver-god-1673"
+    : era === "present" || era === "1600"
+      ? "present"
+      : "inventory";
   const selectedEntityId = searchParams.get("entity");
   const selectedMarker = release.markers.find((marker) => marker.entityId === selectedEntityId) ?? null;
   const previousSelectedId = useRef<string | null>(selectedEntityId);
@@ -364,12 +368,12 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
 
   const visibleLandforms = useMemo(() => {
     if (view === "inventory") return release.landforms;
-    const period = view === "1300" ? "1300 civarı" : "1600 civarı";
+    const period = view === "silver-god-1673" ? "1300 civarı" : "1600 civarı";
     return release.landforms.filter((landform) => landform.periods.includes(period));
   }, [release.landforms, view]);
   const visibleMarkers = useMemo(() => {
     if (view === "inventory") return release.markers;
-    const period = view === "1300" ? "1300 civarı" : "1600 civarı";
+    const period = view === "silver-god-1673" ? "1300 civarı" : "1600 civarı";
     return release.markers.filter((marker) => marker.periods.includes(period));
   }, [release.markers, view]);
   const selectedVisible = selectedMarker ? visibleMarkers.some((marker) => marker.entityId === selectedMarker.entityId) : false;
@@ -405,7 +409,7 @@ export function InteractiveMap({ release }: { release: MapInventoryRelease }) {
             <h1 id="atlas-stage-title">{release.label}</h1>
           </div>
           <div className="era-switch" aria-label="Harita görünümü">
-            {([ ["inventory", "Envanter"], ["1300", "1300"], ["1600", "1600"] ] as const).map(([value, label]) => (
+            {([ ["inventory", "Envanter"], ["present", periodLabel("1600 civarı")], ["silver-god-1673", periodLabel("1300 civarı")] ] as const).map(([value, label]) => (
               <button key={value} type="button" aria-pressed={view === value} onClick={() => updateRoute({ era: value })}>{label}</button>
             ))}
           </div>

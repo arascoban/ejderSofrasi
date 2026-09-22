@@ -4,9 +4,9 @@ import Link from "next/link";
 import { EntityCard } from "@/components/entity-card";
 import { getAllEntitySummaries } from "@/lib/data/repository";
 import { getPublishedEditorialSearchText } from "@/lib/editorial/repository";
-import { entityTypeLabel } from "@/lib/domain/labels";
+import { entityTypeLabel, PERIOD_OPTIONS, periodFromUrl } from "@/lib/domain/labels";
 import { filterEntitySummaries } from "@/lib/domain/search";
-import { ENTITY_TYPES, type EntityType, type Period } from "@/lib/domain/types";
+import { ENTITY_TYPES, type EntityType } from "@/lib/domain/types";
 
 export const metadata: Metadata = { title: "Global arama" };
 
@@ -18,9 +18,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const parameters = await searchParams;
   const query = (parameters.q ?? "").trim();
   const type = ENTITY_TYPES.includes(parameters.type as EntityType) ? parameters.type as EntityType : null;
-  const period = (["1300 civarı", "1600 civarı"] as const).includes(parameters.period as Period)
-    ? parameters.period as Period
-    : null;
+  const period = periodFromUrl(parameters.period);
   const [summaries, editorialTextByEntity] = await Promise.all([
     getAllEntitySummaries(),
     getPublishedEditorialSearchText(),
@@ -50,8 +48,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           <span>Dönem</span>
           <select name="period" defaultValue={period ?? ""}>
             <option value="">Bütün dönemler</option>
-            <option value="1300 civarı">1300 civarı</option>
-            <option value="1600 civarı">1600 civarı</option>
+            {PERIOD_OPTIONS.map((option) => <option key={option.value} value={option.urlToken}>{option.label}</option>)}
           </select>
         </label>
         <button className="button button--primary" type="submit">Ara</button>

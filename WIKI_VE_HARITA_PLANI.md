@@ -17,7 +17,7 @@ Site bütünüyle Türkçe olacak. Ziyaretçi haritada gezinebilecek, bir konumu
 | Kalıcı içerik | Supabase PostgreSQL, Auth ve Storage; düzenleme aşaması D2'de devreye girer. |
 | Okuma | Herkese açık; okumak veya haritayı kullanmak için hesap gerekmez. |
 | Düzenleme | Planlama varsayımı: yalnızca sahibi ve davet ettiği editörler. Bu konuda sorulan tercihin yanıtı gelirse yetki kapsamı ona göre güncellenir. |
-| Dönemler | 1300 ve 1600 civarı aynı dünyanın iki tarihsel bağlamıdır. Bilinmeyen dönem, ikisinde de var olma anlamına gelmez. |
+| Dönemler | Ziyaretçiye **Günümüz** ve **Gümüş Tanrısının 1673 yılı** olarak gösterilen iki bağlam aynı dünyaya aittir. Bilinmeyen dönem, ikisinde de var olma anlamına gelmez. Kaynak anahtarları geriye dönük uyumluluk için korunur. |
 
 Teknik enum ve ID'ler İngilizce kalabilir; ziyaretçiye `PERSON` yerine “Kişi”, `UNKNOWN` yerine bağlama uygun Türkçe açıklama gösterilir. İlk sürümde çok dilli içerik yönetimi gerekmez; makale dil alanı `tr` olur.
 

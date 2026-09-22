@@ -1,6 +1,6 @@
 # Master world database
 
-This is the local, versioned data foundation for the Ejder Sofrası map and wiki. It contains MAIN_TIMELINE only. Circa 1300 and circa 1600 describe different periods of the same world.
+This is the local, versioned data foundation for the Ejder Sofrası map and wiki. It contains MAIN_TIMELINE only. The visitor-facing labels are **Günümüz** and **Gümüş Tanrısının 1673 yılı**, describing different periods of the same world. Existing `1300 civarı` and `1600 civarı` values remain storage/source keys for backward compatibility and are translated by the application layer.
 
 The original 25 episode JSON documents and six canon name lists remain unchanged. Source filenames end in `.md`, but episode file contents are JSON. Canon files are plain-text lists, not additional episode extractions.
 

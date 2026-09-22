@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { getAllEpisodes } from "@/lib/data/repository";
+import { periodLabels } from "@/lib/domain/labels";
 import { episodeHref } from "@/lib/routing/entity";
 
 export const metadata: Metadata = { title: "Bölümler" };
@@ -22,7 +23,7 @@ export default async function EpisodesPage() {
               <span className="episode-directory__id">{episode.id}</span>
               <strong>{episode.title}</strong>
               <small>
-                {episode.narrative_periods.length ? episode.narrative_periods.join(" · ") : "Anlatı dönemi belirtilmemiş"}
+                {episode.narrative_periods.length ? periodLabels(episode.narrative_periods) : "Anlatı dönemi belirtilmemiş"}
                 {` · ${episode.timeline_event_ids.length} olay · ${episode.travel_ids.length} seyahat`}
               </small>
             </Link>

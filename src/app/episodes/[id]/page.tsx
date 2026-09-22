@@ -11,7 +11,7 @@ import {
   getEpisodeTravel,
   getFactById,
 } from "@/lib/data/repository";
-import { entityTypeLabel } from "@/lib/domain/labels";
+import { entityTypeLabel, periodLabel, periodLabels } from "@/lib/domain/labels";
 import type { Entity, TimelineEventStatus, TravelPlace, TravelRecord } from "@/lib/domain/types";
 import { entityHref, episodeHref, loreHref } from "@/lib/routing/entity";
 
@@ -93,7 +93,7 @@ export default async function EpisodeDetailPage({ params }: EpisodePageProps) {
         </div>
         <dl className="entity-infobox">
           <div><dt>Bölüm</dt><dd>{episode.id}</dd></div>
-          <div><dt>Anlatı dönemi</dt><dd>{episode.narrative_periods.join(" · ") || "Belirtilmemiş"}</dd></div>
+          <div><dt>Anlatı dönemi</dt><dd>{periodLabels(episode.narrative_periods)}</dd></div>
           <div><dt>Önemli olay</dt><dd>{events.length}</dd></div>
           <div><dt>Seyahat kaydı</dt><dd>{travels.length}</dd></div>
         </dl>
@@ -107,7 +107,7 @@ export default async function EpisodeDetailPage({ params }: EpisodePageProps) {
               const [summary, eventEntity] = await Promise.all([getFactById(event.summary_fact_id), getEntityById(event.event_id)]);
               return (
                 <article key={event.event_id}>
-                  <p className="record-kicker">{EVENT_STATUS_LABELS[event.event_status]} · {event.period ?? "Dönemi belirtilmemiş"}</p>
+                  <p className="record-kicker">{EVENT_STATUS_LABELS[event.event_status]} · {periodLabel(event.period)}</p>
                   <h3>{eventEntity ? <Link href={entityHref(eventEntity.slug)}>{event.title}</Link> : event.title}</h3>
                   {summary && <p>{summary.text}</p>}
                   {event.participant_ids.length > 0 && <div><strong>Katılımcılar</strong><EntityLinks ids={event.participant_ids} /></div>}
